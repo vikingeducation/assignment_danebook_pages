@@ -1,11 +1,17 @@
 /* styles.scss */
 /* VARIABLES */
-$danish-flag:#3B5998;
+$danebook-blue:#3B5998;
+
+/* UNVERSAL STYLES */
+
+body {
+	padding-top:50px;
+}
 
 /* NAVBAR STYLES */
 .top-navbar {
-	background-color: $danish-flag;
-	border: $danish-flag;
+	background-color: $danebook-blue;
+	border: $danebook-blue;
 	height: 70px;
 }
 .navbar-header{
@@ -24,8 +30,8 @@ $danish-flag:#3B5998;
 
 .nav-responsive-wrapper {
 	display:inline-block;
-	background-color: $danish-flag;
-	border: $danish-flag;
+	background-color: $danebook-blue;
+	border: $danebook-blue;
 	.navbar-form {
 		margin-top:15px;
 		width: 60%;
@@ -43,6 +49,20 @@ $danish-flag:#3B5998;
 	display:inline-block;
 }
 
+/* COVER PHOTO BLOCK STYLES */
 
+.cover-profile-block {
+	width:100%;
+	height: 500px;
+	border: 1px solid #000;
+	.cover-photo {
+		height: 450px;
+	}
+}
+
+
+	.menu-item {
+		border: 1px solid #000;
+	}
 
 
