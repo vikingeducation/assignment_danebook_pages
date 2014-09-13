@@ -1,0 +1,35 @@
+/* styles.scss */
+/* VARIABLES */
+$danish-flag:#3B5998;
+
+/* NAVBAR STYLES */
+.top-navbar {
+	background-color: $danish-flag;
+	border: $danish-flag;
+	height: 80px;
+}
+.navbar-header{
+	padding-left: 80px;
+	a{
+		.logo {
+			width:auto;
+			height:70px;
+		}
+	}
+}
+
+.menu-btn {
+	margin-top:20px;
+}
+
+.nav-responsive-wrapper {
+	background-color: $danish-flag;
+	border: $danish-flag;
+	.sign-in-wrapper {
+		border-color:$danish-flag;
+	}
+}
+
+
+
+

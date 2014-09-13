@@ -1,0 +1,24 @@
+/* styles.scss */
+/* VARIABLES */
+/* NAVBAR STYLES */
+.top-navbar {
+  background-color: #3B5998;
+  border: #3B5998;
+  height: 80px; }
+
+.navbar-header {
+  padding-left: 80px; }
+  .navbar-header a .logo {
+    width: auto;
+    height: 70px; }
+
+.menu-btn {
+  margin-top: 20px; }
+
+.nav-responsive-wrapper {
+  background-color: #3B5998;
+  border: #3B5998; }
+  .nav-responsive-wrapper .sign-in-wrapper {
+    border-color: #3B5998; }
+
+/*# sourceMappingURL=styles.css.map */
