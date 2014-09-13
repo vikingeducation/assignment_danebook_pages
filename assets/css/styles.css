@@ -15,6 +15,7 @@
   margin-top: 15px; }
 
 .nav-responsive-wrapper {
+  display: inline-block;
   background-color: #3B5998;
   border: #3B5998; }
   .nav-responsive-wrapper .navbar-form {
@@ -24,5 +25,9 @@
       width: 100%; }
       .nav-responsive-wrapper .navbar-form .nav-search-wrapper .form-control {
         width: 100%; }
+
+#navbar-usr-profile {
+  padding: 15px 0 0 20px;
+  display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */

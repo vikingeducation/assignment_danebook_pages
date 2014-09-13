@@ -23,6 +23,7 @@ $danish-flag:#3B5998;
 }
 
 .nav-responsive-wrapper {
+	display:inline-block;
 	background-color: $danish-flag;
 	border: $danish-flag;
 	.navbar-form {
@@ -35,6 +36,11 @@ $danish-flag:#3B5998;
 			}
 		}
 	}
+}
+
+#navbar-usr-profile {
+	padding: 15px 0 0 20px;
+	display:inline-block;
 }
 
 
