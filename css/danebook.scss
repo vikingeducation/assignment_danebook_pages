@@ -2,13 +2,24 @@
   background: linear-gradient(#4C67A1, #3B5998);
   border-bottom: 1px solid #21346B;
   box-shadow: 0px 2px 2px #B9BABB;
+  color: #fff;
 
   a.navbar-brand {
-    color: #fff;
     font-size: 28px;
+    color: #fff;
+  }
+
+  #navbar-username {
+    color: #fff;
+    font-size: 18px;
   }
 
   .icon-bar {
     background-color: #fff;
   }
+
+  #nav-search-bar {
+
+  }
 }
+
