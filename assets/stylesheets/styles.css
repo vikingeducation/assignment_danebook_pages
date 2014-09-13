@@ -1,4 +1,9 @@
 .brand{
-	margin-top: 1%;
+	font-size: 2em;
+	margin: 5%;
 	padding: 1%;
+}
+
+.searchbar{
+	width: 60%;
 }
