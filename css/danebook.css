@@ -16,3 +16,10 @@
     min-width: 450px; }
   #top-navbar #bs-example-navbar-collapse-1 {
     text-align: center; }
+
+#cover-photo {
+  background-color: #999;
+  min-width: 960px; }
+
+main {
+  margin-top: -20px; }
