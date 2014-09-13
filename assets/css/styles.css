@@ -4,21 +4,25 @@
 .top-navbar {
   background-color: #3B5998;
   border: #3B5998;
-  height: 80px; }
+  height: 70px; }
 
-.navbar-header {
-  padding-left: 80px; }
-  .navbar-header a .logo {
-    width: auto;
-    height: 70px; }
+.navbar-header a .logo {
+  padding-right: 20px;
+  width: auto;
+  height: 30px; }
 
 .menu-btn {
-  margin-top: 20px; }
+  margin-top: 15px; }
 
 .nav-responsive-wrapper {
   background-color: #3B5998;
   border: #3B5998; }
-  .nav-responsive-wrapper .search-wrapper {
-    border-color: #3B5998; }
+  .nav-responsive-wrapper .navbar-form {
+    margin-top: 15px;
+    width: 60%; }
+    .nav-responsive-wrapper .navbar-form .nav-search-wrapper {
+      width: 100%; }
+      .nav-responsive-wrapper .navbar-form .nav-search-wrapper .form-control {
+        width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,27 +6,34 @@ $danish-flag:#3B5998;
 .top-navbar {
 	background-color: $danish-flag;
 	border: $danish-flag;
-	height: 80px;
+	height: 70px;
 }
 .navbar-header{
-	padding-left: 80px;
 	a{
-		.logo {
+		.logo {		
+			padding-right: 20px;
 			width:auto;
-			height:70px;
+			height:30px;
 		}
 	}
 }
 
 .menu-btn {
-	margin-top:20px;
+	margin-top:15px;
 }
 
 .nav-responsive-wrapper {
 	background-color: $danish-flag;
 	border: $danish-flag;
-	.search-wrapper {
-		border-color:$danish-flag;
+	.navbar-form {
+		margin-top:15px;
+		width: 60%;
+		.nav-search-wrapper {
+			width:100%;
+			.form-control{
+				width: 100%;
+			}
+		}
 	}
 }
 
