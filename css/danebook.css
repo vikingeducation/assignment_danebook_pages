@@ -38,6 +38,8 @@
   border: 1px solid black; }
   #profile-nav .nav-tabs li {
     border: 1px solid black; }
+  #profile-nav .link-count {
+    color: #777; }
   #profile-nav li.active a {
     background-color: #ccc;
     margin-right: 0; }
