@@ -1,12 +1,11 @@
 #top-navbar {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   border-bottom: 1px solid #21346B;
   box-shadow: 0px 2px 2px #B9BABB; }
   #top-navbar a.navbar-brand {
     color: #fff;
-    font-size: 28px;
-    padding-bottom: 8px; }
-    #top-navbar a.navbar-brand img {
-      margin-bottom: 8px; }
+    font-size: 28px; }
   #top-navbar .icon-bar {
     background-color: #fff; }
+
+/*# sourceMappingURL=danebook.css.map */
