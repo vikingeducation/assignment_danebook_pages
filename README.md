@@ -1,3 +1,7 @@
+#### Links to repos:
+pndpo - https://github.com/VikingPeter/danebook_pages.git
+
+
 # Prototyping Additional Danebook Pages
 
 This pair project concludes Week 1 of the [Viking Code School](http://vikingcodeschool.com)
