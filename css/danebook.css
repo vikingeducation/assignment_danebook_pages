@@ -44,4 +44,14 @@
     background-color: #ccc;
     margin-right: 0; }
 
+#information-pane {
+  border: 1px solid black;
+  margin-top: 20px; }
+  #information-pane header {
+    text-align: center; }
+    #information-pane header h2 {
+      margin-top: 0; }
+    #information-pane header .about-header {
+      padding-top: 15px; }
+
 /*# sourceMappingURL=danebook.css.map */

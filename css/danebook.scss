@@ -69,3 +69,17 @@
     }
   }
 }
+
+#information-pane {
+  border: 1px solid black;
+  margin-top: 20px;
+  header {
+    text-align: center;
+    h2 {
+      margin-top: 0;
+    }
+    .about-header {
+      padding-top: 15px;
+    }
+  }
+}
