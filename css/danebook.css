@@ -1,5 +1,5 @@
 #top-navbar {
-  background: linear-gradient(#4C67A1, #3B5998);
+  background: linear-gradient(#4c67a1, #3b5998);
   border: 1px solid #21346B;
   border-radius: 0;
   box-shadow: 0px 2px 2px #B9BABB;
@@ -8,22 +8,11 @@
     font-size: 28px;
     color: #fff; }
   #top-navbar #navbar-username {
-    width: 25%;
-    max-width: 220px; }
-    #top-navbar #navbar-username a {
-      color: #fff;
-      font-size: 18px; }
+    color: #fff;
+    font-size: 18px; }
   #top-navbar .icon-bar {
     background-color: #fff; }
   #top-navbar #nav-search-bar {
-    min-width: 600px;
-    width: 50%; }
-  #top-navbar ul.navbar-center {
-    margin: 0;
-    float: none; }
-    #top-navbar ul.navbar-center li {
-      display: inline-block; }
+    min-width: 450px; }
   #top-navbar #bs-example-navbar-collapse-1 {
     text-align: center; }
-
-/*# sourceMappingURL=danebook.css.map */

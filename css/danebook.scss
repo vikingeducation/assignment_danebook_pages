@@ -11,12 +11,8 @@
   }
 
   #navbar-username {
-    width: 25%;
-    max-width: 220px;
-    a {
       color: #fff;
       font-size: 18px;
-    }
   }
 
   .icon-bar {
@@ -24,17 +20,9 @@
   }
 
   #nav-search-bar {
-    min-width: 600px;
-    width: 50%;
+    min-width: 450px;
   }
 
-  ul.navbar-center {
-    margin: 0;
-    float: none;
-    li {
-      display: inline-block;
-    }
-  }
 
   #bs-example-navbar-collapse-1 {
     text-align: center;
