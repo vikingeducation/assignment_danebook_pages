@@ -13,11 +13,11 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
 <body>
-
+<header>
 <!-- nav bar -->
   <div class="container">
     <div class="row">
@@ -30,17 +30,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        </div>
+      </div>
 
-        <div class="navbar-brand">
-          <img src="#" alt="mini-profile">
-          <a href="#" id="logo">Danebook</a> 
-        </div>
+      <div class="navbar-brand">
+        <img src="images/logo.gif" alt="mini-profile" id="logo">
+        <a href="#" id="logo">Danebook</a> 
+      </div>
 
       <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-      <div class="col-sm-6 col-sm-offset 3">
-        <input type="text" class="custom-form form-control" placeholder="search for users">
-      </div>
+        <div class="col-sm-6 col-sm-offset 3">
+          <input type="text" class="custom-form form-control" placeholder="search for users">
+        </div>
 
         <div class=" navbar navbar-right my_name">
             <p>Harry</p>
@@ -49,13 +49,33 @@
       </nav> <!-- closing nav -->
     </div><!-- closing row -->
   </div><!-- closing column -->
-
+</header>
+<main>
 <!-- nav bar -->
 
 <!-- love box -->
 
 <div class="jumbotron"> <!-- NOTE: Style background image in CSS -->
-  <p>Harry Potter</p>
+  <div class="container">
+    <div class="row">
+    </div>
+
+    <div class="row"> <!--navbar -->
+      <div class="col-sm-2"><img src="images/default_user.gif"><!-- profile picture --></div>
+      <button class="btn-default col-sm-1">Timeline
+      </button>
+      
+      <button class="btn-default col-sm-1">About
+      </button>
+      
+      <button class="btn-default col-sm-1">Photos (123)
+      </button>
+      
+      <button class="btn-default col-sm-1">Friends (542)
+      </button>
+
+    </div>
+  </div>
 </div>
 
 
@@ -65,6 +85,9 @@
 
 
 
+
+
+
 <!-- love box -->
 
 
@@ -77,6 +100,6 @@
 <!-- profile panel -->
 
 <!-- profile panel -->
-
+</main>
 </body>
 </html><!-- Your markup here! -->
