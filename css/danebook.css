@@ -1,5 +1,5 @@
 #top-navbar {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   border: 1px solid #21346B;
   border-radius: 0;
   box-shadow: 0px 2px 2px #B9BABB;
@@ -35,10 +35,11 @@
   margin-top: -20px; }
 
 #profile-nav {
-  border: 1px solid black;
-  margin: 0px; }
+  border: 1px solid black; }
   #profile-nav .nav-tabs li {
     border: 1px solid black; }
   #profile-nav li.active a {
     background-color: #ccc;
     margin-right: 0; }
+
+/*# sourceMappingURL=danebook.css.map */
