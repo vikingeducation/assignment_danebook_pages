@@ -38,7 +38,7 @@
 
 #profile-image {
   position: absolute;
-  bottom: -20px;
+  bottom: 20px;
   left: 20px;
   img {
     border: 1px solid black;
@@ -48,4 +48,21 @@
 #cover {
   position: relative;
   margin-top: -20px;
+}
+
+#profile-nav{
+  border: 1px solid black;
+  margin: 0px;
+  .nav-tabs {
+    li {
+      border: 1px solid black;
+    }
+  }
+
+  li.active {
+    a {
+      background-color: #ccc;
+      margin-right: 0;
+    }
+  }
 }
