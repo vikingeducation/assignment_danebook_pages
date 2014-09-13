@@ -1,9 +1,15 @@
-.brand{
-	font-size: 2em;
-	margin: 5%;
-	padding: 1%;
+.form-control .full-width{
+	width: 100%;
 }
 
 .searchbar{
 	width: 60%;
+	margin-left: 40%;
+	margin-left: 5%;
+}
+
+.brand{
+	font-size: 2em;
+	margin: 5%;
+	padding: 1%;
 }
