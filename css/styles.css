@@ -19,6 +19,7 @@
 	font-weight: bold;
 	height: 43px;
 	border-right: 1px solid #e9eaed;
+	border-bottom: 1px solid #e9eaed;
 	font-size: 14px;
 	float: left;
 	line-height: 3.05;
@@ -99,6 +100,36 @@ figure {
     display: inline-block;
 }
 
+.box-container .box-header {
+	background-color: #EDF0F5;
+}
 
+.navbar {
+	background-color: #3B5998;
+	margin-bottom: 0;
+}
 
+.navbar-brand {
+	color: white;
+	padding: 0 0;
+	font-size: 32px;
+	line-height: 0px;
+	padding-top: 24px;
+}
 
+.my_name {
+	color: white;
+	font-size: 30px;
+}
+
+.navbar-collapse input {
+	margin-top: 10px;
+}
+
+.present_tab{
+	background-color: #989899;
+}
+
+.jumbotron-links li:nth-child(5){
+	border-right: none;
+}

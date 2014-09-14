@@ -32,7 +32,7 @@
         </button>
       </div>
 
-      <div class="navbar-brand">
+      <div class="navbar-brand col-sm-offset-1">
         <img src="images/logo.gif" alt="mini-profile" id="logo">
         <a href="#" id="logo">Danebook</a> 
       </div>
@@ -42,7 +42,7 @@
           <input type="text" class="custom-form form-control" placeholder="search for users">
         </div>
 
-        <div class=" navbar navbar-right my_name">
+        <div class=" navbar my_name col-sm-offset-11">
             <p>Harry</p>
         </div>
       </div>
@@ -61,7 +61,7 @@
       <div class="col-sm-12"><img src="images/default_photo.png" id="banner_photo"></div>
     </div>
 
-    <div class="row"> <!--navbar -->
+    <div class="row col-sm-12"> <!--navbar -->
       <div class="col-sm-2"><img src="images/default_user.gif" id="profile_photo"><!-- profile picture --></div>
     
      <!-- <button class="btn-default col-sm-1">Timeline
@@ -78,10 +78,10 @@
 
     <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
         <li>Timeline</li>
-        <li>About</li>
+        <li class="present_tab">About</li>
         <li>Photos <span class="counter">(123)</span></li>
         <li>Friends <span class="counter">(542)</span></li>
-        <li><a href="#">Edit Profile</a></li>
+        <li class="pull-right"><a href="#">Edit Profile</a></li>
     </ul>
 
 
@@ -94,13 +94,11 @@
 <!-- profile panel -->
 
 <div class="container">
-
-  <div class="row about-heading">
-    <h2>About</h2>
-    <button class="btn-default col-sm-2">Edit your profile</button>
-  </div><!-- closing row -->
-
-  <div class="row about-content">
+  <div class="row box-container">
+    <main class="box-header">
+      <h2>About</h2>
+      <button class="btn-default col-sm-2">Edit your profile</button>
+    </main>
 
     <section class="col-sm-5 about-left-panel">
 
