@@ -41,7 +41,6 @@ body {
 
 /* COVER PHOTO BLOCK STYLES */
 .cover-profile-block {
-  width: 100%;
   border: 1px solid #000; }
   .cover-profile-block .profile-name {
     position: relative;
@@ -60,7 +59,7 @@ body {
   height: 160px;
   overflow: hidden;
   z-index: 101;
-  top: 250px;
+  top: 270px;
   left: 10px; }
 
 .edit {
@@ -74,5 +73,33 @@ body {
   .menu-item a {
     text-decoration: none;
     color: #555; }
+
+.pushd {
+  margin-top: 20px; }
+
+.test {
+  background-color: white;
+  height: 200px;
+  border: 2px dotted black; }
+
+.ltest {
+  background-color: white;
+  height: 300px;
+  border: 2px dotted black; }
+
+.gtest {
+  background-color: #ddd;
+  height: 40px; }
+
+.block {
+  margin: 15px 0; }
+
+.testred {
+  background-color: red;
+  height: 100%; }
+
+.testblue {
+  background-color: blue;
+  height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
