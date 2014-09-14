@@ -1,15 +1,55 @@
+.black{
+    color: #000;
+}
+
+.background-blue{
+	background-color: #06F;
+}
+
+.page-margins{
+	margin-left: 5%;
+	margin-right: 10%;
+}
+
+.full-width{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
 .form-control .full-width{
 	width: 100%;
 }
 
+.list-spacing{
+	padding: 1%;
+}
+
 .searchbar{
-	width: 60%;
+	width: 50%;
 	margin-left: 40%;
 	margin-left: 5%;
 }
 
 .brand{
 	font-size: 2em;
-	margin: 5%;
-	padding: 1%;
+	margin: 2% 5% 5% 5%;
+	padding: 2%;
+	color: #fff;
 }
+
+.brand-black{
+	font-size: 2em;
+	margin: 2% 5% 5% 5%;
+	padding: 2%;
+	color: #000;
+}
+
+.spacing{
+	margin-right:  10%;
+}
+/*
+.white-text{
+	font-color: #fff;
+	color: #fff;
+}*/
