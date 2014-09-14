@@ -275,6 +275,33 @@ button.btn-unfriend {
   }
 }
 
+#post-feed {
+  article {
+    border: 1px solid black;
+    margin-top: 15px;
+
+    & > * {
+      padding-top: 15px;
+    }
+
+    img {
+      height:100%;
+      width: 100%;
+    }
+
+    .date-posted {
+      color: #aaa;
+    }
+  }
+
+  .like-section {
+    border-top: 1px solid black;
+    background-color: #ccc;
+    padding-bottom: 15px;
+  }
+
+}
+
 
 @media (max-width: 993px) {
   .friend-list-entry {
