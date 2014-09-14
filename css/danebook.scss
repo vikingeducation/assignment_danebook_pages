@@ -161,5 +161,27 @@
       width: 262px;
       height: 262px;
     }
+
+    .photo-link:hover + .photo-upload-date {
+      display: block;
+    }
+
   }
+
+}
+
+.photo-upload-date {
+  position: absolute;
+  text-align: center;
+  z-index: 1000000;
+  bottom: 0;
+  width: 262px;
+  height: 30px;
+  color: white;
+  background-color: #444;
+  display: none;
+  opacity: .5;
+  border-top: 1px solid black;
+  font-weight: bold;
+
 }
