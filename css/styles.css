@@ -125,23 +125,20 @@ figure {
 .navbar-collapse input {
 	margin-top: 10px;
 }
-
 .present_tab{
 	background-color: #989899;
 }
-
 .jumbotron-links li:nth-child(5){
 	border-right: none;
 }
-#bs2 {
-	display:inline-block;
-}
-.box-container .box-header span * {
-	display:inline;
-}
-.box-container .box-header span h2 {
+
+.box-container .box-header h2 {
 	text-align:center;
 }
-.box-header {
-	display:;
+
+
+#edit-profile-button {
+
 }
+
+
