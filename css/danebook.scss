@@ -231,10 +231,6 @@ button.btn-unfriend {
     border: 1px solid black;
   }
 
-  #timeline-photos {
-    margin-top: 15px;
-  }
-
   .about-table {
     td {
       border: 0;
@@ -255,7 +251,21 @@ button.btn-unfriend {
 #timeline-photos {
   text-align: center;
   padding-bottom: 15px;
+  margin-top: 15px;
   .photo {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+#timeline-friends {
+  text-align: center;
+  margin-top: 15px;
+  .friend {
     padding-top: 15px;
     padding-bottom: 5px;
     img {

@@ -158,8 +158,6 @@ button.btn-unfriend {
 
 #details > * {
   border: 1px solid black; }
-#details #timeline-photos {
-  margin-top: 15px; }
 #details .about-table td {
   border: 0; }
   #details .about-table td:first-child {
@@ -171,11 +169,22 @@ button.btn-unfriend {
 
 #timeline-photos {
   text-align: center;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  margin-top: 15px; }
   #timeline-photos .photo {
     padding-top: 15px;
     padding-bottom: 5px; }
     #timeline-photos .photo img {
+      width: 100px;
+      height: 100px; }
+
+#timeline-friends {
+  text-align: center;
+  margin-top: 15px; }
+  #timeline-friends .friend {
+    padding-top: 15px;
+    padding-bottom: 5px; }
+    #timeline-friends .friend img {
       width: 100px;
       height: 100px; }
 
