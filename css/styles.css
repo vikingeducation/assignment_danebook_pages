@@ -37,3 +37,68 @@
 	margin-top:-138px;
 	border:1px solid #000;
 }
+.box-container img {
+	width:103px;
+	height:103px;
+}
+.box-container td {
+	padding:2px;
+}
+.box-container .box-container-span {
+	text-align:center;
+	text-decoration:underline;
+}
+.post-box .post-user-image {
+	width:40px;
+	height:40px;
+	float:left;
+}
+.post-box h6 {
+	display:inline-block;
+}
+.post-header .name-date {
+	display:inline-block;
+	line-height: 0;
+	margin-left:5px;
+	margin-bottom:10px;
+}
+.post-footer-links li {
+	display:inline-block;
+	padding-left:20px;
+}
+.post-comments .alt-post-date { 
+	display:inline-block;
+
+}
+.post-comments .comment-body p{
+	margin-top:15px;
+}
+
+.post-comments .delete-button {
+	padding-left:30px;
+}
+.box-container .photo-page-img {
+	height:206px;
+	width:206px;
+}
+
+.box-container figcaption {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+    background-color: rgba(0,0,0,.15);
+}
+figure:hover figcaption {
+	display:block;
+}
+
+figure {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
