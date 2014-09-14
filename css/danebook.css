@@ -1,5 +1,11 @@
+section.container a {
+  text-decoration: underline; }
+
+#profile-nav .col-md-2 a {
+  text-decoration: underline; }
+
 #top-navbar {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   border: 1px solid #21346B;
   border-radius: 0;
   box-shadow: 0px 2px 2px #B9BABB;
@@ -64,7 +70,7 @@
       padding-left: 0; }
 
 #edit-profile-button {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   color: white;
   box-shadow: 3px 3px 3px black;
   border: 1px solid black;
@@ -84,7 +90,7 @@
     border-top: 1px solid black;
     background-color: #ccc; }
   #post-form button {
-    background: linear-gradient(#4c67a1, #3b5998);
+    background: linear-gradient(#4C67A1, #3B5998);
     color: white;
     font-weight: bold;
     box-shadow: 3px 3px 3px black;
@@ -96,7 +102,7 @@
   background-color: white; }
 
 #save-profile {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   color: white;
   font-weight: bold;
   box-shadow: 3px 3px 3px black;
@@ -128,3 +134,26 @@
   opacity: .5;
   border-top: 1px solid black;
   font-weight: bold; }
+
+button.btn-unfriend {
+  background: #bbb;
+  color: black;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px black;
+  border: 1px solid black;
+  border-radius: 0;
+  width: 120px; }
+
+#friends-list .friend-list-entry {
+  height: 150px;
+  padding-top: 25px; }
+  #friends-list .friend-list-entry .row {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black; }
+  #friends-list .friend-list-entry .col-md-5 {
+    padding-top: 20px; }
+  #friends-list .friend-list-entry .col-md-4 {
+    padding-top: 30px; }
+
+/*# sourceMappingURL=danebook.css.map */
