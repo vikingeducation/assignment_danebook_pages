@@ -103,4 +103,14 @@
   border: 1px solid black;
   border-radius: 0; }
 
+#photo-field {
+  margin-top: 15px; }
+  #photo-field .photo {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    #photo-field .photo img {
+      border: 1px solid black;
+      width: 262px;
+      height: 262px; }
+
 /*# sourceMappingURL=danebook.css.map */

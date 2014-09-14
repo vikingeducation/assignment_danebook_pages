@@ -150,3 +150,16 @@
   border: 1px solid black;
   border-radius: 0;
 }
+
+#photo-field {
+  margin-top: 15px;
+  .photo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    img {
+      border: 1px solid black;
+      width: 262px;
+      height: 262px;
+    }
+  }
+}
