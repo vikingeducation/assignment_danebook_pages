@@ -43,6 +43,11 @@ body {
 .cover-profile-block {
   width: 100%;
   border: 1px solid #000; }
+  .cover-profile-block .profile-name {
+    position: relative;
+    color: #FFF;
+    margin-left: 180px;
+    top: 400px; }
   .cover-profile-block .cover-photo {
     background: url("http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg") no-repeat center;
     background-size: cover;
@@ -51,11 +56,11 @@ body {
 .profile-photo-wrapper .profile-photo {
   padding: 4px;
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   overflow: hidden;
   z-index: 101;
-  top: 340px;
+  top: 250px;
   left: 10px; }
 
 .edit {
