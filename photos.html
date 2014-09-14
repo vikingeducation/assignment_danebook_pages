@@ -1,1 +1,144 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Welcome to Danebook</title>
+  <meta charset="UTF-8">
+
+   <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+<header>
+<!-- nav bar -->
+  <div class="container">
+    <div class="row">
+
+      <nav class="navbar navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-brand">
+        <img src="images/logo.gif" alt="mini-profile" id="logo">
+        <a href="#" id="logo">Danebook</a> 
+      </div>
+
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+        <div class="col-sm-6 col-sm-offset 3">
+          <input type="text" class="custom-form form-control" placeholder="search for users">
+        </div>
+
+        <div class=" navbar navbar-right my_name">
+            <p>Harry</p>
+        </div>
+      </div>
+      </nav> <!-- closing nav -->
+    </div><!-- closing row -->
+  </div><!-- closing column -->
+</header>
+<main>
+<!-- nav bar -->
+
+<!-- love box -->
+
+<div class="jumbotron"> <!-- NOTE: Style background image in CSS -->
+  <div class="container">
+    <div class="row">
+    </div>
+
+    <div class="row"> <!--navbar -->
+      <div class="col-sm-2"><img src="images/default_user.gif"><!-- profile picture --></div>
+    
+     <!-- <button class="btn-default col-sm-1">Timeline
+      </button>   
+      <button class="btn-default col-sm-1">About
+      </button>
+      
+      <button class="btn-default col-sm-1">Photos (123)
+      </button>
+      
+      <button class="btn-default col-sm-1">Friends (542)
+      </button>
+    -->
+
+    <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
+        <li>Timeline</li>
+        <li>About</li>
+        <li>Photos (123)</li>
+        <li>Friends (542)</li>
+    </ul>
+
+
+    </div>
+  </div>
+</div>
+
+<!-- love box -->
+
+<!-- profile panel -->
+
+<div class="container">
+
+  <div class="row photos-heading">
+    <h2>Photos</h2>
+    <button type="button" class="btn">Add Photo</button>
+  </div><!-- closing row -->
+
+  <div class="row photos-content">
+
+    <figure class="photo-tile">
+      <img src="images/default_photo.png" alt="photo-tile">
+      <figcaption="photo-tile-caption">
+        <p>Uploaded January 1, 2014</p>
+      </figcaption>
+    </figure>
+
+<!-- CSS HOVER STYLING FOR PHOTO-TILE
+.photo-tile .photo-tile-caption{
+  opacity: 0; 
+  position: absolute; 
+  height: px; 
+  width: 283px; 
+  bottom: 0px; left: 0px; 
+  color: white; 
+  background: #999C98; 
+  text-align: center; 
+  font-weight:bold;
+  }
+
+.photo-tile:hover .photo-tile-caption{
+  opacity: 0.7;
+}
+
+
+
+ -->
+
+
+  </div><!-- closing photos-content row -->
+
+  </div><!-- Closing container -->
+
+</div>
+
+<!-- profile panel -->
+
+</main>
+
+</body>
+
+</html><!-- Your markup here! -->
