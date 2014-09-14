@@ -5,7 +5,7 @@ section.container a {
   text-decoration: underline; }
 
 #top-navbar {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   border: 1px solid #21346B;
   border-radius: 0;
   box-shadow: 0px 2px 2px #B9BABB;
@@ -70,7 +70,7 @@ section.container a {
       padding-left: 0; }
 
 #edit-profile-button {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   color: white;
   box-shadow: 3px 3px 3px black;
   border: 1px solid black;
@@ -90,7 +90,7 @@ section.container a {
     border-top: 1px solid black;
     background-color: #ccc; }
   #post-form button {
-    background: linear-gradient(#4c67a1, #3b5998);
+    background: linear-gradient(#4C67A1, #3B5998);
     color: white;
     font-weight: bold;
     box-shadow: 3px 3px 3px black;
@@ -102,7 +102,7 @@ section.container a {
   background-color: white; }
 
 #save-profile {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   color: white;
   font-weight: bold;
   box-shadow: 3px 3px 3px black;
@@ -156,17 +156,31 @@ button.btn-unfriend {
   #friends-list .friend-list-entry .col-md-4 {
     padding-top: 30px; }
 
-#details {
+#details > * {
   border: 1px solid black; }
-  #details .about-table td {
-    border: 0; }
-    #details .about-table td:first-child {
-      font-weight: bold; }
-  #details header {
-    text-align: center;
-    border-bottom: 1px solid black;
-    background-color: #ccc; }
+#details #timeline-photos {
+  margin-top: 15px; }
+#details .about-table td {
+  border: 0; }
+  #details .about-table td:first-child {
+    font-weight: bold; }
+#details header {
+  text-align: center;
+  border-bottom: 1px solid black;
+  background-color: #ccc; }
+
+#timeline-photos {
+  text-align: center;
+  padding-bottom: 15px; }
+  #timeline-photos .photo {
+    padding-top: 15px;
+    padding-bottom: 5px; }
+    #timeline-photos .photo img {
+      width: 100px;
+      height: 100px; }
 
 @media (max-width: 993px) {
   .friend-list-entry {
     margin-bottom: 70px; } }
+
+/*# sourceMappingURL=danebook.css.map */
