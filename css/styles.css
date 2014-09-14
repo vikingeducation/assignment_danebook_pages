@@ -100,7 +100,7 @@ figure {
     display: inline-block;
 }
 
-.box-container .box-header {
+.box-header {
 	background-color: #EDF0F5;
 }
 
@@ -132,4 +132,16 @@ figure {
 
 .jumbotron-links li:nth-child(5){
 	border-right: none;
+}
+#bs2 {
+	display:inline-block;
+}
+.box-container .box-header span * {
+	display:inline;
+}
+.box-container .box-header span h2 {
+	text-align:center;
+}
+.box-header {
+	display:;
 }
