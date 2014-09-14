@@ -87,7 +87,8 @@ body {
   height: 300px;
   border: 2px dotted black; }
 
-.gtest {
+.grey-title {
+  border: 1px solid #000;
   background-color: #ddd;
   height: 40px; }
 
