@@ -74,26 +74,23 @@ body {
     text-decoration: none;
     color: #555; }
 
-.pushd {
+.top-buffer {
   margin-top: 20px; }
 
-.test {
-  background-color: white;
-  height: 200px;
-  border: 2px dotted black; }
-
-.ltest {
-  background-color: white;
-  height: 300px;
-  border: 2px dotted black; }
+.buffer {
+  margin: 15px 0; }
 
 .grey-title {
   border: 1px solid #000;
   background-color: #ddd;
   height: 40px; }
 
-.block {
-  margin: 15px 0; }
+.test {
+  background-color: white;
+  border: 2px dotted black; }
+
+.testfill {
+  height: 200px; }
 
 .testred {
   background-color: red;

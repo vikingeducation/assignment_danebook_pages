@@ -102,20 +102,12 @@ body {
 
 	}
 
-	.pushd{
+	.top-buffer {
 		margin-top: 20px;
 	}
-	.test {
-		background-color:white;
-		height: 200px;
-		border:2px dotted black;
-	}
 
-	.ltest {
-		background-color:white;
-		height: 300px;
-		border:2px dotted black;
-
+	.buffer {
+		margin: 15px 0;
 	}
 
 	.grey-title {
@@ -123,10 +115,17 @@ body {
 		background-color: #ddd;
 		height: 40px;
 	}
-
-	.block {
-		margin: 15px 0;
+	
+	.test {
+		background-color:white;
+		// height: 200px;
+		border:2px dotted black;
 	}
+
+	.testfill {
+		height: 200px;
+	}
+
 
 	.testred {
 		background-color:red;
@@ -137,5 +136,4 @@ body {
 		background-color:blue;
 		height: 100%;
 	}
-
 
