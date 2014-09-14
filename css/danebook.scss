@@ -224,3 +224,9 @@ button.btn-unfriend {
     }
   }
 }
+
+@media (max-width: 993px) {
+  .friend-list-entry {
+    margin-bottom: 70px;
+  }
+}
