@@ -1,5 +1,5 @@
 #top-navbar {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   border: 1px solid #21346B;
   border-radius: 0;
   box-shadow: 0px 2px 2px #B9BABB;
@@ -46,7 +46,8 @@
 
 #information-pane {
   border: 1px solid black;
-  margin-top: 20px; }
+  margin: 20px auto 50px auto;
+  padding-bottom: 50px; }
   #information-pane header {
     text-align: center;
     border-bottom: 1px solid black;
@@ -63,7 +64,7 @@
       padding-left: 0; }
 
 #edit-profile-button {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   color: white;
   box-shadow: 3px 3px 3px black;
   border: 1px solid black;
@@ -83,7 +84,7 @@
     border-top: 1px solid black;
     background-color: #ccc; }
   #post-form button {
-    background: linear-gradient(#4c67a1, #3b5998);
+    background: linear-gradient(#4C67A1, #3B5998);
     color: white;
     font-weight: bold;
     box-shadow: 3px 3px 3px black;
@@ -93,3 +94,13 @@
 
 #post-textarea-col {
   background-color: white; }
+
+#save-profile {
+  background: linear-gradient(#4C67A1, #3B5998);
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px black;
+  border: 1px solid black;
+  border-radius: 0; }
+
+/*# sourceMappingURL=danebook.css.map */

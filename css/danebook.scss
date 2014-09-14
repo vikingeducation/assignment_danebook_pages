@@ -72,7 +72,8 @@
 
 #information-pane {
   border: 1px solid black;
-  margin-top: 20px;
+  margin: 20px auto 50px auto;
+  padding-bottom: 50px;
   header {
     text-align: center;
     border-bottom: 1px solid black;
@@ -141,3 +142,11 @@
   background-color: white;
 }
 
+#save-profile {
+  background: linear-gradient(#4C67A1, #3B5998);
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px black;
+  border: 1px solid black;
+  border-radius: 0;
+}
