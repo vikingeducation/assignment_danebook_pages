@@ -5,7 +5,7 @@ section.container a {
   text-decoration: underline; }
 
 #top-navbar {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   border: 1px solid #21346B;
   border-radius: 0;
   box-shadow: 0px 2px 2px #B9BABB;
@@ -70,7 +70,7 @@ section.container a {
       padding-left: 0; }
 
 #edit-profile-button {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   color: white;
   box-shadow: 3px 3px 3px black;
   border: 1px solid black;
@@ -90,7 +90,7 @@ section.container a {
     border-top: 1px solid black;
     background-color: #ccc; }
   #post-form button {
-    background: linear-gradient(#4c67a1, #3b5998);
+    background: linear-gradient(#4C67A1, #3B5998);
     color: white;
     font-weight: bold;
     box-shadow: 3px 3px 3px black;
@@ -102,7 +102,7 @@ section.container a {
   background-color: white; }
 
 #save-profile {
-  background: linear-gradient(#4c67a1, #3b5998);
+  background: linear-gradient(#4C67A1, #3B5998);
   color: white;
   font-weight: bold;
   box-shadow: 3px 3px 3px black;
@@ -188,21 +188,39 @@ button.btn-unfriend {
       width: 100px;
       height: 100px; }
 
-#post-feed article {
+#post-feed > article {
   border: 1px solid black;
-  margin-top: 15px; }
-  #post-feed article > * {
+  margin-top: 15px;
+  padding-top: 15px; }
+  #post-feed > article .post-body {
     padding-top: 15px; }
-  #post-feed article img {
+  #post-feed > article img {
     height: 100%;
     width: 100%; }
-  #post-feed article .date-posted {
+  #post-feed > article .date-posted {
     color: #aaa; }
 #post-feed .like-section {
   border-top: 1px solid black;
   background-color: #ccc;
   padding-bottom: 15px; }
+  #post-feed .like-section > * {
+    padding-top: 15px; }
+#post-feed .comment-section {
+  padding-bottom: 15px;
+  border-top: 1px solid #999; }
+  #post-feed .comment-section button {
+    background: linear-gradient(#4C67A1, #3B5998);
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid black;
+    border-radius: 0; }
+  #post-feed .comment-section form .form-group {
+    margin-top: 15px;
+    margin-bottom: 15px; }
 
 @media (max-width: 993px) {
   .friend-list-entry {
     margin-bottom: 70px; } }
+
+/*# sourceMappingURL=danebook.css.map */
