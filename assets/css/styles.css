@@ -37,26 +37,32 @@ body {
 /* COVER PHOTO BLOCK STYLES */
 .cover-profile-block {
   width: 100%;
-  height: 500px;
   border: 1px solid #000; }
   .cover-profile-block .cover-photo {
     background: url("http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg") no-repeat center;
     background-size: cover;
     height: 450px; }
 
-.profile-photo {
-  position: absolute;
+.profile-photo-wrapper .profile-photo {
+  padding: 4px;
+  position: relative;
   width: 140px;
   height: 140px;
   overflow: hidden;
   z-index: 101;
-  top: 400px;
-  left: 90px; }
+  top: 340px;
+  left: 10px; }
 
 .edit {
-  float: right; }
+  float: right;
+  padding-top: 15px; }
 
 .menu-item {
+  float: left;
+  padding: 0 10px;
   border: 1px solid #000; }
+  .menu-item a {
+    text-decoration: none;
+    color: #555; }
 
 /*# sourceMappingURL=styles.css.map */
