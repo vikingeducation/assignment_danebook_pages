@@ -11,18 +11,23 @@ body {
   height: 70px; }
 
 .navbar-header a .logo {
-  padding-right: 20px;
+  margin-right: 10px;
   width: auto;
   height: 30px; }
+.navbar-header a .logo-text {
+  margin-top: 10px;
+  color: #FFF; }
+  .navbar-header a .logo-text:hover {
+    color: #BBB; }
 
 .menu-btn {
   margin-top: 15px; }
 
 .nav-responsive-wrapper {
-  display: inline-block;
   background-color: #3B5998;
   border: #3B5998; }
   .nav-responsive-wrapper .navbar-form {
+    display: inline-block;
     margin-top: 15px;
     width: 60%; }
     .nav-responsive-wrapper .navbar-form .nav-search-wrapper {
