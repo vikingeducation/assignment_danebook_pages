@@ -1,0 +1,174 @@
+/* styles.scss */
+
+/* IDs */
+
+/* IDs::About */
+
+#edit-profile-button{
+	float: right;
+	/*margin-right: 0.5%;*/
+	margin-top: 	0.5%;
+}
+
+.thin-black-border {
+		border: 1px solid #000;
+}
+
+.about-title{
+	text-align: center;
+}
+
+.ph-test {
+	border:2px double green;
+}
+.ph-red-test-fill {
+	background-color: red;
+}
+.ph-white-test-fill {
+	background-color: white;
+}
+.ph-blue-test-fill {
+	background-color: blue;
+}
+
+/* VARIABLES */
+$danebook-blue:#3B5998;
+
+/* UNVERSAL STYLES */
+
+body {
+	padding-top:50px;
+}
+
+/* NAVBAR STYLES */
+.top-navbar {
+	background-color: $danebook-blue;
+	border: $danebook-blue;
+	height: 70px;
+}
+.navbar-header{
+	a{
+		.logo {		
+			margin-right: 10px;
+			width:auto;
+			height:30px;
+		}
+		.logo-text {
+			margin-top: 10px;
+			color:#FFF;
+			&:hover {
+				color:#BBB;
+			}
+		}
+	}
+}
+
+.menu-btn {
+	margin-top:15px;
+}
+
+.nav-responsive-wrapper {
+	background-color: $danebook-blue;
+	border: $danebook-blue;
+	.navbar-form {
+		display:inline-block;
+		margin-top:15px;
+		width: 60%;
+		.nav-search-wrapper {
+			width:100%;
+			.form-control{
+				width: 100%;
+			}
+		}
+	}
+}
+
+#navbar-usr-profile {
+	padding: 15px 0 0 20px;
+	display:inline-block;
+}
+
+/* COVER PHOTO BLOCK STYLES */
+
+.cover-profile-block {
+	border: 1px solid #000;
+	.profile-name {
+		position: relative;
+		color:#FFF;
+		margin-left:180px;
+		top:400px
+
+	}
+	.cover-photo {
+		background:url("http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg") no-repeat center;
+		background-size: cover;
+		height: 450px;
+	}
+}
+.profile-photo-wrapper {
+	.profile-photo{
+		padding: 4px;
+		position: relative;
+		width: 160px;
+		height: 160px;
+		overflow: hidden;
+		z-index: 101;
+		top: 270px;
+		left: 10px;
+	}
+}
+
+.edit {
+	float:right;
+	padding-top:15px;
+}
+
+	.menu-item {
+		float:left;
+		padding: 0 10px;
+		border: 1px solid #000;
+		a {
+			text-decoration: none;
+			color: #555;
+		}
+
+	}
+
+	.top-buffer {
+		margin-top: 20px;
+	}
+
+	.buffer {
+		margin: 15px 0;
+	}
+
+	.grey-title {
+		border: 1px solid #000;
+		background-color: #ddd;
+		height: 40px;
+	}
+	
+	.test {
+		background-color:white;
+		// height: 200px;
+		border:2px dotted black;
+	}
+
+	.testfill {
+		height: 200px;
+	}
+
+
+	.testred {
+		background-color:red;
+		height: 100%;
+	}
+
+	.testblue {
+		background-color:blue;
+		height: 100%;
+	}
+
+.about-section-main{
+	margin-top: 10px;
+}
