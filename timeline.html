@@ -107,7 +107,9 @@
           </div> <!-- /menu-wrapper -->
       </section> <!-- /cover-profile-block -->
 
-      <section>
+      <!-- contains both posts and left side bar -->
+      <section class="page-content">
+       <!--  One huge row to hold both left bar and posts -->
         <div class="row top-buffer">
           <div class="non-post-column col-md-5 testred">
 
@@ -254,7 +256,6 @@
                 </div>  
               </div>
             </section> <!-- /friends -->
-
           </div> <!-- /non-post-column -->
 
           <!-- POST SIDE  -->
@@ -265,33 +266,42 @@
           <div class="col-md-7 testblue">
 
             <!-- New Post  -->
-            <div class="col-sm-12 test block">
+            <section class="col-sm-12 test buffer">
               
               <!-- Fills full width  -->
               <div class="row grey-title">
-                Post
+                <h4>Post</h4>
               </div>
-                <input class="input-post col-sm-12" contenteditable="true" spellcheck="true" type="text" placeholder="Tell the world something..." alt="Field to enter in post information">
-                </input>
-            </div> <!-- End New Post -->
 
-            <div class="test block">
+                  test1
+              <form>
+                <input class="post-form testfill col-sm-12" spellcheck="true" type="text" placeholder="Tell the world something..." alt="Field to enter in post information">
+                </input>
+                    test2
+                    test3
+                <div class="row grey-title">
+                    <button class="btn btn-default navbar-right">Post</button>
+                </div>
+              </form>
+            </section> <!-- End New Post -->
+
+            <section class="col-sm-12 test buffer">
               <div class="col-sm-12"></div>
               <div class="col-sm-12"></div>
               Two
-            </div>
+            </section>
 
-            <div class="test block">
+            <section class="col-sm-12 test buffer">
               <div class="col-sm-12"></div>
               <div class="col-sm-12"></div>
               Three
-            </div>
+            </section>
 
-            <div class="test block">
+            <section class="col-sm-12 test buffer">
               <div class="col-sm-12"></div>
               <div class="col-sm-12"></div>
               Four
-            </div>
+            </section>
 
           </div>          
           
