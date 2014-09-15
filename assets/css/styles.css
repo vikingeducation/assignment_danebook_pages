@@ -1,4 +1,29 @@
 /* styles.scss */
+/* IDs */
+/* IDs::About */
+#edit-profile-button {
+  float: right;
+  margin-right: 0.5%;
+  margin-top: 0.5%; }
+
+.thin-black-border {
+  border: 1px solid #000; }
+
+.about-title {
+  text-align: center; }
+
+.ph-test {
+  border: 2px double green; }
+
+.ph-red-test-fill {
+  background-color: red; }
+
+.ph-white-test-fill {
+  background-color: white; }
+
+.ph-blue-test-fill {
+  background-color: blue; }
+
 /* VARIABLES */
 /* UNVERSAL STYLES */
 body {
@@ -99,5 +124,8 @@ body {
 .testblue {
   background-color: blue;
   height: 100%; }
+
+.about-section-main {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
