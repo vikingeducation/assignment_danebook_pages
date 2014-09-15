@@ -17,77 +17,82 @@
 
 </head>
 <body>
-	<header>
-	<!-- nav bar -->
-	  <div class="container">
-	    <div class="row">
+<header>
+<!-- nav bar -->
+  <div class="container">
+    <div class="row">
 
-	      <nav class="navbar navbar-fixed-top" role="navigation">
-	      <div class="navbar-header">
-	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-	          <span class="sr-only">Toggle navigation</span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	        </button>
-	      </div>
+      <nav class="navbar navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-	      <div class="navbar-brand">
-	        <img src="images/logo.gif" alt="mini-profile" id="logo">
-	        <a href="#" id="logo">Danebook</a> 
-	      </div>
+      <div class="navbar-brand col-sm-offset-1">
+        <img src="images/logo.gif" alt="mini-profile" id="logo">
+        <a href="#" id="logo">Danebook</a> 
+      </div>
 
-	      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-	        <div class="col-sm-6 col-sm-offset 3">
-	          <input type="text" class="custom-form form-control" placeholder="search for users">
-	        </div>
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+        <div class="col-sm-6 col-sm-offset 3">
+          <input type="text" class="custom-form form-control" placeholder="search for users">
+        </div>
 
-	        <div class=" navbar navbar-right my_name">
-	            <p>Harry</p>
-	        </div>
-	      </div>
-	      </nav> <!-- closing nav -->
-	    </div><!-- closing row -->
-	  </div><!-- closing column -->
-	</header>
-	<main>
-	<!-- nav bar -->
+        <div class=" navbar my_name col-sm-offset-10">
+            <p>Harry</p>
+        </div>
+      </div>
+      </nav> <!-- closing nav -->
+    </div><!-- closing row -->
+  </div><!-- closing column -->
+</header>
+<main>
+<!-- nav bar -->
 
-	<!-- banner box -->
+<!-- banner box -->
 
-	<div class="jumbotron"> <!-- NOTE: Style background image in CSS -->
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-sm-12"><img src="images/default_photo.png" id="banner_photo"></div>
-	    </div>
-
-	    <div class="row"> <!--navbar -->
-	      <div class="col-sm-2"><img src="images/default_user.gif" id="profile_photo"><!-- profile picture --></div>
-	    
-	     <!-- <button class="btn-default col-sm-1">Timeline
-	      </button>   
-	      <button class="btn-default col-sm-1">About
-	      </button>
-	      
-	      <button class="btn-default col-sm-1">Photos (123)
-	      </button>
-	      
-	      <button class="btn-default col-sm-1">Friends (542)
-	      </button>
-	    -->
-
-	    <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
-	        <li>Timeline</li>
-	        <li>About</li>
-	        <li>Photos <span class="counter">(123)</span></li>
-	        <li>Friends <span class="counter">(542)</span></li>
-	        <li><a href="#">Edit Profile</a></li>
-	    </ul>
+<div class="jumbotron"> <!-- NOTE: Style background image in CSS -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12"><img src="images/default_photo.png" id="banner_photo"></div>
+    </div>
 
 
-	    </div>
-	  </div>
-	</div>
+      <div class="col-sm-12"><!--navbar -->
+          <div class="row main_nav"> 
+          <div class="col-sm-2"><img src="images/default_user.gif" id="profile_photo"><!-- profile picture --></div>
+        
+         <!-- <button class="btn-default col-sm-1">Timeline
+          </button>   
+          <button class="btn-default col-sm-1">About
+          </button>
+          
+          <button class="btn-default col-sm-1">Photos (123)
+          </button>
+          
+          <button class="btn-default col-sm-1">Friends (542)
+          </button>
+        -->
+
+        <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
+            <li class="present_tab"><a href="timeline.html">Timeline</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos <span class="counter">(123)</span></a></li>
+            <li><a href="friends.html">Friends <span class="counter">(542)</span></a></li>
+            <li class="pull-right"><a href="about_edit.html">Edit Profile</a></li>
+        </ul>
+
+
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- banner box -->
 
 	<!-- Begin below banner photo -->
 	<div class="container"> 
