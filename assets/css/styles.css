@@ -4,6 +4,10 @@
 body {
   padding-top: 40px; }
 
+span {
+  color: #bbb;
+  font-size: 14px; }
+
 /* NAVBAR STYLES */
 .top-navbar {
   background-color: #3B5998;
@@ -77,6 +81,26 @@ ul {
     text-decoration: none;
     color: #555; }
 
+/* EDIT ABOUT */
+.edit-profile-box {
+  resize: none; }
+
+.information-textarea {
+  height: 2em; }
+
+/* PHOTOS */
+.photos-page img:hover {
+  opacity: 0.5; }
+
+/* FRIENDS */
+.friend-box {
+  display: inline-flex; }
+
+.friends-page-img {
+  width: 100px;
+  height: 100px;
+  margin: 15px 15px 15px 0; }
+
 /* TIMELINE */
 .bkg-fix {
   background-color: white;
@@ -146,7 +170,7 @@ ul {
   margin: 15px 0; }
 
 .testfill {
-  height: 200px; }
+  height: 140px; }
 
 .testred {
   background-color: red; }
@@ -156,5 +180,8 @@ ul {
 
 .fill {
   height: 100%; }
+
+.fillw {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
