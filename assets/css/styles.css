@@ -44,7 +44,7 @@ ul {
 
 /* COVER PHOTO BLOCK STYLES */
 .cover-profile-block {
-  border: 1px solid #000; }
+  border: 1px solid #d3d6db; }
   .cover-profile-block .profile-name {
     position: relative;
     color: #FFF;
