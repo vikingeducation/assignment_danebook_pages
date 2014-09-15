@@ -32,7 +32,7 @@
         </button>
       </div>
 
-      <div class="navbar-brand">
+      <div class="navbar-brand col-sm-offset-1">
         <img src="images/logo.gif" alt="mini-profile" id="logo">
         <a href="#" id="logo">Danebook</a> 
       </div>
@@ -42,7 +42,7 @@
           <input type="text" class="custom-form form-control" placeholder="search for users">
         </div>
 
-        <div class=" navbar navbar-right my_name">
+        <div class=" navbar my_name col-sm-offset-10">
             <p>Harry</p>
         </div>
       </div>
@@ -53,113 +53,119 @@
 <main>
 <!-- nav bar -->
 
-<!-- love box -->
+<!-- banner box -->
 
 <div class="jumbotron"> <!-- NOTE: Style background image in CSS -->
   <div class="container">
     <div class="row">
+      <div class="col-sm-12"><img src="images/default_photo.png" id="banner_photo"></div>
     </div>
 
-    <div class="row"> <!--navbar -->
-      <div class="col-sm-2"><img src="images/default_user.gif"><!-- profile picture --></div>
-    
-     <!-- <button class="btn-default col-sm-1">Timeline
-      </button>   
-      <button class="btn-default col-sm-1">About
-      </button>
-      
-      <button class="btn-default col-sm-1">Photos (123)
-      </button>
-      
-      <button class="btn-default col-sm-1">Friends (542)
-      </button>
-    -->
+    <div class="row"> 
+      <div class="col-sm-12"><!--navbar -->
+          <div class="col-sm-2"><img src="images/default_user.gif" id="profile_photo"><!-- profile picture --></div>
+        
+         <!-- <button class="btn-default col-sm-1">Timeline
+          </button>   
+          <button class="btn-default col-sm-1">About
+          </button>
+          
+          <button class="btn-default col-sm-1">Photos (123)
+          </button>
+          
+          <button class="btn-default col-sm-1">Friends (542)
+          </button>
+        -->
 
-    <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
-        <li>Timeline</li>
-        <li>About</li>
-        <li>Photos (123)</li>
-        <li>Friends (542)</li>
-    </ul>
+        <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
+            <li>Timeline</li>
+            <li class="present_tab">About</li>
+            <li>Photos <span class="counter">(123)</span></li>
+            <li>Friends <span class="counter">(542)</span></li>
+            <li class="pull-right"><a href="#">Edit Profile</a></li>
+        </ul>
 
 
-    </div>
+        </div>
+      </div>
   </div>
 </div>
 
-<!-- love box -->
+<!-- banner box -->
 
 <!-- profile panel -->
 
-<div class="container">
+<div class="container about-page-container">
+  <div class="box-header">
+    <div class="row">
+          <h2 class="col-sm-2 col-sm-offset-5">About</h2>
+          <div class="col-sm-2 col-sm-offset-3">
+            <button class="btn-default pull-right edit-button">Edit your profile</button>
+          </div>  
+    </div>
+  </div>
+    <div class="col-sm-12 about-content">
+      <div class="row">
+          <section class="col-sm-5 edit-left-panel">
 
-  <div class="row edit-heading">
-    <h2>Edit Profile</h2>
-  </div><!-- closing row -->
+            <h3>Basic Information</h3>
 
-  <div class="row edit-content">
+            <table>
+            <tr>
+            <td><strong>Birthday</strong></td>
+            <td>July 31st, 1980</td>
+            </tr>
 
-    <section class="col-sm-5 edit-left-panel">
+            <tr>
+            <td><strong>College</strong></td>
+            <td><input type="text" class="custom-form form-control" placeholder="Hogwarts College"></td>
+            </tr>
 
-    <h3>Basic Information</h3>
+            <tr>
+            <td><strong>Hometown</strong></td>
+            <td><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></td>
+            </tr>
 
-    <table>
-    <tr>
-    <td><strong>Birthday</strong></td>
-    <td>July 31st, 1980</td>
-    </tr>
+            <tr>
+            <td><strong>Currently Livesa</strong></td>
+            <td><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></td>
+            </tr>
+            </table>
 
-    <tr>
-    <td><strong>College</strong></td>
-    <td><input type="text" class="custom-form form-control" placeholder="Hogwarts College"></td>
-    </tr>
+            <h3>Contact Information</h3>
+            <table>
+            <tr>
+            <td><strong>Email</strong></td>
+            <td>harry_potter@hogwarts.edu</td>
+            </tr>
 
-    <tr>
-    <td><strong>Hometown</strong></td>
-    <td><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></td>
-    </tr>
-
-    <tr>
-    <td><strong>Currently Livesa</strong></td>
-    <td><input type="text" class="custom-form form-control" placeholder="Godrick's Hollow, England"></td>
-    </tr>
-    </table>
-
-    <h3>Contact Information</h3>
-    <table>
-    <tr>
-    <td><strong>Email</strong></td>
-    <td>harry_potter@hogwarts.edu</td>
-    </tr>
-
-    <tr>
-    <td><strong>Telephone</strong>
-    <td><input type="text" class="custom-form form-control" placeholder="555-123-4567"></td>
-    </tr>
-    </table>
-    </section>
+            <tr>
+            <td><strong>Telephone</strong>
+            <td><input type="text" class="custom-form form-control" placeholder="555-123-4567"></td>
+            </tr>
+            </table>
+          </section>
 
     <section class"col-sm-7 about-right-panel">
       <h3>Words To Live By</h3>
-      <input type="text" class="quotes-input" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut">
+      <textarea rows="3" class="quotes-input col-sm-7" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut"></textarea>
 
       <h3>About Me</h3>
-      <input type="text" class="about-input" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <textarea rows="10" class="about-input col-sm-7" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."></textarea>
     </section>
+    </div>
 
-  </div><!-- closing about about-content row -->
+    <div class="row"
+    <section class="col-sm-2 col-sm-offset-5 ">
+    <button type="button" class="btn btn-primary btn-lg btn-success btn-block btn-signup save-button">Save Changes</button>
+    </section>
+    </div>
 
-  <div class="row">
-    <section class="col-sm-4 col-sm-offset-3 ">
 
-    <button type="button" class="btn btn-primary btn-lg btn-success btn-block btn-signup">Save Changes</button>
+      </div><!-- closing row -->
+      </div><!-- closingcolspace -->
+</div><!-- Closing container -->
 
-  </section>
-  </div>
-
-  </div><!-- Closing container -->
-
-</div>
 
 <!-- profile panel -->
 

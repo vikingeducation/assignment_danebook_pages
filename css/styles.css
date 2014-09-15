@@ -132,9 +132,41 @@ figure {
 	border-right: none;
 }
 
-.box-container .box-header h2 {
+.box-header h2 {
 	text-align:center;
+	line-height: 0.5px;
+	padding-top: -1px;
 }
 
+.edit-button{
+	background-color: #3B5998;
+	color: #FFF;
+	margin-top: 2px;
+}
 
+.about-left-panel tr{
+	line-height: 4
+}
 
+.box-header{
+	border: 1px solid black;
+}
+.about-content{
+	border: 1px solid black;
+	margin-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.save-button{
+	background-color: #3B5998;
+	color: #FFF;
+	text-align: center;
+}
+
+.edit-left-panel tr{
+	line-height: 4;
+}
+
+.about-right-panel .{
+}
