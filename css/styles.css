@@ -143,6 +143,10 @@ figure {
 	color: #FFF;
 	margin-top: 2px;
 }
+.edit-button:hover {
+	background-color:#5C8AEC;
+	color:#FFF;
+}
 
 .about-left-panel tr{
 	line-height: 4
@@ -162,11 +166,21 @@ figure {
 	background-color: #3B5998;
 	color: #FFF;
 	text-align: center;
+	margin-top:20px;
+	margin-bottom:50px;
+	border: #3B5998;
+}
+.save-button:hover{
+	background-color:#5C8AEC;
+	border: #3B5998;
 }
 
 .edit-left-panel tr{
 	line-height: 4;
 }
 
-.about-right-panel .{
+textarea {
+	margin-bottom:30px;
+	resize:none;
 }
+
