@@ -1,11 +1,14 @@
 /* styles.scss */
 /* VARIABLES */
 $danebook-blue:#3B5998;
+$title-block-grey: rgb(247,247,247);
+$background-grey: rgb(236,236,239);
+$primary-border-grey: #d3d6db;
 
 /* UNVERSAL STYLES */
 
 body {
-	padding-top:50px;
+	padding-top:40px;
 }
 
 /* NAVBAR STYLES */
@@ -29,6 +32,10 @@ body {
 			}
 		}
 	}
+}
+
+ul {
+	list-style: none;
 }
 
 .menu-btn {
@@ -94,7 +101,7 @@ body {
 	.menu-item {
 		float:left;
 		padding: 0 10px;
-		border: 1px solid #000;
+		border: 1px solid $primary-border-grey;
 		a {
 			text-decoration: none;
 			color: #555;
@@ -102,38 +109,113 @@ body {
 
 	}
 
-	.top-buffer {
-		margin-top: 20px;
-	}
+/* TIMELINE */
 
-	.buffer {
-		margin: 15px 0;
-	}
-
-	.grey-title {
-		border: 1px solid #000;
-		background-color: #ddd;
-		height: 40px;
-	}
-	
-	.test {
-		background-color:white;
-		// height: 200px;
-		border:2px dotted black;
-	}
-
-	.testfill {
-		height: 200px;
-	}
+.bkg-fix {
+	background-color:white;
+	// height: 200px;
+	border:1px solid $primary-border-grey;
+	border-radius: 3px;
+}
 
 
-	.testred {
-		background-color:red;
-		height: 100%;
-	}
+.post-input{
+	margin: 20px 0;
+	height: 63px;
+	width: 100%;
+	border: 1px solid $primary-border-grey;
+	word-wrap: break-all;
+	resize:none;
+}
 
-	.testblue {
-		background-color:blue;
-		height: 100%;
+.post-button {
+	margin: 5px;
+	background-color:rgb(83,129,227);
+	color: white;
+}
+
+.post-friend {
+	display:inline-flex;
+	vertical-align: middle;
+}
+
+.post-friend-thumb {
+	width: 60px;
+	height: 60px;
+	overflow:none;
+	padding:5px;
+
+}
+
+.post-friend-info {
+	padding-top: 10px;
+}
+
+.post-text {
+	padding-left:15px;
+	margin: 5px;
+}
+
+.comment-friend-thumb {
+	width:65px;
+	height: auto;
+}
+
+.grey-title {
+	border: 1px solid $primary-border-grey;
+	background-color: $title-block-grey;
+	height: 40px;
+	text-align: center;
+}
+
+.grey-footer {
+	border: 1px solid $primary-border-grey;
+	background-color: $title-block-grey;
+	height: 100%;
+	padding: 5px 0;
+}
+
+.like-or-comment{
+	a{
+		padding-right: 10px;
 	}
+}
+
+.delete-post{
+	a{
+		float:right;
+	}
+}
+
+#cancel {
+	float: left;
+}
+
+/* test tools */
+
+.top-buffer {
+	margin-top: 20px;
+}
+
+.buffer {
+	margin: 15px 0;
+}
+
+.testfill {
+	height: 200px;
+}
+
+
+.testred {
+	background-color:red;
+}
+
+.testblue {
+	background-color:blue;
+
+}
+
+.fill {
+	height:100%
+}
 
