@@ -1,0 +1,4 @@
+# ignore sass files 
+/assets/css/styles.css.map
+.sass-cache/*
+/assets/css/.sass-cache/*
