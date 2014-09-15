@@ -43,7 +43,7 @@
 	height:103px;
 }
 .box-container td {
-	padding:2px;
+	padding:4px;
 }
 .box-container .box-container-span {
 	text-align:center;
@@ -63,10 +63,7 @@
 	margin-left:5px;
 	margin-bottom:10px;
 }
-.post-footer-links li {
-	display:inline-block;
-	padding-left:20px;
-}
+
 .post-comments .alt-post-date { 
 	display:inline-block;
 
@@ -83,7 +80,7 @@
 	width:206px;
 }
 
-.box-container figcaption {
+.box-container .photos figcaption {
     display: none;
     position: absolute;
     left: 0;
@@ -91,11 +88,11 @@
     right: 0;
     background-color: rgba(0,0,0,.15);
 }
-figure:hover figcaption {
+.photos figure:hover figcaption {
 	display:block;
 }
 
-figure {
+.photos figure {
     position: relative;
     display: inline-block;
 }
@@ -183,4 +180,125 @@ textarea {
 	margin-bottom:30px;
 	resize:none;
 }
+.box-container, .post-box {
+	border:1px solid black;
+	margin-bottom:20px;
+}
 
+.box-container h3 {
+	text-align:center;
+	border-bottom:1px solid black;
+	margin:0;
+	background-color:#EDF0F5;
+}
+.box-container table {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:7px;
+}
+
+figcaption {
+	text-align:center;
+	text-decoration:underline;
+}
+.box-container-bottom {
+	text-align:right;
+	background-color:#EDF0F5;
+}
+.box-container-bottom button {
+	margin-right:30px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.box-container textarea {
+	margin-bottom:0;
+	width:99%;
+	margin:auto;
+	margin-top:3px;
+}
+
+.post-box .post-date, .alt-post-date {
+	color:#BEBBBB;
+	font-size:.8em;
+}
+.post-body {
+	border-bottom:1px solid black;
+}
+.post-footer ul{
+	background-color:#EDF0F5;
+	margin:0;
+	-webkit-padding-start: 5px;
+
+}
+.post-footer ul li a {
+	text-decoration: underline;
+}
+.post-footer-links li {
+	display:inline-block;
+}
+.post-footer-links #delete {
+	margin-right:10px;
+}
+
+.post-footer-links #like {
+	padding-right:25px;
+}
+.post-box p {
+	padding:5px;
+}
+.post-footer .comment-body p {
+	padding-left:45px;
+	margin-top:-10px;
+}
+h6 {
+	padding-left:5px;
+}
+.alt-user-header {
+	padding-top:20px;
+}
+.alt-user-header h6 {
+	margin-top:0;
+}
+.like-bar p{
+	margin:0;
+	background-color:#EDF0F5;
+	padding-left:5px;
+}
+.comm-like-bar p{
+	margin:0;
+	background-color:#EDF0F5;
+	padding-left:45px;
+}
+.like-bar p a{
+	text-decoration: underline
+}
+.post-comments {
+	border-top:1px solid #BEBBBB;
+		background-color:#EDF0F5;
+}
+.comment-body p {
+	margin-bottom:-5px;
+}
+.grey-text p {
+	color:#BEBBBB;
+}
+.grey-text a {
+	text-decoration: underline;
+}
+.comm-like-bar #delete {
+	margin-right:5px;
+}
+#comment_text {
+	margin-top:5px;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-5px;
+}
+#comm_cancel_bar p{
+	display:inline-block;
+	padding-left:18px;
+}
+#comm_cancel_bar button {
+	margin-right:18px;
+}

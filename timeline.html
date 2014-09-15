@@ -92,6 +92,7 @@
 	<!-- Begin below banner photo -->
 	<div class="container"> 
 		<div class="row">
+			<div class="col-sm-12">
 			<section class="col-sm-4"> <!-- left side -->
 				<div class="box-container">
 					<h3>About</h3>
@@ -142,14 +143,14 @@
 					<h3>Friends (542)</h3>
 						<table>
 							<tr>
-								<td><img src="images/default_user.gif"><figcaption class="box-container-span"><a href="#">Ron<br />Weasley</a></figcaption></td>
-								<td><img src="images/default_user.gif"><figcaption class="box-container-span"><a href="#">Ginny<br />Weasley</a></figcaption></td>
-								<td><img src="images/default_user.gif"><figcaption class="box-container-span"><a href="#">Hermione<br />Granger</a></figcaption></td>
+								<td><figure><img src="images/default_user.gif"><figcaption><a href="#">Ron<br />Weasley</a></figcaption></figure></td>
+								<td><img src="images/default_user.gif"><figure><figcaption><a href="#">Ginny<br />Weasley</a></figcaption></figure></td>
+								<td><img src="images/default_user.gif"><figure><figcaption><a href="#">Hermione<br />Granger</a></figcaption></figure></td>
 							</tr>
 							<tr>
-								<td><img src="images/default_user.gif"><figcaption class="box-container-span"><a href="#">paragraph<br />text</a></figcaption></td>
-								<td><img src="images/default_user.gif"><figcaption class="box-container-span"><a href="#">paragraph<br />text</a></figcaption></td>
-								<td><img src="images/default_user.gif"><figcaption class="box-container-span"><a href="#">paragraph<br />text</a></figcaption></td>
+								<td><img src="images/default_user.gif"><figure><figcaption><a href="#">paragraph<br />text</a></figcaption></figure></td>
+								<td><img src="images/default_user.gif"><figure><figcaption><a href="#">paragraph<br />text</a></figcaption></figure></td>
+								<td><img src="images/default_user.gif"><figure><figcaption><a href="#">paragraph<br />text</a></figcaption></figure></td>
 							</tr>
 						</table>
 						<div class="box-container-span"><a href="#">See More Friends</a></div>  
@@ -185,9 +186,9 @@
 
 					<div class="post-footer"><!-- the footer holds the post comments, like buttons, etc -->
 						<ul class="post-footer-links">
-							<li><a href="#">Like</a></li>
+							<li><a id="like" href="#">Like</a></li>
 							<li><a href="#">Comment</a></li>
-							<li><a href="#">Delete</a></li>
+							<li class="pull-right" id="delete"><a href="#">Delete</a></li>
 						</ul>
 					</div>
 				</div>
@@ -210,9 +211,9 @@
 
 					<div class="post-footer"><!-- the footer holds the post comments, like buttons, etc -->
 						<ul class="post-footer-links">
-							<li><a href="#">Like</a></li>
+							<li><a id="like" href="#">Like</a></li>
 							<li><a href="#">Comment</a></li>
-							<li><a href="#">Delete</a></li>
+							<li class="pull-right" id="delete"><a href="#">Delete</a></li>
 						</ul>
 						<div class="like-bar">
 							<p><a href="#">Hermione Granger</a> likes this.</p>
@@ -239,9 +240,9 @@
 
 					<div class="post-footer"><!-- the footer holds the post comments, like buttons, etc -->
 						<ul class="post-footer-links">
-							<li><a href="#">Like</a></li>
+							<li><a id="like" href="#">Like</a></li>
 							<li><a href="#">Comment</a></li>
-							<li><a href="#">Delete</a></li>
+							<li class="pull-right" id="delete"><a href="#">Delete</a></li>
 						</ul>
 						<div class="like-bar">
 							<p>You and <a href="#">Hermione Granger</a> and 3 others like this.</p>
@@ -249,8 +250,8 @@
 						<div class="post-comments"><!-- contains other user comments on a user post -->
 							<div class="alt-user-header">
 								<img class="post-user-image" src="images/default_user.gif">
-								<div class="alt-name-date"><h6><a href="#">Ron Weasley</a></h6>
-								<p class="alt-post-date"> Said on Thursday 5/21/2014.</p>
+								<div class="alt-name-date"><h6> <a href="#">Ron Weasley</a></h6>
+								<p class="alt-post-date">said on Thursday 5/21/2014.</p>
 								</div>
 							</div>
 
@@ -260,14 +261,14 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. Duis aute irure dolor in reprehenderit in</p>
 							</div>
-							<div class="like-bar">
+							<div class="comm-like-bar grey-text">
 								<p><a href="#">Like</a> 3 other people like this</p> 
 							</div>
 
 							<div class="alt-user-header">
 								<img class="post-user-image" src="images/default_user.gif">
-								<div class="alt-name-date"><h6><a href="#">Harry Potter</a></h6>
-								<p class="alt-post-date"> Said on Friday 5/22/2014.</p>
+								<div class="alt-name-date"><h6> <a href="#">Harry Potter</a></h6>
+								<p class="alt-post-date">said on Friday 5/22/2014.</p>
 								</div>
 							</div>
 
@@ -277,19 +278,22 @@
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. Duis aute irure dolor in reprehenderit in</p>
 							</div>
-							<div class="like-bar">
-								<p><a href="#">Like</a> 3 other people like this.<span class="delete-button"><a href="#">Delete</a></span></p>
+							<div class="comm-like-bar grey-text">
+								<p><a href="#">Like</a> 3 other people like this.<span class="pull-right" id="delete"><a href="#">Delete</a></span></p>
 							</div>
 						</div>
 						
 						<form role="form">
 							<div class="form-group">
-								<textarea class="form-control" rows="3" placeholder="Write a comment.."></textarea>
+								<textarea id="comment_text" class="form-control" rows="3" placeholder="Write a comment.."></textarea>
 							</div>
-							<p><a href="#">Cancel</a></p>
-									<button class="btn btn-primary">Comment</button>
+							
+							<div id="comm_cancel_bar">
+								<p><a href="#">Cancel</a></p>
+								<button class="pull-right btn btn-primary">Comment</button>
+							</div>
 						</form>
-					</div>
+					</div>	
 				</div>
 
 
@@ -298,7 +302,7 @@
 
 
 
-
+			</div>
 		</div>
 	</div>
 
