@@ -79,15 +79,21 @@
 	padding-left:30px;
 }
 .box-container .photo-page-img {
-	height:206px;
-	width:206px;
+	height:250px;
+	width:250px;
+	margin-right: 20px;
+}
+
+.box-container .photo-page-img:nth-child(odd) {
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 .box-container figcaption {
     display: none;
     position: absolute;
     left: 0;
-    bottom: 5px;
+    bottom: 5px;k
     right: 0;
     background-color: rgba(0,0,0,.15);
 }
@@ -169,4 +175,31 @@ figure {
 }
 
 .about-right-panel .{
+}
+
+.friend-tile {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.friend-tile img{
+	width: 300px;
+	display: inline-block;
+}
+
+.friend-tile p{
+	display: inline-block;
+}
+
+.friend-tile button{
+	display: inline-block;
+}
+
+.friend-tile:nth-child(even){
+	margin-left: 8px;
+}
+
+.first-row, .third-row{
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
