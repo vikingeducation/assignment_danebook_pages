@@ -32,7 +32,7 @@
         </button>
       </div>
 
-      <div class="navbar-brand">
+      <div class="navbar-brand col-sm-offset-1">
         <img src="images/logo.gif" alt="mini-profile" id="logo">
         <a href="#" id="logo">Danebook</a> 
       </div>
@@ -42,7 +42,7 @@
           <input type="text" class="custom-form form-control" placeholder="search for users">
         </div>
 
-        <div class=" navbar navbar-right my_name">
+        <div class=" navbar my_name col-sm-offset-10">
             <p>Harry</p>
         </div>
       </div>
@@ -53,130 +53,114 @@
 <main>
 <!-- nav bar -->
 
-<!-- love box -->
+<!-- banner box -->
 
 <div class="jumbotron"> <!-- NOTE: Style background image in CSS -->
   <div class="container">
     <div class="row">
+      <div class="col-sm-12"><img src="images/default_photo.png" id="banner_photo"></div>
     </div>
 
-    <div class="row"> <!--navbar -->
-      <div class="col-sm-2"><img src="images/default_user.gif"><!-- profile picture --></div>
-    
-     <!-- <button class="btn-default col-sm-1">Timeline
-      </button>   
-      <button class="btn-default col-sm-1">About
-      </button>
-      
-      <button class="btn-default col-sm-1">Photos (123)
-      </button>
-      
-      <button class="btn-default col-sm-1">Friends (542)
-      </button>
-    -->
+    <div class="row"> 
+      <div class="col-sm-12"><!--navbar -->
+          <div class="col-sm-2"><img src="images/default_user.gif" id="profile_photo"><!-- profile picture --></div>
+        
+         <!-- <button class="btn-default col-sm-1">Timeline
+          </button>   
+          <button class="btn-default col-sm-1">About
+          </button>
+          
+          <button class="btn-default col-sm-1">Photos (123)
+          </button>
+          
+          <button class="btn-default col-sm-1">Friends (542)
+          </button>
+        -->
 
-    <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
-        <li>Timeline</li>
-        <li>About</li>
-        <li>Photos (123)</li>
-        <li>Friends (542)</li>
-    </ul>
-    </div>
+        <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
+            <li>Timeline</li>
+            <li class="present_tab">About</li>
+            <li>Photos <span class="counter">(123)</span></li>
+            <li>Friends <span class="counter">(542)</span></li>
+            <li class="pull-right"><a href="#">Edit Profile</a></li>
+        </ul>
+
+
+        </div>
+      </div>
   </div>
 </div>
 
-<!-- love box -->
+<!-- banner box -->
 
 <!-- profile panel -->
 
-<div class="container">
+<div class="container about-page-container">
+  <div class="box-header">
+    <div class="row">
+          <h2 class="col-sm-2 col-sm-offset-5">Friends</h2>
+    </div>
+  </div>
+    <div class="col-sm-12 about-content">
+      
+      <div class="row friend-container">
 
-  <div class="row friends-heading">
-    <h2>Friends</h2>
-  </div><!-- closing row -->
+        <div class="friend-tile first-row">
+           <img src="images/default_photo.png">
+            <p><a href="#">Hermione Granger</a><br>432 Friends</td></p>
+            <button type="button" class="btn">Unfriend Me</button>
+        </div>
 
-  <div class="row friends-list">
+        <div class="friend-tile first-row">
+           <img src="images/default_photo.png">
+            <p><a href="#">Hermione Granger</a><br>432 Friends</td></p>
+            <button type="button" class="btn">Unfriend Me</button>
+        </div>
 
-    <section class="friends-list-tile">
+        <div class="friend-tile second-row">
+           <img src="images/default_photo.png">
+            <p><a href="#">Hermione Granger</a><br>432 Friends</td></p>
+            <button type="button" class="btn">Unfriend Me</button>
+        </div>
+        <div class="friend-tile second-row">
+           <img src="images/default_photo.png">
+            <p><a href="#">Hermione Granger</a><br>432 Friends</td></p>
+            <button type="button" class="btn">Unfriend Me</button>
+        </div>
+        <div class="friend-tile third-row">
+           <img src="images/default_photo.png">
+            <p><a href="#">Hermione Granger</a><br>432 Friends</td></p>
+            <button type="button" class="btn">Unfriend Me</button>
+        </div>
+        <div class="friend-tile third-row">
+           <img src="images/default_photo.png">
+            <p><a href="#">Hermione Granger</a><br>432 Friends</td></p>
+            <button type="button" class="btn">Unfriend Me</button>
+        </div>
 
-      <table>
-      <tr>
-        <td><img src="images/default_photo.png"></td>
-        <td><a href="#">Hermione Granger</a><br>432 Friends</td>
-        <td><button type="button" class="btn">Unfriend Me</button>
-      </tr>
-      </table>
-    
-    </section>
+    </div><!-- closing row -->
+      </div><!-- closingcolspace -->
+</div><!-- Closing container -->
 
-    <section class="friends-list-tile">
 
-      <table>
-      <tr>
-        <td><img src="images/default_photo.png"></td>
-        <td><a href="#">Hermione Granger</a><br>432 Friends</td>
-        <td><button type="button" class="btn">Unfriend Me</button>
-      </tr>
-      </table>
-    
-    </section>
-
-    <section class="friends-list-tile">
-
-      <table>
-      <tr>
-        <td><img src="images/default_photo.png"></td>
-        <td><a href="#">Hermione Granger</a><br>432 Friends</td>
-        <td><button type="button" class="btn">Unfriend Me</button>
-      </tr>
-      </table>
-    
-    </section>
-
-    <section class="friends-list-tile">
-
-      <table>
-      <tr>
-        <td><img src="images/default_photo.png"></td>
-        <td><a href="#">Hermione Granger</a><br>432 Friends</td>
-        <td><button type="button" class="btn">Unfriend Me</button>
-      </tr>
-      </table>
-    
-    </section>
-
-    <section class="friends-list-tile">
-
-      <table>
-      <tr>
-        <td><img src="images/default_photo.png"></td>
-        <td><a href="#">Hermione Granger</a><br>432 Friends</td>
-        <td><button type="button" class="btn">Unfriend Me</button>
-      </tr>
-      </table>
-    
-    </section>
-
-    <section class="friends-list-tile">
-
-      <table>
-      <tr>
-        <td><img src="images/default_photo.png"></td>
-        <td><a href="#">Hermione Granger</a><br>432 Friends</td>
-        <td><button type="button" class="btn">Unfriend Me</button>
-      </tr>
-      </table>
-    
-    </section>
-
-  </div><!-- closing friends-list row -->
-
-  </div><!-- Closing container -->
-
-</div>
+<!-- profile panel -->
 
 </main>
 
 </body>
 
 </html><!-- Your markup here! -->
+
+
+<!-- TABLE VERSION OF FRIEND-TILE-SET
+
+         <table>
+          <tr>
+            <td><img src="images/default_photo.png"></td>
+            <td><a href="#">Hermione Granger</a><br>432 Friends</td>
+            <td><button type="button" class="btn">Unfriend Me</button>
+          </tr>
+          </table>
+
+
+           -->
