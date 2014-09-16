@@ -22,14 +22,27 @@
 	margin: 0;
 }
 
-.form-control .full-width, .cover-photo{
+.form-control .full-width{
 	width: 100%;
 }
 
+.cover-photo{
+	z-index: -1;
+	position: absolute;
+}
+
+.photos{
+	height: 100%;
+}
+/*.middle-bar{
+	padding-top: 10%%;
+}*/
+
 .user-photo{
 	position: absolute;
-	top: 32%;
-	left: -15px;
+	top: 400%;
+	left: 1%;
+	/*z-index: 100;*/
 }
 
 .top-images{
