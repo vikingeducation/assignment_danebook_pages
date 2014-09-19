@@ -6,10 +6,12 @@
 	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+	
+	<!-- Custom CSS stylesheet -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -17,116 +19,109 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default page-margins" role="navigation">
-    <div class="container-fluid" style="padding: 0">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <!-- <img src="assets/icon_photo_small.png"> -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      
-      <nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid background-blue navbar-fixed-top">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div style="margin-left: 110%"><img src="assets/images/icon_photo_small.png"></div>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse page-margins" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav" style="margin-left: 5%">
-        <li class="brand">Danebook</li>  
-      </ul>
-      <form class="navbar-form navbar-left searchbar" style='margin-left: 2%'role="search">
-          <!-- //REVISIT -->
-          <input type="text" class="form-control" style="width: 100%" placeholder="Search for Users">
-      </form>
-      <ul class="nav navbar-nav" style="margin-left: 13.5%">
-        <li class='brand'style="margin-left: 18%"><a href="#">Harry</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			<img class="logo" src="assets/images/danish_flag.gif" width="50px" height="50px">
+			</div>
+ 
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="brand">Danebook</li>  
+				</ul>
+				<form class="navbar-form navbar-left searchbar" role="search">
+					<!-- //REVISIT -->
+					<input type="text" class="form-control" style="width: 100%" placeholder="Search for Users">
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Harry</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
       
 
-  <section style="border: solid; border-color: #000">
-    <div class="container" style="padding:0; margin-left: 0">
-      <img src="assets/images/danish_flag.gif">
-    </div>
-
-    <ul class="nav nav-pills" style="margin-left: 15%; font-color: #000; border: solid; border-color: #000" role="tablist">
-      <li style="border: solid; border-color: #000; border-width: 2px"><a href="#">Timeline</a></li>
-      <li style="border: solid; border-color: #000; border-width: 2px" class="active"><a href="#">About</a></li>
-      <li style="border: solid; border-color: #000; border-width: 2px"><a href="#">Photos</a></li>
-      <li style="border: solid; border-color: #000; border-width: 2px"><a href="#">Friends</a></li>
-      <a style='float:right; font-color:#06f; margin-right: 1%; padding-top:1.5%; border-width: 2px' href="#"><u>Edit Profile</u></a>
-    </ul>
-  </section>
-
-  <section style="padding-top: 1%">
-    <div style="background-color: #d3d3d3; border: solid; border-color: #000">
-    	<span style="margin-left:42%; padding-left: 1%" class='brand-black'><strong>About</strong></span>
-    	<button class="btn btn-primary" style="float: right; margin-top: .1%; margin-right: 3%; border: solid; border-color: #000">Edit Your Profile</button>
-    </div>
-  </section>
-  
+ <div class="container">
+ 	
+	  <header class="header">
+	
+	      <div class="row top-part">
+	      	  <img class="cover-photo" src="assets/images/hogwarts_small.jpg">
+	      	  <img class='user-photo' src="assets/images/harry_potter_small.jpg">
+	      	  <p class="user-name">Harry Potter</p>
+	      </div>
+	      
+	      <div class="row tablist">
+	  	  	  <ul class ="nav nav-pills" role="tablist">
+	  	          <li><a href="#">Timeline</a></li>
+	  	          <li class="active"><a href="#">About</a></li>
+	  	          <li><a href="#">Photos</a></li>
+	  	          <li><a href="#">Friends</a></li>
+	  	          <a href="#">Edit Profile</a>
+	  	      </ul>
+	     </div>
+	      
+	     
+	  </header>  	
+	
+	  <section>
+	    <div>
+	    	<span>About</span>
+	    	<button class="btn btn-primary">Edit you profile</button>
+	    </div>
+	  </section>
+   
   <section>
   	<div class="container">
   		<div class="col-md-5">
-        <div class="col-sm-12">
-    			<h3><strong>Basic Information</strong></h3>
-  	  			<ul style='padding-left: 0'>
-    					<li class="list-spacing">
-                  <strong><span style="float: left">Birthday:</span></strong>
-                  <span style="float: right">July 31st, 1980</span>
-              </li>
-              <li class="list-spacing">
-                  <strong><span style="float: left">College:</span></strong>
-                  <span style="float: right">Hogwarts College</span>
-              </li>
-    					<li class="list-spacing">
-                  <strong><span style="float: left">Hometown:</span></strong>
-                  <span style="float: right">Godrick's Hollow, England</span>
-              </li>
-              <li class="list-spacing">
-                  <strong><span style="float: left">Currently Lives:</span></strong>
-                  <span style="float: right">Godrick's Hollow, England</span>
-              </li>  					
-    		  	<ul>
+  			<h3>Basic Information</h3>
+  				<div class="col-sm-6">
+  			
+	  			<ul>
+  					<li><strong>Birthday:</strong></li>
+  					<li><strong>College:</strong></li>
+  					<li><strong>Hometown:</strong></li>
+  					<li><strong>Currently Lives:</strong></li>
+  				</ul>
+  		  </div><!--/.col-sm-6 -->
+  		  <div class="col-sm-6">
+  		  	<ul>
+  		  		<li>July 31st, 1980</li>
+  		  		<li>Hogwarts College</li>
+  		  		<li>Godrick's Hollow, England</li>
+  		  		<li>Godrick's Hollow, England</li>
+  		  	<ul>
   		  </div><!--/.col-sm-6 -->
   			
-  			<div class="col-sm-12">
-          <h3><strong>Contact Information</strong></h3>
-            <ul style='padding-left: 0'>
-              <li class="list-spacing">
-                  <strong><span style="float: left">Email:</span></strong>
-                  <span style="float: right">harry_potter@hogwarts.edu</span>
-              </li>
-              <li class="list-spacing">
-                  <strong><span style="float: left">Telephone:</span></strong>
-                  <span style="float: right">555-123-4567</span>
-              </li>
-            </ul>
-        </div>
-
+  			<h3>Contact Information</h3>
+        <div class="col-sm-6">
+          <ul>
+            <li><strong>Email:</strong></li>
+            <li><strong>Telephone:</strong></li>
+          </ul>
+        </div><!--/.col-sm-6 -->
+        <div class="col-sm-6">
+          <ul>
+            <li>harry_potter@hogwarts.edu</li>
+            <li>555-123-4567</li>
+          <ul>
+        </div><!--/.col-sm-6 -->
   		</div><!--/.col-md-5 -->
   		
   		<div class="col-md-7">
-  			<h3><strong>Words to Live By</strong></h3>
+  			<h3>Words to Live By</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <h3><strong>About Me</strong></h3>
+        <h3>About Me</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   		
       </div>
@@ -135,7 +130,7 @@
   </section>
 	
 	
-	
+</div><!--/container -->	
 </body>
 
 </html>
