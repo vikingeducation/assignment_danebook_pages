@@ -1,9 +1,14 @@
 body {
-  padding-top: 70px;
+//  padding-top: 70px;
 }
 
 .navbar {
   background-color: #2B78E4;
+  .navbar-toggle {
+    .icon-bar {
+    background-color: #FFF;
+    }
+  }
 }
 
 .navbar-default {
@@ -14,6 +19,13 @@ body {
     color: white;
   }
 }
+
+.jumbotron {
+  #cover-photo {
+    width:100%;
+  }
+}
+
 
 #user-search-bar {
   width: 100%;
