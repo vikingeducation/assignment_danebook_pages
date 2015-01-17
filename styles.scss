@@ -16,6 +16,10 @@
   }
 }
 
+h1 {
+  font-family: "Comic Sans MS";
+}
+
 .jumbotron {
   #cover-photo {
     width: 100%;
@@ -23,9 +27,17 @@
   }
   #profile-photo {
     border: 3px white solid;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  #photos-panel {
+    position: relative;
+    height: 300px;
   }
 }
 
+$cover-photo-height: 300px;
 
 #user-search-bar {
   width: 100%;
