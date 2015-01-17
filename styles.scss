@@ -1,0 +1,10 @@
+body {
+  padding-top: 70px;
+}
+
+#user-search-bar {
+  width: 100%;
+  @media(min-width:992px) {
+    width: 300%;
+  }
+}

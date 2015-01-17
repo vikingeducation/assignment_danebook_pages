@@ -1,3 +1,10 @@
+body {
+  padding-top: 70px; }
 
+#user-search-bar {
+  width: 100%; }
+  @media (min-width: 992px) {
+    #user-search-bar {
+      width: 300%; } }
 
 /*# sourceMappingURL=styles.css.map */
