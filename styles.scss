@@ -2,13 +2,26 @@ body {
   padding-top: 70px;
 }
 
+.navbar {
+  background-color: #2B78E4;
+}
+
+.navbar-default {
+  .navbar-brand {
+    color: white;
+  }
+  .navbar-nav>li>a {
+    color: white;
+  }
+}
+
 #user-search-bar {
   width: 100%;
   @media(min-width:992px) {
     width: 300%;
     transform: translateX(15%);
   }
-  @media (min-width: 768px) and (max-width: 992px) {
+  @media (min-width:768px) and (max-width:992px) {
     width: 200%;
   }
 }
