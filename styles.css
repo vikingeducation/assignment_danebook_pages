@@ -5,6 +5,10 @@ body {
   width: 100%; }
   @media (min-width: 992px) {
     #user-search-bar {
-      width: 300%; } }
+      width: 300%;
+      transform: translateX(15%); } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    #user-search-bar {
+      width: 200%; } }
 
 /*# sourceMappingURL=styles.css.map */
