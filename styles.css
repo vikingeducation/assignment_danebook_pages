@@ -8,11 +8,19 @@
 .navbar-default .navbar-nav > li > a {
   color: white; }
 
-.jumbotron #cover-photo {
+#cover-photo {
   width: 100%;
   max-height: 300px; }
-.jumbotron #profile-photo {
-  border: 3px white solid; }
+
+#profile-photo {
+  border: 3px white solid;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+#photos-panel {
+  position: relative;
+  height: 300px; }
 
 #user-search-bar {
   width: 100%; }
