@@ -24,6 +24,10 @@ $facebook-blue:  #3b5998;
   width: 50%;
 }
 
+.full-width{
+  width: 100%;
+}
+
 // .searchbar{
 //  width: 700px;
 // }
@@ -36,4 +40,8 @@ $facebook-blue:  #3b5998;
 
 .padding-20{
   padding-top: 5px;
+}
+
+.fb-nav-button {
+  border: 2px solid black;
 }
