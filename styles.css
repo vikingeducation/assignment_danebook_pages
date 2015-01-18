@@ -39,7 +39,9 @@
       width: 200%; } }
 
 main {
-  border: 2px black solid; }
+  border: 2px black solid;
+  margin-bottom: 40px;
+  padding-bottom: 15px; }
   main .section-banner {
     border-bottom: 2px black solid;
     background-color: #EEE;
@@ -68,7 +70,22 @@ main {
   color: white;
   box-shadow: 4px 4px 2px #888888;
   margin-left: 50%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  margin-top: 20px;
+  width: 200px;
+  font-size: 1.6em; }
+
+.friend-tile {
+  border: 2px black solid;
+  margin: 15px 5px;
+  padding: 15px 0; }
+  .friend-tile .unfriend {
+    position: relative;
+    height: 100px; }
+    .friend-tile .unfriend button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
 
 #timeline {
   margin-top: 100px; }
