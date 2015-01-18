@@ -146,9 +146,30 @@ main {
   article {
     border: 2px black solid;
     padding: 0 15px;
+    margin-bottom: 15px;
+    .centered-text {
+      text-align: center;
+    }
+  }
+  textarea {
+    width: 100%;
   }
   .article-top-line {
     border-bottom: 2px black solid;
     background-color: #EEE;
+    margin-bottom: 10px;
+    text-align: center;
+    h3 {
+      margin: 0;
+      line-height: $section-banner-height;      
+    }
+  }
+  .post-button {
+    button {
+      background-color: $background-blue;
+      color: white;
+      box-shadow: $button-shadowing;     
+      margin-bottom: 10px;
+    }
   }
 }

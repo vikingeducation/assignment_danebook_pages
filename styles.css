@@ -109,9 +109,24 @@ main {
   border: none; }
   #timeline article {
     border: 2px black solid;
-    padding: 0 15px; }
+    padding: 0 15px;
+    margin-bottom: 15px; }
+    #timeline article .centered-text {
+      text-align: center; }
+  #timeline textarea {
+    width: 100%; }
   #timeline .article-top-line {
     border-bottom: 2px black solid;
-    background-color: #EEE; }
+    background-color: #EEE;
+    margin-bottom: 10px;
+    text-align: center; }
+    #timeline .article-top-line h3 {
+      margin: 0;
+      line-height: 60px; }
+  #timeline .post-button button {
+    background-color: #2B78E4;
+    color: white;
+    box-shadow: 4px 4px 2px #888888;
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
