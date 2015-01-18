@@ -127,19 +127,17 @@ main {
   position: relative;
   .caption {
     display: none;
-    &:hover * {
-      position: absolute;
-      bottom: 0;
-      left: 0;  
-      display: block;
-      z-index: 1;
-      }
-    }
-//  img:hover {
-//    .caption {
-
-//    }
-//  }
+  }
+  a:hover + .caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    z-index: 1;
+    background-color: #999;
+    opacity: 0.9;
+    margin: 0 auto 15px;
+    color: white;
+  }
 }
 
 

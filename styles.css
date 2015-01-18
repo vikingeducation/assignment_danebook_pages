@@ -95,12 +95,15 @@ main {
   position: relative; }
   .captioned-photo .caption {
     display: none; }
-    .captioned-photo .caption:hover * {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      display: block;
-      z-index: 1; }
+  .captioned-photo a:hover + .caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    z-index: 1;
+    background-color: #999;
+    opacity: 0.9;
+    margin: 0 auto 15px;
+    color: white; }
 
 #timeline {
   margin-top: 100px; }
