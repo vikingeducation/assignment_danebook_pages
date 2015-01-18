@@ -142,5 +142,13 @@ main {
 
 
 #timeline {
-  margin-top: 100px;
+  border: none;
+  article {
+    border: 2px black solid;
+    padding: 0 15px;
+  }
+  .article-top-line {
+    border-bottom: 2px black solid;
+    background-color: #EEE;
+  }
 }
