@@ -1,4 +1,5 @@
 $background-blue: #2B78E4;
+$button-shadowing: 4px 4px 2px #888888;
 
 .navbar {
   background-color: #2B78E4;
@@ -78,7 +79,7 @@ main {
         top: 50%;
         transform: translateY(-50%);
         color: white;
-        box-shadow: 4px 4px 2px #888888;
+        box-shadow: $button-shadowing;
       }
     }
   }
@@ -92,7 +93,7 @@ main {
 .save-changes {
   background-color: $background-blue;
   color: white;
-  box-shadow: 4px 4px 2px #888888;
+  box-shadow: $button-shadowing;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 20px;
@@ -106,11 +107,18 @@ main {
   padding: 15px 0;
   .unfriend {
     position: relative;
-    height:100px;
+    padding: 25px 0;
     button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
+      box-shadow: $button-shadowing;
+    }
+  }
+  .friend-name {
+    padding: 15px 0;
+    a {
+      font-size: 1.3em;
+    }
+    .friend-count {
+      color: #AAA;
     }
   }
 }

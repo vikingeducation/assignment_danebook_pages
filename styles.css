@@ -81,11 +81,15 @@ main {
   padding: 15px 0; }
   .friend-tile .unfriend {
     position: relative;
-    height: 100px; }
+    padding: 25px 0; }
     .friend-tile .unfriend button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%); }
+      box-shadow: 4px 4px 2px #888888; }
+  .friend-tile .friend-name {
+    padding: 15px 0; }
+    .friend-tile .friend-name a {
+      font-size: 1.3em; }
+    .friend-tile .friend-name .friend-count {
+      color: #AAA; }
 
 #timeline {
   margin-top: 100px; }
