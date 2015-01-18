@@ -1,3 +1,5 @@
+$background-blue: #2B78E4;
+
 .navbar {
   background-color: #2B78E4;
   .navbar-toggle {
@@ -51,7 +53,7 @@ $cover-photo-height: 300px;
   }
 }
 
-$section-banner-height: 70px;
+$section-banner-height: 60px;
 main {
   border: 2px black solid;
   .section-banner {
@@ -60,12 +62,16 @@ main {
     height: $section-banner-height;
     .section-header {
       text-align: center;
+      h1 {
+        margin: 0;
+        line-height: $section-banner-height;
+      }
     }
     .edit-button {
       position: relative;
       height: $section-banner-height;
       button {
-        background-color: #2B78E4;
+        background-color: $background-blue;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -74,6 +80,19 @@ main {
       }
     }
   }
+}
+
+.extra-line-height {
+  line-height: 2.3em;
+}
+
+
+.save-changes {
+  background-color: $background-blue;
+  color: white;
+  box-shadow: 4px 4px 2px #888888;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 #timeline {
