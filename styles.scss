@@ -123,6 +123,12 @@ main {
   }
 }
 
+.captioned-photo {
+  .caption {
+    display: hidden;
+  }
+}
+
 #timeline {
   margin-top: 100px;
 }
