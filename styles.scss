@@ -51,6 +51,31 @@ $cover-photo-height: 300px;
   }
 }
 
+$section-banner-height: 70px;
+main {
+  border: 2px black solid;
+  .section-banner {
+    border-bottom: 2px black solid;
+    background-color: #EEE;
+    height: $section-banner-height;
+    .section-header {
+      text-align: center;
+    }
+    .edit-button {
+      position: relative;
+      height: $section-banner-height;
+      button {
+        background-color: #2B78E4;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        box-shadow: 4px 4px 2px #888888;
+      }
+    }
+  }
+}
+
 #timeline {
   margin-top: 100px;
 }

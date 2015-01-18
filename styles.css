@@ -38,6 +38,25 @@
     #user-search-bar {
       width: 200%; } }
 
+main {
+  border: 2px black solid; }
+  main .section-banner {
+    border-bottom: 2px black solid;
+    background-color: #EEE;
+    height: 70px; }
+    main .section-banner .section-header {
+      text-align: center; }
+    main .section-banner .edit-button {
+      position: relative;
+      height: 70px; }
+      main .section-banner .edit-button button {
+        background-color: #2B78E4;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        box-shadow: 4px 4px 2px #888888; }
+
 #timeline {
   margin-top: 100px; }
 
