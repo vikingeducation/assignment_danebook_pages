@@ -1,0 +1,39 @@
+$facebook-blue:  #3b5998;
+
+.navbar-default{
+  background-color: $facebook-blue;
+}
+
+
+.logo-text{
+  color: #fff;
+  font-weight: bold;
+  font-size: 2em;
+  padding-top: 50px;
+}
+
+.name{
+  float: right;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 100px;
+  margin-top: 1%;
+}
+
+.half-width{
+  width: 50%;
+}
+
+// .searchbar{
+//  width: 700px;
+// }
+
+.flag{
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 0px;
+}
+
+.padding-20{
+  padding-top: 5px;
+}
