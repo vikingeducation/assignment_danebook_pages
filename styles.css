@@ -13,14 +13,20 @@
   max-height: 300px; }
 
 #profile-photo {
-  border: 3px white solid;
+  border: 5px white solid;
   position: absolute;
-  bottom: 0;
-  left: 0; }
+  bottom: -30px;
+  left: 30px; }
 
 #photos-panel {
   position: relative;
   height: 300px; }
+  #photos-panel #user-name {
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    color: white;
+    font-size: 2.0em; }
 
 #user-search-bar {
   width: 100%; }
