@@ -190,3 +190,34 @@ Friends page css modifiers
 .patchwork-class {
   margin-right: 30px;
 }
+
+/*  -----------------------
+Timeline page css modifiers
+-------------------------- */
+
+.margin-at-top {
+  margin-top: 20px;
+}
+
+.box-me {
+  border: $border;
+  width: 100%;
+}
+
+.col-md-4 img {
+  max-width: 75%;
+  max-height:75%;
+}
+
+.margin-me {
+  margin-bottom:  15px;
+}
+
+.row input {
+  width: 100%;
+  height: 200%;
+}
+
+textarea {
+  margin-left: 15px;
+}
