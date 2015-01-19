@@ -164,12 +164,41 @@ main {
       line-height: $section-banner-height;      
     }
   }
+
+  .post-bottom {
+    background-color: #EEE;
+    border-top: 1px black solid;
+    padding-bottom: 10px;
+  }
   .post-button {
     button {
       background-color: $background-blue;
       color: white;
       box-shadow: $button-shadowing;     
-      margin-bottom: 10px;
+      margin: 10px auto;
     }
+  }
+  .end-of-like-section {
+    border-bottom: 1px #999 solid;
+  }
+  .post {
+    padding-top: 15px;
+    // padding-bottom: 15px;
+    .post-date {
+      color: #999;
+    }
+  }
+
+  .comment-section {
+    button {
+      background-color: $background-blue;
+      color: white;
+      box-shadow: $button-shadowing;     
+      margin: 10px auto;
+    }
+  }
+  .comment {
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
 }
