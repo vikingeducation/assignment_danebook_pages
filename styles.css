@@ -1,0 +1,71 @@
+/* Bootstrap Overrides */
+
+.navbar-default {
+	background-color: blue;
+	border-radius: 0;
+	border: none;
+}
+
+.nav-pills.li {
+	border-radius: 0;
+	
+}
+
+
+/* Custom CSS  */
+
+
+.logo {
+	padding-top: 2px;
+	border-radius: 50px;
+}
+
+.form-control .full-width{
+	width: 100%;
+}
+
+.searchbar{
+	width: 60%;
+	margin-left: 40%;
+	margin-left: 5%;
+}
+
+.brand{
+	font-size: 2em;
+	margin: 5%;
+	padding: 1%;
+}
+
+.header {
+	border: 1px solid #000;
+}
+
+.top-part-whole {
+	border: 2px solid #000;
+}
+.top-part {
+	position: relative;
+}
+
+.cover-photo {
+	margin-left: 15px;
+	width: 97%;
+}
+
+.user-photo {
+	position: absolute;
+	bottom: -25px;
+	left: 25px;
+}
+
+.user-name {
+	position: absolute;
+	color: #fff;
+	font-size: 3em;
+	left: 280px;
+	bottom: 0px;
+}
+
+.tablist {
+	margin-left: 250px;
+}
