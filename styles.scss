@@ -221,3 +221,28 @@ Timeline page css modifiers
 textarea {
   margin-left: 15px;
 }
+
+.img-zoom {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.overlay {
+  bottom: 12%;
+  height: 15%;
+  width: 85%;
+  margin: auto;
+  position: absolute;
+  background-color:#3f3f3f;
+  opacity:0;
+}
+.text_box{
+  weight:bold;
+  font-size:2em;
+  padding:10px;
+  padding-bottom:50%;
+  text-align:center;
+}
+
+.eh:hover .overlay{opacity:0.7;}
+img:hover .img{opacity:0.7;}
