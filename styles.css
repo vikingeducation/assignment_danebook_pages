@@ -1,0 +1,150 @@
+.navbar {
+  background-color: #2B78E4; }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: #FFF; }
+
+.navbar-default .navbar-brand {
+  color: white; }
+.navbar-default .navbar-nav > li > a {
+  color: white; }
+
+#cover-photo {
+  width: 100%;
+  max-height: 300px; }
+
+#profile-photo {
+  border: 5px white solid;
+  position: absolute;
+  bottom: -30px;
+  left: 30px; }
+
+#photos-panel {
+  position: relative;
+  height: 300px; }
+  #photos-panel #user-name {
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    color: white;
+    font-size: 2.0em; }
+
+#user-search-bar {
+  width: 100%; }
+  @media (min-width: 992px) {
+    #user-search-bar {
+      width: 300%;
+      transform: translateX(15%); } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    #user-search-bar {
+      width: 200%; } }
+
+main {
+  border: 2px black solid;
+  margin-bottom: 40px;
+  padding-bottom: 15px; }
+  main .section-banner {
+    border-bottom: 2px black solid;
+    background-color: #EEE;
+    height: 60px; }
+    main .section-banner .section-header {
+      text-align: center; }
+      main .section-banner .section-header h1 {
+        margin: 0;
+        line-height: 60px; }
+    main .section-banner .edit-button {
+      position: relative;
+      height: 60px; }
+      main .section-banner .edit-button button {
+        background-color: #2B78E4;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        box-shadow: 4px 4px 2px #888888; }
+
+.extra-line-height {
+  line-height: 2.3em; }
+
+.save-changes {
+  background-color: #2B78E4;
+  color: white;
+  box-shadow: 4px 4px 2px #888888;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  width: 200px;
+  font-size: 1.6em; }
+
+.friend-tile {
+  border: 2px black solid;
+  margin: 15px 5px;
+  padding: 15px 0; }
+  .friend-tile .unfriend {
+    position: relative;
+    padding: 25px 0; }
+    .friend-tile .unfriend button {
+      box-shadow: 4px 4px 2px #888888; }
+  .friend-tile .friend-name {
+    padding: 15px 0; }
+    .friend-tile .friend-name a {
+      font-size: 1.3em; }
+    .friend-tile .friend-name .friend-count {
+      color: #AAA; }
+
+.captioned-photo {
+  position: relative; }
+  .captioned-photo .caption {
+    display: none; }
+  .captioned-photo a:hover + .caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    z-index: 1;
+    background-color: #999;
+    opacity: 0.9;
+    margin: 0 auto 15px;
+    color: white; }
+
+#timeline {
+  border: none; }
+  #timeline article {
+    border: 2px black solid;
+    padding: 0 15px;
+    margin-bottom: 15px; }
+    #timeline article .centered-text {
+      text-align: center; }
+  #timeline textarea {
+    width: 100%; }
+  #timeline .article-top-line {
+    border-bottom: 2px black solid;
+    background-color: #EEE;
+    margin-bottom: 10px;
+    text-align: center; }
+    #timeline .article-top-line h3 {
+      margin: 0;
+      line-height: 60px; }
+  #timeline .post-bottom {
+    background-color: #EEE;
+    border-top: 1px black solid;
+    padding-bottom: 10px; }
+  #timeline .post-button button {
+    background-color: #2B78E4;
+    color: white;
+    box-shadow: 4px 4px 2px #888888;
+    margin: 10px auto; }
+  #timeline .end-of-like-section {
+    border-bottom: 1px #999 solid; }
+  #timeline .post {
+    padding-top: 15px; }
+    #timeline .post .post-date {
+      color: #999; }
+  #timeline .comment-section button {
+    background-color: #2B78E4;
+    color: white;
+    box-shadow: 4px 4px 2px #888888;
+    margin: 10px auto; }
+  #timeline .comment {
+    padding-top: 15px;
+    padding-bottom: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
