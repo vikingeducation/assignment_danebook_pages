@@ -1,1 +1,180 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Welcome to Danebook</title>
+  <meta charset="UTF-8">
+
+   <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+<header>
+<!-- nav bar -->
+  <div class="container">
+    <div class="row">
+
+      <nav class="navbar navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-brand col-sm-offset-1">
+        <img src="images/logo.gif" alt="mini-profile" id="logo">
+        <a href="#" id="logo">Danebook</a> 
+      </div>
+
+      <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+        <div class="col-sm-6 col-sm-offset 3">
+          <input type="text" class="custom-form form-control" placeholder="search for users">
+        </div>
+
+        <div class=" navbar my_name col-sm-offset-10">
+            <p>Harry</p>
+        </div>
+      </div>
+      </nav> <!-- closing nav -->
+    </div><!-- closing row -->
+  </div><!-- closing column -->
+</header>
+<main>
+<!-- nav bar -->
+
+<!-- banner box -->
+
+<div class="jumbotron"> <!-- NOTE: Style background image in CSS -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12"><img src="images/default_photo.png" id="banner_photo"></div>
+    </div>
+
+
+      <div class="col-sm-12"><!--navbar -->
+          <div class="row main_nav"> 
+          <div class="col-sm-2"><img src="images/default_user.gif" id="profile_photo"><!-- profile picture --></div>
+        
+         <!-- <button class="btn-default col-sm-1">Timeline
+          </button>   
+          <button class="btn-default col-sm-1">About
+          </button>
+          
+          <button class="btn-default col-sm-1">Photos (123)
+          </button>
+          
+          <button class="btn-default col-sm-1">Friends (542)
+          </button>
+        -->
+
+        <ul class="jumbotron-links"> <!-- NOTE: STYLE INLINE-BLOCK CSS-->
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="present_tab"><a href="photos.html">Photos <span class="counter">(123)</span></a></li>
+            <li><a href="friends.html">Friends <span class="counter">(542)</span></a></li>
+            <li class="pull-right"><a href="about_edit.html">Edit Profile</a></li>
+        </ul>
+
+
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- banner box -->
+
+<!-- profile panel -->
+
+<div class="container about-page-container">
+  <div class="box-header">
+    <div class="row">
+          <h2 class="col-sm-2 col-sm-offset-5">Photos</h2>
+          <div class="col-sm-2 col-sm-offset-3">
+            <button class="btn-default pull-right edit-button">Add Photo</button>
+          </div>  
+    </div>
+  </div>
+    <div class="col-sm-12 about-content box-container">
+      <div class="row">
+      		<table class="photos"> <!-- 4x4 table for photo page -->
+						<tr>
+
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 1, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 2, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 3, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 4, 2015</figcaption></figure>
+							</td>
+						</tr>
+						<tr>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 5, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 6, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 7, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 8, 2015</figcaption></figure>
+							</td>
+						</tr>
+						<tr>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 9, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 10, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 11, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 12, 2015</figcaption></figure>
+							</td>
+						</tr>
+						<tr>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 13, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 14, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 15, 2015</figcaption></figure>
+							</td>
+							<td><figure><img src="images/default_user.gif" class="photo-page-img">
+							<figcaption>Uploaded January 16, 2015</figcaption></figure>
+							</td>
+						</tr>
+						</table>
+      </div><!-- closing row -->
+      </div><!-- closingcolspace -->
+</div><!-- Closing container -->
+
+
+<!-- profile panel -->
+
+</main>
+
+</body>
+
+</html><!-- Your markup here! -->
