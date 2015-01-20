@@ -1,1 +1,401 @@
-<!-- Your markup here! -->
+  <!DOCTYPE html>
+  <html>
+
+    <head>
+        <!-- Meta Stuff -->
+      <meta charset="utf-8">
+
+      <!-- Bootstap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+      <!-- Our CSS -->
+      <link href="styles.css" rel="stylesheet">
+
+    </head>
+
+    <!-- Navbar -->
+    <body>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid padding-20">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                  <img class = 'flag' alt="Brand" src="assets/danish_flag.gif" height="25" width="25">
+                </a>
+            </div>
+          <span class='logo-text'>Danebook</span>
+            <input type='text' class='searchbar' placeholder="Search for Users">
+            <span class='name'>Harry</span>
+          </div>
+      </nav>
+
+      <!-- Cover photo, profile photo, and information pills -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img class="full-width cover-photo" src="assets/hogwarts_small.jpg">
+          </div>
+        </div>
+        <div class="row outlined">
+          <div class="col-md-9 col-md-offset-3">
+            <span>
+              <button class="btn btn-lg fb-nav-buttons">Timeline</button>
+              <button class="btn btn-lg fb-nav-buttons fb-nav-buttons-selected">About</button>
+              <button class="btn btn-lg fb-nav-buttons">Photos</button>
+              <button class="btn btn-lg fb-nav-buttons">Friends</button>
+              <a class="edit-profile-anchor">Edit Profile</a>
+            </span>
+          </div>
+        </div>
+        <div class="row photo-container">
+          <div class="col-md-12">
+            <img class="profile-photo" src='assets/harry_potter_small.jpg'>
+            <h3 class="profile-username">Harry Potter</h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <!-- Main stuff here -->
+      <div class="container-fluid information-panel margin-at-top">
+
+        <!-- All encompassing row -->
+        <div class="row">
+          <!-- Divide into left and right columns -->
+          <div class="col-md-5"> <!-- Left column -->
+
+            <div class="row box-me margin-me"> <!-- About -->
+              <div class="col-md-12">
+
+                <div class="row box-me"> <!-- Title box -->
+                  <div class="col-md-12" align="center">
+                    <p>About</p>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- Information -->
+                  <div class="col-md-12">
+                    <p>Born on: July 31st, 1980</p>
+                    <p>Went to school at: Hogwarts</p>
+                    <p>Hometown: Godrick's Hollow, England</p>
+                    <p>Currently lives: Godrick's Hollow</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row box-me margin-me"> <!-- Photos -->
+              <div class="col-md-12">
+
+                <div class="row box-me"> <!-- Title box -->
+                  <div class="col-md-12" align="center">
+                    <p>Photos (123)</p>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- First row of photos -->
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                </div>
+
+                <div class="row"> <!-- Second row of photos -->
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                </div>
+
+                <div class="row"> <!-- Third row of photos -->
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                  </div>
+                </div>
+                <div class="row"> <!-- See more photos -->
+                  <div class="col-md-12" align="center">
+                    <a href="hello">See More Photos</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row box-me"> <!-- Friends -->
+              <div class="col-md-12">
+
+                <div class="row box-me"> <!-- Title box -->
+                  <div class="col-md-12" align="center">
+                    <p>Friends (542)</p>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- First row of photos -->
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                    <a href="#">Ron_Weasley</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                    <a href="#">Ginny Weasley</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                    <a href="#">Hermione</a>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- Second row of photos -->
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                    <a href="#">Dumbledore</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                    <a href="#">Voldemort</a>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="assets/icon_photo_small.png">
+                    <a href="#">Dan. A.</a>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- See more friends -->
+                  <div class="col-md-12" align="center">
+                    <a href="hello">See More Friends</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+<!-- ....................... -->
+<!-- RIGHT COLUMN -->
+<!-- ....................... -->
+
+          <div class="col-md-7"> <!-- Right column -->
+            <div class="row margin-me box-me"> <!-- Post something -->
+              <div class="col-md-12">
+
+                <div class="row box-me margin-me"> <!-- Title box -->
+                  <div class="col-md-12" align="center">
+                    <p>Post</p>
+                  </div>
+                </div>
+
+                <div class="row margin-me"> <!-- Post -->
+                  <div class="col-md-12">
+                    <input type="text"></input>
+                  </div>
+                </div>
+
+                <div class="row box-me">
+                  <div class="col-md-2 bump-right">
+                    <button class="btn btn-primary">
+                      Post
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row box-me margin-me"> <!-- First post -->
+              <div class="col-md-12">
+
+                <div class="row"> <!-- Poster -->
+                  <div class="col-md-2">
+                    <img src="assets/user_silhouette_generic.png" height="50px" width="50px">
+                  </div >
+                  <div class="col-md-10">
+                    <a href="#">Harry Potter</a>
+                    <p>Posted on Thursday 6/12/2014</p>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- Content -->
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="row box-me margin-me"> <!-- Bottom Bar-->
+                  <div class="col-md-2">
+                    <a href="#">Like</a>
+                  </div>
+                  <div class="col-md-2">
+                    <a href="#">Comment</a>
+                  </div>
+                  <div class="col-md-8 bump-right">
+                    <a href="#">Delete</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row box-me margin-me"> <!-- Second post with likes-->
+              <div class="col-md-12">
+
+                <div class="row"> <!-- Poster -->
+                  <div class="col-md-2">
+                    <img src="assets/user_silhouette_generic.png" height="50px" width="50px">
+                  </div >
+                  <div class="col-md-10">
+                    <a href="#">Harry Potter</a>
+                    <p>Posted on Thursday 6/12/2014</p>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- Content -->
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="container box-me margin-me">
+                  <div class="row"> <!-- Bottom Bar-->
+                    <div class="col-md-2">
+                      <a href="#">Like</a>
+                    </div>
+                    <div class="col-md-2">
+                      <a href="#">Comment</a>
+                    </div>
+                    <div class="col-md-8 bump-right">
+                      <a href="#">Delete</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                    <a href="#">Hermione Granger</a> likes this
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row box-me margin-me"> <!-- Third post with likes and comments-->
+              <div class="col-md-12">
+
+                <div class="row"> <!-- Poster -->
+                  <div class="col-md-2">
+                    <img src="assets/user_silhouette_generic.png" height="50px" width="50px">
+                  </div >
+                  <div class="col-md-10">
+                    <a href="#">Harry Potter</a>
+                    <p>Posted on Thursday 6/12/2014</p>
+                  </div>
+                </div>
+
+                <div class="row"> <!-- Content -->
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="container box-me margin-me">
+                  <div class="row"> <!-- Bottom Bar-->
+                    <div class="col-md-2">
+                      <a href="#">Unlike</a>
+                    </div>
+                    <div class="col-md-10 bump-right">
+                      <a href="#">Delete</a>
+                    </div>
+                  </div>
+                  <div class="row margin-me">
+                    <div class="col-md-12">
+                    You and <a href="#">Hermione Granger</a> and 3 others like this
+                    </div>
+                  </div>
+
+                  <div class="row"> <!-- Ron Weasley comment -->
+                    <div class="col-md-1">
+                      <img src="assets/user_silhouette_generic.png" height="50" width="50">
+                    </div>
+                    <div class="col-md-11">
+                      <p><a href="#">Ron Weasley</a> Said on Thursday 5/21/2014</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </br>
+                      <p><a href="#">Like</a> 3 other people like this</p>
+                    </div>
+                  </div>
+
+                  <div class="row"> <!-- Harry Potter comment -->
+                    <div class="col-md-1">
+                      <img src="assets/user_silhouette_generic.png" height="50" width="50">
+                    </div>
+                    <div class="col-md-11">
+                      <p><a href="#">Harry Potter</a> Said on Thursday 5/21/2014</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </br>
+                      <p><a href="#">Like</a> 3 other people like this</p>
+                    </div>
+                  </div>
+
+                  <div class="row"> <!-- Post comment -->
+                    <textarea rows="4" cols="90" name="comment">
+                      Write a comment...
+                    </textarea>
+                  </div>
+
+                  <div class="row"> <!-- Cancel and Comment -->
+                    <div class="col-md-2">
+                      <a href="#">Cancel</a>
+                    </div>
+                    <div class="col-md-10">
+                      <button class="btn btn-primary">
+                        Comment
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div> <!-- Timeline -->
+
+    </body>
+    <!-- Bootstrap Javascripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </html>
