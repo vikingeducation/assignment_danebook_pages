@@ -11,11 +11,6 @@ body {
   background-color: #2B78E4;
 }
 
-.img-thumbnail {
-  max-height: 140px;
-  max-width: 140px;
-}
-
 
 .friend-listing {
   border: 2px solid black;
@@ -32,6 +27,35 @@ body {
 
   img {
     margin: 10px;
+  }
+
+  .img-thumbnail {
+    max-height: 140px;
+    max-width: 140px;
+  }
+}
+
+.photo-listing {
+  @extend .friend-listing;
+
+  .hover-text {
+    position: relative;
+    bottom: 30px;
+    visibility: hidden;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: gray;
+    color: white;
+    padding-left: 5px;
+  }
+
+  .img-thumbnail {
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  a:hover + .hover-text {
+    visibility: visible;
   }
 }
 
