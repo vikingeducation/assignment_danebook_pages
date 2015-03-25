@@ -11,6 +11,30 @@ body {
   background-color: #2B78E4;
 }
 
+.img-thumbnail {
+  max-height: 140px;
+  max-width: 140px;
+}
+
+
+.friend-listing {
+  border: 2px solid black;
+  margin: 20px;
+  box-sizing: border-box;
+
+  .friend-name {
+    padding-top: 30px;
+  }
+
+  .unfriend {
+    margin-top: 50px;
+  }
+
+  img {
+    margin: 10px;
+  }
+}
+
 .save-changes {
   margin-top: 50px;
   margin-bottom: 25px;
