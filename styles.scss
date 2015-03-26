@@ -28,11 +28,6 @@ body {
   img {
     margin: 10px;
   }
-
-  .img-thumbnail {
-    max-height: 140px;
-    max-width: 140px;
-  }
 }
 
 .photo-listing {
@@ -49,10 +44,6 @@ body {
     padding-left: 5px;
   }
 
-  .img-thumbnail {
-    max-height: 200px;
-    max-width: 200px;
-  }
 
   a:hover + .hover-text {
     visibility: visible;
@@ -68,23 +59,51 @@ body {
   margin-top: 2px;
 }
 
+article {
+  border: 2px solid black;
+  padding: 0 15px;
+  margin-bottom: 15px;
+
+  .timeline-section-header {
+    border-bottom: 2px solid black;
+    background-color: #e5e5e5;
+  }
+}
+
 h1 {
   margin: 0;
   text-align: center;
 }
 
+.post-box, .post-button {
+  padding: 10px;
+}
+
+.timeline-thumbnail {
+  margin: 10px;
+}
+
+.bottom-border {
+  border-bottom: 2px solid black;
+}
+
 .section-banner {
   background-color: #e5e5e5;
-  border: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.section-header {
+  border: 2px solid black;
+  border-bottom: 0;
+  background-color: #e5e5e5;
 }
 
 .about-content {
   border: 2px solid black;
-  border-top: 0;
 }
 
-.page-header {
-  background-color: gray;
+.section-content {
+  @extend .about-content;
 }
 
 .navbar-brand:link {
