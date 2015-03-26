@@ -3,14 +3,9 @@ body {
   padding-bottom: 20px;
 }
 
-.profile-link {
-  color: white;
-}
-
 .navbar {
   background-color: #2B78E4;
 }
-
 
 .friend-listing {
   border: 2px solid black;
@@ -43,7 +38,6 @@ body {
     color: white;
     padding-left: 5px;
   }
-
 
   a:hover + .hover-text {
     visibility: visible;
