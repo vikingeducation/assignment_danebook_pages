@@ -67,6 +67,22 @@ article {
   .timeline-section-header {
     border-bottom: 2px solid black;
     background-color: #e5e5e5;
+
+    .centered-header {
+      text-align: center;
+    }
+  }
+
+  .timeline-poster-name {
+    margin-top: 35px;
+  }
+
+  .timeline-commenter-name {
+    margin: 10px 0 10px 0;
+  }
+
+  .timeline-comment-likes {
+    margin-bottom: 10px;
   }
 }
 
