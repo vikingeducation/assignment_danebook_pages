@@ -31,7 +31,7 @@ body {
 }
 
 .photo-listing {
-  @extend .friend-listing;
+  margin-top: 30px;
 
   .hover-text {
     position: relative;
