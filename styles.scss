@@ -1,0 +1,46 @@
+/*Variables*/
+$navbar-color: #2b78e4;
+
+
+
+
+/*Mixins*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+
+
+
+/*Navbar Styling*/
+#navbar-search {
+  width: 75%;
+  input {
+    width: 100%;
+  }
+}
+.navbar {
+  background-color: $navbar-color;
+  .name {
+    color: #fff;
+    font-size: 1.3em;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+  }
+}
+#navbar-brand {
+  padding: 5px;
+  color: #fff;
+  font-size: 2em;
+  & > img {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    @include border-radius(50%);
+    margin-right: 5px;
+  }
+}

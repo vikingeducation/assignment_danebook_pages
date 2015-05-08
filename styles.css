@@ -1,3 +1,32 @@
+/*Variables*/
+/*Mixins*/
+/*Navbar Styling*/
+#navbar-search {
+  width: 75%; }
+  #navbar-search input {
+    width: 100%; }
 
+.navbar {
+  background-color: #2b78e4; }
+  .navbar .name {
+    color: #fff;
+    font-size: 1.3em;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap; }
+
+#navbar-brand {
+  padding: 5px;
+  color: #fff;
+  font-size: 2em; }
+  #navbar-brand > img {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
