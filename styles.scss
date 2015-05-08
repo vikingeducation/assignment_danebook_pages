@@ -23,9 +23,9 @@ $navbar-color: #2b78e4;
 
 
 /*Testing code*/
-/*article {
-  border: 1px solid red;
-}*/
+* {
+/*  border: 1px solid red;*/
+}
 
 
 
@@ -59,14 +59,43 @@ $navbar-color: #2b78e4;
   }
 }
 
+
+
+
+/*Jumbotron and middle nav */
 #big-image {
   width: 100%;
 }
 
 #profile-image {
-  
   position: absolute;
-  bottom: 0px;
+  bottom: 5%;
   max-width: 18%;
   z-index: 20;
+  left: 5%;
+}
+
+#middle-nav {
+  height: 52px;
+  border: 2px solid $navbar-color;
+  margin-left: 0; /*Bootstrap reset*/
+  margin-right: 0; /*Bootstrap reset*/
+  #edit-profile {
+    float: right;
+  }
+  .middle-nav-buttons {
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    border-left: 2px solid $navbar-color;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .active {
+    a {
+    color: #aaa;
+    pointer-events: none;
+    cursor: default;
+    } 
+  }
 }

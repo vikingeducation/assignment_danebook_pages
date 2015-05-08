@@ -6,9 +6,9 @@ body {
 /*Variables*/
 /*Mixins*/
 /*Testing code*/
-/*article {
-  border: 1px solid red;
-}*/
+* {
+  /*  border: 1px solid red;*/ }
+
 /*Navbar Styling*/
 #navbar-search {
   width: 75%; }
@@ -38,13 +38,36 @@ body {
     border-radius: 50%;
     margin-right: 5px; }
 
+/*Jumbotron and middle nav */
 #big-image {
   width: 100%; }
 
 #profile-image {
   position: absolute;
-  bottom: 0px;
+  bottom: 5%;
   max-width: 18%;
-  z-index: 20; }
+  z-index: 20;
+  left: 5%; }
+
+#middle-nav {
+  height: 52px;
+  border: 2px solid #2b78e4;
+  margin-left: 0;
+  /*Bootstrap reset*/
+  margin-right: 0;
+  /*Bootstrap reset*/ }
+  #middle-nav #edit-profile {
+    float: right; }
+  #middle-nav .middle-nav-buttons {
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    border-left: 2px solid #2b78e4;
+    font-size: 1.2em;
+    text-align: center; }
+  #middle-nav .active a {
+    color: #aaa;
+    pointer-events: none;
+    cursor: default; }
 
 /*# sourceMappingURL=styles.css.map */
