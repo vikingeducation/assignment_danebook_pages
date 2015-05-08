@@ -99,3 +99,15 @@ $navbar-color: #2b78e4;
     } 
   }
 }
+
+@media screen and (max-width: 992px) {
+  #middle-nav {
+    border: none;
+    .middle-nav-buttons {
+      border: none;
+    }
+  #edit-profile {
+    float: none;
+  }
+  }
+}

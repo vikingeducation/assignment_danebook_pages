@@ -70,4 +70,12 @@ body {
     pointer-events: none;
     cursor: default; }
 
+@media screen and (max-width: 992px) {
+  #middle-nav {
+    border: none; }
+    #middle-nav .middle-nav-buttons {
+      border: none; }
+    #middle-nav #edit-profile {
+      float: none; } }
+
 /*# sourceMappingURL=styles.css.map */
