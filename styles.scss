@@ -1,3 +1,12 @@
+/*Resets*/
+body {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+
+
 /*Variables*/
 $navbar-color: #2b78e4;
 
@@ -12,6 +21,11 @@ $navbar-color: #2b78e4;
           border-radius: $radius;
 }
 
+
+/*Testing code*/
+/*article {
+  border: 1px solid red;
+}*/
 
 
 
@@ -43,4 +57,16 @@ $navbar-color: #2b78e4;
     @include border-radius(50%);
     margin-right: 5px;
   }
+}
+
+#big-image {
+  width: 100%;
+}
+
+#profile-image {
+  
+  position: absolute;
+  bottom: 0px;
+  max-width: 18%;
+  z-index: 20;
 }
