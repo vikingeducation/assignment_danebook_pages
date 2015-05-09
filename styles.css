@@ -1,7 +1,7 @@
 /*Resets*/
 body {
   margin-top: 50px;
-  margin-bottom: 20px; }
+  margin-bottom: 50px; }
 
 /*Variables*/
 /*Mixins*/
@@ -69,6 +69,23 @@ body {
     color: #aaa;
     pointer-events: none;
     cursor: default; }
+
+/*Information section*/
+#info-section {
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: whitesmoke;
+  min-height: 200px; }
+  #info-section .heading {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 2em;
+    height: 40px;
+    background-color: #ccc; }
+    #info-section .heading button {
+      float: right; }
 
 @media screen and (max-width: 992px) {
   #middle-nav {
