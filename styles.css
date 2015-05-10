@@ -97,6 +97,33 @@ body {
     min-height: 50px;
     font-size: 1.4em; }
 
+/*Timeline*/
+.post {
+  margin-top: 20px;
+  border: 2px solid #ccc; }
+  .post .post-heading {
+    background: #ccc;
+    margin-left: 0;
+    /*bootstrap reset*/
+    margin-right: 0;
+    /*bootstrap reset*/ }
+    .post .post-heading h2 {
+      text-align: center; }
+  .post .post-footer {
+    background: #ccc;
+    padding: 8px;
+    margin-left: 0;
+    /*bootstrap reset*/
+    margin-right: 0;
+    /*bootstrap reset*/ }
+  .post .post-button {
+    float: right;
+    margin-right: 10px; }
+  .post textarea {
+    width: 100%;
+    margin: 15px 0px;
+    min-height: 130px; }
+
 @media screen and (max-width: 992px) {
   #middle-nav {
     border: none; }

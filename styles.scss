@@ -9,6 +9,7 @@ body {
 
 /*Variables*/
 $navbar-color: #2b78e4;
+$post-color: #ccc;
 
 
 
@@ -131,6 +132,38 @@ $navbar-color: #2b78e4;
     margin-top: 50px;
     min-height: 50px;
     font-size: 1.4em;
+  }
+}
+
+
+
+
+/*Timeline*/
+.post {
+  margin-top: 20px;
+  border: 2px solid $post-color;
+  .post-heading {
+    background: $post-color;
+    margin-left: 0;  /*bootstrap reset*/
+    margin-right: 0;  /*bootstrap reset*/
+    h2 {
+      text-align: center;
+    }
+  }
+  .post-footer {
+    background: $post-color;
+    padding: 8px;
+    margin-left: 0;  /*bootstrap reset*/
+    margin-right: 0;  /*bootstrap reset*/
+  }
+  .post-button {
+    float: right;
+    margin-right: 10px;
+  }
+  textarea {
+    width: 100%;
+    margin: 15px 0px;
+    min-height: 130px;
   }
 }
 
