@@ -78,6 +78,8 @@ body {
   background-color: whitesmoke;
   min-height: 200px; }
   #info-section .heading {
+    position: relative;
+    /*For alignment of nested elements*/
     margin-left: 0;
     margin-right: 0;
     text-align: center;
@@ -85,7 +87,9 @@ body {
     height: 40px;
     background-color: #ccc; }
     #info-section .heading button {
-      float: right; }
+      position: absolute;
+      top: calc(50% - 11px);
+      right: 9px; }
 
 @media screen and (max-width: 992px) {
   #middle-nav {
@@ -93,6 +97,9 @@ body {
     #middle-nav .middle-nav-buttons {
       border: none; }
     #middle-nav #edit-profile {
-      float: none; } }
+      float: none; }
+
+  #info-section {
+    margin-top: 225px; } }
 
 /*# sourceMappingURL=styles.css.map */
