@@ -90,6 +90,12 @@ body {
       position: absolute;
       top: calc(50% - 11px);
       right: 9px; }
+  #info-section textarea {
+    width: 100%; }
+  #info-section button[type="submit"] {
+    margin-top: 50px;
+    min-height: 50px;
+    font-size: 1.4em; }
 
 @media screen and (max-width: 992px) {
   #middle-nav {

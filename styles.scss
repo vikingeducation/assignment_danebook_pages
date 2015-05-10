@@ -124,6 +124,14 @@ $navbar-color: #2b78e4;
       right: 9px;
     }
   }
+  textarea {
+    width: 100%;
+  }
+  button[type="submit"] {
+    margin-top: 50px;
+    min-height: 50px;
+    font-size: 1.4em;
+  }
 }
 
 @media screen and (max-width: 992px) {
