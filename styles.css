@@ -101,13 +101,13 @@ body {
 .post {
   margin-top: 20px;
   border: 2px solid #ccc; }
-  .post .post-heading {
+  .post .post-create-heading {
     background: #ccc;
     margin-left: 0;
     /*bootstrap reset*/
     margin-right: 0;
     /*bootstrap reset*/ }
-    .post .post-heading h2 {
+    .post .post-create-heading h2 {
       text-align: center; }
   .post .post-footer {
     background: #ccc;
@@ -116,6 +116,11 @@ body {
     /*bootstrap reset*/
     margin-right: 0;
     /*bootstrap reset*/ }
+    .post .post-footer .text-links {
+      float: left;
+      margin: 5px 10px; }
+    .post .post-footer .text-links:last-of-type {
+      float: right; }
   .post .post-button {
     float: right;
     margin-right: 10px; }
@@ -123,6 +128,18 @@ body {
     width: 100%;
     margin: 15px 0px;
     min-height: 130px; }
+  .post .post-heading {
+    margin-left: 0;
+    /*bootstrap reset*/
+    margin-right: 0;
+    /*bootstrap reset*/ }
+    .post .post-heading img {
+      float: left;
+      width: 60px;
+      margin: 10px 0; }
+    .post .post-heading .name {
+      margin: 30px 70px;
+      font-weight: 700; }
 
 @media screen and (max-width: 992px) {
   #middle-nav {
