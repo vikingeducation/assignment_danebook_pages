@@ -136,13 +136,28 @@ body {
     /*bootstrap reset*/
     margin-right: 0;
     /*bootstrap reset*/ }
-    .post .post-heading img {
-      float: left;
-      width: 60px;
-      margin: 10px 0; }
     .post .post-heading .name {
       margin: 30px 70px;
       font-weight: 700; }
+  .post img {
+    float: left;
+    width: 60px;
+    margin: 10px 0; }
+  .post .comments {
+    margin-left: 0;
+    /*bootstrap reset*/
+    margin-right: 0;
+    /*bootstrap reset*/ }
+    .post .comments p {
+      margin: 13px 70px; }
+    .post .comments button {
+      margin-bottom: 10px; }
+
+.comment {
+  margin-top: 10px; }
+
+.right {
+  float: right; }
 
 @media screen and (max-width: 992px) {
   #middle-nav {
