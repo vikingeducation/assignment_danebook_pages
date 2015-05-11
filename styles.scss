@@ -201,12 +201,36 @@ $post-color: #ccc;
     }
   }
 }
+.create-post {
+    margin-top: 0;
+  }
 .comment {
   margin-top: 10px;
 }
 .right {
   float: right;
 }
+
+.about-panel {
+  margin-left: 0;  /*bootstrap reset*/
+  margin-right: 0;  /*bootstrap reset*/
+  border: 1px solid $post-color;
+  p {
+    margin: 10px;
+  }
+  .heading {
+
+    text-align: center;
+    background-color: $post-color;
+    h3 {
+      margin-top: 0;
+      height: 40px;
+      line-height: 40px;
+      white-space: nowrap;
+    }
+  }
+}
+
 
 @media screen and (max-width: 992px) {
   #middle-nav {
@@ -220,5 +244,8 @@ $post-color: #ccc;
   }
   #info-section {
     margin-top: 225px;
+  }
+  .create-post {
+    margin-top: 20px;
   }
 }
