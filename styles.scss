@@ -162,6 +162,10 @@ $post-color: #ccc;
     .text-links:last-of-type {
       float: right;
     }
+    p {
+      clear: both;
+      margin: 40px 0 0 10px;
+    }
   }
   .post-button {
     float: right;
