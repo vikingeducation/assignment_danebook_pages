@@ -1,0 +1,276 @@
+/*Resets*/
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+/*Variables*/
+$navbar-color: #2b78e4;
+$post-color: #ccc;
+
+
+
+
+/*Mixins*/
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin row-reset { /*Bootstrap row reset*/
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/*Testing code*/
+* {
+/*  border: 1px solid red;*/
+}
+
+
+
+/*Navbar Styling*/
+#navbar-search {
+  width: 75%;
+  input {
+    width: 100%;
+  }
+}
+.navbar {
+  background-color: $navbar-color;
+  .name {
+    color: #fff;
+    font-size: 1.3em;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+  }
+}
+#navbar-brand {
+  padding: 5px;
+  color: #fff;
+  font-size: 2em;
+  & > img {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    @include border-radius(50%);
+    margin-right: 5px;
+  }
+}
+
+
+
+
+/*Jumbotron and middle nav */
+#big-image {
+  width: 100%;
+}
+
+#profile-image {
+  position: absolute;
+  bottom: 5%;
+  max-width: 18%;
+  z-index: 20;
+  left: 5%;
+}
+
+#middle-nav {
+  height: 52px;
+  border: 2px solid $navbar-color;
+  @include row-reset;
+  #edit-profile {
+    float: right;
+  }
+  .middle-nav-buttons {
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+    border-left: 2px solid $navbar-color;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .active {
+    a {
+    color: #aaa;
+    pointer-events: none;
+    cursor: default;
+    } 
+  }
+}
+
+
+
+
+/*Information section*/
+#info-section {
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: whitesmoke;
+  min-height: 200px;
+  .heading {
+    position: relative; /*For alignment of nested elements*/
+    @include row-reset;
+    text-align: center;
+    font-size: 2em;
+    height: 40px;
+    background-color: #ccc;
+    button {
+      position: absolute;
+      top: calc(50% - 11px);
+      right: 9px;
+    }
+  }
+  textarea {
+    width: 100%;
+  }
+  button[type="submit"] {
+    margin-top: 50px;
+    min-height: 50px;
+    font-size: 1.4em;
+  }
+}
+
+
+
+
+/*Timeline*/
+.post {
+  margin-top: 20px;
+  border: 2px solid $post-color;
+  .post-create-heading {
+    background: $post-color;
+    @include row-reset;
+    h2 {
+      text-align: center;
+    }
+  }
+  .post-footer {
+    background: $post-color;
+    padding: 8px;
+    @include row-reset;
+    .text-links {
+      float: left;
+      margin: 5px 10px;
+    }
+    .text-links:last-of-type {
+      float: right;
+    }
+    p {
+      clear: both;
+      margin: 40px 0 0 10px;
+    }
+  }
+  .post-button {
+    float: right;
+    margin-right: 10px;
+  }
+  textarea {
+    width: 100%;
+    margin: 15px 0px;
+    min-height: 130px;
+  }
+  .post-heading {
+    @include row-reset;
+    
+    .name {
+      margin: 30px 70px;
+      font-weight: 700;
+    }
+  }
+  img {
+      float: left;
+      width: 60px;
+      margin: 10px 0;
+  }
+  .comments {
+    @include row-reset;
+    p {
+      margin: 13px 70px;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+  }
+}
+.create-post {
+    margin-top: 0;
+  }
+.comment {
+  margin-top: 10px;
+}
+.right {
+  float: right;
+}
+
+.about-panel {
+  @include row-reset;
+  margin-bottom: 20px;
+  border: 1px solid $post-color;
+  p {
+    margin: 10px;
+  }
+  .heading {
+
+    text-align: center;
+    background-color: $post-color;
+    h3 {
+      margin-top: 0;
+      height: 40px;
+      line-height: 40px;
+      white-space: nowrap;
+    }
+  }
+}
+.photo-thumbnails {
+  padding: 10px;
+  img {
+    float: left;
+    width: 120px;
+    margin: 10px;
+  }
+}
+.friend-thumbnails {
+  padding: 10px;
+  .friends-listing {
+    float: left;
+    margin: 10px;
+    text-align: center;
+    img {
+      width: 120px;
+    }
+    .friends-name {
+      display: block;
+    }
+  }
+}
+.align-center {
+    text-align: center;
+    clear: both;
+}
+
+
+@media screen and (max-width: 992px) {
+  #middle-nav {
+    border: none;
+    .middle-nav-buttons {
+      border: none;
+    }
+  #edit-profile {
+    float: none;
+  }
+  }
+  #info-section {
+    margin-top: 225px;
+  }
+  .create-post {
+    margin-top: 20px;
+  }
+}
