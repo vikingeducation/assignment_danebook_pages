@@ -22,6 +22,11 @@ $post-color: #ccc;
           border-radius: $radius;
 }
 
+@mixin row-reset { /*Bootstrap row reset*/
+  margin-left: 0;
+  margin-right: 0;
+}
+
 
 /*Testing code*/
 * {
@@ -79,8 +84,7 @@ $post-color: #ccc;
 #middle-nav {
   height: 52px;
   border: 2px solid $navbar-color;
-  margin-left: 0; /*Bootstrap reset*/
-  margin-right: 0; /*Bootstrap reset*/
+  @include row-reset;
   #edit-profile {
     float: right;
   }
@@ -113,8 +117,7 @@ $post-color: #ccc;
   min-height: 200px;
   .heading {
     position: relative; /*For alignment of nested elements*/
-    margin-left: 0;
-    margin-right: 0;
+    @include row-reset;
     text-align: center;
     font-size: 2em;
     height: 40px;
@@ -144,8 +147,7 @@ $post-color: #ccc;
   border: 2px solid $post-color;
   .post-create-heading {
     background: $post-color;
-    margin-left: 0;  /*bootstrap reset*/
-    margin-right: 0;  /*bootstrap reset*/
+    @include row-reset;
     h2 {
       text-align: center;
     }
@@ -153,8 +155,7 @@ $post-color: #ccc;
   .post-footer {
     background: $post-color;
     padding: 8px;
-    margin-left: 0;  /*bootstrap reset*/
-    margin-right: 0;  /*bootstrap reset*/
+    @include row-reset;
     .text-links {
       float: left;
       margin: 5px 10px;
@@ -177,8 +178,7 @@ $post-color: #ccc;
     min-height: 130px;
   }
   .post-heading {
-    margin-left: 0;  /*bootstrap reset*/
-    margin-right: 0;  /*bootstrap reset*/
+    @include row-reset;
     
     .name {
       margin: 30px 70px;
@@ -191,8 +191,7 @@ $post-color: #ccc;
       margin: 10px 0;
   }
   .comments {
-    margin-left: 0;  /*bootstrap reset*/
-    margin-right: 0;  /*bootstrap reset*/
+    @include row-reset;
     p {
       margin: 13px 70px;
     }
@@ -212,8 +211,7 @@ $post-color: #ccc;
 }
 
 .about-panel {
-  margin-left: 0;  /*bootstrap reset*/
-  margin-right: 0;  /*bootstrap reset*/
+  @include row-reset;
   margin-bottom: 20px;
   border: 1px solid $post-color;
   p {

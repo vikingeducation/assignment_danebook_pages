@@ -52,10 +52,9 @@ body {
 #middle-nav {
   height: 52px;
   border: 2px solid #2b78e4;
+  /*Bootstrap row reset*/
   margin-left: 0;
-  /*Bootstrap reset*/
-  margin-right: 0;
-  /*Bootstrap reset*/ }
+  margin-right: 0; }
   #middle-nav #edit-profile {
     float: right; }
   #middle-nav .middle-nav-buttons {
@@ -80,6 +79,7 @@ body {
   #info-section .heading {
     position: relative;
     /*For alignment of nested elements*/
+    /*Bootstrap row reset*/
     margin-left: 0;
     margin-right: 0;
     text-align: center;
@@ -103,19 +103,17 @@ body {
   border: 2px solid #ccc; }
   .post .post-create-heading {
     background: #ccc;
+    /*Bootstrap row reset*/
     margin-left: 0;
-    /*bootstrap reset*/
-    margin-right: 0;
-    /*bootstrap reset*/ }
+    margin-right: 0; }
     .post .post-create-heading h2 {
       text-align: center; }
   .post .post-footer {
     background: #ccc;
     padding: 8px;
+    /*Bootstrap row reset*/
     margin-left: 0;
-    /*bootstrap reset*/
-    margin-right: 0;
-    /*bootstrap reset*/ }
+    margin-right: 0; }
     .post .post-footer .text-links {
       float: left;
       margin: 5px 10px; }
@@ -132,10 +130,9 @@ body {
     margin: 15px 0px;
     min-height: 130px; }
   .post .post-heading {
+    /*Bootstrap row reset*/
     margin-left: 0;
-    /*bootstrap reset*/
-    margin-right: 0;
-    /*bootstrap reset*/ }
+    margin-right: 0; }
     .post .post-heading .name {
       margin: 30px 70px;
       font-weight: 700; }
@@ -144,10 +141,9 @@ body {
     width: 60px;
     margin: 10px 0; }
   .post .comments {
+    /*Bootstrap row reset*/
     margin-left: 0;
-    /*bootstrap reset*/
-    margin-right: 0;
-    /*bootstrap reset*/ }
+    margin-right: 0; }
     .post .comments p {
       margin: 13px 70px; }
     .post .comments button {
@@ -163,10 +159,9 @@ body {
   float: right; }
 
 .about-panel {
+  /*Bootstrap row reset*/
   margin-left: 0;
-  /*bootstrap reset*/
   margin-right: 0;
-  /*bootstrap reset*/
   margin-bottom: 20px;
   border: 1px solid #ccc; }
   .about-panel p {
