@@ -214,6 +214,7 @@ $post-color: #ccc;
 .about-panel {
   margin-left: 0;  /*bootstrap reset*/
   margin-right: 0;  /*bootstrap reset*/
+  margin-bottom: 20px;
   border: 1px solid $post-color;
   p {
     margin: 10px;
@@ -229,6 +230,18 @@ $post-color: #ccc;
       white-space: nowrap;
     }
   }
+}
+.photo-thumbnails {
+  padding: 10px;
+  img {
+    float: left;
+    width: 120px;
+    margin: 10px;
+  }
+}
+.align-center {
+    text-align: center;
+    clear: both;
 }
 
 

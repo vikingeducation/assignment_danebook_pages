@@ -167,6 +167,7 @@ body {
   /*bootstrap reset*/
   margin-right: 0;
   /*bootstrap reset*/
+  margin-bottom: 20px;
   border: 1px solid #ccc; }
   .about-panel p {
     margin: 10px; }
@@ -178,6 +179,17 @@ body {
       height: 40px;
       line-height: 40px;
       white-space: nowrap; }
+
+.photo-thumbnails {
+  padding: 10px; }
+  .photo-thumbnails img {
+    float: left;
+    width: 120px;
+    margin: 10px; }
+
+.align-center {
+  text-align: center;
+  clear: both; }
 
 @media screen and (max-width: 992px) {
   #middle-nav {
