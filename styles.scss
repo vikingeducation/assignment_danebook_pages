@@ -239,6 +239,20 @@ $post-color: #ccc;
     margin: 10px;
   }
 }
+.friend-thumbnails {
+  padding: 10px;
+  .friends-listing {
+    float: left;
+    margin: 10px;
+    text-align: center;
+    img {
+      width: 120px;
+    }
+    .friends-name {
+      display: block;
+    }
+  }
+}
 .align-center {
     text-align: center;
     clear: both;
