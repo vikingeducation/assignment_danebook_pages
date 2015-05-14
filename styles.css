@@ -1,4 +1,14 @@
+.navbar-default {
+  background-color: #2b78e4;
+  border-bottom: 2px solid #333; }
+
 .navbar-brand {
   font-size: 24px; }
+  .navbar-brand img {
+    display: inline;
+    margin-top: -5px; }
+
+.navbar-text {
+  font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
