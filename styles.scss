@@ -1,10 +1,11 @@
-//  blue: #2b78e4
+// Navbar custom styles
+
 .navbar-default {
   background-color: #2b78e4;
   border-bottom: 2px solid #333;
 
   .container {
-    max-width: 940px; //make navbar width match content width
+    margin-top: 0;
   }
 
   a span {
@@ -25,4 +26,14 @@
 
 .navbar-text {
   font-weight: bold;
+  margin-right: 0;
+}
+
+
+
+// Main content custom styles
+
+.container {
+  max-width: 846px; //applies to navbar as well
+  margin-top: 50px;
 }

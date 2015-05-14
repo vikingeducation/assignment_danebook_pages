@@ -2,7 +2,7 @@
   background-color: #2b78e4;
   border-bottom: 2px solid #333; }
   .navbar-default .container {
-    max-width: 940px; }
+    margin-top: 0; }
   .navbar-default a span {
     color: #fff; }
 
@@ -13,6 +13,11 @@
     margin-top: -5px; }
 
 .navbar-text {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-right: 0; }
+
+.container {
+  max-width: 846px;
+  margin-top: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
