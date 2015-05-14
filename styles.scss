@@ -3,6 +3,10 @@
   background-color: #2b78e4;
   border-bottom: 2px solid #333;
 
+  .container {
+    max-width: 940px; //make navbar width match content width
+  }
+
   a span {
     color: #fff;
   }
@@ -17,6 +21,7 @@
     margin-top: -5px;
   }
 }
+
 
 .navbar-text {
   font-weight: bold;
