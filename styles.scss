@@ -5,7 +5,6 @@
 
   a span {
     color: #fff;
-    font-weight: bold;
   }
 }
 
@@ -17,4 +16,8 @@
     display: inline;
     margin-top: -5px;
   }
+}
+
+.navbar-text {
+  font-weight: bold;
 }
