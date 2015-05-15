@@ -119,9 +119,9 @@
     padding-top: 8px; }
     #timeline .media .media-heading {
       margin-top: 8px; }
-  #timeline .links-row {
+  #timeline .feedback-wrapper {
     line-height: 2em; }
-    #timeline .links-row .pull-left a {
-      padding-right: 6px; }
+  #timeline .links-row .pull-left a {
+    padding-right: 6px; }
 
 /*# sourceMappingURL=styles.css.map */
