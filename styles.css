@@ -76,9 +76,12 @@
   .page-links-row .edit-link a {
     text-decoration: underline; }
 
-#about h1, #about h3 {
+#about h1, #about h3, #edit-about h1, #edit-about h3 {
   font-weight: bold; }
-#about dt {
+#about dl *, #edit-about dl * {
+  height: 30px;
+  margin-bottom: 4px; }
+#about dt, #edit-about dt {
   text-align: left; }
 
 /*# sourceMappingURL=styles.css.map */
