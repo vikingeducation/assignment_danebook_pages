@@ -79,23 +79,25 @@
   .page-links-row .edit-link a {
     text-decoration: underline; }
 
-#about h1, #about h3, #edit-about h1, #edit-about h3 {
-  font-weight: bold; }
-#about #edit-button-wrapper, #edit-about #edit-button-wrapper {
-  height: 69px;
-  line-height: 69px;
-  text-align: center; }
-#about dl *, #edit-about dl * {
-  height: 30px;
-  margin-bottom: 4px; }
-#about dt, #edit-about dt {
-  text-align: left;
-  width: 120px; }
-#about dd, #edit-about dd {
-  width: 180px;
-  margin-left: 140px; }
-#about #save-button, #edit-about #save-button {
-  width: 360px;
-  margin-bottom: 20px; }
+#about, #edit-about {
+  margin-top: 20px; }
+  #about h1, #about h3, #edit-about h1, #edit-about h3 {
+    font-weight: bold; }
+  #about #edit-button-wrapper, #edit-about #edit-button-wrapper {
+    height: 69px;
+    line-height: 69px;
+    text-align: center; }
+  #about dl *, #edit-about dl * {
+    height: 30px;
+    margin-bottom: 4px; }
+  #about dt, #edit-about dt {
+    text-align: left;
+    width: 120px; }
+  #about dd, #edit-about dd {
+    width: 180px;
+    margin-left: 140px; }
+  #about #save-button, #edit-about #save-button {
+    width: 360px;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
