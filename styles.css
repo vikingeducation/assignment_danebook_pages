@@ -23,18 +23,36 @@
 .photo-border {
   border: 2px solid #333; }
 
-.page-links-row {
-  height: 45px; }
-  .page-links-row .list-group-item {
-    min-width: 100px; }
-
-#user-photo {
-  height: 140px;
-  width: 140px;
-  object-fit: cover;
-  object-position: top;
-  position: relative;
-  top: -115px;
-  left: 20px; }
+.page-links-panel {
+  border: 2px solid #333;
+  border-top: none;
+  border-radius: 0; }
+  .page-links-panel .panel-body {
+    padding-top: 0;
+    padding-bottom: 0; }
+  .page-links-panel .user-photo-column {
+    height: 40px;
+    border-right: 2px solid #333;
+    padding-right: 15px; }
+  .page-links-panel #user-photo {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    top: -115px;
+    left: 0px; }
+  .page-links-panel .list-group {
+    margin-bottom: 0; }
+    .page-links-panel .list-group .list-group-item {
+      min-width: 100px;
+      border: none;
+      border-right: 2px solid #333;
+      border-radius: 0; }
+  .page-links-panel .edit-link {
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */

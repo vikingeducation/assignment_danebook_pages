@@ -42,21 +42,53 @@
   border: 2px solid #333;
 }
 
-.page-links-row {
-  height: 45px;
 
-  .list-group-item {
-    min-width: 100px;
+.page-links-panel {
+  border: 2px solid #333;
+  border-top: none;
+  border-radius: 0;
+
+  .panel-body {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+
+  .user-photo-column {
+    height: 40px;
+    border-right: 2px solid #333;
+    padding-right:15px;
+  }
+
+  #user-photo {
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    object-position: top;
+    position: relative;
+    top: -115px;
+    left: 0px;
+  }
+
+  .list-group {
+    margin-bottom: 0;
+
+    .list-group-item {
+      min-width: 100px;
+      border: none;
+      border-right: 2px solid #333;
+      border-radius: 0;
+    }
+  }
+
+
+
+  .edit-link {
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    text-decoration: underline;
   }
 }
 
-#user-photo {
-  height: 140px;
-  width: 140px;
-  object-fit: cover;
-  object-position: top;
-  position: relative;
-  top: -115px;
-  left: 20px;
-}
 
