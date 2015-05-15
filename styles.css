@@ -27,6 +27,10 @@
 .no-top-border {
   border-top: none; }
 
+#user-photo {
+  object-fit: cover;
+  object-position: top; }
+
 .cover-photo-row .cover-box:before {
   content: "";
   position: absolute;
@@ -52,10 +56,6 @@
   height: 40px;
   border-right: 1px solid #333; }
 .page-links-row #user-photo {
-  height: 140px;
-  width: 140px;
-  object-fit: cover;
-  object-position: top;
   position: relative;
   top: -115px;
   left: 0px; }
@@ -102,12 +102,26 @@
 
 #timeline {
   margin-top: 20px; }
-  #timeline .individual-wrapper {
-    background-color: #eee; }
-    #timeline .individual-wrapper h4 {
+  #timeline .standard-wrapper {
+    background-color: #eee;
+    margin-bottom: 20px; }
+    #timeline .standard-wrapper h4 {
       font-weight: bold; }
-    #timeline .individual-wrapper button {
+    #timeline .standard-wrapper button {
       margin-top: 10px;
       margin-bottom: 10px; }
+    #timeline .standard-wrapper #user-photo {
+      margin-top: 5px;
+      margin-bottom: 5px; }
+    #timeline .standard-wrapper a {
+      text-decoration: underline; }
+  #timeline .media {
+    padding-top: 8px; }
+    #timeline .media .media-heading {
+      margin-top: 8px; }
+  #timeline .links-row {
+    line-height: 2em; }
+    #timeline .links-row .pull-left a {
+      padding-right: 6px; }
 
 /*# sourceMappingURL=styles.css.map */

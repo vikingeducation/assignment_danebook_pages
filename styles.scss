@@ -47,6 +47,11 @@
   border-top: none;
 }
 
+#user-photo {
+  object-fit: cover;
+  object-position: top;
+}
+
 
 
 // Header styles
@@ -94,10 +99,6 @@
   }
 
   #user-photo {
-    height: 140px;
-    width: 140px;
-    object-fit: cover;
-    object-position: top;
     position: relative;
     top: -115px;
     left: 0px;
@@ -179,8 +180,9 @@
 #timeline {
   margin-top: 20px;
 
-  .individual-wrapper {
+  .standard-wrapper {
     background-color: #eee;
+    margin-bottom: 20px;
 
     h4 {
       font-weight: bold;
@@ -189,6 +191,32 @@
     button {
       margin-top: 10px;
       margin-bottom: 10px;
+    }
+
+    #user-photo {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    a{
+      text-decoration: underline;
+    }
+  }
+
+  .media {
+    padding-top: 8px;
+    .media-heading {
+      margin-top: 8px;
+    }
+  }
+
+  .links-row {
+    line-height: 2em;
+
+    .pull-left {
+      a {
+        padding-right: 6px;
+      }
     }
   }
 }
