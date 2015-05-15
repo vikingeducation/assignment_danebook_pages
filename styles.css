@@ -25,13 +25,16 @@
 
 .page-links-row {
   height: 45px; }
-  .page-links-row #user-photo {
-    height: 140px;
-    width: 140px;
-    object-fit: cover;
-    object-position: top;
-    position: relative;
-    top: -115px;
-    left: 20px; }
+  .page-links-row .list-group-item {
+    min-width: 100px; }
+
+#user-photo {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  object-position: top;
+  position: relative;
+  top: -115px;
+  left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

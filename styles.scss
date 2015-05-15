@@ -45,13 +45,18 @@
 .page-links-row {
   height: 45px;
 
-  #user-photo {
-    height: 140px;
-    width: 140px;
-    object-fit: cover;
-    object-position: top;
-    position: relative;
-    top: -115px;
-    left: 20px;
+  .list-group-item {
+    min-width: 100px;
   }
 }
+
+#user-photo {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  object-position: top;
+  position: relative;
+  top: -115px;
+  left: 20px;
+}
+
