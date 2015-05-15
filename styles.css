@@ -24,6 +24,9 @@
   border: 1px solid #333;
   border-radius: 0; }
 
+.standard-wrapper {
+  background-color: #eee; }
+
 .no-top-border {
   border-top: none; }
 
@@ -103,7 +106,6 @@
 #timeline {
   margin-top: 20px; }
   #timeline .standard-wrapper {
-    background-color: #eee;
     margin-bottom: 20px; }
     #timeline .standard-wrapper h4 {
       font-weight: bold; }
