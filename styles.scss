@@ -140,8 +140,23 @@
     font-weight: bold;
   }
 
+  #edit-button-wrapper {
+    height: 69px;
+    line-height: 69px;
+    text-align: center;
+    // position: relative;
+
+    button {
+      // vertical-align: middle;
+      // position: absolute;
+      // top: 50%;
+      // right:100%;
+      // transform: translateY(-50%);
+    }
+  }
 
   dl * {
+    font-size: 13px;
     height: 30px;
     margin-bottom: 4px;
   }
