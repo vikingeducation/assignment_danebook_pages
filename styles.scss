@@ -39,7 +39,7 @@
 }
 
 .standard-border {
-  border: 2px solid #333;
+  border: 1px solid #333;
   border-radius: 0;
 }
 
@@ -90,7 +90,7 @@
 
   .user-photo-column {
     height: 40px;
-    border-right: 2px solid #333;
+    border-right: 1px solid #333;
   }
 
   #user-photo {
@@ -108,13 +108,13 @@
   }
 
   .list-group {
-    border-left: 2px solid #333;
+    border-left: 1px solid #333;
     margin-bottom: 0;
 
     .list-group-item {
       min-width: 100px;
       border: none;
-      border-right: 2px solid #333;
+      border-right: 1px solid #333;
       border-radius: 0;
 
       a {
@@ -151,15 +151,6 @@
     height: 69px;
     line-height: 69px;
     text-align: center;
-    // position: relative;
-
-    button {
-      // vertical-align: middle;
-      // position: absolute;
-      // top: 50%;
-      // right:100%;
-      // transform: translateY(-50%);
-    }
   }
 
   dl * {
@@ -180,5 +171,24 @@
   #save-button {
     width: 360px;
     margin-bottom: 20px;
+  }
+}
+
+
+// Timeline section styles
+#timeline {
+  margin-top: 20px;
+
+  .individual-wrapper {
+    background-color: #eee;
+
+    h4 {
+      font-weight: bold;
+    }
+
+    button {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   }
 }

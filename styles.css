@@ -21,7 +21,7 @@
   margin-top: 50px; }
 
 .standard-border {
-  border: 2px solid #333;
+  border: 1px solid #333;
   border-radius: 0; }
 
 .no-top-border {
@@ -50,7 +50,7 @@
 
 .page-links-row .user-photo-column {
   height: 40px;
-  border-right: 2px solid #333; }
+  border-right: 1px solid #333; }
 .page-links-row #user-photo {
   height: 140px;
   width: 140px;
@@ -62,12 +62,12 @@
 .page-links-row #main-links-wrapper {
   padding: 0; }
 .page-links-row .list-group {
-  border-left: 2px solid #333;
+  border-left: 1px solid #333;
   margin-bottom: 0; }
   .page-links-row .list-group .list-group-item {
     min-width: 100px;
     border: none;
-    border-right: 2px solid #333;
+    border-right: 1px solid #333;
     border-radius: 0; }
     .page-links-row .list-group .list-group-item a {
       color: #333;
@@ -99,5 +99,15 @@
   #about #save-button, #edit-about #save-button {
     width: 360px;
     margin-bottom: 20px; }
+
+#timeline {
+  margin-top: 20px; }
+  #timeline .individual-wrapper {
+    background-color: #eee; }
+    #timeline .individual-wrapper h4 {
+      font-weight: bold; }
+    #timeline .individual-wrapper button {
+      margin-top: 10px;
+      margin-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
