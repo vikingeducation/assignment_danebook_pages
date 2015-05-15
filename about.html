@@ -94,11 +94,15 @@
     <div class="container content-container">
 
       <!-- cover photo -->
-      <div class="row cover-photo-row">
+      <div class="row cover-photo-row standard-border">
 
-        <div class="col-xs-12">
+        <div class="col-xs-12 cover-box">
 
-          <img class="img-responsive center-block photo-border" width="846" src="images/hogwarts_small.jpg" alt="User's customized cover photo">
+          <div class="row spacer"></div>
+
+          <div class="row user-name">
+            <h1>Harry Potter</h1>
+          </div>
 
         </div>
 
@@ -109,22 +113,23 @@
 
       <!-- row for user photo and page links -->
 
-      <div class="panel panel-default page-links-panel">
-
-        <div class="panel-body">
-
+      <div class="row page-links-row">
 
 
           <!-- photo columns -->
           <div class="pull-left user-photo-column">
 
-            <img id="user-photo" class="photo-border" src="images/harry_potter_small.jpg" width="140" alt="User's personal photo">
+            <div class="col-xs-12">
+
+              <img id="user-photo" class="standard-border" src="images/harry_potter_small.jpg" width="140" alt="User's personal photo">
+
+            </div>
 
           </div>
 
 
           <!-- main links column -->
-          <div class="col-xs-7">
+          <div class="col-md-7">
 
             <ul class="list-group list-inline">
 
@@ -162,16 +167,18 @@
           <!-- edit link column -->
           <div class="pull-right edit-link">
 
-            <a href="about_edit.html" alt="Edit your user profile">
-              Edit Profile
-            </a>
+            <div class="col-md-12">
+
+              <a href="about_edit.html" alt="Edit your user profile">
+                Edit Profile
+              </a>
+
+            </div>
 
           </div>
 
 
-        </div> <!-- panel body -->
-
-      </div> <!-- page links panel -->
+      </div> <!-- page links row -->
 
 
 

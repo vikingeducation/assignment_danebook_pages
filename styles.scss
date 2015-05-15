@@ -38,26 +38,53 @@
   margin-top: 50px;
 }
 
-.photo-border {
+.standard-border {
   border: 2px solid #333;
 }
 
+.cover-photo-row {
 
-.page-links-panel {
+  .cover-box:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(images/hogwarts_small.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 0.8;
+  }
+
+  .cover-box {
+    height: 263px;
+
+    .spacer {
+      height: 263px - 69px;
+    }
+
+    .user-name {
+      color: #000;
+      padding-left: 170px;
+
+      h1 {
+        font-weight: bold;
+      }
+    }
+  }
+
+}
+
+
+.page-links-row {
   border: 2px solid #333;
   border-top: none;
   border-radius: 0;
 
-  .panel-body {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-
   .user-photo-column {
     height: 40px;
     border-right: 2px solid #333;
-    padding-right:15px;
   }
 
   #user-photo {
@@ -78,6 +105,11 @@
       border: none;
       border-right: 2px solid #333;
       border-radius: 0;
+
+      a {
+        color: #333;
+        font-weight: bold;
+      }
     }
   }
 
@@ -87,7 +119,10 @@
     height: 40px;
     line-height: 40px;
     text-align: right;
-    text-decoration: underline;
+
+    a{
+      text-decoration: underline;
+    }
   }
 }
 
