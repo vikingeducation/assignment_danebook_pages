@@ -133,6 +133,7 @@
 }
 
 
+
 // About section styles
 #about, #edit-about {
   h1, h3 {
@@ -147,5 +148,16 @@
 
   dt {
     text-align: left;
+    width: 120px;
+  }
+
+  dd {
+    width: 180px;
+    margin-left: 140px;
+  }
+
+  #save-button {
+    width: 360px;
+    margin-bottom: 20px;
   }
 }

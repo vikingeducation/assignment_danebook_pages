@@ -82,6 +82,13 @@
   height: 30px;
   margin-bottom: 4px; }
 #about dt, #edit-about dt {
-  text-align: left; }
+  text-align: left;
+  width: 120px; }
+#about dd, #edit-about dd {
+  width: 180px;
+  margin-left: 140px; }
+#about #save-button, #edit-about #save-button {
+  width: 360px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
