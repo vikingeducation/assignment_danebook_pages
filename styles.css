@@ -59,7 +59,10 @@
   position: relative;
   top: -115px;
   left: 0px; }
+.page-links-row #main-links-wrapper {
+  padding: 0; }
 .page-links-row .list-group {
+  border-left: 2px solid #333;
   margin-bottom: 0; }
   .page-links-row .list-group .list-group-item {
     min-width: 100px;
