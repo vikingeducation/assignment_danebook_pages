@@ -40,8 +40,16 @@
 
 .standard-border {
   border: 2px solid #333;
+  border-radius: 0;
 }
 
+.no-top-border {
+  border-top: none;
+}
+
+
+
+// Header styles
 .cover-photo-row {
 
   .cover-box:before {
@@ -73,14 +81,12 @@
       }
     }
   }
-
 }
 
 
+
+
 .page-links-row {
-  border: 2px solid #333;
-  border-top: none;
-  border-radius: 0;
 
   .user-photo-column {
     height: 40px;
@@ -127,3 +133,13 @@
 }
 
 
+// About section styles
+#about {
+  h1, h3 {
+    font-weight: bold;
+  }
+
+  dt {
+    text-align: left;
+  }
+}

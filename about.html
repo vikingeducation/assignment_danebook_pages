@@ -91,99 +91,209 @@
 
 <!-- MAIN CONTENT -->
 
-    <div class="container content-container">
+    <main class="container content-container">
 
-      <!-- cover photo -->
-      <div class="row cover-photo-row standard-border">
+<!-- cover photo -->
+      <header>
+        <div class="row cover-photo-row standard-border">
 
-        <div class="col-xs-12 cover-box">
+          <div class="col-xs-12 cover-box">
 
-          <div class="row spacer"></div>
+            <div class="row spacer"></div>
 
-          <div class="row user-name">
-            <h1>Harry Potter</h1>
+            <div class="row user-name">
+              <h1>Harry Potter</h1>
+            </div>
+
+          </div>
+
+        </div>  <!-- cover photo row -->
+
+
+
+
+<!-- row for user photo and page links -->
+
+        <div class="row page-links-row standard-border no-top-border">
+
+
+            <!-- photo columns -->
+            <div class="pull-left user-photo-column">
+
+              <div class="col-xs-12">
+
+                <img id="user-photo" class="standard-border" src="images/harry_potter_small.jpg" width="140" alt="User's personal photo">
+
+              </div>
+
+            </div>
+
+
+            <!-- main links column -->
+            <div class="col-md-7">
+
+              <ul class="list-group list-inline">
+
+                <li class="list-group-item text-center">
+                  <a href="timeline.html" alt="Link to Timeline page">
+                    Timeline
+                  </a>
+                </li>
+
+                <li class="list-group-item text-center disabled">
+                  <a href="about.html" alt="Link to About page">
+                    About
+                  </a>
+                </li>
+
+                <li class="list-group-item text-center">
+                  <a href="photos.html" alt="Link to Photos page">
+                    Photos
+                    <span class="badge">123</span>
+                  </a>
+                </li>
+
+                <li class="list-group-item text-center">
+                  <a href="friends.html" alt="Link to Friends page">
+                    Friends
+                    <span class="badge">542</span>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+
+            <!-- edit link column -->
+            <div class="pull-right edit-link">
+
+              <div class="col-md-12">
+
+                <a href="about_edit.html" alt="Edit your user profile">
+                  Edit Profile
+                </a>
+
+              </div>
+
+            </div>
+
+
+        </div> <!-- page links row -->
+
+      </header>
+
+
+
+
+<!-- Start of main About section -->
+      <section id="about">
+
+
+        <div class="row standard-border no-top-border">
+
+          <div class="col-md-12">
+
+            <h1 class="text-center">About</h1>
+
           </div>
 
         </div>
 
-      </div>  <!-- cover photo row -->
 
 
+<!-- Start of About content -->
+        <div class="row standard-border no-top-border">
 
 
-      <!-- row for user photo and page links -->
+<!-- Left side of About section -->
+          <div class="col-md-6">
 
-      <div class="row page-links-row">
+            <div class="row">
 
-
-          <!-- photo columns -->
-          <div class="pull-left user-photo-column">
-
-            <div class="col-xs-12">
-
-              <img id="user-photo" class="standard-border" src="images/harry_potter_small.jpg" width="140" alt="User's personal photo">
-
-            </div>
-
-          </div>
+              <div class="col-md-12">
 
 
-          <!-- main links column -->
-          <div class="col-md-7">
+                <h3>
+                  Basic Information
+                </h3>
 
-            <ul class="list-group list-inline">
-
-              <li class="list-group-item text-center">
-                <a href="timeline.html" alt="Link to Timeline page">
-                  Timeline
-                </a>
-              </li>
-
-              <li class="list-group-item text-center disabled">
-                <a href="about.html" alt="Link to About page">
-                  About
-                </a>
-              </li>
-
-              <li class="list-group-item text-center">
-                <a href="photos.html" alt="Link to Photos page">
-                  Photos
-                  <span class="badge">123</span>
-                </a>
-              </li>
-
-              <li class="list-group-item text-center">
-                <a href="friends.html" alt="Link to Friends page">
-                  Friends
-                  <span class="badge">542</span>
-                </a>
-              </li>
-
-            </ul>
-
-          </div>
+                <dl class="dl-horizontal">
+                  <dt>Birthday:</dt>
+                  <dd>July 31st, 1980</dd>
+                  <dt>College:</dt>
+                  <dd>Hogwarts College</dd>
+                  <dt>Hometown:</dt>
+                  <dd>Godrick's Hollow, England</dd>
+                  <dt>Currently Lives:</dt>
+                  <dd>Godrick's Hollow, England</dd>
+                </dl>
 
 
-          <!-- edit link column -->
-          <div class="pull-right edit-link">
+                <h3>
+                  Contact Information
+                </h3>
 
-            <div class="col-md-12">
+                <dl class="dl-horizontal">
+                  <dt>Email:</dt>
+                  <dd>harry_potter@hogwarts.edu</dd>
+                  <dt>Telephone:</dt>
+                  <dd>555-123-4567</dd>
+                </dl>
 
-              <a href="about_edit.html" alt="Edit your user profile">
-                Edit Profile
-              </a>
+
+              </div>
 
             </div>
 
-          </div>
-
-
-      </div> <!-- page links row -->
+          </div> <!-- end of Left side -->
 
 
 
+<!-- Right side of About section -->
+          <div class="col-md-6">
 
-    </div> <!-- container -->
+            <div class="row">
+
+              <div class="col-md-12">
+
+                <h3>
+                  Words to Live By
+                </h3>
+
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+
+                <h3>
+                  About Me
+                </h3>
+
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>  <!-- end of Right side -->
+
+
+        </div> <!-- end of About content -->
+
+
+      </section>
+
+
+
+
+    </main> <!-- container -->
 
 <!-- END OF MAIN CONTENT -->
 
