@@ -121,9 +121,15 @@
     padding-top: 8px; }
     #timeline .media .media-heading {
       margin-top: 8px; }
-  #timeline .feedback-wrapper {
-    line-height: 2em; }
-  #timeline .links-row .pull-left a {
+  #timeline .links-row .pull-left a, #timeline .comment-likes-row .pull-left a {
     padding-right: 6px; }
+  #timeline .comments-wrapper {
+    border-top: 2px solid #999; }
+
+#comment-form {
+  margin-top: 16px;
+  vertical-align: middle; }
+  #comment-form a {
+    line-height: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
