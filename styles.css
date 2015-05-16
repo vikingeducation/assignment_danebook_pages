@@ -60,24 +60,24 @@
   .page-links-row .nav .pull-right {
     outline: none; }
 
-#about, #edit-about, #timeline {
+#about, #edit-about, #timeline, #friends {
   margin-top: 20px; }
-  #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3 {
+  #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3, #friends h1, #friends h3 {
     font-weight: bold; }
-  #about #edit-button-wrapper, #edit-about #edit-button-wrapper, #timeline #edit-button-wrapper {
+  #about #edit-button-wrapper, #edit-about #edit-button-wrapper, #timeline #edit-button-wrapper, #friends #edit-button-wrapper {
     height: 69px;
     line-height: 69px;
     text-align: center; }
-  #about dl *, #edit-about dl *, #timeline dl * {
+  #about dl *, #edit-about dl *, #timeline dl *, #friends dl * {
     height: 30px;
     margin-bottom: 4px; }
-  #about dt, #edit-about dt, #timeline dt {
+  #about dt, #edit-about dt, #timeline dt, #friends dt {
     text-align: left;
     width: 120px; }
-  #about dd, #edit-about dd, #timeline dd {
+  #about dd, #edit-about dd, #timeline dd, #friends dd {
     width: 180px;
     margin-left: 140px; }
-  #about #save-button, #edit-about #save-button, #timeline #save-button {
+  #about #save-button, #edit-about #save-button, #timeline #save-button, #friends #save-button {
     width: 360px;
     margin-bottom: 20px; }
 
@@ -116,5 +116,17 @@
     line-height: 50px; }
   #comment-form .comment-button-wrapper {
     margin-top: 10px; }
+
+#friends .panel-body img {
+  max-width: 75px;
+  max-height: 75px; }
+#friends .panel-body #friend-wrapper div {
+  position: relative; }
+  #friends .panel-body #friend-wrapper div .vcenter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%); }
+    #friends .panel-body #friend-wrapper div .vcenter p {
+      margin-bottom: 0; }
 
 /*# sourceMappingURL=styles.css.map */

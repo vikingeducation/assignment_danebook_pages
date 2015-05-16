@@ -115,7 +115,7 @@
 
 
 // About section styles
-#about, #edit-about, #timeline {
+#about, #edit-about, #timeline, #friends {
   margin-top: 20px;
 
   h1, h3 {
@@ -152,11 +152,10 @@
 
 // Timeline section styles
 #timeline {
-
   .panel-body {
     img {
       max-width: 75px;
-      max-height: 75px; 
+      max-height: 75px;
     }
   }
 
@@ -228,5 +227,33 @@
 
   .comment-button-wrapper {
     margin-top: 10px;
+  }
+}
+
+#friends {
+
+
+  .panel-body {
+    img {
+      max-width: 75px;
+      max-height: 75px;
+    }
+    #friend-wrapper {
+      div {
+
+        position: relative;
+
+        .vcenter {
+          position: absolute;
+          top: 50%;
+          transform: translateY(50%);
+
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+
   }
 }
