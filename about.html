@@ -95,7 +95,7 @@
 
 <!-- cover photo -->
       <header>
-        <div class="row cover-photo-row standard-border">
+        <div class="row cover-photo-row">
 
           <div class="col-xs-12 cover-box">
 
@@ -114,63 +114,53 @@
 
 <!-- row for user photo and page links -->
 
-        <div class="row page-links-row standard-border no-top-border">
-
-
-            <!-- photo columns -->
-            <div class="pull-left user-photo-column">
-
-              <div class="col-xs-12">
-
-                <img id="user-photo" class="standard-border" src="images/harry_potter_small.jpg" width="140" height="140" alt="User's personal photo">
-
-              </div>
-
-            </div>
+        <div class="row page-links-row">
 
 
             <!-- main links column -->
-            <div id="main-links-wrapper" class="col-md-7">
-
-              <ul class="list-group list-inline">
-
-                <li class="list-group-item text-center">
-                  <a href="timeline.html" alt="Link to Timeline page">
-                    Timeline
-                  </a>  <!-- used weird line breaks to remove spacing between li elements -->
-
-                </li><li class="list-group-item text-center disabled">
-                  <a href="about.html" alt="Link to About page">
-                    About
-                  </a>
-
-                </li><li class="list-group-item text-center">
-                  <a href="photos.html" alt="Link to Photos page">
-                    Photos
-                    <span class="badge">123</span>
-                  </a>
-
-                </li><li class="list-group-item text-center">
-                  <a href="friends.html" alt="Link to Friends page">
-                    Friends
-                    <span class="badge">542</span>
-                  </a>
-
-                </li>
-
-              </ul>
-
-            </div>
-
-
-            <!-- edit link column -->
-            <div class="pull-right edit-link">
+            <div class="row">
 
               <div class="col-md-12">
 
-                <a href="about_edit.html" alt="Edit your user profile">
-                  Edit Profile
-                </a>
+                <ul class="nav nav-tabs">
+
+                  <li class="text-bottom" role="presentation">
+                    <img id="user-photo" src="images/harry_potter_small.jpg" width="140" height="140" alt="User's personal photo">
+                  </li>
+
+                  <li class="text-center" role="presentation">
+                    <a href="timeline.html" alt="Link to Timeline page">
+                      Timeline
+                    </a>
+                  </li>
+
+                  <li class="text-center disabled" role="presentation">
+                    <a href="about.html" alt="Link to About page">
+                      About
+                    </a>
+                  </li>
+
+                  <li class=" text-center" role="presentation">
+                    <a href="photos.html" alt="Link to Photos page">
+                      Photos
+                      <span class="badge">123</span>
+                    </a>
+                  </li>
+
+                  <li class="text-center" role="presentation">
+                    <a href="friends.html" alt="Link to Friends page">
+                      Friends
+                      <span class="badge">542</span>
+                    </a>
+                  </li>
+
+                  <li class="text-center pull-right" role="presentation">
+                    <a href="about_edit.html" alt="Edit your user profile">
+                      Edit Profile
+                    </a>
+                  </li>
+
+                </ul>
 
               </div>
 

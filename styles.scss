@@ -38,18 +38,6 @@
   margin-top: 50px;
 }
 
-.standard-border {
-  border: 1px solid #333;
-  border-radius: 0;
-}
-
-.standard-wrapper {
-    background-color: #eee;
-}
-
-.no-top-border {
-  border-top: none;
-}
 
 #user-photo {
   object-fit: cover;
@@ -97,48 +85,30 @@
 
 .page-links-row {
 
-  .user-photo-column {
-    height: 40px;
-    border-right: 1px solid #333;
-  }
 
   #user-photo {
+    margin: 16px;
     position: relative;
-    top: -115px;
-    left: 0px;
+    top: -130px;
   }
 
-  #main-links-wrapper {
-    padding: 0;
-  }
 
-  .list-group {
-    border-left: 1px solid #333;
-    margin-bottom: 0;
+  .nav {
+      outline: 1px solid #ddd;
 
-    .list-group-item {
-      min-width: 100px;
-      border: none;
-      border-right: 1px solid #333;
-      border-radius: 0;
+      li {
+        outline: 1px solid #ddd;
+        max-height: 42px;
+      }
 
       a {
         color: #333;
         font-weight: bold;
       }
-    }
-  }
 
-
-
-  .edit-link {
-    height: 40px;
-    line-height: 40px;
-    text-align: right;
-
-    a{
-      text-decoration: underline;
-    }
+      .pull-right {
+        outline: none;
+      }
   }
 }
 

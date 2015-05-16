@@ -20,16 +20,6 @@
   max-width: 846px;
   margin-top: 50px; }
 
-.standard-border {
-  border: 1px solid #333;
-  border-radius: 0; }
-
-.standard-wrapper {
-  background-color: #eee; }
-
-.no-top-border {
-  border-top: none; }
-
 #user-photo {
   object-fit: cover;
   object-position: top; }
@@ -55,32 +45,20 @@
     .cover-photo-row .cover-box .user-name h1 {
       font-weight: bold; }
 
-.page-links-row .user-photo-column {
-  height: 40px;
-  border-right: 1px solid #333; }
 .page-links-row #user-photo {
+  margin: 16px;
   position: relative;
-  top: -115px;
-  left: 0px; }
-.page-links-row #main-links-wrapper {
-  padding: 0; }
-.page-links-row .list-group {
-  border-left: 1px solid #333;
-  margin-bottom: 0; }
-  .page-links-row .list-group .list-group-item {
-    min-width: 100px;
-    border: none;
-    border-right: 1px solid #333;
-    border-radius: 0; }
-    .page-links-row .list-group .list-group-item a {
-      color: #333;
-      font-weight: bold; }
-.page-links-row .edit-link {
-  height: 40px;
-  line-height: 40px;
-  text-align: right; }
-  .page-links-row .edit-link a {
-    text-decoration: underline; }
+  top: -130px; }
+.page-links-row .nav {
+  outline: 1px solid #ddd; }
+  .page-links-row .nav li {
+    outline: 1px solid #ddd;
+    max-height: 42px; }
+  .page-links-row .nav a {
+    color: #333;
+    font-weight: bold; }
+  .page-links-row .nav .pull-right {
+    outline: none; }
 
 #about, #edit-about, #timeline {
   margin-top: 20px; }
