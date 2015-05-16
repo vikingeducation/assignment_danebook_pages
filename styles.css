@@ -82,57 +82,61 @@
   .page-links-row .edit-link a {
     text-decoration: underline; }
 
-#about, #edit-about {
+#about, #edit-about, #timeline {
   margin-top: 20px; }
-  #about h1, #about h3, #edit-about h1, #edit-about h3 {
+  #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3 {
     font-weight: bold; }
-  #about #edit-button-wrapper, #edit-about #edit-button-wrapper {
+  #about #edit-button-wrapper, #edit-about #edit-button-wrapper, #timeline #edit-button-wrapper {
     height: 69px;
     line-height: 69px;
     text-align: center; }
-  #about dl *, #edit-about dl * {
+  #about dl *, #edit-about dl *, #timeline dl * {
     height: 30px;
     margin-bottom: 4px; }
-  #about dt, #edit-about dt {
+  #about dt, #edit-about dt, #timeline dt {
     text-align: left;
     width: 120px; }
-  #about dd, #edit-about dd {
+  #about dd, #edit-about dd, #timeline dd {
     width: 180px;
     margin-left: 140px; }
-  #about #save-button, #edit-about #save-button {
+  #about #save-button, #edit-about #save-button, #timeline #save-button {
     width: 360px;
     margin-bottom: 20px; }
 
-#timeline {
-  margin-top: 20px; }
-  #timeline .panel-body img {
-    max-width: 75px;
-    max-height: 75px; }
-  #timeline .standard-wrapper {
-    margin-bottom: 20px; }
-    #timeline .standard-wrapper h4 {
-      font-weight: bold; }
-    #timeline .standard-wrapper button {
-      margin-top: 10px;
-      margin-bottom: 10px; }
-    #timeline .standard-wrapper #user-photo {
-      margin-top: 5px;
-      margin-bottom: 5px; }
-    #timeline .standard-wrapper a {
-      text-decoration: underline; }
-  #timeline .media {
-    padding-top: 8px; }
-    #timeline .media .media-heading {
-      margin-top: 8px; }
-  #timeline .links-row .pull-left a, #timeline .comment-likes-row .pull-left a {
-    padding-right: 6px; }
-  #timeline .comments-wrapper {
-    border-top: 2px solid #999; }
+#timeline .panel-body img {
+  max-width: 75px;
+  max-height: 75px; }
+#timeline .standard-wrapper {
+  margin-bottom: 20px; }
+  #timeline .standard-wrapper h4 {
+    font-weight: bold; }
+  #timeline .standard-wrapper button {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  #timeline .standard-wrapper #user-photo {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  #timeline .standard-wrapper a {
+    text-decoration: underline; }
+#timeline .media {
+  padding-top: 8px; }
+  #timeline .media .media-heading {
+    margin-top: 8px; }
+#timeline .links-row .pull-left a, #timeline .comment-likes-row .pull-left a {
+  padding-right: 6px; }
+#timeline #comments-wrapper {
+  border-top: 1px solid #999; }
+  #timeline #comments-wrapper .media {
+    margin-left: 8px; }
+    #timeline #comments-wrapper .media .pull-left {
+      padding-right: 6px; }
 
 #comment-form {
   margin-top: 16px;
   vertical-align: middle; }
   #comment-form a {
     line-height: 50px; }
+  #comment-form .comment-button-wrapper {
+    margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

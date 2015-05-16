@@ -801,7 +801,7 @@
 
 
                   <!-- Comments media list -->
-                  <div class="row">
+                  <div id="comments-wrapper" class="row">
 
               <!-- First Comment -->
                     <div class="media">
@@ -837,15 +837,8 @@
                             consequat.
                           </p>
 
-                        </div>
-
-                      </div>
 
                       <!-- Comment Likes section -->
-                      <div class="row">
-
-                        <div class="col-xs-12">
-
                           <div class="pull-left">
                             <a href="#" alt="Like this post">Like</a>
                           </div>
@@ -853,7 +846,6 @@
                           <div class="pull-left">
                             <p>3 other people like this</p>
                           </div>
-
                         </div>
 
                       </div> <!-- end of Comment Likes section -->
@@ -898,15 +890,8 @@
                             consequat.
                           </p>
 
-                        </div>
-
-                      </div>
 
                       <!-- Comment Likes section -->
-                      <div class="row">
-
-                        <div class="col-xs-12">
-
                           <div class="pull-left">
                             <a href="#" alt="Like this post">Like</a>
                           </div>
@@ -918,7 +903,6 @@
                           <div class="pull-right">
                             <a href="#" alt="Like this post">Delete</a>
                           </div>
-
                         </div>
 
                       </div> <!-- end of Comment Likes section -->
@@ -927,6 +911,7 @@
 
                   </div>
     <!-- End of Comments media list -->
+
 
     <!-- Post another comment -->
                   <div class="row">
@@ -945,9 +930,13 @@
                               <a href="#" alt="Cancel writing a comment">Cancel</a>
                             </div>
 
-                            <button type="submit" class="btn btn-primary btn-sm pull-right">
-                              Comment
-                            </button>
+                            <div class="pull-right comment-button-wrapper">
+
+                              <button type="submit" class="btn btn-primary btn-sm">
+                                Comment
+                              </button>
+
+                            </row>
 
                           </div>
                         </div> <!-- end of Cancel & Comment row -->

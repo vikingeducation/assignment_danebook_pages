@@ -145,7 +145,7 @@
 
 
 // About section styles
-#about, #edit-about {
+#about, #edit-about, #timeline {
   margin-top: 20px;
 
   h1, h3 {
@@ -182,7 +182,6 @@
 
 // Timeline section styles
 #timeline {
-  margin-top: 20px;
 
   .panel-body {
     img {
@@ -236,8 +235,16 @@
     }
   }
 
-  .comments-wrapper {
-    border-top: 2px solid #999;
+  #comments-wrapper {
+    border-top: 1px solid #999;
+
+    .media {
+      margin-left: 8px;
+
+      .pull-left {
+        padding-right: 6px;
+      }
+    }
   }
 }
 
@@ -247,5 +254,9 @@
 
   a {
     line-height: 50px; //equal to btn-sm height+margin
+  }
+
+  .comment-button-wrapper {
+    margin-top: 10px;
   }
 }
