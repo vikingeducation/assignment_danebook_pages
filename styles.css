@@ -64,10 +64,6 @@
   margin-top: 20px; }
   #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3, #friends h1, #friends h3 {
     font-weight: bold; }
-  #about #edit-button-wrapper, #edit-about #edit-button-wrapper, #timeline #edit-button-wrapper, #friends #edit-button-wrapper {
-    height: 69px;
-    line-height: 69px;
-    text-align: center; }
   #about dl *, #edit-about dl *, #timeline dl *, #friends dl * {
     height: 30px;
     margin-bottom: 4px; }
@@ -77,37 +73,18 @@
   #about dd, #edit-about dd, #timeline dd, #friends dd {
     width: 180px;
     margin-left: 140px; }
-  #about #save-button, #edit-about #save-button, #timeline #save-button, #friends #save-button {
-    width: 360px;
-    margin-bottom: 20px; }
 
 #timeline .panel-body img {
   max-width: 75px;
   max-height: 75px; }
-#timeline .standard-wrapper {
-  margin-bottom: 20px; }
-  #timeline .standard-wrapper h4 {
-    font-weight: bold; }
-  #timeline .standard-wrapper button {
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  #timeline .standard-wrapper #user-photo {
-    margin-top: 5px;
-    margin-bottom: 5px; }
-  #timeline .standard-wrapper a {
-    text-decoration: underline; }
 #timeline .media {
   padding-top: 8px; }
   #timeline .media .media-heading {
     margin-top: 8px; }
-#timeline .links-row .pull-left a, #timeline .comment-likes-row .pull-left a {
-  padding-right: 6px; }
+  #timeline .media .pull-left {
+    padding-right: 6px; }
 #timeline #comments-wrapper {
   border-top: 1px solid #999; }
-  #timeline #comments-wrapper .media {
-    margin-left: 8px; }
-    #timeline #comments-wrapper .media .pull-left {
-      padding-right: 6px; }
 
 #comment-form {
   margin-top: 16px;

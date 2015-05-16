@@ -114,18 +114,12 @@
 
 
 
-// About section styles
+// Main section styles
 #about, #edit-about, #timeline, #friends {
   margin-top: 20px;
 
   h1, h3 {
     font-weight: bold;
-  }
-
-  #edit-button-wrapper {
-    height: 69px;
-    line-height: 69px;
-    text-align: center;
   }
 
   dl * {
@@ -143,10 +137,7 @@
     margin-left: 140px;
   }
 
-  #save-button {
-    width: 360px;
-    margin-bottom: 20px;
-  }
+
 }
 
 
@@ -160,62 +151,23 @@
   }
 
 
-
-
-
-  .standard-wrapper {
-    margin-bottom: 20px;
-
-    h4 {
-      font-weight: bold;
-    }
-
-    button {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
-    #user-photo {
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-
-    a{
-      text-decoration: underline;
-    }
-  }
-
   .media {
     padding-top: 8px;
+
     .media-heading {
       margin-top: 8px;
     }
-  }
 
-  .feedback-wrapper{
-    // line-height: 2em;
-  }
-
-  .links-row, .comment-likes-row {
     .pull-left {
-      a {
-        padding-right: 6px;
-      }
+      padding-right: 6px;
     }
   }
 
   #comments-wrapper {
     border-top: 1px solid #999;
-
-    .media {
-      margin-left: 8px;
-
-      .pull-left {
-        padding-right: 6px;
-      }
-    }
   }
 }
+
 
 #comment-form {
   margin-top: 16px;
@@ -230,15 +182,20 @@
   }
 }
 
-#friends {
 
+
+// Friends page custom styles
+
+#friends {
 
   .panel-body {
     img {
       max-width: 75px;
       max-height: 75px;
     }
+
     #friend-wrapper {
+
       div {
 
         position: relative;
@@ -254,6 +211,5 @@
         }
       }
     }
-
   }
 }
