@@ -184,6 +184,17 @@
 #timeline {
   margin-top: 20px;
 
+  .panel-body {
+    img {
+      max-width: 75px;
+      max-height: 75px;
+    }
+  }
+
+
+
+
+
   .standard-wrapper {
     margin-bottom: 20px;
 

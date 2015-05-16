@@ -105,6 +105,9 @@
 
 #timeline {
   margin-top: 20px; }
+  #timeline .panel-body img {
+    max-width: 75px;
+    max-height: 75px; }
   #timeline .standard-wrapper {
     margin-bottom: 20px; }
     #timeline .standard-wrapper h4 {
