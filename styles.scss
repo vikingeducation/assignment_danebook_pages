@@ -213,3 +213,14 @@
     }
   }
 }
+
+// Photos page custom styles
+
+#photos {
+
+  .panel-body {
+    img {
+      max-width: 180px;
+      max-height: 180px;
+    }
+}
