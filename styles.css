@@ -1,0 +1,114 @@
+.navbar-default {
+  background-color: #2b78e4;
+  border-bottom: 2px solid #333; }
+  .navbar-default .container {
+    margin-top: 0; }
+  .navbar-default a span {
+    color: #fff; }
+
+.navbar-brand {
+  font-size: 24px; }
+  .navbar-brand img {
+    display: inline;
+    margin-top: -5px; }
+
+.navbar-text {
+  font-weight: bold;
+  margin-right: 0; }
+
+.container {
+  max-width: 846px;
+  margin-top: 50px; }
+
+#user-photo {
+  object-fit: cover;
+  object-position: top; }
+
+.cover-photo-row .cover-box:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(images/hogwarts_small.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.8; }
+.cover-photo-row .cover-box {
+  height: 263px; }
+  .cover-photo-row .cover-box .spacer {
+    height: 194px; }
+  .cover-photo-row .cover-box .user-name {
+    color: #000;
+    padding-left: 170px; }
+    .cover-photo-row .cover-box .user-name h1 {
+      font-weight: bold; }
+
+.page-links-row #user-photo {
+  margin: 16px;
+  position: relative;
+  top: -130px; }
+.page-links-row .nav {
+  outline: 1px solid #ddd; }
+  .page-links-row .nav li {
+    outline: 1px solid #ddd;
+    max-height: 42px; }
+  .page-links-row .nav a {
+    color: #333;
+    font-weight: bold; }
+  .page-links-row .nav .pull-right {
+    outline: none; }
+
+#about, #edit-about, #timeline, #friends, #photos {
+  margin-top: 20px; }
+  #about h1, #edit-about h1, #timeline h1, #friends h1, #photos h1 {
+    font-size: 28px; }
+  #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3, #friends h1, #friends h3, #photos h1, #photos h3 {
+    font-weight: bold; }
+  #about dl *, #edit-about dl *, #timeline dl *, #friends dl *, #photos dl * {
+    height: 30px;
+    margin-bottom: 4px; }
+  #about dt, #edit-about dt, #timeline dt, #friends dt, #photos dt {
+    text-align: left;
+    width: 120px; }
+  #about dd, #edit-about dd, #timeline dd, #friends dd, #photos dd {
+    width: 180px;
+    margin-left: 140px; }
+
+#timeline .panel-body img {
+  max-width: 75px;
+  max-height: 75px; }
+#timeline .media {
+  padding-top: 8px; }
+  #timeline .media .media-heading {
+    margin-top: 8px; }
+  #timeline .media .pull-left {
+    padding-right: 6px; }
+#timeline #comments-wrapper {
+  border-top: 1px solid #999; }
+
+#comment-form {
+  margin-top: 16px;
+  vertical-align: middle; }
+  #comment-form a {
+    line-height: 50px; }
+  #comment-form .comment-button-wrapper {
+    margin-top: 10px; }
+
+#friends .panel-body img {
+  max-width: 75px;
+  max-height: 75px; }
+#friends .panel-body #friend-wrapper div {
+  position: relative; }
+  #friends .panel-body #friend-wrapper div .vcenter {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%); }
+    #friends .panel-body #friend-wrapper div .vcenter p {
+      margin-bottom: 0; }
+
+#photos .panel-body .img-thumbnail {
+  margin-bottom: 6px; }
+
+/*# sourceMappingURL=styles.css.map */
