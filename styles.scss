@@ -115,7 +115,7 @@
 
 
 // Main section styles
-#about, #edit-about, #timeline, #friends {
+#about, #edit-about, #timeline, #friends, #photos {
   margin-top: 20px;
 
   h1, h3 {
@@ -219,8 +219,8 @@
 #photos {
 
   .panel-body {
-    img {
-      max-width: 180px;
-      max-height: 180px;
+    .img-thumbnail {
+      margin-bottom: 6px;
     }
+  }
 }

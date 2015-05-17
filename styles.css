@@ -60,17 +60,17 @@
   .page-links-row .nav .pull-right {
     outline: none; }
 
-#about, #edit-about, #timeline, #friends {
+#about, #edit-about, #timeline, #friends, #photos {
   margin-top: 20px; }
-  #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3, #friends h1, #friends h3 {
+  #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3, #friends h1, #friends h3, #photos h1, #photos h3 {
     font-weight: bold; }
-  #about dl *, #edit-about dl *, #timeline dl *, #friends dl * {
+  #about dl *, #edit-about dl *, #timeline dl *, #friends dl *, #photos dl * {
     height: 30px;
     margin-bottom: 4px; }
-  #about dt, #edit-about dt, #timeline dt, #friends dt {
+  #about dt, #edit-about dt, #timeline dt, #friends dt, #photos dt {
     text-align: left;
     width: 120px; }
-  #about dd, #edit-about dd, #timeline dd, #friends dd {
+  #about dd, #edit-about dd, #timeline dd, #friends dd, #photos dd {
     width: 180px;
     margin-left: 140px; }
 
@@ -105,5 +105,8 @@
     transform: translateY(50%); }
     #friends .panel-body #friend-wrapper div .vcenter p {
       margin-bottom: 0; }
+
+#photos .panel-body .img-thumbnail {
+  margin-bottom: 6px; }
 
 /*# sourceMappingURL=styles.css.map */
