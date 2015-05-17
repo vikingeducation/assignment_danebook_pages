@@ -62,6 +62,8 @@
 
 #about, #edit-about, #timeline, #friends, #photos {
   margin-top: 20px; }
+  #about h1, #edit-about h1, #timeline h1, #friends h1, #photos h1 {
+    font-size: 28px; }
   #about h1, #about h3, #edit-about h1, #edit-about h3, #timeline h1, #timeline h3, #friends h1, #friends h3, #photos h1, #photos h3 {
     font-weight: bold; }
   #about dl *, #edit-about dl *, #timeline dl *, #friends dl *, #photos dl * {
