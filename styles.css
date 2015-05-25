@@ -1,7 +1,8 @@
 .navbar {
   background-color: #2B78E4;
   border-radius: 0;
-  border: 0; }
+  border: 0;
+  border-bottom: 2px solid #000; }
 
 #top-bar .navbar-brand {
   display: flex;
@@ -19,5 +20,26 @@
 #top-bar .navbar-nav li > a {
   color: white;
   font-size: 1.25em; }
+
+body {
+  padding-top: 50px; }
+
+.cover-photo {
+  background: url(hogwarts_small.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 250px;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000; }
+
+.profile-photos .row {
+  position: relative; }
+
+.profile-photo {
+  position: absolute;
+  bottom: -15px; }
+  .profile-photo img {
+    width: 100%;
+    border: 1px solid #000; }
 
 /*# sourceMappingURL=styles.css.map */
