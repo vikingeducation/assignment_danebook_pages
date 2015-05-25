@@ -1,0 +1,32 @@
+// Navbar Styles
+
+// Various styles to change the color of bootstrap's
+// Inverse Navbar, get the brand logo and text vertically  
+// aligned, and change the font size and color on elements
+
+.navbar {
+  background-color: #2B78E4;
+  border-radius: 0;
+  border: 0;
+}
+
+#top-bar .navbar-brand {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 1.75em;
+  color: white;
+    img {
+      height: 20px;
+      display: inline-block;
+      margin-right: 5px;
+    } 
+    a {
+      color: white;
+    }
+}
+
+#top-bar .navbar-nav li>a {
+  color: white;
+  font-size: 1.25em;
+}
