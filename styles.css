@@ -52,17 +52,17 @@ body {
     color: #000;
     font-weight: 700; }
 
-.about {
+.main {
   margin-top: 10px; }
-  .about .header-row {
+  .main .header-row {
     background-color: #bbb;
     border: 2px solid #000; }
-  .about header {
+  .main header {
     text-align: center; }
-  .about h2 {
+  .main h2 {
     margin: 0; }
 
-.about-info-row {
+.main-content-row {
   border-left: 2px solid #000;
   border-right: 2px solid #000;
   border-bottom: 2px solid #000; }
