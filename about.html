@@ -21,9 +21,12 @@
 
 </head>
 <body>
+
   
+  <!-- Navbar fixed to the top, inverse -->
   <nav class="navbar navbar-fixed-top navbar-inverse" id="top-bar">
     <div class="container">
+
       <div class="navbar-header">
         <a href="#" class="navbar-brand"><img src="danish_flag.gif" 
         alt="Danish Flag Logo" class="img-circle">Danebook</a>
@@ -42,12 +45,44 @@
     </div>
   </nav>
 
+
+  <!-- Cover photo and profile photo section -->
   <section class="container profile-photos">
     <div class="row">
-      <div class="col-xs-12 cover-photo"></div>
-      <div class="col-xs-2 profile-photo"><img src="harry_potter_small.jpg" alt=""></div>
-    </div>
 
+      <div class="col-xs-12 cover-photo"></div>
+      <div class="col-xs-3 profile-photo"><img src="harry_potter_small.jpg" alt="" class="img-responsive"></div>
+
+    </div>
+  </section>
+
+
+  <!-- Middle navigation, offset and nested to stay away from profile picture -->
+  <section class="container middle-nav">
+    <div class="row">
+
+      <div class="col-xs-9 col-xs-offset-3">
+        <div class="row">
+        
+          <div class="col-xs-8">
+            <ul class="nav nav-pills">
+              <li role="presentation"><a href="#">Timeline</a></li>
+              <li role="presentation" class="active"><a href="#">About</a></li>
+              <li role="presentation"><a href="#">Photos <span class="badge">123</span></a></li>
+              <li role="presentation"><a href="#">Friends <span class="badge">542</span></a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-3 col-xs-offset-1">
+            <ul class="nav nav-pills">
+                <li role="presentation"><a href="#">Edit Profile</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
   </section>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
