@@ -55,12 +55,46 @@ body {
 
 .profile-photo {
   position: absolute;
-  bottom: -15px;
+  bottom: -25px;
   img {
     border: 1px solid #000;
   }
 }
 
+// Middle navigation section
 
+.middle-nav {
+  border: 2px solid #000;
+  .nav-pills>li>a {
+    border-radius: 0;
+    color: #000;
+    font-weight: 700;
+  }
+  .nav-pills>li.active>a {
+    background-color: #bbb;
+    color: #000;
+    font-weight: 700;
+  }
+}
 
+// Main content
 
+.about {
+  margin-top: 10px;
+  .header-row {
+    background-color: #bbb;
+    border: 2px solid #000;
+  }
+  header {
+    text-align: center;
+  }
+  h2 {
+    margin: 0;
+  }
+}
+
+.about-info-row {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}

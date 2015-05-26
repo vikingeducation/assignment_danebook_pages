@@ -37,8 +37,34 @@ body {
 
 .profile-photo {
   position: absolute;
-  bottom: -15px; }
+  bottom: -25px; }
   .profile-photo img {
     border: 1px solid #000; }
+
+.middle-nav {
+  border: 2px solid #000; }
+  .middle-nav .nav-pills > li > a {
+    border-radius: 0;
+    color: #000;
+    font-weight: 700; }
+  .middle-nav .nav-pills > li.active > a {
+    background-color: #bbb;
+    color: #000;
+    font-weight: 700; }
+
+.about {
+  margin-top: 10px; }
+  .about .header-row {
+    background-color: #bbb;
+    border: 2px solid #000; }
+  .about header {
+    text-align: center; }
+  .about h2 {
+    margin: 0; }
+
+.about-info-row {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000; }
 
 /*# sourceMappingURL=styles.css.map */
