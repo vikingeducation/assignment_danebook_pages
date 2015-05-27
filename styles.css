@@ -52,19 +52,36 @@ body {
     color: #000;
     font-weight: 700; }
 
-.main {
-  margin-top: 10px; }
-  .main .header-row {
+.about-main {
+  border: 2px solid #000;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+  .about-main .btn {
+    margin: 5px 0; }
+  .about-main .header-row {
     background-color: #bbb;
-    border: 2px solid #000; }
-  .main header {
+    border-bottom: 2px solid #000; }
+  .about-main header {
     text-align: center; }
-  .main h2 {
-    margin: 0; }
+  .about-main h2 {
+    margin: 5px; }
+  .about-main .submit-button-row {
+    text-align: center; }
 
-.main-content-row {
-  border-left: 2px solid #000;
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000; }
+.timeline-main {
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.timeline-content-box {
+  border: 2px solid #000;
+  margin-bottom: 10px; }
+  .timeline-content-box .timeline-content-header {
+    background-color: #bbb;
+    border-bottom: 2px solid #000;
+    text-align: center; }
+  .timeline-content-box .timeline-content-body {
+    padding-top: 8px; }
+  .timeline-content-box .timeline-content-footer-link {
+    text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

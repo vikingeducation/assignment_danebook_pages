@@ -81,7 +81,7 @@
 
 
   <!-- Main content, "About Me" edit form -->
-  <main class="container main">
+  <main class="container about-main">
 
     <div class="row header-row">
       
@@ -90,9 +90,9 @@
       </header>
 
     </div>
-
-    <div class="row main-content-row">
-      <form action="#">
+    
+    <form action="#">
+      <div class="row main-content-row">
 
         <div class="col-md-4">
           <table class="table">
@@ -131,17 +131,24 @@
         </div>
 
         <div class="col-md-8">
-        <h4>Words to Live By</h4>
-        <textarea name="words-to-live-by" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias nobis perspiciatis id esse, aut perferendis sequi culpa recusandae facere dolore in ea cumque voluptate, blanditiis maiores est aspernatur error.
-        </textarea>
+          <h4>Words to Live By</h4>
+          <textarea name="words-to-live-by" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias nobis perspiciatis id esse, aut perferendis sequi culpa recusandae facere dolore in ea cumque voluptate, blanditiis maiores est aspernatur error.
+          </textarea>
 
-        <h4>About Me</h4>
-        <textarea name="about-me" rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, illo. Illum, ad, nostrum sit officiis veniam consectetur sed perspiciatis unde quis iusto, molestiae laudantium itaque mollitia non, dolores repellendus illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nemo fuga fugiat, officiis ducimus cum enim veritatis sequi necessitatibus aut error, vel quis nobis mollitia velit sapiente amet. Unde, modi.
-        </textarea>
+          <h4>About Me</h4>
+          <textarea name="about-me" rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, illo. Illum, ad, nostrum sit officiis veniam consectetur sed perspiciatis unde quis iusto, molestiae laudantium itaque mollitia non, dolores repellendus illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nemo fuga fugiat, officiis ducimus cum enim veritatis sequi necessitatibus aut error, vel quis nobis mollitia velit sapiente amet. Unde, modi.
+          </textarea>
         </div>
+        
+      </div>
 
-      </form>
-    </div>
+      <div class="row">
+        <div class="col-md-12 submit-button-row">
+          <input type="submit" class="btn btn-primary btn-large" value="Save Changes">
+        </div>
+      </div>
+
+    </form>
 
   </main>
 

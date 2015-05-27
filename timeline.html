@@ -1,1 +1,207 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Welcome to Danebook</title>
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  
+  <!-- Navbar fixed to the top, inverse -->
+  <nav class="navbar navbar-fixed-top navbar-inverse" id="top-bar">
+    <div class="container">
+
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand"><img src="danish_flag.gif" 
+        alt="Danish Flag Logo" class="img-circle">Danebook</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Harry</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search for Users">
+        </div>
+      </form>
+
+    </div>
+  </nav>
+
+
+  <!-- Cover photo and profile photo section -->
+  <section class="container profile-photos">
+    <div class="row">
+
+      <div class="col-xs-12 cover-photo"></div>
+      <div class="col-xs-3 profile-photo"><img src="harry_potter_small.jpg" alt="" class="img-responsive"></div>
+
+    </div>
+  </section>
+
+
+  <!-- Middle navigation, offset and nested to stay away from profile picture -->
+  <section class="container middle-nav">
+    <div class="row">
+
+      <div class="col-xs-9 col-xs-offset-3">
+        <div class="row">
+        
+          <div class="col-xs-8">
+            <ul class="nav nav-pills">
+              <li role="presentation"><a href="timeline.html">Timeline</a></li>
+              <li role="presentation" class="active"><a href="about.html">About</a></li>
+              <li role="presentation"><a href="photos.html">Photos <span class="badge">123</span></a></li>
+              <li role="presentation"><a href="friends.html">Friends <span class="badge">542</span></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Container for all Timeline page content -->
+  <main class="container timeline-main">
+    <div class="row">
+
+
+      <!-- Left Timeline Column, about, photos, friends -->
+      <div class="col-sm-4">
+        
+        <!-- Small About box -->
+        <div class="row">
+          <section class="col-sm-12 timeline-content-box">
+
+            <div class="row">
+              <header class="col-sm-12 timeline-content-header">
+                <h4>About</h4>
+              </header>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 timeline-content-body">
+                <p class="text-nowrap">
+                  <strong>Born on:</strong> July 31st, 1980
+                </p>
+                <p class="text-nowrap">
+                  <strong>Went to school at:</strong> Hogwarts
+                </p>
+                <p class="text-nowrap">
+                  <strong>Hometown:</strong> Godrick's Hollow, England
+                </p>
+                <p class="text-nowrap">
+                  <strong>Currently Lives:</strong> Godrick's Hollow, England
+                </p>
+              </div>
+            </div>
+
+          </section>
+        </div>
+
+        <!-- Small photos box -->
+        <div class="row">
+          <section class="col-sm-12 timeline-content-box">
+
+            <div class="row">
+              <header class="col-sm-12 timeline-content-header">
+                <h4>Photos <span class="badge">123</span></h4>
+              </header>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 timeline-content-body">
+                <div class="row">
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="icon_photo_small.png" alt=""></a></div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 timeline-content-footer-link">
+                    <a href="photos.html">See More Photos</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        </div>
+
+        <!-- Small friends box -->
+        <div class="row">
+          <section class="col-sm-12 timeline-content-box">
+
+            <div class="row">
+              <header class="col-sm-12 timeline-content-header">
+                <h4>Friends <span class="badge">542</span></h4>
+              </header>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 timeline-content-body">
+                <div class="row">
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="user_silhouette_generic.gif" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="user_silhouette_generic.gif" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="user_silhouette_generic.gif" alt=""></a></div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="user_silhouette_generic.gif" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="user_silhouette_generic.gif" alt=""></a></div>
+                  <div class="col-xs-4"><a href="" class="thumbnail"><img src="user_silhouette_generic.gif" alt=""></a></div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 timeline-content-footer-link">
+                    <a href="friends.html">See More Friends</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        </div>
+
+      </div><!-- End Left Timeline Column -->
+
+      <!-- Right Timeline Column, post box and feed -->
+      <div class="col-sm-8">Right Column</div>
+      
+
+
+    </div>
+  </main>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

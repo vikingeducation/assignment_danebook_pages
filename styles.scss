@@ -79,22 +79,47 @@ body {
 
 // Main content
 
-.main {
+.about-main {
+  border: 2px solid #000;
   margin-top: 10px;
+  margin-bottom: 20px;
+  .btn {
+    margin: 5px 0;
+  }
   .header-row {
     background-color: #bbb;
-    border: 2px solid #000;
+    border-bottom: 2px solid #000;
   }
   header {
     text-align: center;
   }
   h2 {
-    margin: 0;
+    margin: 5px;
+  }
+  .submit-button-row {
+    text-align: center;
   }
 }
 
-.main-content-row {
-  border-left: 2px solid #000;
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
+// Timeline Content
+
+.timeline-main {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.timeline-content-box {
+  border: 2px solid #000;
+  margin-bottom: 10px;
+  .timeline-content-header {
+    background-color: #bbb;
+    border-bottom: 2px solid #000;
+    text-align: center;
+  }
+  .timeline-content-body {
+    padding-top: 8px;
+  }
+  .timeline-content-footer-link {
+    text-align: center;
+  }
 }
