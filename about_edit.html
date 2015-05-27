@@ -83,76 +83,81 @@
 
 
   <!-- Main content, "About Me" edit form -->
-  <main class="container about-main">
+  <div class="container">
+    <div class="row">
+      <main class="panel panel-default about-main">
 
-    <div class="row header-row">
-      
-      <header class="col-xs-8 col-xs-offset-2">
-        <h2>About</h2>
-      </header>
+        <header class="panel-heading">
+          <h2 class="panel-title">About</h2>
+        </header>
 
+        <!-- Form wrapping panel body and footer (to include 
+        Save Changes button) -->
+        <form action="#">
+
+          <div class="panel-body">
+            <div class="row">
+
+              <div class="col-md-4">
+                <table class="table">
+                  <tr>
+                    <th colspan="2">Basic Information</th>
+                  </tr>
+                  <tr>
+                    <td>Birthday:</td>
+                    <td>July 31st, 1980</td>
+                  </tr>
+                  <tr>
+                    <td>College:</td>
+                    <td><input type="text" class="form-control" value="Hogwart's College"></td>
+                  </tr>
+                  <tr>
+                    <td>Hometown:</td>
+                    <td><input type="text" class="form-control" value="Godrick's Hollow, England"></td>
+                  </tr>
+                  <tr>
+                    <td>Currently Lives:</td>
+                    <td><input type="text" class="form-control" value="Godrick's Hollow, England"></td>
+                  </tr>
+
+                  <tr>
+                    <th colspan="2">Contact Information</th>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td><input type="text" class="form-control" value="harry_potter@hogwarts.edu"></td>
+                  </tr>
+                  <tr>
+                    <td>Telephone:</td>
+                    <td><input type="text" class="form-control" value="555-123-4567"></td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="col-md-8">
+                <h4>Words to Live By</h4>
+                <textarea name="words-to-live-by" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias nobis perspiciatis id esse, aut perferendis sequi culpa recusandae facere dolore in ea cumque voluptate, blanditiis maiores est aspernatur error.
+                </textarea>
+
+                <h4>About Me</h4>
+                <textarea name="about-me" rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, illo. Illum, ad, nostrum sit officiis veniam consectetur sed perspiciatis unde quis iusto, molestiae laudantium itaque mollitia non, dolores repellendus illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nemo fuga fugiat, officiis ducimus cum enim veritatis sequi necessitatibus aut error, vel quis nobis mollitia velit sapiente amet. Unde, modi.
+                </textarea>
+              </div>
+            
+            </div>
+          </div>
+
+
+          <div class="panel-footer">
+            <input type="submit" class="btn btn-primary btn-large" value="Save Changes">
+          </div>
+
+
+        </form>
+
+      </main>
     </div>
-    
-    <form action="#">
-      <div class="row main-content-row">
-
-        <div class="col-md-4">
-          <table class="table">
-            <tr>
-              <th colspan="2">Basic Information</th>
-            </tr>
-            <tr>
-              <td>Birthday:</td>
-              <td>July 31st, 1980</td>
-            </tr>
-            <tr>
-              <td>College:</td>
-              <td><input type="text" class="form-control" value="Hogwart's College"></td>
-            </tr>
-            <tr>
-              <td>Hometown:</td>
-              <td><input type="text" class="form-control" value="Godrick's Hollow, England"></td>
-            </tr>
-            <tr>
-              <td>Currently Lives:</td>
-              <td><input type="text" class="form-control" value="Godrick's Hollow, England"></td>
-            </tr>
-
-            <tr>
-              <th colspan="2">Contact Information</th>
-            </tr>
-            <tr>
-              <td>Email:</td>
-              <td><input type="text" class="form-control" value="harry_potter@hogwarts.edu"></td>
-            </tr>
-            <tr>
-              <td>Telephone:</td>
-              <td><input type="text" class="form-control" value="555-123-4567"></td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-md-8">
-          <h4>Words to Live By</h4>
-          <textarea name="words-to-live-by" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente alias nobis perspiciatis id esse, aut perferendis sequi culpa recusandae facere dolore in ea cumque voluptate, blanditiis maiores est aspernatur error.
-          </textarea>
-
-          <h4>About Me</h4>
-          <textarea name="about-me" rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, illo. Illum, ad, nostrum sit officiis veniam consectetur sed perspiciatis unde quis iusto, molestiae laudantium itaque mollitia non, dolores repellendus illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nemo fuga fugiat, officiis ducimus cum enim veritatis sequi necessitatibus aut error, vel quis nobis mollitia velit sapiente amet. Unde, modi.
-          </textarea>
-        </div>
-        
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 submit-button-row">
-          <input type="submit" class="btn btn-primary btn-large" value="Save Changes">
-        </div>
-      </div>
-
-    </form>
-
-  </main>
+  </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

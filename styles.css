@@ -65,20 +65,10 @@ body {
     font-weight: 700; }
 
 .about-main {
-  border: 2px solid #000;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px; }
-  .about-main .btn {
-    margin: 5px 0; }
-  .about-main .header-row {
-    background-color: #bbb;
-    border-bottom: 2px solid #000; }
-  .about-main header {
-    text-align: center; }
-  .about-main h2 {
-    margin: 5px; }
-  .about-main .submit-button-row {
-    text-align: center; }
+  .about-main .table th, .about-main .table td {
+    border-top: none; }
 
 .timeline-main {
   margin-top: 10px;
