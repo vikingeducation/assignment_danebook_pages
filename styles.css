@@ -2,7 +2,7 @@
   background-color: #2B78E4;
   border-radius: 0;
   border: 0;
-  border-bottom: 2px solid #000; }
+  border-bottom: 1px solid #000; }
 
 #top-bar .navbar-brand {
   display: flex;
@@ -29,8 +29,8 @@ body {
   background-size: cover;
   background-position: bottom;
   height: 250px;
-  border-left: 2px solid #000;
-  border-right: 2px solid #000; }
+  border-left: 1px solid #000;
+  border-right: 1px solid #000; }
 
 .profile-photos .row {
   position: relative; }
@@ -42,7 +42,9 @@ body {
     border: 1px solid #000; }
 
 .middle-nav {
-  border: 2px solid #000; }
+  border: 1px solid #000;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px; }
   .middle-nav .nav-pills > li > a {
     border-radius: 0;
     color: #000;
@@ -72,16 +74,7 @@ body {
   margin-top: 10px;
   margin-bottom: 20px; }
 
-.timeline-content-box {
-  border: 2px solid #000;
-  margin-bottom: 10px; }
-  .timeline-content-box .timeline-content-header {
-    background-color: #bbb;
-    border-bottom: 2px solid #000;
-    text-align: center; }
-  .timeline-content-box .timeline-content-body {
-    padding-top: 8px; }
-  .timeline-content-box .timeline-content-footer-link {
-    text-align: center; }
+.panel-heading, .panel-footer {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
