@@ -31,6 +31,8 @@ body {
   height: 250px;
   border-left: 1px solid #000;
   border-right: 1px solid #000; }
+  .cover-photo h1 {
+    position: re; }
 
 .profile-photos .row {
   position: relative; }
@@ -40,6 +42,14 @@ body {
   bottom: -25px; }
   .profile-photo img {
     border: 1px solid #000; }
+
+.profile-text {
+  position: absolute;
+  bottom: 0;
+  margin-left: 22%; }
+  .profile-text h1 {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
 
 .middle-nav {
   border: 1px solid #000;
