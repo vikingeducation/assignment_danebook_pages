@@ -65,10 +65,10 @@ body {
     color: #000;
     font-weight: 700; }
 
-.about-main, .friends-main {
+.about-main, .friends-main, .photos-main {
   margin-top: 20px;
   margin-bottom: 20px; }
-  .about-main .table th, .about-main .table td, .friends-main .table th, .friends-main .table td {
+  .about-main .table th, .about-main .table td, .friends-main .table th, .friends-main .table td, .photos-main .table th, .photos-main .table td {
     border-top: none; }
 
 .timeline-main {
@@ -91,5 +91,12 @@ body {
   width: 100px; }
 .friend-box li {
   vertical-align: middle; }
+
+.blah .timestamp {
+  text-align: center;
+  visibility: hidden; }
+
+.blah:hover > a > .timestamp {
+  visibility: visible; }
 
 /*# sourceMappingURL=styles.css.map */

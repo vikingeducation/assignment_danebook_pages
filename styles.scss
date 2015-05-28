@@ -1,10 +1,12 @@
+// General Styles
+
 $light-gray: #bbb;
 $dark-gray: #888;
-
 
 .light-text {
   color: $dark-gray;
 }
+
 
 // Navbar Styles
 
@@ -40,13 +42,15 @@ $dark-gray: #888;
   font-size: 1.25em;
 }
 
+
 // Push content out from under fixed navbar
 
 body { 
   padding-top: 50px; 
 }
 
-// Cover/Profile picture styles
+
+// Cover/Profile Picture Styles
 
 .cover-photo {
   background: url(hogwarts_small.jpg);
@@ -80,7 +84,8 @@ body {
   }
 }
 
-// Middle navigation section
+
+// Middle Navigation Section
 
 .middle-nav {
   border: 1px solid #000;
@@ -98,15 +103,17 @@ body {
   }
 }
 
-// Main content
 
-.about-main, .friends-main {
+// Generic Main Content
+
+.about-main, .friends-main, .photos-main {
   margin-top: 20px;
   margin-bottom: 20px;
   .table th, .table td { 
      border-top: none; 
   }
 }
+
 
 // Timeline Content
 
@@ -133,6 +140,7 @@ body {
   margin-left: 20px;
 }
 
+
 // Friends Content
 
 .friend-box {
@@ -143,3 +151,16 @@ body {
     vertical-align: middle;
   }
 }
+
+
+// Photos Content
+
+.blah .timestamp {
+  text-align: center;
+  visibility: hidden;
+  }
+
+.blah:hover > a>.timestamp {
+  visibility: visible;
+}
+
