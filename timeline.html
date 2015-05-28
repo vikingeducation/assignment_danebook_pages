@@ -89,8 +89,164 @@
     <main class="row timeline-main">
       <div class="row"><!-- Double row is used to correct panel margin -->
 
+
+        <!-- Right Timeline Column, post box and feed 
+        Column is pushed to the right at medium and above so when stacked
+        at smaller sizes the Timeline/Post area appears above.-->
+        <div class="col-sm-8 col-sm-push-4 newsfeed">
+
+
+          <!-- New Timeline Post input textarea -->
+          <form action="#">
+            <section class="panel panel-default">
+              
+              <header class="panel-heading">
+                <h4 class="panel-title">Post</h4>
+              </header>
+              <div class="panel-body">
+                <textarea name="post-textarea" id="post-textarea" rows="4" class="form-control" placeholder="Tell the world something..."></textarea>
+              </div>
+              <div class="panel-footer clearfix">
+                <input type="submit" value="Post" class="btn btn-primary btn-sm pull-right">
+              </div>
+              
+            </section>
+          </form>
+
+
+          <!-- Timeline News Feed -->
+          <!-- A Post -->
+          <section class="panel panel-default">
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+                  <a href="about.html">
+                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <a href="about.html">Harry Potter</a><br>
+                  <span class="post-timestamp">Posted on <time datetime="2014/6/1">Thursday 6/1/2014</time></span>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eius maiores ipsum delectus provident iure, quo harum voluptatibus accusantium, porro molestias, natus itaque! Itaque quo laboriosam, modi, beatae reiciendis voluptatibus.</p>
+            </div>
+            <div class="panel-footer clearfix">
+              <ul class="list-inline">
+                <li class="pull-right"><a href="#">Delete</a></li>
+                <li><a href="#">Like</a></li>
+                <li><a href="#">Comment</a></li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Another post -->
+          <section class="panel panel-default">
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+                  <a href="about.html">
+                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <a href="about.html">Harry Potter</a><br>
+                  <span class="post-timestamp">Posted on <time datetime="2014/5/21">Thursday 5/21/2014</time></span>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eius maiores ipsum delectus provident iure, quo harum voluptatibus accusantium, porro molestias, natus itaque! Itaque quo laboriosam, modi, beatae reiciendis voluptatibus.</p>
+            </div>
+            <div class="panel-footer clearfix">
+              <ul class="list-inline">
+                <li class="pull-right"><a href="#">Delete</a></li>
+                <li><a href="#">Like</a></li>
+                <li><a href="#">Comment</a></li>
+              </ul>
+              <p><a href="#">Hermione Granger</a> likes this.</p>
+            </div>
+          </section>
+
+          
+          <!-- Another post, with comments -->
+          <section class="panel panel-default">
+            <div class="panel-body">
+              <div class="media">
+                <div class="media-left">
+                  <a href="about.html">
+                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <a href="about.html">Harry Potter</a><br>
+                  <span class="post-timestamp">Posted on <time datetime="2014/5/21">Thursday 5/21/2014</time></span>
+                </div>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eius maiores ipsum delectus provident iure, quo harum voluptatibus accusantium, porro molestias, natus itaque! Itaque quo laboriosam, modi, beatae reiciendis voluptatibus.</p>
+            </div>
+            <div class="panel-footer clearfix">
+              <ul class="list-inline">
+                <li class="pull-right"><a href="#">Delete</a></li>
+                <li><a href="#">Like</a></li>
+                <li><a href="#">Comment</a></li>
+              </ul>
+              <p>You and <a href="#">Hermione Granger</a> and 3 others like this.</p>
+
+              <hr>
+
+              <!-- Comments below the <hr> -->
+              
+              <div class="media comment">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="user_silhouette_generic.gif" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <a href="#">Ron Weasley</a>
+                  <span class="post-timestamp">Said on <time datetime="2014/5/21">Thursday 5/21/2014</time></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sequi culpa enim commodi deserunt voluptatem accusantium incidunt minus iure recusandae. Iste ipsa omnis ab fugiat et, est laborum nemo molestiae.</p>
+                  <ul class="list-inline">
+                    <li><a href="#">Like</a></li>
+                    <li>3 other people like this</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="media comment">
+                <div class="media-left">
+                  <a href="about.html">
+                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <a href="about.html">Harry Potter</a>
+                  <span class="post-timestamp">Said on <time datetime="2014/5/22">Friday 5/22/2014</time></span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sequi culpa enim commodi deserunt voluptatem accusantium incidunt minus iure recusandae. Iste ipsa omnis ab fugiat et, est laborum nemo molestiae.</p>
+                  <ul class="list-inline">
+                    <li class="pull-right"><a href="#">Delete</a></li>
+                    <li><a href="#">Like</a></li>
+                    <li>3 other people like this</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <form action="#"><p>
+                <textarea name="comment-textarea" id="comment-textarea" rows="4" class="form-control" placeholder="Write a comment..."></textarea></p>
+                <ul class="list-inline">
+                  <li class="pull-right"><input type="submit" class="btn btn-sm btn-primary" value="Comment"></li>
+                  <li><a href="#">Cancel</a></li>
+                </ul>
+              </form>
+
+            </div>
+          </section>
+
+        </div><!-- End Right Timeline Column -->
+
+
+
         <!-- Left Timeline Column, about, photos, friends -->
-        <div class="col-sm-4">
+        <div class="col-sm-4 col-sm-pull-8">
           
           <!-- Small About box -->
           <section class="panel panel-default">
@@ -177,155 +333,6 @@
 
         </div><!-- End Left Timeline Column -->
 
-
-        <!-- Right Timeline Column, post box and feed -->
-        <div class="col-sm-8 newsfeed">
-
-
-          <!-- New Timeline Post input textarea -->
-          <form action="#">
-            <section class="panel panel-default">
-              
-              <header class="panel-heading">
-                <h4 class="panel-title">Post</h4>
-              </header>
-              <div class="panel-body">
-                <textarea name="post-textarea" id="post-textarea" rows="4" class="form-control" placeholder="Tell the world something..."></textarea>
-              </div>
-              <div class="panel-footer clearfix">
-                <input type="submit" value="Post" class="btn btn-primary btn-sm pull-right">
-              </div>
-              
-            </section>
-          </form>
-
-
-          <!-- Timeline News Feed -->
-          <section class="panel panel-default">
-            <div class="panel-body">
-              <div class="media">
-                <div class="media-left">
-                  <a href="#">
-                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
-                  </a>
-                </div>
-                <div class="media-body">
-                  <a href="about.html">Harry Potter</a><br>
-                  <span class="post-timestamp">Posted on <time datetime="2014/6/1">Thursday 6/1/2014</time></span>
-                </div>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eius maiores ipsum delectus provident iure, quo harum voluptatibus accusantium, porro molestias, natus itaque! Itaque quo laboriosam, modi, beatae reiciendis voluptatibus.</p>
-            </div>
-            <div class="panel-footer clearfix">
-              <ul class="list-inline">
-                <li class="pull-right"><a href="#">Delete</a></li>
-                <li><a href="#">Like</a></li>
-                <li><a href="#">Comment</a></li>
-              </ul>
-            </div>
-          </section>
-
-
-          <section class="panel panel-default">
-            <div class="panel-body">
-              <div class="media">
-                <div class="media-left">
-                  <a href="#">
-                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
-                  </a>
-                </div>
-                <div class="media-body">
-                  <a href="about.html">Harry Potter</a><br>
-                  <span class="post-timestamp">Posted on <time datetime="2014/5/21">Thursday 5/21/2014</time></span>
-                </div>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eius maiores ipsum delectus provident iure, quo harum voluptatibus accusantium, porro molestias, natus itaque! Itaque quo laboriosam, modi, beatae reiciendis voluptatibus.</p>
-            </div>
-            <div class="panel-footer clearfix">
-              <ul class="list-inline">
-                <li class="pull-right"><a href="#">Delete</a></li>
-                <li><a href="#">Like</a></li>
-                <li><a href="#">Comment</a></li>
-              </ul>
-              <p><a href="#">Hermione Granger</a> likes this.</p>
-            </div>
-          </section>
-
-
-          <section class="panel panel-default">
-            <div class="panel-body">
-              <div class="media">
-                <div class="media-left">
-                  <a href="#">
-                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
-                  </a>
-                </div>
-                <div class="media-body">
-                  <a href="about.html">Harry Potter</a><br>
-                  <span class="post-timestamp">Posted on <time datetime="2014/5/21">Thursday 5/21/2014</time></span>
-                </div>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eius maiores ipsum delectus provident iure, quo harum voluptatibus accusantium, porro molestias, natus itaque! Itaque quo laboriosam, modi, beatae reiciendis voluptatibus.</p>
-            </div>
-            <div class="panel-footer clearfix">
-              <ul class="list-inline">
-                <li class="pull-right"><a href="#">Delete</a></li>
-                <li><a href="#">Like</a></li>
-                <li><a href="#">Comment</a></li>
-              </ul>
-              <p>You and <a href="#">Hermione Granger</a> and 3 others like this.</p>
-
-              <hr>
-
-              <!-- Comments below the <hr> -->
-              
-              <div class="media comment">
-                <div class="media-left">
-                  <a href="#">
-                    <img class="media-object" src="user_silhouette_generic.gif" alt="...">
-                  </a>
-                </div>
-                <div class="media-body">
-                  <a href="about.html">Ron Weasley</a>
-                  <span class="post-timestamp">Said on <time datetime="2014/5/21">Thursday 5/21/2014</time></span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sequi culpa enim commodi deserunt voluptatem accusantium incidunt minus iure recusandae. Iste ipsa omnis ab fugiat et, est laborum nemo molestiae.</p>
-                  <ul class="list-inline">
-                    <li><a href="#">Like</a></li>
-                    <li>3 other people like this</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="media comment">
-                <div class="media-left">
-                  <a href="#">
-                    <img class="media-object" src="harry_potter_small.jpg" alt="...">
-                  </a>
-                </div>
-                <div class="media-body">
-                  <a href="about.html">Harry Potter</a>
-                  <span class="post-timestamp">Said on <time datetime="2014/5/22">Friday 5/22/2014</time></span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt sequi culpa enim commodi deserunt voluptatem accusantium incidunt minus iure recusandae. Iste ipsa omnis ab fugiat et, est laborum nemo molestiae.</p>
-                  <ul class="list-inline">
-                    <li class="pull-right"><a href="#">Delete</a></li>
-                    <li><a href="#">Like</a></li>
-                    <li>3 other people like this</li>
-                  </ul>
-                </div>
-              </div>
-              
-              <form action="#"><p>
-                <textarea name="comment-textarea" id="comment-textarea" rows="4" class="form-control" placeholder="Write a comment..."></textarea></p>
-                <ul class="list-inline">
-                  <li class="pull-right"><input type="submit" class="btn btn-sm btn-primary" value="Comment"></li>
-                  <li><a href="#">Cancel</a></li>
-                </ul>
-              </form>
-
-            </div>
-          </section>
-
-        </div><!-- End Right Timeline Column -->
 
       </div><!-- End Double row, panel fix -->
     </main><!-- End Main timeline content -->
