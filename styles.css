@@ -1,3 +1,6 @@
+.light-text {
+  color: #888; }
+
 .navbar {
   background-color: #2B78E4;
   border-radius: 0;
@@ -62,10 +65,10 @@ body {
     color: #000;
     font-weight: 700; }
 
-.about-main {
+.about-main, .friends-main {
   margin-top: 20px;
   margin-bottom: 20px; }
-  .about-main .table th, .about-main .table td {
+  .about-main .table th, .about-main .table td, .friends-main .table th, .friends-main .table td {
     border-top: none; }
 
 .timeline-main {
@@ -80,10 +83,13 @@ body {
 
 .newsfeed .media {
   margin-bottom: 10px; }
-.newsfeed .post-timestamp {
-  color: #888; }
 
 .comment {
   margin-left: 20px; }
+
+.friend-box img {
+  width: 100px; }
+.friend-box li {
+  vertical-align: middle; }
 
 /*# sourceMappingURL=styles.css.map */

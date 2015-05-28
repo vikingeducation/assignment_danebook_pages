@@ -1,3 +1,11 @@
+$light-gray: #bbb;
+$dark-gray: #888;
+
+
+.light-text {
+  color: $dark-gray;
+}
+
 // Navbar Styles
 
 // Various styles to change the color of bootstrap's
@@ -84,7 +92,7 @@ body {
     font-weight: 700;
   }
   .nav-pills>li.active>a {
-    background-color: #bbb;
+    background-color: $light-gray;
     color: #000;
     font-weight: 700;
   }
@@ -92,7 +100,7 @@ body {
 
 // Main content
 
-.about-main {
+.about-main, .friends-main {
   margin-top: 20px;
   margin-bottom: 20px;
   .table th, .table td { 
@@ -119,11 +127,19 @@ body {
   .media {
     margin-bottom: 10px;
   }
-  .post-timestamp {
-    color: #888;
-  }
 }
 
 .comment {
   margin-left: 20px;
+}
+
+// Friends Content
+
+.friend-box {
+  img {
+    width: 100px;
+  }
+  li {
+    vertical-align: middle;
+  }
 }
