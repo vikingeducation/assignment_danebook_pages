@@ -12,3 +12,8 @@
   width: 200px;
   
 }
+
+.btn-default:active, .btn-default.active {
+    background: #EEEEEE;
+    box-shadow: none;
+}
