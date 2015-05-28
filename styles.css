@@ -1,3 +1,11 @@
 @navbar-inverse-bg : blue;
+.crop {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: -150px 0 0 40px; }
+
+.crop img {
+  width: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
