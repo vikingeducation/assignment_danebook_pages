@@ -110,3 +110,20 @@ body {
 .panel-heading, .panel-footer-left, {
   text-align: center;
 }
+
+.newsfeed img {
+  width: 64px;
+}
+
+.newsfeed {
+  .media {
+    margin-bottom: 10px;
+  }
+  .post-timestamp {
+    color: #888;
+  }
+}
+
+.comment {
+  margin-left: 20px;
+}
