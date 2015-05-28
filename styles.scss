@@ -47,12 +47,9 @@ body {
   height: 250px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
-  h1 {
-    position: re
-  }
 }
 
-.profile-photos .row {
+.profile-photos {
   position: relative;
 }
 
@@ -110,6 +107,6 @@ body {
   margin-bottom: 20px;
 }
 
-.panel-heading, .panel-footer {
+.panel-heading, .panel-footer-left, {
   text-align: center;
 }

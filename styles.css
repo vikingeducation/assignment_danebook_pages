@@ -31,10 +31,8 @@ body {
   height: 250px;
   border-left: 1px solid #000;
   border-right: 1px solid #000; }
-  .cover-photo h1 {
-    position: re; }
 
-.profile-photos .row {
+.profile-photos {
   position: relative; }
 
 .profile-photo {
@@ -74,7 +72,7 @@ body {
   margin-top: 10px;
   margin-bottom: 20px; }
 
-.panel-heading, .panel-footer {
+.panel-heading, .panel-footer-left {
   text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
