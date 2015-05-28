@@ -3,7 +3,8 @@
   width: 200px;
   height: 200px;
   overflow: hidden;
-  margin: -150px 0 0 40px; }
+  margin: -166px 0 0 30px;
+  padding-bottom: 10px; }
 
 .crop img {
   width: 200px; }
@@ -11,5 +12,22 @@
 .btn-default:active, .btn-default.active {
   background: #EEEEEE;
   box-shadow: none; }
+
+#main-pages-buttons {
+  padding: 0 5px 5px 260px; }
+
+@media screen and (max-width: 730px) {
+  #main-pages-buttons {
+    padding: 5px 0 5px 5px; }
+
+  .crop {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: -100px 0 0 30px;
+    padding-bottom: 10px; }
+
+  .crop img {
+    width: 100px; } }
 
 /*# sourceMappingURL=styles.css.map */
