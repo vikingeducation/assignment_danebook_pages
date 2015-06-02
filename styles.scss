@@ -53,9 +53,9 @@ body {
 // Cover/Profile Picture Styles
 
 .cover-photo {
-  background: url(hogwarts_small.jpg);
+  background: url(bowl.jpg);
   background-size: cover; 
-  background-position: bottom;
+  background-position: 0 25%;
   height: 250px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
@@ -76,7 +76,7 @@ body {
 .profile-text {
   position: absolute;
   bottom: 0;
-  margin-left: 22%;
+  margin-left: 24%;
   h1 {
     color: white;
     text-shadow: 
