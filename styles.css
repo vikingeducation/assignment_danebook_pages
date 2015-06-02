@@ -1,4 +1,4 @@
-@navbar-inverse-bg : blue;
+@navbar-inverse-bg : #2B78E4;
 .crop {
   width: 200px;
   height: 200px;
@@ -29,5 +29,66 @@
 
   .crop img {
     width: 100px; } }
+.about_text, .photos-matrix, .friends-matrix, .new_post {
+  margin: 10px 0 10px 0;
+  border: 2px solid #EEEEEE; }
+  .about_text header, .photos-matrix header, .friends-matrix header, .new_post header {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 5px; }
+  .about_text h3, .photos-matrix h3, .friends-matrix h3, .new_post h3 {
+    margin: 0; }
+  .about_text table, .photos-matrix table, .friends-matrix table, .new_post table {
+    margin: 10px; }
+
+.photos-matrix {
+  padding-bottom: 10px; }
+
+.more-photos-link {
+  text-align: center; }
+
+.friends-matrix {
+  padding-bottom: 10px; }
+
+.thumbnail {
+  text-align: center;
+  margin: 10px; }
+
+.usericon-wrapper {
+  float: left;
+  overflow: hidden;
+  height: 50px;
+  margin-right: 10px; }
+  .usericon-wrapper img {
+    width: 50px; }
+
+.post-body {
+  margin: 10px 0 10px 0; }
+
+.comment-links-wrapper {
+  background-color: #EEEEEE;
+  padding: 5px; }
+
+.like-post {
+  float: left;
+  margin-right: 10px; }
+
+.write-comment {
+  float: left; }
+
+.delete-post {
+  float: right; }
+
+.comment-form {
+  float: none;
+  padding: 15px;
+  margin-top: 20px; }
+
+.post-comment {
+  background-color: #EEEEEE; }
+
+.comment-button {
+  background-color: #2B78E4;
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */

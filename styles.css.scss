@@ -1,5 +1,6 @@
 @navbar-inverse-bg: #2B78E4;
 
+//Main photos and nav 
 .crop {
     width: 200px;
     height: 200px;
@@ -22,6 +23,7 @@
 padding: 0 5px 5px 260px;
 }
 
+//Mobile screens
 @media screen and (max-width: 730px) {
   #main-pages-buttons{
     padding: 5px 0 5px 5px;
@@ -40,3 +42,103 @@ padding: 0 5px 5px 260px;
   
 }
   }
+
+//Timeline page 
+
+.about_text {
+  margin: 10px 0 10px 0;
+  border: 2px solid #EEEEEE;
+  
+ header{
+  background-color: #EEEEEE;
+  text-align: center;
+  padding: 5px;
+ }
+ 
+ h3{
+  margin:0;
+ }
+ table {
+  margin: 10px;
+ }
+}
+
+.photos-matrix{
+  @extend .about_text;
+  padding-bottom: 10px;
+}
+
+.more-photos-link{
+  text-align: center;
+}
+
+.friends-matrix{
+@extend .about_text;
+padding-bottom: 10px;
+}
+
+.thumbnail{
+  text-align: center;
+  margin: 10px;
+}
+
+.new_post{
+@extend .about_text;
+ 
+}
+
+//Existing post
+.usericon-wrapper{
+float:left;
+overflow: hidden;
+height: 50px;
+
+margin-right: 10px;
+img{
+width: 50px;
+}
+
+}
+
+.post-body{
+  margin: 10px 0 10px 0;
+}
+
+.comment-links-wrapper{
+  background-color: #EEEEEE;
+  padding: 5px;
+  
+}
+
+.like-post{
+  float:left;
+  margin-right: 10px;
+}
+
+.write-comment{
+  float:left;
+}
+
+.delete-post{
+  float:right;
+}
+.post-likes{
+  
+}
+
+.comment-form {
+  float: none;
+  padding: 15px;
+  margin-top: 20px; 
+}
+.cancel-comment{
+  
+  
+}
+.post-comment{
+  background-color: #EEEEEE;
+}
+.comment-button{
+background-color: #2B78E4;
+color: white;
+}
