@@ -29,16 +29,16 @@
 
   .crop img {
     width: 100px; } }
-.about_text, .photos-matrix, .friends-matrix, .new_post {
+.about_text, .photos-matrix, .friends-matrix, .new-post {
   margin: 10px 0 10px 0;
   border: 2px solid #EEEEEE; }
-  .about_text header, .photos-matrix header, .friends-matrix header, .new_post header {
+  .about_text header, .photos-matrix header, .friends-matrix header, .new-post header {
     background-color: #EEEEEE;
     text-align: center;
     padding: 5px; }
-  .about_text h3, .photos-matrix h3, .friends-matrix h3, .new_post h3 {
+  .about_text h3, .photos-matrix h3, .friends-matrix h3, .new-post h3 {
     margin: 0; }
-  .about_text table, .photos-matrix table, .friends-matrix table, .new_post table {
+  .about_text table, .photos-matrix table, .friends-matrix table, .new-post table {
     margin: 10px; }
 
 .photos-matrix {
@@ -54,6 +54,17 @@
   text-align: center;
   margin: 10px; }
 
+.new-post textarea {
+  margin-top: 10px; }
+
+.post-btn {
+  background-color: #2B78E4;
+  color: white;
+  margin: 10px 0 10px 0; }
+
+.existing-post {
+  border: 2px solid #EEEEEE; }
+
 .usericon-wrapper {
   float: left;
   overflow: hidden;
@@ -67,7 +78,7 @@
 
 .comment-links-wrapper {
   background-color: #EEEEEE;
-  padding: 5px; }
+  padding: 10px; }
 
 .like-post {
   float: left;
