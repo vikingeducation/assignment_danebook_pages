@@ -1,1 +1,161 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Welcome to Danebook</title>
+
+  <!-- Latest compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  
+  <!-- Navbar fixed to the top, inverse -->
+  <nav class="navbar navbar-fixed-top navbar-inverse" id="top-bar">
+    <div class="container">
+
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand"><img src="danish_flag.gif" 
+        alt="Danish Flag Logo" class="img-circle">Danebook</a>
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="about.html">Jeff</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search for Users">
+        </div>
+      </form>
+
+    </div>
+  </nav>
+
+
+  <!-- Main body container -->
+  <div class="container">
+
+
+    <!-- Cover photo and profile photo section -->
+    <section class="row profile-photos">
+
+      <div class="col-xs-12 cover-photo"></div>
+      <div class="col-xs-3 profile-photo"><img src="jeff.jpg" 
+      alt="" class="img-responsive"></div>
+      <div class="col-xs-4 profile-text"><h1>Jeff Lebowski</h1></div>
+
+    </section>
+
+
+    <!-- Middle navigation, offset and nested to stay away from profile picture -->
+    <section class="row middle-nav">
+
+      <div class="col-xs-9 col-xs-offset-3">
+        <div class="row">
+        
+          <div class="col-xs-12">
+            <ul class="nav nav-pills">
+              <li role="presentation" class="pull-right"><a href="about_edit.html">Edit Profile</a></li>
+              <li role="presentation"><a href="timeline.html">Timeline</a></li>
+              <li role="presentation" class="active"><a href="about.html">About</a></li>
+              <li role="presentation"><a href="photos.html">Photos <span class="badge">123</span></a></li>
+              <li role="presentation"><a href="friends.html">Friends <span class="badge">542</span></a></li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Main content, "About Me" -->
+    <div class="row">
+      <main class="panel panel-default about-main">
+
+        <header class="panel-heading clearfix">
+            <div class="pull-right">
+              <a href="about_edit.html" class="btn btn-primary btn-xs">Edit your Profile</a>
+            </div>
+          <h2 class="panel-title">About</h2>
+        </header>
+
+        <div class="panel-body">
+          <div class="row">
+
+            <div class="col-md-4">
+              <table class="table">
+                <tr>
+                  <th colspan="2">Basic Information</th>
+                </tr>
+                <tr>
+                  <td>Birthday:</td>
+                  <td>December 4th, 1942</td>
+                </tr>
+                <tr>
+                  <td>College:</td>
+                  <td>Some</td>
+                </tr>
+                <tr>
+                  <td>Hometown:</td>
+                  <td>Los Angeles, CA USA</td>
+                </tr>
+                <tr>
+                  <td>Currently Lives:</td>
+                  <td>Los Angeles, CA USA</td>
+                </tr>
+
+                <tr>
+                  <th colspan="2">Contact Information</th>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>thedude@juno.com</td>
+                </tr>
+                <tr>
+                  <td>Telephone:</td>
+                  <td>555-123-4567</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="col-md-8">
+              <h4>Words to Live By</h4>
+              <p>I'm the Dude. So that's what you call me. You know, that or, uh, His Dudeness, or uh, Duder, or El Duderino if you're not into the whole brevity thing.</p>
+
+              <h4>About Me</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, illo. Illum, ad, nostrum sit officiis veniam consectetur sed perspiciatis unde quis iusto, molestiae laudantium itaque mollitia non, dolores repellendus illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio nemo fuga fugiat, officiis ducimus cum enim veritatis sequi necessitatibus aut error, vel quis nobis mollitia velit sapiente amet. Unde, modi.
+              </p>
+            </div>
+          
+          </div>
+        </div>
+
+      </main>
+
+    </div><!-- End Main row -->
+
+  </div><!-- End Body Container -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
