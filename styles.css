@@ -1,0 +1,148 @@
+.crop {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin: -166px 0 0 30px;
+  padding-bottom: 10px; }
+
+.crop img {
+  width: 200px; }
+
+.btn-default:active, .btn-default.active {
+  background: #EEEEEE;
+  box-shadow: none; }
+
+#main-pages-buttons {
+  padding: 0 5px 5px 260px; }
+
+@media screen and (max-width: 730px) {
+  #main-pages-buttons {
+    padding: 5px 0 5px 5px; }
+
+  .crop {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: -100px 0 0 30px;
+    padding-bottom: 10px; }
+
+  .crop img {
+    width: 100px; } }
+.about_text, .photos-matrix, .friends-matrix, .new-post, .friends-main {
+  margin: 10px 0 0 0;
+  border: 2px solid #EEEEEE; }
+  .about_text header, .photos-matrix header, .friends-matrix header, .new-post header, .friends-main header {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 5px; }
+  .about_text h3, .photos-matrix h3, .friends-matrix h3, .new-post h3, .friends-main h3 {
+    margin: 0; }
+  .about_text table, .photos-matrix table, .friends-matrix table, .new-post table, .friends-main table {
+    margin: 10px; }
+
+.photos-matrix {
+  padding-bottom: 10px; }
+
+.more-photos-link {
+  text-align: center; }
+
+.friends-matrix {
+  padding-bottom: 10px; }
+
+.thumbnail {
+  text-align: center;
+  margin: 10px; }
+
+.new-post textarea {
+  margin-top: 10px; }
+
+.post-btn, .comment-button {
+  background-color: #2B78E4;
+  color: white;
+  margin: 10px 0 10px 0; }
+
+.existing-post {
+  border: 2px solid #EEEEEE;
+  margin-top: 10px; }
+
+.comment-links-wrapper {
+  background-color: #EEEEEE;
+  margin: 0 -15px 0 -15px;
+  padding: 5px 15px 0 15px; }
+
+.usericon-wrapper {
+  float: left;
+  overflow: hidden;
+  height: 50px;
+  margin-right: 10px; }
+  .usericon-wrapper img {
+    width: 50px; }
+
+.post-body {
+  margin: 10px 0 10px 0; }
+
+.like-post {
+  float: left;
+  margin-right: 10px; }
+
+.write-comment {
+  float: left; }
+
+.delete-post {
+  float: right; }
+
+.comment-form {
+  float: none;
+  padding: 15px; }
+  .comment-form input {
+    margin: 10px 0 10px 0; }
+  .comment-form a {
+    margin-top: 10px; }
+  .comment-form .btn {
+    margin: 0; }
+
+.post-comment {
+  background-color: #EEEEEE;
+  padding-bottom: 10px; }
+
+.friends-main {
+  padding: 0; }
+
+#friends-table {
+  border-spacing: 10px;
+  border-collapse: separate;
+  width: 100%;
+  margin: 0; }
+  #friends-table td {
+    border: 2px solid #EEEEEE;
+    margin-top: 10px;
+    width: 50%; }
+  #friends-table img {
+    margin: 10px;
+    float: left; }
+  #friends-table .friends-text {
+    display: inline-block;
+    margin-top: 37px; }
+    #friends-table .friends-text h3 {
+      font-size: 18px; }
+  #friends-table button {
+    float: right;
+    margin-right: 10px;
+    margin-top: 43px; }
+
+#photos-page img {
+  position: relative;
+  z-index: 3; }
+  #photos-page img:hover {
+    z-index: 1; }
+#photos-page p {
+  z-index: 2;
+  position: absolute;
+  margin-top: -22px;
+  width: 75%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: 0.9; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,1 +1,145 @@
+
+
 <!-- Your markup here! -->
+<!DOCTYPE html> 
+
+<html>
+  <head>
+    <!--jQuery library-->
+      <script src="jquery-2.1.4.js"></script>
+    <!--Bootstrap CSS and JavaScript-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/bootstrap.min.js"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+  </head>
+  
+  <body>
+
+  
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#2B78E4;">
+      <div class="container">
+        <div class="row">
+
+            <!--Navbar Icon with styles and name -->
+              <a class="navbar-brand" href="home.html">
+              <img style='height:20px; width: 20px;  border-radius: 15px; ' src="danish_flag.gif">
+              </a>
+              <a class="navbar-brand" style="color: white;" href="">Danebook</a> 
+
+            <!-- Search and Username -->
+            
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control input-sm" placeholder="Search for users">
+
+                </div>
+              </form>  
+              <p class="navbar-text navbar-right"><a href="#" class="navbar-link" style="color: white;">Harry</a></p>
+        </div>    
+      </div>
+    </nav>  
+        <!-- Main Photos -->
+        
+          <div class="container" style="position: relative;">
+            <img style='width: 100%; height:450px; padding:50px 0 10px 0;' src="hogwarts_small.jpg">
+            <div class="crop" style="position: absolute; margin-bottom: 5px;">
+              <img  src="harry_potter_small.jpg">
+            </div>
+          </div>
+          
+        
+
+    <!-- Links navbar -->
+    <div class="container">
+      
+        <a class=" " style="line-height:34px; margin-left: 10px; margin-right: 5px; float:right;" stylehref="about_edit.html"> Profile Edit</a> 
+
+        <div class="btn-group" id="main-pages-buttons" role="group" aria-label="..." style=" ">
+          <button type="button" class="btn btn-default" style="border-radius: 0;"><a style="color:black; text-decoration: none;" href="timeline.html">Timeline</a></button>
+          <button type="button" class="btn btn-default active"><a style="color:black; text-decoration: none;" href="file:///Users/Ayva/Desktop/VikingCodeSchool/project_danebook_pages/about.html">About</a></button>
+          <button type="button" class="btn btn-default" style="color:grey;"><a style="color:black; text-decoration: none;" href="photos.html">Photos</a> (123)</button>
+          <button type="button" class="btn btn-default" style="color:grey;"><a style="color:black; text-decoration: none;" href="friends.html">Friends</a> (454)</button>
+
+           
+        </div>
+    </div>
+
+ 
+
+    <div class="container">
+      <div class="row">
+          
+        
+        <div class="col-sm-12 col-md-12">
+          <nav class="navbar navbar-default">
+
+            <div class="col-sm-12 col-md-12" style="background-color:#EEEEEE; padding: 5px;">
+              <div class=" col-md-offset-5 col-sm-offset-5 col-xs-offset-5" style="display: inline-block; font-size: 24px;">Edit Profile</div>
+            </div>
+
+            
+            
+            <table style="margin-bottom: 20px;">
+              <tr>
+                <td class="col-sm-5 col-md-5">
+                  <h3>Basic Information</h3>
+                    <table >
+                      <tr >
+                        <td width="140px"><b>Birthday:</b></td>
+                        <td width="200px">July 31st, 1980</td>
+                      </tr>
+                      <tr>
+                        <td><b>College:</b></td>
+                        <td><textarea class="form-control" rows="1">Hogwarts College</textarea></td>
+                      </tr>
+                      <tr>
+                        <td><b>Hometown:</b></td>
+                        <td><textarea class="form-control" rows="1">Godrick's Hollow, England</textarea></td>
+                      </tr>
+                      <tr>
+                        <td><b>Currently lives:</b></td>
+                        <td><textarea class="form-control" rows="1">Godrick's Hollow, England</textarea></td>
+                      </tr>
+                    </table>
+                  <h3>Contact Information</h3>
+                    <table>
+                      <tr>
+                        <td width="140px"><b>Email:</b></td>
+                        <td width="200px">Jharry_potter@hogwarts.edu</td>
+                      </tr>
+                      <tr>
+                        <td><b>Telephone:</b></td>
+                        <td><textarea class="form-control" rows="1">555-123-4567</textarea></td>
+                      </tr>              
+                    </table>
+                </td>
+                <td>
+                  <h3>Words to Live By</h3>
+                  <textarea class="form-control" rows="3">I'm about to do something very clever and a tiny bit against the rules of the universe. It's important that I'm properly dressed.
+                  </textarea>
+                  
+                  <br>
+
+                  <h3>About Me</h3>
+                  <textarea class="form-control" rows="5">A type of poem, derived from the theater, in which a speaker addresses an internal listener or the reader.  In some dramatic monologues, especially those by Robert Browning, the speaker may reveal his personality in unexpected and unflattering ways.
+                  </textarea>
+
+                </td>
+              </tr>
+            </table>
+
+
+            <button type="submit" class="btn btn-success col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3" style="background-color: #2B78E4; margin-bottom: 10px;">Save Changes</button>
+
+          </nav>
+        </div>
+      </div>
+    </div>  
+
+  </body>
+
+  </html>

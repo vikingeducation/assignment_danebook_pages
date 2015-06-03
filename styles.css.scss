@@ -1,0 +1,227 @@
+$navbar-inverse-bg: #2B78E4;
+
+
+//Main photos and nav 
+.crop {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: -166px 0 0 30px;
+    padding-bottom: 10px;
+}
+
+.crop img {
+  width: 200px;
+  
+}
+
+.btn-default:active, .btn-default.active {
+    background: #EEEEEE;
+    box-shadow: none;
+}
+
+#main-pages-buttons{
+padding: 0 5px 5px 260px;
+}
+
+//Mobile screens
+@media screen and (max-width: 730px) {
+  #main-pages-buttons{
+    padding: 5px 0 5px 5px;
+  }
+
+  .crop {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: -100px 0 0 30px;
+    padding-bottom: 10px;
+}
+
+.crop img {
+  width: 100px;
+  
+}
+  }
+
+//Timeline page 
+.about_text {
+  margin: 10px 0 0 0;
+  border: 2px solid #EEEEEE;
+  
+  header{
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 5px;
+  }
+ 
+  h3{
+    margin:0;
+   }
+
+  table {
+    margin: 10px;
+  }
+}
+
+.photos-matrix{
+  @extend .about_text;
+  padding-bottom: 10px;
+}
+
+.more-photos-link{
+  text-align: center;
+}
+
+.friends-matrix{
+  @extend .about_text;
+  padding-bottom: 10px;
+}
+
+.thumbnail{
+  text-align: center;
+  margin: 10px;
+}
+
+//New post
+.new-post{
+  @extend .about_text;
+
+  textarea {
+    margin-top: 10px;
+  }
+}
+.post-btn{
+    background-color:#2B78E4;
+    color:white;
+    margin: 10px 0 10px 0;
+  }
+
+//Existing posts
+.existing-post{
+  border: 2px solid #EEEEEE;
+  margin-top: 10px;
+}
+
+.comment-links-wrapper{
+  background-color: #EEEEEE;
+  margin: 0 -15px 0 -15px;
+  padding: 5px 15px 0 15px;
+}
+
+.usericon-wrapper{
+  float:left;
+  overflow: hidden;
+  height: 50px;
+  margin-right: 10px;
+
+  img{
+  width: 50px;
+  }
+}
+
+.post-body{
+  margin: 10px 0 10px 0;
+}
+
+.like-post{
+  float:left;
+  margin-right: 10px;
+}
+
+.write-comment{
+  float:left;
+}
+
+.delete-post{
+  float:right;
+}
+
+.comment-form {
+  float: none;
+  padding: 15px;
+  
+  input{
+  margin: 10px 0 10px 0; 
+  }
+
+  a{  
+    margin-top: 10px;
+  }
+
+  .btn {
+    margin: 0;
+  }
+}
+
+.post-comment{
+  background-color: #EEEEEE;
+  padding-bottom: 10px;
+}
+
+.comment-button{
+  @extend .post-btn;
+}
+
+//Friends page
+.friends-main{
+  @extend .about_text;
+
+  padding: 0;
+}
+
+#friends-table{
+  border-spacing: 10px;
+  border-collapse: separate;
+  width: 100%;
+ margin: 0;
+
+  td{
+    border: 2px solid #EEEEEE;
+    margin-top: 10px;
+    width: 50%;
+    
+  }
+
+  img{
+    margin: 10px;
+    float: left;
+  }
+
+  .friends-text{
+    display: inline-block;
+    margin-top: 37px;
+    h3 {
+      font-size: 18px;
+    }
+  }
+
+  button{
+    float: right;
+    margin-right: 10px;
+    margin-top: 43px;
+  }
+}
+#photos-page{
+  img{
+    position: relative;
+    z-index: 3;
+    &:hover {
+    z-index: 1;
+   } 
+  }
+
+  p{
+    z-index: 2;
+    position: absolute;
+    margin-top: -22px; 
+    width: 75%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+
+    
+  }
+}
+

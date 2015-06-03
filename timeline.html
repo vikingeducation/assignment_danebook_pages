@@ -1,1 +1,491 @@
 <!-- Your markup here! -->
+<!DOCTYPE html> 
+
+<html>
+  <head>
+    <!--jQuery library-->
+      <script src="jquery-2.1.4.js"></script>
+    <!--Bootstrap CSS and JavaScript-->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/bootstrap.min.js"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+  </head>
+  
+  <body>
+
+  
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#2B78E4;">
+      <div class="container">
+        <div class="row">
+
+            <!--Navbar Icon with styles and name -->
+              <a class="navbar-brand" href="home.html">
+              <img style='height:20px; width: 20px;  border-radius: 15px; ' src="danish_flag.gif">
+              </a>
+              <a class="navbar-brand" style="color: white;" href="">Danebook</a> 
+
+            <!-- Search and Username -->
+            
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control input-sm" placeholder="Search for users">
+
+                </div>
+              </form>  
+              <p class="navbar-text navbar-right"><a href="#" class="navbar-link" style="color: white;">Harry</a></p>
+        </div>    
+      </div>
+    </nav> 
+        <!-- Main Photos -->
+        
+          <div class="container" style="position: relative;">
+            <img style='width: 100%; height:450px; padding:50px 0 10px 0;' src="hogwarts_small.jpg">
+            <div class="crop" style="position: absolute; margin-bottom: 5px;">
+              <img  src="harry_potter_small.jpg">
+            </div>
+          </div>
+          
+        
+
+    <!-- Links navbar -->
+    <div class="container">
+      
+        <a class=" " style="line-height:34px; margin-left: 10px; margin-right: 5px; float:right;" stylehref="about_edit.html"> Profile Edit</a> 
+
+        <div class="btn-group" id="main-pages-buttons" role="group" aria-label="..." style=" ">
+          <button type="button" class="btn btn-default active" style="border-radius: 0;"><a style="color:black; text-decoration: none;" href="timeline.html">Timeline</a></button>
+          <button type="button" class="btn btn-default"><a style="color:black; text-decoration: none;" href="about.html">About</a></button>
+          <button type="button" class="btn btn-default" style="color:grey;"><a style="color:black; text-decoration: none;" href="photos.html">Photos</a> (123)</button>
+          <button type="button" class="btn btn-default" style="color:grey;"><a style="color:black; text-decoration: none;" href="friends.html">Friends</a> (454)</button>
+
+           
+        </div>
+    </div>
+
+    <!-- Timeline main area -->
+    <div class="container"> 
+      <div class="row">
+
+        <!-- Left column -->
+        <section class="col-md-5">
+          <!-- About text area block-->
+          
+          <div class="about_text">
+            <header>
+              <h3>
+                About
+              </h3>
+            </header>
+            <table >
+              <tr >
+                <td width="140px"><b>Birthday:</b></td>
+                <td width="200px">July 31st, 1980</td>
+              </tr>
+              <tr>
+                <td><b>College:</b></td>
+                <td>Hogwarts College</td>
+              </tr>
+              <tr>
+                <td><b>Hometown:</b></td>
+                <td>Godrick's Hollow, England</td>
+              </tr>
+              <tr>
+                <td><b>Currently lives:</b></td>
+                <td>Godrick's Hollow, England</td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Photos area block-->
+          <div class="photos-matrix">
+            <header>
+              <h3>
+                Photos (123)
+              </h3>
+            </header>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="..."> 
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="..."> 
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="..."> 
+                </div>
+              </div>
+            </div>
+
+            <div class="more-photos-link">
+              <a href="photos.html">
+                See More Photos
+              </a>
+            </div>
+
+          </div>
+          
+          <!-- Friends area block-->
+          <div class="friends-matrix">
+            <header>
+              <h3>
+                Friends (542)
+              </h3>
+            </header>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="Ron.jpg" alt="...">
+                  <a href="#" >Ron Weosley</a> 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="Ron.jpg" alt="...">
+                  <a href="#" >Ginny Weasley</a> 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="Ron.jpg" alt="...">
+                  <a href="#" >Hermione Granger</a> 
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                  <a href="#" >Ron Weosley</a> 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                  <a href="#" >Ginny Weasley</a> 
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img src="pics.jpg" alt="...">
+                  <a href="#" >Hermione Granger</a> 
+                </div>
+              </div>
+            </div>
+
+            <div class="more-photos-link">
+              <a href="friends.html">
+                See More Friends
+              </a>
+            </div>
+
+          </div>
+        </section>  
+      
+
+         <!-- Right column --> 
+        <section class="col-md-7">
+          
+          <!-- New Post block-->
+
+          <div class=" new-post">
+            <header>
+              <h3>
+                Post
+              </h3>
+            </header>
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <textarea class="form-control" rows="3">Tell the world something...</textarea>
+              </div>
+              <div class="col-md-2 col-md-offset-9">
+                <button type="button" class="btn btn-default btn-xs btn-block post-btn">Post</button>
+              </div>
+            </div>
+          </div>  
+
+          <!-- Post block-->
+          
+          <div class="col-md-12 existing-post">
+          
+              <header>
+                <div class="usericon-wrapper">
+                   <img src="harry_potter_small.jpg">
+                </div>
+                <h3>
+                  <a href="#">
+                    Harry Potter
+                  </a>
+                </h3>
+                <div class="post-date-wrapper">
+                  <time datetime="Thu, 01 Jun 2014 GMT" pubdate>
+                    Posted on Thursday 6/1/2014 
+                  </time>
+                </div>
+              </header>
+              
+                <div class="post-body">
+                  lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
+              <div class="comment-links-wrapper">
+                <div class="like-post">
+                  <a href="#">
+                    Like
+                  </a>
+                </div>
+                <div class="write-comment">
+                  <a href="#">
+                    Comment
+                  </a>
+                </div>
+                <div class="delete-post">
+                  <a href="#">
+                    Delete
+                  </a>
+                </div>
+                <br>
+              </div>  
+  
+          </div>
+
+          <!-- Post block with likes-->
+          
+          <div class="col-md-12 existing-post">
+            
+              
+              <header>
+                <div class="usericon-wrapper">
+                   <img src="harry_potter_small.jpg">
+                </div>
+                <h3>
+                  <a href="#">
+                    Harry Potter
+                  </a>
+                </h3>
+                <div class="post-date-wrapper">
+                  <time datetime="Thu, 21 May 2014 GMT" pubdate>
+                    Posted on Thursday 5/21/2014 
+                  </time>
+                </div>
+              </header>
+              <div class="post-body">
+                lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="comment-links-wrapper">
+                <div class="like-post">
+                  <a href="#">
+                    Like
+                  </a>
+                </div>
+                <div class="write-comment">
+                  <a href="#">
+                    Comment
+                  </a>
+                </div>
+                <div class="delete-post">
+                  <a href="#">
+                    Delete
+                  </a>
+                </div>
+                <br>
+                <div class="post-likes">
+                  <a href="#">
+                    Hermione Gronger
+                  </a>
+                  likes this.
+                </div>
+              </div>
+
+            
+          </div>
+
+          <!-- Post block with comments-->
+          <div class="col-md-12 existing-post">
+          
+              
+              <header>
+                <div class="usericon-wrapper">
+                   <img src="harry_potter_small.jpg">
+                </div>
+                <h3>
+                  <a href="#">
+                    Harry Potter
+                  </a>
+                </h3>
+                <div class="post-date-wrapper">
+                  <time datetime="Thu, 21 May 2014 GMT" pubdate>
+                    Posted on Thursday 5/21/2014 
+                  </time>
+                </div>
+              </header>
+              <div class="post-body">
+                lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+              <div class="comment-links-wrapper">
+                <div class="like-post">
+                  <a href="#">
+                    Unlike
+                  </a>
+                </div>
+                
+                <div class="delete-post">
+                  <a href="#">
+                    Delete
+                  </a>
+                </div>
+                <br>
+                <div class="post-likes">
+                  You and
+                  <a href="#">
+                    Hermione Gronger
+                  </a>
+                  and 3 others like this.
+                </div>
+              </div>
+            </div>
+
+              <!-- Post comments-->
+              <div class="col-md-12 post-comment">
+                <header>
+                  <div class="usericon-wrapper">
+                     <img src="Ron.jpg">
+                  </div>
+                  <h3>
+                    <a href="#">
+                      Ron Weosley
+                    </a>
+
+                  </h3>
+                  <div class="comment-date-wrapper">  
+                    <time datetime="Thu, 21 May 2014 GMT" pubdate>
+                      Said on Thursday 5/21/2014 
+                    </time>
+                  </div>
+                </header>
+
+                <div class="comment-body">
+                  lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+
+                <div class="comment-links-wrapper">
+                  <div class="like-post">
+                    <a href="#">
+                      Like
+                    </a>
+                  </div>
+                  3 other people like this.
+                </div>
+              </div>
+
+            <div class="col-md-12 post-comment">
+              <header>
+                <div class="usericon-wrapper">
+                   <img src="harry_potter_small.jpg">
+                </div>
+                <h3>
+                  <a href="#">
+                    Harry Potter
+                  </a>
+
+                </h3>
+                <div class="comment-date-wrapper">  
+                  <time datetime="Fri, 22 May 2014 GMT" pubdate>
+                    Said on Friday 5/22/2014 
+                  </time>
+                </div>
+              </header>
+              <div class="comment-body">
+                lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              </div>
+              <div class="comment-links-wrapper">
+                <div class="like-post">
+                  <a href="#">
+                    Like
+                  </a>
+                </div>
+                3 other people like this.
+                <div class="delete-post">
+                  <a href="#">
+                    Delete
+                  </a>
+                </div>
+              </div>
+            
+
+          
+
+              <div class="comment-form">
+                <form>
+                  <div class="col-md-12">
+                      <input type="text" rows="4" class="form-control input-sm" placeholder="Write a comment..."> 
+                  </div>
+                  <div class="col-md-2">
+                    <a href="#">
+                      Cancel
+                    </a>
+                  </div>
+                  <div class="col-md-3 col-md-offset-7 ">
+                    <input type="submit"  class="btn btn-default btn-xs btn-block comment-button"  value="Comment">
+                  </div>
+                </form>
+              </div>
+            </div>  
+
+      
+    </section>
+        
+  </div>
+</div>
+  
+
+    
+
+
+
+  </body>
+</html>
