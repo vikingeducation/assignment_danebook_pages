@@ -44,9 +44,8 @@ padding: 0 5px 5px 260px;
   }
 
 //Timeline page 
-
 .about_text {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 0 0;
   border: 2px solid #EEEEEE;
   
   header{
@@ -83,12 +82,13 @@ padding: 0 5px 5px 260px;
   margin: 10px;
 }
 
+//New post
 .new-post{
   @extend .about_text;
+
   textarea {
     margin-top: 10px;
   }
-
 }
 .post-btn{
     background-color:#2B78E4;
@@ -96,9 +96,16 @@ padding: 0 5px 5px 260px;
     margin: 10px 0 10px 0;
   }
 
-//Existing post
+//Existing posts
 .existing-post{
   border: 2px solid #EEEEEE;
+  margin-top: 10px;
+}
+
+.comment-links-wrapper{
+  background-color: #EEEEEE;
+  margin: 0 -15px 0 -15px;
+  padding: 5px 15px 0 15px;
 }
 
 .usericon-wrapper{
@@ -116,11 +123,6 @@ padding: 0 5px 5px 260px;
   margin: 10px 0 10px 0;
 }
 
-.comment-links-wrapper{
-  background-color: #EEEEEE;
-  padding: 10px;  
-}
-
 .like-post{
   float:left;
   margin-right: 10px;
@@ -134,23 +136,28 @@ padding: 0 5px 5px 260px;
   float:right;
 }
 
-.post-likes{  
-}
-
 .comment-form {
   float: none;
   padding: 15px;
-  margin-top: 20px; 
-}
+  
+  input{
+  margin: 10px 0 10px 0; 
+  }
 
-.cancel-comment{  
+  a{  
+    margin-top: 10px;
+  }
+
+  .btn {
+    margin: 0;
+  }
 }
 
 .post-comment{
   background-color: #EEEEEE;
+  padding-bottom: 10px;
 }
 
 .comment-button{
-  background-color: #2B78E4;
-  color: white;
+  @extend .post-btn;
 }

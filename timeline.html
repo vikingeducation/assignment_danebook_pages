@@ -230,29 +230,28 @@
          <!-- Right column --> 
         <section class="col-md-7">
           
-          <div class="new-post">
+          <!-- New Post block-->
+
+          <div class=" new-post">
             <header>
               <h3>
                 Post
               </h3>
             </header>
             <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <textarea class="form-control" rows="3">Tell the world something...</textarea>
+              <div class="col-md-10 col-md-offset-1">
+                <textarea class="form-control" rows="3">Tell the world something...</textarea>
+              </div>
+              <div class="col-md-2 col-md-offset-9">
+                <button type="button" class="btn btn-default btn-xs btn-block post-btn">Post</button>
+              </div>
             </div>
-            <div class="col-md-2 col-md-offset-9">
-              <button type="button" class="btn btn-default btn-xs btn-block post-btn">Post</button>
-            </div>
-          </div>
           </div>  
 
-          <!-- New Post block-->
-          
-
           <!-- Post block-->
-          <div class="existing-post">
-            <div class="col-md-12 ">
-              
+          
+          <div class="col-md-12 existing-post">
+          
               <header>
                 <div class="usericon-wrapper">
                    <img src="harry_potter_small.jpg">
@@ -268,9 +267,11 @@
                   </time>
                 </div>
               </header>
-              <div class="post-body">
-                lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </div>
+              
+                <div class="post-body">
+                  lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
               <div class="comment-links-wrapper">
                 <div class="like-post">
                   <a href="#">
@@ -287,14 +288,15 @@
                     Delete
                   </a>
                 </div>
-              </div>
-
-            </div>
+                <br>
+              </div>  
+  
           </div>
 
           <!-- Post block with likes-->
-          <div class="existing_post">
-            <div class="col-md-12 ">
+          
+          <div class="col-md-12 existing-post">
+            
               
               <header>
                 <div class="usericon-wrapper">
@@ -339,12 +341,12 @@
                 </div>
               </div>
 
-            </div>
+            
           </div>
 
           <!-- Post block with comments-->
-          <article class="existing_post">
-            <div class="col-md-12 ">
+          <div class="col-md-12 existing-post">
+          
               
               <header>
                 <div class="usericon-wrapper">
@@ -385,43 +387,42 @@
                   and 3 others like this.
                 </div>
               </div>
-
-              <!-- Post comments-->
-              <div class="post-comment">
-                <div class="col-md-12 ">
-              
-              <header>
-                <div class="usericon-wrapper">
-                   <img src="Ron.jpg">
-                </div>
-                <h3>
-                  <a href="#">
-                    Ron Weosley
-                  </a>
-
-                </h3>
-                <div class="comment-date-wrapper">  
-                  <time datetime="Thu, 21 May 2014 GMT" pubdate>
-                    Said on Thursday 5/21/2014 
-                  </time>
-                </div>
-              </header>
-              <div class="comment-body">
-                lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              </div>
-              <div class="comment-links-wrapper">
-                <div class="like-post">
-                  <a href="#">
-                    Like
-                  </a>
-                </div>
-                3 other people like this.
-              </div>
             </div>
 
-            <div class="post-comment">
-                <div class="col-md-12 ">
-              
+              <!-- Post comments-->
+              <div class="col-md-12 post-comment">
+                <header>
+                  <div class="usericon-wrapper">
+                     <img src="Ron.jpg">
+                  </div>
+                  <h3>
+                    <a href="#">
+                      Ron Weosley
+                    </a>
+
+                  </h3>
+                  <div class="comment-date-wrapper">  
+                    <time datetime="Thu, 21 May 2014 GMT" pubdate>
+                      Said on Thursday 5/21/2014 
+                    </time>
+                  </div>
+                </header>
+
+                <div class="comment-body">
+                  lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </div>
+
+                <div class="comment-links-wrapper">
+                  <div class="like-post">
+                    <a href="#">
+                      Like
+                    </a>
+                  </div>
+                  3 other people like this.
+                </div>
+              </div>
+
+            <div class="col-md-12 post-comment">
               <header>
                 <div class="usericon-wrapper">
                    <img src="harry_potter_small.jpg">
@@ -454,32 +455,32 @@
                   </a>
                 </div>
               </div>
-            </div>
-          </article>
+            
 
-          <div class="comment-form">
-          <form>
-            <div class="col-md-12">
-              <input type="text" class="form-control input-sm" placeholder="write a comment...">
-            </div>
-            <div class="cancel-comment">
-              <a class="col-md-2 " href="#">
-                Cancel
-              </a>
-            </div>
-            <div class="col-md-3 col-md-offset-7 ">
-              <input type="submit" rows="4" class="btn btn-default btn-xs btn-block comment-button"  value="Comment">
+          
 
-            </div>
-                 
-          </form>
-   
-        </div>
+              <div class="comment-form">
+                <form>
+                  <div class="col-md-12">
+                      <input type="text" rows="4" class="form-control input-sm" placeholder="Write a comment..."> 
+                  </div>
+                  <div class="col-md-2">
+                    <a href="#">
+                      Cancel
+                    </a>
+                  </div>
+                  <div class="col-md-3 col-md-offset-7 ">
+                    <input type="submit"  class="btn btn-default btn-xs btn-block comment-button"  value="Comment">
+                  </div>
+                </form>
+              </div>
+            </div>  
 
-        </section>
+      
+    </section>
         
-      </div>
-    </div>
+  </div>
+</div>
   
 
     

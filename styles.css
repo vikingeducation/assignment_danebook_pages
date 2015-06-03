@@ -30,7 +30,7 @@
   .crop img {
     width: 100px; } }
 .about_text, .photos-matrix, .friends-matrix, .new-post {
-  margin: 10px 0 10px 0;
+  margin: 10px 0 0 0;
   border: 2px solid #EEEEEE; }
   .about_text header, .photos-matrix header, .friends-matrix header, .new-post header {
     background-color: #EEEEEE;
@@ -57,13 +57,19 @@
 .new-post textarea {
   margin-top: 10px; }
 
-.post-btn {
+.post-btn, .comment-button {
   background-color: #2B78E4;
   color: white;
   margin: 10px 0 10px 0; }
 
 .existing-post {
-  border: 2px solid #EEEEEE; }
+  border: 2px solid #EEEEEE;
+  margin-top: 10px; }
+
+.comment-links-wrapper {
+  background-color: #EEEEEE;
+  margin: 0 -15px 0 -15px;
+  padding: 5px 15px 0 15px; }
 
 .usericon-wrapper {
   float: left;
@@ -75,10 +81,6 @@
 
 .post-body {
   margin: 10px 0 10px 0; }
-
-.comment-links-wrapper {
-  background-color: #EEEEEE;
-  padding: 10px; }
 
 .like-post {
   float: left;
@@ -92,14 +94,16 @@
 
 .comment-form {
   float: none;
-  padding: 15px;
-  margin-top: 20px; }
+  padding: 15px; }
+  .comment-form input {
+    margin: 10px 0 10px 0; }
+  .comment-form a {
+    margin-top: 10px; }
+  .comment-form .btn {
+    margin: 0; }
 
 .post-comment {
-  background-color: #EEEEEE; }
-
-.comment-button {
-  background-color: #2B78E4;
-  color: white; }
+  background-color: #EEEEEE;
+  padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
