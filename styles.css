@@ -131,4 +131,18 @@
     margin-right: 10px;
     margin-top: 43px; }
 
+#photos-page img {
+  position: relative;
+  z-index: 3; }
+  #photos-page img:hover {
+    z-index: 1; }
+#photos-page p {
+  z-index: 2;
+  position: absolute;
+  margin-top: -22px;
+  width: 75%;
+  text-align: center;
+  background-color: black;
+  color: white; }
+
 /*# sourceMappingURL=styles.css.map */

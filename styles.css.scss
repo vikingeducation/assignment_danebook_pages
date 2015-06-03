@@ -165,7 +165,7 @@ padding: 0 5px 5px 260px;
 //Friends page
 .friends-main{
   @extend .about_text;
- 
+
   padding: 0;
 }
 
@@ -199,6 +199,28 @@ padding: 0 5px 5px 260px;
     float: right;
     margin-right: 10px;
     margin-top: 43px;
+  }
+}
+#photos-page{
+  img{
+    position: relative;
+    z-index: 3;
+    &:hover {
+    z-index: 1;
+   } 
+  }
+
+  p{
+    z-index: 2;
+    position: absolute;
+    margin-top: -22px; 
+    width: 75%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+
+    
   }
 }
 
