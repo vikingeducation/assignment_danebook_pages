@@ -1,4 +1,5 @@
-@navbar-inverse-bg: #2B78E4;
+$navbar-inverse-bg: #2B78E4;
+
 
 //Main photos and nav 
 .crop {
@@ -218,7 +219,7 @@ padding: 0 5px 5px 260px;
     text-align: center;
     background-color: black;
     color: white;
-    
+    opacity: 0.9;
 
     
   }

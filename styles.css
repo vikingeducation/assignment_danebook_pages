@@ -1,4 +1,3 @@
-@navbar-inverse-bg : #2B78E4;
 .crop {
   width: 200px;
   height: 200px;
@@ -143,6 +142,7 @@
   width: 75%;
   text-align: center;
   background-color: black;
-  color: white; }
+  color: white;
+  opacity: 0.9; }
 
 /*# sourceMappingURL=styles.css.map */
