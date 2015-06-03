@@ -161,3 +161,44 @@ padding: 0 5px 5px 260px;
 .comment-button{
   @extend .post-btn;
 }
+
+//Friends page
+.friends-main{
+  @extend .about_text;
+ 
+  padding: 0;
+}
+
+#friends-table{
+  border-spacing: 10px;
+  border-collapse: separate;
+  width: 100%;
+ margin: 0;
+
+  td{
+    border: 2px solid #EEEEEE;
+    margin-top: 10px;
+    width: 50%;
+    
+  }
+
+  img{
+    margin: 10px;
+    float: left;
+  }
+
+  .friends-text{
+    display: inline-block;
+    margin-top: 37px;
+    h3 {
+      font-size: 18px;
+    }
+  }
+
+  button{
+    float: right;
+    margin-right: 10px;
+    margin-top: 43px;
+  }
+}
+
