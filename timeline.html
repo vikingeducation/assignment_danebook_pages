@@ -1,1 +1,244 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Timeline</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- <img class = "pull-left" src="#"> -->
+          <a class="navbar-brand" href="#"><img class="pull-left img-circle"src="img/danish_flag.gif">Danebook</a>
+
+        </div>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <div class="col-10">
+              <input type="text" class="form-control" id="exampleInputName2" placeholder="Search for Users">
+            </div>
+          </div>
+        </form>
+        <p class="navbar-text navbar-right"><a href="#" class="navbar-link">Harry</a></p>
+      </div>
+    </nav>
+
+    <div class="container bg-img">
+      <div class="cover-photo">
+      </div>
+      <div class = "user-photo">
+        <img class = "img-thumbnail" src="img/generic-pic.gif">
+      </div>
+    </div>
+
+    <div class="navbar user-nav">
+      <div class="container">
+        <div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="timeline.html">Timeline</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photo.html">Photos</a></li> 
+            <li><a href="friends.html">Friends</a></li> 
+            <!-- <li class="nav navbar-nav navbar-right"><a href="#">Edit Profile</a></li> -->
+          </ul>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Edit Profile</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container timeline-content">
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="about-timeline-container">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">About</h3>
+              </div>
+              <div class="panel-body">
+                <table class="table">
+                  <tr>
+                    <td>Born on:</td>
+                    <td>July 31st, 1980</td>
+                  </tr>
+                  <tr>
+                    <td>Went to school at:</td>
+                    <!-- <td>555-123-4567</td> -->
+                    <td>Hogwarts</td>
+                  </tr>
+                  <tr>
+                    <td>Hometown:</td>
+                    <!-- <td>555-123-4567</td> -->
+                    <td>Godrick's Hollow, England</td>
+                  </tr>
+                  <tr>
+                    <td>Currently Lives:</td>
+                    <!-- <td>555-123-4567</td> -->
+                    <td>Godrick's Hollow</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          
+          <div class="user-input-post-container">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Post(copied)</h3>
+              </div>
+              <div class="panel-body">
+                <textarea class="form-control" rows="3" >Tell the world something...</textarea>
+              </div>
+              <div class="panel-body">
+                <button class="btn pull-right">Post</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="friend-post">
+            <div class = "panel panel-default">
+              <div class = "panel-body">
+                <div class="row">
+                  <div class="col-md-1">
+                    <img class="img-thumbnail" src = "">
+                  </div>
+                  <div class="col-md-10">
+                    <a href="">Harry Potter</a>
+                    <p>Posted on Thursday 6/1/2014</p>
+                  </div>
+                </div>
+                <div class = "row posted-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <a href="#">Like</a>
+                <a href="#">Comment</a>
+                <a class = "pull-right" href = "#">Delete</a>  
+              </div>
+            </div>
+          </div>
+
+          <div class="friend-post">
+            <div class = "panel panel-default">
+              <div class = "panel-body">
+                <div class="row">
+                  <div class="col-md-1">
+                    <img class="img-thumbnail" src = "">
+                  </div>
+                  <div class="col-md-10">
+                    <a href="">Harry Potter</a>
+                    <p>Posted on Thursday 5/21/2014</p>
+                  </div>
+                </div>
+                <div class = "row posted-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <div class = "row">
+                  <a href="#">Like</a>
+                  <a href="#">Comment</a>
+                  <a class = "pull-right" href = "#">Delete</a> 
+                </div>
+                <div class="row who-likes">
+                  <p><a href="#">Hermoine Granger</a>likes this</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+
+          <div class="friend-post">
+            <div class = "panel panel-default">
+              <div class = "panel-body">
+                <div class="row">
+                  <div class="col-md-1">
+                    <img class="img-thumbnail" src = "">
+                  </div>
+                  <div class="col-md-10">
+                    <a href="">Harry Potter</a>
+                    <p>Posted on Thursday 5/21/2014</p>
+                  </div>
+                </div>
+                <div class = "row posted-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="panel-footer">
+                <!-- <div class = "row"> -->
+                  <a href="#" class="hidden">Like</a>
+                  <a href="#" class="hidden">Comment</a>
+                  <a href="#">Unlike</a>
+                  <a class = "pull-right" href = "#">Delete</a> 
+                <!-- </div> -->
+                <div class="who-likes">
+                  <p>You and<a href="#">Hermoine Granger</a>and 3 others like this</p>
+                </div> 
+                <hr>
+                <div class="who-comments">
+
+                  <div class="friend-comment-container">
+                    <div class= "col-md-2">
+                      <img class= "img-thumbnail" src="img/generic-pic.gif">
+                    </div>
+                    <div class = "col-md-10">
+                      <!-- <div class="row"> -->
+                      <p><a href="#">Ron Weasely</a>Said on Thursday 5/21/2014</p>
+                      <!-- </div> -->
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+ 
+                      <ul class="list-inline">
+                        <li><a href="#">Like</a></li>
+                        <li><p>3 other people like this</p></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="friend-comment-container">
+                    <div class= "col-md-2">
+                      <img class= "img-thumbnail" src="img/generic-pic.gif">
+                    </div>
+                    <div class = "col-md-10">
+                      <p><a href="#">Harry Potter</a>Said on Thursday 5/21/2014</p>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+ 
+                      <ul class="list-inline">
+                        <li><a href="#">Like</a></li>
+                        <li><p>3 other people like this</p></li>
+                      </ul>
+                  </div>
+
+
+                </div>
+                <div class="comment-input">
+                  <textarea class="form-control" rows="4" >Write a comment...</textarea>
+                </div>
+                <div class="panel-footer">
+                  <a href="#">Cancel</a>
+                  <button class="btn-primary pull-right">Comment</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
