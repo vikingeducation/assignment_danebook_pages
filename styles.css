@@ -79,4 +79,11 @@ header + .active {
   .panel .img-thumbnail {
     width: 70px; }
 
+/*   ----------------------------       */
+/*   --------friend.html---------       */
+/*   ----------------------------       */
+#unfriend {
+  background-color: #eee;
+  line-height: 2em; }
+
 /*# sourceMappingURL=styles.css.map */
