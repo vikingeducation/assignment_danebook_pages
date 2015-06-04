@@ -116,10 +116,12 @@
                 <button type="submit" class="btn col-sm-offset-10" id="cta-btn">Post</button>
               </div>
             </form>
+          </div><!--/.row panel-->
 
-          <!--POSTS-->
+            <!--POSTS-->
             <!--example post -->
-            <article>
+          <div class="row">
+            <article class="panel panel-default">
               <div class="panel-heading">
                 <img src="assets/harry_potter_small.jpg" alt="..." href="#" class="img-thumbnail">
                 <button type="button" class="btn btn-link">Harry Potter</button>
@@ -141,11 +143,13 @@
                 <button type="button" class="btn btn-link">Delete</button>
               </div>
             </article>
+          </div><!--/.row panel-->
 
 
 
           <!-- example "liked" post -->
-            <article>
+          <div class="row">
+            <article class="panel panel-default">
               <div class="panel-heading">
                 <img src="assets/harry_potter_small.jpg" alt="..." href="#" class="img-thumbnail">
                 <button type="button" class="btn btn-link">Harry Potter</button>
@@ -168,9 +172,11 @@
                 <p><a class="" href="#">Hermione Granger</a> and 3 others like this.</p>
               </div>
             </article>
+          </div><!--/.row panel-->
 
           <!-- Existing Post with Comments and Comment Form -->
-            <article>
+          <div class="row">
+            <article class="panel panel-default">
               <div class="panel-heading">
                 <img src="assets/harry_potter_small.jpg" alt="..." href="#" class="img-thumbnail">
                 <button type="button" class="btn btn-link">Harry Potter</button>
@@ -199,6 +205,7 @@
                     <time>Said on Thursday, June 1, 2015</time>
                     <p>comment</p>
                   </div><!--comment-->
+
                   <!--another comment-->
                   <div class="well well-lg comment">
                     <img src="assets/harry_potter_small.jpg" alt="..." href="#" class="img-thumbnail">
@@ -206,9 +213,24 @@
                     <time>Said on Thursday, June 1, 2015</time>
                     <p>comment</p>
                   </div><!--comment-->
+
+                  <!--comment form-->
+                  <form>
+                    <div class="panel-body">
+                      <div class="form-group">
+                        <textarea type="text" class="form-control col-sm-12" rows="3"placeholder="Write a comment..."></textarea>
+                      </div>
+                    </div>
+
+                    <div class="panel-footer">
+                      <button type="button" class="btn btn-link">Cancel</button>
+                      <button type="submit" class="btn col-sm-offset-10" id="cta-btn">Comment</button>
+                    </div>
+                  </form>
                 </section>
               </div>
             </article>
+          </div><!--/.row panel-->
 
           </div><!-- /.panel for posts-->
         </div><!-- /.col-sm-8 -->
