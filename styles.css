@@ -21,7 +21,7 @@ body {
   padding-top: 50px; }
 
 /*              */
-/* main photos  */
+/* main photos & mid-nav-bar */
 /*              */
 #cover-photo {
   width: 100%; }
@@ -46,5 +46,15 @@ body {
   #mid-nav-bar li:last-child a {
     text-color: blue;
     text-decoration: underline; }
+
+/*                       */
+/* main info pane        */
+/*                       */
+header {
+  text-align: center; }
+
+#cta-btn {
+  background-color: #2B78E4;
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
