@@ -73,7 +73,10 @@ header + .active {
 /*   ----------------------------       */
 /*   --------timeline.html__-----       */
 /*   ----------------------------       */
-/*         */
-/*                       */
+.panel {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  .panel .img-thumbnail {
+    width: 70px; }
 
 /*# sourceMappingURL=styles.css.map */
