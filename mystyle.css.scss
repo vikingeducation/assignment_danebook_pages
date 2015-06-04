@@ -1,0 +1,110 @@
+
+body {
+  padding-top: 50px;
+  // padding-bottom: 100px;
+}
+
+.navbar-fixed-top{
+  background-color: #2B78E4;
+  margin-bottom: 0;
+
+  a{
+    color: white;
+  }
+
+  p{
+    color: white;
+  }
+
+  img{
+    width: 50px;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-right: 10px;
+  }
+
+  .navbar-form .form-control{
+    width: 600px;
+  }
+}
+
+.container .cover-photo {
+  background-image: url(img/hogwarts_small.jpg);
+  background-size: cover;
+  background-position: center center;
+  border: solid 1px black;
+  width: 100%;
+  height: 400px;
+}
+
+.bg-img {
+  border: solid 2px orange;
+  position: relative;
+}
+
+.user-photo {
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.navbar.user-nav .container {
+  border: solid 2px black;
+
+  ul{
+    padding-left: 180px;
+  }
+
+  li {
+    border: solid 2px black;
+  }
+}
+
+.nav.nav-center {
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin:0;
+    float:none;
+}
+
+.navbar-inner{
+    text-align:center;
+}
+
+.user-header-about {
+  border: solid 1px black;
+
+  .navbar {
+    margin:0;
+  }
+}
+.user-deep-info {
+  width: 80%;
+}
+
+.about-content {
+  border-left:solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  padding-bottom: 100px;
+}
+
+.center-button {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
