@@ -12,10 +12,18 @@
 .nav-padding {
   padding: 0 10%; }
 
-/* override image padding  */
-/*                  */
 .navbar-brand img {
   width: 30px;
   height: 30px; }
+
+/* offset for fixed nav-bar */
+body {
+  padding-top: 50px; }
+
+/*              */
+/* main photos  */
+/*              */
+.cover-photo img {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
