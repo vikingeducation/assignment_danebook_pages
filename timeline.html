@@ -85,7 +85,7 @@
     <!--main information pane-->
     <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title">Panel title</h3>
@@ -93,14 +93,28 @@
             <div class="panel-body">
               Panel content
             </div>
-          </div>
-        </div>
+          </div><!-- /.panel -->
+        </div><!-- /.col-sm-4 -->
 
-      </div>
-      <div class="row">
-        <div class="col-sm-9">
+        <div class="col-sm-8">
+          <div class="panel panel-default row">
+            <form>
+              <div class="panel-heading">
+                <h3 class="panel-title col-sm-4 col-sm-offset-5">Post</h3>
+              </div>
 
-        </div><!-- /.col-sm-x -->
+              <div class="panel-body">
+                <div class="form-group">
+                  <textarea type="text" class="form-control col-sm-12" rows="5"placeholder="Tell the world something"></textarea>
+                </div>
+              </div>
+            <div class="panel-footer">
+              <button type="submit" class="btn col-sm-offset-10" id="cta-btn">Post</button>
+            </div>
+            </form>
+          </div><!-- /.panel -->
+        </div><!-- /.col-sm-8 -->
+
       </div><!-- /.row -->
     </div> <!-- /.container -->
   </body>
