@@ -1,0 +1,18 @@
+/*                  */
+/* navigational bar */
+/*                  */
+#logo {
+  background-color: #2B78E4; }
+  #logo a {
+    color: white; }
+
+#site-name {
+  font-size: 24px; }
+
+.nav-padding {
+  padding: 0 10%; }
+
+/* override image padding  */
+/*                  */
+
+/*# sourceMappingURL=styles.css.map */
