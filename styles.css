@@ -1,0 +1,93 @@
+/*                  */
+/* navigational bar */
+/*                  */
+#logo {
+  background-color: #2B78E4; }
+  #logo a {
+    color: white; }
+
+#site-name {
+  font-size: 24px; }
+
+.nav-padding {
+  padding: 0 10%; }
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px; }
+
+/* offset for fixed nav-bar */
+body {
+  padding-top: 50px; }
+
+/*              */
+/* main photos & mid-nav-bar */
+/*              */
+#cover-photo {
+  width: 100%; }
+
+#profile-photo {
+  position: absolute;
+  bottom: 5%;
+  max-width: 20%;
+  left: 5%;
+  z-index: 1;
+  border: 1px solid black; }
+
+#mid-nav-bar {
+  border: 1px solid black; }
+  #mid-nav-bar a {
+    color: black;
+    border-left: 1px solid black; }
+  #mid-nav-bar li:first-child {
+    margin-left: 25%; }
+  #mid-nav-bar .active {
+    /* when on about_edit.html, removes link */ }
+    #mid-nav-bar .active a {
+      background-color: #ccc; }
+    #mid-nav-bar .active .edit-link {
+      display: none; }
+  #mid-nav-bar .edit-link {
+    color: blue;
+    text-decoration: underline; }
+
+/*                       */
+/* main info pane        */
+/*                       */
+header {
+  text-align: center; }
+
+#cta-btn {
+  background-color: #2B78E4;
+  color: white; }
+
+/*   ----------------------------       */
+/*   --------about_edit.html-----       */
+/*   ----------------------------       */
+/*  modifications to identical top area from about.html  */
+/*  hiding edit profile link */
+/*  also see edit profile tab in mid-nav-bar section */
+header + .active {
+  display: none; }
+
+/*   ----------------------------       */
+/*   --------timeline.html__-----       */
+/*   ----------------------------       */
+.panel {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  .panel .img-thumbnail {
+    width: 70px; }
+
+/*   ----------------------------       */
+/*   --------friend.html---------       */
+/*   ----------------------------       */
+#unfriend {
+  background-color: #eee;
+  line-height: 2em; }
+
+/*   ----------------------------       */
+/*   --------photos.html---------       */
+/*   ----------------------------       */
+
+/*# sourceMappingURL=styles.css.map */
