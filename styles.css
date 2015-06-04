@@ -66,6 +66,7 @@ header {
 /*   ----------------------------       */
 /*  modifications to identical top area from about.html  */
 /*  hiding edit profile link */
+/*  also see edit profile tab in mid-nav-bar section */
 header + .active {
   display: none; }
 
