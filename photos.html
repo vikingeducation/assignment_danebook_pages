@@ -1,1 +1,131 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome to Danebook</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top"  id="logo">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="nav-padding">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.html">
+            <img alt="Brand" class="img-circle" src="assets/danish_flag.gif">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a id="site-name" href="#">Danebook</a></li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Harry</a></li>
+          </ul>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!--main photos and middle navigational links -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <img alt="cover-photo" id="cover-photo" src="assets/default_cover_img.jpg">
+          <img id="profile-photo" class="img-responsive" src="assets/harry_potter_small.jpg">
+
+          <!-- middle navigation links-->
+
+          <ul class="nav nav-tabs" id="mid-nav-bar">
+            <li role="presentation"><a href="timeline.html">Timeline</a></li>
+            <li role="presentation"><a href="about.html">About</a></li>
+            <li role="presentation"><a href="photos.html">Photos (123)</a></li>
+            <li role="presentation" class="active"><a href="friends.html">Friends (542)</a></li>
+            <li><a class="edit-link" href="about_edit.html">Edit Profile</a></li>
+          </ul><!-- /.nav-pills -->
+        </div> <!-- /.col-sm-12 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+
+    <!--main information pane-->
+    <!--side column-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+
+          <!--Photo Panel-->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Photos (731)</h3>
+            </div>
+            <div class="panel-body row">
+              <!--organize thumbnails by 3 in a row-->
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+              <a href="#" class="thumbnail col-sm-4">
+                <img src="assets/default_photo_img.png" alt="...">
+              </a>
+            </div><!-- /.panel-body row -->
+          </div><!-- / end of photo panel -->
+
+        </div><!-- /.col-->
+      </div><!-- /.row -->
+    </div> <!-- /.container -->
+  </body>
+</html>
