@@ -26,49 +26,59 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </head>
   <body>
-<nav class="navbar navbar-default navbar-fixed-top"  id="logo">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="nav-padding">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="home.html">
-        <img alt="Brand" class="img-circle" src="assets/danish_flag.gif">
-      </a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a id="site-name" href="#">Danebook</a></li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+    <nav class="navbar navbar-default navbar-fixed-top"  id="logo">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="nav-padding">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.html">
+            <img alt="Brand" class="img-circle" src="assets/danish_flag.gif">
+          </a>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Harry</a></li>
-      </ul>
-      </div>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a id="site-name" href="#">Danebook</a></li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Harry</a></li>
+          </ul>
+          </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!--main photos and middle navigational links -->
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <img alt="cover-photo" id="cover-photo" src="assets/default_cover_img.jpg">
           <img id="profile-photo" class="img-responsive" src="assets/harry_potter_small.jpg">
-        </div>
-      </div>
-    </div>
+
+          <!-- middle navigation links-->
+          <ul class="nav nav-pills" id="mid-nav-bar">
+            <li role="presentation"><a href="#">Timeline</a></li>
+            <li role="presentation" class="active"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Photos (123)</a></li>
+            <li role="presentation"><a href="#">Friends (542)</a></li>
+            <li role="presentation"><a href="#">?</a></li>
+          </ul><!-- /.nav-pills -->
+        </div> <!-- /.col-sm-12 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
 
   </body>
 </html>

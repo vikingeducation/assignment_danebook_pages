@@ -34,4 +34,9 @@ body {
   z-index: 1;
   border: 1px solid black; }
 
+#mid-nav-bar li:first-child {
+  margin-left: 25%; }
+#mid-nav-bar .active a {
+  background-color: grey; }
+
 /*# sourceMappingURL=styles.css.map */
