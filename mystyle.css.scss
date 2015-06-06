@@ -89,9 +89,9 @@ body {
 }
 
 .about-content {
-  border-left:solid 1px black;
-  border-right: solid 1px black;
-  border-bottom: solid 1px black;
+  // border-left:solid 1px black;
+  // border-right: solid 1px black;
+  // border-bottom: solid 1px black;
   padding-bottom: 100px;
 }
 
@@ -102,19 +102,9 @@ body {
 .friend-container {
   border: solid 1px black;
   // display: table !important;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 30px 10px -10px;
   padding: 10px 0px 10px 0px;
 }
-
-// .v-center {
-//   float: none;
-//   display: table-cell;
-//   vertical-align: middle;
-// }
-// .v-center {
-//   display: inline-block
-//   vertical-align: center;
-// }
 
 
 
@@ -140,6 +130,28 @@ body {
 .friend-comment-container .col-md-10 p, .friend-comment-container .col-md-10 a{
   padding-left:0;
 }
+
+//////////////////////////////
+// PHOTOS!!!!!!!
+/////////////////////
+
+.photo-container h3 {
+  display: inline;
+  // text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
