@@ -1,7 +1,10 @@
 
 body {
   padding-top: 50px;
-  // padding-bottom: 100px;
+}
+
+.container {
+  padding: 0px 30px 0px 30px;
 }
 
 .navbar-fixed-top{
@@ -32,20 +35,19 @@ body {
   background-image: url(img/hogwarts_small.jpg);
   background-size: cover;
   background-position: center center;
-  border: solid 1px black;
   width: 100%;
-  height: 400px;
+  height: 315px;
 }
 
 .bg-img {
-  border: solid 2px orange;
   position: relative;
 }
 
 .user-photo {
   position: absolute;
-  top: 270px;
+  top: 190px;
   left: 30px;
+  z-index: 10;
   
   img {
     width: 150px;
@@ -53,15 +55,14 @@ body {
   }
 }
 
-.navbar.user-nav .container {
-  border: solid 2px black;
+.user-nav{
 
   ul{
     padding-left: 180px;
   }
 
-  li {
-    border: solid 2px black;
+  ul:last-child{
+    padding-right: 15px;
   }
 }
 
@@ -78,7 +79,6 @@ body {
 }
 
 .user-header-about {
-  border: solid 1px black;
 
   .navbar {
     margin:0;
@@ -89,9 +89,6 @@ body {
 }
 
 .about-content {
-  // border-left:solid 1px black;
-  // border-right: solid 1px black;
-  // border-bottom: solid 1px black;
   padding-bottom: 100px;
 }
 
@@ -101,7 +98,6 @@ body {
 
 .friend-container {
   border: solid 1px black;
-  // display: table !important;
   margin: 10px 30px 10px -10px;
   padding: 10px 0px 10px 0px;
 }
