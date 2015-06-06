@@ -55,6 +55,14 @@ body {
   }
 }
 
+.user-name {
+  position: absolute;
+  top: 240px;
+  left: 200px;
+  z-index: 10;
+  color: white;
+}
+
 .user-nav{
 
   ul{
@@ -136,7 +144,13 @@ body {
   // text-align: center;
 }
 
+.panel-header {
+  margin: 0px 0px 8px 0px;
+}
 
+.photo-container img {
+  margin: 5px 0px 5px 0px;
+}
 
 
 
