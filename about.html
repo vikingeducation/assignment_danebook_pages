@@ -21,9 +21,9 @@
   <body>
 
   	<!-- Navigation Bar with collapse feature -->
-      <nav class="navbar navbar-fixed-top">
-      	<div class="row">
-        <div class="navbar-header col-sm-3">
+    <nav class="navbar navbar-default navbar-static" id="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -33,24 +33,34 @@
 
           <!-- Company Branding -->
           <a class="navbar-brand" href="index.html">
-          	<img class="navbar-image" src="img/daneflagsmall.png">
+          	<img src="img/daneflagsmall.png" class="img-responsive img-circle" id="navbar-logo" alt="Danebook Logo">
           </a>
-          <a class="navbar-brand" href="index.html">Danebook</a>
+          <a class="navbar-brand" href="index.html">
+            Danebook
+          </a>
         </div>
 
         <!-- wrapper for stuff that collapses -->
-        <div id="navbar" class="navbar-collapse collapse">
-          
-          <!--control button placement -->  
-            <div class="form-group col-sm-7">
-              <input type="text" placeholder="Search for Users" class="form-control navbar-search">
+        <div class="navbar-collapse collapse" id="navbar-collabsable">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" placeholder="Search for Users" class="form-control" id="navbar-search">
             </div>
-            <div class="col-sm-2 navbar-user-name">
-            	<p class="navbar-text navbar-right">Harry</p>
-            </div>
+          </form>
+          <p class="navbar-text navbar-right" ><a href="about.html" class="navbar-link" id="navbar-user">Harry</a></p>
         </div><!--/.navbar-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 main-img">
+          </div>
         </div>
-      </nav>
+      </div>
+
+      </div>
 
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
