@@ -23,3 +23,10 @@
 	height: 30px;
 	width: 42px;
 }
+
+#cover #cover-back-img {
+	width: 100%;
+	height: 400px;
+	opacity: .5;
+	margin-top: -20px;
+}
