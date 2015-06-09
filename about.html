@@ -17,11 +17,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
-  </head>
-  <body>
+    </head>
+    <body>
 
-  	<!-- Navigation Bar with collapse feature -->
-    <nav class="navbar navbar-default navbar-static" id="navbar">
+     <!-- Navigation Bar with collapse feature -->
+     <nav class="navbar navbar-default navbar-static" id="top-navbar">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,7 +33,7 @@
 
           <!-- Company Branding -->
           <a class="navbar-brand" href="index.html">
-          	<img src="img/daneflagsmall.png" class="img-responsive img-circle" id="navbar-logo" alt="Danebook Logo">
+          	<img src="img/daneflagsmall.png" class="img-responsive img-circle navbar-logo" alt="Danebook Logo">
           </a>
           <a class="navbar-brand" href="index.html">
             Danebook
@@ -41,33 +41,55 @@
         </div>
 
         <!-- wrapper for stuff that collapses -->
-        <div class="navbar-collapse collapse" id="navbar-collabsable">
+        <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-left">
             <div class="form-group">
-              <input type="text" placeholder="Search for Users" class="form-control" id="navbar-search">
+              <input type="text" placeholder="Search for Users" class="form-control navbar-search">
             </div>
           </form>
-          <p class="navbar-text navbar-right" ><a href="about.html" class="navbar-link" id="navbar-user">Harry</a></p>
+          <p class="navbar-text navbar-right" ><a href="about.html" class="navbar-link navbar-user" >Harry</a></p>
         </div><!--/.navbar-collapse -->
       </div><!--/.container-fluid -->
     </nav>
 
+    <main>
 
-      <div class="container" id="cover">
+      <header class="container" id="cover">
+
         <div class="row">
-          <img src="img/hogwarts_small.jpg" id="cover-back-img">
-          <div class="col-sm-12" id="cover-profile-img-container">
-            <img src="img/harry_potter_small.jpg" id="cover-profile-img">
+          <img src="img/hogwarts_small.jpg" class="cover-photo hidden-xs hidden-sm">
+          <div class="col-sm-12 profile-photo">
+            <img src="img/harry_potter_small.jpg" id="cover-profile-img" class="hidden-xs hidden-sm">
           </div>
         </div>
-      </div>
 
-      </div>
+        <div class="row" id="cover-nav">
+          <div class="col-sm-7 col-sm-offset-3">
+            <ul class="nav nav-tabs">
+              <li><a href="timeline.html">Timeline</a></li>
+              <li class="active"><a href="about.html">About</a></li>
+              <li><a href="photos.html">Photos <span class="unread-count">(41)</span></a></li>
+              <li><a href="friends.html">Friends <span class="unread-count">(2)</span></a></li>
+            </ul>
+          </div>
 
-  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  	<!-- Include all compiled plugins (below), or include individual files as needed -->
-  	<script src="js/bootstrap.min.js"></script>
+          <div class="col-md-2">
+            <ul class="nav">
+              <li><a class="profile-edit-link" href="about_edit.html">Edit Profile</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+      </header>
+    </main>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
   </body>
   </html>
