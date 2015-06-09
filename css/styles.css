@@ -30,3 +30,16 @@
 	opacity: .5;
 	margin-top: -20px;
 }
+
+#cover #cover-profile-img {
+	width: 180px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+#cover #cover-profile-img-container{
+    position: absolute;
+
+    left: 52px;
+    top: 300px;
+}
