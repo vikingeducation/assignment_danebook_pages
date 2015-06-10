@@ -39,12 +39,13 @@
     color: #888; }
 
 #profile-info {
-  padding: 15px;
-  border: 1px solid black; }
-  #profile-info .section-header {
+  padding: 15px; }
+  #profile-info .profile-header {
     border: 2px solid black;
     font-size: 32px;
     background-color: #EEE; }
+  #profile-info .profile-body {
+    border: 1px solid black; }
   #profile-info .basic-info {
     text-align: left;
     line-height: 30px; }

@@ -60,12 +60,15 @@ margin-top: -20px;
 
 #profile-info{
 	padding: 15px;
-	border: 1px solid black;
 
-	.section-header {
+	.profile-header {
 	border: 2px solid black;
 	font-size: 32px;
 	background-color: #EEE;
+	}
+
+	.profile-body {
+	border: 1px solid black;
 	}
 
 	.basic-info {
@@ -77,8 +80,4 @@ margin-top: -20px;
 	text-align: left;
 	line-height: 30px;
 	}
-
-
-
-
 }
