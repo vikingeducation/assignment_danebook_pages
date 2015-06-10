@@ -1,0 +1,13 @@
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.about-bar {
+	background-color: #ccc;
+	border-bottom: solid black 1px
+}
+
+.about{
+	border: solid black 1px;
+}

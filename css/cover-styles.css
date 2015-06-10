@@ -1,24 +1,20 @@
-.cover-menu {
-
-	position: relative;
-	bottom: 145px;
+.cover {
+  border: solid black 1px;
+  margin-bottom: 20px;
 }
+
 
 .cover-profile {
 
-	position: relative;
-	bottom: 130px;
-
+	position: absolute;
+	top: 210px;
+  left: 30px;
+  height: 100%;
+  width: 100%;
 
 }
 
-.cover-menu .col-sm-1 {
+.cover-menu .col-md-1 {
 
 	padding: 0px;
-}
-
-.cover-menu .pull-right{
-
-	position: relative;
-	top: 7px;
 }
