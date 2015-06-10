@@ -49,8 +49,20 @@
   #profile-info .basic-info {
     text-align: left;
     line-height: 30px; }
+  #profile-info .basic-info-form {
+    padding: 5px; }
+  #profile-info textarea.basic-info-form {
+    width: 100%; }
+  #profile-info textarea.basic-info-form#aboutme-input {
+    height: 175px; }
   #profile-info .contact-info {
     text-align: left;
     line-height: 30px; }
+  #profile-info .update-profile-save {
+    text-align: center; }
+  #profile-info .update-profile-save .btn-lg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%; }
 
 /*# sourceMappingURL=styles.css.map */
