@@ -136,12 +136,28 @@
     padding-top: 10px;
     border-left: 1px solid black;
     border-right: 1px solid black; }
-  .post .comments {
+  .post .status {
     background-color: #EEE;
-    border: 2px solid black;
-    padding: 7px 21px 7px 21px; }
-    .post .comments a {
+    border: 1px solid black;
+    padding: 7px 21px 7px 21px;
+    line-height: 25px; }
+    .post .status a {
       text-decoration: underline; }
+  .post .comments {
+    border-top: 1px solid #aaa;
+    line-height: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .post .comments img {
+      height: 45px;
+      width: 40px; }
+    .post .comments .subset-status {
+      padding-right: 3px; }
+  .post .add-comment textarea {
+    width: 95%;
+    height: 100px;
+    margin: 15px;
+    padding: 5px; }
 
 #home-page-main {
   margin-top: 65px; }

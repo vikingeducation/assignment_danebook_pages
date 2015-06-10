@@ -85,13 +85,41 @@
 	border-right: 1px solid black;
 	}
 
-	.comments {
+	.status {
 	background-color: #EEE;
-	border: 2px solid black;
+	border: 1px solid black;
 	padding: 7px 21px 7px 21px;
+	line-height: 25px;
 	
 		a {
 		text-decoration: underline;
+		}
+	}
+
+	.comments {
+
+		border-top: 1px solid #aaa;
+		line-height: 16px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		img{
+		height: 45px;
+		width: 40px;
+		}
+
+		.subset-status {
+		padding-right: 3px;
+		}
+	}
+
+	.add-comment {
+	
+		textarea{
+		width: 95%;
+		height: 100px;
+		margin: 15px;
+		padding: 5px;
 		}
 	}
 }
