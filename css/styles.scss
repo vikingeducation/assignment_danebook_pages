@@ -1,13 +1,31 @@
+#login-navbar{
+background-color: #004D97;
+color: #fff;
+border-bottom: 3px solid #333;
+border-radius: 0;
+min-height: 96px;
+
+	a.navbar-brand {
+	font-size: 36px;
+	color: #fff;
+	padding-top: 35px
+	}	
+}
+
+
+
 #top-navbar{
 background-color: #004D97;
 color: #fff;
-border: 0px solid;
+border-bottom: 3px solid #333;
 border-radius: 0;
-box-shadow: 2px 2px 0px #666;
+min-height: 65px;
+
 
 	a.navbar-brand {
-	font-size: 28px;
+	font-size: 36px;
 	color: #fff;
+	margin-top: 3px
 	}
 
 	.navbar-user{
@@ -18,17 +36,27 @@ box-shadow: 2px 2px 0px #666;
 
 	.navbar-search{
 	min-width: 450px;
+	margin-top: 5px;
 	}
 
 	.navbar-logo{
 	height: 30px;
 	width: 42px;
+	margin-top: -3px;
 	}
+
+	.login-form{
+	padding: 15px;
+	}
+}
+
+#home-page-main{
+	margin-top:65px;
 }
 
 #cover{
 position: relative;
-margin-top: -20px;
+margin-top: 65px;
 
 	.cover-photo {
 	width: 100%;
