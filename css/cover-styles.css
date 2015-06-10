@@ -7,11 +7,13 @@
 .cover-profile {
 
 	position: absolute;
-	top: 210px;
-  left: 30px;
-  height: 100%;
-  width: 100%;
+	top: 190px;
+  left: 120px;
+}
 
+.profile-pic {
+  height: 180px;
+  width: 180px;
 }
 
 .cover-menu .col-md-1 {
