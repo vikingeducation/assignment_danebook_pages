@@ -99,6 +99,14 @@
   height: 100px;
   width: 90px;
   padding-bottom: 5px; }
+#timeline-info .see-more-link {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  line-height: 35px; }
+#timeline-info .friend-link {
+  text-align: center;
+  text-decoration: underline; }
 
 #home-page-main {
   margin-top: 65px; }
