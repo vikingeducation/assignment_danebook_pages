@@ -13,161 +13,196 @@
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-  </head>
-  <body>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
 
-  	<!-- Navigation Bar with collapse feature -->
-  	<nav class="navbar navbar-default navbar-fixed-top" id="top-navbar">
-  		<div class="container-fluid">
-  			<div class="navbar-header">
-  				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-  					<span class="sr-only">Toggle navigation</span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  					<span class="icon-bar"></span>
-  				</button>
+	<!-- Navigation Bar with collapse feature -->
+	<nav class="navbar navbar-default navbar-fixed-top" id="top-navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 
-  				<!-- Company Branding -->
-  				<a class="navbar-brand" href="index.html">
-  					<img src="img/daneflagsmall.png" class="img-responsive img-circle navbar-logo" alt="Danebook Logo">
-  				</a>
-  				<a class="navbar-brand" href="index.html">
-  					Danebook
-  				</a>
-  			</div>
+				<!-- Company Branding -->
+				<a class="navbar-brand" href="index.html">
+					<img src="img/daneflagsmall.png" class="img-responsive img-circle navbar-logo" alt="Danebook Logo">
+				</a>
+				<a class="navbar-brand" href="index.html">
+					Danebook
+				</a>
+			</div>
 
-  			<!-- wrapper for stuff that collapses -->
-  			<div class="navbar-collapse collapse">
-  				<form class="navbar-form navbar-left">
-  					<div class="form-group">
-  						<input type="text" placeholder="Search for Users" class="form-control navbar-search">
-  					</div>
-  				</form>
-  				<p class="navbar-text navbar-right" ><a href="about.html" class="navbar-link navbar-user" >Harry</a></p>
-  			</div><!--/.navbar-collapse -->
-  		</div><!--/.container-fluid -->
-  	</nav>
+			<!-- wrapper for stuff that collapses -->
+			<div class="navbar-collapse collapse">
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="text" placeholder="Search for Users" class="form-control navbar-search">
+					</div>
+				</form>
+				<p class="navbar-text navbar-right" ><a href="about.html" class="navbar-link navbar-user" >Harry</a></p>
+			</div><!--/.navbar-collapse -->
+		</div><!--/.container-fluid -->
+	</nav>
 
-  	<!-- This section contains the top half of the page i.e. Profile Photo background and some Navigation -->
-  	<header class="container" id="cover">
-  		<!-- Cover photo and profile photo -->
-  		<div class="row">
-  			<img src="img/hogwarts_small.jpg" class="cover-photo hidden-xs hidden-sm">
-  			<div class="col-md-12 profile-photo">
-  				<img src="img/harry_potter_small.jpg" id="cover-profile-img" class="hidden-xs hidden-sm">
-  			</div>
-  		</div>
+	<!-- This section contains the top half of the page i.e. Profile Photo background and some Navigation -->
+	<section class="container" id="cover">
+		<!-- Cover photo and profile photo -->
+		<div class="row">
+			<img src="img/hogwarts_small.jpg" class="cover-photo hidden-xs hidden-sm">
+			<div class="col-md-12 profile-photo">
+				<img src="img/harry_potter_small.jpg" id="cover-profile-img" class="hidden-xs hidden-sm">
+			</div>
+		</div>
 
-  		<!-- Nav elements across middle of page -->
-  		<div class="row cover-nav">
-  			<div class="col-md-7 col-md-offset-3">
-  				<ul class="nav nav-tabs">
-  					<li class="active"><a href="timeline.html">Timeline</a></li>
-  					<li><a href="about.html">About</a></li>
-  					<li><a href="photos.html">Photos <span class="unread-count">(41)</span></a></li>
-  					<li><a href="friends.html">Friends <span class="unread-count">(2)</span></a></li>
-  				</ul>
-  			</div>
-  			<div class="col-md-2">
-  				<ul class="nav">
-  					<li><a class="profile-edit-link" href="about_edit.html">Edit Profile</a></li>
-  				</ul>
-  			</div>
-  		</div>
-  	</header>
+		<!-- Nav elements across middle of page -->
+		<div class="row cover-nav">
+			<div class="col-md-7 col-md-offset-3">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="timeline.html">Timeline</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="photos.html">Photos <span class="unread-count">(41)</span></a></li>
+					<li><a href="friends.html">Friends <span class="unread-count">(2)</span></a></li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<ul class="nav">
+					<li><a class="profile-edit-link" href="about_edit.html">Edit Profile</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
-  	<section class="container">
-  		<div class="row" id="timeline-info">
-  			<div class="col-md-4">
-  				<div class="row timeline-header">About</div>
-  				<div class="row timeline-content">
-  					<dl class="dl-horizontal">
-  						<dt class="basic-info">Birthday:</dt>
-  						<dd>July, 29 1977</dd>
-  						<dt class="basic-info">College:</dt>
-  						<dd>Coastal Carolina University</dd>
-  						<dt class="basic-info">Hometown:</dt>
-  						<dd>Charlotte, NC</dd>
-  						<dt class="basic-info">Currently Lives:</dt>
-  						<dd>Palm Beach Gardens, FL</dd>
-  					</dl>
-  				</div>
-  				<div class="row timeline-header">Photos (123)</div>
-  				<div class="row timeline-content">
-  					<div class="col-md-4">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  					</div>
-  					<div class="col-md-4">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  					</div>
-  					<div class="col-md-4">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  						<img src="img/harry_potter_small.jpg" class="timeline-photos">
-  					</div>
-  					<div class="see-more-link"><a href="photos.html">See More Photos</a></div>
-  				</div>
-  				<div class="row timeline-header">Friends (358)</div>
-  				<div class="row timeline-content">
-  					<div class="col-md-4 friend-link">
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  					</div>
-  					<div class="col-md-4 friend-link">
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  					</div>
-  					<div class="col-md-4 friend-link">
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
-  						<a href="#">Ron<br>Weasley</a>
-  					</div>
-  					<div class="row see-more-link"><a href="friends.html">See More Friends</a></div>
-  				</div>
-  			</div>
-
-
-
-  			<div class="col-md-7 col-md-offset-1">
-  				<div class="row timeline-header">New Post</div>
-  				<div class="row timeline-content">
-  					<textarea class="new-post" placeholder="Tell the world something..."></textarea>
-  				</div>
-  				<div class="row post-options">
-  					<a class="btn btn-primary pull-right" href="#" role="submit">Post</a>
-  				</div>
+	<section class="container">
+		<div class="row" id="timeline-info">
+			<div class="col-md-4">
+				<div class="row timeline-header">About</div>
+				<div class="row timeline-content">
+					<dl class="dl-horizontal">
+						<dt class="basic-info">Birthday:</dt>
+						<dd>July, 29 1977</dd>
+						<dt class="basic-info">College:</dt>
+						<dd>Coastal Carolina University</dd>
+						<dt class="basic-info">Hometown:</dt>
+						<dd>Charlotte, NC</dd>
+						<dt class="basic-info">Currently Lives:</dt>
+						<dd>Palm Beach Gardens, FL</dd>
+					</dl>
+				</div>
+				<header class="row timeline-header">Photos (123)</header>
+				<div class="row timeline-content">
+					<div class="col-md-4">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+					</div>
+					<div class="col-md-4">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+					</div>
+					<div class="col-md-4">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+						<img src="img/icon_photo_small.png" class="timeline-photos">
+					</div>
+					<div class="more-link"><a href="photos.html">See More Photos</a></div>
+				</div>
+				<header class="row timeline-header">Friends (358)</header>
+				<div class="row timeline-content">
+					<div class="col-md-4 friend-link">
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+					</div>
+					<div class="col-md-4 friend-link">
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+					</div>
+					<div class="col-md-4 friend-link">
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+						<img src="img/user_silhouette_generic.gif" class="timeline-photos">
+						<a href="#">Ron<br>Weasley</a>
+					</div>
+					<div class="row more-link"><a href="friends.html">See More Friends</a></div>
+				</div>
+			</div>
 
 
 
+			<div class="col-md-7 col-md-offset-1">
+				<article class="new-post">
+					<header class="row timeline-header">Post</header>
+					<div class="row content">
+						<textarea placeholder="Tell the world something..."></textarea>
+					</div>
+					<footer class="row post-footer">
+						<button class="btn btn-primary pull-right" role="submit">Post</button>
+					</footer>
+				</article>
+
+
+				<article class="post">
+					<header class="row">
+						<div class="col-md-1">
+							<img src="img/harry_potter_small.jpg">
+						</div>
+						<div class="col-md-11">
+							<p>
+								<a href="#">Harry Potter</a><br>
+								Posted on <time datetime="2015-06-09T14:54:47-04:00" pubdate>Wednesday 6/9/2015</time>
+							</p>
+						</div>
+					</header>
+					<div class="row content">
+						<div class="col-md-12">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+					</div>
+					<footer class="row comments">
+						<div class="row">
+							<div class="col-md-1"><a href="#">Like</a></div>
+							<div class="col-md-1"><a href="#">Comment</a></div>
+							<div class="col-md-1 col-md-offset-9"><a href="#">Delete</a></div>
+						</div>
+					</footer>
+				</article>
 
 
 
-  			</div>
 
 
 
-  		</div>
-  	</div>
-  </section>
+			</div>
+
+
+
+		</div>
+	</div>
+</section>
 
 
 

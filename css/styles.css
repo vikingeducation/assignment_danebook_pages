@@ -94,28 +94,54 @@
   padding-left: 15px; }
 #timeline-info .timeline-content {
   padding-top: 15px;
-  border: 1px solid black; }
+  border: 1px solid black;
+  border-top: 0; }
 #timeline-info .timeline-photos {
   height: 100px;
   width: 90px;
   padding-bottom: 5px; }
-#timeline-info .see-more-link {
+#timeline-info .more-link {
   text-align: center;
   text-decoration: underline;
   margin-bottom: 10px;
   line-height: 35px; }
-#timeline-info .friend-link {
-  text-align: center;
-  text-decoration: underline; }
-#timeline-info .new-post {
+
+.new-post .content {
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+.new-post textarea {
   width: 95%;
   height: 100px;
-  margin-left: 16px;
-  margin-bottom: 15px; }
-#timeline-info .post-options {
+  margin: 15px;
+  padding: 5px; }
+.new-post footer {
+  border: 2px solid black;
   background-color: #EEE;
-  border: 1px solid black;
-  padding: 10px 20px 10px 0; }
+  padding: 7px 21px 7px 0; }
+.new-post button {
+  width: 15%; }
+
+.post {
+  margin-top: 15px; }
+  .post header {
+    border: 1px solid black;
+    border-bottom: 0;
+    padding-top: 15px; }
+    .post header img {
+      height: 50px;
+      width: 45px; }
+    .post header a {
+      text-decoration: underline; }
+  .post .content {
+    padding-top: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+  .post .comments {
+    background-color: #EEE;
+    border: 2px solid black;
+    padding: 7px 21px 7px 21px; }
+    .post .comments a {
+      text-decoration: underline; }
 
 #home-page-main {
   margin-top: 65px; }

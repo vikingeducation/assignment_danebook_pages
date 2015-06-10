@@ -1,5 +1,4 @@
 #timeline-info {
-	
 
 	.timeline-header{
 	text-align: center;
@@ -18,6 +17,7 @@
 	.timeline-content {
 	padding-top: 15px;
 	border: 1px solid black;
+	border-top: 0;
 	}
 
 	.timeline-photos {
@@ -26,31 +26,78 @@
 	padding-bottom: 5px;
 	}
 
-	.see-more-link {
+	.more-link {
 	text-align: center;
 	text-decoration: underline;
 	margin-bottom: 10px;
 	line-height: 35px;
 	}
+}
 
-	.friend-link{
-	text-align: center;
-	text-decoration: underline;
+.new-post {
+
+
+	.content{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 	}
 
-	.new-post {
+	textarea{
 	width: 95%;
 	height: 100px;
-	margin-left: 16px;
-	margin-bottom: 15px;
-	}
+	margin: 15px;
+	padding: 5px;
+	}	
 
-	.post-options {
+	footer {
+	border: 2px solid black;
 	background-color: #EEE;
-	border: 1px solid black;
-	padding: 10px 20px 10px 0;
+	padding: 7px 21px 7px 0;
 	}
 
-
-
+	button {
+	width: 15%;
+	}
 }
+
+.post {
+
+	margin-top: 15px;
+
+	header{
+	border: 1px solid black;
+	border-bottom: 0;
+	padding-top: 15px;
+
+		img{
+		height: 50px;
+		width: 45px;
+		}
+
+		a {
+		text-decoration: underline;
+		}
+	}
+
+	.content {
+	padding-top: 10px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	}
+
+	.comments {
+	background-color: #EEE;
+	border: 2px solid black;
+	padding: 7px 21px 7px 21px;
+	
+		a {
+		text-decoration: underline;
+		}
+	}
+}
+
+
+
+
+
+
