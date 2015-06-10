@@ -19,11 +19,9 @@
       <![endif]-->
     </head>
     <body>
-
-      <!-- Navigation Bar with collapse feature -->
-      <nav class="navbar navbar-default navbar-static">
-        <div class="container-fluid">
-        <!-- Mobile Stuff -->
+         <!-- Navigation Bar with collapse feature -->
+     <nav class="navbar navbar-default navbar-fixed-top" id="top-navbar">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -33,33 +31,33 @@
           </button>
 
           <!-- Company Branding -->
-          <a class="navbar-brand" href="#">Danebook</a>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/daneflagsmall.png" class="img-responsive img-circle navbar-logo" alt="Danebook Logo">
+          </a>
+          <a class="navbar-brand" href="index.html">
+            Danebook
+          </a>
         </div>
-
         <!-- wrapper for stuff that collapses -->
-        <div id="navbar" class="navbar-collapse collapse col-sm-9 navbar-right">
-          
-          <!--control button placement -->  
-          <form class="navbar-form" role="login">
-            <div class="form-group col-sm-4">
-              <label for="email" class="navbar-label">Email</label>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="login">
+            <div class="form-group">
               <input type="email" placeholder="Email" class="form-control">
             </div>
-            <div class="form-group col-sm-4">
-              <label for="password" class="navbar-label">Password</label>
+            <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <div class = "col-md-4 col-sm-4 form-group" >
-              <!-- empty label to line up submit button -->
-              <label for="submit">&nbsp;</label><br>
-              <!-- unless you really need it, use basic Bootstrap button styles -->
+            <div class = "form-group" >
               <button type="submit" class="btn btn-info">Login</button>
             </div>
           </form>
-        </div><!--/.navbar-collapse -->
-      </nav>
 
-      <div class="container main-page">
+        </div><!--/.navbar-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
+
+
+     <div class="container" id="home-page-main">
         <div class="row">
           <div class="col-sm-7"><h4>&nbsp;</h4>
             <div class="row">

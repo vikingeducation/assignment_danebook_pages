@@ -9,7 +9,8 @@
     color: #fff; }
   #top-navbar .navbar-user {
     color: #fff;
-    font-size: 20px; }
+    font-size: 20px;
+    margin-right: 20px; }
   #top-navbar .navbar-search {
     min-width: 450px; }
   #top-navbar .navbar-logo {
