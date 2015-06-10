@@ -33,9 +33,23 @@
     position: absolute;
     left: 20px;
     bottom: 20px; }
-  #cover #cover-nav {
+  #cover .cover-nav {
     border: 2px solid #777; }
   #cover .unread-count {
     color: #888; }
+
+#profile-info {
+  padding: 15px;
+  border: 1px solid black; }
+  #profile-info .section-header {
+    border: 2px solid black;
+    font-size: 32px;
+    background-color: #EEE; }
+  #profile-info .basic-info {
+    text-align: left;
+    line-height: 30px; }
+  #profile-info .contact-info {
+    text-align: left;
+    line-height: 30px; }
 
 /*# sourceMappingURL=styles.css.map */

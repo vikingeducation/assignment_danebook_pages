@@ -53,9 +53,9 @@
     </nav>
 
     <main>
-
+      <!-- This section contains the top half of the page i.e. Profile Photo background and some Navigation -->
       <header class="container" id="cover">
-
+        <!-- Cover photo and profile photo -->
         <div class="row">
           <img src="img/hogwarts_small.jpg" class="cover-photo hidden-xs hidden-sm">
           <div class="col-sm-12 profile-photo">
@@ -63,7 +63,8 @@
           </div>
         </div>
 
-        <div class="row" id="cover-nav">
+        <!-- Nav elements across middle of page -->
+        <div class="row cover-nav">
           <div class="col-sm-7 col-sm-offset-3">
             <ul class="nav nav-tabs">
               <li><a href="timeline.html">Timeline</a></li>
@@ -72,16 +73,79 @@
               <li><a href="friends.html">Friends <span class="unread-count">(2)</span></a></li>
             </ul>
           </div>
-
           <div class="col-md-2">
             <ul class="nav">
               <li><a class="profile-edit-link" href="about_edit.html">Edit Profile</a></li>
             </ul>
           </div>
         </div>
-
-
       </header>
+
+      <!--This section contains the users profile specifics -->
+
+      <section class="container" id="profile-info">
+        <div class="row section-header">
+          <div class="col-md-1 col-md-offset-5">About</div>
+          <div class="col-md-2 col-md-offset-4">
+            <label for="link">&nbsp;</label>
+            <a class="btn btn-primary" href="about_edit.html" role="button">Edit Your Profile</a>
+          </div>
+        </div>
+        <div class="row">
+
+          <article class="col-md-5 col-md-offset-1">
+            <h3>Basic Info</h3>
+            <div class="row">
+              <div class="col-md-12">
+                <dl class="dl-horizontal">
+                  <dt class="basic-info">Birthday:</dt>
+                  <dd>July, 29 1977</dd>
+                  <dt class="basic-info">College:</dt>
+                  <dd>Coastal Carolina University</dd>
+                  <dt class="basic-info">Hometown:</dt>
+                  <dd>Charlotte, NC</dd>
+                  <dt class="basic-info">Currently Lives:</dt>
+                  <dd>Palm Beach Gardens, FL</dd>
+                </dl>
+                <h3>Contact Information</h3>
+                <dl class="dl-horizontal">
+                  <dt class="contact-info">Email:</dt>
+                  <dd><a href="mailto:#">harry_potter@example.com</a></dd>
+                  <dt class="contact-info">Telephone:</dt>
+                  <dd>(555) 123-4567</dd>
+                </dl>
+              </div>
+            </div>  
+          </article>
+
+          <article class="col-md-6">
+            <h3>Words to Live By</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. 
+            </p>
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            </article>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 
 
