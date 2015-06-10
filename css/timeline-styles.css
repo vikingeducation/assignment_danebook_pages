@@ -1,0 +1,21 @@
+.about-me-box, .photos-box, .friends-box {
+	border: solid black 1px;
+	margin-top: 25px;
+}
+
+.about-me-box{
+	margin-top: 0px;
+}
+
+.box-title {
+	
+	text-align: center;
+	background-color: #bbb;
+	border: solid black 1px;
+}
+
+.photos-box img, .friends-box img {
+
+	width:100%;
+	height:100%;
+}
