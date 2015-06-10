@@ -1,0 +1,35 @@
+#top-navbar{
+background-color: #004D97;
+color: #fff;
+border-bottom: 3px solid #333;
+border-radius: 0;
+min-height: 65px;
+
+
+	a.navbar-brand {
+	font-size: 36px;
+	color: #fff;
+	margin-top: 3px
+	}
+
+	.navbar-user{
+	color: #fff;
+	font-size: 20px;
+	margin-right: 20px;
+	}
+
+	.navbar-search{
+	min-width: 450px;
+	margin-top: 5px;
+	}
+
+	.navbar-logo{
+	height: 30px;
+	width: 42px;
+	margin-top: -3px;
+	}
+
+	.login-form{
+	padding: 15px;
+	}
+}

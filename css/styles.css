@@ -33,9 +33,6 @@
   #top-navbar .login-form {
     padding: 15px; }
 
-#home-page-main {
-  margin-top: 65px; }
-
 #cover {
   position: relative;
   margin-top: 65px; }
@@ -84,5 +81,26 @@
     margin-top: 50px;
     margin-bottom: 50px;
     width: 40%; }
+
+#timeline-info .timeline-header {
+  text-align: center;
+  font-size: 24px;
+  background-color: #EEE;
+  border: 2px solid black;
+  margin-top: 15px; }
+#timeline-info .basic-info {
+  text-align: left;
+  line-height: 30px;
+  padding-left: 15px; }
+#timeline-info .timeline-content {
+  padding-top: 15px;
+  border: 1px solid black; }
+#timeline-info .timeline-photos {
+  height: 100px;
+  width: 90px;
+  padding-bottom: 5px; }
+
+#home-page-main {
+  margin-top: 65px; }
 
 /*# sourceMappingURL=styles.css.map */

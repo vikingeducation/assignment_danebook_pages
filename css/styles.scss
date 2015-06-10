@@ -1,136 +1,14 @@
-#login-navbar{
-background-color: #004D97;
-color: #fff;
-border-bottom: 3px solid #333;
-border-radius: 0;
-min-height: 96px;
-
-	a.navbar-brand {
-	font-size: 36px;
-	color: #fff;
-	padding-top: 35px
-	}	
-}
+@import 'login-navbar';
+@import 'top-navbar';
+@import 'cover';
+@import 'profile-info';
+@import 'timeline-info';
 
 
-
-#top-navbar{
-background-color: #004D97;
-color: #fff;
-border-bottom: 3px solid #333;
-border-radius: 0;
-min-height: 65px;
-
-
-	a.navbar-brand {
-	font-size: 36px;
-	color: #fff;
-	margin-top: 3px
-	}
-
-	.navbar-user{
-	color: #fff;
-	font-size: 20px;
-	margin-right: 20px;
-	}
-
-	.navbar-search{
-	min-width: 450px;
-	margin-top: 5px;
-	}
-
-	.navbar-logo{
-	height: 30px;
-	width: 42px;
-	margin-top: -3px;
-	}
-
-	.login-form{
-	padding: 15px;
-	}
-}
 
 #home-page-main{
 	margin-top:65px;
 }
 
-#cover{
-position: relative;
-margin-top: 65px;
-
-	.cover-photo {
-	width: 100%;
-	min-width: 992px;
-	border: 1px solid black;
-	height: 400px;
-	opacity: .5;
-	}
-
-	.profile-photo img {
-	width: 180px;
-	height: 200px;
-	border: 1px solid black;
-	}
-
-	.profile-photo{
-	position: absolute;
-	left: 20px;
-	bottom: 20px;
-	}
-
-	.cover-nav {
-	border: 2px solid #777;
-	}
-
-	.unread-count{
-	color: #888;
-	}
-}
-
-#profile-info{
-	padding: 15px;
-
-	.profile-header {
-	border: 2px solid black;
-	font-size: 32px;
-	background-color: #EEE;
-	}
-
-	.profile-body {
-	border: 1px solid black;
-	}
-
-	.basic-info {
-	text-align: left;
-	line-height: 30px
-	}
-
-	.basic-info-form{
-	padding: 5px;
-	}
-
-	textarea.basic-info-form {
-	width: 100%;
-	}
-
-	textarea.basic-info-form#aboutme-input{
-	height: 175px;
-	}
-
-	.contact-info {
-	text-align: left;
-	line-height: 30px;
-	}
-
-	.update-profile-save {
-	text-align: center;
-	}
-
-	.update-profile-save .btn-lg {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	width: 40%;
-	}
 
 
-}
