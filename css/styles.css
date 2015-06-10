@@ -107,6 +107,15 @@
 #timeline-info .friend-link {
   text-align: center;
   text-decoration: underline; }
+#timeline-info .new-post {
+  width: 95%;
+  height: 100px;
+  margin-left: 16px;
+  margin-bottom: 15px; }
+#timeline-info .post-options {
+  background-color: #EEE;
+  border: 1px solid black;
+  padding: 10px 20px 10px 0; }
 
 #home-page-main {
   margin-top: 65px; }
