@@ -80,7 +80,7 @@ body {
   .about-section .about-title {
     border-bottom: 1px solid #999;
     text-align: center; }
-    .about-section .about-title button {
+    .about-section .about-title a {
       float: right;
       background-color: #2b78e4;
       color: #fff;
