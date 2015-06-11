@@ -1,0 +1,46 @@
+#profile-info{
+	padding: 15px;
+
+	.profile-header {
+	border: 1px solid black;
+	font-size: 32px;
+	background-color: #EEE;
+	}
+
+	.profile-body {
+	border: 1px solid black;
+	border-top: 0;
+	}
+
+	.basic-info {
+	text-align: left;
+	line-height: 30px
+	}
+
+	.basic-info-form{
+	padding: 5px;
+	}
+
+	textarea.basic-info-form {
+	width: 100%;
+	}
+
+	textarea.basic-info-form#aboutme-input{
+	height: 175px;
+	}
+
+	.contact-info {
+	text-align: left;
+	line-height: 30px;
+	}
+
+	.update-profile-save {
+	text-align: center;
+	}
+
+	.update-profile-save .btn-lg {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 40%;
+	}
+}

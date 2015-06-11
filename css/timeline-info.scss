@@ -1,0 +1,132 @@
+#timeline-info {
+
+	.timeline-header{
+	text-align: center;
+	font-size: 24px;
+	background-color: #EEE;
+	border: 1px solid black;
+	margin-top: 15px;
+	}
+
+	.basic-info {
+	text-align: left;
+	line-height: 30px;
+	padding-left: 15px;
+	}
+
+	.timeline-content {
+	padding-top: 15px;
+	border: 1px solid black;
+	border-top: 0;
+	text-align: center;
+	}
+
+	.timeline-photos {
+	height: 100px;
+	width: 90px;
+	padding-bottom: 5px;
+	}
+
+	.more-link {
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	line-height: 35px;
+	}
+}
+
+.new-post {
+
+
+	.content{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	}
+
+	textarea{
+	width: 95%;
+	height: 100px;
+	margin: 15px;
+	padding: 5px;
+	}	
+
+	footer {
+	border: 1px solid black;
+	background-color: #EEE;
+	padding: 7px 21px 7px 0;
+	}
+
+	button {
+	width: 15%;
+	}
+}
+
+.post {
+
+	margin-top: 15px;
+
+	header{
+	border: 1px solid black;
+	border-bottom: 0;
+	padding-top: 15px;
+
+		img{
+		height: 50px;
+		width: 45px;
+		}
+
+		a {
+		text-decoration: underline;
+		}
+	}
+
+	.content {
+	padding-top: 10px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	}
+
+	.status {
+	background-color: #EEE;
+	border: 1px solid black;
+	padding: 7px 21px 7px 21px;
+	line-height: 25px;
+	
+		a {
+		text-decoration: underline;
+		}
+	}
+
+	.comments {
+
+		border-top: 1px solid #aaa;
+		line-height: 16px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		img{
+		height: 45px;
+		width: 40px;
+		}
+
+		.subset-status {
+		padding-right: 3px;
+		}
+	}
+
+	.add-comment {
+
+		textarea{
+		width: 95%;
+		height: 100px;
+		margin: 15px;
+		padding: 5px;
+		}
+	}
+}
+
+
+
+
+
+

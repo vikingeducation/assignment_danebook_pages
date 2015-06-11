@@ -1,0 +1,32 @@
+#cover{
+position: relative;
+margin-top: 65px;
+
+	.cover-photo {
+	width: 100%;
+	min-width: 992px;
+	border: 1px solid black;
+	height: 400px;
+	opacity: .5;
+	}
+
+	.profile-photo img {
+	width: 180px;
+	height: 200px;
+	border: 1px solid black;
+	}
+
+	.profile-photo{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	}
+
+	.cover-nav {
+	border: 2px solid #777;
+	}
+
+	.unread-count{
+	color: #888;
+	}
+}
