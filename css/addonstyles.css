@@ -1,0 +1,98 @@
+body {
+  background-color: #E9EAED; }
+
+.navbar-DB {
+  background-color: #2b78e4;
+  border-bottom: 1px solid #999;
+  color: #fff; }
+  .navbar-DB .navbar-brand {
+    padding-top: 10px; }
+    .navbar-DB .navbar-brand img {
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      display: inline-block;
+      vertical-align: none; }
+    .navbar-DB .navbar-brand span {
+      color: #fff;
+      font-size: 30px;
+      vertical-align: middle;
+      margin-left: 10px; }
+  .navbar-DB .navbar-left {
+    padding-left: 50px; }
+  .navbar-DB .navbar-nav > li > a {
+    color: #fff;
+    padding-right: 30px; }
+
+@media (min-width: 768px) {
+  .navbar-DB .navbar-form .form-control {
+    width: 350px; } }
+@media (min-width: 992px) {
+  .navbar-DB .navbar-form .form-control {
+    width: 550px; } }
+.top-section {
+  margin-top: 50px;
+  background-color: #fff; }
+  .top-section .cover-pic-wrapper {
+    border: 1px solid #999;
+    height: 350px;
+    overflow: hidden; }
+    .top-section .cover-pic-wrapper img {
+      width: 100%;
+      height: auto;
+      margin-top: -250px; }
+  .top-section .profile-pic-wrapper {
+    border: 4px solid white;
+    width: 180px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    left: 20px;
+    top: 190px; }
+    .top-section .profile-pic-wrapper img {
+      width: 100%;
+      height: auto; }
+  .top-section .second-nav {
+    border: 1px solid #999;
+    border-top: none; }
+    .top-section .second-nav .second-nav-btn {
+      border-right: 1px solid #999;
+      border-left: 1px solid #999;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      font-weight: bold;
+      color: #000; }
+      .top-section .second-nav .second-nav-btn span {
+        font-size: 11px;
+        color: #999; }
+    .top-section .second-nav .about-btn {
+      background-color: #E9EAED; }
+    .top-section .second-nav .edit-profile {
+      font-size: 13px;
+      padding-top: 15px; }
+
+.about-section {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  border: 1px solid #999;
+  background-color: #fff; }
+  .about-section .about-title {
+    border-bottom: 1px solid #999;
+    text-align: center; }
+    .about-section .about-title button {
+      float: right;
+      background-color: #2b78e4;
+      color: #fff;
+      position: absolute;
+      right: 15px;
+      top: 15px; }
+  .about-section .about-text {
+    padding: 20px 50px 30px; }
+    .about-section .about-text h3 {
+      margin-bottom: 20px; }
+    .about-section .about-text .info-category {
+      font-weight: bold;
+      padding-left: 0; }
+
+/*# sourceMappingURL=addonstyles.css.map */
