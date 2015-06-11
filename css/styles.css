@@ -95,7 +95,8 @@
 #timeline-info .timeline-content {
   padding-top: 15px;
   border: 1px solid black;
-  border-top: 0; }
+  border-top: 0;
+  text-align: center; }
 #timeline-info .timeline-photos {
   height: 100px;
   width: 90px;
@@ -158,6 +159,47 @@
     height: 100px;
     margin: 15px;
     padding: 5px; }
+
+#photo-grid {
+  text-align: center; }
+  #photo-grid .row {
+    border: 1px solid black; }
+  #photo-grid header {
+    font-size: 32px;
+    background-color: #EEE;
+    border: 1px solid black;
+    margin-top: 15px; }
+  #photo-grid img {
+    height: 200px;
+    width: 200px; }
+  #photo-grid ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    #photo-grid ul li {
+      display: inline-block;
+      height: 200px;
+      margin: 0 1em 1em 0;
+      position: relative;
+      width: 200px; }
+    #photo-grid ul li:hover span.image-info {
+      opacity: 1; }
+  #photo-grid .image-info {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 135px;
+    width: 200px;
+    opacity: 0; }
+    #photo-grid .image-info span {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle; }
 
 #home-page-main {
   margin-top: 65px; }
