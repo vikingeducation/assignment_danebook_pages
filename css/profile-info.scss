@@ -2,13 +2,14 @@
 	padding: 15px;
 
 	.profile-header {
-	border: 2px solid black;
+	border: 1px solid black;
 	font-size: 32px;
 	background-color: #EEE;
 	}
 
 	.profile-body {
 	border: 1px solid black;
+	border-top: 0;
 	}
 
 	.basic-info {
