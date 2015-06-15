@@ -1,3 +1,6 @@
+section {
+  text-align: center; }
+
 .danebook-logo {
   width: 30px;
   height: 30px;
@@ -5,12 +8,14 @@
   margin-right: 5px; }
 
 .danebook-navbar {
-  background-color: #2B78E4; }
+  background-color: #2B78E4;
+  border-bottom: 1px solid black; }
 
 .danebook-search {
   margin-top: 12px; }
 
 .danebook-navbar-text {
+  text-align: center;
   margin-top: 10px;
   font-size: 24px;
   color: white; }
@@ -20,5 +25,82 @@
   font-size: 24px;
   color: white;
   height: 100%; }
+
+.cover-photo {
+  width: 100%;
+  border: 1px solid black; }
+
+.profile-info {
+  position: relative;
+  margin-top: 80px; }
+
+.cover-photo-menu {
+  border: 1px solid black;
+  margin-left: 0;
+  margin-right: 0; }
+
+@media (min-width: 1024px) {
+  .cover-photo-menu-tabs {
+    text-align: center;
+    height: 50px; } }
+@media (max-width: 1023px) {
+  .cover-photo-menu-tabs {
+    text-align: center;
+    height: 200px; } }
+.cover-photo-menu-tabs div {
+  border: 1px solid black;
+  height: 50px; }
+
+.cover-photo-menu-tabs h5 {
+  line-height: 30px; }
+
+.profile-picture-large img {
+  width: 140px;
+  height: 140px; }
+
+.profile-picture-large {
+  position: absolute;
+  top: 75%;
+  left: 3%; }
+
+.profile-picture-small img {
+  width: 80px;
+  height: 80px; }
+
+.profile-picture-small {
+  position: absolute;
+  top: 50%;
+  left: 6%; }
+
+.profile-name-large {
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 20%; }
+
+.profile-name-small {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 20%; }
+
+.profile-edit-button {
+  padding-top: 4px;
+  height: 50px;
+  text-align: center;
+  line-height: 40px; }
+
+.selected {
+  background-color: #EEEEEE; }
+
+.about-me {
+  margin: 20px 0px 50px 0px;
+  border: 1px solid black; }
+
+.about-me-topbar {
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid black;
+  background-color: #EEEEEE; }
 
 /*# sourceMappingURL=style.css.map */
