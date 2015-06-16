@@ -85,6 +85,18 @@ main #friends-section {
 main #timeline-section #basic-info #timeline-about div {
   padding: 5px 0px 5px 10px; }
 main #timeline-section #basic-info #timeline-photos .upload-date {
-  display: none; }
+  visibility: hidden;
+  text-align: center; }
+  main #timeline-section #basic-info #timeline-photos .upload-date p {
+    font-size: 11px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+    position: relative;
+    top: -40px; }
+main #timeline-section #basic-info #timeline-photos .photo:hover .upload-date {
+  visibility: visible; }
+main #timeline-section #basic-info #timeline-photos .more-photos {
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

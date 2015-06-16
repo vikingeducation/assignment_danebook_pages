@@ -177,7 +177,23 @@ main {
       }
       #timeline-photos {
         .upload-date {
-          display: none;
+          visibility: hidden;
+          text-align: center;
+          p {
+            font-size: 11px;
+            background-color: #000;
+            color: #fff;
+            opacity: 0.7;
+            position: relative;
+            top: -40px;
+          }
+        }
+        .photo:hover .upload-date {
+          visibility: visible;
+        }
+
+        .more-photos {
+          text-align: center;
         }
       }
     }
