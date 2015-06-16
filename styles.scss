@@ -94,6 +94,11 @@ main {
       text-align: center;
       border: 1px solid #aaa;
     }
+
+    footer {
+      background-color: #eee;
+      border: 1px solid #aaa;
+    }
   }
 
 
@@ -203,13 +208,38 @@ main {
 
       #timeline-friends {
         header {
-          margin-bottom: 10px;
+          // margin-bottom: 10px;
         }
         .friend {
           text-align: center;
+          margin: 10px 0;
           .friend-link {
             font-size: 18px;
           }
+        }
+      }
+    }
+    //Right side of timeline
+
+    #news-feed {
+      #post-box {
+        .comment-area {
+          margin-top: 15px;
+        }
+        footer {
+          text-align: right;
+          padding: 10px;
+        }
+        margin-bottom: 20px;
+      }
+
+      .feed-posts {
+        padding: 15px 15px 0;
+        border: 1px solid #aaa;
+        margin-bottom: 20px;
+
+        .date-posted {
+          color: #777;
         }
       }
     }
