@@ -1,1 +1,286 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome to Danebook</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type"text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top danebook-navbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 navbar-header">
+					<button type="button" id="collapse-button"class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<!-- These spans draw the lines inside the button -->
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="navbar-brand" id="danebook-brand"aria-expanded="true">
+						<a href="timeline.html">
+							<img src="logo.gif" class="img-circle danebook-logo"></img>
+						</a>Danebook
+					</div>
+				</div>
+				<div id="navbar"  class="navbar-collapse collapse">
+					<div class="col-md-6">
+						<input type="text" class="form-control danebook-search" placeholder="Search for Users">
+					</div>
+
+					<div class="col-md-1 col-md-offset-1 danebook-navbar-text">
+						<p>Harry</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container">
+			<!-- This row will hold the profile information. -->
+			<div class="row">
+				<div class="col-md-12 profile-info">
+					<!-- This row will hold the cover photo -->
+					<div class="row">
+						<div class="col-md-12">
+							<img src="default_cover.jpg" class="cover-photo"></img>
+						</div>
+
+						<!-- We have a resized profile photo and name that plays nice with smaller screens, but extra small in certain configurations is very difficult so I have opted to just turn off the cover photo and name when the screen is extra small. -->
+						<div class="profile-picture-large hidden-xs hidden-sm">
+							<img src="harry.jpg"></img>
+						</div>
+						<div class="profile-picture-small hidden-xs hidden-md hidden-lg">
+							<img src="harry.jpg"></img>
+						</div>
+						<div class="profile-name-large hidden-xs hidden-sm">
+							<h2> Harry Potter </h2>
+						</div>
+						<div class="profile-name-small hidden-xs hidden-md hidden-lg">
+							<h2> Harry Potter </h2>
+						</div>
+					</div>
+					<!-- This row will hold the bar under the cover photo -->
+					<div class="row cover-photo-menu">
+						<!-- The tabs won't nicely fit into 2 or 3 lenghth columns -->
+						<div class="col-md-7 col-md-offset-2">
+							<div class="row cover-photo-menu-tabs">
+								<a href="timeline.html">
+									<div class="col-md-3 selected">
+										<h5>Timeline</h5>
+									</div>
+								</a>
+								<a href="about.html">
+									<div class="col-md-3 ">
+										<h5>About</h5>
+									</div>
+								</a>
+								<a href="photos.html">
+									<div class="col-md-3">
+										<h5>Photos (123)</h5>
+									</div>
+								</a>
+								<a href="friends.html">
+								    <div class="col-md-3">
+								    	<h5>Friends (546)</h5>
+								    </div>
+								</a>
+							</div>
+						</div>
+
+						<div class="col-md-2 col-md-offset-1 profile-edit-button">
+							<a href="about_edit.html"><button class="btn btn-primary ">Edit your Profile</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row timeline">
+				<div class="col-md-12">
+					<!-- This column will represent the left side of the timeline. -->
+					<div class="col-md-5">
+
+					</div>
+
+					<!-- This column will represent the right side of the timeline. -->
+					<div class="col-md-7">
+						<!-- This row will represent the post window. -->
+						<div class="row">
+							<div class="col-xs-12 post-control">
+								<div class="row post-topbar selected">
+									<div class="col-xs-12">
+										<section>Post (copied)</section>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<textarea class="form-control" placeholder="Tell the world something..."></textarea>
+									</div>
+								</div>
+								<div class="row post-bottombar selected">
+									<div class="col-xs-12">
+										<div class="row">
+											<div class="col-xs-2 col-xs-offset-10">
+												<button class="btn btn-primary">Post</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- This row will represent a post -->
+						<div class="row timeline-post">
+							<div class="col-xs-12">
+								<!-- Top section of a post -->
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="row">
+											<div class="col-sm-1">
+												<img src="default_photo.png"></img>
+											</div>
+											<div class="col-sm-5">
+												<div>
+												<h4><a href="about.html">Harry Potter</a></h4>
+												<h6>Posted on Thursday 6/1/2014</h6>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde totam tempora, molestiae iure quam officiis blanditiis laudantium eius cum minima, laborum, necessitatibus quia eaque harum amet corporis quod, dolorem rem.
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Bottom section of a post -->
+								<div class="row timeline-post-bottombar">
+									<div class="col-xs-12 selected">
+										<div class="row">
+											<div class="col-xs-1">
+												<a href="#">Like</a>
+											</div>
+											<div class="col-xs-1">
+												<a href="#">Comment</a>
+											</div>
+											<div class="col-xs-1 col-xs-offset-8">
+												<a href="#">Delete</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- This row will represent a post -->
+						<div class="row timeline-post">
+							<div class="col-xs-12">
+								<!-- Top section of a post -->
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="row">
+											<div class="col-sm-1">
+												<img src="default_photo.png"></img>
+											</div>
+											<div class="col-sm-5">
+												<div>
+												<h4><a href="about.html">Harry Potter</a></h4>
+												<h6>Posted on Thursday 6/1/2014</h6>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde totam tempora, molestiae iure quam officiis blanditiis laudantium eius cum minima, laborum, necessitatibus quia eaque harum amet corporis quod, dolorem rem.
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Bottom section of a post -->
+								<div class="row timeline-post-bottombar">
+									<div class="col-xs-12 selected">
+										<div class="row">
+											<div class="col-xs-1">
+												<a href="#">Like</a>
+											</div>
+											<div class="col-xs-1">
+												<a href="#">Comment</a>
+											</div>
+											<div class="col-xs-1 col-xs-offset-8">
+												<a href="#">Delete</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12">
+												Hermione Granger likes this.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+<!-- This row will represent a post -->
+						<div class="row timeline-post">
+							<div class="col-xs-12">
+								<!-- Top section of a post -->
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="row">
+											<div class="col-sm-1">
+												<img src="default_photo.png"></img>
+											</div>
+											<div class="col-sm-5">
+												<div>
+												<h4><a href="about.html">Harry Potter</a></h4>
+												<h6>Posted on Thursday 6/1/2014</h6>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde totam tempora, molestiae iure quam officiis blanditiis laudantium eius cum minima, laborum, necessitatibus quia eaque harum amet corporis quod, dolorem rem.
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- Bottom section of a post -->
+								<div class="row timeline-post-bottombar">
+									<div class="col-xs-12 selected">
+										<div class="row">
+											<div class="col-xs-1">
+												<a href="#">Like</a>
+											</div>
+											<div class="col-xs-1">
+												<a href="#">Comment</a>
+											</div>
+											<div class="col-xs-1 col-xs-offset-8">
+												<a href="#">Delete</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-xs-12">
+												You and Hermione Granger and 3 others like this.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- These scripts give functionality to the navbar button when collapsed. -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

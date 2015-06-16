@@ -7,6 +7,7 @@ section{
 	height:30px;
 	margin-top: -3px;
 	margin-right: 5px;
+	border: 1px solid black;
 }
 
 .danebook-navbar{
@@ -148,4 +149,52 @@ section{
 	margin-bottom: 50px;
 	height:50px;
 	width:100%;
+}
+
+/* Timeline css */
+.timeline {
+	margin-top:20px;
+}
+
+.post-control {
+	border: 1px solid black;
+}
+
+.post-topbar {
+	height:30px;
+	line-height:30px;
+	border-bottom: 1px solid black;
+	margin-bottom:5px;
+}
+
+.post-bottombar {
+	border-top:1px solid black;
+	height:45px;
+	margin-top:5px;
+}
+
+.post-bottombar button{
+	margin-top: 5px;
+	height:35px;
+	width:100%;
+	line-height:10px;
+}
+
+.timeline-post {
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.timeline-post img{
+	width:42px;
+	height: 42px;
+}
+
+.timeline-post-bottombar {
+	height:15px;
+	border-top:1px solid black;
+}
+
+.timeline-post-content img, .timeline-post-content div{
+	float: left;
 }
