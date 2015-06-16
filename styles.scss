@@ -1,15 +1,24 @@
 #navbar-color{
     background-color: #3A5795;
+    border: 1px solid #1B316B;
   }
 
 nav {
 
   #brand-color {
     color: #fff;
+    font-size: 26px;
   }
 
-  #elements-color {
-    color: #fff
+  #navbar {
+    p {
+      padding-right: 10px;
+      color: #fff;
+      a {
+        color: #fff;
+      }
+    }
+
   }
 
   .icon-bar {
@@ -19,4 +28,116 @@ nav {
   // .navbar-toggle:hover {
   //   background-color: #1a3775;
   // }
+}
+
+main {
+  header {
+
+    .photo-container {
+      #cover-photo {
+        width: 100%;
+        height: 400px;
+        opacity: 0.7;
+      }
+    }
+
+    #pages-nav {
+    border: 1px solid #aaa;
+
+      .profile-pic-container {
+        border: 1px solid #777;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: -165px;
+        left: 35px;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .profile-name {
+        position: relative;
+        top: -80px;
+        left: 240px;
+        color: #fff;
+        display: inline;
+      }
+
+      .navigation-container {
+        ul li {
+          span {
+            color: #aaa;
+          }
+        }
+
+      }
+    }
+  }
+
+  section {
+    margin-top: 10px;
+    border: 1px solid #aaa;
+
+    header {
+      background-color: #eee;
+      text-align: center;
+      border: 1px solid #aaa;
+    }
+  }
+
+
+  #about-section {
+
+    header {
+      form div button {
+        background-color: #3A5795;
+        color: #fff;
+        border: 1px solid #1B316B;
+        box-shadow: 3px 3px 3px #333;
+        position: absolute;
+        right: 23px;
+        top: 12px;
+      }
+    }
+
+    .about-info {
+      div div {
+        padding: 5px 0 5px 10px;
+      }
+    }
+  }
+
+
+  #about-edit {
+    .about-info {
+      div div {
+        padding: 5px 0 5px 10px;
+      }
+    }
+
+    #save-changes {
+      text-align: center;
+      padding: 20px 0 30px;
+      button {
+        padding: 15px 0;
+        width: 75%;
+        font-size: 20px;
+      }
+    }
+  }
+
+  #friends-section {
+    .friend-wrapper {
+      margin: 20px 10px;
+      border: 1px solid #eee;
+
+      .friend-img {
+        margin: 10px;
+      }
+    }
+  }
+
 }
