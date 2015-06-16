@@ -175,6 +175,7 @@ main {
           padding: 5px 0px 5px 10px;
         }
       }
+
       #timeline-photos {
         .upload-date {
           visibility: hidden;
@@ -186,6 +187,7 @@ main {
             opacity: 0.7;
             position: relative;
             top: -40px;
+            left: 4px;
           }
         }
         .photo:hover .upload-date {
@@ -194,6 +196,20 @@ main {
 
         .more-photos {
           text-align: center;
+          font-size: 18px;
+          margin-bottom: 15px;
+        }
+      }
+
+      #timeline-friends {
+        header {
+          margin-bottom: 10px;
+        }
+        .friend {
+          text-align: center;
+          .friend-link {
+            font-size: 18px;
+          }
         }
       }
     }
