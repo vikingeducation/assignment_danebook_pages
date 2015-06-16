@@ -132,5 +132,28 @@ main #timeline-section #news-feed .feed-posts {
       margin-bottom: 20px; }
     main #timeline-section #news-feed .feed-posts footer span {
       color: #aaa; }
+main #photos-section {
+  border: 1px solid #aaa; }
+  main #photos-section header form div button {
+    background-color: #3A5795;
+    color: #fff;
+    border: 1px solid #1B316B;
+    box-shadow: 3px 3px 3px #333;
+    position: absolute;
+    right: 23px;
+    top: 12px; }
+  main #photos-section .upload-date {
+    visibility: hidden;
+    text-align: center; }
+    main #photos-section .upload-date p {
+      font-size: 16px;
+      background-color: #000;
+      color: #fff;
+      opacity: 0.7;
+      position: relative;
+      top: -50px;
+      width: 200px; }
+  main #photos-section .photo:hover .upload-date {
+    visibility: visible; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -260,4 +260,36 @@ main {
     }
   }
 
+  #photos-section {
+    border: 1px solid #aaa;
+    header {
+      form div button {
+        background-color: #3A5795;
+        color: #fff;
+        border: 1px solid #1B316B;
+        box-shadow: 3px 3px 3px #333;
+        position: absolute;
+        right: 23px;
+        top: 12px;
+      }
+    }
+
+    .upload-date {
+      visibility: hidden;
+      text-align: center;
+      p {
+        font-size: 16px;
+        background-color: #000;
+        color: #fff;
+        opacity: 0.7;
+        position: relative;
+        top: -50px;
+        width: 200px;
+        }
+      }
+    .photo:hover .upload-date {
+      visibility: visible;
+    }
+  }
+
 }
