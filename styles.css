@@ -68,5 +68,14 @@ main #friends-section .friend-wrapper {
   border: 1px solid #eee; }
   main #friends-section .friend-wrapper .friend-img {
     margin: 10px; }
+  main #friends-section .friend-wrapper .friend-name {
+    padding: 25px 5px 0px; }
+    main #friends-section .friend-wrapper .friend-name h6 {
+      color: #aaa; }
+  main #friends-section .friend-wrapper .friend-options {
+    padding: 40px 0; }
+    main #friends-section .friend-wrapper .friend-options button {
+      color: #555;
+      box-shadow: 2px 2px 2px #333; }
 
 /*# sourceMappingURL=styles.css.map */
