@@ -1,0 +1,159 @@
+#navbar-color {
+  background-color: #3A5795;
+  border: 1px solid #1B316B; }
+
+nav #brand-color {
+  color: #fff;
+  font-size: 26px; }
+nav #navbar p {
+  padding-right: 10px;
+  color: #fff; }
+  nav #navbar p a {
+    color: #fff; }
+nav .icon-bar {
+  border: 1px solid #fff; }
+
+main header .photo-container #cover-photo {
+  width: 100%;
+  height: 400px;
+  opacity: 0.7; }
+main header #pages-nav {
+  border: 1px solid #aaa; }
+  main header #pages-nav .profile-pic-container {
+    border: 1px solid #777;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -165px;
+    left: 35px; }
+    main header #pages-nav .profile-pic-container img {
+      height: 100%;
+      width: 100%; }
+  main header #pages-nav .profile-name {
+    position: relative;
+    top: -80px;
+    left: 240px;
+    color: #fff;
+    display: inline; }
+  main header #pages-nav .navigation-container ul li span {
+    color: #aaa; }
+main section {
+  margin-top: 10px; }
+  main section header {
+    background-color: #eee;
+    text-align: center;
+    border: 1px solid #aaa; }
+  main section footer {
+    background-color: #eee;
+    border: 1px solid #aaa; }
+main #about-section {
+  border: 1px solid #aaa; }
+  main #about-section header form div button {
+    background-color: #3A5795;
+    color: #fff;
+    border: 1px solid #1B316B;
+    box-shadow: 3px 3px 3px #333;
+    position: absolute;
+    right: 23px;
+    top: 12px; }
+  main #about-section .about-info div div {
+    padding: 5px 0 5px 10px; }
+main #about-edit {
+  border: 1px solid #aaa; }
+  main #about-edit .about-info div div {
+    padding: 5px 0 5px 10px; }
+  main #about-edit #save-changes {
+    text-align: center;
+    padding: 20px 0 30px; }
+    main #about-edit #save-changes button {
+      padding: 15px 0;
+      width: 75%;
+      font-size: 20px; }
+main #friends-section {
+  border: 1px solid #aaa; }
+  main #friends-section .friend-wrapper {
+    margin: 20px 10px;
+    border: 1px solid #eee; }
+    main #friends-section .friend-wrapper .friend-img {
+      margin: 10px; }
+    main #friends-section .friend-wrapper .friend-name {
+      padding: 25px 5px 0px; }
+      main #friends-section .friend-wrapper .friend-name h6 {
+        color: #aaa; }
+    main #friends-section .friend-wrapper .friend-options {
+      padding: 40px 0; }
+      main #friends-section .friend-wrapper .friend-options button {
+        color: #555;
+        box-shadow: 2px 2px 2px #333; }
+main #timeline-section #basic-info #timeline-about div {
+  padding: 5px 0px 5px 10px; }
+main #timeline-section #basic-info #timeline-photos .upload-date {
+  visibility: hidden;
+  text-align: center; }
+  main #timeline-section #basic-info #timeline-photos .upload-date p {
+    font-size: 11px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+    position: relative;
+    top: -40px;
+    left: 4px; }
+main #timeline-section #basic-info #timeline-photos .photo:hover .upload-date {
+  visibility: visible; }
+main #timeline-section #basic-info #timeline-photos .more-photos {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px; }
+main #timeline-section #basic-info #timeline-friends .friend {
+  text-align: center;
+  margin: 10px 0; }
+  main #timeline-section #basic-info #timeline-friends .friend .friend-link {
+    font-size: 18px; }
+main #timeline-section #news-feed #post-box {
+  margin-bottom: 20px; }
+  main #timeline-section #news-feed #post-box .comment-area {
+    margin-top: 15px; }
+  main #timeline-section #news-feed #post-box footer {
+    text-align: right;
+    padding: 10px; }
+main #timeline-section #news-feed .feed-posts {
+  padding: 15px 15px 0;
+  border: 1px solid #aaa;
+  margin-bottom: 20px; }
+  main #timeline-section #news-feed .feed-posts .date-posted {
+    color: #777; }
+  main #timeline-section #news-feed .feed-posts footer {
+    padding: 10px; }
+    main #timeline-section #news-feed .feed-posts footer p {
+      padding: 15px 15px 10px;
+      margin-bottom: 0px; }
+    main #timeline-section #news-feed .feed-posts footer .divider-line {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: 20px; }
+    main #timeline-section #news-feed .feed-posts footer span {
+      color: #aaa; }
+main #photos-section {
+  border: 1px solid #aaa; }
+  main #photos-section header form div button {
+    background-color: #3A5795;
+    color: #fff;
+    border: 1px solid #1B316B;
+    box-shadow: 3px 3px 3px #333;
+    position: absolute;
+    right: 23px;
+    top: 12px; }
+  main #photos-section .upload-date {
+    visibility: hidden;
+    text-align: center; }
+    main #photos-section .upload-date p {
+      font-size: 16px;
+      background-color: #000;
+      color: #fff;
+      opacity: 0.7;
+      position: relative;
+      top: -50px;
+      width: 200px; }
+  main #photos-section .photo:hover .upload-date {
+    visibility: visible; }
+
+/*# sourceMappingURL=styles.css.map */
