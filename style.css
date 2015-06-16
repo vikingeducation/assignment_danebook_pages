@@ -180,7 +180,7 @@
 .center {
   text-align: center; }
 
-/* iHover overrides */
+/* iHover override and photo page image sizing */
 .ih-item.square {
   width: 100%;
   height: 100%; }
@@ -188,5 +188,14 @@
 .photo-page-photo img {
   width: 100%;
   height: 100%; }
+
+/* Friends.html */
+.friends-list img {
+  margin-top: 15px;
+  width: 60px;
+  height: 60px; }
+
+.friends-list button {
+  margin-top: 25px; }
 
 /*# sourceMappingURL=style.css.map */
