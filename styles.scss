@@ -87,7 +87,7 @@ main {
 
   section {
     margin-top: 10px;
-    border: 1px solid #aaa;
+
 
     header {
       background-color: #eee;
@@ -98,6 +98,7 @@ main {
 
 
   #about-section {
+    border: 1px solid #aaa;
 
     header {
       form div button {
@@ -120,6 +121,8 @@ main {
 
 
   #about-edit {
+    border: 1px solid #aaa;
+
     .about-info {
       div div {
         padding: 5px 0 5px 10px;
@@ -138,6 +141,7 @@ main {
   }
 
   #friends-section {
+    border: 1px solid #aaa;
 
     .friend-wrapper {
       margin: 20px 10px;
@@ -159,6 +163,21 @@ main {
         button {
           color: #555;
           box-shadow: 2px 2px 2px #333;
+        }
+      }
+    }
+  }
+
+  #timeline-section {
+    #basic-info {
+      #timeline-about {
+        div {
+          padding: 5px 0px 5px 10px;
+        }
+      }
+      #timeline-photos {
+        .upload-date {
+          display: none;
         }
       }
     }

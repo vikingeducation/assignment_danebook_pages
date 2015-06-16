@@ -38,44 +38,53 @@ main header #pages-nav {
   main header #pages-nav .navigation-container ul li span {
     color: #aaa; }
 main section {
-  margin-top: 10px;
-  border: 1px solid #aaa; }
+  margin-top: 10px; }
   main section header {
     background-color: #eee;
     text-align: center;
     border: 1px solid #aaa; }
-main #about-section header form div button {
-  background-color: #3A5795;
-  color: #fff;
-  border: 1px solid #1B316B;
-  box-shadow: 3px 3px 3px #333;
-  position: absolute;
-  right: 23px;
-  top: 12px; }
-main #about-section .about-info div div {
-  padding: 5px 0 5px 10px; }
-main #about-edit .about-info div div {
-  padding: 5px 0 5px 10px; }
-main #about-edit #save-changes {
-  text-align: center;
-  padding: 20px 0 30px; }
-  main #about-edit #save-changes button {
-    padding: 15px 0;
-    width: 75%;
-    font-size: 20px; }
-main #friends-section .friend-wrapper {
-  margin: 20px 10px;
-  border: 1px solid #eee; }
-  main #friends-section .friend-wrapper .friend-img {
-    margin: 10px; }
-  main #friends-section .friend-wrapper .friend-name {
-    padding: 25px 5px 0px; }
-    main #friends-section .friend-wrapper .friend-name h6 {
-      color: #aaa; }
-  main #friends-section .friend-wrapper .friend-options {
-    padding: 40px 0; }
-    main #friends-section .friend-wrapper .friend-options button {
-      color: #555;
-      box-shadow: 2px 2px 2px #333; }
+main #about-section {
+  border: 1px solid #aaa; }
+  main #about-section header form div button {
+    background-color: #3A5795;
+    color: #fff;
+    border: 1px solid #1B316B;
+    box-shadow: 3px 3px 3px #333;
+    position: absolute;
+    right: 23px;
+    top: 12px; }
+  main #about-section .about-info div div {
+    padding: 5px 0 5px 10px; }
+main #about-edit {
+  border: 1px solid #aaa; }
+  main #about-edit .about-info div div {
+    padding: 5px 0 5px 10px; }
+  main #about-edit #save-changes {
+    text-align: center;
+    padding: 20px 0 30px; }
+    main #about-edit #save-changes button {
+      padding: 15px 0;
+      width: 75%;
+      font-size: 20px; }
+main #friends-section {
+  border: 1px solid #aaa; }
+  main #friends-section .friend-wrapper {
+    margin: 20px 10px;
+    border: 1px solid #eee; }
+    main #friends-section .friend-wrapper .friend-img {
+      margin: 10px; }
+    main #friends-section .friend-wrapper .friend-name {
+      padding: 25px 5px 0px; }
+      main #friends-section .friend-wrapper .friend-name h6 {
+        color: #aaa; }
+    main #friends-section .friend-wrapper .friend-options {
+      padding: 40px 0; }
+      main #friends-section .friend-wrapper .friend-options button {
+        color: #555;
+        box-shadow: 2px 2px 2px #333; }
+main #timeline-section #basic-info #timeline-about div {
+  padding: 5px 0px 5px 10px; }
+main #timeline-section #basic-info #timeline-photos .upload-date {
+  display: none; }
 
 /*# sourceMappingURL=styles.css.map */
