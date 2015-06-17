@@ -1,1 +1,219 @@
-<!-- Your markup here! -->
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danebook About Page</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="css/addonstyles.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Bootstrap Javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-DB">
+      <div class="container">
+        <!-- Brand and toggle for mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/danish_flag.gif" alt="Danish Flag Danebook">
+            <span>Danebook</span>
+          </a>
+        </div>
+
+        <!-- Content collapsed in mobile display -->
+        <div class="collapse navbar-collapse">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search Users">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Harry <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-->
+    </nav>
+
+    <main class="container">
+
+      <section class="row top-section">
+        <div class="col-md-12">
+
+          <!-- Cover Picture -->
+          <div class="row cover-pic-wrapper">
+            <img src="images/hogwarts_small.jpg">
+          </div>
+
+          <!-- Profile Pic -->
+          <div class="profile-pic-wrapper">
+            <img src="images/harry_potter_small.jpg">
+          </div>
+
+          <!-- Nav bar for About Page -->
+          <div class="row second-nav">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <a href="timeline.html" class="col-md-2 second-nav-btn">Timeline</a>
+                <a href="about.html" class="col-md-2 second-nav-btn">About</a>
+                <a href="photos.html" class="col-md-2 second-nav-btn">Photos <span>(123)</span></a>
+                <a href="friends.html" class="col-md-2 second-nav-btn selected-btn">Friends <span>(542)</span></a>
+                <div class="col-md-4"></div>
+              </div>
+            </div>
+            <a href="about_edit.html" class="col-md-1 edit-profile">Edit Profile</a>
+          </div>
+
+        </div>
+      </section>
+      
+      <!-- Bottom Section - Friends -->
+      <section class="row content-section">
+        <div class="col-md-12">
+          <div class="row content-title">
+              <h2>Friends</h2>
+          </div>
+
+          <div class="row friend-section">
+
+            <!-- Left Section -->
+            <div class="col-md-5 left-column">
+
+              <div class="row">
+                <div class="col-xs-12 friend-sq">
+                  <div class="row">
+                    <div class="col-xs-3 friend-pic">
+                      <img src="images/user_generic.png">
+                    </div>
+                    <div class="col-xs-5 friend-name">
+                      <a href="">Hermione Granger</a>
+                      <p>432 Friends</p>
+                    </div>
+                    <div class="col-xs-3 unfriend-btn">
+                      <button type="button" class="btn btn-default">Unfriend Me</button>
+                    </div>
+                  </div> 
+                </div> <!-- End of friend square -->
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 friend-sq">
+                  <div class="row">
+                    <div class="col-xs-3 friend-pic">
+                      <img src="images/user_generic.png">
+                    </div>
+                    <div class="col-xs-5 friend-name">
+                      <a href="">Hermione Granger</a>
+                      <p>432 Friends</p>
+                    </div>
+                    <div class="col-xs-3 unfriend-btn">
+                      <button type="button" class="btn btn-default">Unfriend Me</button>
+                    </div>
+                  </div> 
+                </div> <!-- End of friend square -->
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 friend-sq">
+                  <div class="row">
+                    <div class="col-xs-3 friend-pic">
+                      <img src="images/user_generic.png">
+                    </div>
+                    <div class="col-xs-5 friend-name">
+                      <a href="">Hermione Granger</a>
+                      <p>432 Friends</p>
+                    </div>
+                    <div class="col-xs-3 unfriend-btn">
+                      <button type="button" class="btn btn-default">Unfriend Me</button>
+                    </div>
+                  </div> 
+                </div> <!-- End of friend square -->
+              </div>
+                
+
+            </div> <!-- End of Left Section -->
+
+            <!-- Right Section -->
+            <div class="col-md-5 col-md-offset-1">
+
+              <div class="row">
+                <div class="col-xs-12 friend-sq">
+                  <div class="row">
+                    <div class="col-xs-3 friend-pic">
+                      <img src="images/user_generic.png">
+                    </div>
+                    <div class="col-xs-5 friend-name">
+                      <a href="">Hermione Granger</a>
+                      <p>432 Friends</p>
+                    </div>
+                    <div class="col-xs-3 unfriend-btn">
+                      <button type="button" class="btn btn-default">Unfriend Me</button>
+                    </div>
+                  </div> 
+                </div> <!-- End of friend square -->
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 friend-sq">
+                  <div class="row">
+                    <div class="col-xs-3 friend-pic">
+                      <img src="images/user_generic.png">
+                    </div>
+                    <div class="col-xs-5 friend-name">
+                      <a href="">Hermione Granger</a>
+                      <p>432 Friends</p>
+                    </div>
+                    <div class="col-xs-3 unfriend-btn">
+                      <button type="button" class="btn btn-default">Unfriend Me</button>
+                    </div>
+                  </div> 
+                </div> <!-- End of friend square -->
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12 friend-sq">
+                  <div class="row">
+                    <div class="col-xs-3 friend-pic">
+                      <img src="images/user_generic.png">
+                    </div>
+                    <div class="col-xs-5 friend-name">
+                      <a href="">Hermione Granger</a>
+                      <p>432 Friends</p>
+                    </div>
+                    <div class="col-xs-3 unfriend-btn">
+                      <button type="button" class="btn btn-default">Unfriend Me</button>
+                    </div>
+                  </div> 
+                </div> <!-- End of friend square -->
+              </div>
+
+            </div> <!-- End of Right Section -->
+          </div>
+
+        </div>
+      </section>
+      
+    </main>
+  </body>
+</html>

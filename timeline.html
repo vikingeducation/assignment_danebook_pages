@@ -1,1 +1,455 @@
-<!-- Your markup here! -->
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danebook About Page</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="css/addonstyles.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Bootstrap Javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-DB">
+      <div class="container">
+        <!-- Brand and toggle for mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/danish_flag.gif" alt="Danish Flag Danebook">
+            <span>Danebook</span>
+          </a>
+        </div>
+
+        <!-- Content collapsed in mobile display -->
+        <div class="collapse navbar-collapse">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search Users">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Harry <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-->
+    </nav>
+
+    <main class="container">
+
+      <section class="row top-section">
+        <div class="col-md-12">
+
+          <!-- Cover Picture -->
+          <div class="row cover-pic-wrapper">
+            <img src="images/hogwarts_small.jpg">
+          </div>
+
+          <!-- Profile Pic -->
+          <div class="profile-pic-wrapper">
+            <img src="images/harry_potter_small.jpg">
+          </div>
+
+          <!-- Second Nav bar below cover picture -->
+          <div class="row second-nav">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <a href="timeline.html" class="col-md-2 second-nav-btn selected-btn">Timeline</a>
+                <a href="about.html" class="col-md-2 second-nav-btn ">About</a>
+                <a href="photos.html" class="col-md-2 second-nav-btn">Photos <span>(123)</span></a>
+                <a href="friends.html" class="col-md-2 second-nav-btn">Friends <span>(542)</span></a>
+                <div class="col-md-4"></div>
+              </div>
+            </div>
+            <a href="about_edit.html" class="col-md-1 edit-profile">Edit Profile</a>
+          </div>
+
+        </div>
+      </section>
+      
+      <!-- Bottom Section - Timeline -->
+      <section class="row content-section" id="content-timeline">
+        <div class="col-md-12">
+          <div class="row">
+
+            <!-- Left Section -->
+            <div class="col-md-5 left-section">
+              <div class="inner-paddings">
+
+                <!-- About Subsection -->
+                <div class="row">
+                  <div class="col-xs-12 tm-subsection about-subsection">
+                    <div class="row subsection-title">
+                      <h4>About</h4>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 about-text">
+                        <p><strong>Born on:</strong> July 31st, 1980</p>
+                        <p><strong>Went to school at:</strong> Hogwarts</p>
+                        <p><strong>Hometown:</strong> Godrick's Hollow</p>
+                        <p><strong>Currently lives in:</strong> Godrick's Hollow</p>
+                      </div>
+                    </div>
+                  </div> 
+                </div> <!-- End of Subsection -->
+
+                <!-- Photos Subsection -->
+                <div class="row">
+                  <div class="col-xs-12 tm-subsection">
+                    <div class="row subsection-title grid-title">
+                      <h4>Photos <span>(123)</span></h4>
+                    </div>
+
+                    <!-- Photo Grid -->
+                    <div class="row">
+                      <div class="col-xs-12 photo-grid">
+                        <div class="row">
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/icon_photo.png">
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- End of photo grid -->
+
+                    <div class="row">
+                      <div class="col-xs-12 more">
+                        <a href="photos.html">See More Photos</a>
+                      </div>
+                    </div>
+                  </div> 
+                </div> <!-- End of Photos subsection -->
+
+                <!-- Friends Subsection -->
+                <div class="row">
+                  <div class="col-xs-12 tm-subsection">
+                    <div class="row subsection-title grid-title">
+                      <h4>Friends <span>(542)</span></h4>
+                    </div>
+
+                    <!-- Friend Grid -->
+                    <div class="row">
+                      <div class="col-xs-12 photo-grid">
+                        <div class="row">
+                          <div class="col-xs-4">
+                            <img src="images/user_generic.png">
+                            <a href="">Ron Weasley</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/user_generic.png">
+                            <a href="">Ginny Weasley</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/user_generic.png">
+                            <a href="">Hermione Granger</a>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xs-4">
+                            <img src="images/user_generic.png">
+                            <a href="">Ron Weasley</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/user_generic.png">
+                            <a href="">Ron Weasley</a>
+                          </div>
+                          <div class="col-xs-4">
+                            <img src="images/user_generic.png">
+                            <a href="">Ron Weasley</a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div> <!-- End of friend grid -->
+
+                    <div class="row">
+                      <div class="col-xs-12 more">
+                        <a href="photos.html">See More Friends</a>
+                      </div>
+                    </div>
+                  </div> 
+                </div> <!-- End of Friends subsection -->
+
+
+              </div>
+            </div> <!-- End of Left Section -->
+
+            <!-- Right Section -->
+            <div class="col-md-7 right-section">
+              <div class="inner-paddings">
+
+                <!-- Create a Post Subsection -->
+                <div class="row">
+                  <div class="col-xs-12 tm-subsection">
+                    <div class="row subsection-title">
+                      <h4>Post</h4>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 write-post">
+                        <textarea class="form-control" rows="3">Tell the world something...</textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 post-submit">
+                        <button type="button" class="btn btn-primary">Post</button>
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div> <!-- End of Subsection -->
+
+                <!-- Post 1 Subsection -->
+                <div class="row">
+                  <div class="col-xs-12 tm-subsection">
+                    <div class="row post-author">
+                        <img class="author-img" src="images/user_generic.png">
+                        <div class="author-name">
+                          <a>Harry Potter</a>
+                          <p>Posted on Thursday 6/1/2014</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 post-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                      </div>
+                    </div>
+                    <div class="row post-actions">
+                      <div class="col-xs-1 post-like">
+                        <a href="">Like</a>
+                      </div>
+                      <div class="col-xs-1 post-comment">
+                        <a href=""> Comment</a>
+                      </div>
+                      <div class="col-xs-1 post-delete">
+                        <a href="">Delete</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End of Subsection -->
+
+                <!-- Post 2 Subsection -->
+                <div class="row">
+                  <div class="col-xs-12 tm-subsection">
+                    <div class="row post-author">
+                        <img class="author-img" src="images/user_generic.png">
+                        <div class="author-name">
+                          <a>Harry Potter</a>
+                          <p>Posted on Thursday 5/21/2014</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 post-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                      </div>
+                    </div>
+                    <div class="row post-actions">
+                      <div class="col-xs-1 post-like">
+                        <a href="">Like</a>
+                      </div>
+                      <div class="col-xs-1 post-comment">
+                        <a href=""> Comment</a>
+                      </div>
+                      <div class="col-xs-1 post-delete">
+                        <a href="">Delete</a>
+                      </div>
+                    </div>
+                    <div class="row total-likes">
+                      <div class="col-xs-12">
+                        <a href="">Hermione Granger</a> likes this.
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- End of Subsection -->
+
+                <!-- Post 3 Subsection -->
+                <div class="row">
+                  <div class="col-xs-12 tm-subsection">
+                    <div class="row post-author">
+                        <img class="author-img" src="images/user_generic.png">
+                        <div class="author-name">
+                          <a>Harry Potter</a>
+                          <p>Posted on Thursday 5/12/2014</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 post-content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                      </div>
+                    </div>
+                    <div class="row post-actions">
+                      <div class="col-xs-1 post-like">
+                        <a href="">Unlike</a>
+                      </div>
+                      <div class="col-xs-1 post-comment">
+                        <a href=""></a>
+                      </div>
+                      <div class="col-xs-1 post-delete">
+                        <a href="">Delete</a>
+                      </div>
+                    </div>
+                    <div class="row total-likes">
+                      <div class="col-xs-12">
+                        You, <a href="">Hermione Granger</a> and 3 others like this.
+                      </div>
+                    </div>
+
+                    <!-- Comments section in post -->
+                    <div class="row comments-section">
+                      <div class="col-xs-12">
+
+                        <!-- First comment -->
+                        <div class="row comment">
+                          <div class="col-xs-2">
+                            <img src="images/user_generic.png">
+                          </div>
+                          <div class="col-xs-10">
+                            <div class="row comment-author">
+                              <a href="">Ron Weasley</a> said on Thursday 5/11/2014
+                            </div>
+                            <div class="row">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            </div>
+                            <div class="row">
+                              <div class="col-xs-1 comment-like">
+                                <a href="">Like </a>
+                              </div>
+                              <div class="col-xs-4 comment-total-likes">
+                                3 other people like this
+                              </div>
+                              <div class="col-xs-1 comment-delete">
+                                <a href=""></a>
+                              </div> 
+                            </div>
+                          </div>
+                        </div> <!-- End of first comment -->
+
+                        <!-- Second comment -->
+                        <div class="row comment">
+                          <div class="col-xs-2">
+                            <img src="images/user_generic.png">
+                          </div>
+                          <div class="col-xs-10">
+                            <div class="row comment-author">
+                              <a href="">Harry Potter</a> said on Friday 5/12/2014
+                            </div>
+                            <div class="row">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            </div>
+                            <div class="row">
+                              <div class="col-xs-1 comment-like">
+                                <a href="">Like </a>
+                              </div>
+                              <div class="col-xs-4 comment-total-likes">
+                                3 other people like this
+                              </div>
+                              <div class="col-xs-1 comment-delete">
+                                <a href="">Delete</a>
+                              </div> 
+                            </div>
+                          </div>
+                        </div> <!-- End of second comment -->
+
+                        <!-- Write a comment -->
+                        <div class="row write-comment">
+                          <div class="col-xs-12">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <textarea class="form-control" rows="2">Write a comment</textarea>
+                              </div>
+                            </div>
+                            <div class="row comment-actions">
+                              <div class="col-xs-12">
+                                <a href="">Cancel</a>
+                                <button type="button" class="btn btn-primary comment-btn"> Comment </button>
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div> <!-- End write a comment -->
+
+
+                      </div>
+                    </div><!-- End of comment section -->
+
+                  </div>
+                </div> <!-- End of Subsection -->
+
+              </div>
+            </div> <!-- End of Right Section -->
+
+          </div>
+
+        </div>
+      </section>
+      
+    </main>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+//Specifics for the Edit About Page
+
+$brand-color: #2b78e4;
+
+.content-section {
+
+  .about-text {
+
+    .ic_edit {
+      margin: 6px 0;
+    }
+  }
+
+  .save-changes {
+    background-color: $brand-color;
+    margin-bottom: 30px;
+  }
+}
