@@ -1,0 +1,38 @@
+$brand-color: #2b78e4;
+$border: 1px solid #999;
+
+
+.content-section {
+
+  .friend-section {
+
+    .left-column {
+      margin-left: 35px;
+    }
+
+    .friend-sq {
+      border: $border;
+      margin-top: 15px;
+      margin-bottom: 15px;
+
+      img {
+        height: 120px;
+        width: auto;
+      }
+
+      .friend-pic {
+        padding: 10px;
+      }
+
+      .friend-name {
+        padding-top: 45px;
+        padding-left: 35px;
+      }
+      
+      .unfriend-btn {
+        padding-top: 47px;
+      }
+
+    }
+  }
+}

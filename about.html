@@ -1,1 +1,197 @@
-<!-- Your markup here! -->
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danebook About Page</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->
+    <link href="css/addonstyles.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Bootstrap Javascript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-DB">
+      <div class="container">
+        <!-- Brand and toggle for mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="images/danish_flag.gif" alt="Danish Flag Danebook">
+            <span>Danebook</span>
+          </a>
+        </div>
+
+        <!-- Content collapsed in mobile display -->
+        <div class="collapse navbar-collapse">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search Users">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Harry <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Log out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-->
+    </nav>
+
+    <main class="container">
+
+      <section class="row top-section">
+        <div class="col-md-12">
+
+          <!-- Cover Picture -->
+          <div class="row cover-pic-wrapper">
+            <img src="images/hogwarts_small.jpg">
+          </div>
+
+          <!-- Profile Pic -->
+          <div class="profile-pic-wrapper">
+            <img src="images/harry_potter_small.jpg">
+          </div>
+
+          <!-- Nav bar for About Page -->
+          <div class="row second-nav">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <a href="timeline.html" class="col-md-2 second-nav-btn">Timeline</a>
+                <a href="about.html" class="col-md-2 second-nav-btn selected-btn">About</a>
+                <a href="photos.html" class="col-md-2 second-nav-btn">Photos <span>(123)</span></a>
+                <a href="friends.html" class="col-md-2 second-nav-btn">Friends <span>(542)</span></a>
+                <div class="col-md-4"></div>
+              </div>
+            </div>
+            <a href="about_edit.html" class="col-md-1 edit-profile">Edit Profile</a>
+          </div>
+
+        </div>
+      </section>
+      
+      <!-- Bottom Section - About -->
+      <section class="row content-section">
+        <div class="col-md-12">
+          <div class="row content-title">
+              <h2>About</h2>
+              <a href="about_edit.html" role="button" class="btn btn-primary"> Edit your Profile</a>
+          </div>
+
+          <div class="row about-text">
+
+            <!-- Left Section -->
+            <div class="col-md-4">
+
+              <!-- Basic Information -->
+              <div class="row">
+                <h3>Basic Information</h3>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 info-category">
+                  <p>Birthday:</p>
+                </div>
+                <div class="col-xs-8">
+                  <p>July 31, 1980</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 info-category">
+                  <p>College:</p>
+                </div>
+                <div class="col-xs-8">
+                  <p>Hogwarts College</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 info-category">
+                  <p>Hometown:</p>
+                </div>
+                <div class="col-xs-8">
+                  <p>Godrick's Hollow, England</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 info-category">
+                  <p>Currently lives:</p>
+                </div>
+                <div class="col-xs-8">
+                  <p>Godrick's Hollow, England</p>
+                </div>
+              </div>
+
+              <!-- Contact Information -->
+              <div class="row">
+                <h3>Contact Information</h3>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 info-category">
+                  <p>Email:</p>
+                </div>
+                <div class="col-xs-8">
+                  <p>harry_potter@hogwarts.edu</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 info-category">
+                  <p>Telephone:</p>
+                </div>
+                <div class="col-xs-8">
+                  <p>555-123-4567</p>
+                </div>
+              </div>
+
+            </div> <!-- End of Left Section -->
+
+            <!-- Right Section -->
+            <div class="col-md-7 col-md-offset-1">
+
+              <!-- Words to live by section -->
+              <div class="row">
+                <h3>Words to Live By</h3>
+              </div>
+              <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+
+              <!-- About Me text area -->
+              <div class="row">
+                <h3>About Me</h3>
+              </div>
+              <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+
+            </div> <!-- End of Right Section -->
+          </div>
+
+        </div>
+      </section>
+      
+    </main>
+  </body>
+</html>
