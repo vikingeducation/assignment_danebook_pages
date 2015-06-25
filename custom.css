@@ -83,3 +83,10 @@
 
 :-ms-input-placeholder {
   color: black; }
+
+.friends-list {
+  border: 1px solid #ccc;
+  padding-top: 20px;
+  margin: 10px; }
+  .friends-list .friends-margin {
+    margin-top: 20px; }

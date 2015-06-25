@@ -1,3 +1,11 @@
+  @mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
   .navbar{
 
     background: -webkit-linear-gradient(#4C67A1, #3B5998);
@@ -146,3 +154,12 @@
    color: black;  
 }
 
+.friends-list{
+  
+  border: 1px solid #ccc;
+  padding-top: 20px;
+  margin: 10px;
+  .friends-margin{
+    margin-top: 20px;
+  }
+}
