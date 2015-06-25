@@ -6,6 +6,9 @@
     transform: translateY(-50%);
   }
 
+.grey-text{
+  color: #ccc;
+}
   .navbar{
 
     background: -webkit-linear-gradient(#4C67A1, #3B5998);
@@ -163,3 +166,33 @@
     margin-top: 20px;
   }
 }
+
+
+/********************  TIMELINE ****************************/
+
+.friends {
+
+  li{
+
+    list-style:none;
+    padding: 0 5px;
+    display: inline;
+    float:left;
+    }
+  
+    .panel-body{
+    
+    padding: 10px;
+    margin: auto;
+
+  }
+
+ 
+
+}
+.clear-div{
+
+  clear:both;
+
+}
+
