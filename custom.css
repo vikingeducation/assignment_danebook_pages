@@ -103,6 +103,15 @@
 .friends .panel-body {
   padding: 10px;
   margin: auto; }
+.friends .text-center {
+  font-weight: bold; }
 
 .clear-div {
   clear: both; }
+
+.timeline-panel-header {
+  text-align: center;
+  font-weight: bold; }
+
+.timeline-wrap {
+  margin-top: 15px; }
