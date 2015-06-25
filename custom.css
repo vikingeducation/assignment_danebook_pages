@@ -108,5 +108,7 @@
   clear: both; }
 
 /******************** photos **************************/
+.photo-grid {
+  margin: 25px; }
 
 /*# sourceMappingURL=custom.css.map */
