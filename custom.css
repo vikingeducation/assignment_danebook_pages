@@ -3,31 +3,26 @@
   background: -o-linear-gradient(#4c67a1, #3b5998);
   background: -moz-linear-gradient(#4c67a1, #3b5998);
   background: linear-gradient(#4c67a1, #3b5998);
-  height: 100px;
   margin-bottom: 0px; }
 
-.navbar-header navbar-brand {
-  margin-left: 35px; }
-.navbar-header a {
-  color: #fff;
-  font-size: 3em;
-  line-height: 60px; }
+.navbar a {
+  color: white;
+  font-size: 2em; }
+  .navbar a img {
+    margin-top: -7px;
+    height: 1.3em;
+    float: left;
+    margin-right: 6px; }
 
-.navbar > .container .navbar-brand,
-.navbar > .container-fluid .navbar-brand {
-  margin-left: 10px; }
+.test {
+  float: right;
+  font-size: 1.3em;
+  color: white;
+  margin-top: 10px; }
 
-label {
-  display: block; }
-
-.inline-form {
-  margin-top: 15px;
-  line-height: 5px;
-  color: #fff; }
-
-.inline-form > button {
-  margin-top: 1.1em; }
-
+@media (min-width: 800px) {
+  .navbar-form .input-group > .form-control {
+    min-width: 600px; } }
 /******************** about page **********************************/
 .cover-photo {
   width: 100%;
