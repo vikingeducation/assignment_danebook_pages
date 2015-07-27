@@ -38,7 +38,7 @@ body {
 
 #profile-nav {
   height: 52px;
-  border: 2px solid #2B78E4;
+  border: 1px solid #2B78E4;
   margin-left: 0;
   margin-right: 0; }
   #profile-nav #edit-profile {
@@ -48,7 +48,7 @@ body {
   height: 50px;
   line-height: 50px;
   white-space: nowrap;
-  border-left: 2px solid #2B78E4;
+  border-left: 1px solid #2B78E4;
   font-size: 1.2em;
   text-align: center; }
 
@@ -81,12 +81,29 @@ body {
       margin-top: 50px;
       min-height: 50px;
       font-size: 1.4em; }
-  #user-info #basic-info strong,
-  #user-info #basic-info p {
-    display: inline-block; }
-  #user-info #basic-info strong {
-    width: 25%; }
-  #user-info #basic-info p {
-    width: 75%; }
+  #user-info article {
+    margin-left: 20px;
+    margin-right: 20px; }
+
+#basic-info strong,
+#basic-info p {
+  display: inline-block; }
+#basic-info strong {
+  width: 25%; }
+#basic-info p {
+  width: 75%; }
+
+#user-info form input[type="text"],
+#user-info form textarea {
+  padding-left: 5px;
+  width: 100%;
+  line-height: normal; }
+#user-info #about-me textarea {
+  height: 100px;
+  padding: 5px 10px; }
+#user-info .btn-primary {
+  margin: 40px auto;
+  font-size: 2em;
+  width: 80%; }
 
 /*# sourceMappingURL=styles.css.map */

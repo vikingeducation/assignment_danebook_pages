@@ -66,7 +66,7 @@ body {
 
 #profile-nav {
   height: 52px;
-  border: 2px solid $navbar-color;
+  border: 1px solid $navbar-color;
   @include row-reset;
 
   #edit-profile {
@@ -78,7 +78,7 @@ body {
   height: 50px;
   line-height: 50px;
   white-space: nowrap;
-  border-left: 2px solid $navbar-color;
+  border-left: 1px solid $navbar-color;
   font-size: 1.2em;
   text-align: center;
 }
@@ -125,18 +125,50 @@ body {
     }
   }
 
-  #basic-info {
-    strong,
-    p {
-      display: inline-block;
-    }
+  article {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 
-    strong {
-      width: 25%;
-    }
+#basic-info {
+  strong,
+  p {
+    display: inline-block;
+  }
 
-    p {
-      width: 75%;
+  strong {
+    width: 25%;
+  }
+
+  p {
+    width: 75%;
+  }
+}
+
+// About Edit Area
+
+#user-info {
+  form {
+    input[type="text"],
+    textarea {
+      padding-left: 5px;
+      width: 100%;
+      line-height: normal;
     }
+  }
+
+  #about-me {
+    textarea {
+      height: 100px;
+      padding: 5px 10px;
+
+    }
+  }
+
+  .btn-primary {
+    margin: 40px auto;
+    font-size: 2em;
+    width: 80%;
   }
 }
