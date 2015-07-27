@@ -1,0 +1,142 @@
+// Variables
+
+$navbar-color: #2B78E4;
+$post-color: #CCC;
+
+// Mixin
+
+@mixin row-reset {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// Body
+
+body {
+  margin: 50px 0;
+}
+
+// Navbar
+
+#nav-search {
+  width: 75%;
+  input {
+    width: 100%;
+  }
+}
+
+.navbar {
+  background-color: $navbar-color;
+
+  .name {
+    color: #FFF;
+    font-size: 1.3em;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+  }
+}
+
+#nav-brand {
+  padding: 5px;
+  font-size: 2em;
+  color: white;
+  img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+}
+
+// Profile Navigation
+
+#cover-image {
+  width: 100%;
+  height: 350px;
+}
+
+#profile-image {
+  position: absolute;
+  bottom: 5%;
+  max-width: 18%;
+  left: 5%;
+}
+
+#profile-nav {
+  height: 52px;
+  border: 2px solid $navbar-color;
+  @include row-reset;
+
+  #edit-profile {
+    float: right;
+  }
+}
+
+.profile-nav-btn {
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  border-left: 2px solid $navbar-color;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.active {
+  a {
+    color: #999;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+// User Information
+
+#user-info {
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: whitesmoke;
+  min-height: 200px;
+
+  .heading {
+    position: relative;
+    @include row-reset;
+    text-align: center;
+    font-size: 2em;
+    height: 40px;
+    background-color: #CCC;
+
+    button {
+      position: absolute;
+      top: calc(50% - 11px);
+      right: 9px;
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    button[type="submit"] {
+      margin-top: 50px;
+      min-height: 50px;
+      font-size: 1.4em;
+    }
+  }
+
+  #basic-info {
+    strong,
+    p {
+      display: inline-block;
+    }
+
+    strong {
+      width: 25%;
+    }
+
+    p {
+      width: 75%;
+    }
+  }
+}

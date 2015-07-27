@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <title>Welcome to Danebook</title>
+      <title>About</title>
 
       <meta charset="utf-8">
 
@@ -21,38 +21,95 @@
 
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle Navigation</span>
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img src="Images/flag.jpg">
+          <a class="navbar-brand" id="nav-brand" href="#">
+            <img class="img-responsive" src="Images/flag.png">
             Danebook
           </a>
         </div>
 
-        <div class="collapse navbar-collapse">
-          <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search Users">
-            </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-left" id="nav-search" role="search">
+            <input type="text" class="form-control" placeholder="Search for Users">
           </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Harry</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">Log Out</a></li>
-              </ul>
-            </li>
-          </ul>
-
+          <a class="navbar-right name" href="#">Harry Potter</a>
         </div>
       </div>
     </nav>
+
+    <main class="container">
+
+      <section class="row">
+        <article class="col-md-12">
+          <img id="cover-image" src="Images/cover.jpg">
+          <img id="profile-image" class="img-responsive" src="Images/profile.jpg">
+          <div id="profile-nav" class="row on-top">
+            <div class="col-md-3"></div>
+
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-3 profile-nav-btn">
+                  <a href="timeline.html">Timeline</a>
+                </div>
+                <div class="col-md-3 profile-nav-btn active">
+                  <a href="about.html">About</a>
+                </div>
+                <div class="col-md-3 profile-nav-btn">
+                  <a href="photos.html">Photos (123)</a>
+                </div>
+                <div class="col-md-3 profile-nav-btn">
+                  <a href="friends.html">Friends (542)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 profile-nav-btn edit-profile">
+              <a href="about_edit.html">Edit Profile</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="user-info" class="row">
+        <div class="row heading">
+          <p>About</p>
+          <a href="about_edit.html"><button class="btn btn-primary btn-xs">Edit Your Profile</button></a>
+        </div>
+
+        <!-- User Information -->
+        <article class="col-sm-6">
+          <div id="basic-info">
+            <h2>Basic Information</h2>
+            <strong>Birthday:</strong><p>July 31st, 1980</p>
+            <strong>College:</strong><p>Hogwarts College</p>
+            <strong>Hometown:</strong><p>Godrick's Hollow, England</p>
+            <strong>Currently Lives:</strong><p>Godrick's Hollow, England</p>
+
+            <h2>Contact Information</h2>
+            <strong>Email:</strong><p>harry_potter@hogwarts.edu</p>
+            <strong>Telephone:</strong><p>555-123-4567</p>
+          </div>
+        </article>
+
+        <article>
+          <h2>Words to Live By</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+          <h2>About Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+      </section>
+    </main>
   </body>
