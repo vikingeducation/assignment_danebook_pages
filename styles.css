@@ -101,9 +101,33 @@ body {
 #user-info #about-me textarea {
   height: 100px;
   padding: 5px 10px; }
-#user-info .btn-primary {
+#user-info #save-changes {
   margin: 40px auto;
   font-size: 2em;
   width: 80%; }
+
+.friend-box {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 10px 15px; }
+  .friend-box img,
+  .friend-box .friend-text,
+  .friend-box button {
+    display: inline-block; }
+  .friend-box img {
+    width: 100px;
+    height: 100px; }
+  .friend-box .friend-text {
+    vertical-align: middle;
+    margin-left: 10px; }
+    .friend-box .friend-text a, .friend-box .friend-text h3 {
+      font-size: 1.2em;
+      line-height: normal;
+      margin-top: 0; }
+  .friend-box button {
+    float: right;
+    margin-top: 30px; }
 
 /*# sourceMappingURL=styles.css.map */

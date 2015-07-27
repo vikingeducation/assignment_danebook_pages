@@ -166,9 +166,46 @@ body {
     }
   }
 
-  .btn-primary {
+  #save-changes {
     margin: 40px auto;
     font-size: 2em;
     width: 80%;
+  }
+}
+
+// Friends Page
+
+.friend-box {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+
+  img,
+  .friend-text,
+  button {
+    display: inline-block;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .friend-text {
+    vertical-align: middle;
+    margin-left: 10px;
+
+    a, h3 {
+      font-size: 1.2em;
+      line-height: normal;
+      margin-top: 0;
+    }
+  }
+
+  button {
+    float: right;
+    margin-top: 30px;
   }
 }
