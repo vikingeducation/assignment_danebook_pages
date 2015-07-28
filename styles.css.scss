@@ -209,3 +209,34 @@ body {
     margin-top: 30px;
   }
 }
+
+// Photos Page
+
+.photo-grid {
+  img {
+    width: 175px;
+    height: 175px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .photo-info {
+    position: absolute;
+    display: inline-block;
+    margin-top: 170px;
+    width: 175px;
+    color: white;
+    background-color: #777;
+    visibility: hidden;
+  }
+
+  .photo:hover {
+    .photo-info {
+      visibility: visible;
+    }
+  }
+}
