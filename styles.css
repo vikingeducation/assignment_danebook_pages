@@ -52,10 +52,11 @@ body {
   font-size: 1.2em;
   text-align: center; }
 
-.active a {
-  color: #999;
-  pointer-events: none;
-  cursor: default; }
+.active {
+  background-color: #CCC; }
+  .active a {
+    pointer-events: none;
+    cursor: default; }
 
 #user-info {
   margin-top: 20px;
@@ -147,5 +148,108 @@ body {
   visibility: hidden; }
 .photo-grid .photo:hover .photo-info {
   visibility: visible; }
+
+.about-box,
+.photo-box,
+.friend-timeline {
+  border: 1px solid black;
+  margin-bottom: 20px; }
+  .about-box .heading,
+  .photo-box .heading,
+  .friend-timeline .heading {
+    border-bottom: 1px solid black; }
+    .about-box .heading h3,
+    .photo-box .heading h3,
+    .friend-timeline .heading h3 {
+      margin: 0;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); }
+
+.about-box #basic-info {
+  padding-left: 15px;
+  padding-top: 10px; }
+
+.friend-timeline,
+.photo-box {
+  text-align: center;
+  margin-bottom: 20px; }
+  .friend-timeline img,
+  .photo-box img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0; }
+  .friend-timeline a,
+  .photo-box a {
+    margin-bottom: 20px; }
+
+.friend-timeline a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+.friend-timeline img {
+  margin: 0;
+  border: 1px solid black; }
+.friend-timeline .row {
+  margin-top: 10px; }
+
+.post {
+  margin-top: 20px;
+  border: 2px solid #CCC; }
+  .post .create-post-header {
+    background: #CCC;
+    margin-left: 0;
+    margin-right: 0; }
+    .post .create-post-header h2 {
+      text-align: center; }
+  .post img {
+    float: left;
+    width: 60px;
+    margin: 10px 0; }
+
+.post-footer {
+  background: #CCC;
+  padding: 8px;
+  margin-left: 0;
+  margin-right: 0; }
+  .post-footer .post-link {
+    float: left;
+    margin: 5px 10px; }
+  .post-footer .post-link:last-of-type {
+    float: right; }
+  .post-footer p {
+    clear: both;
+    margin: 40px 0 0 10px; }
+
+.post-button {
+  float: right;
+  margin-right: 10px; }
+
+textarea {
+  width: 100%;
+  margin: 15px 0;
+  min-height: 130px; }
+
+.post-header {
+  margin-left: 0;
+  margin-right: 0; }
+  .post-header .name {
+    margin: 30px 70px;
+    font-weight: 700; }
+
+.comments {
+  margin-left: 0;
+  margin-right: 0; }
+  .comments p {
+    margin: 13px 70px; }
+  .comments button {
+    margin-bottom: 10px;
+    float: right; }
+
+.create-post {
+  margin-top: 0; }
+
+.comment {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
