@@ -1,0 +1,386 @@
+// Variables
+
+$navbar-color: #2B78E4;
+$post-color: #CCC;
+
+// Mixin
+
+@mixin row-reset {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// Body
+
+body {
+  margin: 50px 0;
+}
+
+// Navbar
+
+#nav-search {
+  width: 75%;
+  input {
+    width: 100%;
+  }
+}
+
+.navbar {
+  background-color: $navbar-color;
+
+  .name {
+    color: #FFF;
+    font-size: 1.3em;
+    height: 50px;
+    line-height: 50px;
+    white-space: nowrap;
+  }
+}
+
+#nav-brand {
+  padding: 5px;
+  font-size: 2em;
+  color: white;
+  img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+}
+
+// Profile Navigation
+
+#cover-image {
+  width: 100%;
+  height: 350px;
+}
+
+#profile-image {
+  position: absolute;
+  bottom: 5%;
+  max-width: 18%;
+  left: 5%;
+}
+
+#profile-nav {
+  height: 52px;
+  border: 1px solid $navbar-color;
+  @include row-reset;
+
+  #edit-profile {
+    float: right;
+  }
+}
+
+.profile-nav-btn {
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  border-left: 1px solid $navbar-color;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.active {
+  background-color: #CCC;
+
+  a {
+    pointer-events: none;
+    cursor: default;
+  }
+}
+
+// User Information
+
+#user-info {
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: whitesmoke;
+  min-height: 200px;
+
+  .heading {
+    position: relative;
+    @include row-reset;
+    text-align: center;
+    font-size: 2em;
+    height: 40px;
+    background-color: #CCC;
+
+    button {
+      position: absolute;
+      top: calc(50% - 11px);
+      right: 9px;
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    button[type="submit"] {
+      margin-top: 50px;
+      min-height: 50px;
+      font-size: 1.4em;
+    }
+  }
+
+  article {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+#basic-info {
+  strong,
+  p {
+    display: inline-block;
+  }
+
+  strong {
+    width: 25%;
+  }
+
+  p {
+    width: 75%;
+  }
+}
+
+// About Edit Area
+
+#user-info {
+  form {
+    input[type="text"],
+    textarea {
+      padding-left: 5px;
+      width: 100%;
+      line-height: normal;
+    }
+  }
+
+  #about-me {
+    textarea {
+      height: 100px;
+      padding: 5px 10px;
+
+    }
+  }
+
+  #save-changes {
+    margin: 40px auto;
+    font-size: 2em;
+    width: 80%;
+  }
+}
+
+// Friends Page
+
+.friend-box {
+  border: 1px solid black;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  padding: 10px 15px;
+
+  img,
+  .friend-text,
+  button {
+    display: inline-block;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .friend-text {
+    vertical-align: middle;
+    margin-left: 10px;
+
+    a, h3 {
+      font-size: 1.2em;
+      line-height: normal;
+      margin-top: 0;
+    }
+  }
+
+  button {
+    float: right;
+    margin-top: 30px;
+  }
+}
+
+// Photos Page
+
+.photo-grid {
+  img {
+    width: 175px;
+    height: 175px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .photo-info {
+    position: absolute;
+    display: inline-block;
+    margin-top: 170px;
+    width: 175px;
+    color: white;
+    background-color: #777;
+    visibility: hidden;
+  }
+
+  .photo:hover {
+    .photo-info {
+      visibility: visible;
+    }
+  }
+}
+
+// Timeline
+
+.about-box,
+.photo-box,
+.friend-timeline {
+  border: 1px solid black;
+  margin-bottom: 20px;
+
+  .heading {
+    border-bottom: 1px solid black;
+
+    h3 {
+      margin: 0;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.about-box {
+  #basic-info {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+}
+
+.friend-timeline,
+.photo-box {
+  text-align: center;
+  margin-bottom: 20px;
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+  }
+
+  a {
+    margin-bottom: 20px;
+  }
+}
+
+.friend-timeline {
+  a {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    margin: 0;
+    border: 1px solid black;
+  }
+
+  .row {
+    margin-top: 10px;
+  }
+}
+
+// Timeline Posts
+
+.post {
+  margin-top: 20px;
+  border: 2px solid $post-color;
+
+  .create-post-header {
+    background: $post-color;
+    @include row-reset;
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  img {
+    float: left;
+    width: 60px;
+    margin: 10px 0;
+  }
+}
+
+.post-footer {
+  background: $post-color;
+  padding: 8px;
+  @include row-reset;
+
+  .post-link {
+    float: left;
+    margin: 5px 10px;
+  }
+
+  .post-link:last-of-type {
+    float: right;
+  }
+
+  p {
+    clear: both;
+    margin: 40px 0 0 10px;
+  }
+}
+
+.post-button {
+  float: right;
+  margin-right: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 15px 0;
+    min-height: 130px;
+}
+
+.post-header {
+  @include row-reset;
+
+  .name {
+    margin: 30px 70px;
+    font-weight: 700;
+  }
+}
+
+.comments {
+  @include row-reset;
+
+  p {
+    margin: 13px 70px;
+  }
+
+  button {
+    margin-bottom: 10px;
+    float: right;
+  }
+}
+
+.create-post {
+  margin-top: 0;
+}
+
+.comment {
+  margin-top: 10px;
+}
