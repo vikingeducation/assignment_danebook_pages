@@ -39,24 +39,51 @@
 
 				<!-- Navbar Header and Toggle -->
 				<div class="navbar-header">
+
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Danebook</a>
+
+					<a class="navbar-brand" href="#">
+						<img class="img-circle pull-left" src="/assets/images/danish_flag.gif" alt="Danish Flag"/>
+						<span class="pull-right">
+							Danebook
+						</span>
+					</a>
+
 				</div>
 
 				<!-- Sign In Form -->
 				<div id="navbar-collapse" class="collapse navbar-collapse">
 
-					<form id="navbar-search" class="navbar-form form-inline navbar-right">
-						<div class="form-group">
-							<input type="search" name="search" class="form-control" placeholder="Search..."/>
+					<div class="row">
+						
+						<!-- Search -->
+						<div class="col-sm-6 col-md-7">
+
+							<form id="navbar-search" class="navbar-form form-inline">
+								<div class="form-group">
+									<input type="search" name="search" class="form-control" placeholder="Search..."/>
+								</div>
+							</form>
+
 						</div>
-						<button type="submit" class="btn btn-default">Search</button>
-					</form>
+
+						<!-- Username -->
+						<div class="col-sm-2 col-md-2">
+
+							<p class="navbar-username navbar-text">
+								<a href="/about.html">
+									Harry
+								</a>
+							</p>
+
+						</div>
+
+					</div>
 
 				</div>
 
