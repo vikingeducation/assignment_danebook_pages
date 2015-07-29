@@ -1,15 +1,16 @@
 /* style */
 #navbar {
-  line-height: 96px;
+  line-height: 64px;
   background: #3E76DA; }
   #navbar .navbar-brand {
     display: block;
     height: 100%;
-    line-height: 64px; }
+    line-height: 32px; }
     #navbar .navbar-brand img {
-      width: 64px;
-      height: 64px; }
+      width: 32px;
+      height: 32px; }
     #navbar .navbar-brand span {
+      font-size: 24px;
       padding: 0 8px;
       color: #eee; }
   #navbar #navbar-search .form-group,
