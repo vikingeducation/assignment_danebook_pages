@@ -223,6 +223,64 @@ body {
     text-align: right;
     padding: 8px; }
 
+.post {
+  margin-top: 32px;
+  padding-top: 16px;
+  border: 1px solid #d5d5d5;
+  border-radius: 4px; }
+  .post .post-profile-image-container {
+    margin: 0 auto;
+    overflow-y: hidden;
+    width: 64px;
+    height: 64px; }
+    .post .post-profile-image-container img {
+      width: 100%; }
+  .post .post-info-container a,
+  .post .post-info-container time {
+    display: block; }
+  .post .post-likes {
+    clear: both; }
+  .post article {
+    padding: 8px; }
+  .post footer {
+    border-top: 1px solid #d5d5d5;
+    padding: 8px; }
+    .post footer:after, .post footer:before {
+      display: table;
+      content: ""; }
+    .post footer:after {
+      clear: both; }
+    .post footer .post-footer-links,
+    .post footer .post-likes {
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    .post footer .delete-link-container {
+      text-align: right; }
+
+.comment,
+.comment-form-container,
+.post footer {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+.comment {
+  padding-top: 16px;
+  clear: both; }
+
+.comment footer,
+.comment-form-container footer {
+  margin-left: 0;
+  margin-right: 0; }
+
+footer,
+.post-comments,
+.comment,
+.comment-form-container {
+  background: #ddd; }
+
+.comment-form-container .form-group {
+  padding: 8px; }
+
 .profile-page-container {
   border: none; }
 
