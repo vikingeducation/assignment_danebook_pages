@@ -124,5 +124,38 @@
   #profile-header .cover-image-container,
   #profile-header .profile-nav-container div {
     border: none; } }
+.profile-page-container {
+  margin-top: 64px;
+  margin-bottom: 128px;
+  border: 1px solid #d5d5d5; }
+  .profile-page-container .profile-page-header {
+    border-bottom: 1px solid #d5d5d5;
+    background: #ddd; }
+    .profile-page-container .profile-page-header h1 {
+      text-align: center; }
+
+#about .about-container {
+  padding-top: 64px;
+  padding-bottom: 64px; }
+#about .about-info-container dt {
+  width: 45%;
+  clear: both; }
+#about .about-info-container dt,
+#about .about-info-container dd {
+  margin-top: 16px;
+  float: left; }
+#about .about-info-container p {
+  text-indent: 2em; }
+
+@media only screen and (max-width: 767px) {
+  .about-container h2 {
+    text-align: center; }
+
+  .about-info-container dt {
+    width: auto;
+    margin-right: 5%;
+    text-align: right; }
+  .about-info-container dd {
+    text-align: left; } }
 
 /*# sourceMappingURL=style.css.map */

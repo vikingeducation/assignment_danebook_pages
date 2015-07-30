@@ -103,7 +103,7 @@
 #profile-header .cover-image-container,
 #profile-header .profile-image-container,
 #profile-header .profile-nav-container div {
-	border: 1px solid darken($light, 10%);
+	border: 1px solid $border;
 }
 #profile-header,
 #profile-header .cover-image-container,
