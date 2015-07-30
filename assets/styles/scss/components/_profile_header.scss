@@ -47,6 +47,10 @@
 	.profile-nav-container {
 		line-height: 64px;
 		text-align: center;
+
+		.current {
+			color: $dark;
+		}
 	}
 
 	// --------------------
