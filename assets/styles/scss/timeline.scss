@@ -30,11 +30,61 @@
 		img {
 			width: 100%;
 		}
+
+		footer {
+			text-align: center;
+		}
+	}
+
+	#about,
+	#photos,
+	#friends {
+		border: 1px solid $border;
+		margin-bottom: 32px;
+		padding: 0 0 16px 0;
+	}
+
+	.post-form-header,
+	.details-header {
+		h1 {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+	
+	.about-container,
+	.photos-container,
+	.friends-container {
+		padding: 16px;
+	}
+
+	.photos-container,
+	.friends-container {
+		.row {
+			div {
+				padding: 16px;
+			}
+		}
+	}
+
+	.timeline-container {
+		.post {
+			margin-top: 32px;
+
+			.post-profile-image-container {
+				overflow-y: hidden;
+				width: 64px;
+				height: 64px;
+				img {
+					width: 100%;
+				}
+			}
+		}
 	}
 }
 
 @media only screen and (max-width: 767px) {
 	#about {
-		margin-top: 34px;
+		margin-top: 50px;
 	}
 }

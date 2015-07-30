@@ -3,6 +3,9 @@
 .profile-page-container
 
 #post-form-wrapper {
+	border: 1px solid $border;
+	padding: 0;
+
 	.post-form-header,
 	.post-form-footer {
 		@extend .profile-page-header;
