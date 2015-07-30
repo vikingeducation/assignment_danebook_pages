@@ -51,6 +51,13 @@
 			text-align: right;
 		}
 	}
+
+	footer,
+	.post-comments,
+	.comment,
+	.comment-form-container {
+		background: #ddd;
+	}
 }
 
 .comment,
@@ -69,13 +76,6 @@
 .comment-form-container footer {
 	margin-left: 0;
 	margin-right: 0;
-}
-
-footer,
-.post-comments,
-.comment,
-.comment-form-container {
-	background: #ddd;
 }
 
 .comment-form-container .form-group {
