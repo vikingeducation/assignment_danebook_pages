@@ -143,15 +143,17 @@
   .profile-page-container .profile-page-header, .profile-page-container
   #post-form-wrapper .post-form-header,
   .profile-page-container
-  #post-form-wrapper .post-form-footer, .profile-page-container .news-feed-header,
-  .profile-page-container .news-feed-footer {
+  #post-form-wrapper .post-form-footer, .profile-page-container #news-feed .news-feed-header, #news-feed .profile-page-container .news-feed-header,
+  .profile-page-container #news-feed .news-feed-footer,
+  #news-feed .profile-page-container .news-feed-footer {
     border-bottom: 1px solid #d5d5d5;
     background: #ddd; }
     .profile-page-container .profile-page-header h1, .profile-page-container
     #post-form-wrapper .post-form-header h1,
     .profile-page-container
-    #post-form-wrapper .post-form-footer h1, .profile-page-container .news-feed-header h1,
-    .profile-page-container .news-feed-footer h1 {
+    #post-form-wrapper .post-form-footer h1, .profile-page-container #news-feed .news-feed-header h1, #news-feed .profile-page-container .news-feed-header h1,
+    .profile-page-container #news-feed .news-feed-footer h1,
+    #news-feed .profile-page-container .news-feed-footer h1 {
       text-align: center; }
 
 /*
@@ -292,20 +294,20 @@ body {
 .comment-form-container .form-group {
   padding: 8px; }
 
-.profile-page-container {
+#news-feed {
   margin-top: 0;
   border: none; }
-  .profile-page-container .news-feed-container {
+  #news-feed .news-feed-container {
     border-left: 1px solid #d5d5d5; }
-  .profile-page-container .details-container,
-  .profile-page-container .news-feed-container {
+  #news-feed .details-container,
+  #news-feed .news-feed-container {
     padding-top: 32px; }
-  .profile-page-container .news-feed-container {
+  #news-feed .news-feed-container {
     padding-left: 8.333333333333%; }
   @media only screen and (max-width: 767px) {
-    .profile-page-container #profile-avatar {
+    #news-feed #profile-avatar {
       margin-top: 56px; }
-    .profile-page-container .news-feed-container {
+    #news-feed .news-feed-container {
       padding-left: 30px;
       padding-right: 30px; } }
 

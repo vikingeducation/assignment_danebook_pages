@@ -143,17 +143,21 @@
   .profile-page-container .profile-page-header, .profile-page-container
   #post-form-wrapper .post-form-header,
   .profile-page-container
-  #post-form-wrapper .post-form-footer, .profile-page-container .details-header,
-  .profile-page-container .timeline-header,
-  .profile-page-container .timeline-footer {
+  #post-form-wrapper .post-form-footer, .profile-page-container #timeline .details-header, #timeline .profile-page-container .details-header,
+  .profile-page-container #timeline .timeline-header,
+  #timeline .profile-page-container .timeline-header,
+  .profile-page-container #timeline .timeline-footer,
+  #timeline .profile-page-container .timeline-footer {
     border-bottom: 1px solid #d5d5d5;
     background: #ddd; }
     .profile-page-container .profile-page-header h1, .profile-page-container
     #post-form-wrapper .post-form-header h1,
     .profile-page-container
-    #post-form-wrapper .post-form-footer h1, .profile-page-container .details-header h1,
-    .profile-page-container .timeline-header h1,
-    .profile-page-container .timeline-footer h1 {
+    #post-form-wrapper .post-form-footer h1, .profile-page-container #timeline .details-header h1, #timeline .profile-page-container .details-header h1,
+    .profile-page-container #timeline .timeline-header h1,
+    #timeline .profile-page-container .timeline-header h1,
+    .profile-page-container #timeline .timeline-footer h1,
+    #timeline .profile-page-container .timeline-footer h1 {
       text-align: center; }
 
 /*
@@ -294,37 +298,37 @@ body {
 .comment-form-container .form-group {
   padding: 8px; }
 
-.profile-page-container {
+#timeline {
   border: none; }
-  .profile-page-container #about dt {
+  #timeline #about dt {
     width: 45%;
     clear: both; }
-  .profile-page-container #about dt,
-  .profile-page-container #about dd {
+  #timeline #about dt,
+  #timeline #about dd {
     margin-top: 16px;
     float: left; }
-  .profile-page-container #photos img,
-  .profile-page-container #friends img {
+  #timeline #photos img,
+  #timeline #friends img {
     width: 100%; }
-  .profile-page-container #photos footer,
-  .profile-page-container #friends footer {
+  #timeline #photos footer,
+  #timeline #friends footer {
     text-align: center; }
-  .profile-page-container #about,
-  .profile-page-container #photos,
-  .profile-page-container #friends {
+  #timeline #about,
+  #timeline #photos,
+  #timeline #friends {
     border: 1px solid #d5d5d5;
     border-radius: 4px;
     margin-bottom: 32px;
     padding: 0 0 16px 0; }
-  .profile-page-container .details-header h1 {
+  #timeline .details-header h1 {
     margin-top: 0;
     margin-bottom: 0; }
-  .profile-page-container .about-container,
-  .profile-page-container .photos-container,
-  .profile-page-container .friends-container {
+  #timeline .about-container,
+  #timeline .photos-container,
+  #timeline .friends-container {
     padding: 16px; }
-  .profile-page-container .photos-container .row div,
-  .profile-page-container .friends-container .row div {
+  #timeline .photos-container .row div,
+  #timeline .friends-container .row div {
     padding: 16px; }
 
 @media only screen and (max-width: 767px) {
