@@ -241,6 +241,10 @@ body {
     height: 64px; }
     .post .post-profile-image-container img {
       width: 100%; }
+  @media only screen and (max-width: 767px) {
+    .post .post-profile-image-container {
+      width: 48px;
+      height: 48px; } }
   .post .post-info-container a,
   .post .post-info-container time {
     display: block; }

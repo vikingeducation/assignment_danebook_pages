@@ -239,6 +239,10 @@ body {
     height: 64px; }
     .post .post-profile-image-container img {
       width: 100%; }
+  @media only screen and (max-width: 767px) {
+    .post .post-profile-image-container {
+      width: 48px;
+      height: 48px; } }
   .post .post-info-container a,
   .post .post-info-container time {
     display: block; }
@@ -285,10 +289,49 @@ body {
   padding: 8px; }
 
 .profile-page-container {
+  margin-top: 0;
   border: none; }
+  .profile-page-container .news-feed-container {
+    border-left: 1px solid #d5d5d5; }
+  .profile-page-container .details-container,
+  .profile-page-container .news-feed-container {
+    padding-top: 32px; }
+  .profile-page-container .news-feed-container {
+    padding-left: 8.333333333333%; }
+  @media only screen and (max-width: 767px) {
+    .profile-page-container #profile-avatar {
+      margin-top: 56px; }
+    .profile-page-container .news-feed-container {
+      padding-left: 30px;
+      padding-right: 30px; } }
 
-@media only screen and (max-width: 767px) {
-  #profile-avatar {
-    margin-top: 56px; } }
+#profile-avatar .profile-image-container {
+  width: 128px;
+  height: 128px;
+  border-radius: 4px;
+  border: 1px solid #d5d5d5; }
+  #profile-avatar .profile-image-container img {
+    width: 128px; }
+#profile-avatar .profile-avatar-links-container a {
+  display: block; }
+#profile-avatar .profile-avatar-links-container .profile-link {
+  font-size: 18px; }
+
+#recently-active .profile-image-container {
+  width: 64px;
+  height: 64px; }
+  #recently-active .profile-image-container img {
+    width: 64px; }
+#recently-active .activity-link-container {
+  margin-bottom: 16px; }
+#recently-active .activity-info-container a,
+#recently-active .activity-info-container time {
+  display: block; }
+#recently-active footer {
+  text-align: center; }
+
+#profile-avatar .profile-image-container,
+#recently-active .profile-image-container {
+  overflow: hidden; }
 
 /*# sourceMappingURL=news_feed.css.map */
