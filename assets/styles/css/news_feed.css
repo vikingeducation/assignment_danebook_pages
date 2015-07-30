@@ -130,16 +130,16 @@
   margin-bottom: 128px;
   border: 1px solid #d5d5d5; }
   .profile-page-container .profile-page-header, .profile-page-container
-  #post .post-form-header,
+  #post-form-wrapper .post-form-header,
   .profile-page-container
-  #post .post-form-footer, .profile-page-container .news-feed-header,
+  #post-form-wrapper .post-form-footer, .profile-page-container .news-feed-header,
   .profile-page-container .news-feed-footer {
     border-bottom: 1px solid #d5d5d5;
     background: #ddd; }
     .profile-page-container .profile-page-header h1, .profile-page-container
-    #post .post-form-header h1,
+    #post-form-wrapper .post-form-header h1,
     .profile-page-container
-    #post .post-form-footer h1, .profile-page-container .news-feed-header h1,
+    #post-form-wrapper .post-form-footer h1, .profile-page-container .news-feed-header h1,
     .profile-page-container .news-feed-footer h1 {
       text-align: center; }
 
@@ -196,15 +196,15 @@ body {
   .row-offcanvas-right {
     height: 100%; } }
 .profile-page-container
-#post .form-group {
+#post-form-wrapper .form-group {
   padding: 16px 32px; }
 .profile-page-container
-#post textarea.form-control {
+#post-form-wrapper textarea.form-control {
   max-width: 100%;
   height: 128px;
   resize: vertical; }
 .profile-page-container
-#post .post-form-footer {
+#post-form-wrapper .post-form-footer {
   text-align: right;
   padding: 8px; }
 
