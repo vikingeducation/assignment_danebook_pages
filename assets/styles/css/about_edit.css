@@ -135,4 +135,13 @@
     .profile-page-container .profile-page-header h1 {
       text-align: center; }
 
-/*# sourceMappingURL=style.css.map */
+#about-edit textarea.form-control {
+  height: 196px; }
+#about-edit .submit-container {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  text-align: center; }
+  #about-edit .submit-container .submit {
+    padding: 16px 32px; }
+
+/*# sourceMappingURL=about_edit.css.map */
