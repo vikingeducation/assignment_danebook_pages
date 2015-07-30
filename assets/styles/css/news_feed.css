@@ -132,17 +132,15 @@
   .profile-page-container .profile-page-header, .profile-page-container
   #post .post-form-header,
   .profile-page-container
-  #post .post-form-footer, .profile-page-container .details-header,
-  .profile-page-container .timeline-header,
-  .profile-page-container .timeline-footer {
+  #post .post-form-footer, .profile-page-container .news-feed-header,
+  .profile-page-container .news-feed-footer {
     border-bottom: 1px solid #d5d5d5;
     background: #ddd; }
     .profile-page-container .profile-page-header h1, .profile-page-container
     #post .post-form-header h1,
     .profile-page-container
-    #post .post-form-footer h1, .profile-page-container .details-header h1,
-    .profile-page-container .timeline-header h1,
-    .profile-page-container .timeline-footer h1 {
+    #post .post-form-footer h1, .profile-page-container .news-feed-header h1,
+    .profile-page-container .news-feed-footer h1 {
       text-align: center; }
 
 /*
@@ -212,19 +210,9 @@ body {
 
 .profile-page-container {
   border: none; }
-  .profile-page-container #about dt {
-    width: 45%;
-    clear: both; }
-  .profile-page-container #about dt,
-  .profile-page-container #about dd {
-    margin-top: 16px;
-    float: left; }
-  .profile-page-container #photos img,
-  .profile-page-container #friends img {
-    width: 100%; }
 
 @media only screen and (max-width: 767px) {
-  #about {
-    margin-top: 34px; } }
+  #profile-avatar {
+    margin-top: 56px; } }
 
-/*# sourceMappingURL=timeline.css.map */
+/*# sourceMappingURL=news_feed.css.map */

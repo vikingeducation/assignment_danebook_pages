@@ -2,18 +2,15 @@
 
 @import 'base';
 @import 'components/offcanvas';
+@import 'components/post_form';
 
 .profile-page-container {
 	border: none;
 
 	.details-header,
-	.timeline-header {
-		border-bottom: 1px solid $border;
-		background: #ddd;
-
-		h1 {
-			text-align: center;
-		}
+	.timeline-header,
+	.timeline-footer {
+		@extend .profile-page-header;
 	}
 
 	#about {
@@ -33,5 +30,11 @@
 		img {
 			width: 100%;
 		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#about {
+		margin-top: 34px;
 	}
 }

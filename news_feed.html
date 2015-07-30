@@ -26,7 +26,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<!-- My Styles -->
-		<link rel="stylesheet" href="/assets/styles/css/style.css"/>
+		<link rel="stylesheet" href="/assets/styles/css/news_feed.css"/>
 <!-- 		<link rel="stylesheet" href="https://rawgit.com/BideoWego/assignment_danebook_pages/master/assets/styles/css/style.css"/> -->
 
 	</head>
@@ -94,9 +94,132 @@
 		<!-- Main Content -->
 		<main id="main-content" class="container">
 			
-			News Feed here...
+			<!-- Profile Header -->
+			<header id="profile-header" class="row">
+				
+				<!-- Cover Image -->
+				<div class="col-xs-12">
+					<div class="cover-image-container"></div>
+				</div>
+				
+				<div class="col-xs-12">
+					
+					<!-- Profile Image -->
+					<div class="profile-image-container">
+						<img src="/assets/images/harry_potter_small.jpg" alt="Profile Image"/>
+					</div>
+
+					<!-- Profile Nav -->
+					<div class="row profile-nav-container">
+						
+						<div class="col-sm-1 col-sm-offset-3">
+							<a href="/timeline.html">
+								Timeline
+							</a>
+						</div>
+						<div class="col-sm-1">
+							<a href="/about.html">
+								About
+							</a>
+						</div>
+						<div class="col-sm-2">
+							<a href="/photos.html">
+								Photos (123)
+							</a>
+						</div>
+						<div class="col-sm-2">
+							<a href="/friends.html">
+								Friends (567)
+							</a>
+						</div>
+						<div class="col-sm-3 edit">
+							<a href="/about_edit.html">
+								Edit Profile
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+
+			</header>
+
+			<!-- Profile Page / News Feed -->
+			<section id="news-feed" class="row profile-page-container row-offcanvas row-offcanvas-left">
+
+				<!-- Details -->
+				<div class="col-sm-5 details-container sidebar-offcanvas">
+
+					<div class="row">
+
+						<!-- Profile Avatar -->
+						<section id="profile-avatar" class="col-xs-12">
+							Profile Image, Name, and Edit Profile here.
+						</section>
+
+						<!-- Recently Active -->
+						<section id="recently_active" class="col-xs-12">
+							<header class="details-header">
+								<h1>
+									Recently Active
+								</h1>
+							</header>
+							<div class="photos-container">
+
+								<div class="row">
+									List of friend images and recent posts here.
+								</div>
+
+							</div>
+							<footer>
+								<a href="/photos.html">
+									See All Your Friends
+								</a>
+							</footer>
+						</section>
+					</div>
+
+				</div>
+
+				<!-- News Feed -->
+				<div class="col-sm-7 news-feed-container">
+
+					<div class="pull-left visible-xs offcanvas-toggle-container">
+						<button type="button" class="btn btn-primary offcanvas-toggle" data-toggle="offcanvas">
+							<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+						</button>
+					</div>
+
+					<div class="row">
+						
+						<div id="post" class="col-xs-12">
+							<header class="post-form-header">
+								<h1>
+									Post
+								</h1>
+							</header>
+							<div class="post-form-container">
+								<form>
+									<div class="form-group">
+										<textarea id="post" name="post" class="form-control" placeholder="Tell the world something..."></textarea>
+									</div>
+									<footer class="post-form-footer">
+										<button class="btn btn-primary submit" type="submit">
+											Post
+										</button>
+									</footer>
+								</form>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
 
 		</main>
 
+		<script src="/assets/js/offcanvas.js"></script>
 	</body>
 </html>

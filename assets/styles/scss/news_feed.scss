@@ -1,0 +1,20 @@
+// news feed
+
+@import 'base';
+@import 'components/offcanvas';
+@import 'components/post_form';
+
+.profile-page-container {
+	border: none;
+
+	.news-feed-header,
+	.news-feed-footer {
+		@extend .profile-page-header;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#profile-avatar {
+		margin-top: 56px;
+	}
+}

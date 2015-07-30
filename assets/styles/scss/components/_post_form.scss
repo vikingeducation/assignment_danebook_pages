@@ -1,0 +1,24 @@
+// post form
+
+.profile-page-container
+
+#post {
+	.post-form-header,
+	.post-form-footer {
+		@extend .profile-page-header;
+	}
+
+	.form-group {
+		padding: 16px 32px;
+	}
+	textarea.form-control {
+		max-width: 100%;
+		height: 128px;
+		resize:vertical;
+	}
+
+	.post-form-footer {
+		text-align: right;
+		padding: 8px;
+	}
+}
