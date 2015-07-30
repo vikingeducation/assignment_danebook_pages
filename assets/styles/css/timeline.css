@@ -331,6 +331,10 @@ body {
   #timeline .photos-container .row div,
   #timeline .friends-container .row div {
     padding: 16px; }
+  @media only screen and (max-width: 767px) {
+    #timeline .details-container {
+      margin-left: 15px;
+      margin-right: 15px; } }
 
 @media only screen and (max-width: 767px) {
   #about {

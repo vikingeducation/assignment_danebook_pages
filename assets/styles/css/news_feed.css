@@ -312,7 +312,10 @@ body {
       margin-top: 56px; }
     #news-feed .news-feed-container {
       padding-left: 30px;
-      padding-right: 30px; } }
+      padding-right: 30px; }
+    #news-feed .details-container {
+      margin-left: 15px;
+      margin-right: 15px; } }
 
 #profile-avatar .profile-image-container {
   width: 128px;
