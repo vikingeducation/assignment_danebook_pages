@@ -1,0 +1,37 @@
+// timeline
+
+@import 'base';
+@import 'components/offcanvas';
+
+.profile-page-container {
+	border: none;
+
+	.details-header,
+	.timeline-header {
+		border-bottom: 1px solid $border;
+		background: #ddd;
+
+		h1 {
+			text-align: center;
+		}
+	}
+
+	#about {
+		dt {
+			width: 45%;
+			clear: both;
+		}
+		dt,
+		dd {
+			margin-top: 16px;
+			float: left;
+		}
+	}
+
+	#photos,
+	#friends {
+		img {
+			width: 100%;
+		}
+	}
+}
