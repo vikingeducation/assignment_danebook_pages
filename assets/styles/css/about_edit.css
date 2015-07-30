@@ -1,3 +1,9 @@
+.clearfix:after, .clearfix:before {
+  display: table;
+  content: ""; }
+.clearfix:after {
+  clear: both; }
+
 #navbar {
   position: static;
   border-radius: 0;
@@ -128,7 +134,8 @@
 .profile-page-container {
   margin-top: 64px;
   margin-bottom: 128px;
-  border: 1px solid #d5d5d5; }
+  border: 1px solid #d5d5d5;
+  border-radius: 4px; }
   .profile-page-container .profile-page-header {
     border-bottom: 1px solid #d5d5d5;
     background: #ddd; }
