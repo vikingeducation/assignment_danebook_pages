@@ -143,17 +143,13 @@
   .profile-page-container .profile-page-header, .profile-page-container
   #post-form-wrapper .post-form-header,
   .profile-page-container
-  #post-form-wrapper .post-form-footer, .profile-page-container #news-feed .news-feed-header, #news-feed .profile-page-container .news-feed-header,
-  .profile-page-container #news-feed .news-feed-footer,
-  #news-feed .profile-page-container .news-feed-footer {
+  #post-form-wrapper .post-form-footer {
     border-bottom: 1px solid #d5d5d5;
     background: #ddd; }
     .profile-page-container .profile-page-header h1, .profile-page-container
     #post-form-wrapper .post-form-header h1,
     .profile-page-container
-    #post-form-wrapper .post-form-footer h1, .profile-page-container #news-feed .news-feed-header h1, #news-feed .profile-page-container .news-feed-header h1,
-    .profile-page-container #news-feed .news-feed-footer h1,
-    #news-feed .profile-page-container .news-feed-footer h1 {
+    #post-form-wrapper .post-form-footer h1 {
       text-align: center; }
 
 /*
@@ -297,6 +293,13 @@ body {
 #news-feed {
   margin-top: 0;
   border: none; }
+  #news-feed .news-feed-header,
+  #news-feed .news-feed-footer {
+    border-bottom: 1px solid #d5d5d5;
+    background: #ddd; }
+    #news-feed .news-feed-header h1,
+    #news-feed .news-feed-footer h1 {
+      text-align: center; }
   #news-feed .news-feed-container {
     border-left: 1px solid #d5d5d5; }
   #news-feed .details-container,

@@ -13,3 +13,10 @@
 .clearfix {
 	@include clearfix;
 }
+
+@mixin transition($value) {
+	-webkit-transition: $value;
+	-moz-transition: $value;
+	-o-transitiion: $value;
+	transition: $value;
+}

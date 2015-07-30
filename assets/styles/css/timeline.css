@@ -143,21 +143,13 @@
   .profile-page-container .profile-page-header, .profile-page-container
   #post-form-wrapper .post-form-header,
   .profile-page-container
-  #post-form-wrapper .post-form-footer, .profile-page-container #timeline .details-header, #timeline .profile-page-container .details-header,
-  .profile-page-container #timeline .timeline-header,
-  #timeline .profile-page-container .timeline-header,
-  .profile-page-container #timeline .timeline-footer,
-  #timeline .profile-page-container .timeline-footer {
+  #post-form-wrapper .post-form-footer {
     border-bottom: 1px solid #d5d5d5;
     background: #ddd; }
     .profile-page-container .profile-page-header h1, .profile-page-container
     #post-form-wrapper .post-form-header h1,
     .profile-page-container
-    #post-form-wrapper .post-form-footer h1, .profile-page-container #timeline .details-header h1, #timeline .profile-page-container .details-header h1,
-    .profile-page-container #timeline .timeline-header h1,
-    #timeline .profile-page-container .timeline-header h1,
-    .profile-page-container #timeline .timeline-footer h1,
-    #timeline .profile-page-container .timeline-footer h1 {
+    #post-form-wrapper .post-form-footer h1 {
       text-align: center; }
 
 /*
@@ -300,6 +292,15 @@ body {
 
 #timeline {
   border: none; }
+  #timeline .details-header,
+  #timeline .timeline-header,
+  #timeline .timeline-footer {
+    border-bottom: 1px solid #d5d5d5;
+    background: #ddd; }
+    #timeline .details-header h1,
+    #timeline .timeline-header h1,
+    #timeline .timeline-footer h1 {
+      text-align: center; }
   #timeline #about dt {
     width: 45%;
     clear: both; }
