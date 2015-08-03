@@ -239,6 +239,8 @@ body {
     overflow-y: hidden;
     width: 64px;
     height: 64px; }
+    .post .post-profile-image-container a {
+      display: block; }
     .post .post-profile-image-container img {
       width: 100%; }
   @media only screen and (max-width: 767px) {

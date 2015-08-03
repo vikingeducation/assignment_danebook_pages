@@ -20,6 +20,10 @@
 	}
 
 	#about {
+		.about-container,
+		dl {
+			@include clearfix;
+		}
 		dt {
 			width: 45%;
 			clear: both;
@@ -70,6 +74,12 @@
 			div {
 				padding: 16px;
 			}
+		}
+	}
+
+	.photos-container {
+		a {
+			display: block;
 		}
 	}
 

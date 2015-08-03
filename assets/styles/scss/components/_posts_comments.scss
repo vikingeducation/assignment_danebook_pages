@@ -13,6 +13,11 @@
 		overflow-y: hidden;
 		width: 64px;
 		height: 64px;
+
+		a {
+			display: block;
+		}
+
 		img {
 			width: 100%;
 		}
@@ -46,7 +51,7 @@
 		padding: 8px;
 
 		.post-footer-links a {
-
+			//
 		}
 		
 		.post-footer-links,
