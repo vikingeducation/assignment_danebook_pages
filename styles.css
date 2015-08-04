@@ -9,11 +9,24 @@
     color: #fff; }
 
 .secondary-nav {
-  border: 1px solid #f7f7f7; }
-  .secondary-nav li a {
-    border: 1px solid #f7f7f7;
+  background:;
+  
+  border-radius: 0; }
+  .secondary-nav .nav li a {
+    border-right: 1px solid #dfe3ee;
+    border-left-width: 0;
     font-weight: 400;
-    color: #3b5998; }
+    color: #3b5998;
+  }
+
+.secondary-nav .nav li a:hover{
+  background: #e7e7e7;
+}
+  
+  .secondary-nav .nav li:first-child{
+    border-left: 1px solid #dfe3ee;
+    color: black;
+  }
 
 .clear {
   clear: both; }
@@ -29,15 +42,103 @@
 
 #profile-pic {
   position: absolute;
-  height: 200px;
-  top: -175px; }
+  height: 145px;
+  top: -110px; 
+  border: 3px solid #fff;
+}
+
+#cover-photo{
+  width: 940px;
+  height: 300px;
+}
 
 #name {
-  position: relative;
-  top: -100px;
-  left: 150px; }
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  top: -80px;
+  left: 180px; 
+  color: #fff;
+}
+
+body{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background:;
+}
 
 #logo {
   color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
+
+.space-holder{
+  width: 160px;
+}
+
+.space-left{
+  margin-left: 160px;
+}
+
+
+
+.btn-right-nav{
+  background: #f7f7f7;
+  border-bottom:;
+  border-bottom-width: 1px;
+}
+
+.main{
+  border: 1px solid #e7e7e7;
+}
+
+.main-header{
+  border-bottom: 1px solid #e7e7e7; 
+  background: #e7e7e7;
+}
+
+.main .main-header h1{
+  text-align: left;
+  vertical-align: middle;
+}
+
+.info{
+  padding-left: 30px;
+}
+
+.about-me{
+  padding-right: 30px;
+}
+
+.table-noborder tbody tr td, .table-noborder tbody tr th{
+  border: none;
+}
+
+.btn-save{
+  width: 300px;
+  height: 50px;
+ /* position: relative;
+  top: 50%;
+  display: inline-block;*/
+}
+
+.btn-save a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.space-bottom{
+  margin-bottom: 20px;
+}
+
+@media (min-width:1200px){
+  .container{
+    max-width:970px;
+  }
+}
+
+@media (max-width:1199px){
+  .container{
+    min-width:970px;
+  }
+}
