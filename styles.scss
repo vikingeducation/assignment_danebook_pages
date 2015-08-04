@@ -1,0 +1,33 @@
+$primary-color: #3b5998;
+$secondary-color: #8b9dc3;
+$tertiary-color: #dfe3ee;
+$primary-light: #fff;
+$secondary-light: #f7f7f7;
+
+.primary-nav{
+	background: $primary-color;
+	color: $primary-light;
+}
+
+.navbar {
+	img{
+		height: 20px;
+		width: 20px;
+		border-radius: 50%
+	}
+
+	.nav{
+		li{
+			a{
+				color: #fff;
+			}
+		} 
+	}
+}
+
+#logo{
+	color: #fff;
+}
+
+#search-bar{
+}

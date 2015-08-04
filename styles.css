@@ -1,0 +1,15 @@
+.primary-nav {
+  background: #3b5998;
+  color: #fff; }
+
+.navbar img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%; }
+.navbar .nav li a {
+  color: #fff; }
+
+#logo {
+  color: #fff; }
+
+/*# sourceMappingURL=styles.css.map */
