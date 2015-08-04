@@ -4,12 +4,10 @@ $tertiary-color: #dfe3ee;
 $primary-light: #fff;
 $secondary-light: #f7f7f7;
 
-.primary-nav{
+.primary-nav {
 	background: $primary-color;
 	color: $primary-light;
-}
 
-.navbar {
 	img{
 		height: 20px;
 		width: 20px;
@@ -23,6 +21,22 @@ $secondary-light: #f7f7f7;
 			}
 		} 
 	}
+}
+
+.container{
+	//width: 960px !important;
+}
+
+#profile-pic{
+	position:absolute;
+	height: 200px;
+	top: -175px;
+}
+
+#name{
+	position: relative;
+	top: -100px;
+	left: 150px;
 }
 
 #logo{

@@ -1,13 +1,22 @@
 .primary-nav {
   background: #3b5998;
   color: #fff; }
+  .primary-nav img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; }
+  .primary-nav .nav li a {
+    color: #fff; }
 
-.navbar img {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%; }
-.navbar .nav li a {
-  color: #fff; }
+#profile-pic {
+  position: absolute;
+  height: 200px;
+  top: -175px; }
+
+#name {
+  position: relative;
+  top: -100px;
+  left: 150px; }
 
 #logo {
   color: #fff; }
