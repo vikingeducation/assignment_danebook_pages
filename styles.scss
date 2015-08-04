@@ -23,6 +23,39 @@ $secondary-light: #f7f7f7;
 	}
 }
 
+.secondary-nav{
+	border: 1px solid $secondary-light;
+	li{
+		a{
+			border: 1px solid $secondary-light;
+			font-weight: 400;
+			color: $primary-color;
+		}
+	}
+}
+
+.clear{
+	clear: both;
+}
+
+.main-header{
+	text-align: center;
+
+	h1{
+		display: inline-block;
+	}
+
+	a{
+		display: inline-block;
+		float: right;
+		vertical-align: middle;
+	}
+}
+
+.btn-edit{
+
+}
+
 .container{
 	//width: 960px !important;
 }

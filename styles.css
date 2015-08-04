@@ -8,6 +8,25 @@
   .primary-nav .nav li a {
     color: #fff; }
 
+.secondary-nav {
+  border: 1px solid #f7f7f7; }
+  .secondary-nav li a {
+    border: 1px solid #f7f7f7;
+    font-weight: 400;
+    color: #3b5998; }
+
+.clear {
+  clear: both; }
+
+.main-header {
+  text-align: center; }
+  .main-header h1 {
+    display: inline-block; }
+  .main-header a {
+    display: inline-block;
+    float: right;
+    vertical-align: middle; }
+
 #profile-pic {
   position: absolute;
   height: 200px;
