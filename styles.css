@@ -136,11 +136,15 @@ body{
   margin: 30px 15px 15px 15px;
 }
 
+.photos-sm{
+  margin: 10px 0px 5px 0px;
+}
+
 .photos:last-child{
   margin-bottom: 30px;
 }
 
-.photos .col-xs-3 img{
+.photos img{
   width: 100%;
 }
 
@@ -170,7 +174,54 @@ body{
   display: block;
 }
 
+/* Friends */
+.friends-list:last-child{
+  margin-bottom:23px;
+}
 
+.friend{
+  border: 1px solid #e7e7e7;
+  padding: 10px;
+  width: 45%;
+  margin: 23px 23px 0px 23px;
+}
+
+.friend-pic{
+  width: 100%;
+}
+
+.hcenter{
+  text-align: center;
+}
+
+.vcenter{
+  display: flex;
+  align-items: center;
+}
+
+/* Timeline */
+.box{
+  border: 1px solid #e7e7e7;
+  margin-bottom: 30px;
+}
+
+.box-header{
+  line-height:;
+}
+
+.box h2{
+  text-align: center;
+  border-bottom:1px solid #e7e7e7;
+}
+
+.box table{
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.box th{
+  width: 30px;
+}
 
 /* Media Queries */
 
