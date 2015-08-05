@@ -131,6 +131,49 @@ body{
   margin-bottom: 20px;
 }
 
+/* Photos */
+.photos{
+  margin: 30px 15px 15px 15px;
+}
+
+.photos:last-child{
+  margin-bottom: 30px;
+}
+
+.photos .col-xs-3 img{
+  width: 100%;
+}
+
+.photo_caption{
+  display: none;
+  color: rgba(255,255,255,.7);
+  background: rgba(0,0,0, .5);
+  position: absolute;
+  bottom: 0;
+  width: 197px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.photos a img:hover{
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
+}
+
+.photos a:hover + div{
+  display: block;
+}
+
+.photos a + div:hover{
+  display: block;
+}
+
+
+
+/* Media Queries */
+
 @media (min-width:1200px){
   .container{
     max-width:970px;

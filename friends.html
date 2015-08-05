@@ -1,1 +1,139 @@
-<!-- Your markup here! -->
+<!-- Your markup here! --><!DOCTYPE html>
+<html>
+<head>
+	<!-- Title and Meta -->
+	<title>About</title>
+	<meta charset="utf-8">
+
+	<!-- Bootstrap -->
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top primary-nav">
+		<div class="container fluid">
+			<!-- Navbar Header -->
+			<!-- Brand and Toggle -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-content" aria-expanded="false">
+				 	<span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a href="#" class="navbar-brand"><img src="assets/danish_flag.gif"></a>
+	      <a id="logo" class="navbar-brand" href="#">Danebook</a>
+    	</div>
+
+    	<!-- Navbar Content -->
+    	<div class="collapse navbar-collapse" id="navbar-content">
+    		<form class="navbar-form navbar-left" role="search" method="get">
+    			<div class="form-group">
+    				<input type="text" id="search-bar" class="form-control" name="search" placeholder="Search Danebook">
+    			</div>
+    		</form>
+    		<ul class="nav navbar-nav navbar-right">
+    			<li><a href="timeline.html">Harry</a></li>
+    		</ul>
+  		</div>
+		</div>
+	</nav>
+
+	<section class="wrapper container">
+		<!-- Hero -->
+		<section class="hero">
+			<img id="cover-photo" src="assets/hogwarts_small.jpg">
+			<nav class="navbar navbar-default secondary-nav">
+				<div class="container ">
+					<div class="navbar-header">
+						<img id="profile-pic" src="assets/harry_potter_small.jpg">
+						<li><h1 id="name">Harry Potter</h1></li>
+					</div>
+					<ul class="nav navbar-nav">
+						
+						<!-- <li class="space-holder">&nbsp;</li> -->
+						<li class="space-left"><a href="timeline.html">Timeline</a></li>
+						<li class="active"><a href="about.html">About</a></li>
+						<li><a href="photos.html">Photos</a></li>
+						<li><a href="friends.html">Friends</a></li>
+					</ul>
+				</div>
+			</nav>
+		</section>
+
+		<!-- Main -->
+		<main class="main">
+			<header class="main-header clear">
+				<h1>Edit Profile</h1>
+			</header>
+			<div class="row">
+				<section class="info col-sm-5">
+					<h2>Basic Information</h2>
+					<table class="table table-noborder">
+						<tbody>
+							<tr>
+								<th>Birthday</th>
+								<td>July 31st, 1980</td>
+							</tr>
+							<tr>
+								<th>College</th>
+								
+								<td>
+									<input type="text" class="form-control" value="Hogwarts">
+								</td>
+							</tr>
+							<tr>
+								<th>Hometown</th>
+								<td>
+									<input type="text" class="form-control" value="Godrick's Hollow, England">
+								</td>
+							</tr>
+							<tr>
+								<th>Currently lives: </th>
+								<td>
+									<input type="text" class="form-control" value="Godrick's Hollow, England">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h2>Contact Information</h2>
+					<table class="table table-noborder">
+						<tbody>
+							<tr>
+								<th>Email:</th>
+								<td>harry_potter@hogwarts.edu</td>
+							</tr>
+							<tr>
+								<th>Telephone</th>
+								<td>
+									<input type="text" class="form-control" value="(123)456-7890">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section class="about-me col-sm-7">
+					<h2>Words to Live By</h2>
+					<textarea rows="2" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</textarea>
+					<h2>About Me</h2>
+					<textarea rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+				</section>
+			</div>
+			<div class="row text-center space-bottom">
+				<a href="about.html"><button class="btn btn-primary btn-save">Save</button></a>
+			</div>
+		</main>
+	</section>
+
+</body>
+</html>
