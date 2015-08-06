@@ -35,10 +35,20 @@
   text-align: center; }
   .main-header h1 {
     display: inline-block; }
-  .main-header a {
+/*  .main-header a {
     display: inline-block;
     float: right;
-    vertical-align: middle; }
+    vertical-align: middle; }*/
+
+.btn-edit{
+  margin-top: 17px;
+  margin-right: 17px;
+}
+
+.btn-nav-edit{
+  position: absolute;
+  right: 16px;
+}
 
 #profile-pic {
   position: absolute;
@@ -146,6 +156,7 @@ body{
 
 .photos img{
   width: 100%;
+  border-radius: 2px;
 }
 
 .photo_caption{
@@ -190,6 +201,14 @@ body{
   width: 100%;
 }
 
+.friend-info{
+  margin-top: 20px;
+}
+
+.btn-unfriend{
+  margin-top: 5px;
+}
+
 .hcenter{
   text-align: center;
 }
@@ -206,21 +225,92 @@ body{
 }
 
 .box-header{
-  line-height:;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .box h2{
   text-align: center;
-  border-bottom:1px solid #e7e7e7;
 }
 
 .box table{
+  margin-top: 10px;
   margin-left: 10px;
   margin-right: auto;
 }
 
 .box th{
   width: 30px;
+}
+
+.friends-box .photos img{
+  width: 100%;
+}
+
+.post-form{
+  margin: 20px 20px;
+}
+
+.btn-post{
+  margin: 5px 20px 5px 0;
+  width: 100px;
+}
+
+.box-footer{
+  border-top: 1px solid #e7e7e7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.space-right-sm{
+  margin-right: 10px;
+}
+
+.post-pic{
+  margin: 10px;
+  border-radius: 2px;
+  width: 50px;
+}
+
+.float-left{
+  float:left;
+}
+
+
+.post-text{
+  padding: 5px 30px 20px 30px;
+}
+
+.post-info,
+.post-header .col-xs-5{
+  margin-top: 15px;
+  margin-left: 30px;
+  padding-left: 0;
+}
+
+.light,
+.post-header .col-xs-5 time{
+  opacity: .5;
+  font-size: 14px;
+}
+
+.fixed-width{
+  width: 200px;
+}
+
+.post-options a{
+  text-decoration: underline;
+}
+
+.likes{
+  margin-top: 15px;
+}
+
+.comments{
+
+}
+
+.post-comment{
+  border-top: 1px solid #e7e7e7;
 }
 
 /* Media Queries */

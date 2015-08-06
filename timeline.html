@@ -66,6 +66,9 @@
 						<li><a href="photos.html">Photos</a></li>
 						<li><a href="friends.html">Friends</a></li>
 					</ul>
+					<ul class="nav navbar-nav pull-right">
+						<li class="btn-nav-edit"><a href="about_edit.html" >Edit Profile</a></li>
+					</ul>
 				</div>
 			</nav>
 		</section>
@@ -75,7 +78,7 @@
 			<div class="row">
 				<section class="timeline-left col-sm-4">
 					<section class="box about-box">
-						<h2 class="box-header">Basic Information</h2>
+						<div class="box-header"><h2>Basic Information</h2></div>
 						<table class="table table-noborder">
 							<tbody>
 								<tr>
@@ -99,60 +102,217 @@
 					</section>
 
 					<section class="box photo-box">
-						<h2 class="box-header">Photos</h2>
+						<div class="box-header"><h2>Photos</h2></div>
 						<div class="row photos photos-sm">
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 						</div>
 						<div class="row photos photos-sm">
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 						</div>
 						<div class="row photos photos-sm">
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
 							</div>
 							<div class="col-xs-4">
-								<a href="#"><img src="assets/harry_potter_small.jpg"></a> 
-								
+								<a href="#"><img src="assets/harry_potter_small.jpg"></a>
+							</div>
+						</div>
+					</section>
+
+					<section class="box friends-box">
+						<div class="box-header"><h2>Friends (500)</h2></div>
+						<div class="row photos photos-sm">
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/user_silhouette_generic.gif"></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/user_silhouette_generic.gif"></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/user_silhouette_generic.gif"></a>
+							</div>
+						</div>
+						<div class="row photos photos-sm">
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/user_silhouette_generic.gif"></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/user_silhouette_generic.gif"></a>
+							</div>
+							<div class="col-xs-4">
+								<a href="#"><img src="assets/user_silhouette_generic.gif"></a>
 							</div>
 						</div>
 					</section>
 				</section>
-				<section class="about-me col-sm-8">
-					<h2>Words to Live By</h2>
-					<textarea rows="2" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</textarea>
-					<h2>About Me</h2>
-					<textarea rows="8" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+				<section class="timeline-right col-sm-8">
+					<section class="box post-box">
+						<div class="box-header"><h2>Post</h2></div>
+						<div class="form-group post-form">
+							<textarea class="form-control" placeholder="What's on your mind?"></textarea>
+						</div>
+						<div class="box-footer container-fluid">
+							<button class="btn btn-primary btn-post pull-right">Post</button>
+						</div>
+					</section>
+
+					<section class="box post-box">
+						<div class="post-header row row-eq-height">
+							<div class="col-xs-1">
+								<a href="#"><img src="assets/harry_potter_small.jpg" class="post-pic"></a>
+							</div>
+							<div class="col-xs-5">
+								<a href="#">Harry Potter</a><br>
+								<time datetime="06-01-2014">Posted on Thursday 6/1/2014</time>
+							</div>
+						</div>
+						<div class="row post-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+						<div class="box-footer container-fluid">
+							<div class="pull-left post-options">
+								<a href="#" class="space-right-sm">Like</a>
+								&nbsp;
+								<a href="#">Comment</a>
+							</div>
+							<div class="pull-right">
+								<a href="#">Delete</a>
+							</div>
+						</div>
+					</section>
+
+					<section class="box post-box">
+						<div class="post-header row row-eq-height">
+							<div class="col-xs-1">
+								<a href="#"><img src="assets/harry_potter_small.jpg" class="post-pic"></a>
+							</div>
+							<div class="col-xs-5">
+								<a href="#">Harry Potter</a><br>
+								<time datetime="02-21-2014">Posted on Thursday 5/21/2014</time>
+							</div>
+						</div>
+						<div class="row post-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+						<div class="box-footer container-fluid">
+							<div class="pull-left post-options">
+								<a href="#" class="space-right-sm">Like</a>
+								&nbsp;
+								<a href="#">Comment</a>
+							</div>
+							<div class="pull-right">
+								<a href="#">Delete</a>
+							</div>
+							<div class="likes">
+								<br>
+								<a href="#">Hermione Granger</a> likes this.
+							</div>
+						</div>
+					</section>
+
+					<section class="box post-box">
+						<div class="post-header row row-eq-height">
+							<div class="col-xs-1">
+								<a href="#"><img src="assets/harry_potter_small.jpg" class="post-pic"></a>
+							</div>
+							<div class="col-xs-5">
+								<a href="#">Harry Potter</a><br>
+								<time datetime="05-10-2014">Posted on Sunday 5/10/2014</time>
+							</div>
+						</div>
+						<div class="row post-text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+						<div class="box-footer container-fluid">
+							<div class="pull-left post-options">
+								<a href="#" class="space-right-sm">Like</a>
+								&nbsp;
+								<a href="#">Comment</a>
+							</div>
+							<div class="pull-right">
+								<a href="#">Delete</a>
+							</div>
+							<div class="likes">
+								<br>
+								You, <a href="#">Hermione Granger</a> and <a href="#">3 others</a> like this.
+							</div>
+						</div>
+						<div class="comments">
+							<div class="comment row">
+								<div class="col-xs-1">
+								<a href="#"><img src="assets/harry_potter_small.jpg" class="post-pic"></a>
+								</div>
+								<div class="col-xs-5 post-info comment">
+									<a href="#">Harry Potter</a> I am champion
+									<br>
+									<time datetime="05-10-2014" class="light">Sunday 5/10/2014 at 4:20pm</time> · <a href="#" class="space-right-sm">Like</a>
+								</div>
+							</div>
+							<div class="comment row">
+								<div class="col-xs-1">
+								<a href="#"><img src="assets/user_silhouette_generic.gif" class="post-pic"></a>
+								</div>
+								<div class="col-xs-5 post-info comment">
+									<a href="#">Hermione Granger</a> lol
+									<br>
+									<time datetime="05-10-2014" class="light">Sunday 5/10/2014 at 4:21pm</time> · <a href="#" class="space-right-sm">Like</a>
+								</div>
+							</div>
+							<div class="comment row">
+								<div class="col-xs-1">
+								<a href="#"><img src="assets/user_silhouette_generic.gif" class="post-pic"></a>
+								</div>
+								<div class="col-xs-6 post-info comment">
+									<a href="#">Ron Weasley</a> poop
+									<br>
+									<time datetime="05-10-2014" class="light">Sunday 5/10/2014 at 4:21pm</time> · <a href="#">Like</a> · <a href="#">3</a> likes
+								</div>
+							</div>
+							<div class="post-comment">
+								<div class="form-group post-form">
+									<textarea class="form-control" rows="3" placeholder="Write a comment..."></textarea>
+								</div>
+								<div class="box-footer container-fluid">
+									<button class="btn btn-primary btn-post pull-right">Post</button>
+								</div>
+							</div>
+						</div>
+					</section>
 				</section>
-			</div>
-			<div class="row text-center space-bottom">
-				<a href="about.html"><button class="btn btn-primary btn-save">Save</button></a>
 			</div>
 		</main>
 	</section>
