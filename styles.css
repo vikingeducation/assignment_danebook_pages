@@ -161,4 +161,37 @@ main {
   margin: 5px 10px 5px 0;
   width: 20%; }
 
+.post-spacing {
+  height: 20px; }
+
+.post-bg {
+  background-color: #fff; }
+
+.poster-pic {
+  margin: 5px;
+  max-height: 100px;
+  max-width: 100px; }
+
+.post-author {
+  margin: 20px 0 0 0;
+  font-size: 18px; }
+
+.post-datetime {
+  color: #999; }
+
+.post-content {
+  margin: 10px; }
+
+.like-link {
+  margin: 10px 5px 10px 20px;
+  display: inline-block; }
+
+.comment-link {
+  margin: 10px 0 10px 10px;
+  display: inline-block; }
+
+.delete-link {
+  float: right;
+  margin: 10px 10px 10px 0; }
+
 /*# sourceMappingURL=styles.css.map */
