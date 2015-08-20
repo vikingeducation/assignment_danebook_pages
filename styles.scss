@@ -313,3 +313,38 @@ about-panel {
 .friend-panel-name {
   text-align: center;
 }
+
+.friend-display {
+  border: 1px solid #aaa;
+  margin: 15px 0 15px 0
+}
+
+.friend-prof-pic {
+  max-height: 75px;
+  max-width: 75px;
+  margin: 10px;
+  float: left;
+
+}
+
+.friend-info {
+  float: left;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 15px;
+}
+
+.friend-info-fcount {
+  font-size: 14px;
+  color: #999;
+}
+
+.unfriend-wrapper {
+  float: right;
+  margin: 30px 30px 0 0;
+}
+
+.unfriend-cta {
+  border-radius: 0;
+}
+
