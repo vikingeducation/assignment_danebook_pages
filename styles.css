@@ -279,4 +279,10 @@ about-panel {
 .unfriend-cta {
   border-radius: 0; }
 
+.photo-display {
+  border: 1px solid #aaa; }
+
+.photo-content-top-margin {
+  margin-top: 15px; }
+
 /*# sourceMappingURL=styles.css.map */
