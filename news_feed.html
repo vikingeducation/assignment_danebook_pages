@@ -14,7 +14,7 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 
-		<title>Danebook | Timeline</title>
+		<title>Danebook | News Feed</title>
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -26,7 +26,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<!-- My Styles -->
-		<link rel="stylesheet" href="/assets/styles/css/timeline.css"/>
+		<link rel="stylesheet" href="/assets/styles/css/news_feed.css"/>
 
 	</head>
 	<body>
@@ -92,141 +92,229 @@
 
 		<!-- Main Content -->
 		<main id="main-content" class="container">
-			
-			<!-- Profile Header -->
-			<header id="profile-header" class="row">
-				
-				<!-- Cover Image -->
-				<div class="col-xs-12">
-					<div class="cover-image-container"></div>
-				</div>
-				
-				<div class="col-xs-12">
-					
-					<!-- Profile Image -->
-					<div class="profile-image-container">
-						<img src="/assets/images/harry_potter_small.jpg" alt="Profile Image"/>
-					</div>
 
-					<!-- Profile Nav -->
-					<div class="row profile-nav-container">
-						
-						<div class="col-sm-1 col-sm-offset-3">
-							<a class="current" href="/timeline.html">
-								Timeline
-							</a>
-						</div>
-						<div class="col-sm-1">
-							<a href="/about.html">
-								About
-							</a>
-						</div>
-						<div class="col-sm-2">
-							<a href="/photos.html">
-								Photos (123)
-							</a>
-						</div>
-						<div class="col-sm-2">
-							<a href="/friends.html">
-								Friends (567)
-							</a>
-						</div>
-						<div class="col-sm-3 edit">
-							<a href="/about_edit.html">
-								Edit Profile
-							</a>
-						</div>
-
-					</div>
-
-				</div>
-
-			</header>
-
-			<!-- Profile Page / Timeline -->
-			<section id="timeline" class="row profile-page-container row-offcanvas row-offcanvas-left">
+			<!-- Profile Page / News Feed -->
+			<section id="news-feed" class="row profile-page-container row-offcanvas row-offcanvas-left">
 
 				<!-- Details -->
-				<div class="col-sm-4 details-container sidebar-offcanvas">
+				<div class="col-sm-3 details-container sidebar-offcanvas">
 
 					<div class="row">
 
-						<!-- About -->
-						<section id="about" class="col-xs-10 col-sm-12">
-							<header class="details-header">
-								<h1>
-									About
-								</h1>
-							</header>
-							<div class="about-container">
-								<dl>
-									<dt>Birthday:</dt><dd>July 31st, 1980</dd>
-									<dt>College:</dt><dd>Magic School</dd>
-									<dt>Hometown:</dt><dd>Magicville, Earth</dd>
-									<dt>Currently Lives:</dt><dd>Magicville, Earth</dd>
-								</dl>
+						<!-- Profile Avatar -->
+						<section id="profile-avatar" class="col-xs-12">
+							<div class="row">
+								<div class="col-md-12 col-lg-6">
+									<div class="profile-image-container">
+										<a href="/about.html">
+											<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-6">
+									<div class="profile-avatar-links-container">
+										<a class="profile-link" href="/about.html">
+											Harry Potter
+										</a>
+										<a href="/about_edit.html">
+											Edit Profile
+										</a>
+									</div>
+								</div>
 							</div>
 						</section>
 
-						<!-- Photos -->
-						<section id="photos" class="col-xs-10 col-sm-12">
+						<!-- Recently Active -->
+						<section id="recently-active" class="col-xs-12">
 							<header class="details-header">
 								<h1>
-									Photos
+									Recently Active
 								</h1>
 							</header>
 
-							<!-- Photo -->
-							<div class="photos-container">
+							<!-- Activity Links -->
+							<div class="activity-container">
 
 								<div class="row">
-									
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
+
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
 									</div>
 
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
 									</div>
 
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
 									</div>
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
+
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
 									</div>
-									<div class="col-xs-12 col-sm-4">
-										<a href="/photos.html">
-											<img src="/assets/images/icon_photo_small.png" alt="Photo"/>
-										</a>
+
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
+									</div>
+
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
+									</div>
+
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
+									</div>
+
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
+									</div>
+
+									<div class="activity-link-container col-xs-12">
+										<div class="row">
+												<div class="col-md-12 col-lg-3">
+													<div class="profile-image-container">
+														<a href="/about.html">
+															<img src="/assets/images/harry_potter_small.jpg" alt="Image"/>
+														</a>
+													</div>
+												</div>
+												<div class="col-md-12 col-lg-8 col-lg-offset-1 activity-info-container">
+													<a href="/about.html">
+														Harry Potter
+													</a>
+													<time>
+														Commented on Thursday 7/30/2015
+													</time>
+												</div>
+										</div>	
 									</div>
 
 								</div>
@@ -234,66 +322,7 @@
 							</div>
 							<footer>
 								<a href="/photos.html">
-									See More Photos
-								</a>
-							</footer>
-						</section>
-
-						<!-- Friends -->
-						<section id="friends" class="col-xs-10 col-sm-12">
-							<header class="details-header">
-								<h1>
-									Friends
-								</h1>
-							</header>
-							<div class="friends-container">
-
-								<div class="row">
-									
-									<div class="col-xs-12 col-sm-4">
-										<img src="/assets/images/user_silhouette_generic.gif.png" alt="Friend"/>
-										<a href="#">
-											Friend's Name
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<img src="/assets/images/user_silhouette_generic.gif.png" alt="Friend"/>
-										<a href="#">
-											Friend's Name
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<img src="/assets/images/user_silhouette_generic.gif.png" alt="Friend"/>
-										<a href="#">
-											Friend's Name
-										</a>
-									</div>
-
-									<div class="col-xs-12 col-sm-4">
-										<img src="/assets/images/user_silhouette_generic.gif.png" alt="Friend"/>
-										<a href="#">
-											Friend's Name
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<img src="/assets/images/user_silhouette_generic.gif.png" alt="Friend"/>
-										<a href="#">
-											Friend's Name
-										</a>
-									</div>
-									<div class="col-xs-12 col-sm-4">
-										<img src="/assets/images/user_silhouette_generic.gif.png" alt="Friend"/>
-										<a href="#">
-											Friend's Name
-										</a>
-									</div>
-
-								</div>
-
-							</div>
-							<footer>
-								<a href="/photos.html">
-									See More Friends
+									See All Your Friends
 								</a>
 							</footer>
 						</section>
@@ -301,8 +330,8 @@
 
 				</div>
 
-				<!-- Timeline -->
-				<div class="col-sm-7 col-sm-offset-1 timeline-container">
+				<!-- News Feed -->
+				<div class="col-sm-8 col-sm-offset-1 news-feed-container">
 
 					<div class="pull-left visible-xs offcanvas-toggle-container">
 						<button type="button" class="btn btn-primary offcanvas-toggle" data-toggle="offcanvas">
@@ -605,8 +634,6 @@
 						</div>
 
 					</div>
-
-				</div>
 
 			</section>
 
