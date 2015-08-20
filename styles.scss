@@ -54,7 +54,7 @@ body {
 
 .profile-name {
   color: #fff;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
   margin-top: -50px;
 }
@@ -66,3 +66,34 @@ body {
   margin-top: -25px;
 }
 
+.nav-pills > li + li {
+  margin-left: 0px;
+  border: none;
+}
+
+
+.tl-menu .tl-menu-link {
+  padding: 10px;
+  border-radius: 0px;
+  margin-top: 4px;
+  border: none;
+}
+
+.count-disp {
+  float: right;
+  margin-left: 5px;
+  color: #aaa;
+}
+
+.v-line {
+  float: left;
+  height: 40px;
+  margin-top: 4px;
+  border-left: 1px solid #ddd;
+}
+
+.tl-edit-profile {
+  float: right;
+  position: relative;
+  margin-top: -30px;
+}
