@@ -159,7 +159,8 @@ main {
 
 .post-cta {
   margin: 5px 10px 5px 0;
-  width: 20%; }
+  border-radius: 0;
+  width: 30%; }
 
 .post-spacing {
   height: 20px; }
@@ -168,9 +169,7 @@ main {
   background-color: #fff; }
 
 .poster-pic {
-  margin: 5px;
-  max-height: 100px;
-  max-width: 100px; }
+  margin: 5px; }
 
 .post-author {
   margin: 20px 0 0 0;
@@ -186,6 +185,10 @@ main {
   margin: 10px 5px 10px 20px;
   display: inline-block; }
 
+.unlike-link {
+  margin: 20px;
+  display: inline-block; }
+
 .comment-link {
   margin: 10px 0 10px 10px;
   display: inline-block; }
@@ -196,5 +199,28 @@ main {
 
 .post-response-bg {
   background-color: #d8d8d8; }
+
+.commentor-pic {
+  margin: 0 5px 0 15px; }
+
+.comment-info {
+  font-size: 16px; }
+
+.comment-content {
+  margin-top: 30px; }
+
+.h-line {
+  height: 1px;
+  border-top: 1px solid #aaa;
+  width: 100%; }
+
+.comment-spacing {
+  padding: 20px 0 20px 0; }
+
+.cancel-link {
+  float: left;
+  margin: 10px 0 -30px 40px;
+  position: relative;
+  z-index: 2; }
 
 /*# sourceMappingURL=styles.css.map */
