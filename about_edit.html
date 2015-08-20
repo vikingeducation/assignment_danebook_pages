@@ -21,6 +21,7 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Top Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="row">
@@ -30,7 +31,17 @@
               <img class="img-circle" alt="Logo" src="images/danish_flag_icon.png">
             </a>
             <a class="navbar-brand" href="#">Danebook</a>
+            <!-- Navbar responsive collapse button -->
+            <!-- the data-target value targets the ID found in the collapsable portion -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           </div>
+
+          <div id="top-navbar" class="navbar-collapse collapse">
           <!-- Navbar search box -->
           <div class="col-xs-7 nav-search-box">
           <form class="form-horizontal" role="search">
@@ -44,10 +55,6 @@
           <!-- Username CTA to timeline-->
           <ul class="nav col-xs-2">
             <li>
-              <!--<a href="timeline.html">Harry</a>-->
-              <!--<button class="btn btn-primary username-cta">
-                <a href="timeline.html">Harry</a>
-              </button>-->
               <a class="btn btn-primary btn-sm username-cta" role="button" href="timeline.html">
                 Harry
               </a>
@@ -55,12 +62,99 @@
           </ul>
         </div>
       </div>
+      </div>
     </nav>
+    <!-- End of Top Navbar -->
 
     <main>
       <!-- Start of container for main content-->
       <section class="container">
+        <!-- Cover photo -->
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="images/hogwarts_small.jpg" class="cover-photo">
+          </div>
+        </div>
 
+        <!-- Profile pic -->
+        <div class="row">
+          <div class="col-xs-2 col-sm-2">
+            <img src="images/harry_potter_profile.png" class="img-thumbnail profile-photo">
+          </div>
+          <div class="col-xs-offset-5 col-xs-5 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-4 profile-name">
+            Harry Potter
+          </div>
+        </div>
+
+        <!-- Timeline menu -->
+        <div class="row">
+          <div class="col-xs-12">
+            <nav class="navbar navbar-default timeline-nav">
+              <div class="navbar-header">
+                <!-- Navbar responsive collapse button -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#timeline-navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+              </div>
+
+              <!-- Timeline Menu Links-->
+              <div id="timeline-navbar" class="navbar-collapse collapse">
+                <ul class="nav nav-pills tl-menu col-sm-offset-4 col-md-offset-3">
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link" role="button" href="timeline.html">
+                      Timeline
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link active" role="button" href="about.html">
+                      About
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link" role="button" href="photos.html">
+                      Photos
+                      <p class="count-disp">(9000)</p>
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link" role="button" href="friends.html">
+                      Friends
+                      <p class="count-disp">(9000)</p>
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                </ul>
+              </div>
+              <!-- End of Timeline Menu links -->
+            </nav>
+          </div>
+        </div>
+        <!-- End of Timeline Menu -->
+
+        <!-- About Section -->
+        <div class="row">
+          <!-- About Header -->
+          <div class="col-xs-12">
+            <nav class="navbar navbar-default about-nav">
+              <p class="box-header">Edit Profile</p>
+            </nav>
+          </div>
+        </div>
+        <!-- End of About Header -->
+
+        <!-- End of About Section -->
       </section>
       <!-- container end -->
 
