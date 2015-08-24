@@ -1,1 +1,262 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome to Danebook</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS styling -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <!-- Danebook flag and text logo -->
+          <div class="navbar-header">
+            <a class="navbar-brand navbar-brand-img" href="timeline.html">
+              <img class="img-circle" alt="Logo" src="images/danish_flag_icon.png">
+            </a>
+            <a class="navbar-brand" href="#">Danebook</a>
+            <!-- Navbar responsive collapse button -->
+            <!-- the data-target value targets the ID found in the collapsable portion -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="top-navbar" class="navbar-collapse collapse">
+          <!-- Navbar search box -->
+          <div class="col-xs-7 nav-search-box">
+          <form class="form-horizontal" role="search">
+            <div class="form-group">
+              <div class="col-xs-12">
+                <input type="text" class="form-control input-sm" placeholder="Search for Users">
+              </div>
+            </div>
+          </form>
+          </div>
+          <!-- Username CTA to timeline-->
+          <ul class="nav">
+            <li>
+              <a class="btn btn-primary btn-sm username-cta" role="button" href="timeline.html">
+                Harry
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!-- End of Top Navbar -->
+
+    <main>
+      <!-- Start of container for main content-->
+      <section class="container">
+        <!-- Cover photo -->
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="images/hogwarts_small.jpg" class="cover-photo">
+          </div>
+        </div>
+
+        <!-- Profile pic -->
+        <div class="row">
+          <div class="col-xs-2 col-sm-2">
+            <img src="images/harry_potter_profile.png" class="img-thumbnail profile-photo">
+          </div>
+          <div class="col-xs-offset-5 col-xs-5 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-4 profile-name">
+            Harry Potter
+          </div>
+        </div>
+
+        <!-- Timeline menu -->
+        <div class="row">
+          <div class="col-xs-12">
+            <nav class="navbar navbar-default timeline-nav">
+              <div class="navbar-header">
+                <!-- Navbar responsive collapse button -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#timeline-navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+              </div>
+
+              <!-- Timeline Menu Links-->
+              <div id="timeline-navbar" class="navbar-collapse collapse">
+                <ul class="nav nav-pills tl-menu col-sm-offset-4 col-md-offset-3">
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link" role="button" href="timeline.html">
+                      Timeline
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link active" role="button" href="about.html">
+                      About
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link" role="button" href="photos.html">
+                      Photos
+                      <p class="count-disp">(9000)</p>
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                  <li>
+                    <a class="btn btn-default tl-menu-link" role="button" href="friends.html">
+                      Friends
+                      <p class="count-disp">(9000)</p>
+                    </a>
+                  </li>
+                  <!--vertical divider-->
+                  <div class="v-line"></div>
+                </ul>
+              </div>
+              <!-- End of Timeline Menu links -->
+            </nav>
+          </div>
+        </div>
+        <!-- End of Timeline Menu -->
+
+        <!-- Edit Profile Section -->
+        <div class="row">
+          <!-- Edit Profile Header -->
+          <div class="col-xs-12">
+            <nav class="navbar navbar-default about-nav">
+              <p class="box-header">Edit Profile</p>
+            </nav>
+          </div>
+        </div>
+        <!-- End of Edit Profile Header -->
+
+        <!-- Edit Profile Contents -->
+        <div class="row">
+          <div class="col-xs-12">
+            <div clas="row">
+              <div class="col-xs-12 about-info">
+                <!-- Left Column -->
+                <div class="col-sm-6">
+                  <div class="row">
+                    <h3>Basic Information</h3>
+                    <form class="form-horizontal edit-basic-info">
+                      <div class="form-group">
+                        <label for="edit-bday" class="col-xs-4 control-label">Birthday:</label>
+                        <div class="col-xs-offset-2 col-xs-6">
+                          July 31st, 1980
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="edit-college" class="col-xs-4 control-label">College:</label>
+                        <div class="col-xs-offset-2 col-xs-6">
+                          <input type="text" class="form-control" id="edit-college" value="Hogwarts College">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="edit-hometown" class="col-xs-4 control-label">Hometown:</label>
+                        <div class="col-xs-offset-2 col-xs-6">
+                          <input type="text" class="form-control" id="edit-hometown" value="Godrick's Hollow, England">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="edit-living" class="col-xs-4 control-label">Currently Lives:</label>
+                        <div class="col-xs-offset-2 col-xs-6">
+                          <input type="text" class="form-control" id="edit-living" value="Godrick's Hollow, England">
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                  <div class="row">
+                    <h3>Contact Information</h3>
+                    <form class="form-horizontal edit-basic-info">
+                      <div class="form-group">
+                        <label for="edit-email" class="col-xs-4 control-label">Email:</label>
+                        <div class="col-xs-offset-2 col-xs-6">
+                          <input type="text" class="form-control" id="edit-email" value="harry_potter@hogwarts.edu">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="edit-phone" class="col-xs-4 control-label">Telephone:</label>
+                        <div class="col-xs-offset-2 col-xs-6">
+                          <input type="text" class="form-control" id="edit-phone" value="555-123-4567">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- End of Left Column -->
+
+                <!-- Right Column -->
+                <div class="col-sm-6">
+                  <div class="row">
+                    <h3>Words to Live By</h3>
+                    <form class="form col-xs-12">
+                      <div class="input-group textarea-size">
+                        <textarea class="form-control edit-textarea" rows="6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </textarea>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="row">
+                    <h3>About Me</h3>
+                    <form class="form col-xs-12">
+                      <div class="input-group textarea-size">
+                        <textarea class="form-control edit-textarea" rows="6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </textarea>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- End of Right Column -->
+              </div>
+            </div>
+
+            <!-- Edit Profile Save Changes CTA -->
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="edit-save-bg text-center">
+                <button type="submit" class="btn btn-primary btn-lg edit-save-cta">Save Changes</button>
+                </div>
+              </div>
+            </div>
+            <!-- End of Save changes CTA -->
+
+          </div>
+        </div>
+        <!-- End of Edit Profile Section -->
+      </section>
+      <!-- container end -->
+
+    </main>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
