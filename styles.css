@@ -11,7 +11,7 @@ main {
   border-color: black;
   box-shadow: 0px 4px 2px -3px gray; }
   .navbar-default .navbar-header {
-    margin: 5px 0 0 0; }
+    margin: 5px 0 0 15px; }
   .navbar-default .navbar-header .navbar-brand {
     color: #fff;
     font-size: 22px;
@@ -24,7 +24,7 @@ main {
   color: #fff;
   background-color: #2B78E4;
   border: none;
-  margin: 10px 0 0 0;
+  margin: 10px 15px 0 0;
   font-size: 14px;
   float: right; }
 
