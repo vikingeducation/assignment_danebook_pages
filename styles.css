@@ -89,7 +89,6 @@ main {
   padding: 0; }
 
 .box-header {
-  float: left;
   text-align: center;
   width: 100%;
   font-size: 26px;
@@ -99,7 +98,7 @@ main {
 
 .about-edit-profile {
   float: right;
-  margin-top: -40px;
+  margin-top: -44px;
   margin-right: 20px;
   background-color: #2B78E4;
   color: #fff;
@@ -114,8 +113,6 @@ main {
 
 .about-info {
   background-color: #fff;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
   margin: 0;
   padding: 0; }
   .about-info h3 {
@@ -279,10 +276,19 @@ about-panel {
 .unfriend-cta {
   border-radius: 0; }
 
-.photo-display {
-  border: 1px solid #aaa; }
-
-.photo-content-top-margin {
-  margin-top: 15px; }
+.photo-pic {
+  margin: 15px 0 15px 0; }
+  .photo-pic .photo-date {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    z-index: 50;
+    bottom: 0;
+    background-color: #ddd;
+    border: 1px solid black; }
+  .photo-pic .photo-hover:hover + .photo-date {
+    display: block; }
 
 /*# sourceMappingURL=styles.css.map */
