@@ -14,4 +14,12 @@
 .navbar-nav.navbar-right:last-child {
   margin-right: 0; }
 
+/*
+ * Header - cover and profile photos as well as profile nav
+ */
+#profile-pic-container {
+  margin: -143px 0 0 15px; }
+  #profile-pic-container img {
+    max-height: 170px; }
+
 /*# sourceMappingURL=style.css.map */
