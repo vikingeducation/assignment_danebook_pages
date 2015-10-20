@@ -45,5 +45,7 @@ main {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0; }
+    main .panel .panel-title {
+      font-size: 2em; }
 
 /*# sourceMappingURL=style.css.map */
