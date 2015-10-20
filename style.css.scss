@@ -82,9 +82,12 @@ main {
       font-size: 2em;
     }
 
-    dt, dd {
-      text-align: left;
-      line-height: 2em;
+    dt, dd, .about-info {
+      line-height: 3em;
+    }
+
+    #save-profile {
+      margin: 40px 0 70px;
     }
   }
 }
