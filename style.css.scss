@@ -32,9 +32,10 @@
 
 // Profile photo
 #profile-pic-container {
-  margin: -143px 0 0 15px;
+  margin-top: -143px;
 
   img {
     max-height: 170px;
+    margin-left: 15px;
   }
 }

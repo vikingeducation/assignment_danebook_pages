@@ -59,20 +59,25 @@
       <div class="row">
 
         <!-- Profile photo displays atop cover photo -->
-        <div id="profile-pic-container" class="col-sm-3 text-center">
+        <div id="profile-pic-container" class="col-sm-3">
           <img id="profile-photo" class="img-responsive img-thumbnail" src="athena.jpg">
         </div>
 
         <!-- Links to Timeline, About, Photos, and Friends pages.  The "current" page is indicated via being grayed out.  Friends and photo counts indicated -->
+        <div class="col-sm-9">
+          <ul class="nav navbar-nav">
+            <li><a href="">Timeline</a></li>
+            <li class="active"><a href="">About</a></li>
+            <li><a href="">Photos</a></li>
+            <li><a href="">Friends</a></li>
+          </ul>
+          <!-- A link to edit profile is included  -->
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Edit Profile</a></li>
+          </ul>
+        </div>
 
-
-        <div class="col-sm-5"></div>
-
-        <!-- A link to edit profile is included  -->
-        <div class="col-sm-4"></div>
-      </div>
-
-
+      </div> <!-- row for profile pic and nav -->
     </header>
 
     <!-- The main information pane contains basic information, contact information, words to live by and a short description about me -->

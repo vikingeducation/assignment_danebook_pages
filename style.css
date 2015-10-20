@@ -18,8 +18,9 @@
  * Header - cover and profile photos as well as profile nav
  */
 #profile-pic-container {
-  margin: -143px 0 0 15px; }
+  margin-top: -143px; }
   #profile-pic-container img {
-    max-height: 170px; }
+    max-height: 170px;
+    margin-left: 15px; }
 
 /*# sourceMappingURL=style.css.map */
