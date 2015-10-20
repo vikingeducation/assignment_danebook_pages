@@ -1,3 +1,15 @@
+/* Set up a mix-in (method) to avoid writing lots of prefixes */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body {
+  margin-top: 50px;
+}
+
 /*
  * Navbar
  */
@@ -29,6 +41,9 @@
 /*
  * Header - cover and profile photos as well as profile nav
  */
+header {
+  border: 1px solid #ccc;
+}
 
 // Profile photo
 #profile-pic-container {
@@ -48,5 +63,19 @@
 
   .active {
     background-color: #eee;
+  }
+}
+
+
+
+
+/*
+ * Main - profile about info
+ */
+main {
+  margin-top: 20px;
+
+  .panel {
+    @include border-radius(0);
   }
 }

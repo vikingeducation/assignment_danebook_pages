@@ -1,3 +1,7 @@
+/* Set up a mix-in (method) to avoid writing lots of prefixes */
+body {
+  margin-top: 50px; }
+
 /*
  * Navbar
  */
@@ -17,6 +21,9 @@
 /*
  * Header - cover and profile photos as well as profile nav
  */
+header {
+  border: 1px solid #ccc; }
+
 #profile-pic-container {
   margin-top: -143px; }
   #profile-pic-container img {
@@ -27,5 +34,16 @@
   color: #444; }
 #profile-nav .active {
   background-color: #eee; }
+
+/*
+ * Main - profile about info
+ */
+main {
+  margin-top: 20px; }
+  main .panel {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0; }
 
 /*# sourceMappingURL=style.css.map */
