@@ -11,4 +11,7 @@
 #user-search {
   width: 100%; }
 
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0; }
+
 /*# sourceMappingURL=style.css.map */

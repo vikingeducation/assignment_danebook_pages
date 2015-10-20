@@ -17,3 +17,8 @@
 #user-search {
   width: 100%;
 }
+
+// Fixes right margin issue
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0;
+}
