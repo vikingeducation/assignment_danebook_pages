@@ -81,5 +81,21 @@ main {
     .panel-title {
       font-size: 2em;
     }
+
+    dt, dd {
+      text-align: left;
+      line-height: 2em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .dl-horizontal {
+    dt {
+      width: 120px;
+    }
+    dd {
+      margin-left: 80px;
+    }
   }
 }

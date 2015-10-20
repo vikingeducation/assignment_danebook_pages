@@ -47,5 +47,14 @@ main {
     border-radius: 0; }
     main .panel .panel-title {
       font-size: 2em; }
+    main .panel dt, main .panel dd {
+      text-align: left;
+      line-height: 2em; }
+
+@media (min-width: 768px) {
+  .dl-horizontal dt {
+    width: 120px; }
+  .dl-horizontal dd {
+    margin-left: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
