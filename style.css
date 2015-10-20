@@ -50,6 +50,9 @@ main {
      */
     /*
      * Friends page custom style
+     */
+    /*
+     * Timeline page custom style
      */ }
     main .panel .panel-title {
       font-size: 2em; }
@@ -66,5 +69,7 @@ main {
       flex-direction: column;
       justify-content: center;
       height: 96px; }
+    main .panel .timeline-panel-heading {
+      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
