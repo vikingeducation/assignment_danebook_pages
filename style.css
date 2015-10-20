@@ -36,7 +36,7 @@ header {
   background-color: #eee; }
 
 /*
- * Main - profile about info
+ * Main
  */
 main {
   margin-top: 20px; }
@@ -44,7 +44,13 @@ main {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
-    border-radius: 0; }
+    border-radius: 0;
+    /*
+     * About/About_edit page custom style
+     */
+    /*
+     * Friends page custom style
+     */ }
     main .panel .panel-title {
       font-size: 2em; }
     main .panel .about-info {
@@ -55,5 +61,10 @@ main {
         margin-bottom: 30px; }
     main .panel #save-profile {
       margin: 40px 0 70px; }
+    main .panel .friend-vertical-parent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 96px; }
 
 /*# sourceMappingURL=style.css.map */

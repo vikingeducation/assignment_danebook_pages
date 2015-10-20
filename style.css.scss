@@ -70,7 +70,7 @@ header {
 
 
 /*
- * Main - profile about info
+ * Main
  */
 main {
   margin-top: 20px;
@@ -82,6 +82,12 @@ main {
       font-size: 2em;
     }
 
+
+
+
+    /*
+     * About/About_edit page custom style
+     */
     .about-info {
       line-height: 3em;
     }
@@ -96,6 +102,19 @@ main {
 
     #save-profile {
       margin: 40px 0 70px;
+    }
+
+
+
+
+    /*
+     * Friends page custom style
+     */
+    .friend-vertical-parent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 96px;
     }
   }
 }
