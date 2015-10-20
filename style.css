@@ -23,4 +23,9 @@
     max-height: 170px;
     margin-left: 15px; }
 
+#profile-nav a {
+  color: #444; }
+#profile-nav .active {
+  background-color: #eee; }
+
 /*# sourceMappingURL=style.css.map */

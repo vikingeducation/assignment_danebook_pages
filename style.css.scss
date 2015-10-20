@@ -39,3 +39,14 @@
     margin-left: 15px;
   }
 }
+
+// Profile nav
+#profile-nav {
+  a {
+    color: #444;
+  }
+
+  .active {
+    background-color: #eee;
+  }
+}
