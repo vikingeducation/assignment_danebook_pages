@@ -1,10 +1,14 @@
 /*
- * Logo container in navbar
+ * Navbar
  */
 .logo-container img {
   width: 40px;
   height: 40px;
   margin-top: 4px;
+  margin-right: 5px;
   vertical-align: middle; }
+
+#user-search {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
