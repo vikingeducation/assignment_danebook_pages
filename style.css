@@ -47,15 +47,13 @@ main {
     border-radius: 0; }
     main .panel .panel-title {
       font-size: 2em; }
-    main .panel dt, main .panel dd, main .panel .about-info {
+    main .panel .about-info {
       line-height: 3em; }
+    main .panel .about-words {
+      line-height: 1.67em; }
+      main .panel .about-words p {
+        margin-bottom: 30px; }
     main .panel #save-profile {
       margin: 40px 0 70px; }
-
-@media (min-width: 768px) {
-  .dl-horizontal dt {
-    width: 120px; }
-  .dl-horizontal dd {
-    margin-left: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
