@@ -134,5 +134,37 @@ main {
         margin-bottom: 20px;
       }
     }
+
+    .post {
+      margin-top: 20px;
+    }
+
+    .post-footer {
+      a.post-action {
+        color: #999;
+        margin-right: 20px;
+
+        &:hover {
+          text-decoration: none;
+          color: #444;
+        }
+      }
+
+      p {
+        margin-top: 20px;
+      }
+
+      .post-actions {
+        border-bottom: 1px solid #ccc;
+      }
+
+      article.comment {
+        padding-top: 20px;
+      }
+
+      textarea {
+        margin-top: 20px;
+      }
+    }
   }
 }

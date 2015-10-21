@@ -75,5 +75,21 @@ main {
       padding-top: 20px; }
       main .panel #photos-body .col-sm-4 {
         margin-bottom: 20px; }
+    main .panel .post {
+      margin-top: 20px; }
+    main .panel .post-footer a.post-action {
+      color: #999;
+      margin-right: 20px; }
+      main .panel .post-footer a.post-action:hover {
+        text-decoration: none;
+        color: #444; }
+    main .panel .post-footer p {
+      margin-top: 20px; }
+    main .panel .post-footer .post-actions {
+      border-bottom: 1px solid #ccc; }
+    main .panel .post-footer article.comment {
+      padding-top: 20px; }
+    main .panel .post-footer textarea {
+      margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
