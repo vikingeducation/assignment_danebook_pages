@@ -52,6 +52,9 @@ main {
      * Friends page custom style
      */
     /*
+     * Photos page custom style
+     */
+    /*
      * Timeline page custom style
      */ }
     main .panel .panel-title {
@@ -69,6 +72,31 @@ main {
       flex-direction: column;
       justify-content: center;
       height: 96px; }
+    main .panel .photo-box {
+      margin: 10px 0; }
+    main .panel .image {
+      position: relative; }
+      main .panel .image img {
+        width: 100%;
+        vertical-align: top; }
+      main .panel .image:after, main .panel .image:before {
+        position: absolute;
+        opacity: 0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s; }
+      main .panel .image:before {
+        content: attr(data-content);
+        width: 100%;
+        color: white;
+        z-index: 1;
+        bottom: 0;
+        padding: 10px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+        -moz-box-sizing: border-box; }
+      main .panel .image:hover:after, main .panel .image:hover:before {
+        opacity: 1; }
     main .panel .timeline-panel-heading {
       margin: 0; }
     main .panel #photos-body {
@@ -91,5 +119,15 @@ main {
       padding-top: 20px; }
     main .panel .post-footer textarea {
       margin-top: 20px; }
+
+/******************************
+ * SMALLER SCREEN WIDTH styling
+ ******************************/
+@media (max-width: 990px) {
+  .photo-box {
+    font-size: 0.8em; } }
+@media (max-width: 767px) {
+  .photo-box {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */

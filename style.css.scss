@@ -121,6 +121,49 @@ main {
 
 
     /*
+     * Photos page custom style
+     */
+    .photo-box {
+      margin: 10px 0;
+    }
+
+    .image {
+      position:relative;
+
+      img {
+        width:100%;
+        vertical-align:top;
+      }
+
+      &:after, &:before {
+        position:absolute;
+        opacity:0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+      }
+
+      &:before {
+        content: attr(data-content);
+        width:100%;
+        color: white;
+        z-index:1;
+        bottom:0;
+        padding: 10px;
+        text-align:center;
+        background: rgba(0,0,0,0.5);
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+      }
+
+      &:hover:after, &:hover:before {
+          opacity:1;
+      }
+    }
+
+
+
+
+    /*
      * Timeline page custom style
      */
     .timeline-panel-heading {
@@ -166,5 +209,23 @@ main {
         margin-top: 20px;
       }
     }
+  }
+}
+
+
+
+
+/******************************
+ * SMALLER SCREEN WIDTH styling
+ ******************************/
+@media (max-width: 990px) {
+  .photo-box {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 767px) {
+  .photo-box {
+    font-size: 1em;
   }
 }
