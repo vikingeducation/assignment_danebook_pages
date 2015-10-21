@@ -1,0 +1,133 @@
+/* Set up a mix-in (method) to avoid writing lots of prefixes */
+body {
+  margin-top: 50px; }
+
+/*
+ * Navbar
+ */
+.logo-container img {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+  margin-right: 5px;
+  vertical-align: middle; }
+
+#user-search {
+  width: 100%; }
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0; }
+
+/*
+ * Header - cover and profile photos as well as profile nav
+ */
+header {
+  border: 1px solid #ccc; }
+
+#profile-pic-container {
+  margin-top: -143px; }
+  #profile-pic-container img {
+    max-height: 170px;
+    margin-left: 15px; }
+
+#profile-nav a {
+  color: #444; }
+#profile-nav .active {
+  background-color: #eee; }
+
+/*
+ * Main
+ */
+main {
+  margin-top: 20px; }
+  main .panel {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    /*
+     * About/About_edit page custom style
+     */
+    /*
+     * Friends page custom style
+     */
+    /*
+     * Photos page custom style
+     */
+    /*
+     * Timeline page custom style
+     */ }
+    main .panel .panel-title {
+      font-size: 2em; }
+    main .panel .about-info {
+      line-height: 3em; }
+    main .panel .about-words {
+      line-height: 1.67em; }
+      main .panel .about-words p {
+        margin-bottom: 30px; }
+    main .panel #save-profile {
+      margin: 40px 0 70px; }
+    main .panel .friend-vertical-parent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 96px; }
+    main .panel .photo-box {
+      margin: 10px 0; }
+    main .panel .image {
+      position: relative; }
+      main .panel .image img {
+        width: 100%;
+        vertical-align: top; }
+      main .panel .image:after, main .panel .image:before {
+        position: absolute;
+        opacity: 0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s; }
+      main .panel .image:before {
+        content: attr(data-content);
+        width: 100%;
+        color: white;
+        z-index: 1;
+        bottom: 0;
+        padding: 10px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+        -moz-box-sizing: border-box; }
+      main .panel .image:hover:after, main .panel .image:hover:before {
+        opacity: 1; }
+    main .panel .timeline-panel-heading {
+      margin: 0; }
+    main .panel #photos-body {
+      padding-top: 20px; }
+      main .panel #photos-body .col-sm-4 {
+        margin-bottom: 20px; }
+    main .panel .post {
+      margin-top: 20px; }
+    main .panel .post-footer a.post-action {
+      color: #999;
+      margin-right: 20px; }
+      main .panel .post-footer a.post-action:hover {
+        text-decoration: none;
+        color: #444; }
+    main .panel .post-footer p {
+      margin-top: 20px; }
+    main .panel .post-footer .post-actions {
+      border-bottom: 1px solid #ccc; }
+    main .panel .post-footer article.comment {
+      padding-top: 20px; }
+    main .panel .post-footer textarea {
+      margin-top: 20px; }
+
+/******************************
+ * SMALLER SCREEN WIDTH styling
+ ******************************/
+@media (max-width: 990px) {
+  .photo-box {
+    font-size: 0.8em; } }
+@media (max-width: 767px) {
+  .photo-box {
+    font-size: 1em; } }
+
+/*# sourceMappingURL=style.css.map */
