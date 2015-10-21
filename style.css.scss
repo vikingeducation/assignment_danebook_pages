@@ -126,5 +126,13 @@ main {
     .timeline-panel-heading {
       margin: 0;
     }
+
+    #photos-body {
+      padding-top: 20px;
+
+      .col-sm-4 {
+        margin-bottom: 20px;
+      }
+    }
   }
 }

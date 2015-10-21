@@ -71,5 +71,9 @@ main {
       height: 96px; }
     main .panel .timeline-panel-heading {
       margin: 0; }
+    main .panel #photos-body {
+      padding-top: 20px; }
+      main .panel #photos-body .col-sm-4 {
+        margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
