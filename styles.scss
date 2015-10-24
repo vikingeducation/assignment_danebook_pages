@@ -70,16 +70,20 @@ $navbar-height: $navbar-content-height + 2*$navbar-padding;
 }
 
 #tabs {
-  margin-left:256px;
-  li {
+  a {
     color:gray;
+  }
 
-    .active a {
-      color:black;
-    }
+  .active a {
+    color:black;
   }
 }
 
 .collapse, .navbar-collapse {
   background-color:$danebook-brand-color;
+}
+
+#about-title {
+  margin:0 auto 0 auto;
+  text-align: center;
 }

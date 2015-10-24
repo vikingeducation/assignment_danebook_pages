@@ -53,14 +53,16 @@ Extra styles on top of Bootstrap
   margin-top: -150px;
   margin-left: 50px; }
 
-#tabs {
-  margin-left: 256px; }
-  #tabs li {
-    color: gray; }
-    #tabs li .active a {
-      color: black; }
+#tabs a {
+  color: gray; }
+#tabs .active a {
+  color: black; }
 
 .collapse, .navbar-collapse {
   background-color: #2B78E4; }
+
+#about-title {
+  margin: 0 auto 0 auto;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
