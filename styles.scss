@@ -62,6 +62,24 @@ $navbar-height: $navbar-content-height + 2*$navbar-padding;
   width:100%;
 }
 
+#profile-photo {
+  width:200px;
+  height:200px;
+  margin-top:-150px;
+  margin-left:50px;
+}
+
+#tabs {
+  margin-left:256px;
+  li {
+    color:gray;
+
+    .active a {
+      color:black;
+    }
+  }
+}
+
 .collapse, .navbar-collapse {
   background-color:$danebook-brand-color;
 }
