@@ -1,15 +1,13 @@
 /*
 Extra styles on top of Bootstrap
 */
-body {
-  padding-top: 80px;
-  padding-bottom: 20px; }
-
 .navbar-brand {
-  padding: 10px 15px; }
+  padding: 10px; }
 
 #danebook-navbar {
-  background-color: #2B78E4; }
+  background-color: #2B78E4;
+  height: 56px;
+  margin: 0; }
 
 #signup-button {
   border-radius: 5px;
@@ -24,24 +22,32 @@ body {
 #brand-image {
   display: inline;
   background-color: red;
-  width: 34px;
-  height: 34px;
-  border-radius: 34px; }
+  width: 36px;
+  height: 36px;
+  border-radius: 36px; }
 
 #bullet-points {
   color: #7A7A75;
   margin: 5px auto;
   font-size: 16px; }
 
-#user-search {
-  display: inline;
-  vertical-align: middle;
-  width: 100%; }
+#user-search-holder {
+  padding: 10px;
+  margin: 0;
+  border: none; }
 
 #navbar-user-name {
   display: inline;
   vertical-align: middle;
   font-size: 24px;
-  color: white; }
+  height: 36px;
+  color: white;
+  padding: 10px; }
+
+#cover-photo {
+  width: 100%; }
+
+.collapse, .navbar-collapse {
+  background-color: #2B78E4; }
 
 /*# sourceMappingURL=styles.css.map */

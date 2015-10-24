@@ -3,19 +3,18 @@ Extra styles on top of Bootstrap
 */
 
 $danebook-brand-color: #2B78E4;
-$danebook-neutral-color: #C1C1C1;
-
-body {
-  padding-top: 80px;
-  padding-bottom: 20px;
-}
+$navbar-content-height: 36px;
+$navbar-padding: 10px;
+$navbar-height: $navbar-content-height + 2*$navbar-padding;
 
 .navbar-brand {
-  padding:10px 15px;
+  padding:$navbar-padding;
 }
 
 #danebook-navbar {
   background-color:$danebook-brand-color;
+  height:$navbar-height;
+  margin:0;
 }
 
 #signup-button {
@@ -33,9 +32,9 @@ body {
 #brand-image {
   display:inline;
   background-color:red;
-  width:34px;
-  height:34px;
-  border-radius:34px;
+  width:$navbar-content-height;
+  height:$navbar-content-height;
+  border-radius:$navbar-content-height;
 }
 
 #bullet-points {
@@ -44,15 +43,25 @@ body {
   font-size:16px;
 }
 
-#user-search {
-  display: inline;
-  vertical-align: middle;
-  width: 100%;
+#user-search-holder {
+  padding:$navbar-padding;
+  margin:0;
+  border:none;
 }
 
 #navbar-user-name {
   display:inline;
   vertical-align: middle;
   font-size: 24px;
+  height:$navbar-content-height;
   color:white;
+  padding:$navbar-padding;
+}
+
+#cover-photo {
+  width:100%;
+}
+
+.collapse, .navbar-collapse {
+  background-color:$danebook-brand-color;
 }
