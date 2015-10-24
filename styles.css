@@ -49,20 +49,21 @@ Extra styles on top of Bootstrap
 
 #profile-photo {
   width: 200px;
-  height: 200px;
   margin-top: -150px;
   margin-left: 50px; }
 
 #tabs a {
-  color: gray; }
-#tabs .active a {
   color: black; }
+#tabs .active a {
+  color: gray; }
 
 .collapse, .navbar-collapse {
   background-color: #2B78E4; }
 
 #about-title {
-  margin: 0 auto 0 auto;
   text-align: center; }
+
+#edit-button {
+  vertical-align: middle; }
 
 /*# sourceMappingURL=styles.css.map */
