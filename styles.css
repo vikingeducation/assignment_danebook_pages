@@ -5,9 +5,11 @@ body {
   padding-top: 80px;
   padding-bottom: 20px; }
 
+.navbar-brand {
+  padding: 10px 15px; }
+
 #danebook-navbar {
-  background-color: #2B78E4;
-  height: 90px; }
+  background-color: #2B78E4; }
 
 #signup-button {
   border-radius: 5px;
@@ -16,15 +18,15 @@ body {
 #brand-text {
   display: inline;
   vertical-align: middle;
-  font-size: 36px;
+  font-size: 34px;
   color: white; }
 
 #brand-image {
   display: inline;
   background-color: red;
-  width: 64px;
-  height: 64px;
-  border-radius: 64px; }
+  width: 34px;
+  height: 34px;
+  border-radius: 34px; }
 
 #bullet-points {
   color: #7A7A75;
