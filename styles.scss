@@ -15,23 +15,41 @@ body {
   height:90px;
 }
 
-#danebook-footer {
-  background-color:$danebook-neutral-color;
-  height:20px;
-}
-
 #signup-button {
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px black;
 }
 
 #brand-text {
-  font-size: 48px;
+  display:inline;
+  vertical-align: middle;
+  font-size: 36px;
   color:white;
+}
+
+#brand-image {
+  display:inline;
+  background-color:red;
+  width:64px;
+  height:64px;
+  border-radius:64px;
 }
 
 #bullet-points {
   color:#7A7A75;
   margin:5px auto;
   font-size:16px;
+}
+
+#user-search {
+  display: inline;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#navbar-user-name {
+  display:inline;
+  vertical-align: middle;
+  font-size: 24px;
+  color:white;
 }
