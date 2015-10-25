@@ -48,9 +48,9 @@ Extra styles on top of Bootstrap
   width: 100%; }
 
 #profile-photo {
-  width: 200px;
+  width: 180px;
   margin-top: -150px;
-  margin-left: 50px; }
+  margin-left: 20px; }
 
 #tabs a {
   color: black; }
@@ -65,5 +65,17 @@ Extra styles on top of Bootstrap
 
 #edit-button {
   vertical-align: middle; }
+
+#save-changes {
+  background-color: #2B78E4;
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px black;
+  margin: 10px; }
+
+#about-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
