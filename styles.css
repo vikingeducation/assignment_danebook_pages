@@ -1,0 +1,109 @@
+/*
+Extra styles on top of Bootstrap
+*/
+.navbar-brand {
+  padding: 10px; }
+
+#danebook-navbar {
+  background-color: #2B78E4;
+  height: 56px;
+  margin: 0; }
+
+#signup-button {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px black; }
+
+#brand-text {
+  display: inline;
+  vertical-align: middle;
+  font-size: 34px;
+  color: white; }
+
+#brand-image {
+  display: inline;
+  background-color: red;
+  width: 36px;
+  height: 36px;
+  border-radius: 36px; }
+
+#bullet-points {
+  color: #7A7A75;
+  margin: 5px auto;
+  font-size: 16px; }
+
+#user-search-holder {
+  padding: 10px;
+  margin: 0;
+  border: none; }
+
+#navbar-user-name {
+  display: inline;
+  vertical-align: middle;
+  font-size: 24px;
+  height: 36px;
+  color: white;
+  padding: 10px; }
+
+#cover-photo {
+  width: 100%; }
+
+#profile-photo {
+  width: 180px;
+  margin-top: -150px;
+  margin-left: 20px; }
+
+#tabs a {
+  color: black; }
+#tabs .active a {
+  color: gray; }
+
+.collapse, .navbar-collapse {
+  background-color: #2B78E4; }
+
+#about-title {
+  text-align: center; }
+
+#edit-button {
+  vertical-align: middle; }
+
+#save-changes {
+  background-color: #2B78E4;
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px black;
+  margin: 10px; }
+
+#about-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px; }
+
+.post-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px; }
+  .post-box h3 {
+    text-align: center; }
+
+.post-photo {
+  width: 100%;
+  vertical-align: top; }
+
+.post-button {
+  background-color: #2B78E4;
+  width: 25%;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px black;
+  margin: 10px auto;
+  color: white; }
+
+.thumbnail {
+  width: 33%; }
+
+.bottom-link-text {
+  text-align: center; }
+
+.date-text {
+  color: gray; }
+
+/*# sourceMappingURL=styles.css.map */
