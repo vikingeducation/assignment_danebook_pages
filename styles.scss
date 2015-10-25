@@ -108,6 +108,26 @@ $default-border: 1px solid black;
   margin:$default-padding;
 }
 
-.post-box .post-picture {
+.post-box {
+  border:$default-border;
+  padding:$default-padding;
+  margin:$default-padding;
+}
 
+.post-photo {
+  width:64px;
+  vertical-align: top;
+}
+
+.post-button {
+  background-color:$danebook-brand-color;
+  width:25%;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px black;
+  margin: 10px auto;
+  color:white;
+}
+
+.thumbnail {
+  width:33%;
 }

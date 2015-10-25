@@ -83,7 +83,7 @@
         <div class="row"> <!--row containing all timeline content-->
           <section class="col-md-5"> <!--left column-->
               <!-- About section -->
-              <section class="row">
+              <section class="row post-box">
                 <article class="col-md-12">
                     <h3>About</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -92,35 +92,62 @@
               </section>
 
               <!-- Photo Section -->
-              <section class="row">
+              <section class="row post-box">
                 <article class="col-md-12">
-                    <h3>Photos</h3>
-                    <p></p>
+                  <h3>Photos</h3>
+                  <section class="row">
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                  </section>
+                  <section class="row">
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                  </section>
+                  <section class="row">
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/icon_photo_small.png"></section>
+                  </section>
                 </article>
               </section>
 
               <!-- Friends Section -->
-              <section class="row">
+              <section class="row post-box">
                 <article class="col-md-12">
-                    <h3>Friends</h3>
-                    <p></p>
+                  <h3>Friends</h3>
+                  <section class="row">
+                    <section class="col-md-4 thumbnail"><img src="assets/user_silhouette_generic.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/user_silhouette_generic.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/user_silhouette_generic.png"></section>
+                  </section>
+                  <section class="row">
+                    <section class="col-md-4 thumbnail"><img src="assets/user_silhouette_generic.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/user_silhouette_generic.png"></section>
+                    <section class="col-md-4 thumbnail"><img src="assets/user_silhouette_generic.png"></section>
+                  </section>
                 </article>
               </section>
 
             </section> <!--end left column-->
 
             <section class="col-md-7"> <!--right column-->
-              <section class="row">
-                <article class="col-md-12">
+              
+              <!--Post Form-->
+              <section class="row post-box">
+                <article class="col-md-12 form-group">
                   <h3>Post</h3>
-                  <input type="textarea">
+                  <textarea class="form-control" rows="3" placeholder="What's on your mind?"></textarea>
+                  <button class="btn btn-submit post-button">Post</button>
                 </article>
               </section>
 
-              <section class="row">
+              <!--List of Posts-->
+              <section class="row post-box">
                 <article class="col-md-12">
-                  <a href="about.html"><img src="assets/harry_potter_small.jpg">Harry Potter</a>
-                  <date></date>
+                  <a href="about.html"><img class="post-photo" src="assets/harry_potter_small.jpg">Harry Potter</a>
+                  <datetime>June 21, 2015 12:00pm</datetime>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -130,10 +157,10 @@
                 </article>
               </section>
 
-              <section class="row">
+              <section class="row post-box">
                 <article class="col-md-12">
-                  <a href="about.html"><img src="assets/harry_potter_small.jpg">Harry Potter</a>
-                  <date></date>
+                  <a href="about.html"><img class="post-photo" src="assets/harry_potter_small.jpg">Harry Potter</a>
+                  <datetime>June 21, 2015 12:00pm</datetime>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -144,7 +171,6 @@
               </section>
             </section> <!--end right column-->
         </div> <!--end row containing all timeline content-->
-        
       </div>
     </main>
   </body>
