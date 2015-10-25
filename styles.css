@@ -82,9 +82,11 @@ Extra styles on top of Bootstrap
   border: 1px solid black;
   padding: 10px;
   margin: 10px; }
+  .post-box h3 {
+    text-align: center; }
 
 .post-photo {
-  width: 64px;
+  width: 100%;
   vertical-align: top; }
 
 .post-button {
@@ -97,5 +99,11 @@ Extra styles on top of Bootstrap
 
 .thumbnail {
   width: 33%; }
+
+.bottom-link-text {
+  text-align: center; }
+
+.date-text {
+  color: gray; }
 
 /*# sourceMappingURL=styles.css.map */

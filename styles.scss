@@ -112,10 +112,14 @@ $default-border: 1px solid black;
   border:$default-border;
   padding:$default-padding;
   margin:$default-padding;
+
+  h3 {
+    text-align: center;
+  }
 }
 
 .post-photo {
-  width:64px;
+  width:100%;
   vertical-align: top;
 }
 
@@ -130,4 +134,12 @@ $default-border: 1px solid black;
 
 .thumbnail {
   width:33%;
+}
+
+.bottom-link-text {
+  text-align: center;
+}
+
+.date-text {
+  color:gray;
 }
