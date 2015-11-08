@@ -122,14 +122,21 @@ body {
       border: 0 solid black;
       border-left: 1px solid black;
       border-right: 1px solid black;
+      border-bottom: 1px solid black;
       border-radius: 0;
-      height:42px;
+      color: black;
+      height:43px;
+      padding: 12px 12px;
+      vertical-align: middle;
 
       .user-nav-numbers {
         color: #999;
       }
     }
 
+    #current {
+      background-color: #ddd;
+    }
   }
 
   .edit-profile {

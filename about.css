@@ -89,10 +89,16 @@ body {
       border: 0 solid black;
       border-left: 1px solid black;
       border-right: 1px solid black;
+      border-bottom: 1px solid black;
       border-radius: 0;
-      height: 42px; }
+      color: black;
+      height: 43px;
+      padding: 12px 12px;
+      vertical-align: middle; }
       .user-navigation .btn-group .btn .user-nav-numbers {
         color: #999; }
+    .user-navigation .btn-group #current {
+      background-color: #ddd; }
   .user-navigation .edit-profile {
     height: 43px; }
     .user-navigation .edit-profile a {
