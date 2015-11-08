@@ -44,13 +44,10 @@
         width: calc(70% - 100px);
       }
 
-      h3 {
-        margin: 0px;
-      }
-
     .business-name-container {
       margin-left: 15px;
       margin-right: 20px;
+      padding: 8px 8px;
       h1 {
         color: white;
         float: left;
@@ -63,6 +60,13 @@
     .username-container {
       margin-left: 20px;
       float: right;
+      padding: 13px 0;
+
+      h3 {
+        color: white;
+        font-size: 16px;
+        margin: 0px;
+      }
     }
   }
 }
