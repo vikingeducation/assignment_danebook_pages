@@ -81,14 +81,12 @@ body {
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   height: 43px; }
-
-.edit-profile {
-  height: 43px;
-  padding: 0 30px; }
-  .edit-profile a {
-    float: right;
-    padding: 12px 0;
-    text-decoration: underline;
-    font-size: 13px; }
+  .user-navigation .edit-profile {
+    height: 43px; }
+    .user-navigation .edit-profile a {
+      float: right;
+      padding: 12px;
+      text-decoration: underline;
+      font-size: 13px; }
 
 /*# sourceMappingURL=about.css.map */
