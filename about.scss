@@ -113,6 +113,25 @@ body {
   border-bottom: 1px solid black;
   height: 43px;
 
+  .btn-group {
+    float:left;
+    height: 43px;
+    margin-left: 165px;
+
+    .btn {
+      border: 0 solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-radius: 0;
+      height:42px;
+
+      .user-nav-numbers {
+        color: #999;
+      }
+    }
+
+  }
+
   .edit-profile {
     height: 43px;
 
