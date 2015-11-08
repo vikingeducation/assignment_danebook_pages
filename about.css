@@ -8,5 +8,14 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
+    .navbar .container .navbar-element {
+      display: inline-block; }
+      .navbar .container .navbar-element a {
+        display: inline-block; }
+        .navbar .container .navbar-element a img {
+          width: 30px;
+          height: 30px; }
+      .navbar .container .navbar-element h1 {
+        display: inline-block; }
 
 /*# sourceMappingURL=about.css.map */
