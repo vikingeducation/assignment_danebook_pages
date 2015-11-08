@@ -83,6 +83,7 @@ body {
 .cover-photo-container {
   border-left: 1px solid black;
   border-right: 1px solid black;
+  border-bottom: 1px solid black;
   height: 263px;
   width: 846px;
 
@@ -107,6 +108,20 @@ body {
 }
 
 .user-navigation {
-  border: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 43px;
 }
 
+.edit-profile {
+  height: 43px;
+  padding: 0 30px;
+
+  a {
+    float: right;
+    padding: 12px 0;
+    text-decoration: underline;
+    font-size: 13px;
+  }
+}
