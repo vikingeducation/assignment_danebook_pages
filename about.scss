@@ -11,24 +11,58 @@
   border-bottom: 1px solid black;
   height: 45px;
 
-  .container {
+  .container-fluid {
     @include vertical-align();
+    height: 45px;
+    max-width: 846px;
+    min-width: 500px;
 
     .navbar-element {
-      display: inline-block;
+      float:left;
+      height: 45px;
+      padding: 7px 0;
+      vertical-align: middle;
+    }
 
-      a {
-        display: inline-block;
+    .navbar-header {
+      width: 30px;
+      text-align: center;
+      a.navbar-brand {
+        margin: 0;
+        padding: 0;
+        height: 30px;
 
         img {
-          width: 30px;
           height: 30px;
+          width: 30px;
         }
       }
+    }
 
-      h1 {
-        display: inline-block;
+      form {
+        float:left;
+        width: calc(70% - 100px);
       }
+
+      h3 {
+        margin: 0px;
+      }
+
+    .business-name-container {
+      margin-left: 15px;
+      margin-right: 20px;
+      h1 {
+        color: white;
+        float: left;
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0px;
+      }
+    }
+
+    .username-container {
+      margin-left: 20px;
+      float: right;
     }
   }
 }

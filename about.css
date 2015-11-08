@@ -2,20 +2,46 @@
   background-color: #2b78e4;
   border-bottom: 1px solid black;
   height: 45px; }
-  .navbar .container {
+  .navbar .container-fluid {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
-    .navbar .container .navbar-element {
-      display: inline-block; }
-      .navbar .container .navbar-element a {
-        display: inline-block; }
-        .navbar .container .navbar-element a img {
-          width: 30px;
-          height: 30px; }
-      .navbar .container .navbar-element h1 {
-        display: inline-block; }
+    transform: translateY(-50%);
+    height: 45px;
+    max-width: 846px;
+    min-width: 500px; }
+    .navbar .container-fluid .navbar-element {
+      float: left;
+      height: 45px;
+      padding: 7px 0;
+      vertical-align: middle; }
+    .navbar .container-fluid .navbar-header {
+      width: 30px;
+      text-align: center; }
+      .navbar .container-fluid .navbar-header a.navbar-brand {
+        margin: 0;
+        padding: 0;
+        height: 30px; }
+        .navbar .container-fluid .navbar-header a.navbar-brand img {
+          height: 30px;
+          width: 30px; }
+    .navbar .container-fluid form {
+      float: left;
+      width: calc(70% - 100px); }
+    .navbar .container-fluid h3 {
+      margin: 0px; }
+    .navbar .container-fluid .business-name-container {
+      margin-left: 15px;
+      margin-right: 20px; }
+      .navbar .container-fluid .business-name-container h1 {
+        color: white;
+        float: left;
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0px; }
+    .navbar .container-fluid .username-container {
+      margin-left: 20px;
+      float: right; }
 
 /*# sourceMappingURL=about.css.map */

@@ -23,21 +23,22 @@
   <body>
 
     <nav class="navbar navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
 
         <header class="navbar-header navbar-element">
-          <a class="logo" href="timeline.html">
+          <a class="navbar-brand" href="timeline.html">
               <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif" alt="danish flag" class="img-circle">
           </a>
+        </header>
+
+        <div class="business-name-container navbar-element">
           <h1>
             Danebook
           </h1>
-        </header>
+        </div>
 
-        <form>
-          <div class="form-group navbar-element">
-            <input type="text" class="search-for-users" placeholder="Search for Users">
-          </div>
+        <form class= "navbar-element input-group-sm">
+          <input type="text" class="search-for-users form-control" placeholder="Search for Users">
         </form>
 
         <div class="username-container navbar-element">
