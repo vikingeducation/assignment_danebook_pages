@@ -100,13 +100,6 @@ body {
         color: #999; }
     .user-navigation .btn-group #current {
       background-color: #ddd; }
-  .user-navigation .edit-profile {
-    height: 43px; }
-    .user-navigation .edit-profile a {
-      float: right;
-      padding: 12px;
-      text-decoration: underline;
-      font-size: 13px; }
 
 main {
   margin-top: 10px; }
