@@ -6,7 +6,8 @@ body {
 hr {
   color: #999;
   background-color: #999;
-  height: 2px; }
+  height: 2px;
+  margin: 0; }
 
 .navbar {
   background-color: #2b78e4;
@@ -229,5 +230,44 @@ header.older-posts {
     margin-top: 10px; }
     header.older-posts .poster-name-date-container p {
       margin: 0; }
+
+.reply img {
+  border: 1px solid black;
+  float: left;
+  height: 50px; }
+.reply .comment-details {
+  background-color: #ddd;
+  padding-top: 10px; }
+.reply .commentor-picture {
+  background-color: #ddd;
+  min-height: 100%;
+  padding-top: 10px; }
+.reply p.commentor-details {
+  color: #999; }
+
+.bottom-of-comment p {
+  display: inline-block;
+  color: #999;
+  margin-left: 10px; }
+.bottom-of-comment .delete {
+  float: right; }
+
+#comments-form {
+  background-color: #ddd;
+  padding: 60px 10px; }
+  #comments-form .btn-primary {
+    background-color: #2b78e4;
+    border: 2px solid black;
+    border-radius: 0;
+    float: right;
+    font-size: 13px;
+    height: 27px;
+    margin-top: 10px;
+    padding-top: 3px;
+    width: 88px; }
+  #comments-form .btn-link {
+    float: left;
+    margin-top: 10px;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=timeline.css.map */

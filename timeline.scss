@@ -16,6 +16,7 @@ hr {
   color: #999;
   background-color: #999;
   height: 2px;
+  margin: 0;
 }
 
 .navbar {
@@ -339,5 +340,64 @@ header.older-posts {
     p {
       margin: 0;
     }
+  }
+}
+
+.reply {
+
+  img {
+    border: 1px solid black;
+    float: left;
+    height: 50px;
+  }
+
+  .comment-details {
+    background-color: #ddd;
+    padding-top: 10px;
+  }
+
+  .commentor-picture {
+    background-color: #ddd;
+    min-height: 100%;
+    padding-top: 10px;
+  }
+
+  p.commentor-details {
+    color: #999;
+  }
+}
+
+.bottom-of-comment {
+  p {
+    display: inline-block;
+    color: #999;
+    margin-left: 10px;
+  }
+
+  .delete {
+    float: right;
+  }
+}
+
+#comments-form {
+  background-color: #ddd;
+  padding: 60px 10px;
+
+  .btn-primary {
+    background-color: #2b78e4;
+    border: 2px solid black;
+    border-radius: 0;
+    float: right;
+    font-size: 13px;
+    height: 27px;
+    margin-top: 10px;
+    padding-top: 3px;
+    width: 88px;
+  }
+
+  .btn-link {
+    float: left;
+    margin-top: 10px;
+    text-decoration: underline;
   }
 }
