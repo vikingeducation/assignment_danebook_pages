@@ -1,4 +1,5 @@
 body {
+  font-size: 13px;
   padding-top: 46px;
   padding-bottom: 20px; }
 
@@ -120,8 +121,34 @@ main {
       line-height: 42px;
       margin: 0;
       margin-left: calc(50% - 39px); }
-    main header button {
+    main header button.btn.btn-primary.btn-sm {
+      border: 1px solid black;
+      border-radius: 0;
       float: right;
       margin: 6px; }
+
+.content-container {
+  border: 1px solid black;
+  border-top: 0;
+  padding-top: 20px; }
+  .content-container .left {
+    padding-left: 45px; }
+  .content-container .right {
+    padding-right: 45px; }
+  .content-container p {
+    font-size: 13px; }
+
+.table > tbody > tr > th {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd;
+  width: 110px; }
+
+.table > tbody > tr > td {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd; }
 
 /*# sourceMappingURL=about.css.map */
