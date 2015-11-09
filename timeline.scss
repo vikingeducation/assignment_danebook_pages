@@ -219,6 +219,42 @@ main, aside {
   }
 
   a {
-      text-decoration: underline;
+    text-decoration: underline;
+  }
+}
+
+form {
+  .form-input-container {
+    padding: 10px;
+
+    .form-control {
+      color: black;
+      font-size: 13px;
+      border: 1px solid black;
+      border-radius: 0;
+      line-height: 1.2;
+      padding: 2px 3px;
     }
+  }
+
+  footer {
+
+    .footer-container {
+      background-color: #ddd;
+      border-top: 1px solid black;
+      height: 43px;
+      padding: 8px;
+
+      .btn-primary {
+        background-color: #2b78e4;
+        border: 2px solid black;
+        border-radius: 0;
+        float: right;
+        font-size: 13px;
+        height: 27px;
+        padding-top: 3px;
+        width: 63px;
+      }
+    }
+  }
 }
