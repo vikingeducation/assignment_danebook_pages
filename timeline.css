@@ -138,18 +138,19 @@ main, aside {
     vertical-align: top;
     border-top: 0 solid #ddd; }
 
-.photos-container {
+.photos-container, .friends-container {
   padding-bottom: 10px;
   padding-top: 10px; }
-  .photos-container .photo-container {
-    margin-bottom: 5px; }
-  .photos-container .see-more-photos {
+  .photos-container .photo-container, .friends-container .photo-container {
+    margin-bottom: 5px;
+    text-align: center; }
+  .photos-container .see-more, .friends-container .see-more {
     margin-top: 10px;
     text-align: center; }
-    .photos-container .see-more-photos a {
-      text-decoration: underline; }
-  .photos-container img {
+  .photos-container img, .friends-container img {
     border: 1px solid black;
     width: 81px; }
+  .photos-container a, .friends-container a {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=timeline.css.map */

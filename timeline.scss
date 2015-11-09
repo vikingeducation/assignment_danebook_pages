@@ -199,25 +199,26 @@ main, aside {
   }
 }
 
-.photos-container {
+.photos-container, .friends-container {
   padding-bottom: 10px;
   padding-top: 10px;
 
   .photo-container {
     margin-bottom: 5px;
+    text-align: center;
   }
 
-  .see-more-photos {
+  .see-more {
     margin-top: 10px;
     text-align: center;
-
-    a {
-      text-decoration: underline;
-    }
   }
 
   img {
     border: 1px solid black;
     width: 81px;
   }
+
+  a {
+      text-decoration: underline;
+    }
 }
