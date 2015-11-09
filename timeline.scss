@@ -6,4 +6,207 @@
           transform: translateY(-50%);
 }
 
-@include vertical-align();
+body {
+  font-size: 13px;
+  padding-top: 46px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  background-color: #2b78e4;
+  border-bottom: 1px solid black;
+  height: 45px;
+
+  .container-fluid {
+    @include vertical-align();
+    height: 45px;
+    max-width: 846px;
+    min-width: 500px;
+
+    .navbar-element {
+      float:left;
+      height: 45px;
+      padding: 7px 0;
+      vertical-align: middle;
+    }
+
+    .navbar-header {
+      width: 30px;
+      text-align: center;
+      a.navbar-brand {
+        margin: 0;
+        padding: 0;
+        height: 30px;
+
+        img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+      form {
+        float:left;
+        width: calc(70% - 100px);
+      }
+
+    .business-name-container {
+      margin-left: 15px;
+      margin-right: 20px;
+      padding: 8px 8px;
+      h1 {
+        color: white;
+        float: left;
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0px;
+      }
+    }
+
+    .username-container {
+      margin-left: 20px;
+      float: right;
+      padding: 13px 0;
+
+      h3 {
+        color: white;
+        font-size: 16px;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+.everything-except-navbar {
+  width: 876px;
+}
+
+.cover-photo-container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 263px;
+  width: 846px;
+
+  img {
+    min-width: 100%;
+    height: 100%;
+  }
+}
+
+.profile-photo {
+  border: 1px solid black;
+  height: 137px;
+  position: absolute;
+  bottom: -22px;
+  left: 30px;
+  overflow: hidden;
+  width: 137px;
+
+  img {
+    width: 137px;
+  }
+}
+
+.user-navigation {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 43px;
+
+  .btn-group {
+    float:left;
+    height: 43px;
+    margin-left: 165px;
+
+    .btn {
+      border: 0 solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      border-radius: 0;
+      color: black;
+      height:43px;
+      padding: 12px 12px;
+      vertical-align: middle;
+
+      .user-nav-numbers {
+        color: #999;
+      }
+    }
+
+    #current {
+      background-color: #ddd;
+    }
+  }
+
+  .edit-profile {
+    height: 43px;
+
+    a {
+      float: right;
+      padding: 12px;
+      text-decoration: underline;
+      font-size: 13px;
+    }
+  }
+}
+
+main {
+  margin-top: 10px;
+
+  header {
+    background-color: #ddd;
+    border: 1px solid black;
+    height: 43px;
+    text-align: center;
+
+    h1 {
+      float: left;
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0;
+      margin-left: calc(50% - 39px)
+    }
+
+    button.btn.btn-primary.btn-sm {
+      border: 1px solid black;
+      border-radius: 0;
+      float:right;
+      margin: 6px;
+    }
+  }
+}
+
+.content-container {
+  border: 1px solid black;
+  border-top: 0;
+  padding-top: 20px;
+
+  .left {
+    padding-left: 45px;
+  }
+
+  .right {
+    padding-right: 45px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
+.table>tbody>tr>th {
+    padding: 8px 0;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0 solid #ddd;
+    width: 110px;
+}
+
+.table>tbody>tr>td {
+    padding: 8px 0;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0 solid #ddd;
+}

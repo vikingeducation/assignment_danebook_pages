@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Timeline</title>
+    <title>About</title>
 
     <!-- Latest compiled and minified CSS Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -22,9 +22,163 @@
   </head>
   <body>
 
-  <h1>
-    Hello World
-  </h1>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+
+        <header class="navbar-header navbar-element">
+          <a class="navbar-brand" href="timeline.html">
+              <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif" alt="danish flag" class="img-circle">
+          </a>
+        </header>
+
+        <div class="business-name-container navbar-element">
+          <h1>
+            Danebook
+          </h1>
+        </div>
+
+        <form class= "navbar-element input-group-sm">
+          <input type="text" class="search-for-users form-control" placeholder="Search for Users">
+        </form>
+
+        <div class="username-container navbar-element">
+          <h3>Harry</h3>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="container everything-except-navbar">
+
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="cover-photo-container">
+            <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg">
+          </div>
+
+          <div class="profile-photo">
+            <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class= "user-navigation">
+
+            <div class="btn-group" role="group" aria-label="user-nav-buttons">
+              <a href="timeline.html" class="btn" role="button">Timeline</a>
+              <a href="about.html" class="btn" id="current" role="button">About</a>
+              <a href="photos.html" class="btn" role="button">Photos <span class="user-nav-numbers">(123)</span></a>
+              <a href="friends.html" class="btn" role="button">Friends <span class="user-nav-numbers">(542)</span></a>
+            </div>
+
+            <div class= "edit-profile">
+              <a href="#">
+                Edit Profile
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <main>
+
+        <div class = "row">
+          <div class = "col-xs-12">
+            <header>
+              <h1>About</h1>
+              <button type="button" class="btn btn-primary btn-sm">
+              Edit your Profile
+              </button>
+            </header>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="content-container">
+              <div class="row">
+
+                <div class="col-xs-5 left">
+
+                  <h3>
+                    Basic Information
+                  </h3>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Birthday:</th>
+                        <td>July 31st, 1980</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">College:</th>
+                        <td>Hogwarts College</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Hometown:</th>
+                        <td>Godrick's Hollow, England</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Currently Lives:</th>
+                        <td>Godrick's Hollow, England</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <h3>
+                    Contact Information
+                  </h3>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Email:</th>
+                        <td>harry_potter@hogwarts.edu</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Telephone:</th>
+                        <td>555-123-4567</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+                <div class="col-xs-7 right">
+
+                  <h3>
+                    Words to Live By
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut
+                  </p>
+
+                  <h3>
+                    About Me
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div> <!-- container everything-except-navbar -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
