@@ -117,9 +117,39 @@ main, aside {
   main header, aside header {
     background-color: #ddd;
     border-bottom: 1px solid black;
-    padding: 2px 0;
+    padding: 3px 0;
     text-align: center; }
     main header h5, aside header h5 {
+      color: black;
       margin: 0; }
+
+.table {
+  margin: 10px auto;
+  width: initial; }
+  .table tbody tr th {
+    padding: 4px 0;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0 solid #ddd;
+    width: 110px; }
+  .table tbody tr td {
+    padding: 4px 0;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0 solid #ddd; }
+
+.photos-container {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+  .photos-container .photo-container {
+    margin-bottom: 5px; }
+  .photos-container .see-more-photos {
+    margin-top: 10px;
+    text-align: center; }
+    .photos-container .see-more-photos a {
+      text-decoration: underline; }
+  .photos-container img {
+    border: 1px solid black;
+    width: 81px; }
 
 /*# sourceMappingURL=timeline.css.map */

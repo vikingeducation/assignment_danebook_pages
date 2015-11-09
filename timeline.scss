@@ -166,11 +166,58 @@ main, aside {
   header {
     background-color: #ddd;
     border-bottom: 1px solid black;
-    padding: 2px 0;
+    padding: 3px 0;
     text-align: center;
 
     h5 {
+      color: black;
       margin: 0;
     }
+  }
+}
+
+.table {
+  margin: 10px auto;
+  width: initial;
+
+  tbody {
+    tr {
+      th {
+        padding: 4px 0;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 0 solid #ddd;
+        width: 110px;
+      }
+      td {
+        padding: 4px 0;
+        line-height: 1.42857143;
+        vertical-align: top;
+        border-top: 0 solid #ddd;
+      }
+    }
+  }
+}
+
+.photos-container {
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  .photo-container {
+    margin-bottom: 5px;
+  }
+
+  .see-more-photos {
+    margin-top: 10px;
+    text-align: center;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    border: 1px solid black;
+    width: 81px;
   }
 }
