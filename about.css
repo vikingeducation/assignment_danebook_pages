@@ -107,4 +107,21 @@ body {
       text-decoration: underline;
       font-size: 13px; }
 
+main {
+  margin-top: 10px; }
+  main header {
+    background-color: #ddd;
+    border: 1px solid black;
+    height: 43px;
+    text-align: center; }
+    main header h1 {
+      float: left;
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0;
+      margin-left: calc(50% - 39px); }
+    main header button {
+      float: right;
+      margin: 6px; }
+
 /*# sourceMappingURL=about.css.map */
