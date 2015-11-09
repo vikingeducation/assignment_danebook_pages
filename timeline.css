@@ -203,6 +203,8 @@ footer #post-with-like {
     margin-left: 8px; }
   footer #post-with-like a.delete {
     float: right; }
+  footer #post-with-like p {
+    margin-top: 5px; }
 
 .post-body-container {
   padding: 10px; }
