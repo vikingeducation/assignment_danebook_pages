@@ -191,3 +191,26 @@ main {
     vertical-align: top;
     border-top: 0 solid #ddd;
 }
+
+.form-horizontal .form-group {
+  margin:0;
+
+  .form-control {
+    color: black;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 0;
+    line-height: 1.2;
+    padding: 0;
+  }
+}
+
+.btn-primary {
+  background-color: #2b78e4;
+  border: 2px solid black;
+  border-radius: 0;
+  font-size: 24px;
+  height: 71px;
+  margin: 20px calc(50% - (435px/2)) 90px;
+  width: 435px;
+}
