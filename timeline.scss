@@ -1,15 +1,21 @@
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
-  -webkit-transform: translateY(+50%);
-      -ms-transform: translateY(+50%);
-          transform: translateY(+50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 body {
   font-size: 13px;
   padding-top: 46px;
   padding-bottom: 20px;
+}
+
+hr {
+  color: #999;
+  background-color: #999;
+  height: 2px;
 }
 
 .navbar {
