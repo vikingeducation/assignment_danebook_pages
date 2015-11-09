@@ -198,10 +198,14 @@ main {
   .form-control {
     color: black;
     font-size: 13px;
-    border: 1px solid black;
+    border: 1px solid #999;
     border-radius: 0;
     line-height: 1.2;
-    padding: 0;
+    padding: 2px 3px;
+  }
+
+  .form-control-left{
+    height: 20px;
   }
 }
 
