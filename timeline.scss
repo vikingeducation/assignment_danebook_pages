@@ -155,18 +155,22 @@ body {
 main, aside {
   margin-top: 10px;
 
+  .aside-containers {
+    margin-bottom: 10px;
+  }
+
+  section {
+    border: 1px solid black;
+  }
+
   header {
     background-color: #ddd;
-    border: 1px solid black;
-    height: 43px;
+    border-bottom: 1px solid black;
+    padding: 2px 0;
     text-align: center;
 
-    h1 {
-      float: left;
-      font-size: 28px;
-      line-height: 42px;
+    h5 {
       margin: 0;
-      margin-left: calc(50% - 39px)
     }
   }
 }
