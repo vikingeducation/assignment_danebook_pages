@@ -152,7 +152,7 @@ body {
   }
 }
 
-main {
+main, aside {
   margin-top: 10px;
 
   header {
@@ -168,45 +168,5 @@ main {
       margin: 0;
       margin-left: calc(50% - 39px)
     }
-
-    button.btn.btn-primary.btn-sm {
-      border: 1px solid black;
-      border-radius: 0;
-      float:right;
-      margin: 6px;
-    }
   }
-}
-
-.content-container {
-  border: 1px solid black;
-  border-top: 0;
-  padding-top: 20px;
-
-  .left {
-    padding-left: 45px;
-  }
-
-  .right {
-    padding-right: 45px;
-  }
-
-  p {
-    font-size: 13px;
-  }
-}
-
-.table>tbody>tr>th {
-    padding: 8px 0;
-    line-height: 1.42857143;
-    vertical-align: top;
-    border-top: 0 solid #ddd;
-    width: 110px;
-}
-
-.table>tbody>tr>td {
-    padding: 8px 0;
-    line-height: 1.42857143;
-    vertical-align: top;
-    border-top: 0 solid #ddd;
 }

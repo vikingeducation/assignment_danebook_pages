@@ -108,47 +108,18 @@ body {
       text-decoration: underline;
       font-size: 13px; }
 
-main {
+main, aside {
   margin-top: 10px; }
-  main header {
+  main header, aside header {
     background-color: #ddd;
     border: 1px solid black;
     height: 43px;
     text-align: center; }
-    main header h1 {
+    main header h1, aside header h1 {
       float: left;
       font-size: 28px;
       line-height: 42px;
       margin: 0;
       margin-left: calc(50% - 39px); }
-    main header button.btn.btn-primary.btn-sm {
-      border: 1px solid black;
-      border-radius: 0;
-      float: right;
-      margin: 6px; }
-
-.content-container {
-  border: 1px solid black;
-  border-top: 0;
-  padding-top: 20px; }
-  .content-container .left {
-    padding-left: 45px; }
-  .content-container .right {
-    padding-right: 45px; }
-  .content-container p {
-    font-size: 13px; }
-
-.table > tbody > tr > th {
-  padding: 8px 0;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 0 solid #ddd;
-  width: 110px; }
-
-.table > tbody > tr > td {
-  padding: 8px 0;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 0 solid #ddd; }
 
 /*# sourceMappingURL=timeline.css.map */
