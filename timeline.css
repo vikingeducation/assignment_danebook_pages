@@ -10,9 +10,9 @@ body {
   .navbar .container-fluid {
     position: relative;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
     height: 45px;
     max-width: 846px;
     min-width: 500px; }
@@ -108,18 +108,18 @@ body {
       text-decoration: underline;
       font-size: 13px; }
 
-main, aside {
+aside {
   margin-top: 10px; }
-  main .aside-containers, aside .aside-containers {
+  aside .aside-containers {
     margin-bottom: 10px; }
-  main section, aside section {
+  aside section {
     border: 1px solid black; }
-  main header, aside header {
+  aside header {
     background-color: #ddd;
     border-bottom: 1px solid black;
     padding: 3px 0;
     text-align: center; }
-    main header h5, aside header h5 {
+    aside header h5 {
       color: black;
       margin: 0; }
 
@@ -153,6 +153,24 @@ main, aside {
   .photos-container a, .friends-container a {
     text-decoration: underline; }
 
+main {
+  margin-top: 10px; }
+  main section {
+    border: 1px solid black; }
+  main header {
+    background-color: #ddd;
+    border-bottom: 1px solid black;
+    padding: 3px 0;
+    text-align: center; }
+    main header h5 {
+      color: black;
+      margin: 0; }
+
+.main-containers {
+  margin-bottom: 20px; }
+  .main-containers a {
+    text-decoration: underline; }
+
 form .form-input-container {
   padding: 10px; }
   form .form-input-container .form-control {
@@ -162,12 +180,11 @@ form .form-input-container {
     border-radius: 0;
     line-height: 1.2;
     padding: 2px 3px; }
-form footer .footer-container {
+
+footer .footer-container {
   background-color: #ddd;
-  border-top: 1px solid black;
-  height: 43px;
-  padding: 8px; }
-  form footer .footer-container .btn-primary {
+  border-top: 1px solid black; }
+  footer .footer-container .btn-primary {
     background-color: #2b78e4;
     border: 2px solid black;
     border-radius: 0;
@@ -176,5 +193,34 @@ form footer .footer-container {
     height: 27px;
     padding-top: 3px;
     width: 63px; }
+footer #new-post {
+  height: 43px;
+  padding: 8px; }
+footer #post-with-like {
+  height: 100%;
+  padding: 4px 10px; }
+  footer #post-with-like a.comment {
+    margin-left: 8px; }
+  footer #post-with-like a.delete {
+    float: right; }
+
+.post-body-container {
+  padding: 10px; }
+
+header.older-posts {
+  background-color: white;
+  border: 0;
+  padding: 10px;
+  text-align: left; }
+  header.older-posts img {
+    border: 1px solid black;
+    float: left;
+    height: 50px; }
+  header.older-posts .poster-name-date-container {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px; }
+    header.older-posts .poster-name-date-container p {
+      margin: 0; }
 
 /*# sourceMappingURL=timeline.css.map */

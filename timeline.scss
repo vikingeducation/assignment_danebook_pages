@@ -1,9 +1,9 @@
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translateY(+50%);
+      -ms-transform: translateY(+50%);
+          transform: translateY(+50%);
 }
 
 body {
@@ -152,7 +152,7 @@ body {
   }
 }
 
-main, aside {
+aside {
   margin-top: 10px;
 
   .aside-containers {
@@ -223,6 +223,36 @@ main, aside {
   }
 }
 
+// Right Side Post Section Down
+
+main {
+  margin-top: 10px;
+
+  section {
+    border: 1px solid black;
+  }
+
+  header {
+    background-color: #ddd;
+    border-bottom: 1px solid black;
+    padding: 3px 0;
+    text-align: center;
+
+    h5 {
+      color: black;
+      margin: 0;
+    }
+  }
+}
+
+.main-containers {
+  margin-bottom: 20px;
+
+  a {
+    text-decoration: underline;
+  }
+}
+
 form {
   .form-input-container {
     padding: 10px;
@@ -236,25 +266,68 @@ form {
       padding: 2px 3px;
     }
   }
+}
 
-  footer {
+footer {
 
-    .footer-container {
-      background-color: #ddd;
-      border-top: 1px solid black;
-      height: 43px;
-      padding: 8px;
+  .footer-container {
+    background-color: #ddd;
+    border-top: 1px solid black;
 
-      .btn-primary {
-        background-color: #2b78e4;
-        border: 2px solid black;
-        border-radius: 0;
-        float: right;
-        font-size: 13px;
-        height: 27px;
-        padding-top: 3px;
-        width: 63px;
-      }
+    .btn-primary {
+      background-color: #2b78e4;
+      border: 2px solid black;
+      border-radius: 0;
+      float: right;
+      font-size: 13px;
+      height: 27px;
+      padding-top: 3px;
+      width: 63px;
+    }
+  }
+
+  #new-post {
+    height: 43px;
+    padding: 8px;
+  }
+
+  #post-with-like {
+    height: 100%;
+    padding: 4px 10px;
+
+    a.comment {
+      margin-left: 8px;
+    }
+
+    a.delete {
+      float: right;
+    }
+  }
+}
+
+.post-body-container {
+  padding: 10px;
+}
+
+header.older-posts {
+  background-color: white;
+  border: 0;
+  padding: 10px;
+  text-align: left;
+
+  img {
+    border: 1px solid black;
+    float: left;
+    height: 50px;
+  }
+
+  .poster-name-date-container {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    p {
+      margin: 0;
     }
   }
 }
