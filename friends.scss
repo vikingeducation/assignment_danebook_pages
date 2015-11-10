@@ -175,15 +175,48 @@ main {
   padding-top: 20px;
 
   .left {
-    padding-left: 45px;
+    padding-left: 30px;
   }
 
   .right {
-    padding-right: 45px;
+    padding-right: 30 px;
   }
 
   p {
     font-size: 13px;
+  }
+
+  section {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    a {
+      text-decoration: underline;
+    }
+
+    img {
+      float: left;
+      border: 1px solid black;
+      width: 60px;
+    }
+
+    .friend-details-container {
+      float: left;
+      padding: 12px;
+
+      p{
+        color: #999;
+        margin: 0;
+      }
+    }
+
+    button {
+      border: 1px solid black;
+      border-radius: 0;
+      float: right;
+      margin: 15px 0;
+    }
   }
 }
 

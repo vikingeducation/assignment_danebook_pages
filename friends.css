@@ -125,11 +125,32 @@ main {
   border-top: 0;
   padding-top: 20px; }
   .content-container .left {
-    padding-left: 45px; }
+    padding-left: 30px; }
   .content-container .right {
-    padding-right: 45px; }
+    padding-right: 30 px; }
   .content-container p {
     font-size: 13px; }
+  .content-container section {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px; }
+    .content-container section a {
+      text-decoration: underline; }
+    .content-container section img {
+      float: left;
+      border: 1px solid black;
+      width: 60px; }
+    .content-container section .friend-details-container {
+      float: left;
+      padding: 12px; }
+      .content-container section .friend-details-container p {
+        color: #999;
+        margin: 0; }
+    .content-container section button {
+      border: 1px solid black;
+      border-radius: 0;
+      float: right;
+      margin: 15px 0; }
 
 .table > tbody > tr > th {
   padding: 8px 0;
