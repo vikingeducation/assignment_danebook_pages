@@ -29,6 +29,22 @@
   font-size: 2em; }
 #danebook dd {
   margin-bottom: 10px; }
+#danebook .edit {
+  background-color: #2b7ae6;
+  color: white;
+  margin-top: -31px;
+  float: right; }
+  #danebook .edit:hover {
+    background-color: #4998ff; }
+#danebook .live-by {
+  height: 100px; }
+#danebook .about-me {
+  height: 200px; }
+#danebook .btn-center {
+  margin: 0 auto;
+  text-align: center; }
+  #danebook .btn-center a {
+    background-color: #2b7ae6; }
 
 .nav-links {
   padding-top: 10px; }

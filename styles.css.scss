@@ -56,6 +56,31 @@ $danebook: #2b7ae6;
     margin-bottom: 10px;
   }
 
+  .edit {
+    background-color: $danebook;
+    color: white;
+    margin-top: -31px;
+    float: right;
+    &:hover {
+      background-color: $danebook+30;
+    }
+  }
+
+  .live-by {
+    height: 100px;
+}
+
+  .about-me {
+    height: 200px;
+  }
+
+  .btn-center {
+    margin: 0 auto;
+    text-align: center;
+    a {
+      background-color: $danebook;
+    }
+  }
 
 
 
