@@ -47,9 +47,12 @@ $danebook: #2b7ae6;
     }
   }
 
+  h1.panel-title {
+    font-size: 2em;
+  }
+
   .panel-title {
     text-align: center;
-    font-size: 2em;
   }
 
   dd {
@@ -72,6 +75,14 @@ $danebook: #2b7ae6;
 
   .about-me {
     height: 200px;
+  }
+
+  .btn-primary {
+    background-color: $danebook;
+  }
+
+  .btn-right {
+    text-align: right;
   }
 
   .btn-center {

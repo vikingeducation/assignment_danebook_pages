@@ -24,9 +24,10 @@
   height: 200px;
   width: 200px;
   overflow: hidden; }
-#danebook .panel-title {
-  text-align: center;
+#danebook h1.panel-title {
   font-size: 2em; }
+#danebook .panel-title {
+  text-align: center; }
 #danebook dd {
   margin-bottom: 10px; }
 #danebook .edit {
@@ -40,6 +41,10 @@
   height: 100px; }
 #danebook .about-me {
   height: 200px; }
+#danebook .btn-primary {
+  background-color: #2b7ae6; }
+#danebook .btn-right {
+  text-align: right; }
 #danebook .btn-center {
   margin: 0 auto;
   text-align: center; }
