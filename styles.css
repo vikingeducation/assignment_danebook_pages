@@ -24,6 +24,11 @@
   height: 200px;
   width: 200px;
   overflow: hidden; }
+#danebook .panel-title {
+  text-align: center;
+  font-size: 2em; }
+#danebook dd {
+  margin-bottom: 10px; }
 
 .nav-links {
   padding-top: 10px; }
