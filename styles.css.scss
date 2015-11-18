@@ -94,6 +94,26 @@ $danebook: #2b7ae6;
   }
 
 
+  .media-left {
+    overflow: hidden;
+    width: 64px;
+    height: 64px;
+    img {
+      height: auto;
+      width: 64px;
+    }
+
+  }
+
+  .controls a {
+    margin-right: 10px;
+  }
+
+  .gray {
+    color: gray;
+    font-size: 0.9em;
+  }
+
 
 }
 
@@ -128,7 +148,7 @@ $danebook: #2b7ae6;
     a {
       color: $danebook;
     }
-    text-decoration: underline;
+    // text-decoration: underline;
     float: right;
   }
 }

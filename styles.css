@@ -50,6 +50,18 @@
   text-align: center; }
   #danebook .btn-center a {
     background-color: #2b7ae6; }
+#danebook .media-left {
+  overflow: hidden;
+  width: 64px;
+  height: 64px; }
+  #danebook .media-left img {
+    height: auto;
+    width: 64px; }
+#danebook .controls a {
+  margin-right: 10px; }
+#danebook .gray {
+  color: gray;
+  font-size: 0.9em; }
 
 .nav-links {
   padding-top: 10px; }
@@ -67,7 +79,6 @@
   .nav-links .nav-pills {
     margin-left: 230px; }
   .nav-links .links-right {
-    text-decoration: underline;
     float: right; }
     .nav-links .links-right a {
       color: #2b7ae6; }
