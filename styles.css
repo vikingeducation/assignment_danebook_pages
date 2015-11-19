@@ -59,9 +59,39 @@
     width: 64px; }
 #danebook .controls a {
   margin-right: 10px; }
+#danebook .comment-body {
+  margin-top: 10px; }
+#danebook .comment {
+  margin-bottom: 25px; }
+#danebook .right {
+  text-align: right;
+  float: right; }
+#danebook .center {
+  text-align: center; }
+#danebook .photo {
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 110px; }
+  #danebook .photo img {
+    width: 100%; }
+#danebook .friend {
+  margin-bottom: 10px; }
+  #danebook .friend .photo {
+    margin-bottom: 0px; }
+#danebook .comment-box textarea {
+  margin-bottom: 10px; }
+#danebook .comment-like a {
+  margin-right: 10px; }
+#danebook .likers {
+  margin-top: 10px;
+  color: gray; }
 #danebook .gray {
   color: gray;
   font-size: 0.9em; }
+#danebook .comments {
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid #ccc; }
 
 .nav-links {
   padding-top: 10px; }

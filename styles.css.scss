@@ -105,13 +105,73 @@ $danebook: #2b7ae6;
 
   }
 
-  .controls a {
-    margin-right: 10px;
+  .controls {
+    a {
+      margin-right: 10px;
+    }
+  }
+
+  .comment-body {
+    margin-top: 10px;
+  }
+
+  .comment {
+    margin-bottom: 25px;
+  }
+
+  .right {
+    text-align: right;
+    float: right;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .photo {
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 110px;
+    img {
+      width: 100%;
+    }
+
+  }
+
+  .friend {
+    margin-bottom: 10px;
+    .photo {
+      margin-bottom: 0px;
+    }
+  }
+
+
+  .comment-box {
+    textarea {
+      margin-bottom: 10px;
+    }
+  }
+
+  .comment-like {
+    a {
+      margin-right: 10px;
+    }
+  }
+
+  .likers {
+    margin-top: 10px;
+    color: gray;
   }
 
   .gray {
     color: gray;
     font-size: 0.9em;
+  }
+
+  .comments {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
   }
 
 
