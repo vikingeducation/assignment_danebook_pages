@@ -196,17 +196,18 @@ main {
   }
 }
 
-.table>tbody>tr>th {
-    padding: 8px 0;
-    line-height: 1.42857143;
-    vertical-align: top;
-    border-top: 0 solid #ddd;
-    width: 110px;
-}
+.photos-container {
+  padding-bottom: 10px;
+  padding-top: 10px;
 
-.table>tbody>tr>td {
-    padding: 8px 0;
-    line-height: 1.42857143;
-    vertical-align: top;
-    border-top: 0 solid #ddd;
+  .photo-container {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+
+  img {
+    border: 1px solid black;
+    width: 60px;
+  }
 }

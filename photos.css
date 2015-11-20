@@ -138,17 +138,14 @@ main {
   .content-container p {
     font-size: 13px; }
 
-.table > tbody > tr > th {
-  padding: 8px 0;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 0 solid #ddd;
-  width: 110px; }
-
-.table > tbody > tr > td {
-  padding: 8px 0;
-  line-height: 1.42857143;
-  vertical-align: top;
-  border-top: 0 solid #ddd; }
+.photos-container {
+  padding-bottom: 10px;
+  padding-top: 10px; }
+  .photos-container .photo-container {
+    margin-bottom: 5px;
+    text-align: center; }
+  .photos-container img {
+    border: 1px solid black;
+    width: 60px; }
 
 /*# sourceMappingURL=photos.css.map */
