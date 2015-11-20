@@ -1,3 +1,154 @@
+body {
+  font-size: 13px;
+  padding-top: 46px;
+  padding-bottom: 20px; }
 
+.navbar {
+  background-color: #2b78e4;
+  border-bottom: 1px solid black;
+  height: 45px; }
+  .navbar .container-fluid {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 45px;
+    max-width: 846px;
+    min-width: 500px; }
+    .navbar .container-fluid .navbar-element {
+      float: left;
+      height: 45px;
+      padding: 7px 0;
+      vertical-align: middle; }
+    .navbar .container-fluid .navbar-header {
+      width: 30px;
+      text-align: center; }
+      .navbar .container-fluid .navbar-header a.navbar-brand {
+        margin: 0;
+        padding: 0;
+        height: 30px; }
+        .navbar .container-fluid .navbar-header a.navbar-brand img {
+          height: 30px;
+          width: 30px; }
+    .navbar .container-fluid form {
+      float: left;
+      width: calc(70% - 100px); }
+    .navbar .container-fluid .business-name-container {
+      margin-left: 15px;
+      margin-right: 20px;
+      padding: 8px 8px; }
+      .navbar .container-fluid .business-name-container h1 {
+        color: white;
+        float: left;
+        font-size: 24px;
+        font-weight: normal;
+        margin: 0px; }
+    .navbar .container-fluid .username-container {
+      margin-left: 20px;
+      float: right;
+      padding: 13px 0; }
+      .navbar .container-fluid .username-container h3 {
+        color: white;
+        font-size: 16px;
+        margin: 0px; }
+
+.everything-except-navbar {
+  width: 876px; }
+
+.cover-photo-container {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 263px;
+  width: 846px; }
+  .cover-photo-container img {
+    min-width: 100%;
+    height: 100%; }
+
+.profile-photo {
+  border: 1px solid black;
+  height: 137px;
+  position: absolute;
+  bottom: -22px;
+  left: 30px;
+  overflow: hidden;
+  width: 137px; }
+  .profile-photo img {
+    width: 137px; }
+
+.user-navigation {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 43px; }
+  .user-navigation .btn-group {
+    float: left;
+    height: 43px;
+    margin-left: 165px; }
+    .user-navigation .btn-group .btn {
+      border: 0 solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      border-radius: 0;
+      color: black;
+      height: 43px;
+      padding: 12px 12px;
+      vertical-align: middle; }
+      .user-navigation .btn-group .btn .user-nav-numbers {
+        color: #999; }
+    .user-navigation .btn-group #current {
+      background-color: #ddd; }
+  .user-navigation .edit-profile {
+    height: 43px; }
+    .user-navigation .edit-profile a {
+      float: right;
+      padding: 12px;
+      text-decoration: underline;
+      font-size: 13px; }
+
+main {
+  margin-top: 10px; }
+  main header {
+    background-color: #ddd;
+    border: 1px solid black;
+    height: 43px;
+    text-align: center; }
+    main header h1 {
+      float: left;
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0;
+      margin-left: calc(50% - 39px); }
+    main header a.btn.btn-primary.btn-sm {
+      border: 1px solid black;
+      border-radius: 0;
+      float: right;
+      margin: 6px; }
+
+.content-container {
+  border: 1px solid black;
+  border-top: 0;
+  padding-top: 20px; }
+  .content-container .left {
+    padding-left: 45px; }
+  .content-container .right {
+    padding-right: 45px; }
+  .content-container p {
+    font-size: 13px; }
+
+.table > tbody > tr > th {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd;
+  width: 110px; }
+
+.table > tbody > tr > td {
+  padding: 8px 0;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0 solid #ddd; }
 
 /*# sourceMappingURL=photos.css.map */
