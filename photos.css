@@ -143,9 +143,24 @@ main {
   padding-top: 10px; }
   .photos-container .photo-container {
     margin-bottom: 20px;
+    position: relative;
     text-align: center; }
   .photos-container img {
     border: 1px solid black;
     width: 100%; }
+  .photos-container .imgDescription {
+    padding-top: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+    background: black;
+    color: white;
+    height: 30px;
+    width: calc(100% - 30px);
+    visibility: hidden;
+    -webkit-transition: visibility opacity 0.2s; }
+  .photos-container .photo-container:hover .imgDescription {
+    visibility: visible;
+    opacity: 0.4; }
 
 /*# sourceMappingURL=photos.css.map */

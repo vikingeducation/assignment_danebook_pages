@@ -202,12 +202,33 @@ main {
 
   .photo-container {
     margin-bottom: 20px;
+    position: relative;
     text-align: center;
   }
-
 
   img {
     border: 1px solid black;
     width: 100%
   }
+
+  .imgDescription {
+  padding-top: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 15px;
+  background: black;
+  color: white;
+  height: 30px;
+  width: calc(100% - 30px);
+
+
+  visibility: hidden;
+
+  -webkit-transition: visibility opacity 0.2s;
+  }
+
+  .photo-container:hover .imgDescription {
+  visibility: visible;
+  opacity: 0.4;
+}
 }
