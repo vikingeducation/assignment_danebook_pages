@@ -100,6 +100,11 @@ main {
 
 .panel-block {
   margin-bottom: 20px; }
+  .panel-block .post-header {
+    display: inline-block; }
+    .panel-block .post-header img {
+      height: 100px;
+      width: 100px; }
 
 .post-bottom {
   background-color: #F5F5F5;

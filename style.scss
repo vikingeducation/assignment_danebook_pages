@@ -157,6 +157,13 @@ main {
 
 .panel-block {
 	margin-bottom: 20px;
+	.post-header {
+		img {
+			height: 100px;
+			width: 100px;
+		}
+		display: inline-block;
+	}
 }
 
 .post-bottom {
