@@ -31,13 +31,6 @@
 	padding: 30px 50px;
 }
 
-.profile-nav {
-	list-style: none;
-	li {
-		display: inline-block;
-	}
-}
-
 .center {
 	text-align: center;
 }
@@ -45,7 +38,6 @@
 main {
 	position: relative;
 	top: 100px;
-
 	.profile-banner {
 		img {
 			background-size: cover;
@@ -54,7 +46,36 @@ main {
 			height: 60vh;
 			position: relative;
 			top: -50px;
+			margin-bottom: -50px;
 		}
 	}
 
+	.profile-pic {
+		img {
+			height: 200px;
+			width: 200px;
+			position: absolute;
+			left: 70px;
+			top: -175px;
+		}
+	}
+
+	.profile-bar {
+		div {
+			display: inline-block;
+		}
+	}
+
+	.profile-nav {
+		list-style: none;
+		position: relative;
+		li {
+			display: inline-block;
+		}
+
+		button {
+			padding: 20px;
+			font-size: 18px;
+		}
+	}
 }
