@@ -176,6 +176,23 @@ main {
 			padding-left: 300px;
 		}
 	}
+
+	.post-btn {
+		float: right;
+	}
+
+	.comment-pic {
+		height: 50px;
+		width: 50px;
+	}
+
+	.comment-date {
+		color: #C1C1C1;
+	}
+
+	.comment-name {
+		font-size: 1.5em;
+	}
 	background-color: #F5F5F5;
 	width: 100%;
 }

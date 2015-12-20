@@ -115,5 +115,14 @@ main {
     padding-right: 10px; }
     .post-bottom li .delete {
       padding-left: 300px; }
+  .post-bottom .post-btn {
+    float: right; }
+  .post-bottom .comment-pic {
+    height: 50px;
+    width: 50px; }
+  .post-bottom .comment-date {
+    color: #C1C1C1; }
+  .post-bottom .comment-name {
+    font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
