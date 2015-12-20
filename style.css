@@ -31,6 +31,14 @@ h1, h2, h4 {
 .center {
   text-align: center; }
 
+textarea {
+  width: 100%;
+  height: 150px;
+  wrap: soft; }
+
+.post-bottom {
+  float: right; }
+
 main {
   position: relative;
   top: 100px; }
@@ -78,9 +86,5 @@ main {
     margin: 20px 0; }
   main .about-right p {
     margin: 20px 0; }
-  main .about-right textarea {
-    width: 100%;
-    height: 150px;
-    wrap: soft; }
 
 /*# sourceMappingURL=style.css.map */
