@@ -4,4 +4,4 @@
 
 Ellen Sun
 
-View my solution [here](http://sunsplat.github.io/project_danebook_pages/index.html)
+View my solution [here](http://sunsplat.github.io/project_danebook_pages/about.html)
