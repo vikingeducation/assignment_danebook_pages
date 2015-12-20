@@ -68,6 +68,11 @@ main {
     display: inline-block; }
   main .profile-bar a {
     color: #2B78E4; }
+  main .profile-name {
+    position: absolute;
+    color: #fff;
+    left: 300px;
+    top: -100px; }
   main .profile-nav {
     list-style: none;
     position: relative; }
@@ -86,5 +91,24 @@ main {
     margin: 20px 0; }
   main .about-right p {
     margin: 20px 0; }
+  main .one-post {
+    border: 1px solid #DDDDDD;
+    padding: 20px 20px 0;
+    border-radius: 4px; }
+    main .one-post .panel-body {
+      padding-bottom: 0px; }
+
+.panel-block {
+  margin-bottom: 20px; }
+
+.post-bottom {
+  background-color: #F5F5F5;
+  width: 100%; }
+  .post-bottom li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px; }
+    .post-bottom li .delete {
+      padding-left: 300px; }
 
 /*# sourceMappingURL=style.css.map */

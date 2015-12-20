@@ -103,6 +103,12 @@ main {
 		}
 	}
 
+	.profile-name {
+		position: absolute;
+		color: #fff;
+		left: 300px;
+		top: -100px;
+	}
 	.profile-nav {
 		list-style: none;
 		position: relative;
@@ -137,4 +143,32 @@ main {
 		}
 
 	}
+
+	.one-post {
+		border: 1px solid #DDDDDD;
+		padding: 20px 20px 0;
+		border-radius: 4px;
+
+		.panel-body {
+			padding-bottom: 0px;
+		}
+	}
+}
+
+.panel-block {
+	margin-bottom: 20px;
+}
+
+.post-bottom {
+
+	li {
+		list-style: none;
+		display: inline-block;
+		padding-right: 10px;
+		.delete {
+			padding-left: 300px;
+		}
+	}
+	background-color: #F5F5F5;
+	width: 100%;
 }
