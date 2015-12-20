@@ -1,3 +1,7 @@
+h1, h2, h4 {
+	font-weight: bold;
+}
+
 .navbar-default {
 	border: 2px solid #000;
 	height: 70px;
@@ -7,7 +11,14 @@
 	.navbar-brand {
 		color: #fff;
 		font-size: 2em;
+	}
 
+	h3 {
+		margin: 10px 10px;
+	}
+
+	a {
+		color: #fff;
 	}
 
 	.dane-icon {
@@ -50,6 +61,18 @@ main {
 		}
 	}
 
+	.panel-heading {
+		h5 {
+			float: right;
+			position: relative;
+			top: -50px;
+			padding: 10px;
+			background-color: #2B78E4;
+			a {
+				color: #fff;
+			}
+		}
+	}
 	.profile-pic {
 		img {
 			height: 200px;
@@ -64,6 +87,10 @@ main {
 		div {
 			display: inline-block;
 		}
+
+		a {
+			color: #2B78E4;
+		}
 	}
 
 	.profile-nav {
@@ -76,6 +103,27 @@ main {
 		button {
 			padding: 20px;
 			font-size: 18px;
+		}
+	}
+
+	.profile-edit {
+		float: right;
+		vertical-align: middle;
+	}
+
+	.about {
+		margin-top: 20px;
+	}
+
+	.about-left {
+		ul {
+			list-style: none;
+			margin: 20px 0;
+		}
+	}
+	.about-right {
+		p {
+			margin: 20px 0;
 		}
 	}
 }
