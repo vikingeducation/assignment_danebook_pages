@@ -1,1 +1,125 @@
-<!-- Your markup here! -->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Danebook</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img class="dane-icon" src="images/danish_flag.gif" alt="Brand" />  Danebook</a>
+			</div>
+			<div class="navbar-form" id="navbar-collapse" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control search-width" placeholder="Search for Users">
+				</div>
+				<div class="navbar-right">
+					<h3><a href="#">Harry</a></h3>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main class="container">
+		<div class="row">
+			<div class="profile-banner">
+				<div class="col-md-12">
+					<img src="images/hogwarts_small.jpg">
+				</div>
+			</div>
+
+			<div class="profile-bar">
+				<div class="col-md-12">
+					<div class="profile-pic">
+						<img src="images/harry_potter_small.jpg">
+					</div>
+					<div class="profile-nav btn-group col-md-offset-3" role="group">
+						<button type="button" class="btn btn-default active">Timeline</button>
+						<button type="button" class="btn btn-default">About</button>
+						<button type="button" class="btn btn-default">Photos <span class="amt">(103)</span></button>
+						<button type="button" class="btn btn-default">Friends <span class="amt">(542)</span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-5">
+				<div class="panel panel-default">
+					<div class="panel-heading center">
+						<h4>About</h4>
+					</div>
+					<div class="panel-body">
+							<ul>
+								<li><b>Born on:</b> July 31st, 1980</li>
+								<li><b>Went to school at:</b> Hogwarts</li>
+								<li><b>Hometown:</b> Godrick's Hollow, England</li>
+								<li><b>Currently Lives:</b> Godrick's Hollow, England</li>
+							</ul>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading center">
+						<h4>Photos (123)</h4>
+					</div>
+					<div class="panel-body">
+						<div class="col-md-4">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+						</div>
+						<div class="col-md-4">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading center">
+						<h4>Friends (542)</h4>
+					</div>
+					<div class="panel-body">
+						<div class="col-md-4">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+						</div>
+						<div class="col-md-4">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="col-md-8 col-md-offset-5">
+			<div class="panel panel-default">
+				<div class="panel-heading center">
+					<h4>Post</h4>
+				</div>
+				<div class="panel-body">
+					<textarea placeholder="Tell the world something."></textarea>
+					<div class="post-bottom">
+						<button class="btn btn-primary">Post</button>
+					</div>
+				</div>
+			</div>
+		</div>
+				
+	</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
