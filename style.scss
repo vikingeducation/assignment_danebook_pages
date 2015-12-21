@@ -144,41 +144,49 @@ main {
 
 	}
 
-	.one-post {
-		border: 1px solid #DDDDDD;
-		padding: 20px 20px 0;
-		border-radius: 4px;
-
-		.panel-body {
-			padding-bottom: 0px;
-		}
-	}
-}
 
 .panel-block {
 	margin-bottom: 20px;
+	border: 1px solid #DDDDDD;
+
 	.post-header {
 		img {
 			height: 100px;
 			width: 100px;
 		}
+		padding-top: 20px;
 		display: inline-block;
+	}
+
+	.panel-body {
+			padding: 0px;
+			.post-content {
+				margin: 20px 20px;
+			}
+		}
 	}
 }
 
 .post-bottom {
 
-	li {
-		list-style: none;
-		display: inline-block;
-		padding-right: 10px;
-		.delete {
-			padding-left: 300px;
+	ul {
+		padding-left: 0;
+		li {
+			list-style: none;
+			display: inline-block;
+			padding-right: 10px;
+			.delete {
+				padding-left: 500px;
+			}
+			.comment-delete {
+				padding-left: 155px;
+			}
 		}
 	}
 
 	.post-btn {
 		float: right;
+		
 	}
 
 	.comment-pic {
@@ -193,6 +201,8 @@ main {
 	.comment-name {
 		font-size: 1.5em;
 	}
+
+	padding: 10px 20px;
 	background-color: #F5F5F5;
 	width: 100%;
 }

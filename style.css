@@ -91,30 +91,34 @@ main {
     margin: 20px 0; }
   main .about-right p {
     margin: 20px 0; }
-  main .one-post {
-    border: 1px solid #DDDDDD;
-    padding: 20px 20px 0;
-    border-radius: 4px; }
-    main .one-post .panel-body {
-      padding-bottom: 0px; }
-
-.panel-block {
-  margin-bottom: 20px; }
-  .panel-block .post-header {
-    display: inline-block; }
-    .panel-block .post-header img {
-      height: 100px;
-      width: 100px; }
+  main .panel-block {
+    margin-bottom: 20px;
+    border: 1px solid #DDDDDD; }
+    main .panel-block .post-header {
+      padding-top: 20px;
+      display: inline-block; }
+      main .panel-block .post-header img {
+        height: 100px;
+        width: 100px; }
+    main .panel-block .panel-body {
+      padding: 0px; }
+      main .panel-block .panel-body .post-content {
+        margin: 20px 20px; }
 
 .post-bottom {
+  padding: 10px 20px;
   background-color: #F5F5F5;
   width: 100%; }
-  .post-bottom li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 10px; }
-    .post-bottom li .delete {
-      padding-left: 300px; }
+  .post-bottom ul {
+    padding-left: 0; }
+    .post-bottom ul li {
+      list-style: none;
+      display: inline-block;
+      padding-right: 10px; }
+      .post-bottom ul li .delete {
+        padding-left: 500px; }
+      .post-bottom ul li .comment-delete {
+        padding-left: 155px; }
   .post-bottom .post-btn {
     float: right; }
   .post-bottom .comment-pic {
