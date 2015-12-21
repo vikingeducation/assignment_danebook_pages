@@ -1,0 +1,139 @@
+/* Variables */
+/* Shared by all pages */
+.topnav {
+  background: #02e;
+  border: none;
+  border-radius: 0;
+  position: fixed;
+  z-index: 1; }
+  .topnav .navbar-brand {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    color: #fff; }
+  .topnav form .btn-link {
+    color: #fff; }
+  .topnav form ul {
+    padding-right: 20px; }
+
+.cover-photo {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px; }
+
+.tab-bar {
+  height: 52px; }
+
+.profile-photo {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 80px; }
+
+.name {
+  position: absolute;
+  bottom: 50px;
+  left: 160px;
+  color: #fff;
+  font-size: 24px; }
+
+.edit-profile {
+  color: #02e; }
+
+.page-links li a {
+  border: 1px solid #aaa;
+  border-top: none; }
+
+.subpage-header {
+  background: #f8f8f8;
+  border: 1px solid #aaa;
+  padding: 10px 0; }
+  .subpage-header p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0; }
+
+/* About page specific */
+.about-page {
+  border: 1px solid #aaa;
+  padding: 10px 0; }
+  .about-page h3 {
+    padding: 10px 0; }
+
+.info-categories p {
+  font-weight: 700; }
+
+/* Friend page specific */
+.friends-page {
+  border: 1px solid #aaa;
+  display: inline-block; }
+
+.friends-column {
+  border: 1px solid #aaa;
+  margin: 10px 0; }
+  .friends-column ul {
+    list-style-type: none; }
+    .friends-column ul li button, .friends-column ul li a {
+      position: relative;
+      top: 40px; }
+
+.friend {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #aaa;
+  margin: 10px 0;
+  padding: 10px 0; }
+
+/* Timeline specific */
+.timeline-subpage {
+  border: 1px solid #aaa;
+  margin: 0 10px;
+  padding: 10px; }
+  .timeline-subpage a {
+    position: relative;
+    left: 100px; }
+
+.timeline-photos img {
+  height: 80px;
+  width: 80px;
+  padding: 10px; }
+
+.timeline-friends img {
+  height: 80px;
+  width: 80px;
+  padding: 10px; }
+.timeline-friends figcaption {
+  font-size: 12px;
+  text-align: center; }
+
+.timeline-subpage-header {
+  background: #f8f8f8;
+  border: 1px solid #aaa;
+  padding: 10px 0;
+  margin: 20px 10px 0 10px; }
+  .timeline-subpage-header p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0; }
+
+.subpage-footer {
+  background: #f8f8f8;
+  border: 1px solid #aaa;
+  padding: 5px 0;
+  margin: 0 10px 20px 10px; }
+  .subpage-footer p {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0; }
+
+.post-box {
+  margin-bottom: 0; }
+
+.post-profile-photo {
+  height: 50px;
+  width: 50px; }
+
+.post-text {
+  padding: 10px 0; }
+
+/*# sourceMappingURL=styles.css.map */
