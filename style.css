@@ -79,8 +79,8 @@ main {
     main .panel-heading h5 a {
       color: #fff; }
   main .profile-pic img {
-    height: 200px;
     width: 200px;
+    height: 200px;
     position: absolute;
     left: 70px;
     top: -175px; }
@@ -94,10 +94,10 @@ main {
     left: 300px;
     top: -100px; }
   main .profile-nav {
-    list-style: none;
     position: relative; }
     main .profile-nav li {
-      display: inline-block; }
+      display: inline-block;
+      list-style: none; }
     main .profile-nav button {
       padding: 20px;
       font-size: 18px; }
@@ -136,8 +136,8 @@ main {
   .post-bottom ul {
     padding-left: 0; }
     .post-bottom ul li {
-      list-style: none;
       display: inline-block;
+      list-style: none;
       padding-right: 10px; }
       .post-bottom ul li .delete {
         padding-left: 500px; }
@@ -161,9 +161,32 @@ main {
 .friend-block button {
   background-color: #E6E6E6; }
 
-.photo-block img {
-  height: 200px;
+.photo-block .photo-image img {
   width: 200px;
+  height: 200px;
   margin: 20px; }
+.photo-block .photo-image .rollover {
+  margin: 0 20px;
+  opacity: 1;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition: -webkit-transform 1s;
+  background-color: #000;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0; }
+.photo-block .photo-image .rollover:hover {
+  padding: 20px;
+  color: #fff;
+  opacity: .7;
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-box-shadow: 0px 0px 4px #000;
+  -moz-box-shadow: 0px 0px 4px #000;
+  box-shadow: 0px 0px 4px #000; }
 
 /*# sourceMappingURL=style.css.map */
