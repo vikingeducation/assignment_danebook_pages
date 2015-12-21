@@ -108,6 +108,7 @@ main {
 			top: -50px;
 			padding: 10px;
 			background-color: #2B78E4;
+			margin-bottom: 0;
 			a {
 				color: #fff;
 			}
@@ -255,5 +256,17 @@ main {
 
 	button {
 		background-color: #E6E6E6;
+	}
+}
+
+.photo-block {
+	img {
+		height: 200px;
+		width: 200px;
+		margin: 20px;
+	}
+
+	img:hover {
+		
 	}
 }
