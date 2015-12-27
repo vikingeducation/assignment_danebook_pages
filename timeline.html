@@ -1,1 +1,230 @@
-<!-- Your markup here! -->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Danebook</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img class="dane-icon" src="images/danish_flag.gif" alt="Brand" />  Danebook</a>
+			</div>
+			<div class="navbar-form" id="navbar-collapse" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control search-width" placeholder="Search for Users">
+				</div>
+				<div class="navbar-right">
+					<h3><a href="about.html">Harry</a></h3>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<main class="container">
+		<div class="row">
+			<div class="profile-banner">
+				<div class="col-md-12">
+					<img src="images/hogwarts_small.jpg">
+				</div>
+			</div>
+
+			<div class="profile-bar">
+				<div class="col-md-12">
+					<div class="profile-pic">
+						<img src="images/harry_potter_small.jpg">
+					</div>
+					<div class="profile-name">
+						<h1>Harry Potter</h1>
+					</div>
+					<div class="profile-nav btn-group col-md-offset-3" role="group">
+						<button type="button"class="btn btn-default active"><a href="timeline.html">Timeline</a></button>
+						<button type="submit" class="btn btn-default"><a href="about.html">About</a></button>
+						<button type="button" class="btn btn-default"><a href="photos.html">Photos</a> <span class="comment-date">(103)</span></button>
+						<button type="button" class="btn btn-default"><a href="friends.html">Friends</a> <span class="comment-date">(542)</span></button>
+					</div>
+					<div class="profile-edit">
+						<h3><a href="about_edit.html">Edit Profile</a></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-5">
+				<div class="panel panel-default">
+					<div class="panel-heading center">
+						<h4>About</h4>
+					</div>
+					<div class="panel-body">
+							<ul>
+								<li><b>Born on:</b> July 31st, 1980</li>
+								<li><b>Went to school at:</b> Hogwarts</li>
+								<li><b>Hometown:</b> Godrick's Hollow, England</li>
+								<li><b>Currently Lives:</b> Godrick's Hollow, England</li>
+							</ul>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading center">
+						<h4>Photos (123)</h4>
+					</div>
+					<div class="panel-body">
+						<div class="col-md-4 image-row">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+						</div>
+						<div class="col-md-4 image-row">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+						</div>
+						<div class="col-md-4 image-row">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+							<img src="images/icon_photo_small.png">
+						</div>
+						<div class="col-md-6 col-md-offset-3">
+							<a href="#">See More Photos</a>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading center">
+						<h4>Friends (542)</h4>
+					</div>
+					<div class="panel-body">
+						<div class="col-md-4 image-row">
+							<img src="images/icon_photo_small.png">
+							<h6><a href="#">Ron Weasley</a></h6>
+							<img src="images/icon_photo_small.png">
+							<h6><a href="#">paragraph test</a></h6>
+						</div>
+						<div class="col-md-4 image-row">
+							<img src="images/icon_photo_small.png">
+							<h6><a href="#">Ginny Weasley</a></h6>
+							<img src="images/icon_photo_small.png">
+							<h6><a href="#">paragraph test</a></h6>
+						</div>
+						<div class="col-md-4 image-row">
+							<img src="images/icon_photo_small.png">
+							<h6><a href="#">Hermione Granger</a></h6>
+							<img src="images/icon_photo_small.png">
+							<h6><a href="#">paragraph test</a></h6>
+						</div>
+						<div class="col-md-6 col-md-offset-3">
+							<a href="#">See More Friends</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7">
+
+				<div class="post-comment">
+					<div class="panel-default">
+						<div class="panel-heading center">
+							<h4>Post</h4>
+						</div>
+						<div class="panel-body">
+							<textarea placeholder="Tell the world something."></textarea>
+
+							<div class="post-comment-bottom">
+								<span class="post-comment-btn"><button class="btn btn-primary">Post</button></span>
+							</div>
+						</div>
+					</div>		
+				</div>
+
+				<div class="panel-block">
+					<div class="post-header">
+						<div class="col-md-2">
+							<img src="images/user_silhouette_generic.gif">
+						</div>
+						<div class="col-md-8 col-md-offset-2">
+							<h4><a href="#">Harry Potter</a></h4>
+							<p>Posted on Thursday 5/21/2014</p>
+						</div>
+					</div>
+					<div class="panel-body">
+						<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<div class="post-bottom">
+							<ul>
+								<li><a href="#">Unlike</a></li>
+								<li><span class="delete"><a href="#">Delete</a></span></li>
+							</ul>
+							<p><a href="#">Hermione Granger</a> likes this.</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="panel-block">
+					<div class="post-header">
+						<div class="col-md-2">
+							<img src="images/user_silhouette_generic.gif">
+						</div>
+						<div class="col-md-8 col-md-offset-2">
+							<h4><a href="#">Harry Potter</a></h4>
+							<p>Posted on Thursday 5/21/2014</p>
+						</div>
+					</div>
+					<div class="panel-body">
+						<p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<div class="post-bottom">
+							<ul>
+								<li><a href="#">Unlike</a></li>
+								<li><span class="delete"><a href="#">Delete</a></span></li>
+							</ul>
+							<p>You and <a href="#">Hermione Granger</a> and 3 others like this.</p>
+							<hr />
+							<div class="comment row">
+								<div class="col-md-2">
+									<img class="comment-pic" src="images/user_silhouette_generic.gif">
+								</div>
+								<div class="col-md-8">
+									<p><a class="comment-name" href="#">Ron Weasley</a> <span class="comment-date">Said on Thursday 5/21/2014</span></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<p><a href="#">Like</a> <span class="comment-date">3 other people like this</span></p>
+								</div>
+							</div>
+							<div class="comment row">
+								<div class="col-md-2">
+									<img class="comment-pic" src="images/user_silhouette_generic.gif">
+								</div>
+								<div class="col-md-8">
+									<p><a class="comment-name" href="#">Harry Potter</a> <span class="comment-date">Said on Friday 5/22/2014</span></p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<ul>
+										<li><a href="#">Like</a> <span class="comment-date">3 other people like this</span></li>
+										<li><span class="comment-delete"><a href="#">Delete</a></span></li>
+									</ul>
+									<textarea placeholder="Write a comment..."></textarea>
+									<div class="comment-link">
+										<a href="#">Cancel</a>
+										<div class="post-btn"><button class="btn btn-primary" type="button">Comment</button></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>		
+	</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
