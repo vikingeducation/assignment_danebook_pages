@@ -11,5 +11,9 @@ body .cover {
   height: 550px; }
   body .cover #user-picture {
     margin-top: 200px; }
+body .about-me-title {
+  margin-top: 50px;
+  background: #eee;
+  border: 1px solid #ccc; }
 
 /*# sourceMappingURL=style.css.map */
