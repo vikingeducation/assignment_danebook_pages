@@ -15,5 +15,10 @@ body .about-me-title {
   margin-top: 50px;
   background: #eee;
   border: 1px solid #ccc; }
+body .save-change {
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
