@@ -5,5 +5,11 @@ body #logo {
   height: 50px;
   border-radius: 50%;
   margin-top: -15px; }
+body .cover {
+  background: url("hogwarts_small.jpg");
+  background-size: cover;
+  height: 550px; }
+  body .cover #user-picture {
+    margin-top: 200px; }
 
 /*# sourceMappingURL=style.css.map */
