@@ -42,8 +42,20 @@ body {
 		border: 1px solid #ccc;
 		}
 
-	.post-something {
+	.post-creation {
 		height: 100px;
+	}
+
+	.post-picture {
+		background: url("harry_potter_small.jpg") 70% 25% no-repeat;
+		width: 100px;
+		height: 100px;
+
+		.profile-link {
+			display:block;
+			width: 100px;
+			height: 100px;
+		}
 	}
 }
 

@@ -26,7 +26,15 @@ body .small-title-section {
   margin-top: 40px;
   background: #eee;
   border: 1px solid #ccc; }
-body .post-something {
+body .post-creation {
   height: 100px; }
+body .post-picture {
+  background: url("harry_potter_small.jpg") 70% 25% no-repeat;
+  width: 100px;
+  height: 100px; }
+  body .post-picture .profile-link {
+    display: block;
+    width: 100px;
+    height: 100px; }
 
 /*# sourceMappingURL=style.css.map */
