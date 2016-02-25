@@ -47,9 +47,13 @@ body {
 	}
 
 	.post-picture {
-		background: url("harry_potter_small.jpg") 70% 25% no-repeat;
-		width: 100px;
-		height: 100px;
+		background: url("harry_potter_small.jpg");
+		background-size: cover;
+		border-radius: 50%;
+		margin-left: 10px;
+		margin-top: 5px;
+		width: 80px;
+		height: 80px;
 
 		.profile-link {
 			display:block;
