@@ -1,0 +1,72 @@
+body .border-control {
+  border: 1px solid #ccc; }
+body #logo {
+  background: url("danish_flag.gif");
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -15px; }
+body .cover {
+  background: url("hogwarts_small.jpg");
+  background-size: cover;
+  height: 550px; }
+  body .cover #user-picture {
+    margin-top: 200px; }
+body .big-title-section {
+  margin-top: 50px;
+  background: #eee;
+  border: 1px solid #ccc; }
+body .small-title-section {
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #eee;
+  border: 1px solid #ccc; }
+body .save-change {
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px; }
+body .post-creation {
+  height: 100px; }
+body .post-picture {
+  background: url("harry_potter_small.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 80px;
+  height: 80px; }
+  body .post-picture .profile-link {
+    display: block;
+    width: 80px;
+    height: 80px; }
+body .post-picture-friend {
+  background: url("user_generic.png") 70% 25% no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px; }
+  body .post-picture-friend .profile-link {
+    display: block;
+    width: 80px;
+    height: 80px; }
+body .post-section {
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+body .create-post-section {
+  padding-top: 0;
+  margin-top: 20px; }
+body .friends-section > .col-sm-5 {
+  margin-top: 15px; }
+body .about-section h2,
+body .photo-section {
+  margin-top: 50px; }
+body footer hr + a {
+  margin-right: 20px; }
+@media (max-width: 762px) {
+  body #left-section {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
