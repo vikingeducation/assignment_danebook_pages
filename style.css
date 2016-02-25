@@ -36,5 +36,14 @@ body .post-picture {
     display: block;
     width: 100px;
     height: 100px; }
+body .post-picture-friend {
+  background: url("user_generic.png") 70% 25% no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 100px; }
+  body .post-picture-friend .profile-link {
+    display: block;
+    width: 100px;
+    height: 100px; }
 
 /*# sourceMappingURL=style.css.map */
