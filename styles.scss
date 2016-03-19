@@ -72,6 +72,24 @@ margin-bottom: 15px;
   }
 }
 
+#icon-picture {
+  background-image: url(assets/icon_photo_small.png);
+  height:150px;
+  width: 150px;
+  display: inline-block;
+  background-size:100% 100%;
+  p {
+    opacity:0;
+    transition:0.5s;
+    margin-top:135px;
+    background:lightgrey;
+    border:1px solid;
+  }
+  &:hover p{
+    opacity:1;
+  }
+}
+
 #current-link {
   background-color: lightgrey;
 }

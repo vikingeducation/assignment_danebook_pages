@@ -55,6 +55,21 @@ body {
     text-align: center;
     z-index: -1; }
 
+#icon-picture {
+  background-image: url(assets/icon_photo_small.png);
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  background-size: 100% 100%; }
+  #icon-picture p {
+    opacity: 0;
+    transition: 0.5s;
+    margin-top: 135px;
+    background: lightgrey;
+    border: 1px solid; }
+  #icon-picture:hover p {
+    opacity: 1; }
+
 #current-link {
   background-color: lightgrey; }
 
