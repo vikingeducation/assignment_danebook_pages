@@ -12,10 +12,12 @@ body {
     color: white; }
 
 #upper {
-  border: solid; }
+  border: solid;
+  margin-bottom: 15px; }
 
 .wrapper {
-  border: solid; }
+  border: solid;
+  padding-bottom: 20px; }
   .wrapper #long-form {
     height: 100px; }
 
@@ -31,6 +33,18 @@ body {
   width: 100%; }
   .form-group .form-control {
     width: 100%; }
+
+.friend-row {
+  border: 1px solid;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+  .friend-row div {
+    vertical-align: middle;
+    display: inline-block; }
+  .friend-row ul {
+    margin-bottom: 0px; }
+  .friend-row li {
+    list-style-type: none; }
 
 #cover-nav {
   border: 1px solid;
@@ -54,6 +68,12 @@ body {
   background-size: cover;
   background-repeat: none;
   border: solid; }
+
+#friend-pic {
+  background-image: url(assets/user_silhouette_generic.gif);
+  height: 100px;
+  width: 100px;
+  background-size: cover; }
 
 #banner {
   background-image: url(assets/hogwarts_small.jpg);
