@@ -1,0 +1,151 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+.navbar-custom {
+  background-color: #2B78E4; }
+  .navbar-custom .navbar-brand, .navbar-custom span {
+    color: white; }
+  .navbar-custom .navbar-toggle > .icon-bar {
+    background-color: white; }
+  .navbar-custom .navbar-nav > li > a {
+    color: white; }
+
+#upper {
+  border: solid;
+  margin-bottom: 15px; }
+
+.wrapper {
+  border: solid;
+  padding-bottom: 20px; }
+  .wrapper #long-form {
+    height: 100px; }
+
+.navbar-brand .logo {
+  border-radius: 50%;
+  height: 25px;
+  width: auto; }
+
+.navbar-form {
+  width: 60%; }
+
+.form-group {
+  width: 100%; }
+  .form-group .form-control {
+    width: 100%; }
+
+.friend-row {
+  border: 1px solid;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+  .friend-row div {
+    vertical-align: middle;
+    display: inline-block; }
+  .friend-row ul {
+    margin-bottom: 0px; }
+  .friend-row li {
+    list-style-type: none; }
+
+.delete {
+  float: right; }
+
+#cover-nav {
+  border: 1px solid;
+  z-index: -1; }
+  #cover-nav div {
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+    z-index: -1; }
+
+#icon-picture {
+  background-image: url(assets/icon_photo_small.png);
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  background-size: 100% 100%; }
+  #icon-picture p {
+    opacity: 0;
+    transition: 0.5s;
+    margin-top: 135px;
+    background: lightgrey;
+    border: 1px solid; }
+  #icon-picture:hover p {
+    opacity: 1; }
+
+.timeline-col {
+  margin-left: -15px; }
+  .timeline-col .wrapper {
+    margin-bottom: 15px; }
+
+.timeline-col-2nd {
+  margin-right: -15px;
+  margin-left: 30px; }
+  .timeline-col-2nd .wrapper {
+    margin-bottom: 15px; }
+  .timeline-col-2nd textarea {
+    margin-left: 15px; }
+
+.post-rows div, .post-rows ul {
+  display: inline-block;
+  vertical-align: middle; }
+.post-rows ul {
+  list-style-type: none;
+  margin-left: -15px; }
+
+.post-body {
+  margin-top: 15px; }
+
+.sub-post {
+  width: 60px;
+  height: 60px;
+  background-image: url(assets/user_silhouette_generic.gif);
+  background-size: cover;
+  display: inline-block; }
+
+.friends-col {
+  height: 75px;
+  width: 75px;
+  margin: 0px 10px 10px;
+  text-align: center; }
+  .friends-col p {
+    margin-top: 75px; }
+
+.more {
+  text-align: center; }
+
+#current-link {
+  background-color: lightgrey; }
+
+#profile-pic {
+  position: absolute;
+  background-image: url(assets/harry_potter_small.jpg);
+  height: 150px;
+  width: 120px;
+  margin-top: 160px;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: none;
+  border: solid; }
+
+#post-img {
+  background-image: url(assets/harry_potter_small.jpg);
+  margin-top: 10px;
+  height: 60px;
+  width: 60px;
+  background-size: cover; }
+
+#friend-pic {
+  background-image: url(assets/user_silhouette_generic.gif);
+  background-size: cover;
+  display: inline-block;
+  margin-top: 10px; }
+
+#banner {
+  background-image: url(assets/hogwarts_small.jpg);
+  background-size: cover;
+  background-repeat: none;
+  height: 300px;
+  z-index: -1; }
+
+/*# sourceMappingURL=styles.css.map */
