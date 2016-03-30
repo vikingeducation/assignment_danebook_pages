@@ -1,1 +1,203 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Friends</title>
+
+    <!-- Latest compiled and minified CSS Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Bootstrap -->
+    <link href="friends.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+
+        <header class="navbar-header navbar-element">
+          <a class="navbar-brand" href="timeline.html">
+              <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif" alt="danish flag" class="img-circle">
+          </a>
+        </header>
+
+        <div class="business-name-container navbar-element">
+          <h1>
+            Danebook
+          </h1>
+        </div>
+
+        <form class= "navbar-element input-group-sm">
+          <input type="text" class="search-for-users form-control" placeholder="Search for Users">
+        </form>
+
+        <div class="username-container navbar-element">
+          <h3>Harry</h3>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="container everything-except-navbar">
+
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="cover-photo-container">
+            <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg">
+          </div>
+
+          <div class="profile-photo">
+            <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <div class= "user-navigation">
+
+            <div class="btn-group" role="group" aria-label="user-nav-buttons">
+              <a href="timeline.html" class="btn" role="button">Timeline</a>
+              <a href="about.html" class="btn" role="button">About</a>
+              <a href="photos.html" class="btn" role="button">Photos <span class="user-nav-numbers">(123)</span></a>
+              <a href="friends.html" class="btn" id="current" role="button">Friends <span class="user-nav-numbers">(542)</span></a>
+            </div>
+
+            <div class= "edit-profile">
+              <a href="about_edit.html">
+                Edit Profile
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <main>
+
+        <div class = "row">
+          <div class = "col-xs-12">
+            <header>
+              <h1>Friends</h1>
+            </header>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="content-container">
+              <div class="row">
+
+                <div class="col-xs-6 left">
+
+                  <section class="friend">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                        <div class="friend-details-container">
+                          <a href="#">Harry Potter</a>
+                          <p>Posted on Thursday 06/01/2014</p>
+                        </div>
+                        <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="friend">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                        <div class="friend-details-container">
+                          <a href="#">Harry Potter</a>
+                          <p>Posted on Thursday 06/01/2014</p>
+                        </div>
+                        <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="friend">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                        <div class="friend-details-container">
+                          <a href="#">Harry Potter</a>
+                          <p>Posted on Thursday 06/01/2014</p>
+                        </div>
+                        <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                      </div>
+                    </div>
+                  </section>
+
+                </div>
+
+                <div class="col-xs-6 right">
+
+                  <section class="friend">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                        <div class="friend-details-container">
+                          <a href="#">Harry Potter</a>
+                          <p>Posted on Thursday 06/01/2014</p>
+                        </div>
+                        <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="friend">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                        <div class="friend-details-container">
+                          <a href="#">Harry Potter</a>
+                          <p>Posted on Thursday 06/01/2014</p>
+                        </div>
+                        <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="friend">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <img src="http://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+                        <div class="friend-details-container">
+                          <a href="#">Harry Potter</a>
+                          <p>Posted on Thursday 06/01/2014</p>
+                        </div>
+                        <button type="button" class="btn btn-default btn-sm">Unfriend Me</button>
+                      </div>
+                    </div>
+                  </section>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+    </div> <!-- container everything-except-navbar -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
