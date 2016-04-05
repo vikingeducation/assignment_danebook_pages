@@ -1,0 +1,15 @@
+.jumbotron {
+  height: 65%; }
+
+.masthead {
+  height: 300px; }
+  .masthead .headshot {
+    background-color: red;
+    width: 55px;
+    height: 55px; }
+  .masthead .headshot,
+  .masthead h3 {
+    position: absolute;
+    z-index: 1000; }
+
+/*# sourceMappingURL=style.css.map */

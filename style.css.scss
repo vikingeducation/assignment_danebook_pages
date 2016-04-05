@@ -1,0 +1,25 @@
+$zindex: (
+	layer1: 1000,
+	layer2: 2000,
+	layer3: 3000
+);
+
+.jumbotron {
+	height: 65%;
+}
+
+.masthead {
+	height: 300px;
+
+	.headshot {
+		background-color: red;
+		width: 55px;
+		height: 55px;
+	}
+
+	.headshot,
+	h3 {
+		position: absolute;
+		z-index: map-get($zindex, layer1);
+	}
+}
