@@ -1,8 +1,4 @@
-$zindex: (
-	layer1: 1000,
-	layer2: 2000,
-	layer3: 3000
-);
+body
 
 .jumbotron {
 	height: 65%;
@@ -10,17 +6,18 @@ $zindex: (
 
 .masthead {
 	height: 300px;
+	position: absolute;
+	bottom: -75;
 
 	.headshot {
 		background-color: red;
-		width: 55px;
-		height: 55px;
+		width: 128px;
+		height: 128px;
+		display: inline-block;
 	}
 
 	.headshot,
 	.masthead-name {
-		display: inline;
-		position: absolute;
-		z-index: map-get($zindex, layer1);
+		display: inline-block;
 	}
 }
