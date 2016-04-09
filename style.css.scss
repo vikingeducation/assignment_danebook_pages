@@ -18,7 +18,8 @@ $zindex: (
 	}
 
 	.headshot,
-	h3 {
+	.masthead-name {
+		display: inline;
 		position: absolute;
 		z-index: map-get($zindex, layer1);
 	}
