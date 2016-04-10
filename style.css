@@ -7,7 +7,6 @@ body
   position: absolute;
   bottom: -75; }
   .masthead .headshot {
-    background-color: red;
     width: 128px;
     height: 128px;
     display: inline-block; }
