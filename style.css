@@ -1,4 +1,3 @@
-body
 .jumbotron {
   height: 300px; }
 
@@ -9,9 +8,19 @@ body
   .masthead .headshot {
     width: 128px;
     height: 128px;
-    display: inline-block; }
+    margin-top: 2em;
+    position: absolute; }
+  .masthead .masthead-name {
+    top: 75;
+    right: -150;
+    position: relative; }
   .masthead .headshot,
   .masthead .masthead-name {
-    display: inline-block; }
+    display: inline-block;
+    z-index: 1; }
+  .masthead .masthead-nav {
+    top: 75;
+    position: relative;
+    right: -125; }
 
 /*# sourceMappingURL=style.css.map */
