@@ -35,6 +35,15 @@
   background-color: #fff;
   height: 100px;
   width: 100%;
-  position: relative; }
+  position: relative;
+  border: 5px solid #f2f2f2; }
+  .friends-tile img {
+    margin: 8px; }
+  .friends-tile .friend-info {
+    position: absolute;
+    top: 10; }
+  .friends-tile button {
+    position: absolute;
+    top: 20; }
 
 /*# sourceMappingURL=style.css.map */
