@@ -18,18 +18,13 @@ $zindex: (
 		height: 128px;
 		margin-top: 2em;
 		position: absolute;
+		z-index: 1;
 	}
 
 	.masthead-name {
 		top: 75;
 		right: -150;
 		position: relative;
-
-	}
-
-	.headshot,
-	.masthead-name {
-		display: inline-block;
 		z-index: 1;
 	}
 
@@ -38,4 +33,15 @@ $zindex: (
 		position: relative;
 		right: -125;
 	}
+}
+
+.panel-header {
+	background-color: #d9d9d9;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.body-tile {
+	background-color: #f2f2f2;
 }
