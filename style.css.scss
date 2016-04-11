@@ -27,7 +27,7 @@ nav.navbar-default {
 	}
 }
 
-body.container {
+main.container {
 	margin-top: 70px;
 }
 
@@ -35,6 +35,12 @@ body.container {
 	height: 300px;
 	background-image: url("./hogwarts_small.jpg");
 	background-size: cover;
+
+	button {
+		position: absolute;
+		bottom: 55;
+		right: 50;
+	}
 }
 
 .masthead {
