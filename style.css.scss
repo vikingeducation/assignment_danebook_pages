@@ -36,7 +36,7 @@ main.container {
 	background-image: url("./hogwarts_small.jpg");
 	background-size: cover;
 
-	button {
+	button#edit-profile {
 		position: absolute;
 		bottom: 55;
 		right: 50;
@@ -79,6 +79,10 @@ main.container {
 	font-weight: bold;
 	margin: 0;
 	border: 3px solid #e6e6e6;
+
+	button#about-edit-profile {
+		float: right;
+	}
 }
 
 .panel-body {
