@@ -82,6 +82,7 @@ main.container {
     top: 10; }
   .friends-tile button {
     position: absolute;
-    top: 20; }
+    top: 20;
+    box-shadow: 5px 5px black; }
 
 /*# sourceMappingURL=style.css.map */
