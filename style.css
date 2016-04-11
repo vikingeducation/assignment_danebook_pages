@@ -58,11 +58,16 @@ main.container {
   margin: 0;
   border: 3px solid #e6e6e6; }
   .panel-header button#about-edit-profile {
-    float: right; }
+    float: right;
+    box-shadow: 5px 5px black; }
 
 .panel-body {
   background-color: #f2f2f2;
   margin-top: 0; }
+
+.about-content {
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .friends-tile {
   background-color: #fff;

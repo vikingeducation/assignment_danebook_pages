@@ -82,6 +82,7 @@ main.container {
 
 	button#about-edit-profile {
 		float: right;
+		box-shadow: 5px 5px black;
 	}
 }
 
@@ -89,6 +90,12 @@ main.container {
 	background-color: #f2f2f2;
 	margin-top: 0;
 }
+
+.about-content {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 
 .friends-tile {
 	background-color: #fff;
