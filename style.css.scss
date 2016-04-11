@@ -89,6 +89,12 @@ main.container {
 .panel-body {
 	background-color: #f2f2f2;
 	margin-top: 0;
+
+	button.btn-block {
+		margin: 15px;
+		font-size: 3em;
+		box-shadow: 5px 5px black;
+	}
 }
 
 .about-content {
