@@ -2,4 +2,12 @@ body {
   padding-top: 50px;
   padding-bottom: 20px; }
 
+@media (min-width: 768px) {
+  .navbar-form .form-control {
+    width: 500px; } }
+.navbar-default {
+  background-color: #2B78E4; }
+  .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+    color: white; }
+
 /*# sourceMappingURL=style.css.map */
