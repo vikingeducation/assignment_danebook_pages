@@ -9,6 +9,7 @@ body {
   }
 }
 
+// refactor this code so it is more succinct
 .navbar {
   border: none;
 }
@@ -21,11 +22,14 @@ body {
 }
 
 .jumbotron {
-   position: relative;
    background: #000 url("img/hogwarts_small.jpg") center center;
-   width: 100%;
-   height: 100px;
    background-size: cover;
    color: #f8f8f8;
-   overflow: hidden;
+}
+
+img {
+  &.profile-pic {
+    position: relative;
+    top: 100px;
+  }
 }
