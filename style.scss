@@ -1,6 +1,7 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 768px) {
@@ -33,4 +34,21 @@ img {
     position: relative;
     top: 100px;
   }
+}
+
+.main-content-title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  background-color: #c8cbcd;
+  border-radius: 2px;
+  h2 {
+    padding-bottom: 5px;
+  }
+}
+
+.main-content {
+  border: 1px solid #333;
+  position: relative;
+  top: 50px;
 }
