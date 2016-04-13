@@ -5,9 +5,21 @@ body {
 @media (min-width: 768px) {
   .navbar-form .form-control {
     width: 500px; } }
+.navbar {
+  border: none; }
+
 .navbar-default {
   background-color: #2B78E4; }
   .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
     color: white; }
+
+.jumbotron {
+  position: relative;
+  background: #000 url("img/hogwarts_small.jpg") center center;
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+  color: #f8f8f8;
+  overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
