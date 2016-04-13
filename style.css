@@ -41,4 +41,8 @@ img.profile-pic {
 .btn-block {
   margin: 25px; }
 
+.friend-box {
+  border: 1px solid #333;
+  padding: 10px; }
+
 /*# sourceMappingURL=style.css.map */
