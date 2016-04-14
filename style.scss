@@ -52,6 +52,7 @@ img {
   top: 50px;
   background-color: $header-color;
   border-radius: 5px 5px 0 0;
+  margin-bottom: 15px;
   h2 {
     padding-bottom: 5px;
   }
@@ -73,6 +74,13 @@ img {
   .hovereffect img {
     margin: 10px 0 5px 0;
   }
+  .about-header, .photos-header, .friends-header {
+    background-color: $header-color;
+    border-radius: 5px 5px 0 0;
+  }
+  .about-body, .photos-body, .friends-body {
+    margin-bottom: 15px;
+  }
 }
 
 .friend-box {
@@ -81,14 +89,15 @@ img {
 }
 
 .new-post {
-  border: 1px solid #333;
+  margin-bottom: 15px;
   .new-post-header, .new-post-footer {
     background-color: $header-color;
   }
 }
 
 .post {
-  border: 1px solid #333;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
   img {
     float: left;
   }

@@ -34,7 +34,8 @@ img.profile-pic {
   position: relative;
   top: 50px;
   background-color: #eee;
-  border-radius: 5px 5px 0 0; }
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 15px; }
   .main-content-title h2 {
     padding-bottom: 5px; }
 
@@ -50,18 +51,24 @@ img.profile-pic {
     margin: 10px; }
   .main-content .hovereffect img {
     margin: 10px 0 5px 0; }
+  .main-content .about-header, .main-content .photos-header, .main-content .friends-header {
+    background-color: #eee;
+    border-radius: 5px 5px 0 0; }
+  .main-content .about-body, .main-content .photos-body, .main-content .friends-body {
+    margin-bottom: 15px; }
 
 .friend-box {
   border: 1px solid #333;
   padding: 10px; }
 
 .new-post {
-  border: 1px solid #333; }
+  margin-bottom: 15px; }
   .new-post .new-post-header, .new-post .new-post-footer {
     background-color: #eee; }
 
 .post {
-  border: 1px solid #333; }
+  border: 1px solid #eee;
+  margin-bottom: 15px; }
   .post img {
     float: left; }
   .post .post-footer {
