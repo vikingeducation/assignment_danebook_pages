@@ -13,15 +13,16 @@ body {
   }
 }
 
-// refactor this code so it is more succinct
 .navbar {
   border: none;
-}
-
-.navbar-default {
-  background-color: #2B78E4;
-  .navbar-nav>li>a, .navbar-brand {
+  .navbar-brand {
     color: white;
+  }
+  &.navbar-default {
+    background-color: #2B78E4;
+    .navbar-nav>li>a {
+      color: white;
+    }
   }
 }
 
