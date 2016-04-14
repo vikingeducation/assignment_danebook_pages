@@ -42,9 +42,10 @@ img.profile-pic {
   border: 1px solid #eee;
   position: relative;
   top: 50px; }
-
-.btn-block {
-  margin: 25px; }
+  .main-content input {
+    margin-bottom: 15px; }
+  .main-content .btn-block {
+    margin-bottom: 15px; }
 
 .friend-box {
   border: 1px solid #333;

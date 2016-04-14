@@ -61,10 +61,12 @@ img {
   border: $border;
   position: relative;
   top: 50px;
-}
-
-.btn-block {
-  margin: 25px;
+  input {
+    margin-bottom: 15px;
+  }
+  .btn-block {
+    margin-bottom: 15px;
+  }
 }
 
 .friend-box {
