@@ -48,6 +48,8 @@ img.profile-pic {
     margin-bottom: 15px; }
   .main-content .friend-box {
     margin: 10px; }
+  .main-content .hovereffect img {
+    margin: 10px 0 5px 0; }
 
 .friend-box {
   border: 1px solid #333;
