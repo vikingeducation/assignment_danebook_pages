@@ -1,10 +1,15 @@
 // style variables
-$header-color: #c8cbcd;
+$header-color: #eee;
+$border: 1px solid #eee;
 
 body {
   padding-top: 50px;
   padding-bottom: 20px;
   margin-bottom: 100px;
+}
+
+h1, h2, h3, p, li, a {
+  color: #333;
 }
 
 @media (min-width: 768px) {
@@ -46,14 +51,14 @@ img {
   position: relative;
   top: 50px;
   background-color: $header-color;
-  border-radius: 2px;
+  border-radius: 5px 5px 0 0;
   h2 {
     padding-bottom: 5px;
   }
 }
 
 .main-content {
-  border: 1px solid #333;
+  border: $border;
   position: relative;
   top: 50px;
 }
