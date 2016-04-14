@@ -26,6 +26,7 @@ body {
 }
 
 .jumbotron {
+   padding: 0.7em 0.6em;
    background: #000 url("img/hogwarts_small.jpg") center center;
    background-size: cover;
    color: #f8f8f8;
@@ -35,7 +36,7 @@ body {
 img {
   &.profile-pic {
     position: relative;
-    top: 100px;
+    top: 50px;
   }
 }
 
