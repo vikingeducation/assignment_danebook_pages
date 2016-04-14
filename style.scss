@@ -72,6 +72,16 @@ img {
   }
 }
 
+.post {
+  border: 1px solid #333;
+  img {
+    float: left;
+  }
+  .post-footer {
+    background-color: $header-color;
+  }
+}
+
 // Hover effect taken from http://miketricking.github.io/dist/
 .hovereffect {
   width: 100%;

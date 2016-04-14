@@ -50,6 +50,13 @@ img.profile-pic {
   .new-post .new-post-header, .new-post .new-post-footer {
     background-color: #c8cbcd; }
 
+.post {
+  border: 1px solid #333; }
+  .post img {
+    float: left; }
+  .post .post-footer {
+    background-color: #c8cbcd; }
+
 .hovereffect {
   width: 100%;
   height: 100%;
