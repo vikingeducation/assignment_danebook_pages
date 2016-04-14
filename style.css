@@ -46,6 +46,8 @@ img.profile-pic {
     margin-bottom: 15px; }
   .main-content .btn-block {
     margin-bottom: 15px; }
+  .main-content .friend-box {
+    margin: 10px; }
 
 .friend-box {
   border: 1px solid #333;
