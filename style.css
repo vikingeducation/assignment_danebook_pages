@@ -72,6 +72,27 @@ main.container {
     font-size: 3em;
     box-shadow: 5px 5px black; }
 
+.panel-extra-post {
+  height: 5em;
+  background-color: #d9d9d9; }
+  .panel-extra-post button#timeline-post-btn {
+    position: absolute;
+    right: 20;
+    bottom: 15;
+    box-shadow: 5px 5px black; }
+
+.panel-extra {
+  height: 2em;
+  background-color: #d9d9d9; }
+
+.panel-extra-liked {
+  height: 4em;
+  background-color: #d9d9d9; }
+
+.panel-extra-commented {
+  height: 10em;
+  background-color: #d9d9d9; }
+
 .about-content {
   padding-left: 30px;
   padding-right: 30px; }
