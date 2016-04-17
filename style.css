@@ -67,8 +67,6 @@ main.container {
   .panel .panel-footer {
     background-color: #d9d9d9;
     margin: 0px -15px -15px -15px; }
-    .panel .panel-footer button {
-      box-shadow: 5px 5px black; }
 
 .friend-box {
   text-align: center; }
@@ -76,5 +74,12 @@ main.container {
 .post-header {
   background-color: #f2f2f2;
   width: 100%; }
+
+.col-vcentered {
+  position: absolute;
+  top: 20; }
+
+.btn-primary {
+  box-shadow: 5px 5px black; }
 
 /*# sourceMappingURL=style.css.map */
