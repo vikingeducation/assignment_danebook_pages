@@ -93,10 +93,19 @@ main.container {
 
 	.panel-footer {
 		background-color: #d9d9d9;
-		margin: -15px;
+		margin: 0px -15px -15px -15px;
+
+		button {
+			box-shadow: 5px 5px black;
+		}
 	}
 }
 
 .friend-box {
 	text-align: center;
+}
+
+.post-header {
+	background-color: #f2f2f2;
+	width: 100%;
 }
