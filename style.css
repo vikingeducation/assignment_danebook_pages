@@ -71,6 +71,16 @@ main.container {
 .friend-box {
   text-align: center; }
 
+.friends-tile {
+  background-color: #fff;
+  margin: 15px;
+  border: 3px solid #d9d9d9; }
+
+.friends-tile {
+  background-color: #fff;
+  margin: 15px;
+  border: 3px solid #d9d9d9; }
+
 .post-header {
   background-color: #f2f2f2;
   width: 100%; }
