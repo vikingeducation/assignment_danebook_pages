@@ -85,6 +85,26 @@ main.container {
   background-color: #f2f2f2;
   width: 100%; }
 
+.photo-text {
+  font-size: 1.5em;
+  color: white;
+  position: relative;
+  bottom: 45px;
+  left: 25px;
+  visibility: hidden;
+  margin: -15px; }
+
+.photo-container:hover {
+  height: 221px;
+  width: 256px;
+  margin-bottom: 35px;
+  border-bottom-width: 35px;
+  border-color: black;
+  border-bottom-style: solid;
+  opacity: 0.4; }
+  .photo-container:hover .photo-text {
+    visibility: visible; }
+
 .col-vcentered {
   position: absolute;
   top: 20; }
