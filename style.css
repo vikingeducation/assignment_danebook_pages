@@ -64,9 +64,16 @@ main.container {
     margin-top: 5px;
     padding-top: 20px;
     padding-bottom: 15px; }
+    .panel .panel-content h2 {
+      font-weight: bold; }
   .panel .panel-footer {
     background-color: #d9d9d9;
     margin: 0px -15px -15px -15px; }
+  .panel td {
+    padding-bottom: 15px; }
+
+.panel-link {
+  margin: -15px; }
 
 .friend-box {
   text-align: center; }
@@ -75,11 +82,8 @@ main.container {
   background-color: #fff;
   margin: 15px;
   border: 3px solid #d9d9d9; }
-
-.friends-tile {
-  background-color: #fff;
-  margin: 15px;
-  border: 3px solid #d9d9d9; }
+  .friends-tile button {
+    box-shadow: 5px 5px black; }
 
 .post-header {
   background-color: #f2f2f2;
@@ -108,6 +112,11 @@ main.container {
 .col-vcentered {
   position: absolute;
   top: 20; }
+
+.col-vcentered p:first-of-type,
+.comment p:first-child,
+p.liked {
+  color: #b3b3b3; }
 
 .btn-primary {
   box-shadow: 5px 5px black; }
