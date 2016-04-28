@@ -1,0 +1,47 @@
+.navbar-fixed-top {
+  background-color: #3B5998;
+  background: linear-gradient(#4e69a2, #3a5795);
+  color: white;
+  border-bottom: 1px solid #1a316d;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+
+  a {
+    color: #fff;
+  }
+}
+
+.navbar-header {
+      a {
+        font-size: 22px;
+      }
+
+      img {
+        height: 22px;
+        width: 22px;
+        display: inline;
+        margin-right: 5px;
+      }
+    }
+
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+  .navbar-form .input-group {
+    width: 900px;
+  }
+}
+
+.navbar-form {
+  display: inline-block;
+}
+
+body {
+  background-color: #edf0f5;
+}
+
+main {
+  margin-top: 100px;
+}
+
