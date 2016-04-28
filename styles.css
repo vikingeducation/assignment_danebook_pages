@@ -1,3 +1,6 @@
+/************************
+      Navbar
+*************************/
 .navbar-fixed-top {
   background-color: #3B5998;
   background: linear-gradient(#4e69a2, #3a5795);
@@ -18,16 +21,38 @@
 .navbar-fixed-top .navbar-toggle .icon-bar {
   background-color: white; }
 
-@media (min-width: 768px) {
-  .navbar-form .input-group {
-    width: 900px; } }
 .navbar-form {
   display: inline-block; }
+  @media (min-width: 768px) {
+    .navbar-form .input-group {
+      width: 400px; } }
+  @media (min-width: 992px) {
+    .navbar-form .input-group {
+      width: 700px; } }
+  @media (min-width: 1200px) {
+    .navbar-form .input-group {
+      width: 900px; } }
 
+/************************
+      Body
+*************************/
 body {
   background-color: #edf0f5; }
 
-main {
-  margin-top: 100px; }
+/************************
+      Header
+*************************/
+header {
+  margin-top: 50px; }
+
+/************************
+      Cover Photo
+*************************/
+#cover-photo {
+  background: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg") no-repeat;
+  background-size: cover;
+  height: 500px; }
+  #cover-photo img {
+    margin-top: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
