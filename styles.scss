@@ -55,14 +55,6 @@
   }
 }
 
-
-/************************
-      Body
-*************************/
-body {
-  background-color: #edf0f5;
-}
-
 /************************
       Header
 *************************/
@@ -79,6 +71,33 @@ header {
   height: 500px;
 
   img {
-    margin-top: 200px;
+    margin-top: 170px;
   }
+
+  @media (min-width: 768px) {
+    img {
+      margin-top: 270px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    img {
+      margin-top: 200px;
+    }
+  }
+}
+
+#menu {
+  background-color: #fff;
+
+  .active a {
+    background-color: #edf0f5;
+  }
+}
+
+/************************
+      Body
+*************************/
+body {
+  background-color: #edf0f5;
 }

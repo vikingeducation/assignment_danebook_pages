@@ -34,12 +34,6 @@
       width: 900px; } }
 
 /************************
-      Body
-*************************/
-body {
-  background-color: #edf0f5; }
-
-/************************
       Header
 *************************/
 header {
@@ -53,6 +47,23 @@ header {
   background-size: cover;
   height: 500px; }
   #cover-photo img {
-    margin-top: 200px; }
+    margin-top: 170px; }
+  @media (min-width: 768px) {
+    #cover-photo img {
+      margin-top: 270px; } }
+  @media (min-width: 992px) {
+    #cover-photo img {
+      margin-top: 200px; } }
+
+#menu {
+  background-color: #fff; }
+  #menu .active a {
+    background-color: #edf0f5; }
+
+/************************
+      Body
+*************************/
+body {
+  background-color: #edf0f5; }
 
 /*# sourceMappingURL=styles.css.map */
