@@ -96,6 +96,16 @@ header {
   .active a {
     background-color: #edf0f5;
   }
+
+  a {
+      font-size: 0.7em;
+  }
+
+  @media (min-width: 768px) {
+    a {
+      font-size: 1.0em;
+    }
+  }
 }
 
 /************************
@@ -121,4 +131,16 @@ main {
 
 .profile-box {
   background-color: #fff;
+  padding-top: $box-spacing - 10px;
+  padding-bottom: $box-spacing - 10px;
+  border-right: #000 solid 1px;
+  border-left: #000 solid 1px;
+
+  textarea {
+   resize: none;
+  }
+}
+
+.profile-box-bottom {
+  border-bottom: #000 solid 1px;
 }

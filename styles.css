@@ -59,6 +59,11 @@ header {
   background-color: #fff; }
   #menu .active a {
     background-color: #edf0f5; }
+  #menu a {
+    font-size: 0.7em; }
+  @media (min-width: 768px) {
+    #menu a {
+      font-size: 1.0em; } }
 
 /************************
       Body
@@ -77,6 +82,15 @@ main {
     text-align: center; }
 
 .profile-box {
-  background-color: #fff; }
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: #000 solid 1px;
+  border-left: #000 solid 1px; }
+  .profile-box textarea {
+    resize: none; }
+
+.profile-box-bottom {
+  border-bottom: #000 solid 1px; }
 
 /*# sourceMappingURL=styles.css.map */
