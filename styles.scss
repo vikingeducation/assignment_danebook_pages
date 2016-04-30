@@ -1,3 +1,6 @@
+$box-spacing: 20px;
+
+
 /************************
       Navbar
 *************************/
@@ -82,7 +85,7 @@ header {
 
   @media (min-width: 992px) {
     img {
-      margin-top: 200px;
+      margin-top: 210px;
     }
   }
 }
@@ -100,4 +103,22 @@ header {
 *************************/
 body {
   background-color: #edf0f5;
+}
+
+main {
+  margin-top: $box-spacing;
+}
+
+.profile-box-title {
+  background-color: #eee;
+  border: #000 solid 1px;
+
+  h2 {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+.profile-box {
+  background-color: #fff;
 }

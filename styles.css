@@ -53,7 +53,7 @@ header {
       margin-top: 270px; } }
   @media (min-width: 992px) {
     #cover-photo img {
-      margin-top: 200px; } }
+      margin-top: 210px; } }
 
 #menu {
   background-color: #fff; }
@@ -65,5 +65,18 @@ header {
 *************************/
 body {
   background-color: #edf0f5; }
+
+main {
+  margin-top: 20px; }
+
+.profile-box-title {
+  background-color: #eee;
+  border: #000 solid 1px; }
+  .profile-box-title h2 {
+    margin-top: 10px;
+    text-align: center; }
+
+.profile-box {
+  background-color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
