@@ -117,6 +117,7 @@ body {
 
 main {
   margin-top: $box-spacing;
+  padding-bottom: $box-spacing;
 }
 
 .profile-box-title {
@@ -143,4 +144,8 @@ main {
 
 .profile-box-bottom {
   border-bottom: #000 solid 1px;
+}
+
+.comment-row {
+  background-color: #eee;
 }

@@ -72,7 +72,8 @@ body {
   background-color: #edf0f5; }
 
 main {
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding-bottom: 20px; }
 
 .profile-box-title {
   background-color: #eee;
@@ -92,5 +93,8 @@ main {
 
 .profile-box-bottom {
   border-bottom: #000 solid 1px; }
+
+.comment-row {
+  background-color: #eee; }
 
 /*# sourceMappingURL=styles.css.map */
