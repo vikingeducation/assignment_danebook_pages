@@ -125,4 +125,33 @@ article time {
   .friend-box .friend-container {
     margin-top: 25px; }
 
+/************************
+      Photo page
+*************************/
+#photo-page-box img {
+  width: 100%;
+  position: relative; }
+#photo-page-box button {
+  margin-top: 10px; }
+#photo-page-box .photo-date {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  bottom: 0;
+  z-index: 100;
+  opacity: 0; }
+  #photo-page-box .photo-date div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2em; }
+#photo-page-box .photo-date:hover {
+  opacity: 1.0; }
+
 /*# sourceMappingURL=styles.css.map */
