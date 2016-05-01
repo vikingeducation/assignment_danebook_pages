@@ -97,6 +97,9 @@ main {
 .comment-row {
   background-color: #eee; }
 
+.center-text {
+  text-align: center; }
+
 /************************
       Timeline Posts
 *************************/
