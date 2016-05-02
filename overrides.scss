@@ -1,0 +1,90 @@
+.navbar-default{
+    background-color: #27E;
+    color: white;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#brand-pic{
+    height: 40px;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+
+#brand-text{
+    font-size: 30px;
+    color: white;
+}
+
+.form-group{
+    margin-left: 30px;
+    .form-control{
+        width: 600px;
+    }
+}
+
+#profile-name{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 140px;
+}
+
+.cover-photo{
+    width: 100%;
+    height: 400px;
+    background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#name{
+    position: absolute;
+    top: 90%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+}
+
+#menu-options-tray{
+    border: 1px solid black;
+    border-top: none;
+}
+
+.menu-option{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#about-link{
+    background-color:#EEE;
+}
+
+#menu-options-edit-profile{
+    float: right;
+    margin-top: 13px;
+    text-decoration: underline;
+}
+
+.grey{
+    color: grey;
+}
+
+
+.profile-pic{
+    position: absolute;
+    top: 80%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
