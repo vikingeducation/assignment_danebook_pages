@@ -42,6 +42,9 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
+.spacer {
+  height: 35px; }
+
 .panel-content {
   margin-top: 40px; }
   .panel-content p {

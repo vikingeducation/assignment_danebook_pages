@@ -52,6 +52,10 @@
     transform: translateY(-50%);
 }
 
+.spacer{
+    height: 35px;
+}
+
 .panel-content{
     margin-top: 40px;
     p{
@@ -122,6 +126,7 @@
 #about-panel-title{
     font-size: 30px;
     text-align: center;
+
 }
 
 #edit-profile-button{
