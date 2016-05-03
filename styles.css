@@ -1,0 +1,98 @@
+.navbar {
+  height: 80px;
+  background-color: #3b5998; }
+
+.navbar .navbar-brand {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: bold; }
+
+.navbar .navbar-toggle {
+  margin-top: 20px; }
+
+.navbar .navbar-collapse {
+  background-color: #3b5998; }
+
+.navbar img {
+  height: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: -15px;
+  clip-path: circle(60px at center); }
+
+.form-control {
+  width: 90%;
+  margin-top: 20px; }
+
+.name {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: right; }
+
+.cover {
+  margin-top: 80px;
+  margin: 0 auto;
+  margin-left: 80px; }
+  .cover .cover-photo {
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    clip: rect(0px, 1000px, 450px, 0px); }
+  .cover .profile-pic {
+    position: absolute;
+    top: 280px;
+    margin-left: 60px;
+    width: 200px;
+    clip: rect(0px, 200px, 200px, 0px);
+    border: 4px solid #eee;
+    z-index: 1; }
+  .cover .inner-nav {
+    margin-top: 430px;
+    width: 1000px; }
+    .cover .inner-nav .pagination {
+      width: 100%; }
+    .cover .inner-nav a {
+      width: 15%;
+      height: 50px;
+      padding: 0;
+      line-height: 50px;
+      text-align: center;
+      margin: auto;
+      font-size: 18px;
+      color: #3b5998; }
+    .cover .inner-nav #left-bar {
+      width: 35%; }
+    .cover .inner-nav #left-bar:hover {
+      background-color: #fff;
+      z-index: -2; }
+    .cover .inner-nav #right-bar {
+      width: 5%; }
+    .cover .inner-nav #right-bar:hover {
+      background-color: #fff;
+      z-index: -2; }
+
+#about {
+  width: 1000px;
+  margin-left: 65px;
+  border: 2px #aaa solid;
+  padding: 10px; }
+  #about h2 {
+    margin: -10px -10px 10px -10px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 50px; }
+  #about button {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 8px;
+    background-color: #3b5998; }
+  #about .control-label {
+    text-align: right; }
+
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */
