@@ -44,6 +44,10 @@
     color: grey;
 }
 
+.grey-background{
+    background-color:#EEE;
+}
+
 .profile-pic{
     position: absolute;
     top: 80%;
@@ -76,6 +80,45 @@
 
 .info-row{
     margin-top: 25px;
+}
+
+.friend-card{
+    height: 150px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    background-color: #EEE;
+}
+
+.card-pic-container{
+    height: 80%;
+    top: 10%;
+}
+
+.card-pic{
+    width: 100%;
+    height: 100%;
+}
+
+.card-info-container{
+    height: 20%;
+    top: 35%;
+}
+
+.card-link{
+    text-decoration: underline;
+}
+
+.card-info{
+    color: grey;
+}
+
+.card-button-container{
+    height: 30%;
+    top: 35%;
+}
+
+.card-button{
+
 }
 
 
@@ -111,10 +154,6 @@
 #menu-options-tray{
     border: 1px solid black;
     border-top: none;
-}
-
-#about-link{
-    background-color:#EEE;
 }
 
 #menu-options-edit-profile{
