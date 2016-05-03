@@ -1,6 +1,9 @@
+/*********** Classes **************/
+
 .navbar-default{
     background-color: #27E;
     color: white;
+    border-bottom: none;
 }
 
 .vertical-align {
@@ -11,17 +14,8 @@
   transform: translateY(-50%);
 }
 
-#brand-pic{
-    height: 40px;
-}
-
 .navbar-brand{
     margin-left: 40px;
-}
-
-#brand-text{
-    font-size: 30px;
-    color: white;
 }
 
 .form-group{
@@ -31,21 +25,76 @@
     }
 }
 
-#profile-name{
-    margin-top: 15px;
-    font-size: 18px;
-    margin-left: 140px;
-}
-
 .cover-photo{
+    margin-top: 40px;
     width: 100%;
     height: 400px;
-    background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+    background-image: url("./assets/hogwarts.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-#name{
+.menu-option{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.grey{
+    color: grey;
+}
+
+.profile-pic{
+    position: absolute;
+    top: 80%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.panel-content{
+    margin-top: 40px;
+    p{
+        font-size: 13px;
+    }
+
+}
+
+.info-header{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bold-info{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.info-row{
+    margin-top: 25px;
+}
+
+
+/********************* ID's *******************************/
+
+#brand-pic{
+    height: 40px;
+}
+
+#brand-text{
+    font-size: 30px;
+    color: white;
+}
+
+#profile-name{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 150px;
+    a{ color: white; }
+
+}
+
+#main-name{
     position: absolute;
     top: 90%;
     -webkit-transform: translateY(-50%);
@@ -60,12 +109,6 @@
     border-top: none;
 }
 
-.menu-option{
-    width: 150px;
-    height: 50px;
-    border: 1px solid black;
-}
-
 #about-link{
     background-color:#EEE;
 }
@@ -76,15 +119,28 @@
     text-decoration: underline;
 }
 
-.grey{
-    color: grey;
+#about-panel-title{
+    font-size: 30px;
+    text-align: center;
 }
 
+#edit-profile-button{
+    border-right: 3px solid black;
+    border-bottom: 2px solid black;
+}
 
-.profile-pic{
-    position: absolute;
-    top: 80%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+#right-column-container{
+    margin-left: 19px;
+}
+
+#about-me-header{
+    margin-top: 40px;
+}
+
+#save-changes-button{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    height: 80px;
+    font-size: 25px;
 }
