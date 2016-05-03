@@ -117,10 +117,36 @@
     top: 35%;
 }
 
-.card-button{
-
+.photos-row{
+    margin-bottom: 40px;
 }
 
+.photos-pic{
+    position: relative;
+    z-index: 1;
+}
+
+.pic-date-container{
+    position: relative;
+    z-index: 2;
+    display: none;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: -14%;
+    height: 15%;
+    color: white;
+    border: 1px solid black;
+    .pic-date{ margin-top: 7px;
+               font-weight: bold;
+               font-size: 11px;}
+}
+
+.photos-pic:hover + .pic-date-container{
+    display: block;
+}
+
+.pic-date-container:hover{
+    display: block;
+}
 
 /********************* ID's *******************************/
 
