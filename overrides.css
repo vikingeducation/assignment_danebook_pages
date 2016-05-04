@@ -40,10 +40,14 @@
 
 .profile-pic {
   position: absolute;
-  top: 80%;
+  top: 85%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  transform: translateY(-50%);
+  border: 1px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 10px; }
 
 .spacer {
   height: 35px; }
@@ -118,6 +122,35 @@
 
 .pic-date-container:hover {
   display: block; }
+
+.bold {
+  font-weight: bold; }
+
+.center-text {
+  text-align: center; }
+
+.mini-photos-row,
+.mini-friends-row {
+  margin-bottom: 10px; }
+
+.underline {
+  text-decoration: underline; }
+
+.post-header {
+  margin-bottom: 20px; }
+  .post-header img,
+  .post-header a, .post-header p {
+    padding-left: 0; }
+
+.top-margin-10 {
+  margin-top: 10px; }
+
+.comment {
+  margin-left: 15px;
+  margin-bottom: 30px; }
+
+.comment-heading {
+  margin-bottom: 20px; }
 
 /********************* ID's *******************************/
 #brand-pic {
