@@ -1,23 +1,13 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
   <link rel="stylesheet" href="overrides.css">
 </head>
-
-
-
 <!-- One container wraps everything else -->
 <body class = "container-fluid">
-
-
   <!-- navbar containing logo and logins-->
   <!-- THESE ARE COPY-PASTED FROM BOOTSTRAP EXAMPLES -->
   <!-- Static so that it is permanently fixed to the top -->
@@ -32,21 +22,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
-        <a class="vertical-align col-xs-4" id="logo-link" href="#">
+        <a class="vertical-align col-xs-4" id="logo-link" href="./timeline.html">
           <img class="vertical-align" id="brand-pic" src="./assets/flag.png"
                alt="circular danish flag">
         </a>
-
         <!--company brand link -->
-        <a class="navbar-brand col-xs-12" id = "brand-link" href="#">
+        <a class="navbar-brand col-xs-12" id = "brand-link" href="./timeline.html">
            <p class="col-xs-4 vertical-align" id="brand-text">Danebook</p>
         </a>
       </div>
-
       <!-- wraps rest of links to collapse in mobile-->
       <div class="col-xs-10 collapse navbar-collapse">
-
       <!-- rows and columns control button placement -->
           <form class="navbar-form col-xs-8" role="user-search">
           <!-- Yes, kids, even a form-group can be a column -->
@@ -54,21 +40,15 @@
               <input type="text" class="form-control col-xs-12" placeholder="Search for Users">
             </div>
           </form>
-
           <div class="col-xs-1">
-            <p id="profile-name"><a href="#">Harry</a></p>
+            <p id="profile-name"><a href="./about.html">Harry</a></p>
           </div>
-
       </div><!--navbar-collapse-->
   </nav>
-
-
-
 <!--contains everything below the navbar-->
   <main >
     <div class = "row">
       <div class="col-xs-10 col-xs-offset-1">
-
         <div class="row"><!-- begin background-image row -->
           <div class="col-xs-12 cover-photo"><!-- cover photo spans entire column -->
             <div class="row">
@@ -79,24 +59,28 @@
             </div>
           </div>
         </div><!-- end background-image row -->
-
         <div class="row"> <!-- begin menu-options row-->
           <div class="col-xs-12" id="menu-options-tray">
             <div class="btn-group col-xs-7 col-xs-offset-2">
-              <button type="button" class="btn btn-default menu-option">Timeline</button>
-              <button type="button" class="btn btn-default menu-option">About</button>
-              <button type="button" class="btn btn-default menu-option">Photos <span class="grey">(123)</span></button>
-              <button type="button" class="btn btn-default menu-option grey-background">Friends <span class="grey">(542)</span></button>
+              <a type="button" class="btn btn-default menu-option" href="./timeline.html">
+                <p class="vertical-align col-xs-offset-4">Timeline</p>
+              </a>
+              <a type="button" class="btn btn-default menu-option" href="./about.html">
+                <p class="vertical-align col-xs-offset-4">About</p>
+              </a>
+              <a type="button" class="btn btn-default menu-option" href="./photos.html">
+                <p class="vertical-align col-xs-offset-3">Photos <span class="grey">(123)</span></p>
+              </a>
+              <a type="button" class="btn btn-default menu-option grey-background" href="./friends.html">
+                <p class="vertical-align col-xs-offset-3">Friends <span class="grey">(542)</span></p>
+              </a>
             </div>
-
             <div class="col-xs-2 col-xs-offset-1">
-              <a id="menu-options-edit-profile" href="#">Edit Profile</a>
+              <a id="menu-options-edit-profile" href="./about_edit.html">Edit Profile</a>
             </div>
           </div>
         </div> <!-- end menu-options row-->
-
         <br>
-
         <div class="row"><!-- begin about-panel-row -->
           <div class="panel panel-default">
             <div class="panel-heading">
@@ -108,10 +92,10 @@
                 <div class="col-xs-6" id="left-friend-column">
                   <div class="col-xs-12 friend-card">
                     <div class="col-xs-3 card-pic-container">
-                      <img class="card-pic" src="./assets/hp.jpg">
+                      <a href="#"><img class="card-pic" src="./assets/ron.jpg"></a>
                     </div>
                     <div class="col-xs-5 card-info-container">
-                      <a href="#" class="col-xs-12 card-link">Hermione Granger</a>
+                      <a href="#" class="col-xs-12 card-link">Ron Weasley</a>
                       <p class="col-xs-12 card-info">432 Friends</p>
                     </div>
                     <div class="col-xs-4 card-button-container">
@@ -120,10 +104,10 @@
                   </div>
                  <div class="col-xs-12 friend-card">
                     <div class="col-xs-3 card-pic-container">
-                      <img class="card-pic" src="./assets/hp.jpg">
+                      <a href="#"><img class="card-pic" src="./assets/ginny.jpg"></a>
                     </div>
                     <div class="col-xs-5 card-info-container">
-                      <a href="#" class="col-xs-12 card-link">Hermione Granger</a>
+                      <a href="#" class="col-xs-12 card-link">Ginny Weasley</a>
                       <p class="col-xs-12 card-info">432 Friends</p>
                     </div>
                     <div class="col-xs-4 card-button-container">
@@ -132,10 +116,10 @@
                   </div>
                   <div class="col-xs-12 friend-card">
                     <div class="col-xs-3 card-pic-container">
-                      <img class="card-pic" src="./assets/hp.jpg">
+                      <a href="#"><img class="card-pic" src="./assets/fred.png"></a>
                     </div>
                     <div class="col-xs-5 card-info-container">
-                      <a href="#" class="col-xs-12 card-link">Hermione Granger</a>
+                      <a href="#" class="col-xs-12 card-link">Fred Weasley</a>
                       <p class="col-xs-12 card-info">432 Friends</p>
                     </div>
                     <div class="col-xs-4 card-button-container">
@@ -146,7 +130,7 @@
                 <div class="col-xs-6" id="right-friend-column">
                   <div class="col-xs-12 friend-card">
                     <div class="col-xs-3 card-pic-container">
-                      <img class="card-pic" src="./assets/hp.jpg">
+                      <a href="#"><img class="card-pic" src="./assets/hermione.jpeg"></a>
                     </div>
                     <div class="col-xs-5 card-info-container">
                       <a href="#" class="col-xs-12 card-link">Hermione Granger</a>
@@ -158,10 +142,10 @@
                   </div>
                   <div class="col-xs-12 friend-card">
                     <div class="col-xs-3 card-pic-container">
-                      <img class="card-pic" src="./assets/hp.jpg">
+                      <a href="#"><img class="card-pic" src="./assets/hagrid.jpeg"></a>
                     </div>
                     <div class="col-xs-5 card-info-container">
-                      <a href="#" class="col-xs-12 card-link">Hermione Granger</a>
+                      <a href="#" class="col-xs-12 card-link">Hagrid</a>
                       <p class="col-xs-12 card-info">432 Friends</p>
                     </div>
                     <div class="col-xs-4 card-button-container">
@@ -170,10 +154,10 @@
                   </div>
                   <div class="col-xs-12 friend-card">
                     <div class="col-xs-3 card-pic-container">
-                      <img class="card-pic" src="./assets/hp.jpg">
+                      <a href="#"><img class="card-pic" src="./assets/george.jpg"></a>
                     </div>
                     <div class="col-xs-5 card-info-container">
-                      <a href="#" class="col-xs-12 card-link">Hermione Granger</a>
+                      <a href="#" class="col-xs-12 card-link">George Weasley</a>
                       <p class="col-xs-12 card-info">432 Friends</p>
                     </div>
                     <div class="col-xs-4 card-button-container">
@@ -188,6 +172,5 @@
       </div>
     </div><!--row-->
   </main>
-
 </body> <!--container -->
 </html>

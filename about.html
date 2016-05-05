@@ -1,23 +1,13 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
   <link rel="stylesheet" href="overrides.css">
 </head>
-
-
-
 <!-- One container wraps everything else -->
 <body class = "container-fluid">
-
-
   <!-- navbar containing logo and logins-->
   <!-- THESE ARE COPY-PASTED FROM BOOTSTRAP EXAMPLES -->
   <!-- Static so that it is permanently fixed to the top -->
@@ -32,21 +22,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
-        <a class="vertical-align col-xs-4" id="logo-link" href="#">
+        <a class="vertical-align col-xs-4" id="logo-link" href="./timeline.html">
           <img class="vertical-align" id="brand-pic" src="./assets/flag.png"
                alt="circular danish flag">
         </a>
-
         <!--company brand link -->
-        <a class="navbar-brand col-xs-12" id = "brand-link" href="#">
+        <a class="navbar-brand col-xs-12" id = "brand-link" href="./timeline.html">
            <p class="col-xs-4 vertical-align" id="brand-text">Danebook</p>
         </a>
       </div>
-
       <!-- wraps rest of links to collapse in mobile-->
       <div class="col-xs-10 collapse navbar-collapse">
-
       <!-- rows and columns control button placement -->
           <form class="navbar-form col-xs-8" role="user-search">
           <!-- Yes, kids, even a form-group can be a column -->
@@ -54,93 +40,83 @@
               <input type="text" class="form-control col-xs-12" placeholder="Search for Users">
             </div>
           </form>
-
           <div class="col-xs-1">
-            <p id="profile-name"><a href="#">Harry</a></p>
+            <p id="profile-name"><a href="./about.html">Harry</a></p>
           </div>
-
       </div><!--navbar-collapse-->
   </nav>
-
-
-
 <!--contains everything below the navbar-->
-  <main >
-    <div class = "row">
-      <div class="col-xs-10 col-xs-offset-1">
-
-        <div class="row"><!-- begin background-image row -->
-          <div class="col-xs-12 cover-photo"><!-- cover photo spans entire column -->
-            <div class="row">
-              <p class="col-xs-3 col-xs-offset-2" id="main-name">
-               Harry Potter
-              </p>
-              <img class="col-xs-2 profile-pic" src="./assets/hp.jpg">
-            </div>
+<main >
+  <div class = "row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <div class="row"><!-- begin background-image row -->
+        <div class="col-xs-12 cover-photo"><!-- cover photo spans entire column -->
+          <div class="row">
+            <p class="col-xs-3 col-xs-offset-2" id="main-name">
+              Harry Potter
+            </p>
+            <img class="col-xs-2 profile-pic" src="./assets/hp.jpg">
           </div>
-        </div><!-- end background-image row -->
-
-        <div class="row"> <!-- begin menu-options row-->
-          <div class="col-xs-12" id="menu-options-tray">
-            <div class="btn-group col-xs-7 col-xs-offset-2">
-              <button type="button" class="btn btn-default menu-option">Timeline</button>
-              <button type="button" class="btn btn-default menu-option grey-background">About</button>
-              <button type="button" class="btn btn-default menu-option">Photos <span class="grey">(123)</span></button>
-              <button type="button" class="btn btn-default menu-option">Friends <span class="grey">(542)</span></button>
-            </div>
-
-            <div class="col-xs-2 col-xs-offset-1">
-              <a id="menu-options-edit-profile" href="#">Edit Profile</a>
-            </div>
+        </div>
+      </div><!-- end background-image row -->
+      <div class="row"> <!-- begin menu-options row-->
+        <div class="col-xs-12" id="menu-options-tray">
+          <div class="btn-group col-xs-7 col-xs-offset-2">
+            <a type="button" class="btn btn-default menu-option" href="./timeline.html">
+              <p class="vertical-align col-xs-offset-4">Timeline</p>
+            </a>
+            <a type="button" class="btn btn-default menu-option grey-background" href="./about.html">
+              <p class="vertical-align col-xs-offset-4">About</p>
+            </a>
+            <a type="button" class="btn btn-default menu-option" href="./photos.html">
+              <p class="vertical-align col-xs-offset-3">Photos <span class="grey">(123)</span></p>
+            </a>
+            <a type="button" class="btn btn-default menu-option" href="./friends.html">
+              <p class="vertical-align col-xs-offset-3">Friends <span class="grey">(542)</span></p>
+            </a>
           </div>
-        </div> <!-- end menu-options row-->
-
-        <br>
-
-        <div class="row"><!-- begin about-panel-row -->
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title col-xs-2 col-xs-offset-5" id="about-panel-title">About</h3>
-              <button type="button" class="btn btn-primary col-xs-offset-3" id="edit-profile-button">Edit your Profile</button>
-            </div>
-            <div class="panel-body">
-              <div class="col-xs-12 panel-content">
-                <div class="col-xs-5">
-                  <h1 class="info-header">Basic Information</h1>
-
-                  <div class="row info-row">
-                    <p class="bold-info  col-xs-3">Birthday:</p>
-                    <p class="col-xs-7 col-xs-offset-2">July 31st, 1980</p>
-                  </div>
-
-                  <div class="row info-row">
-                    <p class="bold-info  col-xs-3">College:</p>
-                    <p class="col-xs-7 col-xs-offset-2">Hogwarts College</p>
-                  </div>
-
+          <div class="col-xs-2 col-xs-offset-1">
+            <a id="menu-options-edit-profile" href="./about_edit.html">Edit Profile</a>
+          </div>
+        </div>
+      </div> <!-- end menu-options row-->
+      <br>
+      <div class="row"><!-- begin about-panel-row -->
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title col-xs-3 col-xs-offset-4" id="about-panel-title">About</h3>
+            <a type="button" class="btn btn-primary col-xs-offset-3" id="edit-profile-button" href="about_edit.html">Edit your Profile</a>
+          </div>
+          <div class="panel-body">
+            <div class="col-xs-12 panel-content">
+              <div class="col-xs-5">
+                <h1 class="info-header">Basic Information</h1>
+                <div class="row info-row">
+                  <p class="bold-info  col-xs-3">Birthday:</p>
+                  <p class="col-xs-7 col-xs-offset-2">July 31st, 1980</p>
+                </div>
+                <div class="row info-row">
+                  <p class="bold-info  col-xs-3">College:</p>
+                  <p class="col-xs-7 col-xs-offset-2">Hogwarts College</p>
+                </div>
                   <div class="row info-row">
                     <p class="bold-info  col-xs-3">Hometown:</p>
                     <p class="col-xs-7 col-xs-offset-2">Godrick's Hollow, England</p>
                   </div>
-
                   <div class="row info-row">
                     <p class="bold-info  col-xs-4">Currently Lives:</p>
                     <p class="col-xs-6 col-xs-offset-1">Godrick's Hollow, England</p>
                   </div>
-
                   <h2 class="info-header">Contact Information</h2>
-
                   <div class="row info-row">
                     <p class="bold-info  col-xs-3">Email:</p>
                     <p class="col-xs-7 col-xs-offset-2">harry_potter@hogwarts.edu</p>
                   </div>
-
                   <div class="row info-row">
                     <p class="bold-info  col-xs-4">Telephone:</p>
                     <p class="col-xs-6 col-xs-offset-1">555-123-4567</p>
                   </div>
                 </div>
-
                 <div class="col-xs-6">
                   <div class="col-xs-12" id="right-column-container">
                     <h2 class="info-header">Words to Live By</h2>
@@ -160,10 +136,9 @@
               </div>
             </div>
           </div>
-        </div><!-- end about-panel-row>
+        </div><!-- end about-panel-row-->
       </div>
     </div><!--row-->
   </main>
-
 </body> <!--container -->
 </html>

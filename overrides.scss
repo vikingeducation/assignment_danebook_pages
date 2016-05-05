@@ -1,17 +1,9 @@
-/*********** Classes **************/
+/********** Navbar **************/
 
 .navbar-default{
     background-color: #27E;
     color: white;
     border-bottom: none;
-}
-
-.vertical-align {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .navbar-brand{
@@ -25,6 +17,26 @@
     }
 }
 
+#brand-pic{
+    height: 40px;
+}
+
+#brand-text{
+    font-size: 30px;
+    color: white;
+}
+
+#profile-name{
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 150px;
+    a{ color: white; }
+
+}
+
+
+/********** Top Section **************/
+
 .cover-photo{
     margin-top: 40px;
     width: 100%;
@@ -34,18 +46,17 @@
     background-size: 100% 100%;
 }
 
+.btn-group{
+    a{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+}
+
 .menu-option{
     width: 150px;
     height: 50px;
     border: 1px solid black;
-}
-
-.grey{
-    color: grey;
-}
-
-.grey-background{
-    background-color:#EEE;
 }
 
 .profile-pic{
@@ -60,6 +71,31 @@
     margin-left: 10px;
 }
 
+#main-name{
+    position: absolute;
+    top: 90%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+}
+
+#menu-options-tray{
+    border: 1px solid black;
+    border-top: none;
+}
+
+#menu-options-edit-profile{
+    float: right;
+    margin-top: 13px;
+    text-decoration: underline;
+}
+
+
+/********** About Panel **************/
+
+/* Used for weird spacing issue in panel header */
 .spacer{
     height: 35px;
 }
@@ -86,6 +122,36 @@
     margin-top: 25px;
 }
 
+#about-panel-title{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#edit-profile-button{
+    border-right: 3px solid black;
+    border-bottom: 2px solid black;
+}
+
+#right-column-container{
+    margin-left: 19px;
+}
+
+#about-me-header{
+    margin-top: 40px;
+}
+
+#save-changes-button{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    height: 80px;
+    font-size: 25px;
+}
+
+
+/********** Friend Panel **************/
+
 .friend-card{
     height: 150px;
     border: 1px solid black;
@@ -101,6 +167,9 @@
 .card-pic{
     width: 100%;
     height: 100%;
+    height: 80%;
+    margin-top: 10%;
+    border: 1px solid black;
 }
 
 .card-info-container{
@@ -120,6 +189,9 @@
     height: 30%;
     top: 35%;
 }
+
+
+/********** Photos Panel **************/
 
 .photos-row{
     margin-bottom: 40px;
@@ -152,21 +224,9 @@
     display: block;
 }
 
-.bold{
-    font-weight: bold;
-}
-
-.center-text{
-    text-align: center;
-}
-
 .mini-photos-row,
 .mini-friends-row{
     margin-bottom: 10px;
-}
-
-.underline{
-    text-decoration: underline;
 }
 
 .post-header{
@@ -175,10 +235,6 @@
     a, p{
         padding-left: 0;
     }
-}
-
-.top-margin-10{
-    margin-top: 10px;
 }
 
 .comment{
@@ -190,69 +246,37 @@
     margin-bottom: 20px;
 }
 
-/********************* ID's *******************************/
 
-#brand-pic{
-    height: 40px;
+/********** General Purpose **************/
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-#brand-text{
-    font-size: 30px;
-    color: white;
+.grey{
+    color: grey;
 }
 
-#profile-name{
-    margin-top: 15px;
-    font-size: 18px;
-    margin-left: 150px;
-    a{ color: white; }
-
+.grey-background{
+    background-color: #E6E6E6;
 }
 
-#main-name{
-    position: absolute;
-    top: 90%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 30px;
-    color: white;
+.bold{
+    font-weight: bold;
 }
 
-#menu-options-tray{
-    border: 1px solid black;
-    border-top: none;
+.center-text{
+    text-align: center;
 }
 
-#menu-options-edit-profile{
-    float: right;
-    margin-top: 13px;
+.underline{
     text-decoration: underline;
 }
 
-#about-panel-title{
-    font-size: 30px;
-    text-align: center;
-
-}
-
-#edit-profile-button{
-    border-right: 3px solid black;
-    border-bottom: 2px solid black;
-}
-
-#right-column-container{
-    margin-left: 19px;
-}
-
-#about-me-header{
-    margin-top: 40px;
-}
-
-#save-changes-button{
-    width: 100%;
-    margin-top: 80px;
-    margin-bottom: 200px;
-    height: 80px;
-    font-size: 25px;
+.top-margin-10{
+    margin-top: 10px;
 }
