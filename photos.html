@@ -1,1 +1,204 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="overrides.css">
+  </head>
+  <!-- One container wraps everything else -->
+  <body class = "container-fluid">
+    <!-- navbar containing logo and logins-->
+    <!-- THESE ARE COPY-PASTED FROM BOOTSTRAP EXAMPLES -->
+    <!-- Static so that it is permanently fixed to the top -->
+
+    <!-- notice that this is a ROW as well as a navbar -->
+    <nav id = "login-navbar" class = "navbar navbar-default navbar-static-top navbar-fixed-top row">
+      <!-- responsive mobile stuff collapses down  -->
+      <div class="navbar-header col-xs-2 col-xs-offset-1">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="vertical-align col-xs-4" id="logo-link" href="./timeline.html">
+          <img class="vertical-align" id="brand-pic" src="./assets/flag.png"
+               alt="circular danish flag">
+        </a>
+        <!--company brand link -->
+        <a class="navbar-brand col-xs-12" id = "brand-link" href="./timeline.html">
+          <p class="col-xs-4 vertical-align" id="brand-text">Danebook</p>
+        </a>
+      </div>
+      <!-- wraps rest of links to collapse in mobile-->
+      <div class="col-xs-10 collapse navbar-collapse">
+        <!-- rows and columns control button placement -->
+        <form class="navbar-form col-xs-8" role="user-search">
+          <!-- Yes, kids, even a form-group can be a column -->
+          <div class="form-group col-xs-12">
+            <input type="text" class="form-control col-xs-12" placeholder="Search for Users">
+          </div>
+        </form>
+        <div class="col-xs-1">
+          <p id="profile-name"><a href="./about.html">Harry</a></p>
+        </div>
+      </div><!--navbar-collapse-->
+    </nav>
+    <!--contains everything below the navbar-->
+    <main >
+      <div class = "row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div class="row"><!-- begin background-image row -->
+            <div class="col-xs-12 cover-photo"><!-- cover photo spans entire column -->
+              <div class="row">
+                <p class="col-xs-3 col-xs-offset-2" id="main-name">
+                  Harry Potter
+                </p>
+                <img class="col-xs-2 profile-pic" src="./assets/hp.jpg">
+              </div>
+            </div>
+          </div><!-- end background-image row -->
+          <div class="row"> <!-- begin menu-options row-->
+            <div class="col-xs-12" id="menu-options-tray">
+              <div class="btn-group col-xs-7 col-xs-offset-2">
+                <a type="button" class="btn btn-default menu-option" href="./timeline.html">
+                  <p class="vertical-align col-xs-offset-4">Timeline</p>
+                </a>
+                <a type="button" class="btn btn-default menu-option" href="./about.html">
+                  <p class="vertical-align col-xs-offset-4">About</p>
+                </a>
+                <a type="button" class="btn btn-default menu-option grey-background" href="./photos.html">
+                  <p class="vertical-align col-xs-offset-3">Photos <span class="grey">(123)</span></p>
+                </a>
+                <a type="button" class="btn btn-default menu-option" href="./friends.html">
+                  <p class="vertical-align col-xs-offset-3">Friends <span class="grey">(542)</span></p>
+                </a>
+              </div>
+              <div class="col-xs-2 col-xs-offset-1">
+                <a id="menu-options-edit-profile" href="./about_edit.html">Edit Profile</a>
+              </div>
+            </div>
+          </div> <!-- end menu-options row-->
+          <br>
+          <div class="row"><!-- begin photos-panel-row -->
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title col-xs-1 col-xs-offset-5" id="about-panel-title">Photos</h3>
+                <div class="spacer"> </div>
+              </div>
+              <div class="panel-body">
+                <div class="col-xs-12 panel-content">
+                  <div class="row photos-row"><!-- 1st row -->
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/hermione.jpeg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/hp.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/ginny.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/dobby.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                  </div><!-- end 1st row -->
+                  <div class="row photos-row"><!-- 2nd row -->
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/hp.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/hagrid.jpeg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/hagrid.jpeg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/hermione.jpeg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                  </div><!-- end 2nd row -->
+                  <div class="row photos-row"><!-- 3rd row -->
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/ginny.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/ron.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/george.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/fred.png"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                  </div><!-- end 3rd row -->
+                  <div class="row photos-row"><!-- 4th row -->
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/george.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/dobby.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/ron.jpg"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 photos-pic-container" id="thing">
+                      <a href="#" class="photos-pic"><img class="col-xs-12" src="./assets/fred.png"></a>
+                      <div class="pic-date-container col-xs-10 col-xs-offset-1">
+                        <p class="pic-date">Uploaded May 3rd, 2016</p>
+                      </div>
+                    </div>
+                  </div><!-- end 4th row -->
+                </div><!-- end panel-content -->
+              </div><!-- end panel-body -->
+            </div><!-- end panel -->
+          </div><!-- end photos-panel-row-->
+        </div>
+      </div><!--row-->
+    </main>
+  </body> <!--container -->
+</html>
