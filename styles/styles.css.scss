@@ -81,8 +81,7 @@ $background-blue: #2B78E4;
 	}
 }
 
-
-
-ul {
-	border: 2px solid black;
+.banner-container {
+	border: 2px dashed black;
+	padding-bottom: -100px;
 }
