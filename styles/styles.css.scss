@@ -46,6 +46,8 @@ $background-blue: #2B78E4;
 	}
 }
 
+/*
+
 .container {
 	border: 2px dashed black;
 }
@@ -58,16 +60,29 @@ $background-blue: #2B78E4;
 	border: 1px dotted green;
 }
 
+*/
+
 .banner-image {
 	max-width: 100%;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
-.banner-nav {
-	border: 2px solid black;
+
+.user-profile-wrapper {
+	position: relative;
+	bottom: 150px;
+	text-align: center;
+
+	img {
+		height: 175px;
+		border: 2px solid black;
+	}
 }
 
-.edit-profile {
+
+
+ul {
 	border: 2px solid black;
 }

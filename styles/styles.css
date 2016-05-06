@@ -25,24 +25,36 @@
       font-weight: bold;
       color: white; }
 
+/*
+
 .container {
-  border: 2px dashed black; }
+	border: 2px dashed black;
+}
 
 .row {
-  border: 2px dotted red; }
+	border: 2px dotted red;
+}
 
 *[class^=col-] {
-  border: 1px dotted green; }
+	border: 1px dotted green;
+}
 
+*/
 .banner-image {
   max-width: 100%;
   border-left: 2px solid black;
-  border-right: 2px solid black; }
+  border-right: 2px solid black;
+  border-bottom: 2px solid black; }
 
-.banner-nav {
-  border: 2px solid black; }
+.user-profile-wrapper {
+  position: relative;
+  bottom: 150px;
+  text-align: center; }
+  .user-profile-wrapper img {
+    height: 175px;
+    border: 2px solid black; }
 
-.edit-profile {
+ul {
   border: 2px solid black; }
 
 /*# sourceMappingURL=styles.css.map */
