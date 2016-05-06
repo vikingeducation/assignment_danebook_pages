@@ -41,6 +41,10 @@
     padding-right: 0; }
   .banner-image-wrapper img {
     width: 100%; }
+  .banner-image-wrapper .banner-user-name {
+    position: absolute;
+    left: 220px;
+    bottom: 25px; }
 
 .banner-nav {
   border-left: 2px solid black;
