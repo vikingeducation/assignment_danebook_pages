@@ -19,10 +19,18 @@
     .navbar-fixed-top .navbar-nav .navbar-search {
       margin-left: 15px; }
   .navbar-fixed-top .navbar-right {
-    width: 10%; }
+    width: 8%; }
     .navbar-fixed-top .navbar-right li a {
       font-size: 20px;
       font-weight: bold;
       color: white; }
+
+.banner-image {
+  max-width: 100%;
+  border-left: 2px solid black;
+  border-right: 2px solid black; }
+
+.banner-nav {
+  border: 2px solid black; }
 
 /*# sourceMappingURL=styles.css.map */

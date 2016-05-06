@@ -34,7 +34,8 @@ $background-blue: #2B78E4;
 	}
 
 	.navbar-right {
-		width: 10%;
+		width: 8%;
+
 		li {
 			a {
 				font-size: 20px;
@@ -43,4 +44,18 @@ $background-blue: #2B78E4;
 			}
 		}
 	}
+}
+
+.container {
+
+}
+
+.banner-image {
+	max-width: 100%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.banner-nav {
+	border: 2px solid black;
 }
