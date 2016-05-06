@@ -9,13 +9,20 @@
     color: white;
     font-size: 30px;
     font-weight: bold; }
-  .navbar-fixed-top form {
-    width: 70%; }
-    .navbar-fixed-top form .form-control {
+  .navbar-fixed-top .icon-bar {
+    background: white !important; }
+  .navbar-fixed-top .navbar-nav {
+    width: 60%; }
+    .navbar-fixed-top .navbar-nav * {
+      border: none;
       width: 100%; }
-  .navbar-fixed-top .navbar-right li a {
-    font-size: 20px;
-    font-weight: bold;
-    color: white; }
+    .navbar-fixed-top .navbar-nav .navbar-search {
+      margin-left: 15px; }
+  .navbar-fixed-top .navbar-right {
+    width: 10%; }
+    .navbar-fixed-top .navbar-right li a {
+      font-size: 20px;
+      font-weight: bold;
+      color: white; }
 
 /*# sourceMappingURL=styles.css.map */

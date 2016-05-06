@@ -17,14 +17,24 @@ $background-blue: #2B78E4;
 		font-weight: bold;
 	}
 
-	form {
-		width: 70%;
-		.form-control {
+	.icon-bar {
+		background: white !important;
+	}
+
+	.navbar-nav {
+		width: 60%;
+
+		* {
+			border: none;
 			width: 100%;
+		}
+		.navbar-search {
+			margin-left: 15px;
 		}
 	}
 
 	.navbar-right {
+		width: 10%;
 		li {
 			a {
 				font-size: 20px;
