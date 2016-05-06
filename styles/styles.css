@@ -1,0 +1,21 @@
+.navbar-fixed-top {
+  background: #2B78E4;
+  border-bottom: 2px solid black; }
+  .navbar-fixed-top img {
+    height: 25px;
+    border-radius: 50%;
+    display: inline; }
+  .navbar-fixed-top .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: bold; }
+  .navbar-fixed-top form {
+    width: 70%; }
+    .navbar-fixed-top form .form-control {
+      width: 100%; }
+  .navbar-fixed-top .navbar-right li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white; }
+
+/*# sourceMappingURL=styles.css.map */

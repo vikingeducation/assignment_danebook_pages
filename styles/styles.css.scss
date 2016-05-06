@@ -1,0 +1,36 @@
+
+$nav-font-color: white;
+$background-blue: #2B78E4;
+
+.navbar-fixed-top {
+	background: $background-blue;
+	border-bottom: 2px solid black;
+
+	img {
+		height: 25px;
+		border-radius: 50%;
+		display: inline;
+	}
+	.navbar-brand {
+		color: $nav-font-color;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	form {
+		width: 70%;
+		.form-control {
+			width: 100%;
+		}
+	}
+
+	.navbar-right {
+		li {
+			a {
+				font-size: 20px;
+				font-weight: bold;
+				color: $nav-font-color;
+			}
+		}
+	}
+}
