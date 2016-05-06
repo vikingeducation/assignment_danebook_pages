@@ -1,3 +1,10 @@
+.blue-button, .about-container .about-edit-button {
+  background: #2B78E4;
+  color: white;
+  border: 2px solid black;
+  border-radius: 0;
+  box-shadow: 2px 2px 3px black; }
+
 .navbar-fixed-top {
   background: #2B78E4;
   border-bottom: 2px solid black; }
@@ -25,11 +32,27 @@
       font-weight: bold;
       color: white; }
 
-.banner-image {
-  max-width: 100%;
+.banner-image-wrapper {
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-bottom: 2px solid black; }
+  .banner-image-wrapper div {
+    padding-left: 0;
+    padding-right: 0; }
+  .banner-image-wrapper img {
+    width: 100%; }
+
+.banner-nav {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black; }
+  .banner-nav li {
+    border-left: 2px solid black; }
+  .banner-nav li:last-child {
+    border-right: 2px solid black; }
+  .banner-nav a {
+    width: 100%;
+    padding: 0; }
 
 .user-profile-wrapper {
   position: absolute;
@@ -45,6 +68,14 @@
   border: 2px solid black; }
   .about-container header {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    border-bottom: 2px solid black; }
+  .about-container section {
+    padding-top: 20px;
+    padding-bottom: 30px; }
+  .about-container td {
+    padding-top: 20px; }
+  .about-container td:nth-child(even) {
+    padding-left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
