@@ -1,29 +1,29 @@
 .navbar {
-  height: 80px;
-  background-color: #3b5998; }
+  height: 70px;
+  background-color: #3b5998;
+  border: none; }
 
 .navbar .navbar-brand {
-  font-size: 24px;
+  font-size: 30px;
   color: #fff;
   margin-top: 10px;
   font-weight: bold; }
 
-.navbar .navbar-toggle {
-  margin-top: 20px; }
-
-.navbar .navbar-collapse {
-  background-color: #3b5998; }
-
-.navbar img {
-  height: 30px;
-  margin-top: 20px;
+.navbar #img-cropper {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-size: cover;
+  background-image: url(danish_flag.png);
+  margin-top: 15px;
+  margin-left: -205px;
   display: inline-block;
-  margin-left: -15px;
-  clip-path: circle(60px at center); }
+  background-position: center; }
 
 .form-control {
   width: 90%;
-  margin-top: 20px; }
+  margin-top: 20px;
+  vertical-align: top; }
 
 .name {
   font-weight: normal;
@@ -44,7 +44,7 @@
   .cover .profile-pic {
     position: absolute;
     top: 280px;
-    margin-left: 60px;
+    margin-left: 40px;
     width: 200px;
     clip: rect(0px, 200px, 200px, 0px);
     border: 4px solid #eee;
@@ -55,7 +55,7 @@
     .cover .inner-nav .pagination {
       width: 100%; }
     .cover .inner-nav a {
-      width: 15%;
+      width: 13%;
       height: 50px;
       padding: 0;
       line-height: 50px;
@@ -64,33 +64,203 @@
       font-size: 18px;
       color: #3b5998; }
     .cover .inner-nav #left-bar {
-      width: 35%; }
+      width: 28%; }
     .cover .inner-nav #left-bar:hover {
       background-color: #fff;
       z-index: -2; }
     .cover .inner-nav #right-bar {
-      width: 5%; }
+      width: 20%; }
     .cover .inner-nav #right-bar:hover {
       background-color: #fff;
       z-index: -2; }
+    .cover .inner-nav #edit-profile {
+      position: absolute;
+      top: 450px;
+      margin-left: 860px;
+      z-index: 2;
+      font-size: 14px;
+      color: #999; }
 
-#about {
+#content {
   width: 1000px;
   margin-left: 65px;
   border: 2px #aaa solid;
   padding: 10px; }
-  #about h2 {
+  #content h2 {
     margin: -10px -10px 10px -10px;
     background-color: #ddd;
     text-align: center;
     line-height: 50px; }
-  #about button {
+  #content #edit-button, #content #add-photo {
     position: absolute;
     margin-left: 300px;
     margin-top: 8px;
-    background-color: #3b5998; }
-  #about .control-label {
+    background-color: #3b5998;
+    width: 130px; }
+  #content #submit-button {
+    margin: 30px 0 30px 0;
+    background-color: #3b5998;
+    width: 100%; }
+  #content .control-label {
     text-align: right; }
+  #content #friend {
+    border: 1px #aaa solid;
+    height: 110px;
+    margin-top: 5px;
+    margin-right: 5px; }
+    #content #friend img {
+      height: 90px;
+      display: inline-block;
+      margin-top: 10px; }
+    #content #friend p {
+      margin-top: 40px;
+      margin-bottom: -60px; }
+    #content #friend #friend-num {
+      color: #aaa; }
+    #content #friend #unfriend {
+      padding: 5px;
+      margin-top: 40px; }
+  #content #photo img {
+    width: 220px; }
+  #content #photo a.hovertext {
+    position: relative;
+    width: 220px;
+    text-align: center; }
+  #content #photo a.hovertext:after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: -75px;
+    padding: 20px 0 20px 0;
+    width: 220px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    opacity: 0;
+    margin-top: 500px; }
+  #content #photo a.hovertext:hover:after, #content #photo a.hovertext:focus:after {
+    opacity: 1.0; }
+
+#timeline #left {
+  width: 300px;
+  margin-left: 65px;
+  margin-top: 0;
+  display: inline-block;
+  vertical-align: top; }
+#timeline #right {
+  width: 685px;
+  margin-left: 15px;
+  display: inline-block; }
+#timeline article {
+  border: 2px #aaa solid;
+  margin: 10px 0; }
+#timeline h2 {
+  margin: 0;
+  background-color: #ddd;
+  text-align: center;
+  line-height: 32px;
+  font-size: 18px; }
+  #timeline h2 button {
+    margin-left: 80%;
+    margin-bottom: 3px;
+    height: 25px;
+    width: 60px;
+    line-height: 14px;
+    padding: 5px 5px;
+    background-color: #3b5998; }
+#timeline .form-group {
+  margin: 0; }
+#timeline textarea {
+  margin-left: 30px;
+  margin-bottom: 10px; }
+#timeline .posted-post .my-thumbnail {
+  display: inline-block;
+  clip: rect(0px, 100px, 100px, 0px);
+  margin: 10px; }
+  #timeline .posted-post .my-thumbnail img {
+    position: absolute;
+    width: 60px;
+    clip: rect(0px, 60px, 60px, 0px); }
+#timeline .posted-post p {
+  margin: 20px 10px 10px 10px; }
+#timeline .posted-post a p {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 60px;
+  color: #3b5998; }
+#timeline .posted-post #post-date {
+  font-size: 12px;
+  color: #555;
+  margin-top: -10px;
+  margin-left: 84px; }
+#timeline .posted-post h2 p {
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 5px;
+  color: #3b5998; }
+#timeline .posted-post #delete {
+  margin-left: 500px; }
+#timeline .posted-post .liked-this {
+  color: #555;
+  font-size: 14px;
+  margin-left: -480px; }
+  #timeline .posted-post .liked-this a {
+    color: #3b5998; }
+#timeline .posted-post .you-liked-this {
+  margin-left: -335px; }
+#timeline .you-like #delete {
+  margin-left: 560px; }
+#timeline .comment {
+  background-color: #eee;
+  margin: 0;
+  border: none;
+  border-bottom: 1px #aaa solid; }
+  #timeline .comment .action {
+    font-size: 14px;
+    color: #3b5998;
+    margin-left: 10px;
+    display: inline-block;
+    margin: 10px; }
+  #timeline .comment .likes-count {
+    display: inline-block;
+    font-size: 14px;
+    color: #aaa;
+    margin: 10px; }
+  #timeline .comment #delete-comment {
+    float: right;
+    margin-right: 10px;
+    vertical-align: bottom; }
+#timeline #cancel {
+  font-size: 12px;
+  color: #888; }
+#timeline .photos .photo {
+  display: inline-block;
+  width: 86px;
+  margin: 5px; }
+#timeline .photos a {
+  display: inline;
+  padding-left: 30%;
+  text-align: center;
+  color: #3b5998;
+  margin-bottom: 25px; }
+#timeline .friends .friend {
+  display: inline-block;
+  width: 80px;
+  margin: 10px; }
+#timeline .friends div {
+  width: 95px;
+  display: inline-block;
+  text-align: center; }
+  #timeline .friends div p {
+    margin-top: -8px;
+    font-size: 12px;
+    color: #333; }
+#timeline .friends a {
+  display: inline;
+  padding-left: 30%;
+  text-align: center;
+  color: #3b5998;
+  margin-bottom: 30px; }
 
 footer {
   text-align: center; }

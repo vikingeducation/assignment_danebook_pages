@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
-    <title>Danebook - About</title>
+    <title>Edit Profile</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-     <link rel="icon" href="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
     
     <link href="styles.css" rel="stylesheet">
+    
+    <link rel="icon" href="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
 
   </head>
 
@@ -73,33 +73,32 @@
 
 
       <!-- About -->
-      <section id="content">
-            <h2>About <a href="edit-profile.html"><button class="btn btn-primary pull-right" id="edit-button" >Edit your Profile</button></a></h2>
-          </div>
+      <section  id="content">
+            <h2>Edit Profile</h2>
 
           <div class="row">
-            <div class="col-xs-3 col-xs-offset-1">
+            <div class="col-xs-4 col-xs-offset-1">
               <h3>Basic Information</h3>
               
               <form class="form-horizontal">
                 <div class="form-group">
-                  <label class="col-xs-5 control-label">Birthday</label>
+                  <label class="col-xs-4 control-label">Birthday</label>
                   <div class="col-xs-7">
-                    <p class="form-control-static">July 31, 1980</p>
+                    <input class="form-control" value="July 31, 1980">
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label class="col-xs-5 control-label">College</label>
+                  <label class="col-xs-4 control-label">College</label>
                   <div class="col-xs-7">
-                    <p class="form-control-static">Hogwarts College</p>
+                    <input class="form-control" value="Hogwarts College">
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label class="col-xs-5 control-label">Hometown</label>
+                  <label class="col-xs-4 control-label">Hometown</label>
                   <div class="col-xs-7">
-                    <p class="form-control-static">Godrick's Hollow, England</p>
+                    <input class="form-control" value="Godrick's Hollow, England">
                   </div>
                 </div>
               </form>
@@ -107,52 +106,54 @@
               <h3>Contact Information</h3>
               <form>
                 <div class="form-group">
-                  <label class="col-xs-5 control-label">Email</label>
+                  <label class="col-xs-4 control-label">Email</label>
                   <div class="col-xs-7">
-                    <p class="form-control-static">harry_potter@hogwarts.edu</p>
+                    <input class="form-control" value="harry_potter@hogwarts.edu">
                   </div>
                 </div>
 
 
                 <div class="form-group">
-                  <label class="col-xs-5 control-label">Telephone</label>
+                  <label class="col-xs-4 control-label">Telephone</label>
                   <div class="col-xs-7">
-                    <p class="form-control-static">+44-555-123-4567</p>
+                    <input class="form-control" value="+44-555-123-4567">
                   </div>
                 </div>
 
               </form>
             </div>
 
-            <div class="col-xs-6 col-xs-offset-1">
+            <div class="col-xs-5 col-xs-offset-1">
               <h3>Words to Live By</h3>
-              <p>
+              <textarea class="form-control" rows="5">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat.
-              </p>
+              </textarea>
 
               <h3>About Me</h3>
-              <p>
+              <textarea class="form-control" rows="10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat.
-                <br>
-                <br>
+
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-            </div>
+              </textarea>
+            </div> 
+          </div> <!-- endrow -->
 
-
+          <div class="row">
+            <div class="col-xs-2 col-xs-offset-5">
+            <a href="about.html"><button class="btn btn-primary" id="submit-button">Submit</button></a>
           </div>
-        </div>
+          </div>
       </section>
 
       <!-- Footer -->
