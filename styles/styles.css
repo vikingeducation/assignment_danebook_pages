@@ -77,6 +77,8 @@
   .about-container section {
     padding-top: 20px;
     padding-bottom: 30px; }
+  .about-container .contact-info-table td:nth-child(even) {
+    padding-left: 50px; }
   .about-container td {
     padding-top: 20px; }
   .about-container td:nth-child(even) {
