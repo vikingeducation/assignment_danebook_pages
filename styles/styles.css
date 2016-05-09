@@ -111,10 +111,10 @@
       font-weight: bold; }
 
 .timeline-wrapper {
-  margin-top: 15px;
   margin-bottom: 30px; }
 
 .tile-wrapper {
+  margin-top: 15px;
   border: 2px solid black; }
   .tile-wrapper .tile-header {
     border-bottom: 2px solid black; }
@@ -131,6 +131,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     text-indent: 5px; }
+  .tile-wrapper img {
+    max-width: 100%; }
 
 .timeline-about table {
   margin-bottom: 20px; }
@@ -140,5 +142,11 @@
     font-weight: bold; }
   .timeline-about table td:nth-child(even) {
     padding-left: 20px; }
+
+.timeline-photos footer {
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px; }
 
 /*# sourceMappingURL=styles.css.map */
