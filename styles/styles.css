@@ -122,7 +122,7 @@
       text-align: center; }
   .tile-wrapper .tile-footer {
     border-top: 2px solid black; }
-    .tile-wrapper .tile-footer footer {
+    .tile-wrapper .tile-footer .post-creator {
       text-align: right; }
     .tile-wrapper .tile-footer button {
       margin: 10px 0; }
@@ -153,30 +153,52 @@
   text-align: center;
   text-decoration: underline; }
 
-.post header {
-  padding: 5px 10px 15px 10px; }
-  .post header img {
+.post {
+  font-size: 16px; }
+  .post img {
     max-width: 65px;
     margin-right: 10px; }
-  .post header a {
-    text-decoration: underline; }
-  .post header .post-title-info {
-    font-size: 16px;
-    display: inline-block;
-    vertical-align: middle; }
-    .post header .post-title-info p {
-      color: gray; }
-.post footer .post-actions,
-.post footer .likes {
+  .post header {
+    padding: 5px 10px 15px 10px; }
+    .post header a {
+      text-decoration: underline; }
+    .post header .post-title-info {
+      display: inline-block;
+      vertical-align: middle; }
+      .post header .post-title-info p {
+        color: gray; }
+  .post .tile-footer .post-actions,
+  .post .tile-footer .likes {
+    margin-bottom: 15px; }
+  .post .tile-footer a {
+    text-decoration: underline;
+    font-size: 16px; }
+  .post .tile-footer .post-actions {
+    width: 100%; }
+    .post .tile-footer .post-actions a:not(:first-child) {
+      margin-left: 10px; }
+    .post .tile-footer .post-actions a:last-child {
+      margin-left: 72%; }
+  .post .tile-footer .liked a:last-child {
+    margin-left: 82%; }
+  .post .tile-footer hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+
+.comment {
+  display: flex;
   margin-bottom: 15px; }
-.post footer a {
-  text-decoration: underline;
-  font-size: 16px; }
-.post footer .post-actions {
-  width: 100%; }
-  .post footer .post-actions a:not(:first-child) {
-    margin-left: 10px; }
-  .post footer .post-actions a:last-child {
-    margin-left: 72%; }
+  .comment .commenter-image {
+    display: inline-block; }
+  .comment .comment-content {
+    display: inline-block; }
+    .comment .comment-content p {
+      margin-left: 0; }
+  .comment .comment-delete {
+    margin-left: 61%; }
+
+.comment-creator button {
+  margin-left: 77% !important; }
 
 /*# sourceMappingURL=styles.css.map */
