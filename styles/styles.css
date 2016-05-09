@@ -57,6 +57,7 @@
   .banner-nav a {
     width: 100%;
     padding: 0;
+    font-weight: bold;
     color: black; }
   .banner-nav .nav-pills > li.active > a {
     color: black;
@@ -91,6 +92,8 @@
     padding-left: 50px; }
   .about-container td {
     padding-top: 20px; }
+  .about-container td:nth-child(odd) {
+    font-weight: bold; }
   .about-container td:nth-child(even) {
     padding-left: 20px; }
   .about-container .about-narrative textarea {
