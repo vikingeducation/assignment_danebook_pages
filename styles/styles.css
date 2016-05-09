@@ -113,19 +113,32 @@
 .timeline-wrapper {
   margin-top: 15px;
   margin-bottom: 30px; }
-  .timeline-wrapper .tile-wrapper {
-    border: 2px solid black; }
-    .timeline-wrapper .tile-wrapper .tile-header {
-      border-bottom: 2px solid black; }
-  .timeline-wrapper .timeline-about header {
-    text-align: center; }
-  .timeline-wrapper .timeline-about table {
-    margin-bottom: 20px; }
-    .timeline-wrapper .timeline-about table td {
-      padding-top: 20px; }
-    .timeline-wrapper .timeline-about table td:nth-child(odd) {
-      font-weight: bold; }
-    .timeline-wrapper .timeline-about table td:nth-child(even) {
-      padding-left: 20px; }
+
+.tile-wrapper {
+  border: 2px solid black; }
+  .tile-wrapper .tile-header {
+    border-bottom: 2px solid black; }
+    .tile-wrapper .tile-header header {
+      text-align: center; }
+  .tile-wrapper .tile-footer {
+    border-top: 2px solid black; }
+    .tile-wrapper .tile-footer footer {
+      text-align: right; }
+    .tile-wrapper .tile-footer button {
+      margin: 10px 0; }
+  .tile-wrapper textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 5px; }
+
+.timeline-about table {
+  margin-bottom: 20px; }
+  .timeline-about table td {
+    padding-top: 20px; }
+  .timeline-about table td:nth-child(odd) {
+    font-weight: bold; }
+  .timeline-about table td:nth-child(even) {
+    padding-left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
