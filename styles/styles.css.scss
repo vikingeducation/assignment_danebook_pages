@@ -2,6 +2,10 @@
 $nav-font-color: white;
 $background-blue: #2B78E4;
 
+.filled-area {
+	background-color: #eee;
+}
+
 .blue-button {
 	background: #2B78E4;
 	color: white;
@@ -143,22 +147,25 @@ $background-blue: #2B78E4;
 		padding-bottom: 30px;
 	}
 
+	.info-table {
+
+		td {
+			padding-top: 20px;
+		}
+
+		td:nth-child(odd) {
+			font-weight: bold;
+		}
+
+		td:nth-child(even) {
+			padding-left: 20px;
+		}
+	}
+
 	.contact-info-table {
 		td:nth-child(even) {
 			padding-left: 50px;
 		}
-	}
-
-	td {
-		padding-top: 20px;
-	}
-
-	td:nth-child(odd) {
-		font-weight: bold;
-	}
-
-	td:nth-child(even) {
-		padding-left: 20px;
 	}
 
 	.about-narrative {
@@ -177,6 +184,44 @@ $background-blue: #2B78E4;
 			font-size: 36px;
 			font-weight: bold;
 			@extend .blue-button;
+		}
+	}
+
+}
+
+.timeline-wrapper {
+	margin-top: 15px;
+	margin-bottom: 30px;
+
+	.tile-wrapper {
+		border: 2px solid black;
+
+		.tile-header {
+			border-bottom: 2px solid black;
+		}
+	}
+
+	.timeline-about {
+
+		header {
+			text-align: center;
+		}
+
+		table {
+
+			margin-bottom: 20px;
+
+			td {
+				padding-top: 20px;
+			}
+
+			td:nth-child(odd) {
+				font-weight: bold;
+			}
+
+			td:nth-child(even) {
+				padding-left: 20px;
+			}
 		}
 	}
 

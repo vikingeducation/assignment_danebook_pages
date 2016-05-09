@@ -1,3 +1,6 @@
+.filled-area {
+  background-color: #eee; }
+
 .blue-button, .about-container .about-edit-button, .about-container .button-wrapper button {
   background: #2B78E4;
   color: white;
@@ -88,14 +91,14 @@
   .about-container section {
     padding-top: 20px;
     padding-bottom: 30px; }
+  .about-container .info-table td {
+    padding-top: 20px; }
+  .about-container .info-table td:nth-child(odd) {
+    font-weight: bold; }
+  .about-container .info-table td:nth-child(even) {
+    padding-left: 20px; }
   .about-container .contact-info-table td:nth-child(even) {
     padding-left: 50px; }
-  .about-container td {
-    padding-top: 20px; }
-  .about-container td:nth-child(odd) {
-    font-weight: bold; }
-  .about-container td:nth-child(even) {
-    padding-left: 20px; }
   .about-container .about-narrative textarea {
     width: 100%; }
   .about-container .button-wrapper {
@@ -106,5 +109,23 @@
       height: 2em;
       font-size: 36px;
       font-weight: bold; }
+
+.timeline-wrapper {
+  margin-top: 15px;
+  margin-bottom: 30px; }
+  .timeline-wrapper .tile-wrapper {
+    border: 2px solid black; }
+    .timeline-wrapper .tile-wrapper .tile-header {
+      border-bottom: 2px solid black; }
+  .timeline-wrapper .timeline-about header {
+    text-align: center; }
+  .timeline-wrapper .timeline-about table {
+    margin-bottom: 20px; }
+    .timeline-wrapper .timeline-about table td {
+      padding-top: 20px; }
+    .timeline-wrapper .timeline-about table td:nth-child(odd) {
+      font-weight: bold; }
+    .timeline-wrapper .timeline-about table td:nth-child(even) {
+      padding-left: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
