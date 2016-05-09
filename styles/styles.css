@@ -143,10 +143,14 @@
   .timeline-about table td:nth-child(even) {
     padding-left: 20px; }
 
-.timeline-photos footer {
+.see-more-footer {
   padding: 10px 0;
   text-align: center;
   text-decoration: underline;
   font-size: 18px; }
+
+.timeline-friends .img-tile {
+  text-align: center;
+  text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */

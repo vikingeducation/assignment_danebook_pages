@@ -250,12 +250,16 @@ $background-blue: #2B78E4;
 	}
 }
 
-.timeline-photos {
+.see-more-footer {
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 18px;
+}
 
-	footer {
-		padding: 10px 0;
+.timeline-friends {
+	.img-tile {
 		text-align: center;
 		text-decoration: underline;
-		font-size: 18px;
 	}
 }
