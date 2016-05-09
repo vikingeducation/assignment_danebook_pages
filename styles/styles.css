@@ -153,4 +153,30 @@
   text-align: center;
   text-decoration: underline; }
 
+.post header {
+  padding: 5px 10px 15px 10px; }
+  .post header img {
+    max-width: 65px;
+    margin-right: 10px; }
+  .post header a {
+    text-decoration: underline; }
+  .post header .post-title-info {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle; }
+    .post header .post-title-info p {
+      color: gray; }
+.post footer .post-actions,
+.post footer .likes {
+  margin-bottom: 15px; }
+.post footer a {
+  text-decoration: underline;
+  font-size: 16px; }
+.post footer .post-actions {
+  width: 100%; }
+  .post footer .post-actions a:not(:first-child) {
+    margin-left: 10px; }
+  .post footer .post-actions a:last-child {
+    margin-left: 72%; }
+
 /*# sourceMappingURL=styles.css.map */

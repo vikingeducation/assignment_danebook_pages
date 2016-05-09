@@ -263,3 +263,56 @@ $background-blue: #2B78E4;
 		text-decoration: underline;
 	}
 }
+
+.post {
+
+	header {
+		padding: 5px 10px 15px 10px;
+
+		img {
+			max-width: 65px;
+			margin-right: 10px;
+		}
+
+		a {
+			text-decoration: underline;
+		}
+
+		.post-title-info {
+			font-size: 16px;
+			display: inline-block;
+			vertical-align: middle;
+
+			p {
+				color: gray;
+			}
+
+		}
+	}
+
+	footer {
+
+		.post-actions,
+		.likes {
+			margin-bottom: 15px;
+		}
+
+		a {
+			text-decoration: underline;
+			font-size: 16px;
+		}
+
+		.post-actions {
+			width: 100%;
+
+			a:not(:first-child) {
+				margin-left: 10px;
+			}
+
+			a:last-child {
+				margin-left: 72%;
+			}
+		}
+	}
+
+}
