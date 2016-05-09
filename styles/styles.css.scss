@@ -93,6 +93,20 @@ $background-blue: #2B78E4;
 	a {
 		width: 100%;
 		padding: 0;
+		color: black;
+	}
+	.nav-pills>li.active>a {
+		color: black;
+		background: #ddd;
+	}
+	.edit-profile {
+		text-decoration: underline;
+		border-left: none;
+		border-right: none !important;
+
+		a {
+		color: blue;
+		}
 	}
 
 }

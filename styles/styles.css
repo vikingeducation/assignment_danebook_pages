@@ -56,7 +56,17 @@
     border-right: 2px solid black; }
   .banner-nav a {
     width: 100%;
-    padding: 0; }
+    padding: 0;
+    color: black; }
+  .banner-nav .nav-pills > li.active > a {
+    color: black;
+    background: #ddd; }
+  .banner-nav .edit-profile {
+    text-decoration: underline;
+    border-left: none;
+    border-right: none !important; }
+    .banner-nav .edit-profile a {
+      color: blue; }
 
 .user-profile-wrapper {
   position: absolute;
