@@ -7,12 +7,6 @@ h2 {
 .navbar-default {
   background-color: #2B78E4; }
 
-.navbar-brand {
-  font-color: #FFF; }
-
-.align-left {
-  text-align: right; }
-
 a.text-dec {
   text-decoration: underline; }
 
@@ -25,13 +19,19 @@ img.cover-photo {
   width: 100%;
   padding: 0; }
 
+ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 10px; }
+
 .about-links {
   text-decoration: none;
   font-size: 14px; }
 
 .about-link-section {
   border: 1px solid black;
-  line-height: 40px; }
+  line-height: 30px;
+  padding-top: 8px; }
 
 .default-box-header {
   background-color: #EEEEEE;
