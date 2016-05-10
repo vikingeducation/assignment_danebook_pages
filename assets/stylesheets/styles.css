@@ -5,11 +5,11 @@ h2 {
 .btn-radius-0 {
   border-radius: 0; }
 
-.btn-grayed-out, .profile-links > button:hover {
+.btn-grayed-out, .profile-links > .text-dec-none > button:hover {
   background-color: #CCC;
   color: #AAA; }
 
-.btn-grayed-out > .button > a:hover, .profile-links > button:hover > .button > a:hover {
+.btn-grayed-out > .button > a:hover, .profile-links > .text-dec-none > button:hover > .button > a:hover {
   text-decoration: none; }
 
 .profile-links {
@@ -17,18 +17,8 @@ h2 {
   font-size: 14px;
   text-align: center; }
 
-.profile-links > button:hover {
-  text-decoration: none;
-  color: #FFF; }
-
 .profile-link-bar {
   border: 1px solid black; }
-
-.profile-links > button {
-  border-right: 1px solid black; }
-
-.profile-links > button:first-child {
-  border-left: 1px solid black; }
 
 .header-button {
   margin-top: 14px; }
@@ -36,6 +26,10 @@ h2 {
 .text-dec-none:hover {
   color: #CCC;
   text-decoration: none; }
+
+.profile-links > .text-dec-none > button:hover {
+  text-decoration: none;
+  color: #FFF; }
 
 /*****.BUTTONS AND LINKS *****/
 .text-align-right {

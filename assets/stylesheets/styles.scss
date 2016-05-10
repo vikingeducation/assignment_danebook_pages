@@ -27,22 +27,8 @@ h2 {
   text-align: center;
 }
 
-.profile-links > button:hover {
-  @extend .btn-grayed-out;
-  text-decoration: none;
-  color: #FFF;
-}
-
 .profile-link-bar {
  border:1px solid black;
-}
-
-.profile-links > button {
- border-right: 1px solid black;
-}
-
-.profile-links > button:first-child {
- border-left: 1px solid black;
 }
 
 .header-button {
@@ -54,6 +40,11 @@ h2 {
  text-decoration:none;
 }
 
+.profile-links > .text-dec-none > button:hover {
+  @extend .btn-grayed-out;
+  text-decoration: none;
+  color: #FFF;
+}
 
 /*****.BUTTONS AND LINKS *****/
 
