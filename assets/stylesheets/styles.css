@@ -1,22 +1,37 @@
 h2 {
   text-align: center; }
 
+.header-button {
+  margin-top: 14px; }
+
 .navbar-default {
   background-color: #2B78E4; }
 
 .navbar-brand {
   font-color: #FFF; }
 
+.align-left {
+  text-align: right; }
+
+a.text-dec {
+  text-decoration: underline; }
+
 img.personal-photo {
   position: absolute;
-  transform: translate(20px, -270px);
-  width: 200px; }
+  transform: translate(20px, -190px);
+  height: 200px; }
 
 img.cover-photo {
-  width: 100%; }
+  width: 100%;
+  padding: 0; }
 
 .about-links {
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 14px; }
+
+.about-link-section {
+  border: 1px solid black;
+  line-height: 40px; }
 
 .default-box-header {
   background-color: #EEEEEE;
