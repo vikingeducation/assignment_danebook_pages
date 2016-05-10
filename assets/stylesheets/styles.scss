@@ -5,8 +5,35 @@ h2 {
  text-align: center;
 }
 
+.btn-link {
+ border-radius:0;
+}
+
+.profile-link-bar {
+ border:1px solid black;
+}
+
+.profile-links > button {
+ border-right: 1px solid black;
+}
+
+.profile-links > button:first-child {
+ border-left: 1px solid black;
+}
+
 .header-button {
  margin-top: 14px;
+}
+
+
+.about-links {
+  text-decoration: none;
+  font-size:14px;
+  text-align: center;
+}
+
+.text-align-right {
+ text-align: right;
 }
 
 p.pull-left {
@@ -31,23 +58,12 @@ a:hover.text-dec {
 img.personal-photo {
   position: absolute;
   transform: translate(20px, -190px);
-  height:200px;
+  width:150px;
 }
 
 img.cover-photo {
   width: 100%;
   padding: 0;
-}
-
-ul li{
- display:inline;
- list-style-type: none;
- margin-right:10px;
-}
-
-.about-links {
-  text-decoration:  none;
-  font-size:14px;
 }
 
 .hide {
@@ -61,8 +77,6 @@ a.inactive-link {
 
 .about-link-section {
  border: 1px solid black;
- line-height:30px;
- padding-top:8px;
 }
 
 .default-box-header {
@@ -76,5 +90,5 @@ a.inactive-link {
 }
 
 .container {
- min-width:600px;
+ min-width:1080px;
 }
