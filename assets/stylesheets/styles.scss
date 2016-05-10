@@ -1,0 +1,34 @@
+$default-gray: #EEEEEE;
+$box-header-height: 30px;
+
+.navbar-default {
+  background-color:#2B78E4; 
+}
+
+.navbar-brand {
+  font-color:  #FFF;
+}
+
+img.personal-photo {
+  position: absolute;
+  transform: translate(20px, -270px);
+  width:200px;
+}
+
+img.cover-photo {
+  width: 100%;
+}
+
+.about-links {
+  text-decoration:  none;
+}
+
+.default-box-header {
+  background-color: $default-gray;
+  min-height: $box-header-height;
+
+}
+
+.plain-border {
+  border:1px solid black;
+}
