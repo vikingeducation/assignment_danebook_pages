@@ -4,10 +4,19 @@ h2 {
 .header-button {
   margin-top: 14px; }
 
+p.pull-left {
+  margin-top: 10px;
+  margin-left: 8px;
+  color: #FFF;
+  font-size: 22px; }
+
 .navbar-default {
   background-color: #2B78E4; }
 
-a.text-dec {
+.brand {
+  margin-top: 4px; }
+
+a:hover.text-dec {
   text-decoration: underline; }
 
 img.personal-photo {
@@ -27,6 +36,13 @@ ul li {
 .about-links {
   text-decoration: none;
   font-size: 14px; }
+
+.hide {
+  display: none; }
+
+a.inactive-link {
+  color: #CCC;
+  text-decoration: none; }
 
 .about-link-section {
   border: 1px solid black;
