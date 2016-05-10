@@ -1,6 +1,10 @@
 $default-gray: #EEEEEE;
 $box-header-height: 30px;
 
+h2 {
+ text-align: center;
+}
+
 .navbar-default {
   background-color:#2B78E4; 
 }
@@ -26,6 +30,7 @@ img.cover-photo {
 .default-box-header {
   background-color: $default-gray;
   min-height: $box-header-height;
+  border-bottom: 1px solid black;
 
 }
 
