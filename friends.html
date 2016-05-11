@@ -1,1 +1,185 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Danebook</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link href="assets/stylesheets/styles.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="brand pull-left" href="about.html">
+            <img style="height:40px" class="img-circle" src="assets/images/danish_flag.gif">
+        </a>
+    </div>
+    <p class="pull-left">Danebook</p>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="navbar-center col-sm-offset-3">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <!--SEARCH BAR-->
+                    <input type="search" class="form-control" placeholder="Search" name="search-field">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+  </div> <!--/.container-->
+</nav>
+
+<div class="container plain-border">
+
+      <div class="row">
+        <div class="col-xs-12 plain-border">
+            <!--background cover photo-->
+            <img class="cover-photo" src="assets/images/hogwarts_small.jpg">
+        </div>
+        <div class="row">
+          <div class="col-xs-1">
+            <img class="personal-photo" src="assets/images/harry_potter_small.jpg">
+          </div>
+        </div>
+      </div>
+
+
+  <!--row for home about photos friends links-->
+  <!-- remove btn-link to show page currently selected-->
+    <div class="row profile-link-bar">
+        <div class="col-xs-5 col-xs-offset-2 profile-links">
+                <a class="text-dec-none" href="timeline.html">
+                    <button class="btn btn-link btn-lg btn-radius-0" type="button">
+                        Timeline
+                    </button>
+                </a>
+                <a class="text-dec-none" href="about.html">
+                    <button class="btn btn-link btn-lg btn-radius-0" type="button">
+                        About
+                    </button>
+                </a>
+                <a class="text-dec-none" href="photos.html">
+                  <button class="btn btn-link btn-lg btn-radius-0" type="button">
+                        Photos
+                  </button>
+                </a>
+                <a class="text-dec-none" href="friends.html">
+                  <button class="btn btn-lg btn-radius-0" type="button">
+                        Friends
+                  </button>
+                </a>
+        </div>
+        <div class="col-xs-2 pull-right profile-links">
+            <a class="text-dec-none" href="about_edit.html">
+              <button class="btn btn-link btn-radius-0 btn-lg" type="button">
+                Edit Profile
+              </button>
+            </a>
+        </div>
+
+    </div><!--/.row about-link-section-->
+
+
+<!--Friends box-->
+    <div class="row default-box-header">
+        <div class="col-sm-4 col-sm-offset-4">
+            <header>
+                <h2>Friends</h2>
+            </header>
+        </div>
+        <div class="col-xs-4">
+            <a href="about_edit.html"><button class="btn btn-primary pull-right header-button hide" type="button" input="submit">Edit Your Profile
+            </button></a>
+        </div>
+    </div>
+
+<!--main content of profile box-->
+
+
+<!--FRIENDS GRID SECTION-->
+<div class="row">
+		<div class="col-lg-6 col-sm-6 col-xs-12">
+		 	<div class="row">
+			  	<div class="col-xs-10 col-xs-offset-1 friend-container">
+			  	</div>
+			 </div>
+		</div>
+		<div class="col-lg-6 col-sm-6 col-xs-12">
+		 	<div class="row">
+			  	<div class="col-xs-10 col-xs-offset-1 friend-container">
+			  	</div>
+			 </div>
+		</div>
+</div> <!--/.row-->
+
+<div class="row">
+		<div class="col-lg-6 col-sm-6 col-xs-12">
+		 	<div class="row">
+			  	<div class="col-xs-10 col-xs-offset-1 friend-container">
+			  	</div>
+			 </div>
+		</div>
+		<div class="col-lg-6 col-sm-6 col-xs-12">
+		 	<div class="row">
+			  	<div class="col-xs-10 col-xs-offset-1 friend-container">
+			  	</div>
+			 </div>
+		</div>
+</div> <!--/.row-->
+
+<div class="row">
+		<div class="col-lg-6 col-sm-6 col-xs-12">
+		 	<div class="row">
+			  	<div class="col-xs-10 col-xs-offset-1 friend-container">
+			  	</div>
+			 </div>
+		</div>
+		<div class="col-lg-6 col-sm-6 col-xs-12">
+		 	<div class="row">
+			  	<div class="col-xs-10 col-xs-offset-1 friend-container">
+			  	</div>
+			 </div>
+		</div>
+</div> <!--/.row-->
+
+
+
+
+
+
+
+</div> <!--/.container-->
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+

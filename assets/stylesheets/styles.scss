@@ -1,5 +1,5 @@
 $default-gray: #EEEEEE;
-$box-header-height: 30px;
+$one-px-border: 1px solid black;
 
 h2 {
  text-align: center;
@@ -13,7 +13,7 @@ h2 {
 
 .btn-grayed-out {
   background-color: #CCC;
-  color: #AAA;
+  color: $default-gray;
 }
 
 .profile-links > .text-dec-none > button:hover, button:focus {
@@ -36,7 +36,7 @@ h2 {
 }
 
 .profile-link-bar {
- border:1px solid black;
+ border:$one-px-border;
 }
 
 .header-button {
@@ -48,7 +48,16 @@ h2 {
 }
 
 
-/*****.BUTTONS AND LINKS *****/
+/*****END BUTTONS AND LINKS *****/
+
+/*****FRIENDS PAGE****/
+
+.friend-container {
+  border: $one-px-border;
+  height:150px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
 
 
 /**** FORMS ****/
@@ -110,13 +119,13 @@ img.cover-photo {
 }
 
 .about-link-section {
- border: 1px solid black;
+ border: $one-px-border;
 }
 
 .default-box-header {
   background-color: $default-gray;
-  min-height: $box-header-height;
-  border-bottom: 1px solid black;
+  min-height: 30px;
+  border-bottom: $one-px-border;
 }
 
 .plain-border {

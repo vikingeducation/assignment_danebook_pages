@@ -7,7 +7,7 @@ h2 {
 
 .btn-grayed-out, .profile-links > .text-dec-none > button:hover, button:focus {
   background-color: #CCC;
-  color: #AAA; }
+  color: #EEEEEE; }
 
 .profile-links > .text-dec-none > button:hover, button:focus {
   text-decoration: none;
@@ -31,7 +31,14 @@ h2 {
 .text-dec-none:hover {
   text-decoration: none; }
 
-/*****.BUTTONS AND LINKS *****/
+/*****END BUTTONS AND LINKS *****/
+/*****FRIENDS PAGE****/
+.friend-container {
+  border: 1px solid black;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
 /**** FORMS ****/
 .added-form-margin > .col-xs-6 > div {
   margin-top: 5px;
