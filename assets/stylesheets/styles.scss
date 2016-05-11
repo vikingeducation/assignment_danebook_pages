@@ -16,11 +16,13 @@ h2 {
   color: #AAA;
 }
 
-.profile-links > .text-dec-none > button:hover {
+.profile-links > .text-dec-none > button:hover, button:focus {
   @extend .btn-grayed-out;
   text-decoration: none;
   color: #FFF;
+  outline:none;
 }
+
 
 .btn-grayed-out > .button > a:hover {
   text-decoration: none;
