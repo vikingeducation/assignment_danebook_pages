@@ -32,6 +32,11 @@ h2 {
   text-decoration: none; }
 
 /*****END BUTTONS AND LINKS *****/
+.h-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 /*****FRIENDS PAGE****/
 .friend-container {
   border: 1px solid black;
@@ -51,6 +56,34 @@ h2 {
 
 .save-changes {
   margin-top: 10px; }
+
+/*****PHOTOS PAGE*****/
+.photo-container {
+  height: 200px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0; }
+
+.full-height {
+  height: 100%; }
+
+.full-width {
+  width: 100%; }
+
+.caption {
+  background-color: #EEEEEE;
+  height: 40px;
+  opacity: 0;
+  padding-top: 6px;
+  text-align: center;
+  transform: translateY(-40px);
+  border-top: 1px solid black;
+  font-size: 18px;
+  color: #403075; }
+
+.photo-container:hover > .caption {
+  opacity: 0.8; }
 
 /**** FORMS ****/
 .added-form-margin > .col-xs-6 > div {

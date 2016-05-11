@@ -50,6 +50,12 @@ h2 {
 
 /*****END BUTTONS AND LINKS *****/
 
+.h-center {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 /*****FRIENDS PAGE****/
 
 .friend-container {
@@ -75,6 +81,40 @@ h2 {
   margin-top:10px;
 }
 
+
+/*****PHOTOS PAGE*****/
+
+.photo-container {
+  height:200px;
+  border:$one-px-border;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding:0;
+}
+
+.full-height {
+  height:100%;
+}
+
+.full-width {
+  width:100%;
+}
+
+.caption {
+  background-color: $default-gray;
+  height:40px;
+  opacity: 0;
+  padding-top:6px;
+  text-align: center;
+  transform: translateY(-40px);
+  border-top: $one-px-border;
+  font-size:18px;
+  color: #403075;
+}
+
+.photo-container:hover > .caption {
+    opacity: 0.8;
+}
 
 /**** FORMS ****/
 
