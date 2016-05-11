@@ -39,6 +39,19 @@ h2 {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+.friend-photo {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  transform: translateY(25%);
+  border: 1px solid black; }
+
+.translateY-150 {
+  transform: translateY(150%); }
+
+.save-changes {
+  margin-top: 10px; }
+
 /**** FORMS ****/
 .added-form-margin > .col-xs-6 > div {
   margin-top: 5px;

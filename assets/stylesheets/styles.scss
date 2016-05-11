@@ -59,6 +59,22 @@ h2 {
   margin-bottom:20px;
 }
 
+.friend-photo {
+  position: absolute;
+  height:100px;
+  width: 100px;
+  transform: translateY(25%);
+  border: $one-px-border;
+}
+
+.translateY-150 {
+  transform: translateY(150%);
+}
+
+.save-changes {
+  margin-top:10px;
+}
+
 
 /**** FORMS ****/
 
