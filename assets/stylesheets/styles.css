@@ -9,6 +9,10 @@ h2 {
   background-color: #CCC;
   color: #AAA; }
 
+.profile-links > .text-dec-none > button:hover {
+  text-decoration: none;
+  color: #FFF; }
+
 .btn-grayed-out > .button > a:hover, .profile-links > .text-dec-none > button:hover > .button > a:hover {
   text-decoration: none; }
 
@@ -24,12 +28,7 @@ h2 {
   margin-top: 14px; }
 
 .text-dec-none:hover {
-  color: #CCC;
   text-decoration: none; }
-
-.profile-links > .text-dec-none > button:hover {
-  text-decoration: none;
-  color: #FFF; }
 
 /*****.BUTTONS AND LINKS *****/
 .text-align-right {

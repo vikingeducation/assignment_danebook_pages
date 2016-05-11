@@ -16,6 +16,12 @@ h2 {
   color: #AAA;
 }
 
+.profile-links > .text-dec-none > button:hover {
+  @extend .btn-grayed-out;
+  text-decoration: none;
+  color: #FFF;
+}
+
 .btn-grayed-out > .button > a:hover {
   text-decoration: none;
 }
@@ -36,15 +42,9 @@ h2 {
 }
 
 .text-dec-none:hover {
- color: #CCC;
  text-decoration:none;
 }
 
-.profile-links > .text-dec-none > button:hover {
-  @extend .btn-grayed-out;
-  text-decoration: none;
-  color: #FFF;
-}
 
 /*****.BUTTONS AND LINKS *****/
 
