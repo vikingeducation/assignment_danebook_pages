@@ -141,6 +141,11 @@ img.cover-photo {
 .plain-border, .generic-box {
   border: 1px solid black; }
 
+.post-caption {
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.9; }
+
 .tbmargins {
   margin-top: 15px;
   margin-bottom: 15px; }
