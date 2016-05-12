@@ -52,6 +52,15 @@ h2 {
 .save-changes {
   margin-top: 10px; }
 
+/****TIMELINE*****/
+.generic-box {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.post-photo {
+  width: 75px;
+  height: 75px; }
+
 /*****PHOTOS PAGE*****/
 .photo-container {
   height: 200px;
@@ -129,11 +138,11 @@ img.cover-photo {
   background-color: #EEEEEE;
   min-height: 30px; }
 
-.plain-border {
+.plain-border, .generic-box {
   border: 1px solid black; }
 
-.post-photo {
-  width: 75px;
-  height: 75px; }
+.form-control {
+  width: 90%;
+  margin: auto; }
 
 /*# sourceMappingURL=styles.css.map */
