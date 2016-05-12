@@ -141,6 +141,10 @@ img.cover-photo {
 .plain-border, .generic-box {
   border: 1px solid black; }
 
+.tbmargins {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
 .form-control {
   width: 90%;
   margin: auto; }
