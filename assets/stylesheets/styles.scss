@@ -5,6 +5,50 @@ h2 {
  text-align: center;
 }
 
+/*****SIZING/POSITIONING*****/
+
+.friend-photo {
+  height:75px;
+  width: 75px;
+}
+
+.tbmargins {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 90%;
+  margin: auto;
+}
+
+.h-center {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.translateY-50 {
+  transform: translate(0,50%);
+}
+
+.full-height {
+  height:100%;
+}
+
+.full-width {
+  width:100%;
+}
+
+.remove-margin {
+  margin-left:0;
+  margin-right:0;
+}
+
+.remove-padding {
+  padding: 0;
+}
+
 /*****BUTTONS AND LINKS*****/
 
 .btn-radius-0 {
@@ -46,11 +90,7 @@ h2 {
 
 /*****END BUTTONS AND LINKS *****/
 
-.h-center {
-  display: block;
-  margin-left:auto;
-  margin-right:auto;
-}
+
 
 /*****FRIENDS PAGE****/
 
@@ -62,19 +102,6 @@ h2 {
   @extend .plain-border;
 }
 
-.translateY-50 {
-  transform: translate(0,50%);
-
-}
-
-.friend-photo {
-  height:75px;
-  width: 75px;
-}
-
-.translateY-150 {
-  transform: translateY(150%);
-}
 
 
 /****TIMELINE*****/
@@ -84,10 +111,6 @@ h2 {
   margin-bottom:15px;
 }
 
-.post-photo {
-  width:75px;
-  height:75px;
-}
 
 /*****PHOTOS PAGE*****/
 
@@ -102,27 +125,10 @@ h2 {
 .aside-photo-container {
   margin-top:5px;
   margin-bottom:5px;
+  @extend .friend-photo;
 }
 
-.aside-photo {
-  width:75px;
-}
-.full-height {
-  height:100%;
-}
 
-.full-width {
-  width:100%;
-}
-
-.remove-margin {
-  margin-left:0;
-  margin-right:0;
-}
-
-.remove-padding {
-  padding: 0;
-}
 
 .caption {
   background-color: $default-gray;
@@ -173,8 +179,8 @@ p.pull-left {
   background-color:#2B78E4;
 }
 
-.brand  {
- margin-top:4px;
+.navbar-brand  {
+ margin-top:0px;
 }
 
 a:hover.text-dec {
@@ -210,14 +216,6 @@ img.cover-photo {
   opacity: 0.9;
 }
 
-.tbmargins {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
 
-.form-control {
-  width: 90%;
-  margin: auto;
-}
 
 
