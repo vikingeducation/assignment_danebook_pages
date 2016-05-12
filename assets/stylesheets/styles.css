@@ -36,21 +36,20 @@ h2 {
 
 /*****FRIENDS PAGE****/
 .friend-container {
+  position: relative;
   height: 150px;
   margin-top: 20px;
   margin-bottom: 20px; }
 
+.translateY-50 {
+  transform: translate(0, 50%); }
+
 .friend-photo {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  transform: translateY(25%); }
+  height: 75px;
+  width: 75px; }
 
 .translateY-150 {
   transform: translateY(150%); }
-
-.save-changes {
-  margin-top: 10px; }
 
 /****TIMELINE*****/
 .generic-box {
@@ -112,6 +111,9 @@ h2 {
 .added-form-margin p {
   margin-top: 10px; }
 
+.top-20-margin {
+  margin-top: 20px; }
+
 .text-align-right {
   text-align: right; }
 
@@ -145,7 +147,7 @@ img.cover-photo {
   background-color: #EEEEEE;
   min-height: 30px; }
 
-.plain-border, .generic-box {
+.plain-border, .friend-container, .generic-box {
   border: 1px solid black; }
 
 .post-caption {
