@@ -22,9 +22,6 @@ h2 {
   font-size: 14px;
   text-align: center; }
 
-.profile-link-bar {
-  border: 1px solid black; }
-
 .header-button {
   margin-top: 14px; }
 
@@ -39,7 +36,6 @@ h2 {
 
 /*****FRIENDS PAGE****/
 .friend-container {
-  border: 1px solid black;
   height: 150px;
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -48,8 +44,7 @@ h2 {
   position: absolute;
   height: 100px;
   width: 100px;
-  transform: translateY(25%);
-  border: 1px solid black; }
+  transform: translateY(25%); }
 
 .translateY-150 {
   transform: translateY(150%); }
@@ -60,7 +55,6 @@ h2 {
 /*****PHOTOS PAGE*****/
 .photo-container {
   height: 200px;
-  border: 1px solid black;
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 0; }
@@ -70,6 +64,10 @@ h2 {
 
 .full-width {
   width: 100%; }
+
+.remove-margin {
+  margin-left: 0;
+  margin-right: 0; }
 
 .remove-padding {
   padding: 0; }
@@ -81,7 +79,6 @@ h2 {
   padding-top: 6px;
   text-align: center;
   transform: translateY(-40px);
-  border-top: 1px solid black;
   font-size: 18px;
   color: #403075; }
 
@@ -94,8 +91,7 @@ h2 {
   margin-bottom: 5px; }
 
 .extra-margin {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  margin-top: 40px; }
 
 .added-form-margin p {
   margin-top: 10px; }
@@ -129,15 +125,15 @@ img.cover-photo {
 .hide {
   display: none; }
 
-.about-link-section {
-  border: 1px solid black; }
-
 .default-box-header {
   background-color: #EEEEEE;
-  min-height: 30px;
-  border-bottom: 1px solid black; }
+  min-height: 30px; }
 
 .plain-border {
   border: 1px solid black; }
+
+.post-photo {
+  width: 75px;
+  height: 75px; }
 
 /*# sourceMappingURL=styles.css.map */
