@@ -100,6 +100,10 @@ h2 {
   width:100%;
 }
 
+.remove-padding {
+  padding: 0;
+}
+
 .caption {
   background-color: $default-gray;
   height:40px;
@@ -130,10 +134,6 @@ h2 {
 
 .added-form-margin p {
   margin-top:10px;
-}
-
-.form-control {
-  vertical-align:  middle;
 }
 
 .text-align-right {
@@ -167,7 +167,6 @@ img.personal-photo {
 
 img.cover-photo {
   width: 100%;
-  padding: 0;
 }
 
 .hide {

@@ -71,6 +71,9 @@ h2 {
 .full-width {
   width: 100%; }
 
+.remove-padding {
+  padding: 0; }
+
 .caption {
   background-color: #EEEEEE;
   height: 40px;
@@ -97,9 +100,6 @@ h2 {
 .added-form-margin p {
   margin-top: 10px; }
 
-.form-control {
-  vertical-align: middle; }
-
 .text-align-right {
   text-align: right; }
 
@@ -124,8 +124,7 @@ img.personal-photo {
   width: 150px; }
 
 img.cover-photo {
-  width: 100%;
-  padding: 0; }
+  width: 100%; }
 
 .hide {
   display: none; }
