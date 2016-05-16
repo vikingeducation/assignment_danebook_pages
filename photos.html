@@ -28,127 +28,125 @@
 
     <!-- nav bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-          <div class="row">
-            
-            <section class="navbar-header col-xs-5 col-sm-4 col-lg-3">
-              <div id="img-cropper"></div>
-              <a class="navbar-brand" href="#">Danebook</a>
-            </section>
-              
-            <!-- Search Bar -->
-            <section class="form-group col-xs-4 col-sm-6 col-lg-6 pull-left">
-         
-              <input type="text" class="form-control" placeholder="Search for users">
-       
-            </section>
-
-            <!-- name -->
-            <section class="col-xs-2 col-lg-3 navbar-brand">
-              <p class="name">Harry Potter</p>
-            </section>
+      <div class="container-fluid">
+        <div class="row">
+        
+          <div class="navbar-header col-xs-offset-2 col-xs-9 col-sm-3 col-md-2">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+            <div id="img-cropper"></div>
+            <a class="navbar-brand" href="#">Danebook</a>
           </div>
-          </div> <!-- end row -->
-      </div> <!-- end container -->
+         
+
+          <section class="form-group collapse navbar-collapse col-xs-10 col-sm-6 col-md-3" id="myNavbar">
+            <input type="text" class="form-control navbar-center" placeholder="Search for users">
+          </section>
+       
+            
+          <ul class="nav navbar-nav col-xs-1">
+            <li class="name"><a href="timeline.html" style="color:white;"><span class="glyphicon glyphicon-user"></span> Harry Potter</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <!-- Sub navigation header -->
-      <main class="container">
-        <div class="row">
-          <div class="cover">
-            <img class="cover-photo" src="hogwarts_small.jpg">
-            <img class="profile-pic" src="harry_potter_small.jpg">
+    <div class="container-fluid">
+      
+       <!-- cover -->
+      <div class="row">
+        <div class="cover-photo-div col-xs-8 col-xs-offset-2">
+          <img class="cover-photo" src="hogwarts_small.jpg">
+          <img class="profile-pic" src="harry_potter_small.jpg">
+          <a href="edit-profile.html"><p class="edit-profile">Edit Profile <span class="glyphicon glyphicon-edit"></span></p></a>
+        </div>
+      </div>
+
+    <!-- sub nav -->
+    <div class="row">
+       <div class="col-xs-offset-2 col-xs-8 sub-nav">
+        <div class="col-xs-offset-7 col-sm-offset-5 col-lg-offset-3 col-xs-6 col-sm-8 col-lg-9">
+          <ul class="nav nav-pills">
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="photos.html">Photos <span class="badge">1310</span></a></li>
+          <li><a href="friends.html">Friends <span class="badge">310</span></a></li>
+        </div>
+      </ul>
+    </div>
+    </div>
+
+    <!-- photos -->
+    <main class="row">
+      <section class="col-xs-offset-2 col-xs-8 content">
+        <h2>Photos<a href="#"><button class="btn btn-primary btn-photo pull-right" id="add-photo">Add Photo</button></a></h2>
+
+        <section class="row">
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
           
-            <nav class="inner-nav">
-            <ul class="pagination">
-              <li><a id="left-bar"></a></li>
-              <li><a href="timeline.html">Timeline</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="photos.html">Photos <span class="badge">1310</span></a></li>
-              <li><a href="friends.html">Friends <span class="badge">310</span></a></li>
-              <li><a id="right-bar"></a></li>
-            </ul>
-
-            <a id="edit-profile" href="edit-profile.html">Edit Profile</a>
-          </nav>
-          </div>
-        </div>
-
-
-
-      <!-- Friends -->
-      <section  id="content">
-        <h2>Photos<a href="#"><button class="btn btn-primary pull-right" id="add-photo">Add Photo</button></a></h2>
-
-        <div class="row">
-          <article id="photo" class="col-xs-3">
-            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+          
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+          
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+          
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+          
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+          
+           <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
+          </article>
+          
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
           </article>
 
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
           </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
+          
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
           </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
+          
+          <article id="photo" class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img class="photo" src="icon_photo_small.jpg"></a></p>
           </article>
-        </div>
-
-         <div class="row">
-          <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-        </div>
-
-         <div class="row">
-          <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-
-           <article id="photo" class="col-xs-3">
-              <p><a class="hovertext" href="#" title="Uploaded January 1, 2016"><img src="icon_photo_small.jpg"></a></p>
-          </article>
-        </div>
-
+        </section>
       </section>
+    
+    </main>  
 
-      <!-- Footer -->
+    <!-- Footer -->
         
         <hr>
         <footer class="footer">
-            <p>© 2016 Danebook, Inc.</p>
+            <div class="row"><div class="col-xs-offset-5"><p>© 2016 Danebook, Inc.</p></div></div>
         </footer>
         <br>
-      </main>
-
-  
-
-
-
-
-</body>
-</html><!-- Your markup here! -->
+ 
+    </div> <!-- end container-fluid -->
+  </body>
+</html>
