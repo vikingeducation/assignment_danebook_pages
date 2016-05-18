@@ -1,1 +1,277 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>Friends</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="icon" href="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
+    
+    <link href="styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+     <!-- nav bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="row">
+        
+          <div class="navbar-header col-xs-offset-2 col-xs-9 col-sm-3 col-md-2">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+            <div id="img-cropper"></div>
+            <a class="navbar-brand" href="#">Danebook</a>
+          </div>
+         
+
+          <section class="form-group collapse navbar-collapse col-xs-10 col-sm-6 col-md-3" id="myNavbar">
+            <input type="text" class="form-control navbar-center" placeholder="Search for users">
+          </section>
+       
+            
+          <ul class="nav navbar-nav col-xs-1">
+            <li class="name"><a href="timeline.html" style="color:white;"><span class="glyphicon glyphicon-user"></span> Harry Potter</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      
+       <!-- cover -->
+      <div class="row">
+        <div class="cover-photo-div col-xs-8 col-xs-offset-2">
+          <img class="cover-photo" src="hogwarts_small.jpg">
+          <img class="profile-pic" src="harry_potter_small.jpg">
+          <a href="edit-profile.html"><p class="edit-profile">Edit Profile <span class="glyphicon glyphicon-edit"></span></p></a>
+        </div>
+      </div>
+
+      <!-- sub nav -->
+      <div class="row">
+         <div class="col-xs-offset-2 col-xs-8 sub-nav">
+          <div class="col-xs-offset-7 col-sm-offset-5 col-lg-offset-3 col-xs-6 col-sm-8 col-lg-9">
+            <ul class="nav nav-pills">
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos <span class="badge">1310</span></a></li>
+            <li class="active"><a href="friends.html">Friends <span class="badge">310</span></a></li>
+          </div>
+        </ul>
+    </div>
+
+      <!-- friends -->
+    <main class="row">
+      <section class="col-xs-offset-2 col-xs-8 content">
+        <h2>Friends</h2>
+
+        <div class="row">
+          
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+            <article class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-1 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-xs-offset-1 col-xs-10 col-lg-offset-0 col-lg-5 friend">
+            <div class="row">
+              <div class="col-xs-4"> 
+                <img src="user_silhouette_generic.jpg">
+              </div>
+
+              <div class="col-xs-5">
+                <a href="#"><p>Hermoine Granger</p></a>
+                <br>
+                <a href="#" id="friend-num"><p id="friend-num">400 friends</p></a>
+              </div>
+
+              <div class="col-xs-3">
+                <a href="#"><button class="btn btn-success" id="unfriend">Unfriend</button>
+              </div>
+            </div>
+          </article>
+      </section>
+    <main>
+
+  
+    </div> <!-- end container-fluid -->
+      <!-- Footer -->
+         <hr>
+        <footer class="footer">
+            <p>© 2016 Danebook, Inc.</p>
+        </footer>
+        <br>
+      </main>
+ 
+  </body>
+</html>
