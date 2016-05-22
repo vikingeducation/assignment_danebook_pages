@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Danebook!</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Bill Chan">
+  <meta name="description" content="First project at VCS"></meta>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css.css">
+</head>
+  <body class="container-fluid row">
+    <nav class="navbar navbar-default row">
+      <div class="col-lg-offset-1 col-lg-10">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            Dane Book
+          </a>
+        </div>
+        <div class="navbar-form navbar-left">
+          <input type="text" name="search" class="form-control" placeholder="Search for users">
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Harry</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- The Top Profile Section -->
+    <section class="top-profile col-lg-offset-1 col-lg-10">
+      <div class="profile-pic row">
+        <img src="img/user_silhouette_generic.png" class="img-responsive">
+        <p>Harry Potter</p>
+      </div>
+      <div class="profile-nav row">
+        <ul class="col-lg-offset-2">
+          <li>Timeline</li><li>
+          About</li><li>
+          Photos <span>(123)</span></li><li>
+          Friends <span>(542)</span></li><li><a href="#">Edit profile</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- About-edit section -->
+    <section class="about-edit col-lg-offset-1 col-lg-10">
+      <div class="row">
+        <div class="top col-lg-12">
+          <h3>About</h3>
+          <p>Edit your Profile</p>
+        </div>
+        <div class="left col-lg-6">
+          <div>
+            <h5>Basic Information</h5>
+            <table class="col-lg-12">
+              <tr>
+                <th>Birthday:</th>
+                <td>July 31st, 1980</td>
+              </tr>
+              <tr>
+                <th>College:</th>
+                <td><input type="text" name="college" placeholder="Hogwarts College"></td>
+              </tr>
+              <tr>
+                <th>Hometown:</th>
+                <td><input type="text" name="hometown" placeholder="Hong Kong"></td>
+              </tr>
+              <tr>
+                <th>Current Lives:</th>
+                <td><input type="text" name="current_lives" placeholder="Ann Arbor"></td>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <h5>Contact Information</h5>
+            <table class="col-lg-12">
+              <tr>
+                <th >Email:</th>
+                <td>harry_potter@hogwarts.edu</td>
+              </tr>
+              <tr>
+                <th>Telephone:</th>
+                <td><input type="tel" name="telephone" placeholder="999-999-9999"></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="right col-lg-6 row">
+            <div>
+              <h5>Words to Live By</h5>
+              <textarea cols="70" style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </textarea>
+            </div>
+            <div>
+              <h5>About Me</h5>
+              <textarea rows="8" cols="70" style="font-size: 14px; margin-bottom: 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </textarea>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Friend Section -->
+    <section class="friends col-lg-offset-1 col-lg-10">
+      <div class="row">
+        <div class="top col-lg-12">
+          <h3>Friends</h3>
+        </div>
+        <div class="main col-lg-12">
+           <div class="one-friend col-lg-6">
+            <div class="wrapper col-lg-12">
+              <img src="img/user_silhouette_generic.png">
+              <div>
+                <p><a href="#">Hermoine Granger</a></p>
+                <p>432 Friends</p>
+              </div>
+              <button>Unfriend Me</button>
+            </div>
+          </div>
+          <div class="one-friend col-lg-6">
+            <div class="wrapper col-lg-12">
+              <img src="img/user_silhouette_generic.png">
+              <div>
+                <p><a href="#">Hermoine Granger</a></p>
+                <p>432 Friends</p>
+              </div>
+              <button>Unfriend Me</button>
+            </div>
+          </div>
+           <div class="one-friend col-lg-6">
+            <div class="wrapper col-lg-12">
+              <img src="img/user_silhouette_generic.png">
+              <div>
+                <p><a href="#">Hermoine Granger</a></p>
+                <p>432 Friends</p>
+              </div>
+              <button>Unfriend Me</button>
+            </div>
+          </div>
+           <div class="one-friend col-lg-6">
+            <div class="wrapper col-lg-12">
+              <img src="img/user_silhouette_generic.png">
+              <div>
+                <p><a href="#">Hermoine Granger</a></p>
+                <p>432 Friends</p>
+              </div>
+              <button>Unfriend Me</button>
+            </div>
+          </div>
+           <div class="one-friend col-lg-6">
+            <div class="wrapper col-lg-12">
+              <img src="img/user_silhouette_generic.png">
+              <div>
+                <p><a href="#">Hermoine Granger</a></p>
+                <p>432 Friends</p>
+              </div>
+              <button>Unfriend Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Timeline -->
+    <section class="timeline col-lg-offset-1 col-lg-10" style="margin-bottom: 100px;">
+      <div class="row">
+        <div class="left col-lg-4">
+          <div class="t-about col-lg-12">
+            <div class="top">
+              About
+            </div>
+            <ul style="list-style: none">
+              <li><span>Born on: </span>July 31st, 1980</li>
+              <li><span>Went to School At: </span>Hogwarts</li>
+              <li><span>Hometown: </span>Godrick's Hollow, England</li>
+              <li><span>Currently Lives: </span>Godrick's Hollow</li>
+            </ul>
+          </div>
+          <div class="t-photos col-lg-12">
+            <div class="top">
+              Photos(123)
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+            </div>
+          </div>
+          <div class="t-friend col-lg-12">
+            <div class="top">
+              Friends(542)
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somebebody somebody</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somedy</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somebody somy</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somebody sbody sody</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somebody sobody</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somedy soomebody</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somebody somebody </p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somebody s body som body</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Someb ody somebody sody</p>
+            </div>
+            <div class="img-wrapper col-lg-4">
+              <img src="img/user_silhouette_generic.png" width="100%">
+              <p>Somebody soy somebody</p>
+            </div>
+          </div>
+        </div>
+        <!-- Timeline-right -->
+        <div class="right col-lg-offset-1 col-lg-7">
+          <div class="post col-lg-12">
+            <div class="top col-lg-12">
+              Post
+            </div>
+            <div class="mid col-lg-12">
+              <input type="text" name="post" class="col-lg-12">
+            </div>
+            <button style="float: right">Post</button>
+          </div>
+          <div class="one-post">
+            <div class="author">
+              <img src="img/user_silhouette_generic.png"  style="display:inline-block" width="15%">
+              <div style="display:inline-block">
+                <p><a href="#">Harry Potter</a></p>
+                <p>Posted on Thursday 6/1/2014</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </div>
+            <div class="comments">
+              <nav>
+                <p style="display: inline-block"><a href="#">Like</a></p>
+                <p style="display: inline-block"><a href="#">Comment</a></p>
+                <p style="display: inline-block; float:right"><a href="#">Delete</a></p>
+              </nav>
+            </div>
+          </div>
+          <div class="one-post">
+            <div class="author">
+              <img src="img/user_silhouette_generic.png"  style="display:inline-block" width="15%">
+              <div style="display:inline-block">
+                <p><a href="#">Harry Potter</a></p>
+                <p>Posted on Thursday 6/1/2014</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </div>
+            <div class="comments">
+              <nav>
+                <p style="display: inline-block"><a href="#">Like</a></p>
+                <p style="display: inline-block"><a href="#">Comment</a></p>
+                <p style="display: inline-block; float:right"><a href="#">Delete</a></p>
+              </nav>
+              <p><a href="#">Hermione</a> likes this</p>
+            </div>
+          </div>
+          <div class="one-post">
+            <div class="author">
+              <img src="img/user_silhouette_generic.png"  style="display:inline-block" width="15%">
+              <div style="display:inline-block">
+                <p><a href="#">Harry Potter</a></p>
+                <p>Posted on Thursday 6/1/2014</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </div>
+            <div class="comments">
+              <nav>
+                <p style="display: inline-block"><a href="#">Like</a></p>
+                <p style="display: inline-block"><a href="#">Comment</a></p>
+                <p style="display: inline-block; float:right"><a href="#">Delete</a></p>
+              </nav>
+              <p><a href="#">Hermione</a> likes this</p>
+              <div class="one-commment col-lg-12 row">
+                <div class="left col-lg-2">
+                  <img src="img/user_silhouette_generic.png" width="100%">
+                </div>
+                <div class="right col-lg-10">
+                  <p><a href="#">Ron</a> Said on Thursday 5/21/2014</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nos</p>
+                  <p><a href="#">Like</a> 3 other people like this</p>
+                </div>
+              </div>
+              <div class="one-commment col-lg-12 row">
+                <div class="left col-lg-2">
+                  <img src="img/user_silhouette_generic.png" width="100%">
+                </div>
+                <div class="right col-lg-10">
+                  <p><a href="#">Bill</a> Said on Thursday 5/25/2014</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                  <p><a href="#">Like</a> 2 other people like this</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Photos -->
+    <section class="photos col-lg-offset-1 col-lg-10">
+      <div class="top col-lg-12" style="text-align: center; margin-bottom: 30px;">
+        <h3 style="display: inline-block">Photos</h3>
+        <button style="position: absolute; right: 5px;">Add Photo</button>
+      </div>
+      <div class="main col-lg-12">
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+        <div class="one-photo col-lg-3">
+          <div class="wrapper col-lg-12">
+            <img src="img/user_silhouette_generic.png">
+            <p>Uploaded January 1, 2015</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
