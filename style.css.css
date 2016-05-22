@@ -1,7 +1,9 @@
 body {
   font-family: helvetica, serif;
   font-size: 16px;
-  /* Main -- About section */ }
+  /* Main -- About section */
+  /* About-edit section */
+  /* Friend Section */ }
   body nav.navbar {
     padding: 5px 0 5px 0;
     margin-bottom: 0; }
@@ -67,5 +69,71 @@ body {
       margin-bottom: 30px; }
     body .about .right div p {
       margin-bottom: 30px; }
+  body .about-edit {
+    margin-bottom: 100px;
+    border: 1px solid silver; }
+    body .about-edit h5 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: bold; }
+    body .about-edit .top {
+      text-align: center;
+      border-bottom: 1px solid silver;
+      margin-bottom: 20px; }
+      body .about-edit .top p, body .about-edit .top h3 {
+        display: inline-block; }
+      body .about-edit .top h3 {
+        font-weight: bold;
+        font-size: 28px; }
+      body .about-edit .top p {
+        position: absolute;
+        right: 20px;
+        padding: 5px 10px 5px 10px;
+        border: 1px solid silver;
+        font-size: 12px;
+        margin-top: 18px; }
+    body .about-edit .left table {
+      margin-bottom: 30px; }
+    body .about-edit .right div p {
+      margin-bottom: 30px; }
+  body .friends {
+    border: 1px solid silver;
+    margin-bottom: 100px; }
+    body .friends .top {
+      border-bottom: 1px solid silver;
+      text-align: center;
+      margin-bottom: 20px; }
+      body .friends .top h3 {
+        font-weight: bold;
+        font-size: 28px; }
+    body .friends .main {
+      padding-top: 20px; }
+      body .friends .main .one-friend {
+        margin-bottom: 20px; }
+        body .friends .main .one-friend .wrapper {
+          border: 1px solid silver;
+          padding: 10px; }
+        body .friends .main .one-friend img, body .friends .main .one-friend div, body .friends .main .one-friend button {
+          display: inline-block;
+          margin: 0;
+          padding: 0; }
+  body .photos .main .one-photo .wrapper {
+    margin-bottom: 30px; }
+  body .photos .main .one-photo img {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  body .photos .main .one-photo p {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    visibility: hidden;
+    margin-top: -22px;
+    border: 1px solid black;
+    background: black;
+    opacity: 0.5; }
+  body .photos .main .one-photo:hover p {
+    visibility: visible; }
 
 /*# sourceMappingURL=style.css.css.map */
