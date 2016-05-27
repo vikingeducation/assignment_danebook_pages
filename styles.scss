@@ -1,0 +1,28 @@
+$primary-font: helvetica, Arial, sans-serif;
+
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: $primary-font;
+}
+
+nav {
+  background-color: #2B78E4;
+  .navbar-brand {
+    color: #fff;
+  }
+  img {
+    height: 40px;
+    margin: 5px;
+  }
+  .navbar-form .form-control {
+    width: 500px;
+  }
+  p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    margin: 0;
+  }
+}

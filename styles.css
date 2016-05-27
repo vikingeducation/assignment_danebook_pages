@@ -1,0 +1,21 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: helvetica, Arial, sans-serif; }
+
+nav {
+  background-color: #2B78E4; }
+  nav .navbar-brand {
+    color: #fff; }
+  nav img {
+    height: 40px;
+    margin: 5px; }
+  nav .navbar-form .form-control {
+    width: 500px; }
+  nav p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    margin: 0; }
+
+/*# sourceMappingURL=styles.css.map */
