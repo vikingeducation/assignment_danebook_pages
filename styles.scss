@@ -71,7 +71,7 @@ main {
         padding-right: 15px;
         border-radius: 0;
         list-style: none;
-        height: 50px;
+        height: 51px;
       }
       li {
         display: inline-block;
@@ -83,10 +83,10 @@ main {
         vertical-align: middle;
         font-weight: bold;
         border-left: 1px solid;
+        border-bottom: 1px solid;
       }
       li.current-page {
         background-color: #aaa;
-        border-bottom: solid;
       }
       li:first-child {
         margin-left: 118px;
