@@ -16,8 +16,14 @@ nav {
     height: 40px;
     margin: 5px;
   }
-  .navbar-form .form-control {
-    width: 500px;
+ .navbar-form {
+    width: 100%;
+    .form-group {
+      width: 100%;
+    }
+    .form-control {
+      width: 100%;
+    }
   }
   p {
     color: #fff;
