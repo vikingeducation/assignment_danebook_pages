@@ -7,9 +7,11 @@ nav {
   background-color: #2B78E4; }
   nav .navbar-brand {
     color: #fff; }
+  nav .container {
+    padding-left: 0; }
   nav img {
     height: 40px;
-    margin: 5px; }
+    margin: 5px 5px 5px 0; }
   nav .navbar-form {
     width: 100%; }
     nav .navbar-form .form-group {
@@ -20,7 +22,8 @@ nav {
     color: #fff;
     font-size: 18px;
     line-height: 50px;
-    margin: 0; }
+    padding-right: 5px;
+    margin-bottom: 0; }
 
 #bg {
   background: url("hogwarts_small.jpg") no-repeat;
@@ -56,7 +59,9 @@ main #nav-links {
   main #nav-links li.edit-profile {
     border: none;
     float: right;
-    text-decoration: underline; }
+    text-decoration: underline;
+    text-align: right;
+    background: transparent; }
   main #nav-links .nav > li:last-child > a:hover,
   main #nav-links .nav > li:last-child > a:focus {
     background-color: #fff;

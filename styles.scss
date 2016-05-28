@@ -12,9 +12,12 @@ nav {
   .navbar-brand {
     color: #fff;
   }
+  .container {
+    padding-left: 0;
+  }
   img {
     height: 40px;
-    margin: 5px;
+    margin: 5px 5px 5px 0;
   }
  .navbar-form {
     width: 100%;
@@ -29,7 +32,8 @@ nav {
     color: #fff;
     font-size: 18px;
     line-height: 50px;
-    margin: 0;
+    padding-right: 5px;
+    margin-bottom: 0;
   }
 }
 #bg{
@@ -74,6 +78,8 @@ main {
       border: none;
       float: right;
       text-decoration: underline;
+      text-align: right;
+      background: transparent;
     }
     .nav>li:last-child>a:hover,
     .nav>li:last-child>a:focus {
