@@ -32,19 +32,77 @@
         <p class="navbar-right">harry</p>
     </nav>
     <main>
-      <section class="jumbotron">
+      <div class="container" id="bg">
+        <section class="jumbotron">
+            <img class="profile-image" src="harry_potter_small.jpg" />
+            <h3>Harry Potter</h3>
+        </section>
+      </div>
+      <div class="container" id="nav-links">
+       <ul class="nav nav-pills">
+        <li role="nav"><a href="#">Timeline</a></li><!--
+        --><li role="nav" class="active"><a href="#">About</a></li><!--
+        --><li role="nav"><a href="#">Photos</a></li><!--
+        --><li role="nav"><a href="#">Friends</a></li><!--
+        --><li role="nav" class="edit-profile"><a href="#">Edit Profile</a></li>
+      </ul>
+      </div>
+
+      <section class="content">
         <div class="container">
-          <img class="cover-image" src="hogwarts_small.jpg">
-          <img class="profile-image" src="harry_potter_small.jpg">
-          <h1>Harry Potter</h1>
-          <ul class="links">
-            <li><a href="#">Timeline</a></li><!--
-            --><li class="current-page"><a href="#" >About</a></li><!--
-            --><li><a href="#">Photos<span class="sub">(123)</span></a></li><!--
-            --><li><a href="#">Friends<span class="sub">(545)</span></a></li><!--
-            --><li><a href="#">Edit Profile</a></li>
-          </ul>
-        </div>
+          <div class ="row">
+            <div class="col-md-12 heading">
+              <h1>About</h1>
+              <button href="#" class="edit-profile-btn">Edit Profile</button>
+            </div>
+          </div> <!-- end of row -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <h2 class="col-xs-12 text-center">Basic Information</h2>
+              </div>
+              <div class="row">
+                <p class="col-xs-4">Birthday</p>
+                <p class="col-xs-6">July 31st, 1980</p>
+              </div>
+              <div class="row">
+                <p class="col-xs-4">College</p>
+                <p class="col-xs-8">Hogwarts College</p>
+              </div>
+              <div class="row">
+                <p class="col-xs-4">Hometown</p>
+                <p class="col-xs-8">Godrick's Hollow England</p>
+              </div>
+              <div class="row">
+                <p class="col-xs-4">Currently Lives</p>
+                <p class="col-xs-8">Godrick's Hollow, England</p>
+              </div>
+              <div class="row">
+                <h2 class="col-xs-12 text-center">Contact Information</h2>
+              </div>
+              <div class="row">
+                <p class="col-xs-4">Email</p>
+                <p class="col-xs-8">harry_potter@hogwarts.edu</p>
+              </div>
+              <div class="row">
+                <p class="col-xs-4">Telephone</p>
+                <p class="col-xs-8">555-123-4567</p>
+              </div>
+            </div>
+            <div class="words group col-md-6">
+              <h2>Words to Live By</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+              <h2>About Me</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            </div>
+           </div> <!-- end of row -->
+         </div>
       </section>
     </main>
   </body>
