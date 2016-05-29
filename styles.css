@@ -82,5 +82,13 @@ main .content > .container {
       top: 50%;
       right: 10px;
       transform: translateY(-50%); }
+  main .content > .container .fixed-form-row {
+    height: 30px;
+    line-height: 30px; }
+  main .content > .container textarea {
+    width: 95%; }
+  main .content > .container .save-changes-btn {
+    margin-top: 20px;
+    margin-bottom: 50px; }
 
 /*# sourceMappingURL=styles.css.map */

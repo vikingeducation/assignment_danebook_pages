@@ -107,6 +107,17 @@ main {
         transform: translateY(-50%);
       }
     }
+    .fixed-form-row {
+      height: 30px;
+      line-height: 30px;
+    }
+    textarea {
+      width: 95%;
+    }
+    .save-changes-btn {
+      margin-top: 20px;
+      margin-bottom: 50px;
+    }
   }
 }
 
