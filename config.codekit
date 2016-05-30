@@ -29,6 +29,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/styles.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/styles.scss",
+		"outputAbbreviatedPath": "\/css\/styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/friends.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -46,6 +62,50 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/harry_potter_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12773,
+		"inputAbbreviatedPath": "\/img\/harry_potter_small.jpg",
+		"outputAbbreviatedPath": "\/img\/harry_potter_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hogwarts_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73659,
+		"inputAbbreviatedPath": "\/img\/hogwarts_small.jpg",
+		"outputAbbreviatedPath": "\/img\/hogwarts_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon_photo_small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7321,
+		"inputAbbreviatedPath": "\/img\/icon_photo_small.png",
+		"outputAbbreviatedPath": "\/img\/icon_photo_small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/user_silhouette_generic.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2750,
+		"inputAbbreviatedPath": "\/img\/user_silhouette_generic.png",
+		"outputAbbreviatedPath": "\/img\/user_silhouette_generic.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/photos.html": {
 		"fileType": 8192,
