@@ -1,0 +1,46 @@
+
+.main-nav
+{
+	background-color: #2B78E4;
+}
+
+.brand-text
+{
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+}
+.search-bar
+{
+	margin-top: 8px;
+}
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.content-box
+{
+	height: 250px;
+	border: 1px solid black;
+}
+.info-box
+{
+	margin-top: 10px;
+	border: 1px solid black;
+}
+.info-header
+{
+	background-color: #EEEEEE;
+	border-bottom: 1px solid black;
+}
+.edit-profile-btn
+{
+	top: 0;
+}
+.category
+{
+	font-weight: bold;
+}
