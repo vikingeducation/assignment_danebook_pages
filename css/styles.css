@@ -78,10 +78,6 @@
   .navbar-default.small .navbar-form {
     background-color: #2B78E4;
     border-color: #2B78E4; }
-  .navbar-default.small .nav-user-name {
-    margin-top: 5px;
-    display: inline;
-    float: right; }
   @media (min-width: 768px) {
     .navbar-default.small #search-bar {
       width: 400px; } }
@@ -124,3 +120,25 @@
 
   .btn-signup {
     height: inherit; } }
+#user-profile-head .banner-img {
+  height: 180px;
+  background-color: black;
+  background-image: url("../img/hogwarts_small.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+@media (min-width: 768px) {
+  #user-profile-head .banner-img {
+    height: 400px;
+    background-color: black;
+    background-image: url("../img/hogwarts_small.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; } }
+@media (min-width: 992px) {
+  #user-profile-head .banner-img {
+    height: 450px;
+    background-color: black;
+    background-image: url("../img/hogwarts_small.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; } }

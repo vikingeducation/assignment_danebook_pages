@@ -150,13 +150,6 @@ $prime-gray: #E6E6E6;
 		border-color: $prime-blue;
 	}
 
-	.nav-user-name{
-		margin-top: 5px;
-		display: inline;
-		float: right;
-	}
-
-
 	@media (min-width: 768px){
 		#search-bar{
 			width: 400px;
@@ -220,5 +213,38 @@ $prime-gray: #E6E6E6;
 	.btn-signup{
 	height: inherit;
 	}
+}
+
+#user-profile-head{
+	.banner-img{
+		height: 180px;
+		background-color: black;
+		background-image: url("../img/hogwarts_small.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	@media (min-width: 768px){
+		.banner-img{
+			height: 400px;
+			background-color: black;
+			background-image: url("../img/hogwarts_small.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 100%;
+		}
+	}
+
+	@media (min-width: 992px){
+		.banner-img{
+			height: 450px;
+			background-color: black;
+			background-image: url("../img/hogwarts_small.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 100%;
+		}
+	}
+
 }
 
