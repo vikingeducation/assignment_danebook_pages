@@ -21,7 +21,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body onload="window.scroll(0,150)">
 
     <!-- Navbar -->
     <nav class="navbar navbar-default navbar-fixed-top small">
@@ -57,13 +57,46 @@
 
     <div id="user-profile-head" class="container">
       <div class="row">
-        <div class="col-xs-12 banner-img">
+        <div class="col-xs-12">
+          <img class="img-responsive profile-banner" src="img/hogwarts_small.jpg" alt="Profile Banner">
         </div>
-      </row>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="profile-photo">
+            <div class="profile-photo-element">
+              <img class="img-responsive" src="img/harry_potter_small.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-9 hidden-sm hidden-md hidden-lg">
+          <ul class="nav nav-pills">
+            <li role="presentation"><a href="#">Timeline</a></li>
+            <li role="presentation"><a href="#">Photos</a></li>
+            <li role="presentation"><a href="#">Freinds</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="hidden-xs col-xs-6 col-md-9 col-md-6 col-lg-6">
+          <ul class="nav nav-pills nav-justified">
+            <li role="presentation"><a href="#">Timeline</a></li>
+            <li role="presentation" class="active"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Photos</a></li>
+            <li role="presentation"><a href="#">Freinds</a></li>
+          </ul>
+        </div>
+
+
+        <div class="hidden-xs col-md-2 col-lg-2 col-lg-offset-1">
+          <a class="edit-profile-element" href="#">Edit Profile</a>
+        </div>
+      </div>
     </div>
-
-
-
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

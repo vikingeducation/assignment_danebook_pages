@@ -120,25 +120,18 @@
 
   .btn-signup {
     height: inherit; } }
-#user-profile-head .banner-img {
-  height: 180px;
-  background-color: black;
-  background-image: url("../img/hogwarts_small.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%; }
-@media (min-width: 768px) {
-  #user-profile-head .banner-img {
-    height: 400px;
-    background-color: black;
-    background-image: url("../img/hogwarts_small.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%; } }
-@media (min-width: 992px) {
-  #user-profile-head .banner-img {
-    height: 450px;
-    background-color: black;
-    background-image: url("../img/hogwarts_small.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%; } }
+#user-profile-head .profile-banner {
+  width: 100%; }
+#user-profile-head .profile-photo-element {
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: -25px;
+  left: 45px; }
+@media (max-width: 768px) {
+  #user-profile-head .profile-photo-element {
+    left: 25px;
+    max-width: 138px; } }
+#user-profile-head .edit-profile-element {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right; }
