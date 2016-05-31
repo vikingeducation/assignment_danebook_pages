@@ -123,7 +123,8 @@
 #user-profile-head {
   margin-bottom: 30px; }
   #user-profile-head .profile-banner {
-    width: 100%; }
+    width: 100%;
+    margin: 0; }
   #user-profile-head .profile-photo-element {
     border: 2px solid #fff;
     position: absolute;
@@ -137,6 +138,8 @@
     margin-top: 10px;
     margin-right: 10px;
     float: right; }
+  #user-profile-head .profile-nav {
+    background-color: #E6E6E6; }
 
 #about-container {
   border: 2px solid #E6E6E6; }

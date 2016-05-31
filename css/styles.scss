@@ -220,7 +220,13 @@ $secondary-gray: #f9f9f9;
 #user-profile-head{
 	margin-bottom: 30px;
 	.profile-banner{
-		width: 100%
+		width: 100%;
+		margin: 0;
+	}
+
+	@media (min-width: 1200px){
+		.profile-banner{
+		}
 	}
 
 	.profile-photo-element{
@@ -243,6 +249,10 @@ $secondary-gray: #f9f9f9;
 		margin-top: 10px;
 		margin-right: 10px;
 		float: right;
+	}
+
+	.profile-nav{
+		background-color: $prime-gray;
 	}
 
 
