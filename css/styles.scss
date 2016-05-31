@@ -37,6 +37,7 @@
 {
 	margin-top: 10px;
 	border: 1px solid black;
+	padding-bottom: 50px;
 }
 .info-header
 {
@@ -82,7 +83,18 @@
 	margin-right: 3px;
 }
 
-
+.editbox-sm
+{
+	margin-bottom: 2px;	
+}
+.editbox-lg
+{
+	resize: none;
+}
+.btn-save
+{
+	margin-top: 50px;
+}
 /* Just some scaling for smaller screens to fix absolute positioning */
 @media only screen and (max-width : 992px) 
 {
