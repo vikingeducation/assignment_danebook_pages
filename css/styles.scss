@@ -10,6 +10,8 @@ $prime-white: #fff;
 
 $prime-gray: #E6E6E6;
 
+$secondary-gray: #f9f9f9;
+
 
 .navbar-default.large{
 	background-color: $prime-blue;
@@ -216,6 +218,7 @@ $prime-gray: #E6E6E6;
 }
 
 #user-profile-head{
+	margin-bottom: 30px;
 	.profile-banner{
 		width: 100%
 	}
@@ -244,5 +247,30 @@ $prime-gray: #E6E6E6;
 
 
 
+}
+
+#about-container{
+	border: 2px solid $prime-gray;
+
+	.about-header{
+		background-color: $prime-gray;
+	}
+
+	button{
+		margin-top: 20px;
+	}
+
+	.no-border{
+		border: none;
+	}
+
+	h3{
+		padding-top: 20px;
+		padding-bottom: 20px
+	}
+
+	#about-content{
+		background-color: $secondary-gray;
+	}
 }
 

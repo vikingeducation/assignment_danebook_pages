@@ -120,18 +120,34 @@
 
   .btn-signup {
     height: inherit; } }
-#user-profile-head .profile-banner {
-  width: 100%; }
-#user-profile-head .profile-photo-element {
-  border: 2px solid #fff;
-  position: absolute;
-  bottom: -25px;
-  left: 45px; }
-@media (max-width: 768px) {
+#user-profile-head {
+  margin-bottom: 30px; }
+  #user-profile-head .profile-banner {
+    width: 100%; }
   #user-profile-head .profile-photo-element {
-    left: 25px;
-    max-width: 138px; } }
-#user-profile-head .edit-profile-element {
-  margin-top: 10px;
-  margin-right: 10px;
-  float: right; }
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: -25px;
+    left: 45px; }
+  @media (max-width: 768px) {
+    #user-profile-head .profile-photo-element {
+      left: 25px;
+      max-width: 138px; } }
+  #user-profile-head .edit-profile-element {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right; }
+
+#about-container {
+  border: 2px solid #E6E6E6; }
+  #about-container .about-header {
+    background-color: #E6E6E6; }
+  #about-container button {
+    margin-top: 20px; }
+  #about-container .no-border {
+    border: none; }
+  #about-container h3 {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  #about-container #about-content {
+    background-color: #f9f9f9; }
