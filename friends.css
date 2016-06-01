@@ -1,0 +1,24 @@
+main .row:last-child {
+  margin-bottom: 20px; }
+main .media:first-child {
+  margin-top: 15px; }
+main .friend-container {
+  position: relative;
+  border: 1px solid; }
+  main .friend-container img {
+    width: 64px;
+    margin: 10px; }
+  main .friend-container a.media-heading {
+    display: block;
+    margin-bottom: 0;
+    text-decoration: underline; }
+  main .friend-container p {
+    color: #aaa; }
+  main .friend-container .unfriend-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ccc; }
+
+/*# sourceMappingURL=friends.css.map */

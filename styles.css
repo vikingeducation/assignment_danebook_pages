@@ -1,0 +1,94 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: helvetica, Arial, sans-serif; }
+
+nav {
+  background-color: #2B78E4; }
+  nav .navbar-brand {
+    color: #fff; }
+  nav .container {
+    padding-left: 0; }
+  nav img {
+    height: 40px;
+    margin: 5px 5px 5px 0; }
+  nav .navbar-form {
+    width: 100%; }
+    nav .navbar-form .form-group {
+      width: 100%; }
+    nav .navbar-form .form-control {
+      width: 100%; }
+  nav p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    padding-right: 5px;
+    margin-bottom: 0; }
+
+#bg {
+  background: url("hogwarts_small.jpg") no-repeat;
+  background-size: 100% 300px; }
+
+main #bg {
+  height: 300px; }
+  main #bg .jumbotron {
+    background-color: transparent;
+    color: #eee;
+    position: relative;
+    padding: 0; }
+    main #bg .jumbotron img.profile-image {
+      position: absolute;
+      top: 155px;
+      left: 0;
+      width: 140px;
+      height: 160px; }
+    main #bg .jumbotron h3 {
+      position: absolute;
+      top: 250px;
+      left: 160px; }
+main #nav-links {
+  padding-left: 176px;
+  border: 1px solid #666; }
+  main #nav-links .nav-pills > li > a {
+    border-radius: 0; }
+  main #nav-links .nav-pills > li {
+    width: 150px;
+    margin: -1px;
+    border-radius: 0;
+    border: 1px solid #666; }
+  main #nav-links li.edit-profile {
+    border: none;
+    float: right;
+    text-decoration: underline;
+    text-align: right;
+    background: transparent; }
+  main #nav-links .nav > li:last-child > a:hover,
+  main #nav-links .nav > li:last-child > a:focus {
+    background-color: #fff;
+    margin-top: 1px; }
+main .content > .container {
+  margin-top: 10px;
+  border: 1px solid #666; }
+  main .content > .container .heading {
+    background-color: #eee;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #666; }
+    main .content > .container .heading h1 {
+      display: inline-block; }
+    main .content > .container .heading .edit-profile-btn {
+      position: absolute;
+      display: inline-block;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%); }
+  main .content > .container .fixed-form-row {
+    height: 30px;
+    line-height: 30px; }
+  main .content > .container textarea {
+    width: 95%; }
+  main .content > .container .save-changes-btn {
+    margin-top: 20px;
+    margin-bottom: 50px; }
+
+/*# sourceMappingURL=styles.css.map */
