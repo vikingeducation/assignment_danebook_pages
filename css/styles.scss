@@ -266,7 +266,7 @@ $secondary-gray: #f9f9f9;
 		background-color: $prime-gray;
 	}
 
-	button{
+	.profile-edit-btn{
 		margin-top: 20px;
 	}
 
@@ -281,6 +281,11 @@ $secondary-gray: #f9f9f9;
 
 	#about-content{
 		background-color: $secondary-gray;
+	}
+
+	.save-button{
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 }
 

@@ -145,7 +145,7 @@
   border: 2px solid #E6E6E6; }
   #about-container .about-header {
     background-color: #E6E6E6; }
-  #about-container button {
+  #about-container .profile-edit-btn {
     margin-top: 20px; }
   #about-container .no-border {
     border: none; }
@@ -154,3 +154,6 @@
     padding-bottom: 20px; }
   #about-container #about-content {
     background-color: #f9f9f9; }
+  #about-container .save-button {
+    margin-top: 30px;
+    margin-bottom: 30px; }
