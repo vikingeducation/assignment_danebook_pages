@@ -4,7 +4,7 @@ main article {
   margin-bottom: 10px;
   padding-bottom: 10px; }
   main article .timeline-heading {
-    background-color: #ccc;
+    background-color: #eee;
     margin: 0;
     margin-bottom: 10px; }
   main article .timeline-field {
@@ -29,14 +29,43 @@ main article {
       height: 64px; }
     main article .user-image a {
       text-decoration: underline; }
-main article.post textarea {
+main article.post-form textarea {
   width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 10px; }
-main article.post .row:last-child {
+main article.post-form .row:last-child {
   margin-bottom: -10px; }
-  main article.post .row:last-child button {
+  main article.post-form .row:last-child button {
     margin: 5px; }
+main article.post {
+  padding-top: 5px; }
+  main article.post .media {
+    padding-left: 10px; }
+    main article.post .media img {
+      width: 64px;
+      height: 64px; }
+    main article.post .media p {
+      padding: 0; }
+  main article.post p {
+    padding: 10px; }
+  main article.post a {
+    text-decoration: underline;
+    padding-right: 5px; }
+  main article.post .row:last-child {
+    margin-bottom: -10px;
+    padding: 5px; }
+  main article.post .like-annotation {
+    display: block;
+    padding-top: 5px; }
+  main article.post hr {
+    border-top: 1px solid #666; }
+  main article.post .comment-form {
+    margin-top: 30px; }
+  main article.post .cancel-link {
+    display: inline-block;
+    margin-top: 6px; }
+  main article.post .inline {
+    display: inline-block; }
 
 /*# sourceMappingURL=timeline.css.map */
