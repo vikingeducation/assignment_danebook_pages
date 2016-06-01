@@ -1,0 +1,42 @@
+main article {
+  border: 1px solid;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+  main article .timeline-heading {
+    background-color: #ccc;
+    margin: 0;
+    margin-bottom: 10px; }
+  main article .timeline-field {
+    padding-left: 10px;
+    font-weight: bold; }
+  main article .photo-container {
+    margin: 0 auto;
+    text-align: center; }
+    main article .photo-container img {
+      width: 64px;
+      height: 64px; }
+  main article .see-more {
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px; }
+  main article .friend-name {
+    /*display: block;*/ }
+  main article .user-image {
+    padding: 20px; }
+    main article .user-image img {
+      width: 64px;
+      height: 64px; }
+    main article .user-image a {
+      text-decoration: underline; }
+main article.post textarea {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+main article.post .row:last-child {
+  margin-bottom: -10px; }
+  main article.post .row:last-child button {
+    margin: 5px; }
+
+/*# sourceMappingURL=timeline.css.map */

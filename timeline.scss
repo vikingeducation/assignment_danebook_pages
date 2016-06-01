@@ -1,0 +1,58 @@
+main {
+  article {
+    border: 1px solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    .timeline-heading {
+      background-color: #ccc;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .timeline-field {
+      padding-left: 10px;
+      font-weight: bold;
+    }
+    .photo-container {
+      margin: 0 auto;
+      text-align: center;
+      img {
+        width: 64px;
+        height: 64px;
+      }
+    }
+    .see-more {
+      text-decoration: underline;
+      display: block;
+      margin-top: 10px;
+    }
+    .friend-name {
+      /*display: block;*/
+    }
+    .user-image {
+      padding: 20px;
+      img {
+        width: 64px;
+        height: 64px
+      }
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+  article.post {
+    textarea {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+    .row:last-child {
+      margin-bottom: -10px;
+      button {
+        margin: 5px;
+      }
+    }
+  }
+
+}

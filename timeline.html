@@ -1,1 +1,203 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danebook</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="timeline.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href= "timeline.html"><img src="danish_flag.gif" class="brand-image pull-left img-circle"/></a>
+          <a class="navbar-brand" href="timeline.html">Danebook</a>
+        </div>
+        <div class="container col-sm-6">
+          <form class="navbar-form navbar-left"  role="search">
+            <div class="form-group" id="search">
+             <input type="text" class="form-control" placeholder="search">
+            </div>
+          </form>
+        </div>
+        <p class="navbar-right">Harry</p>
+    </nav>
+    <main>
+      <div class="container" id="bg">
+        <section class="jumbotron">
+            <img class="profile-image" src="harry_potter_small.jpg" />
+            <h3>Harry Potter</h3>
+        </section>
+      </div>
+      <div class="container" id="nav-links">
+       <ul class="nav nav-pills">
+        <li role="nav" class="active"><a href="#">Timeline</a></li><!--
+        --><li role="nav"><a href="#">About</a></li><!--
+        --><li role="nav"><a href="#">Photos<small> (123)</small></a></li><!--
+        --><li role="nav"><a href="#">Friends<small> (567)</small></a></li>
+        <li class="edit-profile"><a href="#">Edit Profile</a></li>
+      </ul>
+      </div>
+
+      <section class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <article>
+                <div class="row timeline-heading">
+                  <div class="col-xs-12 ">
+                    <h4 class="text-center">About</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <span class="timeline-field">Born on: </span>July 31st, 1980
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <span class="timeline-field">Went to School at: </span>Hogwarts
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <span class="timeline-field">Hometown: </span>Godrick's Hollow, England
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <span class="timeline-field">Currently Lives: </span>Godrick's Hollow, England
+                  </div>
+                </div>
+              </article>
+
+              <article class="text-center">
+                <div class="row timeline-heading">
+                  <div class="col-xs-12 ">
+                    <h4 class="text-center">Photos (123)</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                </div>
+                <div class="row">
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                </div>
+                <div class="row">
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                  <a href="#" class="col-md-4">
+                    <div class="photo-container"><img src="icon_photo_small.png"></div>
+                  </a>
+                </div>
+                <a href="#" class="see-more">See More Photos</a>
+              </article>
+
+              <article class="text-center">
+                <div class="row timeline-heading">
+                  <div class="col-xs-12 ">
+                    <h4 class="text-center">Friends (567)</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Ron Weasley</a>
+                  </div>
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Hermione Granger</a>
+                  </div>
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Lord Voldemort</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Albus Dumbledore</a>
+                  </div>
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Severus Snape</a>
+                  </div>
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Rubeus Hagrid</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Ron Weasley</a>
+                  </div>
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Ron Weasley</a>
+                  </div>
+                  <div class="col-md-4 user-image">
+                    <img src="user_silhouette_generic.gif">
+                    <a href="#" class="friend-name">Ron Weasley</a>
+                  </div>
+                </div>
+                <a href="#" class="see-more">See More Friends</a>
+              </article>
+            </div>
+            <div class="col-sm-8">
+              <article class="post">
+                <div class="row timeline-heading">
+                  <div class="col-xs-12 ">
+                    <h4 class="text-center">Post</h4>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                  <textarea name="message" rows="3" placeholder="Tell the world something!"></textarea>
+                  </div>
+                </div>
+                <div class="row timeline-heading">
+                  <div class="col-xs-12 ">
+                    <button class="btn btn-primary pull-right">Post</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+
+        </div> <!-- end of container -->
+      </section>
+    </main>
+  </body>
+  </html>
