@@ -20,8 +20,6 @@ main article {
     text-decoration: underline;
     display: block;
     margin-top: 10px; }
-  main article .friend-name {
-    /*display: block;*/ }
   main article .user-image {
     padding: 20px; }
     main article .user-image img {
@@ -47,7 +45,7 @@ main article.post {
       height: 64px; }
     main article.post .media p {
       padding: 0; }
-  main article.post p {
+  main article.post .post-text {
     padding: 10px; }
   main article.post a {
     text-decoration: underline;

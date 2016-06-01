@@ -5,18 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Danebook</title>
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="friends.css">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
+    <!-- Top Navbar -->
     <nav class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -32,31 +29,39 @@
         </div>
         <p class="navbar-right">Harry</p>
     </nav>
+
+    <!-- Main -->
     <main>
-      <div class="container" id="bg">
+      <!-- Header -->
+      <header class="container" id="bg">
         <section class="jumbotron">
             <img class="profile-image" src="harry_potter_small.jpg" />
             <h3>Harry Potter</h3>
         </section>
-      </div>
+      </header>
+
+      <!-- Navigation -->
       <div class="container" id="nav-links">
        <ul class="nav nav-pills">
-        <li role="nav"><a href="#">Timeline</a></li><!--
-        --><li role="nav"><a href="#">About</a></li><!--
-        --><li role="nav"><a href="#">Photos<small> (123)</small></a></li><!--
-        --><li role="nav" class="active"><a href="#">Friends<small> (567)</small></a></li>
-        <li class="edit-profile"><a href="#">Edit Profile</a></li>
+        <li role="nav"><a href="timeline.html">Timeline</a></li><!--
+        --><li role="nav"><a href="about.html">About</a></li><!--
+        --><li role="nav"><a href="photos.html">Photos<small> (123)</small></a></li><!--
+        --><li role="nav" class="active"><a href="friends.html">Friends<small> (567)</small></a></li>
+        <li class="edit-profile"><a href="about_edit.html">Edit Profile</a></li>
       </ul>
       </div>
 
+      <!-- Bootstrap grid system -->
       <section class="content">
         <div class="container">
           <div class ="row">
+            <!-- Page Heading -->
             <div class="col-md-12 heading">
               <h1>Friends</h1>
             </div>
-          </div> <!-- end of row -->
+          </div>
           <div class="row">
+            <!-- Left Column -->
             <div class="col-md-6">
               <article class="media friend-container">
                 <div class="media-left media-middle">
@@ -68,6 +73,7 @@
                 </div>
               </article>
             </div>
+            <!-- Right Column -->
             <div class="col-md-6">
               <article class="media friend-container">
                 <div class="media-left media-middle">
@@ -79,7 +85,33 @@
                 </div>
               </article>
             </div>
-         </div> <!-- end of row -->
+         </div>
+          <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+              <article class="media friend-container">
+                <div class="media-left media-middle">
+                  <img class="media-object" src="user_silhouette_generic.gif">
+                </div>
+                <div class="media-body media-middle"> <a href="#" class="media-heading">Hermoine Granger</a><p>432 Friends</p></div>
+                <div class="media-right ">
+                  <button class="btn btn-default unfriend-btn">Unfriend Me</button>
+                </div>
+              </article>
+            </div>
+            <!-- Right Column -->
+            <div class="col-md-6">
+              <article class="media friend-container">
+                <div class="media-left media-middle">
+                  <img class="media-object" src="user_silhouette_generic.gif">
+                </div>
+                <div class="media-body media-middle"> <a href="#" class="media-heading">Hermoine Granger</a><p>432 Friends</p></div>
+                <div class="media-right">
+                  <button class="btn btn-default unfriend-btn">Unfriend Me</button>
+                </div>
+              </article>
+            </div>
+          </div>
           <div class="row">
             <div class="col-md-6">
               <article class="media friend-container">
@@ -97,37 +129,13 @@
                 <div class="media-left media-middle">
                   <img class="media-object" src="user_silhouette_generic.gif">
                 </div>
-                <div class="media-body media-middle"> <a href="#" class="media-heading">Hermoine Granger</a><p>432 Friends</p></div>
-                <div class="media-right">
-                  <button class="btn btn-default unfriend-btn">Unfriend Me</button>
-                </div>
-              </article>
-            </div>
-          </div> <!-- end of row -->
-          <div class="row">
-            <div class="col-md-6">
-              <article class="media friend-container">
-                <div class="media-left media-middle">
-                  <img class="media-object" src="user_silhouette_generic.gif">
-                </div>
-                <div class="media-body media-middle"> <a href="#" class="media-heading">Hermoine Granger</a><p>432 Friends</p></div>
-                <div class="media-right ">
-                  <button class="btn btn-default unfriend-btn">Unfriend Me</button>
-                </div>
-              </article>
-            </div>
-            <div class="col-md-6">
-              <article class="media friend-container">
-                <div class="media-left media-middle">
-                  <img class="media-object" src="user_silhouette_generic.gif">
-                </div>
                 <div class="media-body media-middle"> <a href="#" class="media-heading">Hermoine Granger</a><P>432 Friends</P></div>
                 <div class="media-right">
                   <button class="btn btn-default unfriend-btn">Unfriend Me</button>
                 </div>
               </article>
             </div>
-          </div> <!-- end of row -->
+          </div>
         </div> <!-- end of container -->
       </section>
     </main>

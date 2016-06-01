@@ -26,9 +26,6 @@ main {
       display: block;
       margin-top: 10px;
     }
-    .friend-name {
-      /*display: block;*/
-    }
     .user-image {
       padding: 20px;
       img {
@@ -67,7 +64,7 @@ main {
         padding: 0;
       }
     }
-    p {
+    .post-text {
       padding: 10px;
     }
     a {
