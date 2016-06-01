@@ -15,7 +15,7 @@
 	margin-top: 8px;
 }
 .vertical-align {
-	position: absolute;
+	position: relative;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -37,7 +37,7 @@
 {
 	margin-top: 10px;
 	border: 1px solid black;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 .info-header
 {
@@ -64,7 +64,10 @@
 {
 	border: 1px solid black;
 }		
-
+.info-content {
+	
+	margin-top: 20px;
+}
 #user-image
 {
 	position: absolute;
@@ -76,6 +79,10 @@
 .counters
 {
 	color: #aaa;
+}
+.counters-active
+{
+	color: #fff;
 }
 .menu-btn
 {
@@ -94,6 +101,28 @@
 .btn-save
 {
 	margin-top: 50px;
+}
+.friend-box
+{
+	border: 1px solid black;
+	margin-top: 50px;
+	padding: 5px;
+	margin-left: 2px;
+}
+.img-small
+{
+	height: 100px;
+	width: auto;
+}
+.btn-row
+{
+	display: table;
+}
+.unfriend-btn
+{
+	display: table-cell;
+	vertical-align: middle;
+	float: none;	
 }
 /* Just some scaling for smaller screens to fix absolute positioning */
 @media only screen and (max-width : 992px) 
