@@ -157,3 +157,14 @@
   #about-container .save-button {
     margin-top: 30px;
     margin-bottom: 30px; }
+
+#info-nav .title-bar {
+  height: 30px;
+  background-color: #E6E6E6; }
+#info-nav .about-description {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.gray-border {
+  border: 2px solid #E6E6E6; }

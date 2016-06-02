@@ -289,3 +289,21 @@ $secondary-gray: #f9f9f9;
 	}
 }
 
+#info-nav{
+	.title-bar{
+		height: 30px;
+		background-color: $prime-gray;
+	}
+
+	.about-description{
+		display: block;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+.gray-border{
+	border: 2px solid $prime-gray;
+}
+
+
