@@ -153,40 +153,4 @@ header {
 
 #edit-profile {
   float: right;
-  text-decoration: underline;
-}
-
-#about-heading {
-  background-color: lightgrey;
-  margin-top: 25px;
-  position: relative;
-  height: 40px;
-  border: 1px solid;
-
-}
-
-#about-heading h3 {
-  display: inline-block;
-  position: absolute;
-  left: 550px;
-  top: -12px;
-}
-
-#about-heading .btn-primary {
-  display: inline-block;
-  position: absolute;
-  right: 30px;
-  top: 5px;
-}
-
-#about-content {
-  border: 1px solid;
-}
-
-#about-content p {
-  display: inline-block;
-}
-
-.content {
-  margin-left: 30px;
 }
