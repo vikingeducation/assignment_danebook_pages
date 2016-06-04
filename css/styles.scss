@@ -301,10 +301,26 @@ $secondary-gray: #f9f9f9;
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
+
+
 }
 
 .gray-border{
 	border: 2px solid $prime-gray;
+}
+
+#user-posts{
+	.footer-bar{
+			background-color: $prime-gray;
+
+		a{
+			padding-top: 10px;
+			padding-bottom: 5px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+
 }
 
 

@@ -168,3 +168,11 @@
 
 .gray-border {
   border: 2px solid #E6E6E6; }
+
+#user-posts .footer-bar {
+  background-color: #E6E6E6; }
+  #user-posts .footer-bar a {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
