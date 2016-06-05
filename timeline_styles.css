@@ -156,4 +156,21 @@ header {
   text-decoration: underline;
 }
 
+.post-form-container {
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+
+#post-form-header {
+  text-align: center;
+}
+
+#post-form-footer button {
+  margin: 5px 0;
+}
+
+
+
+
 /* end template */
