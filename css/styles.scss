@@ -1,0 +1,180 @@
+body {
+	padding-bottom: 10px;
+}
+.main-nav
+{
+	background-color: #2B78E4;
+}
+
+.brand-text
+{
+	color: white;
+	font-weight: bold;
+	font-size: 35px;
+}
+.search-bar
+{
+	margin-top: 8px;
+}
+.vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.content-box
+{
+	height: 300px;
+	border: 1px solid black;
+	background-image: url("../img/hogwarts_small.jpg");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-size: 100% 100%;
+    position: relative;
+}
+.info-box
+{
+	margin-top: 10px;
+	border: 1px solid black;
+}
+.info-header
+{
+	background-color: #EEEEEE;
+	border-bottom: 1px solid black;
+}
+.category
+{
+	font-weight: bold;
+}
+.btn-profile-edit
+{
+	margin-top: 5px;
+}
+.header-logo
+{
+	height: 35px;
+	width: 35px;
+	border-radius: 1000px;
+	margin-top: 7px;
+	padding-right: 2px;
+}
+.menu-bar
+{
+	border: 1px solid black;
+}		
+.info-content {
+	
+	margin-top: 20px;
+}
+.content-area
+{
+	margin-top: 20px;
+}
+#user-image
+{
+	position: absolute;
+	top: 120px;
+	height: 200px; 
+	width: auto;
+	border: 3px solid black;
+}
+.counters
+{
+	color: #aaa;
+}
+.counters-active
+{
+	color: #fff;
+}
+.menu-btn
+{
+	border: 0px;
+	margin-right: 3px;
+}
+
+.editbox-sm
+{
+	margin-bottom: 2px;	
+}
+.editbox-lg
+{
+	resize: none;
+}
+.btn-save
+{
+	margin-top: 50px;
+}
+.friend-box
+{
+	border: 1px solid black;
+	margin-top: 50px;
+	padding: 5px;
+	margin-left: 2px;
+}
+.img-small
+{
+	height: 100px;
+	width: auto;
+}
+.btn-row
+{
+	display: table;
+}
+.unfriend-btn
+{
+	display: table-cell;
+	vertical-align: middle;
+	float: none;	
+}
+textarea 
+{
+	width: 100%;
+	margin-top: 5px;
+	resize: none;
+}	
+.post-box-footer
+{
+	height: 50px;
+	background-color: #EEEEEE;
+	border-top: 1px solid black;
+}
+.post-footer
+{
+	background-color: #EEEEEE;
+	border-top: 1px solid black;
+	padding-bottom: 10px;
+}
+.user-icon-sm
+{
+	height: 50px;
+	width: auto;
+}
+.post-footer-link
+{
+	padding-right: 10px;
+}
+.likes-box
+{
+	margin-top: 10px;
+}
+.comment-likes
+{
+	padding-left: 15px;
+}	
+.user-comment
+{
+	margin-top: 10px;
+}
+/* Just some scaling for smaller screens to fix absolute positioning */
+@media only screen and (max-width : 992px) 
+{
+	#user-image
+	{
+		height: 140px;
+		width: auto;
+		top: 180px;
+	}
+}
