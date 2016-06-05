@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 10px; }
+
 .main-nav {
   background-color: #2B78E4; }
 
@@ -29,8 +32,7 @@
 
 .info-box {
   margin-top: 10px;
-  border: 1px solid black;
-  padding-bottom: 20px; }
+  border: 1px solid black; }
 
 .info-header {
   background-color: #EEEEEE;
@@ -53,6 +55,9 @@
   border: 1px solid black; }
 
 .info-content {
+  margin-top: 20px; }
+
+.content-area {
   margin-top: 20px; }
 
 #user-image {
@@ -98,6 +103,37 @@
   display: table-cell;
   vertical-align: middle;
   float: none; }
+
+textarea {
+  width: 100%;
+  margin-top: 5px;
+  resize: none; }
+
+.post-box-footer {
+  height: 50px;
+  background-color: #EEEEEE;
+  border-top: 1px solid black; }
+
+.post-footer {
+  background-color: #EEEEEE;
+  border-top: 1px solid black;
+  padding-bottom: 10px; }
+
+.user-icon-sm {
+  height: 50px;
+  width: auto; }
+
+.post-footer-link {
+  padding-right: 10px; }
+
+.likes-box {
+  margin-top: 10px; }
+
+.comment-likes {
+  padding-left: 15px; }
+
+.user-comment {
+  margin-top: 10px; }
 
 /* Just some scaling for smaller screens to fix absolute positioning */
 @media only screen and (max-width: 992px) {
