@@ -233,3 +233,56 @@ header {
   margin-top: 15px;
   margin-bottom: 5px;
 }
+
+.about-label {
+  font-weight: bold;
+}
+
+.about-area {
+  border: 1px solid;
+  margin-top: 20px;
+  padding: 0 8px;
+}
+
+.about-area h5 {
+  text-align: center;
+}
+
+#photo-container {
+  border: 1px solid;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+#photo-container h5 {
+  text-align: center;
+}
+
+#photo-container a {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.default-photo {
+  height: 100px;
+  width: 100px;
+}
+#friends-container {
+  border: 1px solid;
+  text-align: center;
+  margin-top: 20px;
+}
+#friends-container h5 {
+  text-align: center;
+}
+
+#friends-container a {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.user-default-photo {
+  height: 60px;
+  width: 60px;
+}
