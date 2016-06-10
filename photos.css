@@ -157,3 +157,28 @@ header {
 }
 
 /* end template */
+
+#photo-header {
+  position: relative;
+}
+
+#photo-header h3 {
+  text-align: center;
+}
+
+#photo-header button {
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+
+.photo {
+  height: 225px;
+  width: 225px;
+}
+
+.photos-container {
+  border: solid 1px;
+  padding: 10px;
+}
