@@ -157,3 +157,41 @@ header {
 }
 
 /* end template */
+
+#content-header h3 {
+  text-align: center;
+}
+
+.friend-image {
+  height: 125px;
+  width: 125px;
+}
+
+#friends-container {
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.friend-container {
+  border: 1px solid;
+  padding: 10px;
+}
+
+.friend-container a {
+  text-decoration: underline;
+
+}
+
+.friend-label {
+  margin-top: 40px;
+  margin-left: -25px;
+}
+
+.friend-container button {
+  margin-top: 40px;
+}
+
+.friend-container {
+  margin-top: 20px;
+}
