@@ -1,0 +1,198 @@
+/* begin navbar coloring */
+.navbar-default {
+  background-color: #4e3ce7;
+  border-color: #4036db;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f9f8f8;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f9f8f8;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #4e3ce7;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #f9f8f8;
+  background-color: #4036db;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #4036db;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #f9f8f8;
+  background-color: #4036db;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f9f8f8;
+  background-color: #4036db;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f9f8f8;
+  background-color: #4036db;
+}
+.navbar-default .navbar-toggle {
+  border-color: #4036db;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #4036db;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #f9f8f8;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f9f8f8;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f9f8f8;
+    background-color: #4036db;
+  }
+}
+/* end navbar coloring */
+
+nav img {
+  height: 40px;
+  width: 40px;
+}
+
+#nav-input {
+  width: 700px;
+  margin-left: 55px;
+}
+
+nav p {
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  color: white;
+}
+header {
+  position: relative;
+}
+
+
+.jumbotron img {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 270px;
+  left: 30px;
+}
+
+.jumbotron h3 { 
+   position: absolute;
+   top: 340px;
+   left: 190px;
+ }
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(hogwarts_small.jpg);
+    background-position: 0% 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    height: 400px;
+}
+
+#nav-links ul {
+  border: 1px solid;
+  padding-left: 175px;
+
+}
+
+.nav {
+  border-left: 2px solid;
+}
+
+#friends {
+  border-right: 2px solid;
+}
+
+#edit-profile {
+  float: right;
+  text-decoration: underline;
+}
+
+/* end template */
+
+#about-heading {
+  background-color: lightgrey;
+  margin-top: 25px;
+  position: relative;
+  height: 40px;
+  border: 1px solid;
+
+}
+
+#about-heading h3 {
+  display: inline-block;
+  position: absolute;
+  left: 550px;
+  top: -12px;
+}
+
+#about-heading .btn-primary {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+
+#about-content {
+  border: 1px solid;
+}
+
+#about-content p {
+  display: inline-block;
+}
+
+.content {
+  margin-left: 30px;
+}
+
+#about-form-title {
+  margin-top: 20px;
+}
