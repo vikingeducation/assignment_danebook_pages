@@ -2,6 +2,10 @@ body{
   font-family:'Nunito',sans-serif;
 }
 
+.about-page{
+padding-top:50px;
+}
+
 .header-bar{
   background-color: #3b5998;
 }
@@ -81,8 +85,27 @@ body{
   margin-right:50px;
 }
 
-#profile-pic{
-  position:relative;
-  bottom:250px;
-  left:70px;
+.cover-photo{
+  background-image:url("assets/hogwarts_small.jpg");
+  background-position:center;
 }
+
+/*
+#profile-pic{
+  position:absolute;
+  top:200px;
+  left:260px;
+}
+*/
+
+#about-user-name{
+  color:white;
+  font-size:25px;
+}
+
+.menu-bar{
+  border:1px solid black;
+}
+
+
+
