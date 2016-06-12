@@ -106,7 +106,7 @@ body {
   border: 1px solid black;
 }
 
-.about-header {
+.about-header div {
   text-align: center;
   font-size: 24px;
   background-color: #ddd;
@@ -122,6 +122,18 @@ body {
 .about-container {
   border: 2px solid black;
   margin-top: 10px;
+}
+
+#text-description {
+  padding-right: 5%;
+}
+
+#information {
+  padding-left: 5%;
+}
+
+#save_changes {
+  width: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
