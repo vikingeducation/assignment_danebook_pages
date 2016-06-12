@@ -106,4 +106,22 @@ body {
   border: 1px solid black;
 }
 
+.about-header {
+  text-align: center;
+  font-size: 24px;
+  background-color: #ddd;
+}
+
+.edit-button {
+  background-color: #39f;
+  border-radius: 0;
+  border-color: black;
+  color: white;
+}
+
+.about-container {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
