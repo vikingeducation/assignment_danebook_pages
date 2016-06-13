@@ -136,4 +136,22 @@ body {
   width: 50%;
 }
 
+.post-box {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.post-title {
+  border-bottom: 2px solid black;
+  background-color: #e6e6e6;
+  margin-top: 0;
+}
+
+.post-button-container {
+  border-top: 2px solid black;
+  background-color: #e6e6e6;
+  padding: 3px;
+  text-align: right;
+}
+
 /*# sourceMappingURL=styles.css.map */
