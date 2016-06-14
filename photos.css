@@ -160,6 +160,10 @@ header {
 
 #photo-header {
   position: relative;
+  background-color: lightgrey;
+  width: 97%;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 
 #photo-header h3 {

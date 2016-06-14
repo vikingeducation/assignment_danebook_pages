@@ -158,6 +158,13 @@ header {
 
 /* end template */
 
+#content-header {
+  background-color: lightgrey;
+  width: 97%;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
 #content-header h3 {
   text-align: center;
 }
@@ -168,7 +175,7 @@ header {
 }
 
 #friends-container {
-  margin-top: 50px;
+  
   padding: 10px;
   border: 1px solid;
 }
