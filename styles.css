@@ -45,19 +45,20 @@
   border-right: 0px solid black; }
 
 #user-name {
-  margin-top: -11%; }
+  margin-top: -11%;
+  color: white; }
 
-#about-bar {
+#header-bar {
   text-align: center;
   margin-top: 10px;
   border: 2px solid black;
   background-color: #ccc; }
-  #about-bar a {
+  #header-bar a {
     float: right;
     display: inline-block;
     margin-top: -42px;
     margin-bottom: 5px; }
-  #about-bar h2 {
+  #header-bar h2 {
     margin-top: 5px; }
 
 #basic {
