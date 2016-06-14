@@ -65,7 +65,7 @@
           <div class="row">
             <div class="col-xs-10 col-xs-offset-2">
               <div class="row">
-                <div class="col-sm-2 col-xs-offset-1" id="single-profile-tab">
+                <div class="col-sm-2 col-xs-offset-1" id="single-profile-tab-current">
                   <a href=#Timeline><h6>Timeline</h6></a>
                 </div>
                 <div class="col-sm-2" id="single-profile-tab">
@@ -74,7 +74,7 @@
                 <div class="col-sm-2" id="single-profile-tab">
                   <a href=#Photos><h6>Photos (123)</h6></a>
                 </div>
-                <div class="col-sm-2" id="single-profile-tab-current">
+                <div class="col-sm-2" id="single-profile-tab">
                   <a href=#About><h6>Friends (542)</h6></a>
                 </div>
                 <div class="col-sm-2 pull-right" id="single-profile-tab">
@@ -95,79 +95,93 @@
         </div>
       </div>
       <div class="row">
-        <!--Friend page header -->
-        <div class="col-xs-10 col-xs-offset-1" id="header-bar">
-          <h2>Friends</h2>
-        </div>
-        <!--list of friends-->
-        <div class="col-md-10 col-md-offset-1" id="basic">
+        <div class="col-md-10 col-md-offset-1" id="timeline-divider">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="row">
-                <div class="col-xs-10 col-xs-offset-1" id="friend-profile">
-                  <!--friend's profile picture -->
-                  <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" class="img-responsive" id="friend-profile-picture">
-                  <!--friend's name and number of friends-->
-                  <h5><a href=#friendprofile id="friend-profile-name">Hermoine Granger</a><br>432 Friends</h5>
-                  <a id="unfriend-button" class="btn btn-info" href=#unfriend role="button">Unfriend me</a>
+                <div class="col-xs-12 timeline-title">
+                  <h5>About (Text Area)</h5>
+                </div>
+                <div class="col-xs-12 timeline-content">
+                  <p><b>Born on:</b> July 31st, 1980</p>
+                  <p><b>Went to school at:</b> Hogwarts</p>
+                  <p><b>Hometown:</b> Godrick's Hollow, England</p>
+                  <p><b>Currently Lives:</b> Godrick's Hollow</p>
+                </div>
+                <div class="col-xs-12 timeline-title" id="timeline-friends-photos">
+                  <h5>Photos (123) (Copied Text Area)</h5>
+                </div>
+                <div class="col-xs-12 timeline-content">
+                  <div class="row">
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                    </div>
+                    <div class="col-xs-12">
+                      <a href=#><h6>See more photos</h6></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 timeline-title" id="timeline-friends-photos">
+                  <h5>Friends (542) (Copied Text Area)</h5>
+                </div>
+                <div class="col-xs-12 timeline-content">
+                  <div class="row">
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                      <a href=#><h6>Friend name</h6></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                      <a href=#><h6>Friend name</h6></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                      <a href=#><h6>Friend name</h6></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                      <a href=#><h6>Friend name</h6></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                      <a href=#><h6>Friend name</h6></a>
+                    </div>
+                    <div class="col-xs-4">
+                      <a href=#><img src=# class="img-responsive"></a>
+                      <a href=#><h6>Friend name</h6></a>
+                    </div>
+                    <div class="col-xs-12">
+                      <a href=#><h6>See more friends</h6></a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-xs-10 col-xs-offset-1" id="friend-profile">
-                  <!--friend's profile picture -->
-                  <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" class="img-responsive" id="friend-profile-picture">
-                  <!--friend's name and number of friends-->
-                  <h5><a href=#friendprofile id="friend-profile-name">Hermoine Granger</a><br>432 Friends</h5>
-                  <a id="unfriend-button" class="btn btn-info" href=#unfriend role="button">Unfriend me</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-xs-10 col-xs-offset-1" id="friend-profile">
-                  <!--friend's profile picture -->
-                  <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" class="img-responsive" id="friend-profile-picture">
-                  <!--friend's name and number of friends-->
-                  <h5><a href=#friendprofile id="friend-profile-name">Hermoine Granger</a><br>432 Friends</h5>
-                  <a id="unfriend-button" class="btn btn-info" href=#unfriend role="button">Unfriend me</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-xs-10 col-xs-offset-1" id="friend-profile">
-                  <!--friend's profile picture -->
-                  <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" class="img-responsive" id="friend-profile-picture">
-                  <!--friend's name and number of friends-->
-                  <h5><a href=#friendprofile id="friend-profile-name">Hermoine Granger</a><br>432 Friends</h5>
-                  <a id="unfriend-button" class="btn btn-info" href=#unfriend role="button">Unfriend me</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-xs-10 col-xs-offset-1" id="friend-profile">
-                  <!--friend's profile picture -->
-                  <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" class="img-responsive" id="friend-profile-picture">
-                  <!--friend's name and number of friends-->
-                  <h5><a href=#friendprofile id="friend-profile-name">Hermoine Granger</a><br>432 Friends</h5>
-                  <a id="unfriend-button" class="btn btn-info" href=#unfriend role="button">Unfriend me</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-xs-10 col-xs-offset-1" id="friend-profile">
-                  <!--friend's profile picture -->
-                  <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" class="img-responsive" id="friend-profile-picture">
-                  <!--friend's name and number of friends-->
-                  <h5><a href=#friendprofile id="friend-profile-name">Hermoine Granger</a><br>432 Friends</h5>
-                  <a id="unfriend-button" class="btn btn-info" href=#unfriend role="button">Unfriend me</a>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>

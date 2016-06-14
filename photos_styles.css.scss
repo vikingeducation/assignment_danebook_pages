@@ -1,6 +1,7 @@
 #photo-holder{
   height: 150px;
   margin-top: 20px;
+  margin-bottom: 20px;
   img{
     height: 150px;
     width: 100%;
@@ -27,6 +28,3 @@
   }
 }
 
-#photo-holder:last-of-type{
-  margin-bottom: 20px;
-}
