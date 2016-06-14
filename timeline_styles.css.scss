@@ -27,9 +27,25 @@
   margin-top: 10px;
 }
 
-
-
 #single-profile-tab-current{
   border-left: 2px solid black;
 }
 
+#post-container{
+  border: 2px solid black;
+  border-top: 0px;
+  textarea{
+    margin: 10px 0px;
+    width: 100%;
+  }
+}
+
+#post-button-container{
+   border: 2px solid black;
+   border-top: 0px;
+   background-color: #ccc;
+  a{
+    margin: 10px;
+    border: 2px solid black;
+  }
+}

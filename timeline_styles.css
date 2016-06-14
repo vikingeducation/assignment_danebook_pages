@@ -23,4 +23,19 @@
 #single-profile-tab-current {
   border-left: 2px solid black; }
 
+#post-container {
+  border: 2px solid black;
+  border-top: 0px; }
+  #post-container textarea {
+    margin: 10px 0px;
+    width: 100%; }
+
+#post-button-container {
+  border: 2px solid black;
+  border-top: 0px;
+  background-color: #ccc; }
+  #post-button-container a {
+    margin: 10px;
+    border: 2px solid black; }
+
 /*# sourceMappingURL=timeline_styles.css.map */
