@@ -1,0 +1,12 @@
+#photo-holder {
+  height: 150px;
+  margin-top: 20px; }
+  #photo-holder img {
+    height: 150px;
+    width: 100%;
+    border: 2px solid black; }
+
+#photo-holder:last-of-type {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=photos_styles.css.map */
