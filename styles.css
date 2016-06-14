@@ -138,6 +138,10 @@ body {
 
 .post-box {
   border: 2px solid black;
+  margin-top: 40px;
+}
+
+.centered-text {
   text-align: center;
 }
 
@@ -152,6 +156,106 @@ body {
   background-color: #e6e6e6;
   padding: 3px;
   text-align: right;
+}
+
+/* these are from the old file. may need media queries*/
+.small-image {
+  width: 58px;
+  height: 54px;
+}
+
+.side-image {
+  display: inline-block;
+  margin: 2px 0px 0px 2px;
+  border: 1px solid black;
+}
+
+.small-text {
+  margin: 18px 15px;
+}
+
+.side-text {
+  display: inline-block;
+}
+.side-text p {
+  font-size: 12px;
+}
+
+.post-date {
+  color: gray;
+}
+
+.post-text {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.like-comment-container {
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #e6e6e6;
+  padding: 3px;
+}
+
+.comment-border {
+  border-top: 2px solid black;
+}
+
+.post-reaction {
+  margin-left: 10px;
+}
+
+.delete {
+  float: right;
+  margin-right: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+.reaction-text {
+  margin-left: 10px;
+  color: gray;
+}
+
+.comment-border-grey {
+  border-top: 2px solid gray;
+}
+
+.comment-format {
+  display: inline-block;
+}
+
+.comment-text {
+  margin-left: 65px;
+  border: none;
+}
+
+.comment-form {
+  text-align: center;
+}
+
+.comment-button-container {
+  text-align: right;
+}
+
+.left {
+  float: left;
+}
+
+.box-border {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.box-header {
+  background-color: #e6e6e6;
+  border-bottom: 2px solid black;
+}
+
+.box-title {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
