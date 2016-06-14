@@ -3,6 +3,13 @@
   padding-bottom: 8px; }
 
 #cover-photo {
+  border: 2px solid black;
+  padding-right: 0;
+  padding-left: 0; }
+  #cover-photo .img-responsive {
+    background-cover: cover; }
+
+.navbar {
   border: 2px solid black; }
 
 #profile-picture {
@@ -48,7 +55,13 @@
   #about-bar a {
     float: right;
     display: inline-block;
-    margin-top: -47px;
+    margin-top: -42px;
     margin-bottom: 5px; }
+  #about-bar h2 {
+    margin-top: 5px; }
+
+#basic {
+  border: 2px solid black;
+  border-top: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
