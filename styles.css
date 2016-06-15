@@ -258,4 +258,8 @@ body {
   margin-top: 10px;
 }
 
+.wrap-text {
+  white-space: normal;
+}
+
 /*# sourceMappingURL=styles.css.map */
