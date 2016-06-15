@@ -1,1 +1,151 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<head>
+  <title>Welcome to Danebook</title>
+  <!--Nunito font-->
+   <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--our own css sheet-->
+  <link rel="stylesheet" href="styles.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body class="container-fluid about-page">
+  <nav class="navbar navbar-default navbar-fixed-top header-bar row">
+    <div class="navbar-header col-md-3 col-md-offset-1">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <!--Flag and "Danebook" links to homepage -->
+      <ul class="nav navbar-nav">
+        <li><a class="navbar-brand" id = "brand-link" href="index.html"><img class="img-circle img-responsive center-block" id="flag" alt="Danish flag" src="assets/danish_flag.gif">
+        </a></li> 
+        <li><a class="navbar-brand" id="title-text" href="index.html">Danebook</a></li>
+      </ul>
+    </div>
+    <!--Search bar-->
+      <div class="col-md-6" id="search-field">
+        <form class="navbar-form search-bar" role="search">
+          
+          <input type="text" class="form-control search-bar" placeholder="Search for users">
+     
+      </form>
+    </div>
+    <!--User Name-->
+    <div class="col-md-2">
+      <p class="navbar-text" id="user-name">Harry</p>
+    </div>
+      
+  </nav>
+  <!--main photo-->
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row cover-photo">
+       <div id="profile-pic" class="col-md-3">
+          <img class="img-responsive img-thumbnail" alt="profile picture" src="assets/harry_potter_small.jpg">
+        </div>
+        <div id="about-user-name" class="col-md-3">
+          Harry Potter
+        </div>
+      </div>
+      <!--middle navigation-->
+      <div class="row menu-bar">
+        <div class="col-md-8 col-md-offset-2">
+        <div class="btn-group" role="group" aria-label="menu-bar">
+          <button type="button" class="btn btn-default"><a href="timeline.html">Timeline</a></button>
+          <button type="button" class="btn btn-default"><a href="about.html">About</a></button>
+          <button type="button" class="btn btn-default"><a href="photos.html">Photos(123)</a></button>
+          <button type="button" class="btn btn-default active"><a href="friends.html">Friends(542)</a></button>
+        </div>
+      </div>
+      <div class="col-md-2">
+      
+        <button type="button" class="btn btn-link"><a href="#">Edit Profile</a></button>
+    
+      </div>
+    </div>
+<!--Friends box-->
+<main class="friends-main row">
+<section class="col-md-12">
+<div class="row about-header">
+      <div class="col-md-12">
+        Friends
+      </div>
+</div>
+<!--Row 1-->
+<div class="row">
+  <div class="col-md-6">
+    <div class="friend-box">
+    <img class="friend-image" src="assets/wizard_hat.png" alt="friends's picture">
+        <div class="friend-name">
+          <p><a href="#">Hermione Granger</a></p>
+          <p class="stats">432 Friends</p>
+        </div>
+        <button type="button" class="btn btn-default unfriend">Unfriend Me</p>
+        </div>
+  </div>
+  <div class="col-md-6">
+    <div class="friend-box">
+    <img class="friend-image" src="assets/wizard_hat.png" alt="friends's picture">
+        <div class="friend-name">
+          <p><a href="#">Hermione Granger</a></p>
+          <p class="stats">432 Friends</p>
+        </div>
+        <button type="button" class="btn btn-default unfriend">Unfriend Me</p>
+        </div>
+  </div>
+</div>
+<!--Row 2-->
+<div class="row">
+  <div class="col-md-6">
+    <div class="friend-box">
+     <img class="friend-image" src="assets/wizard_hat.png" alt="friends's picture">
+        <div class="friend-name">
+          <p><a href="#">Hermione Granger</a></p>
+          <p class="stats">432 Friends</p>
+        </div>
+        <button type="button" class="btn btn-default unfriend">Unfriend Me</p>
+        </div>
+  </div>
+  <div class="col-md-6">
+    <div class="friend-box">
+     <img class="friend-image" src="assets/wizard_hat.png" alt="friends's picture">
+        <div class="friend-name">
+          <p><a href="#">Hermione Granger</a></p>
+          <p class="stats">432 Friends</p>
+        </div>
+        <button type="button" class="btn btn-default unfriend">Unfriend Me</p>
+        </div>
+  </div>
+</div>
+<!--Row 3-->
+<div class="row">
+  <div class="col-md-6">
+    <div class="friend-box">
+     <img class="friend-image" src="assets/wizard_hat.png" alt="friends's picture">
+        <div class="friend-name">
+          <p><a href="#">Hermione Granger</a></p>
+          <p class="stats">432 Friends</p>
+        </div>
+        <button type="button" class="btn btn-default unfriend">Unfriend Me</p>
+        </div>
+  </div>
+  <div class="col-md-6">
+    <div class="friend-box">
+     <img class="friend-image" src="assets/wizard_hat.png" alt="friends's picture">
+        <div class="friend-name">
+          <p><a href="#">Hermione Granger</a></p>
+          <p class="stats">432 Friends</p>
+        </div>
+        <button type="button" class="btn btn-default unfriend">Unfriend Me</p>
+        </div>
+  </div>
+</div>
+</section>
+</main>
+</body>

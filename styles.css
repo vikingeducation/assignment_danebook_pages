@@ -262,4 +262,38 @@ body {
   white-space: normal;
 }
 
+.friend-image {
+  display: inline-block;
+  margin: 4px;
+  width: 90px;
+  height: 90px;
+  background: white;
+  border: 1px solid black;
+}
+
+.friend-name {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.stats {
+  color: gray;
+}
+
+.unfriend {
+  background-color: #e6e6e6;
+  margin: 0px 20px;
+}
+
+.friend-box {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.friends-main {
+  border: 2px solid black;
+  margin-top: 10px;
+  padding: 0 15px 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */
