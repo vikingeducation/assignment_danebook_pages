@@ -38,4 +38,31 @@
     margin: 10px;
     border: 2px solid black; }
 
+#previous-post-container {
+  border: 2px solid black;
+  margin-top: 20px; }
+  #previous-post-container #author-info img {
+    display: inline-block;
+    width: 75px;
+    height: 75px; }
+  #previous-post-container #author-info h6 {
+    display: inline-block; }
+  #previous-post-container #post-content p {
+    text-align: left; }
+  #previous-post-container #post-feedback {
+    background: #ccc;
+    border-top: 2px solid black; }
+  #previous-post-container #comments-section {
+    background: #ccc;
+    border-top: 2px solid #999;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    #previous-post-container #comments-section p {
+      text-align: left; }
+    #previous-post-container #comments-section textarea {
+      width: 100%;
+      border: 2px solid black;
+      margin-top: 25px;
+      margin-bottom: 5px; }
+
 /*# sourceMappingURL=timeline_styles.css.map */

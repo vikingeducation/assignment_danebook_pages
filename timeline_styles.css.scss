@@ -49,3 +49,61 @@
     border: 2px solid black;
   }
 }
+
+#previous-post-container{
+  border: 2px solid black;
+  margin-top: 20px;
+  #author-info{
+    img{
+      display: inline-block;
+      width: 75px;
+      height: 75px;
+    }
+    h6{
+      display: inline-block;
+    }
+  }
+  #post-content{
+    p{
+      text-align: left;
+    }
+  }
+  #post-feedback{
+    background: #ccc;
+    border-top: 2px solid black;
+  }
+  #comments-section{
+    background: #ccc;
+    border-top: 2px solid #999;
+    padding-top: 10px;
+    p{
+      text-align: left;
+    }
+    textarea{
+      width: 100%;
+      border: 2px solid black;
+      margin-top: 25px;
+      margin-bottom: 5px;
+    }
+    padding-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
