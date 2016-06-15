@@ -3,6 +3,9 @@
   padding-bottom: 8px;
 }
 
+.form-control{
+  margin-bottom: 10px;
+}
 #cover-photo{
   border: 2px solid black;
   padding-right: 0;
@@ -14,14 +17,37 @@
   
 }
 
+#profile-picture{
+  img{
+     border: 2px solid black;
+     width: 150px;
+     height: 150px;
+     display: inline-block;
+  }
+  margin-top: -130px;
+  margin-left: 2.5%;
+  margin-bottom: -5%;
+  h2{
+    display: inline-block; 
+    border-bottom: -2px;
+    color: white;
+    margin-left: 2%;
+  }
+  
+}
+
+
+
 .navbar{
   border: 2px solid black;
   background-color: #2D77E2;
   .navbar-brand{
     color: white;
+    margin-right: -10px;
   }
   a{
     color: white;
+
   }
   
   
@@ -35,11 +61,7 @@ a{
   color: #2D77E2;
 }
 
-#profile-picture{
-  margin-left: 10%;
-  margin-top: -110%;
-  border: 2px solid black;
-}
+
 
 #navbar-profile-link{
   text-align: right;
@@ -71,14 +93,71 @@ a{
   border-left: 2px solid black;
 }
 
-#single-profile-tab:last-of-type{
+#edit-profile-tab{
   border-right: 0px solid black;
+  h6{
+    text-align: center;
+  }
 }
 
-#user-name{
-  margin-top: -11%;
-  color: white;
+@media (max-width:768px){
+  #single-profile-tab{
+    border: 0px;
+    h6{
+      font-size: 16px;
+    }
+  }
+  #single-profile-tab:first-of-type{
+    border: 0px;
+    h6{
+      font-size: 16px;
+    }
+  }
+  #single-profile-tab-current{
+    border: 0px;
+    h6{
+      font-size: 16px;
+      line-height: 30px;
+    }
+
+  }
+  #edit-profile-tab{
+    h6{
+      font-size: 16px;
+    }
+  }
+  #profile-picture{
+    margin-top: -220px;
+    margin-left: 8%;
+    img{
+      display: block;
+      margin: auto;
+    }
+    h2{
+      display: block;
+      color: white;
+      text-align: center;
+    }
+  }
+
 }
+@media (min-width: 769px) and (max-width: 990px){
+  #profile-picture{
+    margin-top: -220px;
+    margin-left: 8%;
+    img{
+      display: block;
+      margin: auto;
+    }
+    h2{
+      display: block;
+      color: white;
+      text-align: center;
+    }
+  }
+}
+
+
 
 #header-bar{
   text-align: center;  
