@@ -1,0 +1,19 @@
+#friend-profile {
+  border: 2px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  #friend-profile h5 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px; }
+  #friend-profile #friend-profile-picture {
+    height: 75px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  #friend-profile #unfriend-button {
+    float: right;
+    margin-top: 20px; }
+
+/*# sourceMappingURL=friends_styles.css.map */
