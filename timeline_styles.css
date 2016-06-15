@@ -1,21 +1,21 @@
-#timeline-divider {
-  margin-top: 10px; }
-  #timeline-divider .timeline-content {
-    border: 2px solid black;
-    padding-top: 10px;
-    border-top: 0px; }
-    #timeline-divider .timeline-content h6 {
-      text-align: center; }
-  #timeline-divider .timeline-title {
-    border: 2px solid black;
-    text-align: center;
-    background: #ccc; }
-  #timeline-divider img {
-    height: 50px;
-    width: 75px;
-    margin-bottom: 10px; }
-  #timeline-divider p {
+#timeline-divider .timeline-content {
+  border: 2px solid black;
+  padding-top: 10px;
+  border-top: 0px; }
+  #timeline-divider .timeline-content h6 {
     text-align: center; }
+#timeline-divider .timeline-title {
+  border: 2px solid black;
+  text-align: center;
+  background: #ccc; }
+#timeline-divider .timeline-title:first-of-type {
+  margin-top: 10px; }
+#timeline-divider img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px; }
+#timeline-divider p {
+  text-align: center; }
 
 #timeline-friends-photos {
   margin-top: 10px; }
