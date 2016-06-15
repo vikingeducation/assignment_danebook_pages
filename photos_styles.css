@@ -4,18 +4,17 @@
   margin-bottom: 20px; }
   #photo-holder img {
     height: 150px;
-    width: 100%;
-    border: 2px solid black; }
+    width: 100%; }
   #photo-holder p {
     position: relative;
     visibility: hidden;
     height: 25%;
-    bottom: 40px;
+    bottom: 60px;
     left: 2px;
     width: 98%;
     text-align: center;
     background-color: #333;
-    opacity: 0.5;
+    opacity: 0.8;
     color: white;
     line-height: 40px; }
 
