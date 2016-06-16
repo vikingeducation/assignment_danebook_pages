@@ -117,6 +117,7 @@ body {
   border-radius: 0;
   border-color: black;
   color: white;
+  float: right;
 }
 
 .about-container {
@@ -305,6 +306,31 @@ body {
   text-align: center;
   font-size: 24px;
   background-color: #ddd;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.hover-text {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.thumbnail:hover .hover-text {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
