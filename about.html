@@ -1,1 +1,141 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<head>
+  <title>Welcome to Danebook</title>
+  <!--Nunito font-->
+   <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!--our own css sheet-->
+<link rel="stylesheet" href="styles.css">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body class="container-fluid about-page">
+  <nav class="navbar navbar-default navbar-fixed-top header-bar row">
+    <div class="navbar-header col-md-3 col-md-offset-1">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <!--Flag and "Danebook" links to homepage -->
+      <ul class="nav navbar-nav">
+        <li><a class="navbar-brand" id = "brand-link" href="index.html"><img class="img-circle img-responsive center-block" id="flag" alt="Danish flag" src="assets/danish_flag.gif">
+        </a></li> 
+        <li><a class="navbar-brand" id="title-text" href="index.html">Danebook</a></li>
+      </ul>
+    </div>
+    <!--Search bar-->
+      <div class="col-md-6" id="search-field">
+        <form class="navbar-form search-bar" role="search">
+          
+          <input type="text" class="form-control search-bar" placeholder="Search for users">
+     
+      </form>
+    </div>
+    <!--User Name-->
+    <div class="col-md-2">
+      <p class="navbar-text" id="user-name">Harry</p>
+    </div>
+      
+  </nav>
+  <!--main photo-->
+   <div class="row">
+    <div class="col-md-12 cover-photo">
+      <img src="assets/hogwarts_small.jpg" alt="hogwarts">
+      <div id="profile-pic"><img class="img-responsive img-thumbnail" alt="profile picture" src="assets/harry_potter_small.jpg">
+
+    </div>
+      <div id="profile-name"><h3>Harry Potter</h3></div>
+  </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      
+      <!--middle navigation-->
+      <div class="row menu-bar">
+        <div class="col-md-8 col-md-offset-2 centered-text">
+        <div class="btn-group" role="group" aria-label="menu-bar">
+          <button type="button" class="btn btn-default"><a href="timeline.html">Timeline</a></button>
+          <button type="button" class="btn btn-default active"><a href="about.html">About</a></button>
+          <button type="button" class="btn btn-default"><a href="photos.html">Photos(123)</a></button>
+          <button type="button" class="btn btn-default"><a href="friends.html">Friends(542)</a></button>
+        </div>
+      </div>
+      <div class="col-md-2">
+      
+        <button type="button" class="btn btn-link"><a href="about_edit.html">Edit Profile</a></button>
+    
+      </div>
+    </div>
+    <!--about section-->
+    <section class="row about-container">
+    <div class="col-md-12">
+      <div class="row friend-header">
+        <div class="col-md-12">
+        About
+        <button type="button" class="btn btn-default btn-small edit-button">Edit Profile</button>
+      </div>
+
+    </div><!--about section end-->
+    <!--main text-->
+    <div class="row">
+      <!--left side-->
+      <div class="col-md-5" id="information">
+        <div class="basic-information">
+        <h2>Basic Information</h1>
+        <table class="information-table">
+          <tr>
+            <td>Birthday:</td>
+            <td>July 31, 1980</td>
+          </tr>
+          <tr>
+            <td>College:</td>
+            <td>Hogwarts College</td>
+          </tr>
+          <tr>
+            <td>Hometown:</td>
+            <td>Godrick's Hollow, England</td>
+          </tr>
+          <tr>
+            <td>Currently Lives:</td>
+            <td>Godrick's Hollow, England</td>
+          </tr>
+        </table>
+      </div>
+      <div class="contact-information">
+        <h2>Contact Information</h1>
+        <table class="information-table">
+          <tr>
+            <td>Email:</td>
+            <td>harry_potter@hogwarts.edu</td>
+          </tr>
+          <tr>
+            <td>Telephone:</td>
+            <td>555-123-4567</td>
+          </tr>
+        </table>
+      </div>
+      </div>
+      <!--right side-->
+      <div class="col-md-7" id="text-description">
+        <div class="words-to-live-by">
+      <h2>Words to Live By</h1>
+      <p>I'm Harry-Freaking Potter. Meow...</p>
+    </div>
+    <div class="about-me">
+      <h2>About Me</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dui massa, dapibus in orci in, dictum venenatis nisl. Cras a finibus nunc. Duis et scelerisque odio, sed pharetra dui. Vivamus non nunc ante. Integer ut porta nisi, sed elementum diam. Suspendisse eget volutpat risus. Quisque egestas vulputate porttitor. Proin pellentesque enim eget viverra pharetra.<p>
+    </div>
+    </div><!--main text end-->
+  </section>
+  </div>
+</div>
+    
+
+
+</body>
