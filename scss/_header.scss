@@ -31,3 +31,55 @@
 		}
 	}
 }
+
+.cover-section {
+	position: relative;
+	.cover-photo-container {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.midde-nav-row {
+		border: 1px solid black;
+	}
+	.cover-photo {
+		margin-top: 51px;
+		width: 100%;
+		height: 315px;
+	}
+	.profile-img {
+		height: 168px;
+		width: 168px;
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+	}
+	.profile-name {
+		position: absolute;
+		bottom: 35px;
+		left: 205px;
+		color: #fff;
+	}
+	.empty-column {
+		height: 41px;
+	}
+	.middle-nav {
+		li {
+			margin: 0;
+			border-left: 1px solid black;
+			&:last-child {
+				border-right: 1px solid black;
+			}
+		}
+	}
+	.edit-link {
+		text-decoration: underline;
+		a:hover {
+			background-color: #fff;
+		}
+	}
+}
+
+
+
+
+
