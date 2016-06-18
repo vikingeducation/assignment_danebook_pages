@@ -37,15 +37,18 @@
     bottom: 20px;
     left: 20px; }
   .cover-section .profile-name {
+    color: #fff;
     position: absolute;
     bottom: 35px;
-    left: 205px;
-    color: #fff; }
-  .cover-section .empty-column {
-    height: 41px; }
+    left: 205px; }
   .cover-section .middle-nav li {
     margin: 0;
     border-left: 1px solid black; }
+    .cover-section .middle-nav li .selected {
+      background-color: #eee; }
+    .cover-section .middle-nav li a {
+      height: 41px;
+      border-radius: 0px; }
     .cover-section .middle-nav li:last-child {
       border-right: 1px solid black; }
   .cover-section .edit-link {
