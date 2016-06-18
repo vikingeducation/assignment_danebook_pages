@@ -1,0 +1,38 @@
+.navbar {
+	background-color: #3B5998;
+	border-color: #3B5998;
+	.brand-img {
+		img {
+		  height: 100%;
+		  padding: 5px;
+		  width: 70px;
+		}
+	}
+	.brand-text {
+		color: #fff;
+		font-size: 25px;
+	}
+	.form-group {
+		width: 100%;
+		input {
+			width: 100%;
+		}
+	}
+	.navbar-nav {
+		li {
+			a {
+				color: #fff;
+				font-size: 18px;
+			}
+			a:hover {
+				color: #fff;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}

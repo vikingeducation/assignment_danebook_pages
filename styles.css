@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #3B5998;
+  border-color: #3B5998; }
+  .navbar .brand-img img {
+    height: 100%;
+    padding: 5px;
+    width: 70px; }
+  .navbar .brand-text {
+    color: #fff;
+    font-size: 25px; }
+  .navbar .form-group {
+    width: 100%; }
+    .navbar .form-group input {
+      width: 100%; }
+  .navbar .navbar-nav li a {
+    color: #fff;
+    font-size: 18px; }
+  .navbar .navbar-nav li a:hover {
+    color: #fff; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px; } }
+
+/*# sourceMappingURL=styles.css.map */
