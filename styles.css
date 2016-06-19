@@ -72,12 +72,13 @@
   .main-content-header h2 {
     display: inline-block;
     margin-top: 10px; }
-  .main-content-header .btn-container {
-    text-align: right;
-    margin-top: 10px; }
-    .main-content-header .btn-container a {
-      background-color: #3B5998;
-      border-color: black; }
+
+.btn-container {
+  text-align: right;
+  margin-top: 10px; }
+  .btn-container a {
+    background-color: #3B5998;
+    border-color: black; }
 
 .info-section {
   border: 1px solid black;
@@ -102,6 +103,125 @@
   margin: 50px 0; }
   .save-button:hover {
     background-color: #3B5998; }
+
+.tl-content-box {
+  margin-top: 20px; }
+  .tl-content-box header, .tl-content-box footer {
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid black; }
+    .tl-content-box header h4, .tl-content-box footer h4 {
+      margin-top: 10px; }
+  .tl-content-box .tl-content-template {
+    border: 1px solid black; }
+
+.tl-about-box ul {
+  margin-top: 10px; }
+.tl-about-box li {
+  margin-bottom: 5px; }
+  .tl-about-box li strong {
+    padding-right: 5px; }
+
+.tl-photos-box {
+  text-align: center; }
+  .tl-photos-box .first-row {
+    margin-top: 10px; }
+  .tl-photos-box img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    height: 67px; }
+  .tl-photos-box .tl-to-photos-link, .tl-photos-box .tl-to-friend-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #3B5998;
+    text-decoration: underline; }
+    .tl-photos-box .tl-to-photos-link:hover, .tl-photos-box .tl-to-friend-link:hover {
+      color: #3B5998; }
+  .tl-photos-box .tl-friend-link {
+    display: inline-block;
+    color: #3B5998;
+    text-decoration: underline; }
+    .tl-photos-box .tl-friend-link:hover {
+      color: #3B5998; }
+
+.tl-post-box {
+  margin-left: 20px; }
+  .tl-post-box .tl-post-form {
+    margin-top: 15px; }
+
+.tl-exist-post {
+  margin-left: 20px;
+  margin-top: 30px; }
+  .tl-exist-post header {
+    border: 1px solid black;
+    border-bottom: 0px; }
+  .tl-exist-post .ex-post-border {
+    border: 1px solid black;
+    border-top: 0px; }
+  .tl-exist-post .ex-post-profile-container {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60px; }
+  .tl-exist-post .ex-post-profile {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black; }
+  .tl-exist-post .ex-poster-info {
+    margin-top: 10px; }
+    .tl-exist-post .ex-poster-info a {
+      text-decoration: underline;
+      color: #3B5998; }
+      .tl-exist-post .ex-poster-info a:hover {
+        color: #3B5998; }
+  .tl-exist-post .ex-post-timestamp {
+    color: #ccc; }
+  .tl-exist-post .ex-post-content {
+    margin: 15px 0px 10px; }
+  .tl-exist-post .tl-post-footer {
+    background-color: #eee;
+    border: 1px solid black; }
+    .tl-exist-post .tl-post-footer a {
+      text-decoration: underline;
+      color: #3B5998; }
+      .tl-exist-post .tl-post-footer a:hover {
+        color: #3B5998; }
+    .tl-exist-post .tl-post-footer .ex-post-like-link {
+      margin-right: 15px; }
+    .tl-exist-post .tl-post-footer .ex-post-like {
+      display: inline-block;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+    .tl-exist-post .tl-post-footer .border-bottom {
+      border-bottom: 1px solid lightgray; }
+  .tl-exist-post .tl-comment-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px; }
+    .tl-exist-post .tl-comment-container p {
+      display: inline-block; }
+    .tl-exist-post .tl-comment-container .ex-poster-info {
+      padding-left: 0px; }
+    .tl-exist-post .tl-comment-container .tl-comment-content {
+      display: inline-block;
+      max-width: 500px;
+      margin-top: 0px; }
+    .tl-exist-post .tl-comment-container .tl-comment-footer a:first-child {
+      margin-right: 15px; }
+  .tl-exist-post .btn-container {
+    margin-top: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px; }
+    .tl-exist-post .btn-container .comment-btn {
+      color: #fff;
+      text-decoration: none; }
+      .tl-exist-post .btn-container .comment-btn:hover {
+        color: #fff; }
+
+section:last-child {
+  margin-bottom: 50px; }
 
 html, body {
   min-width: 768px; }
