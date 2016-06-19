@@ -27,19 +27,21 @@
   .cover-section .midde-nav-row {
     border: 1px solid black; }
   .cover-section .cover-photo {
-    margin-top: 51px;
+    margin-top: 50px;
     width: 100%;
-    height: 315px; }
+    height: 315px;
+    border: 1px solid black; }
   .cover-section .profile-img {
     height: 168px;
     width: 168px;
     position: absolute;
     bottom: 20px;
-    left: 20px; }
+    left: 20px;
+    border: 1px solid black; }
   .cover-section .profile-name {
     color: #fff;
     position: absolute;
-    bottom: 35px;
+    bottom: 40px;
     left: 205px; }
   .cover-section .middle-nav li {
     margin: 0;
@@ -51,8 +53,13 @@
       border-radius: 0px; }
     .cover-section .middle-nav li:last-child {
       border-right: 1px solid black; }
+  .cover-section .middle-nav .middle-nav-count {
+    color: #ccc;
+    margin-left: 5px; }
   .cover-section .edit-link {
     text-decoration: underline; }
+    .cover-section .edit-link a {
+      padding-right: 0px; }
     .cover-section .edit-link a:hover {
       background-color: #fff; }
 
