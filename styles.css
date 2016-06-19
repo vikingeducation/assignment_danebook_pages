@@ -63,6 +63,34 @@
     .cover-section .edit-link a:hover {
       background-color: #fff; }
 
+.main-content-header {
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 20px;
+  background-color: #eee; }
+  .main-content-header h2 {
+    display: inline-block;
+    margin-top: 10px; }
+  .main-content-header .btn-container {
+    text-align: right;
+    margin-top: 10px; }
+    .main-content-header .btn-container a {
+      background-color: #3B5998;
+      border-color: black; }
+
+.info-section {
+  border: 1px solid black;
+  boder-top: 0px;
+  margin-bottom: 100px; }
+  .info-section li {
+    margin-bottom: 10px; }
+  .info-section .topics li {
+    font-weight: bold; }
+  .info-section .identifying-info {
+    margin-left: 20px; }
+  .info-section .personal-info p:last-child {
+    margin-bottom: 50px; }
+
 @media (min-width: 1200px) {
   .container {
     max-width: 970px; } }
