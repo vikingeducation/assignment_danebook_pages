@@ -67,7 +67,8 @@
   text-align: center;
   border: 1px solid black;
   margin-top: 20px;
-  background-color: #eee; }
+  background-color: #eee;
+  height: 56px; }
   .main-content-header h2 {
     display: inline-block;
     margin-top: 10px; }
@@ -83,13 +84,27 @@
   boder-top: 0px;
   margin-bottom: 100px; }
   .info-section li {
-    margin-bottom: 10px; }
+    margin-bottom: 30px; }
   .info-section .topics li {
     font-weight: bold; }
   .info-section .identifying-info {
     margin-left: 20px; }
   .info-section .personal-info p:last-child {
     margin-bottom: 50px; }
+
+.save-button {
+  background-color: #3B5998;
+  border-color: black;
+  width: 100%;
+  height: 60px;
+  font-size: 25px;
+  line-height: 48px;
+  margin: 50px 0; }
+  .save-button:hover {
+    background-color: #3B5998; }
+
+html, body {
+  min-width: 768px; }
 
 @media (min-width: 1200px) {
   .container {

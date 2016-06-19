@@ -1,6 +1,11 @@
 @import "about";
 @import "main-content-box";
 @import "about-content-box";
+@import "edit-about-content-box";
+
+html, body {
+  min-width: 768px
+} 
 
 @media (min-width: 1200px) {
     .container{
