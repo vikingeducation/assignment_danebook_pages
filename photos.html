@@ -1,1 +1,140 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Welcome to Danebook</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="navbar-header">
+				        <a href="timeline.html" class="navbar-left brand-img"><img src="imgs/danish_flag.gif"></a>
+				        <a class="navbar-brand" href="timeline.html"><span class="brand-text">Danebook</span></a>
+				    </div>
+			        <div class="col-xs-8">
+				        <form class="navbar-form" role="search">
+					        <div class="form-group">
+					            <input type="text" class="form-control" placeholder="Search for Users">
+					        </div>
+				        </form>
+			        </div>
+			        <ul class="nav navbar-nav navbar-right">
+			            <li><a href="about.html">Harry</a></li>
+			        </ul>
+		        </div>
+			</div>
+		</nav>
+		<div class="container cover-section">
+			<div class="cover-photo-container">
+				<img class="cover-photo" src="imgs/hogwarts_small.jpg">
+				<img class="profile-img" src="imgs/harry_potter_small.jpg">
+				<h2 class="profile-name">Harry Potter</h2>
+			</div>
+			<div class="row midde-nav-row">
+				<div class="col-xs-7 col-xs-offset-3">
+					<ul class="nav nav-pills middle-nav">
+					  <li><a href="timeline.html">Timeline</a></li>
+					  <li><a href="about.html">About</a></li>
+					  <li><a class="selected" href="photos.html">Photos <span class="middle-nav-count">(123)</span></a></li>
+					  <li><a href="friends.html">Friends <span class="middle-nav-count">(542)</span></a></li>
+					</ul>
+				</div>
+				<div class="col-xs-2">
+					<ul class="nav nav-pills">
+					  <li class="pull-right edit-link" role="presentation"><a href="about_edit.html">Edit Profile</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div class="container about-info-container">
+			<header>
+				<div class="row main-content-header">
+					<div class="col-xs-2 col-xs-offset-5">
+						<h2>Photos</h2>
+					</div>
+					<div class="col-xs-3 pull-right h2 btn-container">
+						<a class="btn btn-primary" href="about_edit.html">Add Photo!</a>
+					</div>
+				</div>	
+			</header>
+			
+			<div class="row photos-section-container">
+				<section class="clearfix">
+					<div class="col-xs-3">
+						<a href="#">
+							<div class="img-overlay img-center">
+								<img class="img-responsive" src="imgs/icon_photo_small.png">
+								<div class="project-overlay"></div>
+							</div>
+						</a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+				</section>
+
+				<section class="clearfix">
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+				</section>
+
+				<section class="clearfix">
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+				</section>
+				<section class="clearfix">
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+					<div class="col-xs-3">
+						<a href="#"><img class="img-center img-responsive" src="imgs/icon_photo_small.png"></a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+
+
+
+	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</body>
+</html><!-- Your markup here! -->

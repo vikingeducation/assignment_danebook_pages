@@ -1,0 +1,24 @@
+.img-center {
+	margin: 0 auto;
+	width: 150px; 
+}
+
+.photos-section-container {
+	border: 1px solid black;
+	margin-bottom: 50px;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50%;
+    &:hover {
+    	background-color: rgba(41,128,185,0.9);
+    }
+}
+
+.img-overlay {
+    position: relative;
+    max-width: 150px; //whatever your max-width should be 
+}
