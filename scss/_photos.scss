@@ -1,24 +1,40 @@
-.img-center {
-	margin: 0 auto;
-	width: 150px; 
-}
-
 .photos-section-container {
 	border: 1px solid black;
 	margin-bottom: 50px;
 }
 
-.project-overlay {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 50%;
-    &:hover {
-    	background-color: rgba(41,128,185,0.9);
-    }
-}
-
 .img-overlay {
-    position: relative;
-    max-width: 150px; //whatever your max-width should be 
+    position:relative;
+    width:150px;
+    height:150px;
+    margin: 0 auto;
+}
+.img-overlay img {
+    width:100%;
+    vertical-align:top;
+}
+.img-overlay:after, .img-overlay:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.img-overlay:after {
+    content:'\A';
+    width:100%; height:30%;
+    top:70%;
+    background:rgba(0,0,0,0.6);
+}
+.img-overlay:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+    bottom:0;
+    padding:4px 10px;
+    text-align:center;
+    // background:red;
+}
+.img-overlay:hover:after, .img-overlay:hover:before {
+    opacity:1;
 }
