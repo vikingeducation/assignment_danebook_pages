@@ -229,6 +229,7 @@ d1v {
 
 .post-content {
 	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .float-right {
@@ -237,5 +238,9 @@ d1v {
 
 .footer-link {
 	margin: 3px 8px 3px 0;
+	text-decoration: underline;
+}
+
+.user-link {
 	text-decoration: underline;
 }

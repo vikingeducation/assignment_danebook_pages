@@ -186,13 +186,17 @@ d1v {
   margin-top: 5px; }
 
 .post-content {
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 10px; }
 
 .float-right {
   float: right; }
 
 .footer-link {
   margin: 3px 8px 3px 0;
+  text-decoration: underline; }
+
+.user-link {
   text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */
