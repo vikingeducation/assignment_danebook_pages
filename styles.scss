@@ -1,4 +1,4 @@
-div1 {
+d1v {
 	border: 1px solid pink;
 }
 
@@ -160,4 +160,52 @@ div1 {
 	background-color: #2B78E4;
 	border: 2px solid black;
 	box-shadow: 5px 5px 5px black;
+}
+
+#timeline-main {
+	margin-bottom: 10px;
+}
+
+#left-column p:first-child {
+	margin-top: 20px;
+}
+
+
+.left-column {
+	margin-left: -15px;
+	height: 100%;
+	background-color: #eee;
+	border: 2px solid black;
+	border-bottom: 0;
+}
+
+.border-3sides {
+	border: 2px solid black;
+	border-bottom: 0;
+}
+
+.border-bottom {
+	border-bottom: 2px solid black;
+}
+
+#timeline-photos {
+	margin-top: 20px;
+}
+
+#post-input-div textarea {
+	width: 100%;
+	margin: 14px 0 14px 0;
+	height: 70px;
+	padding-left: 6px;
+}
+
+#post-button {
+	margin: 10px;
+	margin-left: -10px;
+	font-size: 1.4em;
+	background-color: #2B78E4;
+	color: white;
+	border: 2px solid black;
+	box-shadow: 2px 4px 4px black;
+	padding: 0 20px;
 }

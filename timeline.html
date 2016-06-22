@@ -40,7 +40,7 @@
 			</div>
 		</nav>
 
-		<main class="container" id="main">
+		<main class="container" id="timeline-main">
 			<div class="row">
 				<div class="col-xs-12" id="cover-photo">
 				</div>	
@@ -70,104 +70,62 @@
 				</div>
 			</div>	
 		</main>
-		<div id="about" class="container">
-			<header class="row" id="row-header">
-				<div class="col-xs-2 col-xs-offset-5 content-center">
-					<h1 id="about-header">About</h1>	
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-4" id="left-column">
+					<header class="row content-center grey-background" id="timeline-about">
+						<div class="col-sm-12 border-3sides">
+							<h4>About (Text Area)</h4>
+						</div>
+					</header>
+					<div class="row border-3sides border-bottom">
+						<div class="col-sm-10 col-sm-offset-1">
+							<p><strong>Born on:</strong> July 31st, 1980</p>
+							<p><strong>Went to school at:</strong> Howarts</p>
+							<p><strong>Hometown:</strong> Godrick's Hollow, England</p>
+							<p><strong>Currently Lives:</strong> Godrick's Hollow</p>
+						</div>
+					</div>
+
+					<header class="row content-center grey-background" id="timeline-photos">
+						<div class="col-sm-12 border-3sides">
+							<h4>Photos (123) (Copied Text Area)</h4>
+						</div>
+						<!--finish photo section here-->
+					</header>
+
+					<!--insert friends section here -->
+
+
 				</div>
-				<div class="col-xs-2 col-xs-offset-3 content-center">
-					<input type="button" id="edit-button" value="Edit your Profile">
-				</div>
-			</header>
-			<div class="row" id="about-content">
-				<!--col-5 on the left and col-7 on the right
-				-contact info leaves at least 1 column on the right for padding
-				-make sure about me lines up with hometown on the left and the 2nd lorem ipsum lines up with the next line-->
-				<div class="col-xs-5" id="basic-and-contact-info">
-					<div class="row">
-						<div class="col-xs-11 col-xs-offset-1">
-							<h2>Basic Information</h2>
-						</div>	
-					</div>
-					<div class="row">
-						<div class="col-xs-1 col-xs-offset-1">
-							<h4>Birthday:</h4>
+
+				<div class="col-sm-7 col-sm-offset-1" id="right-column">
+					<header class="row content-center grey-background border-3sides">
+						<div class="col-sm-12">
+							<h4>Post (copied)</h4>
 						</div>
-						<div class="col-xs-4 col-xs-offset-3">
-							<h4 class="not-bold">July 31st 1980</h4>
-						</div>	
-					</div>
+					</header>
 					<div class="row">
-						<div class="col-xs-1 col-xs-offset-1">
-							<h4>College:</h4>
+						<div class="col-sm-12 border-3sides">
+							<div id="post-input-div">
+								<textarea placeholder="Tell the world something..."></textarea>
+							</div>
 						</div>
-						<div class="col-xs-5 col-xs-offset-3">
-							<h4 class="not-bold">Hogwarts College</h4>
-						</div>	
 					</div>
-					<div class="row">
-						<div class="col-xs-1 col-xs-offset-1">
-							<h4>Hometown:</h4>
+					<div class="row grey-background border-3sides border-bottom">
+						<div class="col-sm-2 col-sm-offset-10">
+							<input type="button" id="post-button" value="Post">	
 						</div>
-						<div class="col-xs-7 col-xs-offset-3">
-							<h4 class="not-bold">Godrick's Hollow, England</h4>
-						</div>	
-					</div>
-					<div class="row">
-						<div class="col-xs-5 padding-left-super">
-							<h4>Currently Lives:</h4>
-						</div>
-						<div class="col-xs-7">
-							<h4 class="not-bold">Godrick's Hollow, England</h4>
-						</div>	
-					</div>
-					<div class="row" id="contact-information">
-						<header class="col-xs-11 col-xs-offset-1">
-							<h2>Contact Information</h2>
-						</header>
-					</div>
-					<div class="row">
-						<div class="col-xs-5 padding-left-super">
-							<h4>Email:</h4>
-						</div>
-						<div class="col-xs-7">
-							<h4 class="not-bold">harry_potter@hogwarts.edu</h4>
-						</div>	
-					</div>
-					<div class="row">
-						<div class="col-xs-5 padding-left-super">
-							<h4>Telephone:</h4>
-						</div>
-						<div class="col-xs-7">
-							<h4 class="not-bold">555-123-4567</h4>
-						</div>	
 					</div>
 				</div>
-				<div class="col-xs-7" id="words-and-about-me">
-					<div class="row padding-left">
-						<header class="col-xs-12">
-							<h2>Words to Live By</h2>
-						</header>	
-					</div>
-					<div class="row padding-left">
-						<div class="col-xs-11">
-							<p id="live-words">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci perspiciatis, beatae sapiente deserunt consectetur dolor in quas voluptatibus cum.</p>
-						</div>	
-					</div>
-					<div class="row padding-left">
-						<header class="col-xs-12">
-							<h2 id="about-me-title">About Me</h2>
-						</header>	
-					</div>
-					<div class="row padding-left">
-						<div class="col-xs-11">
-							<p id="live-words">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci perspiciatis, beatae sapiente deserunt consectetur dolor in quas voluptatibus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur doloremque eligendi mollitia cum labore temporibus voluptate nobis odit excepturi fugit maiores ipsum ex repellendus deleniti consequatur, provident ut rem error!</p>
-						</div>	
-					</div>
-				</div>
-			</div>
+			</header>					
+
 		</div>
+
 	</div>
+</div>
+</div>
 </div>
 
 </main>
