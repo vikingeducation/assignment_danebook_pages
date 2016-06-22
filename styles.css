@@ -1,3 +1,6 @@
+div1 {
+  border: 1px solid pink; }
+
 #navbar {
   background-color: #2B78E4;
   height: 80px;
@@ -22,5 +25,49 @@
 
 #current-user {
   color: white; }
+
+#cover-photo {
+  height: 500px;
+  width: 100%;
+  /*google for background image fill property*/
+  background-image: url("images/hogwarts_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border: 2px solid black; }
+
+#profile-photo {
+  position: absolute;
+  top: -250px;
+  left: -17px;
+  transform: scale(0.8);
+  border: 2px solid black; }
+
+#nav-options {
+  border: 2px solid black; }
+
+#nav-options a {
+  margin: 10px; }
+
+.float-right {
+  float: right; }
+
+.content-center {
+  text-align: center; }
+
+#nav-options h4 {
+  margin-left: 0; }
+
+.border-left {
+  border-left: 2px solid black; }
+
+.border-right {
+  border-right: 2px solid black; }
+
+.grey-out {
+  color: grey; }
+
+#about {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

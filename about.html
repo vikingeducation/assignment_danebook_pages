@@ -10,6 +10,7 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>	
 
@@ -25,17 +26,60 @@
 				</div>
 				<form class="navbar-form navbar-middle">
 
-					<div class="col-xs-7 form-group">
+					<div class="col-xs-8 form-group">
 						<input class="form-control" type="text" width="100%" id="user-search" placeholder="Search for Users">
 					</div>
 
 				</form>
-				<div class="col-xs-1 col-xs-offset-2">
+				<div class="col-xs-1 col-xs-offset-1">
 					<h4 id="current-user">Harry</h3>
+					</div>	
+				</div>
+			</div>
+		</nav>
+
+		<main class="container" id="main">
+			<div class="row">
+				<div class="col-xs-12" id="cover-photo">
 				</div>	
 			</div>
-		</div>
-	</nav>
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="profile-photo">
+						<img src="images/harry_potter_small.jpg">
+					</div>
+				</div>
+			</div>
+			<!--plan: put the profile photo in its own row, then position it "absolutely" so that the row it exists in disappears and ligns up with the nav buttons-->
+			<div class="row" id="nav-options">
+				<div class="col-xs-2 col-xs-offset-2 content-center border-right border-left">
+					<h4>Timeline</h4>	
+				</div>
+				<div class="col-xs-2 content-center border-right">
+					<h4>About</h4>	
+				</div>
+				<div class="col-xs-2 content-center  border-right">
+					<h4>Photos<span class="grey-out">(123)</span></h4>	
+				</div>
+				<div class="col-xs-2 content-center border-right">
+					<h4>Friends<span class="grey-out">(542)</span></h4>	
+				</div>
+				<div class="col-xs-2">
+					<a href="#" class="float-right">Edit Profile</a>
+				</div>
+			</div>	
+			<div id="about">
+			<header class="row">
+				<div class="col-xs-2 col-xs-offset-5 content-center">
+					<h1>About</h1>	
+				</div>
+				<div class="col-xs-1 col-xs-offset-4
+			</header>
+			</div>
+			
+		</main>
+		
+	</main>
 
 
 
@@ -44,5 +88,6 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+	<script src="bootstrap.min.js"></script>
 </body>
 </html>
