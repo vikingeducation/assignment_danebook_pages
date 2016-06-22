@@ -181,8 +181,8 @@ d1v {
   padding-top: 10px; }
 
 .small-profile-photo {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   margin-top: 5px; }
 
 .post-content {
@@ -196,7 +196,31 @@ d1v {
   margin: 3px 8px 3px 0;
   text-decoration: underline; }
 
+.grey-border-bottom {
+  border-bottom: 1px solid grey; }
+
 .user-link {
   text-decoration: underline; }
+
+.comment {
+  margin-top: 10px; }
+
+.write-comment {
+  margin-top: 40px;
+  margin-bottom: 8px;
+  width: 100%;
+  height: 80px;
+  padding: 5px; }
+
+#comment-button {
+  margin: 10px 10px 20px 28px;
+  background-color: #2B78E4;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 2px 4px 4px black;
+  padding: 0 20px; }
+
+#page-end {
+  margin-bottom: 40px; }
 
 /*# sourceMappingURL=styles.css.map */
