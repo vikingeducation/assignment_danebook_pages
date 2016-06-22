@@ -150,6 +150,10 @@ d1v {
   border: 2px solid black;
   border-bottom: 0; }
 
+.border-2sides {
+  border-left: 2px solid black;
+  border-right: 2px solid black; }
+
 .border-bottom {
   border-bottom: 2px solid black; }
 
@@ -171,5 +175,24 @@ d1v {
   border: 2px solid black;
   box-shadow: 2px 4px 4px black;
   padding: 0 20px; }
+
+#posts-section {
+  margin-top: 10px;
+  padding-top: 10px; }
+
+.small-profile-photo {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px; }
+
+.post-content {
+  padding-top: 20px; }
+
+.float-right {
+  float: right; }
+
+.footer-link {
+  margin: 3px 8px 3px 0;
+  text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */
