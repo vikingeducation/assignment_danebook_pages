@@ -124,10 +124,6 @@ div1 {
 	border: 1px solid black;
 }
 
-#live-words {
-	line-height: 1.8em;
-}
-
 #about-content {
 	padding-top: 20px;
 }
@@ -142,4 +138,14 @@ div1 {
 
 .grey-background {
 	background-color: #EEEEEE;
+}
+
+.long-input {
+	line-height: 1.8em;
+	width: 100%;
+	padding: 10px 5px;
+}
+
+.tall-input {
+	height: 200px;
 }
