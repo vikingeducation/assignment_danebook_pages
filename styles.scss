@@ -41,6 +41,8 @@ div1 {
 	background-position: center;
 	position: relative;
 	border: 2px solid black;
+	border-bottom: 0;
+	background-size: 100%;
 }
 
 #profile-photo {
@@ -57,6 +59,13 @@ div1 {
 
 #nav-options a {
 	margin: 10px;
+	text-decoration: underline;
+	margin-top: 16px;
+}
+
+#nav-options h4 {
+	margin: 15px;
+	margin-left: 0;
 }
 
 .float-right {
@@ -64,9 +73,6 @@ div1 {
 }
 .content-center {
 	text-align: center;
-}
-#nav-options h4 {
-	margin-left: 0;
 }
 
 .border-left {
@@ -79,10 +85,6 @@ div1 {
 
 .grey-out {
 	color: grey;
-}
-
-.profile-nav {
-	
 }
 
 #about {
@@ -114,10 +116,12 @@ div1 {
 }
 
 #edit-button {
-	margin-top: 16px;
+	margin-top: 13px;
 	background-color: #2B78E4;
 	color: white;
 	padding: 5px 15px;
+	box-shadow: 3px 3px 3px black;
+	border: 1px solid black;
 }
 
 #live-words {

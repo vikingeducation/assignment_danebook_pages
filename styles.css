@@ -34,7 +34,9 @@ div1 {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  border: 2px solid black; }
+  border: 2px solid black;
+  border-bottom: 0;
+  background-size: 100%; }
 
 #profile-photo {
   position: absolute;
@@ -47,16 +49,19 @@ div1 {
   border: 2px solid black; }
 
 #nav-options a {
-  margin: 10px; }
+  margin: 10px;
+  text-decoration: underline;
+  margin-top: 16px; }
+
+#nav-options h4 {
+  margin: 15px;
+  margin-left: 0; }
 
 .float-right {
   float: right; }
 
 .content-center {
   text-align: center; }
-
-#nav-options h4 {
-  margin-left: 0; }
 
 .border-left {
   border-left: 2px solid black; }
@@ -90,10 +95,12 @@ div1 {
   margin-top: 10px; }
 
 #edit-button {
-  margin-top: 16px;
+  margin-top: 13px;
   background-color: #2B78E4;
   color: white;
-  padding: 5px 15px; }
+  padding: 5px 15px;
+  box-shadow: 3px 3px 3px black;
+  border: 1px solid black; }
 
 #live-words {
   line-height: 1.8em; }
