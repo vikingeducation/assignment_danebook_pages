@@ -1,0 +1,30 @@
+/*   */
+body {
+  padding-top: 70px; }
+
+#navcolor {
+  background-color: #418EFF;
+  height: 60px; }
+
+h1 {
+  display: inline; }
+
+#logoimg {
+  float: left;
+  margin-top: 5px;
+  padding-left: 0px; }
+
+#logotxt {
+  padding-left: 20px;
+  line-height: 20px;
+  padding-top: 8px;
+  padding-right: 0px;
+  color: white; }
+
+#search {
+  width: 100%; }
+
+#harry {
+  color: white; }
+
+/*# sourceMappingURL=styles.css.map */
