@@ -47,15 +47,16 @@ d1v {
 
 #nav-options {
   border: 2px solid black; }
-
-#nav-options a {
-  margin: 10px;
-  text-decoration: underline;
-  margin-top: 16px; }
-
-#nav-options h4 {
-  margin: 15px;
-  margin-left: 0; }
+  #nav-options a {
+    margin: 10px;
+    text-decoration: underline;
+    margin-top: 16px; }
+  #nav-options h4 {
+    margin: 15px;
+    margin-left: 0; }
+  #nav-options a.main-nav {
+    text-decoration: none;
+    color: black; }
 
 .float-right {
   float: right; }

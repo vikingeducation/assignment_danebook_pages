@@ -55,17 +55,22 @@ d1v {
 
 #nav-options {
 	border: 2px solid black;
-}
 
-#nav-options a {
-	margin: 10px;
-	text-decoration: underline;
-	margin-top: 16px;
-}
+	a {
+		margin: 10px;
+		text-decoration: underline;
+		margin-top: 16px;
+	}
+	h4 {
+		margin: 15px;
+		margin-left: 0;
+	}
 
-#nav-options h4 {
-	margin: 15px;
-	margin-left: 0;
+	a.main-nav {
+		text-decoration: none;
+		color: black;
+	}
+
 }
 
 .float-right {
@@ -335,5 +340,6 @@ d1v {
 		box-shadow: 4px 4px 1px black;
 	}
 }
+
 
 
