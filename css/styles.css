@@ -34,9 +34,15 @@
 .mright {
   margin: 1.5em; }
 
+.mbottom {
+  margin: 1.5em; }
+
 .btn-extra {
   width: 40%;
   margin: 3em; }
+
+.spaced {
+  margin: 0.5em; }
 
 .navbar-default {
   background-color: royalblue; }
@@ -110,7 +116,10 @@
   color: lightgray; }
 
 .section-heading {
-  margin-top: 2em;
   background-color: lightgray; }
+
+.post-form {
+  width: 95%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=styles.css.map */
