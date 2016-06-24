@@ -226,4 +226,24 @@ div .friend-box {
   width: 50%;
   display: inline-block; }
 
+/*           PHOTOS               */
+#link-box3-current {
+  background-color: #ddd;
+  height: 100%;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  margin-right: 0px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 14%; }
+  #link-box3-current a {
+    color: black; }
+
+div .photo-thumb {
+  justify-content: center; }
+  div .photo-thumb img {
+    margin-left: 15%; }
+
 /*# sourceMappingURL=styles.css.map */
