@@ -130,7 +130,7 @@ h5 {
 
 #about-row {
   background-color: #ddd;
-  margin-top: 30px;
+  margin-top: 20px;
   height: 45px;
   padding: 0px;
   border: solid black 1px;
@@ -242,4 +242,41 @@ div .delete-link {
 
 #comment-area {
   margin-top: 20px;
+}
+
+/*          FRIENDS            */
+
+#link-box4-current {
+  background-color: #ddd;
+  height: 100%;
+  padding-left: 10px;
+  border-right: solid black 1px;
+  text-align: center;
+  width: 14%;
+  a {
+    color: black;
+  }
+}
+
+div .friends-content {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+div .friend-box {
+  margin-bottom: 15px;
+  padding-bottom: 0;
+}
+
+#unfriend-btn {
+  background-color: #ddd;
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+
+}
+#friend-name {
+  width: 50%;
+  display: inline-block;
+
 }
