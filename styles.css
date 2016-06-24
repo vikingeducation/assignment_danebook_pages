@@ -138,4 +138,15 @@ h3 {
   #link-box2-current a {
     color: black; }
 
+/*      TIMELINE      */
+#link-box1-current {
+  border-left: solid black 1px;
+  text-align: center;
+  width: 12%;
+  height: 100%;
+  line-height: 20px;
+  background-color: #ddd; }
+  #link-box1-current a {
+    color: black; }
+
 /*# sourceMappingURL=styles.css.map */
