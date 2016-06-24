@@ -1,0 +1,26 @@
+
+.bgimage {
+width: 100%;
+position: relative;
+}
+
+.img-responsive {
+max-width:100%;
+height:auto;
+}
+
+
+
+.img-on-top {
+position:absolute;
+z-index:99;
+left:1.5%;
+bottom:-27%;
+clip: rect(0px,260px,200px,20px);
+}
+
+.img-main {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
