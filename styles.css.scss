@@ -17,7 +17,7 @@ h1{
 
 #logoimg {
   float: left;
-  margin-top: 5px;
+  margin-top: 10px;
   padding-left: 0px;
 }
 
@@ -36,6 +36,7 @@ h1{
 
 #harry {
   color: white;
+  float: right;
 }
 
 /*                  ABOUT             */
@@ -75,7 +76,18 @@ h5 {
   height: 40px;
 }
 
-#link-box {
+#link-box1 {
+  border-left: solid black 1px;
+  text-align: center;
+  width: 12%;
+  a {
+    color: black;
+  }
+  height: 100%;
+  line-height: 20px;
+}
+
+#link-box2 {
   border-left: solid black 1px;
   text-align: center;
   width: 12%;
@@ -139,4 +151,24 @@ h5 {
   border: solid black 1px;
   border-top: 0;
   margin-bottom: 40px;
+}
+
+/*       EDIT        */
+
+#save-btn {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  line-height: 40px;
+}
+
+#link-box2-current {
+  border-left: solid black 1px;
+  text-align: center;
+  width: 12%;
+  a {
+    color: black;
+  }
+  height: 100%;
+  line-height: 20px;
+  background-color: #ddd;
 }
