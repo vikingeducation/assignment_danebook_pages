@@ -21,32 +21,50 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="row">
-                    <div class="navbar-header col-xs-3">
+                    <div class="navbar-header col-md-3 col-xs-6">
                         <a href="/home.html" class="navbar-left"><img class="img-circle" src="Images/logo.gif" alt="logo"></a>
                         <a class="navbar-brand" href="#">Danebook</a>
                     </div>
-                    <form role="form" class="col-xs-6">
+                    <form role="form" class="col-md-6 hidden-xs hidden-sm">
                         <div class="form-group">
                             <input type="text" class="form-control" id="search" placeholder="search">
                         </div>
                     </form>
-                    <div class="username col-xs-3">
+                    <div class="username col-md-3 col-xs-6">
                         <h4>Harry</h4></div>
                 </div>
             </div>
         </nav>
         <!-- End of navbar -->
         <div class="container">
+          <div class="row"></div>
             <div class="col-xs-12 bgimage">
-              <img class="img-responsive img-main" src="Images/hogwarts_small.jpg" alt="hogwarts">  
-                <img class="img-responsive img-on-top" src="Images/harry_potter_small.jpg" alt="" class="img-thumbnail" >
-            
+                <img class="img-responsive img-main" src="Images/hogwarts_small.jpg" alt="hogwarts">
+                <img class="img-responsive img-on-top" src="Images/harry_potter_small.jpg" alt="" class="img-thumbnail">
+            </div>
           </div>
         </div>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="//code.jquery.com/jquery.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+        <!-- End of images -->
+        <div class="container tab-row">
+            <div class="row">
+              <div class="col-xs-3"></div>
+              <div class="col-xs-6">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#">Timeline</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Photos <span class="counter">(123)</span></a></li>
+                    <li><a href="#">Friends <span class="counter">(456)</span></a></li>
+                </ul>
+              </div>
+              <div class="col-xs-3 simple-link">
+                <a href="#">Edit Profile</a>
+              </div>
+              </div>
+            </div>
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="//code.jquery.com/jquery.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap.min.js"></script>
     </body>
 
 </html>

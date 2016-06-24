@@ -1,0 +1,33 @@
+.simple-link {
+  text-align: right;
+  padding: 0.5em 2em;
+  text-decoration: underline;
+}
+
+.tab-row {
+  border: solid 1px black;
+}
+
+.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+
+.nav-tabs > li > a {
+    
+    border-radius: 0;
+   border: solid 1px black;
+   font-size: 1.5em;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    background: #F5F5F5;
+    border: solid 1px black;
+    
+}
+
+.counter {
+  color: lightgray;
+}
