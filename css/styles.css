@@ -28,6 +28,16 @@
 .mleft {
   margin-left: 1.5em; }
 
+.form-control-label {
+  text-align: right; }
+
+.mright {
+  margin: 1.5em; }
+
+.btn-extra {
+  width: 40%;
+  margin: 3em; }
+
 .navbar-default {
   background-color: royalblue; }
 
