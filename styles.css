@@ -149,4 +149,52 @@ h3 {
   #link-box1-current a {
     color: black; }
 
+div .box-header {
+  background-color: #ddd;
+  text-align: center;
+  margin-top: 15px;
+  border: solid black 1px;
+  border-bottom: 0; }
+
+div .box-content {
+  border: solid black 1px;
+  padding-top: 15px;
+  padding-bottom: 8px; }
+
+div .box-foot {
+  background-color: #ddd;
+  border: solid black 1px;
+  border-top: 0;
+  margin-bottom: 30px; }
+
+div .center-link {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px; }
+
+div .user-img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  margin-right: 10px; }
+
+div .com-img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  float: right; }
+
+div .delete-link {
+  display: inline-block;
+  float: right; }
+
+#post-btn {
+  float: right;
+  margin: 8px 0; }
+
+#comment-area {
+  margin-top: 20px; }
+
 /*# sourceMappingURL=styles.css.map */
