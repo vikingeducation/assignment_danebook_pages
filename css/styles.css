@@ -44,6 +44,9 @@
 .spaced {
   margin: 0.5em; }
 
+.small-spaced {
+  margin: 0.25em; }
+
 .simple-link, .simple-link-left {
   text-align: right;
   padding: 0.5em 2em 0.5em 0;
