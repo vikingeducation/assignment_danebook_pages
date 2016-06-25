@@ -1,1 +1,363 @@
 <!-- Your markup here! -->
+<!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danebook: Timeline</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+          	<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
+          	Danebook
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          	<li class="navbar-search">
+	            <form class="navbar-form" role="search">
+			    	<input type="text" class="form-control" placeholder="Find Your Friends">
+		    	</form>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+            	<a href="./">User<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container banner-container">
+    	<div class="row banner-image-wrapper">
+    		<div class="col-sm-12">
+    			<img src="http://www.coldwellbankerbradrealty.in/wp-content/uploads/2015/03/project-cover-placeholder.jpg">
+    			<h2 class="banner-user-name">User</h2>
+    		</div>
+    	</div>
+
+    	<nav class="row banner-nav">
+    		<div class="col-sm-2 user-profile-wrapper">
+    			<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+    		</div>
+    		<div class="col-sm-5 col-sm-offset-3">
+    			<ul class="nav nav-pills">
+				  <li role="presentation" class="active"><a href="#">Timeline</a></li>
+				  <li role="presentation"><a href="about.html">About</a></li>
+				  <li role="presentation"><a href="photos.html">Photos (19)</a></li>
+				  <li role="presentation"><a href="friends.html">Friends (121)</a></li>
+				</ul>
+    		</div>
+    		<div class="col-sm-2 col-sm-offset-2">
+    			<ul class="nav nav-pills">
+				  <li class="edit-profile" role="presentation"><a href="about_edit.html">Edit Profile</a></li>
+				</ul>
+    		</div>
+    	</nav>
+    </div>
+
+    <main class="container timeline-wrapper">
+    	<div class="row">
+    		<section class="col-sm-4">
+    			<div class="row tile-wrapper">
+    				<div class="col-sm-12 timeline-about">
+    					<div class="row tile-header filled-area">
+	    					<header class="col-sm-12">
+	    						<h3>About (Text Area)</h3>
+	    					</header>
+    					</div>
+    					<div class="row">
+	    					<div class="col-sm-10 col-sm-offset-1">
+		    					<table>
+									<tr>
+										<td>Birthday:</td>
+										<td>Just 31st, 1980</td>
+									</tr>
+									<tr>
+										<td>College:</td>
+										<td>Hometown U</td>
+									</tr>
+									<tr>
+										<td>Hometown:</td>
+										<td>Pleasantville, USA</td>
+									</tr>
+									<tr>
+										<td>Currently Lives:</td>
+										<td>Pleasantville, USA</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+    				</div>
+    			</div>
+				<div class="row tile-wrapper">
+    				<div class="col-sm-12 timeline-photos">
+    					<div class="row tile-header filled-area">
+	    					<header class="col-sm-12">
+	    						<h3>Photos (19)</h3>
+	    					</header>
+    					</div>
+    					<div class="row">
+	    					<div class="col-sm-12">
+	    						<div class="row">
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    						</div>
+	    						<div class="row">
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    						</div>
+	    						<div class="row">
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    							<div class="col-sm-4">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    							</div>
+	    						</div>
+	    						<div class="row">
+	    							<footer class="col-sm-12 see-more-footer">
+	    								<a href="photos.html">See More Photos</a>
+	    							</footer>
+	    						</div>
+	    					</div>
+						</div>
+    				</div>
+    			</div>
+
+				<div class="row tile-wrapper">
+    				<div class="col-sm-12 timeline-friends">
+    					<div class="row tile-header filled-area">
+	    					<header class="col-sm-12">
+	    						<h3>Friends (121)</h3>
+	    					</header>
+    					</div>
+    					<div class="row">
+	    					<div class="col-sm-12">
+	    						<div class="row">
+	    							<div class="col-sm-4 img-tile">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    								<a href="#">First Last</a>
+	    							</div>
+	    							<div class="col-sm-4 img-tile">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    								<a href="#">First Last</a>
+	    							</div>
+	    							<div class="col-sm-4 img-tile">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    								<a href="#">First Last</a>
+	    							</div>
+	    						</div>
+	    						<div class="row">
+	    							<div class="col-sm-4 img-tile">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    								<a href="#">First Last</a>
+	    							</div>
+	    							<div class="col-sm-4 img-tile">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    								<a href="#">First Last</a>
+	    							</div>
+	    							<div class="col-sm-4 img-tile">
+	    								<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+	    								<a href="#">First Last</a>
+	    							</div>
+	    						<div class="row">
+	    							<footer class="col-sm-12 see-more-footer">
+	    								<a href="friends.html">See More Friends</a>
+	    							</footer>
+	    						</div>
+	    					</div>
+						</div>
+    				</div>
+    			</div>
+    		</section>
+    		<section class="col-sm-7 col-sm-offset-1">
+				<div class="row tile-wrapper">
+    				<div class="col-sm-12">
+    					<div class="row tile-header filled-area">
+	    					<header class="col-sm-12">
+	    						<h3>Post (copied)</h3>
+	    					</header>
+    					</div>
+    					<div class="row">
+	    					<div class="col-sm-10 col-sm-offset-1">
+		    					<textarea rows="3" placeholder="Tell the world something"></textarea>
+							</div>
+						</div>
+						<div class="row tile-footer filled-area">
+							<footer class="col-sm-12 post-creator">
+								<button class="blue-button">Post</button>
+							</footer>
+						</div>
+    				</div>
+    			</div>
+    			<div class="row tile-wrapper post">
+    				<div class="col-sm-12">
+    					<div class="row">
+	    					<header class="col-sm-12">
+	    						<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+	    						<div class="post-title-info">
+		    						<a href="#">User</a>
+		    						<p>Posted on Wednesday 6/1/2016</p>
+	    						</div>
+	    					</header>
+    					</div>
+    					<div class="row">
+	    					<div class="col-sm-12">
+								<p>What's Spanish for "I know you speak English?" I'm half machine. I'm a monster. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.</p>
+							</div>
+						</div>
+						<div class="row">
+							<footer class="col-sm-12 tile-footer filled-area">
+								<div class="post-actions">
+									<a href="#">Like</a>
+									<a href="#">Comment</a>
+									<a href="#">Delete</a>
+								</div>
+							</footer>
+						</div>
+    				</div>
+    			</div>
+    			<div class="row tile-wrapper post">
+    				<div class="col-sm-12">
+    					<div class="row">
+	    					<header class="col-sm-12">
+	    						<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+	    						<div class="post-title-info">
+		    						<a href="#">User</a>
+		    						<p>Posted on Wednesday 5/25/2016</p>
+	    						</div>
+	    					</header>
+    					</div>
+    					<div class="row">
+	    					<div class="col-sm-12">
+								<p>What's Spanish for "I know you speak English?" I'm half machine. I'm a monster. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.</p>
+							</div>
+						</div>
+						<div class="row">
+							<footer class="col-sm-12 tile-footer filled-area">
+								<div class="post-actions">
+									<a href="#">Like</a>
+									<a href="#">Comment</a>
+									<a href="#">Delete</a>
+								</div>
+								<div class="likes">
+									<p><a href="#">First Last</a> likes this.</p>
+								</div>
+							</footer>
+						</div>
+    				</div>
+    			</div>
+    			<div class="row tile-wrapper post">
+    				<div class="col-sm-12">
+    					<div class="row">
+	    					<header class="col-sm-12">
+	    						<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+	    						<div class="post-title-info">
+		    						<a href="#">User</a>
+		    						<p>Posted on Sunday 5/22/2016</p>
+	    						</div>
+	    					</header>
+    					</div>
+    					<div class="row">
+	    					<div class="col-sm-12">
+								<p>What's Spanish for "I know you speak English?" I'm half machine. I'm a monster. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.</p>
+							</div>
+						</div>
+						<div class="row">
+							<footer class="col-sm-12 tile-footer filled-area">
+								<div class="post-actions liked">
+									<a href="#">Unlike</a>
+									<a href="#">Delete</a>
+								</div>
+								<div class="likes">
+									<p>You and <a href="#">First Last</a> and 3 others like this.</p>
+								</div>
+								<hr>
+								<div class="comment">
+									<div class="commenter-image">
+										<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+									</div>
+									<div class="comment-content">
+										<header>
+											<p><a href="#">First Last</a> Said on Monday 5/23/2016:</p>
+										</header>
+										<div>
+											<p>For example, if you killed your grandfather, you'd cease to exist! You're going back for the Countess, aren't you? What are their names? Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!</p>
+										</div>
+										<footer class="comment-footer">
+											<p><a href="#">Like</a> 3 others like this</p>
+										</footer>
+									</div>
+								</div>
+								<div class="comment">
+									<div class="commenter-image">
+										<img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif">
+									</div>
+									<div class="comment-content">
+										<header>
+											<p><a href="#">First Last</a> Said on Tuesday 5/24/2016:</p>
+										</header>
+										<div>
+											<p>For example, if you killed your grandfather, you'd cease to exist! You're going back for the Countess, aren't you? What are their names? Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages!</p>
+										</div>
+										<footer class="comment-footer">
+											<span><a href="#">Like</a> 3 others like this</span>
+											<a href="#" class="comment-delete">Delete</a>
+										</footer>
+									</div>
+								</div>
+								<div class="comment-creator">
+									<textarea rows="3" placeholder="Write a comment..."></textarea>
+									<div>
+										<a href="#">Cancel</a>
+										<button class="blue-button">Comment</button>
+									</div>
+								</div>
+							</footer>
+						</div>
+    				</div>
+    			</div>
+    		</section>
+
+    	</div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+.filled-area {
+  background-color: #eee; }
+
+.blue-button, .about-container .about-edit-button, .about-container .button-wrapper button {
+  background: #2B78E4;
+  color: white;
+  border: 2px solid black;
+  border-radius: 0;
+  box-shadow: 2px 2px 3px black; }
+
+.navbar-fixed-top {
+  background: #2B78E4;
+  border-bottom: 2px solid black; }
+  .navbar-fixed-top img {
+    height: 25px;
+    border-radius: 50%;
+    display: inline; }
+  .navbar-fixed-top .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: bold; }
+  .navbar-fixed-top .icon-bar {
+    background: white !important; }
+  .navbar-fixed-top .navbar-nav {
+    width: 60%; }
+    .navbar-fixed-top .navbar-nav * {
+      border: none;
+      width: 100%; }
+    .navbar-fixed-top .navbar-nav .navbar-search {
+      margin-left: 15px; }
+  .navbar-fixed-top .navbar-right {
+    width: 8%; }
+    .navbar-fixed-top .navbar-right li a {
+      font-size: 20px;
+      font-weight: bold;
+      color: white; }
+
+.banner-image-wrapper {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black; }
+  .banner-image-wrapper div {
+    padding-left: 0;
+    padding-right: 0; }
+  .banner-image-wrapper img {
+    width: 100%; }
+  .banner-image-wrapper .banner-user-name {
+    position: absolute;
+    left: 220px;
+    bottom: 25px; }
+
+.banner-nav {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black; }
+  .banner-nav li {
+    border-left: 2px solid black; }
+  .banner-nav li:last-child {
+    border-right: 2px solid black; }
+  .banner-nav a {
+    width: 100%;
+    padding: 0;
+    font-weight: bold;
+    color: black; }
+  .banner-nav .nav-pills > li.active > a {
+    color: black;
+    background: #ddd; }
+  .banner-nav .edit-profile {
+    text-decoration: underline;
+    border-left: none;
+    border-right: none !important; }
+    .banner-nav .edit-profile a {
+      color: blue; }
+
+.user-profile-wrapper {
+  position: absolute;
+  bottom: 250px;
+  text-align: center; }
+  .user-profile-wrapper img {
+    height: 175px;
+    border: 2px solid black; }
+
+.about-container {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border: 2px solid black; }
+  .about-container header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black; }
+  .about-container section {
+    padding-top: 20px;
+    padding-bottom: 30px; }
+  .about-container .info-table td {
+    padding-top: 20px; }
+  .about-container .info-table td:nth-child(odd) {
+    font-weight: bold; }
+  .about-container .info-table td:nth-child(even) {
+    padding-left: 20px; }
+  .about-container .contact-info-table td:nth-child(even) {
+    padding-left: 50px; }
+  .about-container .about-narrative textarea {
+    width: 100%; }
+  .about-container .button-wrapper {
+    margin-top: 45px;
+    margin-bottom: 100px; }
+    .about-container .button-wrapper button {
+      width: 100%;
+      height: 2em;
+      font-size: 36px;
+      font-weight: bold; }
+
+.timeline-wrapper {
+  margin-bottom: 30px; }
+
+.tile-wrapper {
+  margin-top: 15px;
+  border: 2px solid black; }
+  .tile-wrapper .tile-header {
+    border-bottom: 2px solid black; }
+    .tile-wrapper .tile-header header {
+      text-align: center; }
+  .tile-wrapper .tile-footer {
+    border-top: 2px solid black; }
+    .tile-wrapper .tile-footer .post-creator {
+      text-align: right; }
+    .tile-wrapper .tile-footer button {
+      margin: 10px 0; }
+  .tile-wrapper textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 5px; }
+  .tile-wrapper img {
+    max-width: 100%; }
+
+.timeline-about table {
+  margin-bottom: 20px; }
+  .timeline-about table td {
+    padding-top: 20px; }
+  .timeline-about table td:nth-child(odd) {
+    font-weight: bold; }
+  .timeline-about table td:nth-child(even) {
+    padding-left: 20px; }
+
+.see-more-footer {
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px; }
+
+.timeline-friends .img-tile {
+  text-align: center;
+  text-decoration: underline; }
+
+.post {
+  font-size: 16px; }
+  .post img {
+    max-width: 65px;
+    margin-right: 10px; }
+  .post header {
+    padding: 5px 10px 15px 10px; }
+    .post header a {
+      text-decoration: underline; }
+    .post header .post-title-info {
+      display: inline-block;
+      vertical-align: middle; }
+      .post header .post-title-info p {
+        color: gray; }
+  .post .tile-footer .post-actions,
+  .post .tile-footer .likes {
+    margin-bottom: 15px; }
+  .post .tile-footer a {
+    text-decoration: underline;
+    font-size: 16px; }
+  .post .tile-footer .post-actions {
+    width: 100%; }
+    .post .tile-footer .post-actions a:not(:first-child) {
+      margin-left: 10px; }
+    .post .tile-footer .post-actions a:last-child {
+      margin-left: 72%; }
+  .post .tile-footer .liked a:last-child {
+    margin-left: 82%; }
+  .post .tile-footer hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent); }
+
+.comment {
+  display: flex;
+  margin-bottom: 15px; }
+  .comment .commenter-image {
+    display: inline-block; }
+  .comment .comment-content {
+    display: inline-block; }
+    .comment .comment-content p {
+      margin-left: 0; }
+  .comment .comment-delete {
+    margin-left: 61%; }
+
+.comment-creator button {
+  margin-left: 77% !important; }
+
+/*# sourceMappingURL=styles.css.map */
