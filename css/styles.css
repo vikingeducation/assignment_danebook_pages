@@ -99,7 +99,11 @@
 
 .img-responsive {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin: 0 auto; }
+
+.img-lg {
+  width: 90%; }
 
 .tab-row {
   border: solid 1px black; }
