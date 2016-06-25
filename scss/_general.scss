@@ -63,5 +63,12 @@
 .simple-link-left {
   @extend .simple-link;
   text-align: left;
-  padding-left: 2em;
+  padding-left: 0.5em;
+  padding-right: 0;
+
+}
+
+.mvert {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
