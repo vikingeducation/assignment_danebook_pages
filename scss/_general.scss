@@ -1,13 +1,30 @@
+body {
+  color: #555;
+}
+
 .section-heading {
-  background-color: lightgray;
+  background-color: whitesmoke;
 }
 
 .fine-border {
-  border: 1px solid black;
+  border: 1px solid darkgray;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
 }
 
+.border-btm {
+  border-bottom: 1px solid darkgray;
+}
+
+.border-top {
+  border-top: 1px solid darkgray;
+}
 .mtop {
   margin-top: 1.5em;
+}
+
+.mtop-lg {
+  margin-top: 3em;
 }
 
 .mleft {
@@ -17,6 +34,10 @@
 .btn-extra {
   width: 40%;
   margin: 3em
+}
+
+.btn-default {
+  background-color: whitesmoke;
 }
 
 .spaced {
@@ -65,7 +86,7 @@
 }
 
 .no-pright {
-  padding-left: 0;
+  padding-right: 0;
 }
 
 .pad-md {
@@ -74,4 +95,12 @@
 
 .counter {
   color: lightgray;
+}
+
+.col-xs-6 p {
+  color: darkgray;
+}
+
+.secondary-text {
+  color: darkgray;
 }
