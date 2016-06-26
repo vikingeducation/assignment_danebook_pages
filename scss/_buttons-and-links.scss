@@ -1,0 +1,28 @@
+.btn-extra {
+  width: 40%;
+  margin: 3em
+}
+
+.btn-default {
+  background-color: whitesmoke;
+}
+
+.link-text {
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-size: 1.2em
+}
+
+.simple-link {
+  text-align: right;
+  padding: 0.5em 2em 0.5em 0;
+  text-decoration: underline;
+}
+
+.simple-link-left {
+  @extend .simple-link;
+  text-align: left;
+  padding-left: 0.5em;
+  padding-right: 0;
+
+}

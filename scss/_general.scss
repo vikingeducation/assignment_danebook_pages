@@ -8,8 +8,6 @@ body {
 
 .fine-border {
   border: 1px solid darkgray;
-  border-left: 1px solid darkgray;
-  border-right: 1px solid darkgray;
 }
 
 .border-btm {
@@ -20,7 +18,7 @@ body {
   border-top: 1px solid darkgray;
 }
 .mtop {
-  margin-top: 1.5em;
+  margin-top: 1.25em;
 }
 
 .mtop-lg {
@@ -31,41 +29,12 @@ body {
   margin-left: 1.5em;
 }
 
-.btn-extra {
-  width: 40%;
-  margin: 3em
-}
-
-.btn-default {
-  background-color: whitesmoke;
-}
-
 .spaced {
   margin: 0.5em;
 }
 
 .spaced-lg {
   margin: 1.5em;
-}
-
-.link-text {
-  margin-bottom: 0;
-  text-decoration: underline;
-  font-size: 1.2em
-}
-
-.simple-link {
-  text-align: right;
-  padding: 0.5em 2em 0.5em 0;
-  text-decoration: underline;
-}
-
-.simple-link-left {
-  @extend .simple-link;
-  text-align: left;
-  padding-left: 0.5em;
-  padding-right: 0;
-
 }
 
 .mvert {
