@@ -1,0 +1,167 @@
+body {
+  color: #555; }
+
+.section-heading {
+  background-color: whitesmoke;
+  text-align: center; }
+
+.section-footer {
+  background-color: whitesmoke;
+  border: 1px solid darkgray;
+  clear: both; }
+
+.border-fine {
+  border: 1px solid darkgray; }
+
+.mtop {
+  margin-top: 1.25em; }
+
+.mtop-lg {
+  margin-top: 3em; }
+
+.mleft {
+  margin-left: 1.5em; }
+
+.spaced {
+  margin: 0.5em; }
+
+.spaced-lg {
+  margin: 1.5em; }
+
+.mvert {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em; }
+
+.pleft {
+  padding-left: 1.5em; }
+
+.no-pleft {
+  padding-left: 0; }
+
+.pad-md {
+  padding: 0.5em; }
+
+.counter {
+  color: lightgray; }
+
+.col-xs-6 p {
+  color: darkgray; }
+
+.secondary-text {
+  color: darkgray; }
+
+.navbar {
+  background-color: royalblue;
+  color: white; }
+
+.navbar-header img {
+  height: 2.5em;
+  margin: 0.5em; }
+
+.form-group {
+  margin: 0.5em 0; }
+
+.navbar-brand {
+  color: white;
+  font-size: 2em; }
+
+.bgimage {
+  width: 100%;
+  position: relative;
+  padding: 0; }
+
+.img-circle {
+  width: 2.5em;
+  height: 2.5em; }
+
+.img-on-top {
+  position: absolute;
+  z-index: 99;
+  left: 4%;
+  bottom: -5%; }
+
+.img-main {
+  width: 100%;
+  height: 500px;
+  overflow: hidden; }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
+.img-lg {
+  width: 90%; }
+
+.img-responsive-spaced {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0 1em 0; }
+
+.nav-tabs > li > a {
+  border-radius: 0;
+  border: solid 1px darkgray;
+  font-size: 1.5em; }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+  background: #F5F5F5;
+  border: solid 1px darkgray; }
+
+.form-control-label {
+  text-align: right;
+  margin: 0.25em 0; }
+
+.form-control {
+  margin: 0.25em auto; }
+
+.dl-horizontal {
+  *zoom: 1; }
+
+.dl-horizontal:before,
+.dl-horizontal:after {
+  display: table;
+  content: "";
+  line-height: 0; }
+
+.dl-horizontal:after {
+  clear: both; }
+
+.dl-horizontal dt {
+  float: left;
+  clear: left;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%; }
+
+.btn-extra {
+  width: 40%;
+  margin: 3em;
+  font-size: 1.2em; }
+
+.btn-default {
+  background-color: whitesmoke; }
+
+.link-text {
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-size: 1.2em; }
+
+.simple-link, .simple-link-left, .simple-link-right {
+  padding: 0.5em 0;
+  text-decoration: underline;
+  font-size: 1.2em; }
+
+.simple-link-left {
+  float: left;
+  padding-left: 0.5em;
+  padding-right: 0; }
+
+.simple-link-right {
+  float: right;
+  padding-right: 2em;
+  padding-left: 0; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,1 +1,107 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" media="screen">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar-header col-md-3 col-xs-6">
+                            <a href="timeline.html" class="navbar-left"><img class="img-circle" src="Images/logo.gif" alt="logo"></a>
+                            <a class="navbar-brand" href="timeline.html">Danebook</a>
+                        </div>
+                        <form role="form" class="col-md-6 hidden-xs hidden-sm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="search" placeholder="search">
+                            </div>
+                        </form>
+                        <div class="col-md-3 col-xs-6 mvert text-right">
+                            <h4>Harry</h4>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- End of navbar -->
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="row border-fine">
+                    <div class="col-xs-12 bgimage">
+                        <img class=" img-main img-responsive" src="images/hogwarts_small.png" alt="hogwarts">
+                        <img class=" img-on-top img-responsive" src="images/harry_square.png" alt="portrait of harry">
+                    </div>
+                </div>
+                <!-- End of images -->
+                <div class="row border-fine">
+                    <div class="col-xs-12 col-md-3"></div>
+                    <div class="col-xs-12 col-md-6">
+                        <ul class="nav nav-tabs">
+                            <li><a href="timeline.html">Timeline</a></li>
+                            <li class="active"><a href="about.html">About</a></li>
+                            <li><a href="photos.html">Photos <span class="counter">(123)</span></a></li>
+                            <li><a href="friends.html">Friends <span class="counter">(456)</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-3 hidden-xs hidden-sm hidden-md">
+                        <a class="simple-link-right" href="about_edit.html">Edit Profile</a>
+                    </div>
+                </div>
+                <!-- End of Tab Bar -->
+                <div class="row section-heading border-fine mtop">
+                    <div class="col-xs-12 section-heading">
+                        <h2 class="text-center">About<a href="about_edit.html" class="btn btn-primary pull-right">Edit Your Profile</a></h2>
+                    </div>
+                </div>
+                <div class="row border-fine">
+                    <section class="col-sm-5">
+                        <h4 class="mleft mtop">Basic Information</h4>
+                        <dl class="dl-horizontal">
+                            <dt class="col-sm-3">Birthday:</dt>
+                            <dd class="col-sm-9">20th July 1980</dd>
+                            <dt class="col-sm-3">College:</dt>
+                            <dd class="col-sm-9">Hogwarts College</dd>
+                            <dt class="col-sm-3">Currently Lives:</dt>
+                            <dd class="col-sm-9">Godrick's Hollow, England</dd>
+                            <dt class="col-sm-3">Hometown:</dt>
+                            <dd class="col-sm-9">Godrick's Hollow, England</dd>
+                        </dl>
+                        <h4 class="mleft mtop">Contact Information</h4>
+                        <dl class="dl-horizontal">
+                            <dt class="col-sm-3">Email:</dt>
+                            <dd class="col-sm-9">harry@potter.com</dd>
+                            <dt class="col-sm-3">Telephone:</dt>
+                            <dd class="col-sm-9">011-123-456</dd>
+                        </dl>
+                    </section>
+                    <section class="about-area col-sm-7 mtop">
+                        <h4>Words to Live By</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <h4 class="mtop-lg">About Me</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="//code.jquery.com/jquery.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>

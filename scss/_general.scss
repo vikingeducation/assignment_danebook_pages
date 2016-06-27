@@ -1,0 +1,67 @@
+body {
+    color: #555;
+}
+
+.section-heading {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.section-footer {
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    clear: both;
+}
+
+.border-fine {
+    border: 1px solid darkgray;
+}
+
+.mtop {
+    margin-top: 1.25em;
+}
+
+.mtop-lg {
+    margin-top: 3em;
+}
+
+.mleft {
+    margin-left: 1.5em;
+}
+
+.spaced {
+    margin: 0.5em;
+}
+
+.spaced-lg {
+    margin: 1.5em;
+}
+
+.mvert {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.pleft {
+    padding-left: 1.5em;
+}
+
+.no-pleft {
+    padding-left: 0;
+}
+
+.pad-md {
+    padding: 0.5em;
+}
+
+.counter {
+    color: lightgray;
+}
+
+.col-xs-6 p {
+    color: darkgray;
+}
+
+.secondary-text {
+    color: darkgray;
+}
