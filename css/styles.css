@@ -2,16 +2,16 @@ body {
   color: #555; }
 
 .section-heading {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  text-align: center; }
 
-.fine-border {
+.section-footer {
+  background-color: whitesmoke;
+  border: 1px solid darkgray;
+  clear: both; }
+
+.border-fine {
   border: 1px solid darkgray; }
-
-.border-btm {
-  border-bottom: 1px solid darkgray; }
-
-.border-top {
-  border-top: 1px solid darkgray; }
 
 .mtop {
   margin-top: 1.25em; }
@@ -35,14 +35,8 @@ body {
 .pleft {
   padding-left: 1.5em; }
 
-.ptop {
-  padding-top: 1.5em; }
-
 .no-pleft {
   padding-left: 0; }
-
-.no-pright {
-  padding-right: 0; }
 
 .pad-md {
   padding: 0.5em; }
@@ -56,40 +50,35 @@ body {
 .secondary-text {
   color: darkgray; }
 
-.navbar-default {
-  background-color: royalblue; }
+.navbar {
+  background-color: royalblue;
+  color: white; }
 
 .navbar-header img {
   height: 2.5em;
   margin: 0.5em; }
 
-.navbar .form-group {
+.form-group {
   margin: 0.5em 0; }
 
-.navbar .navbar-brand {
+.navbar-brand {
   color: white;
   font-size: 2em; }
-
-.username {
-  color: white;
-  text-align: right;
-  margin: 0.5em 0; }
-
-.navbar .img-circle {
-  width: 2.5em;
-  height: 2.5em; }
 
 .bgimage {
   width: 100%;
   position: relative;
   padding: 0; }
 
+.img-circle {
+  width: 2.5em;
+  height: 2.5em; }
+
 .img-on-top {
   position: absolute;
   z-index: 99;
-  left: 2%;
-  bottom: -31%;
-  -webkit-clip-path: inset(0% 0% 40% 15%); }
+  left: 4%;
+  bottom: -5%; }
 
 .img-main {
   width: 100%;
@@ -109,14 +98,6 @@ body {
   height: auto;
   margin: 1em 0 1em 0; }
 
-.tab-row {
-  border: solid 1px darkgray; }
-
-.nav-tabs {
-  margin: 0;
-  padding: 0;
-  border: 0; }
-
 .nav-tabs > li > a {
   border-radius: 0;
   border: solid 1px darkgray;
@@ -127,12 +108,12 @@ body {
   background: #F5F5F5;
   border: solid 1px darkgray; }
 
-.post-form {
-  width: 95%;
-  margin: 0 auto; }
-
 .form-control-label {
-  text-align: right; }
+  text-align: right;
+  margin: 0.25em 0; }
+
+.form-control {
+  margin: 0.25em auto; }
 
 .dl-horizontal {
   *zoom: 1; }
@@ -148,16 +129,17 @@ body {
 
 .dl-horizontal dt {
   float: left;
-  width: 160px;
   clear: left;
   text-align: right;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap; }
+  white-space: nowrap;
+  max-width: 100%; }
 
 .btn-extra {
   width: 40%;
-  margin: 3em; }
+  margin: 3em;
+  font-size: 1.2em; }
 
 .btn-default {
   background-color: whitesmoke; }
@@ -167,14 +149,19 @@ body {
   text-decoration: underline;
   font-size: 1.2em; }
 
-.simple-link, .simple-link-left {
-  text-align: right;
-  padding: 0.5em 2em 0.5em 0;
-  text-decoration: underline; }
+.simple-link, .simple-link-left, .simple-link-right {
+  padding: 0.5em 0;
+  text-decoration: underline;
+  font-size: 1.2em; }
 
 .simple-link-left {
-  text-align: left;
+  float: left;
   padding-left: 0.5em;
   padding-right: 0; }
+
+.simple-link-right {
+  float: right;
+  padding-right: 2em;
+  padding-left: 0; }
 
 /*# sourceMappingURL=styles.css.map */

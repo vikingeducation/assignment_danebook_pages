@@ -1,16 +1,20 @@
 
 .bgimage {
-width: 100%;
-position: relative;
-padding: 0;
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.img-circle {
+  width: 2.5em;
+  height: 2.5em;
 }
 
 .img-on-top {
 position:absolute;
 z-index:99;
-left: 2%;
-bottom:-31%;
--webkit-clip-path: inset(0% 0% 40% 15%);
+left: 4%;
+bottom:-5%;
 }
 
 .img-main {

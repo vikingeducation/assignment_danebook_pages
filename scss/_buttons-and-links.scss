@@ -1,6 +1,7 @@
 .btn-extra {
   width: 40%;
-  margin: 3em
+  margin: 3em;
+  font-size: 1.2em;
 }
 
 .btn-default {
@@ -14,15 +15,22 @@
 }
 
 .simple-link {
-  text-align: right;
-  padding: 0.5em 2em 0.5em 0;
+  padding: 0.5em 0;
   text-decoration: underline;
+  font-size: 1.2em;
 }
 
 .simple-link-left {
   @extend .simple-link;
-  text-align: left;
+  float: left;
   padding-left: 0.5em;
   padding-right: 0;
 
+}
+
+.simple-link-right {
+  @extend .simple-link;
+  float: right;
+  padding-right: 2em;
+  padding-left: 0;
 }

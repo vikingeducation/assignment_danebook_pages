@@ -1,18 +1,7 @@
 
 
-.tab-row {
-  border: solid 1px darkgray;
-}
-
-.nav-tabs {
-    margin: 0;
-    padding: 0;
-    border: 0;    
-}
-
 .nav-tabs > li > a {
-    
-    border-radius: 0;
+   border-radius: 0;
    border: solid 1px darkgray;
    font-size: 1.5em;
 }
@@ -21,6 +10,5 @@
 .nav-tabs > li.active > a:hover {
     background: #F5F5F5;
     border: solid 1px darkgray;
-    
 }
 
