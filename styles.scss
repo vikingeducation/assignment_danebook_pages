@@ -4,9 +4,13 @@ $base-color: #3b5998;
   width: 40px;
   height: 40px;
   position: relative;
-  top: -9px;
-  left: 6px;
+  top: -30px;
+  left: -47px;
   border-radius: 5px;
+}
+
+.navbar {
+  position: fixed;
 }
 
 .navbar-default {
@@ -31,13 +35,40 @@ $base-color: #3b5998;
 .container {
   #profile{
     border: 1px solid black;
-    height: 280px;
-    margin-top: -20;
+    height: 540px;
+    background: url(castle.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 70px solid white;
+    #avatar {
+      border: 1px solid black;
+      height: 180px;
+      width: 180px;
+      position: relative;
+      top: 280px;
+      background: url(harry.png);
+      background-size: 180px;
+      background-repeat: no-repeat;
+    }
+    .list-inline {
+      position: relative;
+      top: 288px;
+      left: 190px;
+      li {
+        border-radius: 1px;
+        margin-left: -3px;
+      }
+      li:last-child {
+        position: relative;
+        left: 400px;
+        font-size: 18px;
+      }
+    }
   }
 
   #about {
     border: 1px solid black;
-    height: 360px;
-    margin-top: 15px;
+    margin-top: -13px;
+    height: 780px;
   }
 }
