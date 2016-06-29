@@ -1,0 +1,22 @@
+main .photos {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  background: url("./imgs/icon_photo_small.png") no-repeat;
+  position: relative; }
+  main .photos .informations {
+    width: 150px;
+    height: 0;
+    background-color: #666;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s; }
+main .photos:hover .informations {
+  height: 24px; }
+
+/*# sourceMappingURL=photos.css.map */
