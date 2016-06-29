@@ -1,8 +1,31 @@
 #logo {
   width: 40px;
   height: 40px;
-  position: fixed;
-  top: 5px;
-  left: 108px;
-  border-radius: 5px;
-}
+  position: relative;
+  top: -9px;
+  left: 6px;
+  border-radius: 5px; }
+
+.navbar-default {
+  background-color: #3b5998;
+  border-color: #3b5998;
+  border-radius: 0; }
+  .navbar-default .navbar-brand, .navbar-default li {
+    color: white; }
+  .navbar-default .navbar-brand:hover {
+    color: #BCD8F5; }
+  .navbar-default #searchbox {
+    width: 600px;
+    height: 28px;
+    border-radius: 2px; }
+
+.container #profile {
+  border: 1px solid black;
+  height: 280px;
+  margin-top: -20; }
+.container #about {
+  border: 1px solid black;
+  height: 360px;
+  margin-top: 15px; }
+
+/*# sourceMappingURL=styles.css.map */
