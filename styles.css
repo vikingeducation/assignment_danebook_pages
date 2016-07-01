@@ -1,0 +1,100 @@
+* {
+  font-size: 12px;
+  font-family: Comic; }
+
+.navbar-fixed-top {
+  border: none;
+  color: white;
+  background-color: #3b5998;
+  height: 8%; }
+
+.navbar-form .form-control {
+  margin-top: 0px;
+  width: 100%; }
+
+form .form-control {
+  width: 100%;
+  margin-top: 0px; }
+
+.navbar-fixed-top img {
+  margin-top: 10px;
+  height: 20px;
+  width: 30px; }
+
+.navbar-default .navbar-brand {
+  color: white; }
+
+.main .nav .nav-pills {
+  width: 100%;
+  color: grey;
+  border: solid; }
+
+span.nav-default {
+  border: none; }
+
+.container-fluid {
+  padding: 0px; }
+
+.nav-pills li {
+  border: solid;
+  border-left-style: solid;
+  border-width: 0.5px; }
+
+.nav-pills li.pull-right.edit-link {
+  border: none; }
+
+.row .nav-default .container-fluid {
+  width: 100%; }
+
+.nav-default {
+  background-color: white;
+  border: solid;
+  border-width: 0.5px; }
+
+.container {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px; }
+
+.row.header-bar {
+  margin: 10px 0px 10px 0px;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  padding-bottom: 5px; }
+
+.main {
+  margin: 20px;
+  border: solid;
+  border-color: grey;
+  border-width: 0.5px; }
+
+.photo-container {
+  margin: 0px 0px -40px 0px; }
+
+.jumbotron {
+  background-image: url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg);
+  background-size: 60% 70%;
+  margin: 50px 20px 0px 20px;
+  padding: 20px 15px 0px 15px; }
+
+.jumbotron img {
+  height: 200px;
+  width: 150px;
+  border: solid;
+  border-color: black;
+  border-width: 0.5px; }
+
+.col-xs-9.col-xs-offset-3 {
+  padding: 0px; }
+
+p, li {
+  text-align: left; }
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  border: 0px;
+  padding: 0px;
+  margin: 0px; }
+
+/*# sourceMappingURL=styles.css.map */
