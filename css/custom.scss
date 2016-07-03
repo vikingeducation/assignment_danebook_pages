@@ -1,9 +1,10 @@
 body {
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 #site-logo {
-  border-radius: 25px;
+  border-radius: 50px;
 }
 
 .cover-photo-area {
@@ -71,6 +72,12 @@ body {
     text-align: right;
     line-height: 53px;
   }
+}
 
-
+form#user-edit-profile {
+  .form-inline {
+    input {
+      float:right;
+    }
+  }
 }
