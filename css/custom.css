@@ -96,4 +96,23 @@ section#timeline-posts section.post {
   section#timeline-posts section.post .post-links a:nth-child(2) {
     margin-left: 10px; }
 
+section#photo-gallery .thumbnail-container {
+  display: relative;
+  top: 0;
+  left: 0; }
+section#photo-gallery a.thumbnail {
+  display: relative;
+  top: 0;
+  left: 0; }
+section#photo-gallery p.image-hover-caption {
+  display: none;
+  position: relative;
+  top: -50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #eee;
+  text-align: center; }
+section#photo-gallery a:hover + p {
+  display: block; }
+
 /*# sourceMappingURL=custom.css.map */
