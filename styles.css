@@ -34,7 +34,15 @@
 #about .jumbotron {
   background-color: transparent;
   border-radius: 3px;
-  height: 500px;
+  height: 600px;
   border: 1px solid black; }
+  #about .jumbotron p {
+    font-size: 14px; }
+
+#block-button {
+  width: 700px; }
+
+.basic-info {
+  width: 250px; }
 
 /*# sourceMappingURL=styles.css.map */
