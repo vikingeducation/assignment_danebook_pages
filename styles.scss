@@ -22,25 +22,6 @@ $base-color: #3b5998;
     margin-left: 20px;
 }
 
-#main .jumbotron {
-  height: 500px;
-  border-radius: 3px;
-  background: url(castle.png) no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-  top: -21px;
-
-  .avatar {
-    border: 1px solid black;
-    height: 145px;
-    width:  145px;
-    position: relative;
-    top: 340px;
-    background: url(harry.png) no-repeat;
-    background-size: 100% 100%;
-  }
-}
-
 #about .jumbotron {
   background-color: transparent;
   border-radius: 3px;
@@ -57,4 +38,26 @@ $base-color: #3b5998;
 }
 .basic-info {
   width: 250px;
+}
+
+.img-thumbnail {
+
+}
+
+#about-buttons {
+  margin-left: 300px;
+  .btn {
+    padding: 15px;
+    margin: -10px 0 -10px 0;;
+  }
+}
+
+#avatar {
+  position: relative;
+  top: 80px;
+}
+
+#background {
+  background: url(castle.png) no-repeat;
+  background-size: 100% 100%;
 }
