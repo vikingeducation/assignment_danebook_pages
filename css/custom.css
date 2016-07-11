@@ -130,15 +130,13 @@ section#photo-gallery p.image-hover-caption {
 section#photo-gallery a:hover + p {
   display: block; }
 
-.center-vertically {
-  display: inline-block;
-  vertical-align: middle; }
-
-@media screen and (max-width: 1200px) {
-  .profile-picture {
-    margin: -225px 10px 0px 25px; } }
-@media screen and (max-width: 990px) {
-  .profile-picture {
-    margin: -175px 10px 0px 25px; } }
+/*
+ * Friends Sections
+ */
+section.friends-listing div.friend-listing {
+  padding: 5px;
+  color: #999; }
+  section.friends-listing div.friend-listing img.thumbnail {
+    width: 125px; }
 
 /*# sourceMappingURL=custom.css.map */

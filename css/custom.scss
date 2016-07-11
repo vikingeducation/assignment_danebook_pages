@@ -190,21 +190,17 @@ section#photo-gallery {
 
 }
 
-.center-vertically {
-  display: inline-block;
-  vertical-align: middle;
 
-}
+/*
+ * Friends Sections
+ */
+section.friends-listing {
+  div.friend-listing {
+    padding: 5px;
+    color: #999;
 
-
-@media screen and (max-width: 1200px) {
-  .profile-picture {
-      margin: -225px 10px 0px 25px;
+    img.thumbnail {
+      width: 125px;
+    }
   }
 }
-@media screen and (max-width: 990px) {
-  .profile-picture {
-      margin: -175px 10px 0px 25px;
-  }
-}
-
