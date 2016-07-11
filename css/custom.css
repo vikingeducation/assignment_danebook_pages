@@ -1,68 +1,75 @@
 body {
+  min-width: 640px;
   padding-top: 50px;
   padding-bottom: 20px; }
+
+main {
+  max-width: 970px;
+  margin: 0 auto; }
 
 #site-logo {
   border-radius: 50px; }
 
-.cover-photo-area {
+.user-profile-cover-container {
+  width: 970px;
+  height: auto 13;
+  overflow: hidden;
+  border: 1px solid #DDD;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+.user-profile-cover img {
+  width: 970px;
+  height: 300px; }
+
+.user-profile-picture img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: -120px 10px 0  20px;
   position: relative;
-  top: 0;
-  left: 0; }
+  z-index: 111; }
 
-.cover-photo-container {
-  position: relative;
-  top: 0;
-  left: 0;
-  height: 500px;
-  overflow-y: hidden; }
-
-.cover-photo {
-  position: relative;
-  top: -100px;
-  width: 100%; }
-
-.profile-picture-container {
-  position: absolute;
-  top: 275px;
-  left: 40px;
-  width: 200px;
-  height: 250px;
-  overflow: hidden; }
-
-.profile-picture {
-  width: 100%; }
-
-.section-nav {
+.user-profile-subnav {
+  font-weight: bold;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px; }
-  .section-nav a.edit-profile-link {
+  .user-profile-subnav li {
+    border-left: 1px solid #eee; }
+    .user-profile-subnav li:last-child {
+      border-right: 1px solid #eee; }
+  .user-profile-subnav div.user-edit-profile {
     float: right;
-    padding-right: 20px;
+    text-align: right;
     line-height: 40px; }
 
-.profile-subsection header {
-  border-top: 1px solid #eee;
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
-  background-color: #eee;
-  text-align: center; }
-.profile-subsection section {
-  border-bottom: 1px solid #eee;
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
-  padding-top: 20px;
-  padding-bottom: 20px; }
-.profile-subsection h2 {
-  margin-top: 10px; }
-.profile-subsection .edit-profile-btn {
-  padding-right: 10px;
-  text-align: right;
-  line-height: 53px; }
+.profile-subsection {
+  margin-top: 15px;
+  border: 1px solid #eee;
+  border-radius: 3px; }
+  .profile-subsection header {
+    background-color: #f6f7f9;
+    text-align: center; }
+  .profile-subsection section {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .profile-subsection h2 {
+    margin-top: 10px; }
+  .profile-subsection .edit-profile-btn {
+    text-align: right;
+    line-height: 53px; }
 
 form#user-edit-profile .form-inline input {
   float: right; }
+
+/*
+ * ABOUT SECTION
+ */
+section.user-about td {
+  padding-bottom: 5px; }
+  section.user-about td:first-child {
+    width: 175px; }
 
 div#timeline-left-pane > section,
 div#timeline-right-pane > section {
@@ -114,5 +121,16 @@ section#photo-gallery p.image-hover-caption {
   text-align: center; }
 section#photo-gallery a:hover + p {
   display: block; }
+
+.center-vertically {
+  display: inline-block;
+  vertical-align: middle; }
+
+@media screen and (max-width: 1200px) {
+  .profile-picture {
+    margin: -225px 10px 0px 25px; } }
+@media screen and (max-width: 990px) {
+  .profile-picture {
+    margin: -175px 10px 0px 25px; } }
 
 /*# sourceMappingURL=custom.css.map */
