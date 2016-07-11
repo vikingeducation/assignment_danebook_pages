@@ -29,7 +29,7 @@
 <body>
   <header id="site-header">
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
+      <div class="container-fluid">
 
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -56,68 +56,75 @@
             <li><a href="#">Harry</a></li>
           </ul>
         </div>
-      </div>
+      </div> <!-- end container -->
     </nav>
   </header>
 
   <main>
-    <div class="container">
-      <section>
-        <div class="cover-photo-area">
-          
-          <div class="cover-photo-container">
-            <img class="cover-photo" src="images/hogwarts_small.jpg">
-          </div>
-          
-          <div class="profile-picture-container">
-            <img class="profile-picture" src="images/harry_potter_small.jpg">
-          </div>
+    <section>
+      <div class="user-profile-cover-container">
+        <div class="user-profile-cover">
+          <img class="cover-photo" src="images/hogwarts_small.jpg">
+        </div>
 
-        </div> <!-- end cover-photo-area -->
-      </section>
+        <div class="user-profile-picture">
+          <img class="profile-picture thumbnail" src="images/harry_potter_small.jpg">
 
-      <section>
-        <nav class="section-nav">
-          <div class="row">
-            
-            <div class="col-md-6 col-md-offset-3">
-              <ul class="nav nav-pills nav-justified"">
-                <li class="disabled"><a href="#">Timeline</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Photos (248)</a></li>
-                <li><a href="#">Friends (540)</a></li>
+          <nav class="user-profile-subnav">
+            <div class="col-md-7">
+              <ul class="nav nav-pills">
+                <li><a href="#">Timeline</a></li>
+                <li class="disabled"><a href="#">About</a></li>
+                <li>
+                  <a href="#">Friends 
+                    <span>(540)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Photos 
+                    <span>(248)</span>
+                  </a>
+                </li>
+                <li><a href="#">More</a></li>
               </ul>
             </div>
+            <div class="col-md-2 user-edit-profile">
+              <a href="#">
+              Edit Your Profile</a>
+            </div>
+          </nav>
+        </div>
+      </div> <!-- end cover-photo-area -->
+    </section>
 
-          </div> <!-- end row -->
-        </nav>
-      </section>
-
-      <section>
+    <section>
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-5" id="timeline-left-pane">
             <section class="row" id="timeline-about">
               <header>
                 <h2>About</h2>
               </header>
-              <table>
-                <tr>
-                  <td>Born on:</td>
-                  <td>July 31st, 1980</td>
-                </tr>
-                <tr>
-                  <td>Went to school at:</td>
-                  <td>Hogwarts College</td>
-                </tr>
-                <tr>
-                  <td>Hometown:</td>
-                  <td>Godrick's Hollow, England</td>
-                </tr>
-                <tr>
-                  <td>Currently Lives:</td>
-                  <td>Godrick's Hollow, England</td>
-                </tr>
-              </table>
+              <div class="col-md-12">
+                <table>
+                  <tr>
+                    <td>Born on:</td>
+                    <td>July 31st, 1980</td>
+                  </tr>
+                  <tr>
+                    <td>Went to school at:</td>
+                    <td>Hogwarts College</td>
+                  </tr>
+                  <tr>
+                    <td>Hometown:</td>
+                    <td>Godrick's Hollow, England</td>
+                  </tr>
+                  <tr>
+                    <td>Currently Lives:</td>
+                    <td>Godrick's Hollow, England</td>
+                  </tr>
+                </table>
+              </div>
             </section>
 
             <section class="row" id="timeline-photos">
@@ -235,7 +242,6 @@
               <div>
                 <p><a href="#">See More Friends</a></p>
               </div>
-
             </section>
           </div> <!-- end left pane -->
 
@@ -244,42 +250,149 @@
               <header>
                 <h2>Post</h2>
               </header>
-              <form>
-                <div class="form-group">
-                  <textarea class="form-control" rows="4" placeholder="Tell the world what you're up to..."></textarea>
-                  </textarea>
-                </div>
-                <button type="submit" class="btn btn-primary pull-right">Post</button>
-              </form>
+                <form>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Tell the world what you're up to..."></textarea>
+                    </textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary pull-right">Post</button>
+                </form>
             </section>
 
             <section id="timeline-posts">
-              <section class="post">
+              <div class="post">
                 <div class="row">
                   <div class="col-md-2">
-                    <img src="images/harry_potter_small.jpg">
+                    <img class="thumbnail" src="images/harry_potter_small.jpg">
                   </div>
                   <div class="col-md-9">
                     <a href="#">Harry Potter</a>
                     <p>Posted on Thursday 6/1/2014</p>
                   </div>
+                </div> <!-- end row -->
+                <div class="post-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatem modi, adipisci dignissimos facilis praesentium laboriosam delectus ea consectetur non sunt molestiae numquam, laborum! Iste voluptate facilis commodi architecto nulla?
+                  </p>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatem modi, adipisci dignissimos facilis praesentium laboriosam delectus ea consectetur non sunt molestiae numquam, laborum! Iste voluptate facilis commodi architecto nulla?
-                </p>
+                <div class="post-comments">
+                  <div class="post-links">
+                    <a href="#">Like</a>
+                    <a href="#">Comment</a>
+                    <a href="#" class="pull-right">Delete</a>
+                  </div>
+                </div>
+              </div>
 
-                <div class="post-links">
-                  <a href="#">Like</a>
-                  <a href="#">Comment</a>
-                  <a href="#" class="pull-right">Delete</a>
+              <div class="post">
+                <div class="row">
+                  <div class="col-md-2">
+                    <img class="thumbnail" src="images/harry_potter_small.jpg">
+                  </div>
+                  <div class="col-md-9">
+                    <a href="#">Harry Potter</a>
+                    <p>Posted on Thursday 6/1/2014</p>
+                  </div>
+                </div> <!-- end row -->
+                <div class="post-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatem modi, adipisci dignissimos facilis praesentium laboriosam delectus ea consectetur non sunt molestiae numquam, laborum! Iste voluptate facilis commodi architecto nulla?
+                  </p>
                 </div>
-              </section>
+                <div class="post-comments">
+                  <div class="post-links">
+                    <a href="#">Like</a>
+                    <a href="#">Comment</a>
+                    <a href="#" class="pull-right">Delete</a>
+                  </div>
+                  <div>
+                    <span><a href="#">Hermione Granger</a> likes this.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="row">
+                  <div class="col-md-2">
+                    <img class="thumbnail" src="images/harry_potter_small.jpg">
+                  </div>
+                  <div class="col-md-9">
+                    <a href="#">Harry Potter</a>
+                    <p>Posted on Thursday 6/1/2014</p>
+                  </div>
+                </div> <!-- end row -->
+                <div class="post-content">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatem modi, adipisci dignissimos facilis praesentium laboriosam delectus ea consectetur non sunt molestiae numquam, laborum! Iste voluptate facilis commodi architecto nulla?
+                  </p>
+                </div>
+                <div class="post-comments">
+                  <div class="post-links">
+                    <a href="#">Unlike</a>
+                    <!-- <a href="#">Comment</a> -->
+                    <a href="#" class="pull-right">Delete</a>
+                  </div>
+                  <div class="user-likes">
+                    <span>You and <a href="#">Hermione Granger</a> likes this.</span>
+                  </div>
+
+                  <div class="post-comment">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img class="thumbnail" src="images/user_silhouette_generic.gif">
+                      </div>
+                      <div class="col-md-10">
+                        <a href="#">Ron Weasley</a> commented on Thursday 6/1/2014</p>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatem modi, adipisci dignissimos facilis praesentium laboriosam delectus ea consectetur non sunt molestiae numquam, laborum! Iste voluptate facilis commodi architecto nulla?
+                        </p>
+                        <div class="comment-links">
+                          <a href="#">Like</a>
+                          <!-- <a href="#">Comment</a> -->
+                          <a href="#" class="pull-right">Delete</a>
+                        </div>
+                      </div>
+                    </div> <!-- end row -->
+                  </div>
+
+                  <div class="post-comment">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img class="thumbnail" src="images/user_silhouette_generic.gif">
+                      </div>
+                      <div class="col-md-10">
+                        <a href="#">Ron Weasley</a> commented on Thursday 6/1/2014</p>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatem modi, adipisci dignissimos facilis praesentium laboriosam delectus ea consectetur non sunt molestiae numquam, laborum! Iste voluptate facilis commodi architecto nulla?
+                        </p>
+                        <div class="comment-links">
+                          <a href="#">Like</a>
+                          <!-- <a href="#">Comment</a> -->
+                          <a href="#" class="pull-right">Delete</a>
+                        </div>
+                      </div>
+                    </div> <!-- end row -->
+                  </div>
+                  
+                  <div>
+                    <form>
+                      <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Write a comment..."></textarea>
+                        </textarea>
+                      </div>
+                      <a href="">Cancel</a>
+                      <button type="submit" class="btn btn-primary pull-right">Comment</button>
+                    </form>
+                  </div>
+
+                </div>
+              </div>
+
             </section>
           </div> <!-- end right pane -->
-        </div>
-      </section>
-
-    </div> <!-- end container -->
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+    </section>
   </main>
 </body>
 </html>

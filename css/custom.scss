@@ -13,6 +13,7 @@ main {
 }
 
 .user-profile-cover-container {
+  margin-bottom: 15px;
   width: 970px;
   height: auto 13;
   overflow: hidden;
@@ -89,14 +90,13 @@ main {
  * ABOUT SECTION
  */
 
-section.user-about {
-  td {
-    padding-bottom: 10px;
 
-    &:first-child {
-      font-weight: bold;
-      width: 175px;
-    }
+td {
+  padding-bottom: 10px;
+
+  &:first-child {
+    font-weight: bold;
+    width: 175px;
   }
 }
 
@@ -112,9 +112,12 @@ form#user-edit-profile {
 }
 
 
-div#timeline-left-pane > section,
-div#timeline-right-pane > section {
+div#timeline-right-pane {
+  padding-right: 0;
+}
+div#timeline-left-pane > section {
   border: 1px solid #eee;
+  border-radius: 3px;
   padding-bottom: 20px;
   margin-bottom: 20px;
 
@@ -122,7 +125,7 @@ div#timeline-right-pane > section {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 20px;
-    background-color: #eee;
+    background-color: #f6f7f9;
     text-align: center;
   }
 
@@ -138,26 +141,73 @@ section#timeline-friends {
 }
 
 section#timeline-new-post {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: #f6f7f9;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
   form {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     overflow-y: auto;
   }
 }
 
 section#timeline-posts {
-  section.post {
-    padding: 10px 10px 0 10px;
+  .post {
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    padding-top: 10px;
+    border-radius: 3px;
+    
+    .row,
+    .post-content,
+    .post-comments {
+      padding: 0 10px;
+    }
 
     img {
-      width: 100px;
+      width: 75px;
+    }
+
+    .post-comments {
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #f6f7f9;
     }
     .post-links {
+      padding-bottom: 10px;
 
-      a:nth-child(2) {
-        margin-left: 10px;
+      a:nth-child(1) {
+        margin-right: 10px;
       }
     }
+
+    .user-likes {
+      padding-bottom: 10px;
+    }
+
+    .post-comment {
+      padding: 10px 0;
+      border-top: 3px solid #eee;
+    }
+  }
+
+  form {
+    overflow-y: auto;
   }
 }
 
