@@ -78,13 +78,6 @@ main {
     line-height: 53px;
   }
 }
-form#user-edit-profile {
-  .form-inline {
-    input {
-      float:right;
-    }
-  }
-}
 
 
 /*
@@ -93,14 +86,25 @@ form#user-edit-profile {
 
 section.user-about {
   td {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 
     &:first-child {
+      font-weight: bold;
       width: 175px;
     }
   }
 }
 
+/*
+ * ABOUT EDIT SECTION
+ */
+form#user-edit-profile {
+  .form-inline {
+    input {
+      float:right;
+    }
+  }
+}
 
 
 div#timeline-left-pane > section,
