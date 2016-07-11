@@ -39,6 +39,10 @@ main {
     border-left: 1px solid #eee; }
     .user-profile-subnav li:last-child {
       border-right: 1px solid #eee; }
+  .user-profile-subnav span {
+    font-weight: normal;
+    font-size: 12px;
+    color: #999; }
   .user-profile-subnav div.user-edit-profile {
     float: right;
     text-align: right;
