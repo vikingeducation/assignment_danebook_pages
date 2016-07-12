@@ -10,7 +10,7 @@ main {
 #site-logo {
   border-radius: 50px; }
 
-.user-profile-cover-container {
+.hero {
   margin-bottom: 15px;
   width: 970px;
   height: auto 13;
@@ -19,11 +19,11 @@ main {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px; }
 
-.user-profile-cover img {
+.hero--cover img {
   width: 970px;
   height: 300px; }
 
-.user-profile-picture img {
+.hero--profile-picture img {
   width: 150px;
   height: 150px;
   float: left;
@@ -31,37 +31,38 @@ main {
   position: relative;
   z-index: 111; }
 
-.user-profile-subnav {
+.hero--profile-subnav {
   font-weight: bold;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px; }
-  .user-profile-subnav li {
+  .hero--profile-subnav li {
     border-left: 1px solid #eee; }
-    .user-profile-subnav li:last-child {
+    .hero--profile-subnav li:last-child {
       border-right: 1px solid #eee; }
-  .user-profile-subnav span {
+  .hero--profile-subnav span {
     font-weight: normal;
     font-size: 12px;
     color: #999; }
-  .user-profile-subnav div.user-edit-profile {
+  .hero--profile-subnav .hero--profile-edit-link {
     float: right;
     text-align: right;
+    font-weight: normal;
     line-height: 40px; }
 
-.profile-subsection {
+.user-profile {
   margin-top: 15px;
   border: 1px solid #eee;
   border-radius: 3px; }
-  .profile-subsection header {
+  .user-profile header {
     background-color: #f6f7f9;
     text-align: center; }
-  .profile-subsection section {
+  .user-profile section {
     padding-top: 20px;
     padding-bottom: 20px; }
-  .profile-subsection h2 {
+  .user-profile h2 {
     margin-top: 10px; }
-  .profile-subsection .edit-profile-btn {
+  .user-profile .user-profile--btn {
     text-align: right;
     line-height: 53px; }
 
@@ -77,7 +78,7 @@ td {
 /*
  * ABOUT EDIT SECTION
  */
-form#user-edit-profile .form-inline input {
+#user-edit-profile .form-inline input {
   float: right; }
 
 div#timeline-right-pane {

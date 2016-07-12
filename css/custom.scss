@@ -12,7 +12,7 @@ main {
   border-radius: 50px;
 }
 
-.user-profile-cover-container {
+.hero {
   margin-bottom: 15px;
   width: 970px;
   height: auto 13;
@@ -22,13 +22,12 @@ main {
   border-bottom-right-radius: 3px;
 }
 
-.user-profile-cover {
-  img {
-    width: 970px;
-    height: 300px;
-  }
+.hero--cover img {
+  width: 970px;
+  height: 300px;
 }
-.user-profile-picture img{
+
+.hero--profile-picture img {
     width: 150px;
     height: 150px;
     float: left;
@@ -37,7 +36,7 @@ main {
     z-index: 111;
 }
 
-.user-profile-subnav {
+.hero--profile-subnav {
   font-weight: bold;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
@@ -56,14 +55,16 @@ main {
     color: #999;
   }
 
-  div.user-edit-profile {
-  float: right;
-  text-align: right;
-  line-height: 40px;
-}
+  .hero--profile-edit-link {
+    float: right;
+    text-align: right;
+    font-weight: normal;
+    line-height: 40px;
+  }
 }
 
-.profile-subsection {
+
+.user-profile {
   margin-top: 15px;
   border: 1px solid #eee;
   border-radius: 3px;
@@ -79,7 +80,7 @@ main {
   h2 {
     margin-top: 10px;
   }
-  .edit-profile-btn {
+  .user-profile--btn {
     text-align: right;
     line-height: 53px;
   }
@@ -103,7 +104,7 @@ td {
 /*
  * ABOUT EDIT SECTION
  */
-form#user-edit-profile {
+#user-edit-profile {
   .form-inline {
     input {
       float:right;
