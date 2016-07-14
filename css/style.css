@@ -9,7 +9,7 @@ main {
 ul {
   list-style-type: none; }
 
-ul, p, h2 {
+ul, p, h1, h2 {
   margin: 0;
   padding: 0; }
 
@@ -152,6 +152,41 @@ ul, p, h2 {
     position: absolute;
     right: 10px;
     bottom: 10px; }
+
+#profile-content {
+  border: 1px solid #999;
+  margin-top: 14px; }
+  @media only screen and (max-width: 625px) {
+    #profile-content {
+      border-left: none;
+      border-right: none; } }
+  #profile-content #profile-header {
+    text-align: center;
+    background: #ccc;
+    padding: 10px;
+    margin-bottom: 14px;
+    position: relative; }
+    #profile-content #profile-header h1 {
+      font-size: 24px; }
+    #profile-content #profile-header .button {
+      display: inline-block;
+      position: absolute;
+      right: 10px;
+      top: 8px;
+      padding: 4px;
+      border-radius: 2px;
+      background-color: #3b5998; }
+  #profile-content #profile-content-body {
+    width: 100%; }
+    #profile-content #profile-content-body p {
+      margin-bottom: 14px; }
+    #profile-content #profile-content-body h2 {
+      font-size: 20px;
+      margin-bottom: 14px; }
+    #profile-content #profile-content-body .bold {
+      font-weight: bold; }
+    #profile-content #profile-content-body td {
+      border: 0; }
 
 @media only screen and (max-width: 480px) {
   .no-small {

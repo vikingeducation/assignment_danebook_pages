@@ -14,7 +14,7 @@ ul {
 	list-style-type: none;
 }
 
-ul, p, h2 {
+ul, p, h1, h2 {
 	margin: 0;
 	padding: 0;
 }
@@ -214,6 +214,67 @@ ul, p, h2 {
 		bottom: 10px;
 	}
 }
+
+
+
+//profile content
+
+#profile-content {
+
+	border: 1px solid #999;
+	margin-top: 14px;
+
+	@media only screen and (max-width : 625px) {
+		border-left: none;
+		border-right: none;
+	}
+
+	#profile-header {
+		text-align: center;
+		background: #ccc;
+		padding: 10px;
+		margin-bottom: 14px;
+		position: relative;
+
+		h1 {
+			font-size: 24px;
+		}
+
+		.button {
+			display: inline-block;
+			position: absolute;
+			right: 10px;
+			top: 8px;
+			padding: 4px;
+			border-radius: 2px;
+			background-color: #3b5998;
+		}
+	}
+
+	#profile-content-body {
+		width: 100%;
+
+		p {
+			margin-bottom: 14px;
+		}
+
+		h2 {
+			font-size: 20px;
+			margin-bottom: 14px;
+		}
+
+		.bold {
+			font-weight: bold;
+		}
+
+		td {
+			border: 0;
+		}
+	}
+}
+
+
+
 //misc
 
 .no-small {
