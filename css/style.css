@@ -6,16 +6,24 @@ main {
   max-width: 960px;
   margin: 0 auto; }
 
+ul {
+  list-style-type: none; }
+
+ul, p, h2 {
+  margin: 0;
+  padding: 0; }
+
 #pusher {
   height: 50px; }
 
 #navbar {
-  background: #0E65DD;
+  background: #3b5998;
   padding: 0 35px;
   height: 50px;
   width: 100%;
   position: fixed;
-  border-bottom: 1px solid #0E65DD; }
+  border-bottom: 1px solid #0E65DD;
+  z-index: 1000; }
   #navbar #navbar-content {
     display: flex;
     align-items: center;
@@ -62,9 +70,25 @@ main {
       font-size: 18px;
       font-weight: bold; }
 
+#banner {
+  position: relative; }
+  #banner #name {
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    left: 230px; }
+    @media only screen and (max-width: 625px) {
+      #banner #name {
+        position: static;
+        text-align: center;
+        color: #222;
+        text-shadow: none;
+        margin-top: 35px; } }
+
 #cover-photo-container {
   width: 100%;
-  height: 300px;
+  height: 320px;
   background-image: url("../images/tyrion_cover_photo.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -73,8 +97,68 @@ main {
   -o-background-size: cover;
   background-size: cover; }
 
+#profile-photo-container {
+  width: 200px;
+  position: absolute;
+  border: 1px solid #777;
+  border-radius: 2px;
+  display: inline-block;
+  z-index: 500;
+  top: 150px;
+  left: 15px; }
+  @media only screen and (max-width: 625px) {
+    #profile-photo-container {
+      right: 0;
+      left: 0;
+      margin: 0 auto; } }
+  #profile-photo-container img {
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 2px; }
+
+#banner-nav {
+  border: 1px solid #999;
+  border-top: 0;
+  border-radius: 0 0 2px 2px;
+  display: flex;
+  align-items: center; }
+  #banner-nav #banner-tabs {
+    margin-left: 232px;
+    display: inline-flex; }
+    @media only screen and (max-width: 625px) {
+      #banner-nav #banner-tabs {
+        margin: 15px 0 0;
+        width: 100%;
+        justify-content: space-between;
+        border-top: 1px solid #999;
+        background: #ccc; }
+        #banner-nav #banner-tabs li {
+          text-align: center;
+          flex-grow: 1; }
+        #banner-nav #banner-tabs .first {
+          border-left: 0; } }
+    #banner-nav #banner-tabs li {
+      display: inline;
+      border-left: 1px solid #999;
+      height: 100%;
+      padding: 10px;
+      font-weight: bold; }
+    #banner-nav #banner-tabs .last {
+      border-right: 1px solid #999; }
+      @media only screen and (max-width: 625px) {
+        #banner-nav #banner-tabs .last {
+          border-right: 0; } }
+  #banner-nav .edit {
+    position: absolute;
+    right: 10px;
+    bottom: 10px; }
+
 @media only screen and (max-width: 480px) {
   .no-small {
+    display: none; } }
+
+@media only screen and (max-width: 769px) {
+  .no-medium {
     display: none; } }
 
 /*# sourceMappingURL=style.css.map */

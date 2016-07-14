@@ -10,6 +10,15 @@ main {
 	margin: 0 auto;
 }
 
+ul {
+	list-style-type: none;
+}
+
+ul, p, h2 {
+	margin: 0;
+	padding: 0;
+}
+
 
 
 //navbar
@@ -19,12 +28,13 @@ main {
 }
 
 #navbar {
-	background: #0E65DD;
+	background: #3b5998;
 	padding: 0 35px;
 	height:50px;
 	width:100%;
 	position:fixed;
 	border-bottom: 1px solid #0E65DD;
+	z-index: 1000;
 
 	#navbar-content {
 		display: flex;
@@ -93,10 +103,30 @@ main {
 	}
 }
 
-//profile pages
+//profile banner
+#banner {
+	position: relative;
+
+	#name {
+		position: absolute;
+		bottom: 50px;
+		color: white;
+		text-shadow: 0 0 3px rgba(0,0,0,.8);
+		left: 230px;
+
+			@media only screen and (max-width : 625px) {
+				position: static;
+				text-align: center;
+				color: #222;
+				text-shadow: none;
+				margin-top: 35px;				
+	    	}
+	}
+}
+
 #cover-photo-container {
 	width: 100%;
-	height: 300px;
+	height: 320px;
 	background-image: url("../images/tyrion_cover_photo.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -107,10 +137,93 @@ main {
 	
 }
 
+#profile-photo-container {
+	width: 200px;
+	position: absolute;
+	border: 1px solid #777;
+	border-radius: 2px;
+	display: inline-block;
+	z-index: 500;
+	top: 150px;
+	left: 15px;
+
+	@media only screen and (max-width : 625px) {
+				right: 0;
+				left: 0;
+				margin: 0 auto;
+	    	}
+
+	img {
+		width: 100%;
+		border: 3px solid white;
+		border-radius: 2px;
+	}
+}
+
+#banner-nav {
+	border: 1px solid #999;
+	border-top: 0;
+	border-radius: 0 0 2px 2px;
+	display: flex;
+	align-items: center;
+
+	#banner-tabs {
+		margin-left: 232px;
+		display: inline-flex;
+
+		@media only screen and (max-width : 625px) {
+				margin: 15px 0 0;
+				width: 100%;
+				justify-content: space-between;
+				border-top: 1px solid #999;
+
+				background: #ccc;
+
+				li {
+					text-align: center;
+					flex-grow: 1;
+				}			
+
+				.first {
+					border-left: 0;
+				}
+
+
+	    	}
+		
+		li {
+			display: inline;
+			border-left: 1px solid #999;
+			height: 100%;
+			padding: 10px;
+			font-weight: bold;
+		}
+
+		.last {
+			border-right: 1px solid #999;
+
+			@media only screen and (max-width : 625px) {
+				border-right: 0;
+			}
+		}
+	}
+
+	.edit {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+	}
+}
 //misc
 
 .no-small {
 	@media only screen and (max-width : 480px) {
+	   	display: none;
+    }
+}
+
+.no-medium {
+	@media only screen and (max-width : 769px) {
 	   	display: none;
     }
 }
