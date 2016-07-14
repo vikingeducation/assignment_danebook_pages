@@ -1,13 +1,18 @@
+//global
+
 html {
 	-webkit-font-smoothing: antialiased;
 	font-family: helvetica, sans-serif;
 }
 
-.no-small {
-	@media only screen and (max-width : 480px) {
-	   	display: none;
-    }
+main {
+	max-width: 960px;
+	margin: 0 auto;
 }
+
+
+
+//navbar
 
 #pusher {
 	height: 50px;
@@ -62,6 +67,7 @@ html {
 
 	#search-form {
 		flex-grow: 2.8;
+		margin-right: 10px;
 
 		input {
 			border-radius: 2px;
@@ -85,4 +91,26 @@ html {
 			font-weight: bold;
 		}
 	}
+}
+
+//profile pages
+#cover-photo-container {
+	width: 100%;
+	height: 300px;
+	background-image: url("../images/tyrion_cover_photo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	
+}
+
+//misc
+
+.no-small {
+	@media only screen and (max-width : 480px) {
+	   	display: none;
+    }
 }
