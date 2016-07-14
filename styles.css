@@ -1,0 +1,44 @@
+.navbar-default {
+  background-color: #2B78E4;
+  border-bottom: 2px solid #333; }
+  .navbar-default .navbar-left {
+    line-height: 50px;
+    text-align: left;
+    padding-left: 8vw; }
+    .navbar-default .navbar-left span.h2 {
+      color: #fff;
+      vertical-align: middle; }
+  .navbar-default .navbar-center .form-group {
+    width: 100%; }
+    .navbar-default .navbar-center .form-group .form-control {
+      width: 100%; }
+  .navbar-default .navbar-right {
+    line-height: 50px;
+    text-align: right;
+    padding-right: 8vw; }
+    .navbar-default .navbar-right a.h4 {
+      color: #fff;
+      vertical-align: middle; }
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #333; }
+
+a.dark:hover {
+  color: #595959; }
+
+a.light:hover {
+  color: #d9d9d9; }
+
+.btn-info {
+  background-color: #9FC5F8; }
+  .btn-info:hover {
+    background-color: #589af3; }
+
+.btn-raised {
+  box-shadow: 3px 3px 2px -2px #333; }
+
+.smidgen-right {
+  padding-left: 2px; }
+
+/*# sourceMappingURL=styles.css.map */
