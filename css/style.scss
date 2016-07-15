@@ -28,12 +28,12 @@ ul, p, h1, h2 {
 }
 
 #navbar {
-	background: #3b5998;
+	background: #127C1F;
 	padding: 0 35px;
 	height:50px;
 	width:100%;
 	position:fixed;
-	border-bottom: 1px solid #0E65DD;
+	border-bottom: 1px solid #109320;
 	z-index: 1000;
 
 	#navbar-content {
@@ -161,7 +161,7 @@ ul, p, h1, h2 {
 }
 
 #banner-nav {
-	border: 1px solid #999;
+	border: 1px solid #ccc;
 	border-top: 0;
 	border-radius: 0 0 2px 2px;
 	display: flex;
@@ -175,9 +175,9 @@ ul, p, h1, h2 {
 				margin: 15px 0 0;
 				width: 100%;
 				justify-content: space-between;
-				border-top: 1px solid #999;
+				border-top: 1px solid #ccc;
 
-				background: #ccc;
+				background: #EAF1E3;
 
 				li {
 					text-align: center;
@@ -192,15 +192,20 @@ ul, p, h1, h2 {
 	    	}
 		
 		li {
+			color: #003707;
 			display: inline;
-			border-left: 1px solid #999;
+			border-left: 1px solid #eee;
 			height: 100%;
 			padding: 10px;
 			font-weight: bold;
+
+			.faded {
+				color: #777;
+			}
 		}
 
 		.last {
-			border-right: 1px solid #999;
+			border-right: 1px solid #eee;
 
 			@media only screen and (max-width : 625px) {
 				border-right: 0;
@@ -221,7 +226,7 @@ ul, p, h1, h2 {
 
 #profile-content {
 
-	border: 1px solid #999;
+	border: 1px solid #ccc;
 	margin-top: 14px;
 
 	@media only screen and (max-width : 625px) {
@@ -231,10 +236,11 @@ ul, p, h1, h2 {
 
 	#profile-header {
 		text-align: center;
-		background: #ccc;
+		background: #EAF1E3;
 		padding: 10px;
 		margin-bottom: 14px;
 		position: relative;
+		border-bottom: 1px solid #ccc;
 
 		h1 {
 			font-size: 24px;
@@ -247,7 +253,8 @@ ul, p, h1, h2 {
 			top: 8px;
 			padding: 4px;
 			border-radius: 2px;
-			background-color: #3b5998;
+			border-color: #730000;
+			background-color: #A01717;
 		}
 	}
 
