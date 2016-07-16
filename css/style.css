@@ -144,8 +144,12 @@ ul, p, h1, h2 {
       height: 100%;
       padding: 10px;
       font-weight: bold; }
+      #banner-nav #banner-tabs li a, #banner-nav #banner-tabs li a:visited {
+        color: #003707; }
       #banner-nav #banner-tabs li .faded {
         color: #777; }
+    #banner-nav #banner-tabs .selected {
+      background: #EAF1E3; }
     #banner-nav #banner-tabs .last {
       border-right: 1px solid #eee; }
       @media only screen and (max-width: 625px) {
@@ -167,7 +171,7 @@ ul, p, h1, h2 {
     text-align: center;
     background: #EAF1E3;
     padding: 10px;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
     position: relative;
     border-bottom: 1px solid #ccc; }
     #profile-content #profile-header h1 {
@@ -205,14 +209,46 @@ ul, p, h1, h2 {
     padding: 50px;
     display: flex;
     align-items: center; }
+    #profile-content #submit-container a {
+      margin: 0 auto; }
     #profile-content #submit-container #big-submit {
       width: 500px;
       height: 80px;
-      margin: 0 auto;
       border-color: #730000;
       background-color: #C53030;
       color: white;
-      font-size: 28px; }
+      font-size: 28px;
+      text-decoration: none; }
+  #profile-content .photo-row .thumbnail-container {
+    position: relative; }
+    #profile-content .photo-row .thumbnail-container::after {
+      content: "Uploaded in 282 AC";
+      display: block;
+      padding: 15px;
+      position: absolute;
+      z-index: 400;
+      bottom: 30px;
+      background: black;
+      color: white;
+      width: 100%;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+      opacity: 0; }
+  #profile-content .photo-row .overlay {
+    padding: 15px;
+    position: absolute;
+    z-index: 400;
+    bottom: 30px;
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0; }
+  #profile-content .photo-row img {
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative; }
 
 @media only screen and (max-width: 480px) {
   .no-small {
