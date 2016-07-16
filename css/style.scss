@@ -19,6 +19,10 @@ ul, p, h1, h2 {
   padding: 0;
 }
 
+.faded {
+  color: #777;
+}
+
 
 
 //navbar
@@ -200,10 +204,6 @@ ul, p, h1, h2 {
       a, a:visited {
         color: #003707;
       }
-
-      .faded {
-        color: #777;
-      }
     }
 
     .selected {
@@ -268,8 +268,11 @@ ul, p, h1, h2 {
   #profile-content-body {
     width: 100%;
 
-    p {
-      margin-bottom: 14px;
+    .quotes {
+      
+      p {
+        margin-bottom: 15px;
+      }
     }
 
     h2 {
@@ -359,6 +362,71 @@ ul, p, h1, h2 {
   }
 }
 
+//friends page
+.friend-box {
+  border: 1px solid #ccc;
+  min-height: 100px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px;
+  flex-wrap: wrap;
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+
+  .faded {
+    font-weight: normal;
+  }
+
+  .name {
+    flex-grow: 1;
+    padding-left: 14px;
+    min-width: 160px;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .unfriend {
+    padding-right: 18px;
+  }
+
+  button {
+    background: #EAF1E3;
+    color: #222;
+    border-color: #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+
+    &:hover {
+      background: #127C1F;
+      border-color: #EAF1E3;
+    }
+  }
+
+  .small-unfriend {
+    display: none;
+  }
+
+  @media only screen and (max-width : 505px) {
+      .big-unfriend {
+        display: none;
+      }
+
+      .small-unfriend {
+        display: inline-block;
+        font-weight: normal;
+      }
+    }
+}
 
 
 //misc

@@ -13,6 +13,9 @@ ul, p, h1, h2 {
   margin: 0;
   padding: 0; }
 
+.faded {
+  color: #777; }
+
 #pusher {
   height: 50px; }
 
@@ -146,8 +149,6 @@ ul, p, h1, h2 {
       font-weight: bold; }
       #banner-nav #banner-tabs li a, #banner-nav #banner-tabs li a:visited {
         color: #003707; }
-      #banner-nav #banner-tabs li .faded {
-        color: #777; }
     #banner-nav #banner-tabs .selected {
       background: #EAF1E3; }
     #banner-nav #banner-tabs .last {
@@ -188,8 +189,8 @@ ul, p, h1, h2 {
       font-weight: bold; }
   #profile-content #profile-content-body {
     width: 100%; }
-    #profile-content #profile-content-body p {
-      margin-bottom: 14px; }
+    #profile-content #profile-content-body .quotes p {
+      margin-bottom: 15px; }
     #profile-content #profile-content-body h2 {
       font-size: 20px;
       margin-bottom: 14px; }
@@ -249,6 +250,49 @@ ul, p, h1, h2 {
     width: 100%;
     margin-bottom: 30px;
     position: relative; }
+
+.friend-box {
+  border: 1px solid #ccc;
+  min-height: 100px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px;
+  flex-wrap: wrap; }
+  .friend-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold; }
+  .friend-box .faded {
+    font-weight: normal; }
+  .friend-box .name {
+    flex-grow: 1;
+    padding-left: 14px;
+    min-width: 160px; }
+  .friend-box img {
+    width: 100px; }
+  .friend-box .unfriend {
+    padding-right: 18px; }
+  .friend-box button {
+    background: #EAF1E3;
+    color: #222;
+    border-color: #ddd;
+    border-radius: 3px;
+    font-size: 12px; }
+    .friend-box button:hover {
+      background: #127C1F;
+      border-color: #EAF1E3; }
+  .friend-box .small-unfriend {
+    display: none; }
+  @media only screen and (max-width: 505px) {
+    .friend-box .big-unfriend {
+      display: none; }
+    .friend-box .small-unfriend {
+      display: inline-block;
+      font-weight: normal; } }
 
 @media only screen and (max-width: 480px) {
   .no-small {
