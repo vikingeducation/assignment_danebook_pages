@@ -1,34 +1,20 @@
-.navbar-default {
-  background-color: #2B78E4;
-  border-bottom: 2px solid #333; }
-  .navbar-default .navbar-left {
-    line-height: 50px;
-    text-align: left;
-    padding-left: 8vw; }
-    .navbar-default .navbar-left span.h2 {
-      color: #fff;
-      vertical-align: middle; }
-  .navbar-default .navbar-center .form-group {
-    width: 100%; }
-    .navbar-default .navbar-center .form-group .form-control {
-      width: 100%; }
-  .navbar-default .navbar-right {
-    line-height: 50px;
-    text-align: right;
-    padding-right: 8vw; }
-    .navbar-default .navbar-right a.h4 {
-      color: #fff;
-      vertical-align: middle; }
+/* Global */
+/* Homepage Specific */
+/* Subpgs Global */
+body {
+  padding-top: 50px; }
+
+a:hover {
+  text-decoration: none; }
 
 .form-control {
   border-radius: 0;
   border: 1px solid #333; }
 
-a.dark:hover {
-  color: #595959; }
-
-a.light:hover {
-  color: #d9d9d9; }
+.border-default {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333; }
 
 .btn-info {
   background-color: #9FC5F8; }
@@ -40,5 +26,133 @@ a.light:hover {
 
 .smidgen-right {
   padding-left: 2px; }
+
+.h2 {
+  font-size: 2.1em; }
+
+/* Subpgs Navbar */
+.navbar-default {
+  background-color: #103A4A;
+  border-bottom: 2px solid #333; }
+  .navbar-default .navbar-left {
+    line-height: 50px;
+    text-align: left;
+    padding-left: 8vw; }
+    .navbar-default .navbar-left span.h2 {
+      color: #fff;
+      vertical-align: middle; }
+      @media (max-width: 768px) {
+        .navbar-default .navbar-left span.h2 {
+          font-size: 1.7em; } }
+      .navbar-default .navbar-left span.h2:hover {
+        color: #d9d9d9; }
+  .navbar-default .navbar-center .form-group {
+    width: 100%; }
+    .navbar-default .navbar-center .form-group .form-control {
+      width: 100%; }
+  .navbar-default .navbar-right {
+    line-height: 50px;
+    text-align: right;
+    padding-right: calc(8vw + 15px); }
+    @media (max-width: 768px) {
+      .navbar-default .navbar-right {
+        padding-right: 8vw; } }
+    .navbar-default .navbar-right a.h4 {
+      color: #fff;
+      vertical-align: middle; }
+      .navbar-default .navbar-right a.h4:hover {
+        color: #d9d9d9; }
+
+/* Subpgs Header */
+header {
+  height: 476px; }
+
+img.cover-pic {
+  z-index: 1;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  padding: 0;
+  max-height: 357px; }
+
+.eliminate-gap {
+  height: 0; }
+
+img.profile-pic {
+  position: absolute;
+  left: 9px;
+  bottom: -24px;
+  z-index: 4;
+  max-height: 188px; }
+
+.profile-name {
+  position: absolute;
+  z-index: 3;
+  left: 15px;
+  bottom: 5px;
+  color: #fff; }
+  @media (max-width: 768px) {
+    .profile-name {
+      font-size: 1.5em; } }
+  @media (min-width: 990px) and (max-width: 1199px) {
+    .profile-name {
+      left: 0; } }
+  @media (min-width: 1200px) {
+    .profile-name {
+      left: -45px; } }
+
+.menu-container {
+  height: 48px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+ul#menu {
+  position: absolute;
+  left: 30px;
+  right: 0; }
+  ul#menu li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    border-right: 1px solid #333; }
+    ul#menu li .first {
+      border-left: 1px solid #333; }
+    ul#menu li .current {
+      background-color: #ccc; }
+    ul#menu li a {
+      border-radius: 0;
+      color: #333;
+      padding: 0 5px; }
+      ul#menu li a .faded {
+        color: #ccc; }
+
+.custom-toggle {
+  position: absolute;
+  top: 6px;
+  right: 8px; }
+
+.nav-links {
+  position: relative;
+  left: 0px; }
+  @media (min-width: 990px) and (max-width: 1199px) {
+    .nav-links {
+      left: -15px; } }
+  @media (min-width: 1200px) {
+    .nav-links {
+      left: -60px; } }
+
+@media (max-width: 768px) {
+  .sm-collapse {
+    display: none; } }
+
+@media (min-width: 769px) {
+  .lg-collapse {
+    display: none; } }
+
+.edit-link {
+  position: absolute;
+  right: 14px;
+  bottom: 14px; }
 
 /*# sourceMappingURL=styles.css.map */

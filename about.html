@@ -25,30 +25,82 @@
 
     <nav class="navbar navbar-default navbar-fixed-top row" role="navigation">
 
-        <div class="navbar-left col-xs-9 col-sm-5 col-md-4 col-lg-3">
-          <span>
-            <a class="logo" href="home.html">
-              <img src="images/danish_flag.gif" class="img-circle" alt="icon">
-              <span class="h2">Danebook</span>
-            </a> 
-          </span>
-        </div>
+      <div class="navbar-left col-xs-9 col-sm-5 col-lg-4">
+        <span>
+          <a class="logo light" href="home.html">
+            <img src="images/danish_flag.gif" class="img-circle" alt="icon">
+            <span class="h2">Danebook</span>
+          </a> 
+        </span>
+      </div>
 
-        <div class="navbar-center col-xs-0 col-sm-4 col-md-5 col-lg-6">
-          <div class="collapse navbar-collapse">
-            <form class="navbar-form" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search for Users">
-              </div>
-            </form>
-          </div>
+      <div class="navbar-center col-xs-0 col-sm-4 col-lg-5">
+        <div class="collapse navbar-collapse">
+          <form class="navbar-form" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search for Users">
+            </div>
+          </form>
         </div>
+      </div>
 
-        <div class="col-xs-3 navbar-right">
-          <a class="h4" href="about.html">Harry</a>
-        </div>
+      <div class="col-xs-3 navbar-right">
+        <a class="h4 light" href="about.html">Harry</a>
+      </div>
 
     </nav>
+
+    <header class="row">
+      <div class="col-xs-12">
+        <div class="row border-default">
+          <img class="col-xs-12 cover-pic" src="images/hogwarts_small.jpg">
+        </div>
+        <div class="row eliminate-gap">
+          <div class="col-xs-3">
+            <div class="row">
+              <div class="col-xs-10 col-xs-offset-1">
+                <img class="profile-pic img-thumbnail img-fluid" src="images/user_silhouette_generic.gif">
+              </div>
+            </div>  
+          </div>
+          <div class="col-xs-9">
+            <h2 class="profile-name">Harry Potter</h2>
+          </div>
+        </div>
+        <div class="row eliminate-gap">
+          <div class="col-xs-1 col-xs-offset-11"> 
+            <div class="custom-toggle dropdown lg-collapse">
+              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="timeline.html">Timeline</a></li>
+                <li role="presentation" class="current"><a role="menuitem" tabindex="-1" href="about.html">About</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1"  href="photos.html">Photos <span class="faded">(123)</span></a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="friends.html">Friends <span class="faded">(542)</span></a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="about_edit.html">Edit your Profile</a></li>
+              </ul>
+            </div> 
+          </div>
+        </div>
+        <div class="row menu-container border-default">
+          <div class="nav-links">
+            <div class="col-xs-6 col-xs-offset-3">
+              <ul class="row nav nav-pills sm-collapse" id="menu">
+                <li class="col-xs-3 first"><a class="first" href="timeline.html"> Timeline</a></li><!--
+                --><li class="current col-xs-3"><a class="current" href="about.html"> About</a></li><!--
+                --><li class="col-xs-3"><a href="photos.html"> Photos <span class="faded sm-collapse">(123)</span></a></li><!--
+                --><li class="col-xs-3"><a href="friends.html"> Friends <span class="faded sm-collapse">(542)</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="edit-link sm-collapse">
+            <a href="about_edit.html">Edit your Profile</a>
+          </div>
+        </div>        
+      </div>
+    </header>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
