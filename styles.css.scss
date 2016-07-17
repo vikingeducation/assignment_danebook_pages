@@ -2,7 +2,9 @@
 
 
 
+
 /* Homepage Specific */
+
 
 
 
@@ -41,6 +43,7 @@ a:hover {
 .smidgen-right {
   padding-left: 2px;
 }
+
 
 
 /* Subpgs Navbar */
@@ -216,45 +219,68 @@ ul#menu {
     h2 {
       margin: 7px auto;
     }
-
+  }
+  .content-left {
+    padding: 15px;
+    @media (max-width: 768px) {
+      padding: 30px 30px 15px 30px;
+    }
+    @media (min-width: 990px) {
+      padding: 30px;
+    }
+  }
+  .content-right {
+    padding: 15px;
+    @media (max-width: 768px) {
+      padding: 15px 30px 30px 30px;
+    }
+    @media (min-width: 990px) {
+      padding: 30px;
+    }
+  }
+  .heading-plus-content {
+    padding-bottom: 6px;
+    h4 {
+      margin-top: 0;
+    }
+    .about {
+      td {
+        padding: 5px 0;
+      }
+      td.category {
+        font-weight: 500;
+        width: 110px;
+      }
+    }
   }
 }
 
-.content-left {
-  padding: 15px;
-  @media (max-width: 768px) {
-    padding: 30px 30px 15px 30px;
-  }
-  @media (min-width: 990px) {
-    padding: 30px;
-  }
-}
 
-.content-right {
-  padding: 15px;
-  @media (max-width: 768px) {
-    padding: 15px 30px 30px 30px;
-  }
-  @media (min-width: 990px) {
-    padding: 30px;
-  }
-}
 
-.heading-plus-content {
-  padding-bottom: 4px;
-  h4 {
-    margin-top: 0;
-  }
+/* About-Edit */
+
+#content-container {
   .about {
-    td {
-      padding: 5px 0;
-    }
-    td.category {
-      font-weight: 500;
-      width: 110px;
+    .form-control {
+      padding: 5px;
     }
   }
+  .submit-btn {
+    padding-bottom: 30px;
+  }
 }
+
+
+/* Timeline */
+
+
+
+/* Friends */
+
+
+
+/* Photos */
+
 
 
 

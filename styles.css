@@ -164,33 +164,40 @@ ul#menu {
     text-align: center; }
     #content-container .title-bar h2 {
       margin: 7px auto; }
+  #content-container .content-left {
+    padding: 15px; }
+    @media (max-width: 768px) {
+      #content-container .content-left {
+        padding: 30px 30px 15px 30px; } }
+    @media (min-width: 990px) {
+      #content-container .content-left {
+        padding: 30px; } }
+  #content-container .content-right {
+    padding: 15px; }
+    @media (max-width: 768px) {
+      #content-container .content-right {
+        padding: 15px 30px 30px 30px; } }
+    @media (min-width: 990px) {
+      #content-container .content-right {
+        padding: 30px; } }
+  #content-container .heading-plus-content {
+    padding-bottom: 6px; }
+    #content-container .heading-plus-content h4 {
+      margin-top: 0; }
+    #content-container .heading-plus-content .about td {
+      padding: 5px 0; }
+    #content-container .heading-plus-content .about td.category {
+      font-weight: 500;
+      width: 110px; }
 
-.content-left {
-  padding: 15px; }
-  @media (max-width: 768px) {
-    .content-left {
-      padding: 30px 30px 15px 30px; } }
-  @media (min-width: 990px) {
-    .content-left {
-      padding: 30px; } }
+/* About-Edit */
+#content-container .about .form-control {
+  padding: 5px; }
+#content-container .submit-btn {
+  padding-bottom: 30px; }
 
-.content-right {
-  padding: 15px; }
-  @media (max-width: 768px) {
-    .content-right {
-      padding: 15px 30px 30px 30px; } }
-  @media (min-width: 990px) {
-    .content-right {
-      padding: 30px; } }
-
-.heading-plus-content {
-  padding-bottom: 4px; }
-  .heading-plus-content h4 {
-    margin-top: 0; }
-  .heading-plus-content .about td {
-    padding: 5px 0; }
-  .heading-plus-content .about td.category {
-    font-weight: 500;
-    width: 110px; }
+/* Timeline */
+/* Friends */
+/* Photos */
 
 /*# sourceMappingURL=styles.css.map */
