@@ -27,9 +27,6 @@ a:hover {
 .smidgen-right {
   padding-left: 2px; }
 
-.h2 {
-  font-size: 2.1em; }
-
 /* Subpgs Navbar */
 .navbar-default {
   background-color: #103A4A;
@@ -64,8 +61,11 @@ a:hover {
         color: #d9d9d9; }
 
 /* Subpgs Header */
+.container {
+  max-width: 970px; }
+
 header {
-  height: 476px; }
+  padding-bottom: 65px; }
 
 img.cover-pic {
   z-index: 1;
@@ -87,31 +87,30 @@ img.profile-pic {
 .profile-name {
   position: absolute;
   z-index: 3;
-  left: 15px;
+  left: 20px;
   bottom: 5px;
   color: #fff; }
   @media (max-width: 768px) {
     .profile-name {
       font-size: 1.5em; } }
-  @media (min-width: 990px) and (max-width: 1199px) {
+  @media (min-width: 990px) {
     .profile-name {
-      left: 0; } }
-  @media (min-width: 1200px) {
-    .profile-name {
-      left: -45px; } }
+      left: 5px; } }
 
 .menu-container {
   height: 48px;
   border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px; }
+  border-bottom-right-radius: 3px;
+  margin-left: 0px;
+  margin-right: 0px; }
 
 ul#menu {
   position: absolute;
   left: 30px;
   right: 0; }
   ul#menu li {
-    height: 45px;
-    line-height: 45px;
+    height: 48px;
+    line-height: 48px;
     padding: 0;
     margin: auto;
     text-align: center;
@@ -119,7 +118,8 @@ ul#menu {
     ul#menu li .first {
       border-left: 1px solid #333; }
     ul#menu li .current {
-      background-color: #ccc; }
+      background-color: #ccc;
+      height: 47px; }
     ul#menu li a {
       border-radius: 0;
       color: #333;
@@ -134,13 +134,11 @@ ul#menu {
 
 .nav-links {
   position: relative;
-  left: 0px; }
-  @media (min-width: 990px) and (max-width: 1199px) {
+  top: -2px;
+  left: 5px; }
+  @media (min-width: 990px) {
     .nav-links {
-      left: -15px; } }
-  @media (min-width: 1200px) {
-    .nav-links {
-      left: -60px; } }
+      left: -10px; } }
 
 @media (max-width: 768px) {
   .sm-collapse {
@@ -152,7 +150,47 @@ ul#menu {
 
 .edit-link {
   position: absolute;
-  right: 14px;
-  bottom: 14px; }
+  right: 15px;
+  bottom: -31px; }
+
+#content-container {
+  padding: 0;
+  border: 1px solid #333;
+  border-radius: 2px; }
+  #content-container .title-bar {
+    background-color: #ccc;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    text-align: center; }
+    #content-container .title-bar h2 {
+      margin: 7px auto; }
+
+.content-left {
+  padding: 15px; }
+  @media (max-width: 768px) {
+    .content-left {
+      padding: 30px 30px 15px 30px; } }
+  @media (min-width: 990px) {
+    .content-left {
+      padding: 30px; } }
+
+.content-right {
+  padding: 15px; }
+  @media (max-width: 768px) {
+    .content-right {
+      padding: 15px 30px 30px 30px; } }
+  @media (min-width: 990px) {
+    .content-right {
+      padding: 30px; } }
+
+.heading-plus-content {
+  padding-bottom: 4px; }
+  .heading-plus-content h4 {
+    margin-top: 0; }
+  .heading-plus-content .about td {
+    padding: 5px 0; }
+  .heading-plus-content .about td.category {
+    font-weight: 500;
+    width: 110px; }
 
 /*# sourceMappingURL=styles.css.map */

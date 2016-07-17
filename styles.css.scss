@@ -42,11 +42,6 @@ a:hover {
   padding-left: 2px;
 }
 
-.h2 {
-  font-size: 2.1em;
-}
-
-
 
 /* Subpgs Navbar */
 
@@ -97,8 +92,12 @@ a:hover {
 
 /* Subpgs Header */
 
+.container {
+  max-width: 970px;
+}
+
 header {
-  height: 476px;
+  padding-bottom: 65px;
 }
 
 img.cover-pic {
@@ -124,17 +123,14 @@ img.profile-pic {
 .profile-name {
   position: absolute;
   z-index: 3;
-  left: 15px;
+  left: 20px;
   bottom: 5px;
   color: #fff;
   @media (max-width: 768px) {
     font-size: 1.5em;
   }
-  @media (min-width: 990px) and (max-width: 1199px) {
-    left: 0;
-  }
-  @media (min-width: 1200px) {
-    left: -45px;
+  @media (min-width: 990px) {
+    left: 5px;
   }
 }
 
@@ -142,6 +138,8 @@ img.profile-pic {
   height: 48px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 ul#menu {
@@ -149,8 +147,8 @@ ul#menu {
   left: 30px;
   right: 0;
   li {
-    height: 45px;
-    line-height: 45px;
+    height: 48px;
+    line-height: 48px;
     padding: 0;
     margin: auto;
     text-align: center;
@@ -160,6 +158,7 @@ ul#menu {
     }
     .current {
       background-color: #ccc;
+      height: 47px;
     }
     a {
       border-radius: 0;
@@ -180,12 +179,10 @@ ul#menu {
 
 .nav-links {
   position: relative;
-  left: 0px;
-  @media (min-width: 990px) and (max-width: 1199px) {
-    left: -15px;
-  }
-  @media (min-width: 1200px) {
-    left: -60px;
+  top: -2px;
+  left: 5px;
+  @media (min-width: 990px) {
+    left: -10px;
   }
 }
 
@@ -203,6 +200,62 @@ ul#menu {
 
 .edit-link {
   position: absolute;
-  right: 14px;
-  bottom: 14px;
+  right: 15px;
+  bottom: -31px;
 }
+
+#content-container {
+  padding: 0;
+  border: 1px solid #333;
+  border-radius: 2px;
+  .title-bar {
+    background-color: #ccc;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    h2 {
+      margin: 7px auto;
+    }
+
+  }
+}
+
+.content-left {
+  padding: 15px;
+  @media (max-width: 768px) {
+    padding: 30px 30px 15px 30px;
+  }
+  @media (min-width: 990px) {
+    padding: 30px;
+  }
+}
+
+.content-right {
+  padding: 15px;
+  @media (max-width: 768px) {
+    padding: 15px 30px 30px 30px;
+  }
+  @media (min-width: 990px) {
+    padding: 30px;
+  }
+}
+
+.heading-plus-content {
+  padding-bottom: 4px;
+  h4 {
+    margin-top: 0;
+  }
+  .about {
+    td {
+      padding: 5px 0;
+    }
+    td.category {
+      font-weight: 500;
+      width: 110px;
+    }
+  }
+}
+
+
+
+

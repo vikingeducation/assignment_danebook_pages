@@ -25,6 +25,7 @@
 
     <nav class="navbar navbar-default navbar-fixed-top row" role="navigation">
 
+      <!--Icon and Brand-->
       <div class="navbar-left col-xs-9 col-sm-5 col-lg-4">
         <span>
           <a class="logo light" href="home.html">
@@ -34,6 +35,7 @@
         </span>
       </div>
 
+      <!--Search Bar-->
       <div class="navbar-center col-xs-0 col-sm-4 col-lg-5">
         <div class="collapse navbar-collapse">
           <form class="navbar-form" role="search">
@@ -44,6 +46,7 @@
         </div>
       </div>
 
+      <!--User Name-->
       <div class="col-xs-3 navbar-right">
         <a class="h4 light" href="about.html">Harry</a>
       </div>
@@ -52,10 +55,14 @@
 
     <header class="row">
       <div class="col-xs-12">
-        <div class="row border-default">
+        
+        <!--Cover Pic-->
+        <section class="row border-default">
           <img class="col-xs-12 cover-pic" src="images/hogwarts_small.jpg">
-        </div>
-        <div class="row eliminate-gap">
+        </section>
+
+        <!--Profile Pic and Name-->
+        <section class="row eliminate-gap">
           <div class="col-xs-3">
             <div class="row">
               <div class="col-xs-10 col-xs-offset-1">
@@ -66,8 +73,12 @@
           <div class="col-xs-9">
             <h2 class="profile-name">Harry Potter</h2>
           </div>
-        </div>
-        <div class="row eliminate-gap">
+        </section>
+
+        <!--Nav Links-->
+        <section class="row eliminate-gap">
+          
+          <!--XS Screens Toggle Dropdown-->
           <div class="col-xs-1 col-xs-offset-11"> 
             <div class="custom-toggle dropdown lg-collapse">
               <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
@@ -83,24 +94,110 @@
               </ul>
             </div> 
           </div>
-        </div>
-        <div class="row menu-container border-default">
-          <div class="nav-links">
-            <div class="col-xs-6 col-xs-offset-3">
-              <ul class="row nav nav-pills sm-collapse" id="menu">
-                <li class="col-xs-3 first"><a class="first" href="timeline.html"> Timeline</a></li><!--
-                --><li class="current col-xs-3"><a class="current" href="about.html"> About</a></li><!--
-                --><li class="col-xs-3"><a href="photos.html"> Photos <span class="faded sm-collapse">(123)</span></a></li><!--
-                --><li class="col-xs-3"><a href="friends.html"> Friends <span class="faded sm-collapse">(542)</span></a></li>
-              </ul>
+
+          <!--Sm to Lg Screens Displayed-->
+          <div class="row menu-container border-default">
+            <div class="nav-links">
+              <div class="col-xs-6 col-xs-offset-3">
+                <ul class="row nav nav-pills sm-collapse" id="menu">
+                  <li class="col-xs-3 first"><a class="first" href="timeline.html"> Timeline</a></li><!--
+                  --><li class="current col-xs-3"><a class="current" href="about.html"> About</a></li><!--
+                  --><li class="col-xs-3"><a href="photos.html"> Photos <span class="faded sm-collapse">(123)</span></a></li><!--
+                  --><li class="col-xs-3"><a href="friends.html"> Friends <span class="faded sm-collapse">(542)</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="edit-link sm-collapse">
+              <a href="about_edit.html">Edit your Profile</a>
             </div>
           </div>
-          <div class="edit-link sm-collapse">
-            <a href="about_edit.html">Edit your Profile</a>
-          </div>
-        </div>        
+
+        </section>  
+
       </div>
     </header>
+
+    <main class="row" id="content-container">
+      <div class="col-xs-12">
+        
+        <!--Content Title Bar-->
+        <section class="row title-bar">
+          <h2>About</h2>
+        </section>
+
+        <div class="row">
+          
+          <!--Left Content Column-->
+          <section class="col-xs-12 col-sm-5 content-left">
+            <div class="row">
+              <div class="col-xs-12">
+                <section class="heading-plus-content">
+                  <h4>Basic Information</h4>
+                  <p>
+                    <table class="about">
+                      <tr>
+                        <td class="category">Birthday</td>
+                        <td>July 31st, 1980</td>
+                      </tr>
+                      <tr>
+                        <td class="category">College:</td>
+                        <td>Hogwarts College</td>
+                      </tr>
+                      <tr>
+                        <td class="category">Hometown:</td>
+                        <td>Godrick's Hollow, England</td>
+                      </tr>  
+                      <tr>
+                        <td class="category">Currently Lives:</td>
+                        <td>Godrick's Hollow, England</td>
+                      </tr> 
+                    </table>
+                  </p>
+                </section>
+                <section class="heading-plus-content">
+                  <h4>Contact Information</h4>
+                  <p>
+                    <table class="about">
+                      <tr>
+                        <td class="category">Email:</td>
+                        <td>harry_potter@hogwarts.edu</td>
+                      </tr>
+                      <tr>
+                        <td class="category">Telephone:</td>
+                        <td>555-123-4567</td>
+                      </tr>
+                    </table>
+                  </p>
+                </section>
+                
+              </div>
+            </div>
+          </section>
+
+          <!--Column Right-->
+          <section class="col-xs-12 col-sm-7 content-right">
+            <div class="row">
+              <div class="col-xs-12">
+                <section class="heading-plus-content">
+                  <h4>Words to Live By</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  </p>
+                </section>
+                <section class="heading-plus-content">
+                  <h4>About Me</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </section>
+              </div>
+            </div>
+          </section>
+
+      </div>
+    </div>
+  </main>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
