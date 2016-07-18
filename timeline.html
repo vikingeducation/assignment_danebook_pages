@@ -1,1 +1,86 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <title>Welcome to Danebook</title>
+</head>
+<body>
+
+  <header class="navbar navbar-fixed-top" id="navbar" role="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="navbar-header">
+            <a class="navbar-brand" id="img-brand" href="index.html">
+              <img src="assets/danish_flag.gif" class="img-circle" alt="Brand" id="danish_flag">
+            </a>
+          </div>
+          <strong class="navbar-brand" id="navbar-brand" >Danebook</strong>
+          <form class="navbar-form" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" id="user-search" placeholder="Search for Users">
+            </div>
+          </form>
+        </div>
+        <h2 class="pull-right" id="user-name">Harry</h2>
+      </div>
+  </header>
+
+  <main class="container">
+    <div class="row">
+        <img src="assets/hogwarts_small.jpg" class="col-sm-12" id="wallpaper-img">
+        <div class="row">
+          <div class="col-sm-2 project-overlay">
+            <img src="assets/harry_potter_small.jpg"" id="profile-img">
+          </div>
+        </div>
+    </div>
+
+    <nav class="row middle-nav" role="navigation">
+      <ul class="nav nav-pills">
+        <li class="col-sm-offset-3 middle-li active"><a href="#">Timeline</a></li>
+        <li class="middle-li"><a href="about.html">About</a></li>
+        <li class="middle-li"><a href="#">Photos<span class="badge">123</span></a></li>
+        <li class="middle-li"><a href="#">Friends<span class="badge">542</span></a></li>
+        <p class="navbar-text navbar-right col-sm-2"><a href="about_edit.html" class="navbar-link">Edit Profile</a></p>
+      </ul>
+    </nav>
+
+    <hr>
+    <div class="row">
+      <div class="col-sm-5">
+        <h3><strong>About</strong></h3>
+        <ul>
+          <li><strong>Born on:</strong>July 31st, 1980</li>
+          <li><strong>Went to school at:</strong>Hogwarts</li>
+          <li><strong>Hometown:</strong>Godric's Hollow, England</li>
+          <li><strong>Currently Lives:</strong>Godric's Hollow, England</li>
+        </ul>
+      </div>
+
+      <div class="col-sm-7">
+        <h3><strong>Post</strong></h3>
+        <textarea class="form-control" rows="3">Tell the world something.</textarea>
+        <button type="button" class="btn btn-primary" id="post">Post</button>
+
+      </div>
+    </div>
+
+  </main>
+</body>
+</html>
