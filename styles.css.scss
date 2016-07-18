@@ -44,7 +44,21 @@ a:hover {
   padding-left: 2px;
 }
 
+.title-bar-btn {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+}
 
+.btn {
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.8);
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-bottom: 30px;
+  }
+}
 
 /* Subpgs Navbar */
 
@@ -100,7 +114,7 @@ a:hover {
 }
 
 header {
-  padding-bottom: 65px;
+  padding-bottom: 30px;
 }
 
 img.cover-pic {
@@ -209,8 +223,8 @@ ul#menu {
 
 .edit-link {
   position: absolute;
-  right: 15px;
-  bottom: -31px;
+  right: 14px;
+  bottom: 14px;
 }
 
 #content-container {
@@ -227,21 +241,26 @@ ul#menu {
     }
   }
   .content-left {
-    padding: 15px;
     @media (max-width: 768px) {
-      padding: 30px 30px 15px 30px;
+      padding: 45px 60px 15px 60px;
     }
-    @media (min-width: 990px) {
-      padding: 30px;
+    @media (min-width: 769px) and (max-width: 990px) {
+      padding: 30px 15px 30px 30px;
+    }
+    @media (min-width: 991px) {
+      padding: 45px 30px 45px 45px;
     }
   }
   .content-right {
-    padding: 15px;
+    padding: 30px;
     @media (max-width: 768px) {
-      padding: 15px 30px 30px 30px;
+      padding: 15px 60px 45px 60px;
     }
-    @media (min-width: 990px) {
-      padding: 30px;
+    @media (min-width: 769px) and (max-width: 990px) {
+      padding: 30px 30px 30px 15px;
+    }
+    @media (min-width: 991px) {
+      padding: 45px 45px 45px 30px;
     }
   }
   .heading-plus-content {
@@ -278,6 +297,8 @@ ul#menu {
 
 
 /* Timeline */
+
+
 
 
 
@@ -322,7 +343,46 @@ ul#menu {
 
 /* Photos */
 
+.photo-row {
+  margin: 30px auto;
+}
 
-
-
-
+.photo-sm {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  .caption {
+    display: none;
+  }
+  &:hover {
+    .overlay {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 2;
+      background-color: #333;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      height: 42px;
+      width: calc(100% - 30px);
+      margin-left: 15px;
+      overflow: hidden;
+      span.caption {     
+        display: block;
+        z-index: 3;
+        color: #fff;
+        text-align: center;
+      }
+      @media (max-width: 433px) {
+        height: 100%;
+      }
+      @media (min-width: 990px) {
+        width: calc(100% - 76px);
+        margin-left: 38px;
+        span.caption {
+          font-size: 14px;
+        }
+      }
+    } 
+  }
+}
