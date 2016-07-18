@@ -14,14 +14,30 @@
   width: 40px; }
 
 #img-brand {
-  padding: 3px 0 3px 15px; }
+  padding: 3px 0; }
 
 #user-search {
   width: 400%; }
 
+#wallpaper-img {
+  border: 2px solid #333;
+  padding: 0; }
+
 #profile-img {
-  -webkit-transform: translate(20px, -200px);
-  -ms-transform: translate(20px, -200px);
-  transform: translate(20px, -200px); }
+  border: 2px solid #333;
+  padding: 0;
+  /*-webkit-transform: translate(20px, -200px);
+      -ms-transform: translate(20px, -200px);
+          transform: translate(20px, -200px);*/ }
+
+.project-overlay {
+  position: absolute;
+  top: 375px; }
+
+ul {
+  border: 2px solid #333; }
+
+li a {
+  padding: 15px !important; }
 
 /*# sourceMappingURL=styles.css.map */
