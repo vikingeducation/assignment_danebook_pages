@@ -15,6 +15,11 @@
   <title>Welcome to Danebook</title>
 </head>
 <body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+
 
   <header class="navbar navbar-fixed-top" id="navbar" role="navigation">
     <div class="container">
@@ -45,22 +50,60 @@
         </div>
     </div>
     
-    <nav class="row" role="navigation">
+    <nav class="row middle-nav" role="navigation">
       <ul class="nav nav-pills">
-        <li class="col-sm-offset-3"><a href="#">Timeline</a></li>
-        <li class="active"><a href="#">About</a></li>
-        <li><a href="#">Photos<span class="badge">123</span></a></li>
-        <li><a href="#">Friends<span class="badge">542</span></a></li>
+        <li class="col-sm-offset-3 middle-li"><a href="#">Timeline</a></li>
+        <li class="active middle-li"><a href="#">About</a></li>
+        <li class="middle-li"><a href="#">Photos<span class="badge">123</span></a></li>
+        <li class="middle-li"><a href="#">Friends<span class="badge">542</span></a></li>
         <p class="navbar-text navbar-right col-sm-2"><a href="#" class="navbar-link">Edit Profile</a></p>
       </ul>
-
     </nav>
+    <hr>
+
+    <section class="row" id="about-title">
+      <h1 class="col-sm-2 col-sm-offset-5" id="section-title">About</h1>
+      <button type="button" class="btn btn-primary pull-right" id="button-position-fix">Edit your Profile</button>
+    </section>
+
+    <section class="row" id="about-info">
+      <nav class="col-sm-5 col-sm-offset-1">
+        <div class="row">
+          <h3 class="padding-fix"><strong>Basic Information</strong></h3>
+          <ul class="col-sm-5 list-group">
+            <li class="list-group-item"><strong>Birthday:</strong></li>
+            <li class="list-group-item"><strong>College:</strong></li>
+            <li class="list-group-item"><strong>Hometown:</strong></li>
+            <li class="list-group-item"><strong>Currently Lives:</strong></li>
+          </ul>
+          <ul class="col-sm-7 list-group">
+            <li class="list-group-item">July 31st, 1980</li>
+            <li class="list-group-item"> Hogwarts College</li>
+            <li class="list-group-item">Godric's Hollow, England</li>
+            <li class="list-group-item">Godric's Hollow, England</li>
+          </ul>
+        </div>
+        <div class="row">
+          <h3 class="padding-fix"><strong>Contact Information</strong></h3>
+          <ul class="col-sm-5 list-group">
+            <li class="list-group-item"><strong>Email</strong></li>
+            <li class="list-group-item"><strong>Telephone</strong></li>
+          </ul>
+          <ul list class="col-sm-7 list-group">
+            <li class="list-group-item">harry_potter@hogwarts.edu</li>
+            <li class="list-group-item">555-123-4567</li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="col-sm-5">
+        <h3 class="top-pad-fix"><strong>Words to Live By</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a eros gravida, maximus sapien vel, ornare turpis. Proin varius, purus ut</p>
+        <h3 class="top-pad-fix"><strong>About Me</strong></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a eros gravida, maximus sapien vel, ornare turpis. Proin varius, purus ut finibus hendrerit, turpis elit malesuada arcu, eu commodo nunc libero sed dui. Sed vehicula dictum mattis. Maecenas quis egestas nisi. Quisque suscipit lorem non consectetur vulputate. Morbi tincidunt, dolor nec suscipit molestie, urna nulla sollicitudin risus, laoreet interdum felis diam sed sem. Ut non porta diam. Nam varius risus tellus, quis auctor nunc iaculis eu. In nunc sem, lobortis gravida vestibulum nec, bibendum ac nunc.</p>
+      </nav>
+    </section>
+    <hr>
 
   </main>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
-
 </body>
 </html>

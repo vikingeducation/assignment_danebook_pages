@@ -34,10 +34,38 @@
   position: absolute;
   top: 375px; }
 
-ul {
+.middle-nav {
   border: 2px solid #333; }
 
-li a {
+.middle-li {
+  border-left: 2px solid #333; }
+
+.middle-li:nth-of-type(4) {
+  border-right: 2px solid #333; }
+
+.middle-li a {
   padding: 15px !important; }
+
+#about-title {
+  border: 2px solid #333; }
+
+#section-title {
+  margin-top: 10px; }
+
+#button-position-fix {
+  box-shadow: 2px 2px 2px #333;
+  margin: 10px; }
+
+#about-info {
+  border: 2px solid #333; }
+
+.padding-fix {
+  padding-left: 15px; }
+
+.list-group-item {
+  border: none; }
+
+.top-pad-fix {
+  padding-top: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
