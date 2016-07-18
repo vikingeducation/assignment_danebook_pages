@@ -1,3 +1,4 @@
+/* Navbar Styles */
 #navbar {
   background-color: #06f;
   border: 3px solid #333;
@@ -19,8 +20,12 @@
 #user-search {
   width: 400%;
 }
+#user-name {
+  color: white;
+  margin-top: 10px;
+}
 
-
+/* Wallpaper and Profile pic styles */
 #wallpaper-img {
   border: 2px solid #333;
   padding: 0;
@@ -37,6 +42,7 @@
   top: 375px;
 }
 
+/* Middle nav styles */
 .middle-nav {
   border: 2px solid #333;
 }
@@ -50,6 +56,7 @@
   padding: 15px !important;
 }
 
+/* About section styles */
 #about-title {
   border: 2px solid #333;
 }
