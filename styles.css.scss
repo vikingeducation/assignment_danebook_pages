@@ -156,6 +156,11 @@ ul#menu {
     margin: auto;
     text-align: center;
     border-right: 1px solid #333;
+    a {
+      border-radius: 0;
+      color: #333;
+      padding: 0 5px;    
+    }
     .first {
       border-left: 1px solid #333;
     }
@@ -163,15 +168,16 @@ ul#menu {
       background-color: #ccc;
       height: 47px;
     }
-    a {
-      border-radius: 0;
-      color: #333;
-      padding: 0 5px;
-      .faded {
-        color: #ccc;
-      }
-    }
   } 
+}
+
+.faded {
+  color: #ccc;
+}
+
+.faded-inverse {
+  color: #333;
+  font-weight: 500;
 }
 
 .custom-toggle {
@@ -276,6 +282,41 @@ ul#menu {
 
 
 /* Friends */
+
+.small-gutters {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#middle-container {
+  margin-top: 30px;  
+  margin-bottom: 30px;
+}
+
+.friend-container {
+  height: 120px;
+  padding: 9px;
+  margin: auto;
+  border: 1px solid #333;
+  .friend-content {
+    height: 100px; 
+    padding: 0 5px; 
+    line-height: 100px;
+    .friend-img {
+      height: 100px;
+      padding: 5px;
+    }
+    .friend-name {
+      margin: 0;
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+    .unfriend-btn {
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+  }
+}
 
 
 
