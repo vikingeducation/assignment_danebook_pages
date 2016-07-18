@@ -14,9 +14,14 @@
   width: 40px; }
 
 #img-brand {
-  padding: 3px 0; }
+  padding: 3px 0 3px 15px; }
 
 #user-search {
   width: 400%; }
+
+#profile-img {
+  -webkit-transform: translate(20px, -200px);
+  -ms-transform: translate(20px, -200px);
+  transform: translate(20px, -200px); }
 
 /*# sourceMappingURL=styles.css.map */
