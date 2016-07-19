@@ -7,16 +7,41 @@
   margin-right: 0;
 }
 
+.sm-gutters {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin: auto;
+}
 
-/* Homepage Specific */
+.btn-raised {
+  box-shadow: 3px 3px 2px -2px #333;
+}
 
+.smidgen-right-padding {
+  padding-left: 3px;
+}
 
+.smidgen-right-margin {
+  margin-left: 3px;
+}
 
+.padding-boost-top {
+  padding-top: 10px;
+}
 
-/* Subpgs Global */
+.padding-boost-bottom {
+  padding-bottom: 10px;
+}
 
-body {
-  padding-top: 50px;
+.lg-padding-boost-bottom {
+  padding-bottom: 15px;
+}
+
+.btn-info {
+  background-color: #9FC5F8;
+  &:hover {
+    background-color: darken(#9FC5F8, 15%);
+  }
 }
 
 a:hover {
@@ -34,41 +59,56 @@ a:hover {
   border-bottom: 1px solid #333;
 }
 
-.btn-info {
-  background-color: #9FC5F8;
-  &:hover {
-    background-color: darken(#9FC5F8, 15%);
-  }
+.smidgen-down {
+  margin-top: 2px;
 }
 
-.btn-raised {
-  box-shadow: 3px 3px 2px -2px #333;
+.center {
+  text-align: center;
+  margin: auto;
 }
 
-.smidgen-right {
-  padding-left: 2px;
+.sm-vertical-padding-boost {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
-.smidgen-right-margin {
-  margin-left: 3px;
+.sm-horizontal-padding-boost {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #eee;
+}
+
+.faded {
+  color: #ccc;
+}
+
+.faded-inverse {
+  color: #efefef;
+}
+
+
+
+/* Subpgs Global */
+
+body {
+  padding-top: 50px;
 }
 
 .title-bar-btn {
   position: absolute;
   right: 7px;
   top: 7px;
-}
-
-.padding-boost-top {
-  padding-top: 10px;
-}
-
-.padding-boost-bottom {
-  padding-bottom: 10px;
-}
-
-.lg-padding-boost-bottom {
-  padding-bottom: 15px;
 }
 
 @media (min-width: 768px) {
@@ -122,8 +162,6 @@ a:hover {
   }
 }
 
-
-
 /* Subpgs Header */
 
 .container {
@@ -176,7 +214,7 @@ img.profile-pic {
   margin-right: 0px;
 }
 
-ul#menu {
+#menu {
   position: absolute;
   left: 30px;
   right: 0;
@@ -200,14 +238,6 @@ ul#menu {
       height: 47px;
     }
   } 
-}
-
-.faded {
-  color: #ccc;
-}
-
-.faded-inverse {
-  color: #efefef;
 }
 
 .custom-toggle {
@@ -261,7 +291,7 @@ ul#menu {
   }
   .content-left {
     @media (max-width: 768px) {
-      padding: 45px 60px 15px 60px;
+      padding: 45px 45px 15px 45px;
     }
     @media (min-width: 769px) and (max-width: 990px) {
       padding: 30px 15px 30px 30px;
@@ -273,7 +303,7 @@ ul#menu {
   .content-right {
     padding: 30px;
     @media (max-width: 768px) {
-      padding: 15px 60px 45px 60px;
+      padding: 15px 45px 45px 45px;
     }
     @media (min-width: 769px) and (max-width: 990px) {
       padding: 30px 30px 30px 15px;
@@ -299,17 +329,6 @@ ul#menu {
   }
 }
 
-
-
-/* About-Edit */
-
-#content-container {
-  .about {
-    .form-control {
-      padding: 5px;
-    }
-  }
-}
 
 
 /* Timeline */
@@ -377,58 +396,15 @@ header.sub {
   }
 }
 
-.smidgen-down {
-  margin-top: 2px;
-}
-
-.center {
-  text-align: center;
-  margin: auto;
-}
-
-.sm-vertical-padding-boost {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.sm-horizontal-padding-boost {
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-  border-color: #eee;
-}
-
-/* Friends */
-
-.small-gutters {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
 footer {
-  .col-xs-12 {
-    .row {
-      .no-gutter-right {
-        padding-right: 0px;
-      }
-    }
+  .no-gutter-right {
+    padding-right: 0px;
   }
 }
 
-.sm-gutters {
-  padding-left: 6px;
-  padding-right: 6px;
-  margin: auto;
-}
+
+
+/* Friends */
 
 #middle-container {
   margin-top: 30px;  
@@ -437,6 +413,7 @@ footer {
 
 .friend-container {
   height: 120px;
+  min-width: 350px;
   padding: 9px;
   margin: auto;
   border: 1px solid #333;
@@ -446,6 +423,7 @@ footer {
     line-height: 100px;
     .friend-img {
       height: 100px;
+      width: 100px;
       padding: 5px;
     }
     .friend-name {
@@ -458,6 +436,15 @@ footer {
       padding-bottom: 35px;
     }
   }
+}
+
+
+
+/* About_Edit */
+
+.btn-lg {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 
@@ -500,7 +487,7 @@ footer {
       @media (min-width: 990px) {
         width: calc(100% - 76px);
         margin-left: 38px;
-        span.caption {
+        .caption {
           font-size: 14px;
         }
       }
