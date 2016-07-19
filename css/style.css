@@ -9,7 +9,7 @@ main {
 ul {
   list-style-type: none; }
 
-ul, p, h1, h2 {
+ul, p, h1, h2, h3 {
   margin: 0;
   padding: 0; }
 
@@ -168,6 +168,8 @@ ul, p, h1, h2 {
     #profile-content {
       border-left: none;
       border-right: none; } }
+  #profile-content .row {
+    width: 100%; }
   #profile-content #profile-header {
     text-align: center;
     background: #EAF1E3;
@@ -220,11 +222,13 @@ ul, p, h1, h2 {
       color: white;
       font-size: 28px;
       text-decoration: none; }
-  #profile-content .photo-row .thumbnail-container {
-    position: relative; }
-    #profile-content .photo-row .thumbnail-container::after {
-      content: "Uploaded in 282 AC";
-      display: block;
+  #profile-content .photo-row {
+    margin: 0; }
+    #profile-content .photo-row .thumbnail-container {
+      position: relative; }
+      #profile-content .photo-row .thumbnail-container:hover > .overlay {
+        opacity: 1; }
+    #profile-content .photo-row .overlay {
       padding: 15px;
       position: absolute;
       z-index: 400;
@@ -234,22 +238,13 @@ ul, p, h1, h2 {
       width: 100%;
       text-align: center;
       background: rgba(0, 0, 0, 0.6);
-      opacity: 0; }
-  #profile-content .photo-row .overlay {
-    padding: 15px;
-    position: absolute;
-    z-index: 400;
-    bottom: 30px;
-    background: black;
-    color: white;
-    width: 100%;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0; }
-  #profile-content .photo-row img {
-    width: 100%;
-    margin-bottom: 30px;
-    position: relative; }
+      opacity: 0;
+      -webkit-transition: .5s;
+      transition: .5s; }
+    #profile-content .photo-row img {
+      width: 100%;
+      margin-bottom: 30px;
+      position: relative; }
 
 .friend-box {
   border: 1px solid #ccc;
@@ -294,6 +289,50 @@ ul, p, h1, h2 {
       display: inline-block;
       font-weight: normal; } }
 
+#timeline-row {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+#timeline-left {
+  padding-left: 0; }
+
+#timeline-right {
+  padding-right: 0; }
+
+.card {
+  border: 1px solid #ccc;
+  margin-bottom: 15px; }
+
+.card-header {
+  width: 100%;
+  background: #EAF1E3;
+  text-align: center;
+  padding: 7px;
+  margin-bottom: 7px; }
+  .card-header h3 {
+    font-size: 14px;
+    font-weight: bold; }
+
+.card-body {
+  border-top: none; }
+  .card-body .link {
+    text-align: center;
+    text-decoration: underline;
+    padding: 4px 0 8px; }
+
+#card-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+  #card-photos div {
+    width: 33%;
+    padding: 4px;
+    text-align: center;
+    text-decoration: underline; }
+  #card-photos img {
+    width: 100%; }
+
 @media only screen and (max-width: 480px) {
   .no-small {
     display: none; } }
@@ -301,5 +340,8 @@ ul, p, h1, h2 {
 @media only screen and (max-width: 769px) {
   .no-medium {
     display: none; } }
+
+.no-border {
+  border: none !important; }
 
 /*# sourceMappingURL=style.css.map */

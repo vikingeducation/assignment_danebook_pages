@@ -14,7 +14,7 @@ ul {
   list-style-type: none;
 }
 
-ul, p, h1, h2 {
+ul, p, h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
@@ -240,6 +240,10 @@ ul, p, h1, h2 {
     border-right: none;
   }
 
+  .row {
+    width: 100%;
+  }
+
   #profile-header {
     text-align: center;
     background: #EAF1E3;
@@ -322,25 +326,17 @@ ul, p, h1, h2 {
   }
 
   .photo-row {
+    margin: 0;
+
+
     .thumbnail-container {
       position: relative;
 
-      &::after {        
-        content: "Uploaded in 282 AC";
-        display: block;
-        padding:15px;
-        position: absolute;
-        z-index: 400;
-        bottom: 30px;
-        background: black;
-        color: white;
-        width: 100%;
-        text-align: center;
-        background: rgba(0,0,0, .6);
-        opacity: 0;
+      &:hover > .overlay {
+        opacity: 1;
       }
     }
-
+  
     .overlay {
       padding:15px;
       position: absolute;
@@ -352,6 +348,8 @@ ul, p, h1, h2 {
       text-align: center;
       background: rgba(0,0,0, .6);
       opacity: 0;
+      -webkit-transition: .5s;
+      transition: .5s;
     }
 
     img {
@@ -428,7 +426,65 @@ ul, p, h1, h2 {
     }
 }
 
+//timeline
+#timeline-row {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
 
+#timeline-left {
+  padding-left: 0;
+}
+
+#timeline-right {
+  padding-right: 0;
+}
+
+.card {
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.card-header {
+  width: 100%;
+  background: #EAF1E3;
+  text-align: center;
+  padding: 7px;
+  margin-bottom: 7px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.card-body {
+  border-top: none;
+
+  .link {
+    text-align: center;
+    text-decoration: underline;
+    padding: 4px 0 8px;;
+  }
+}
+
+#card-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  div {
+    width: 33%;
+    padding: 4px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  img {
+    width: 100%;
+  }
+}
 //misc
 
 .no-small {
@@ -441,4 +497,8 @@ ul, p, h1, h2 {
   @media only screen and (max-width : 769px) {
       display: none;
     }
+}
+
+.no-border {
+  border: none !important;
 }
