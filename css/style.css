@@ -1,3 +1,6 @@
+.light-border, #banner-nav, #profile-content, #profile-content #profile-header, .friend-box, .card-header, .card-body, .post .post-comment .comment-thumbnail-container .comment-thumbnail, .card-footer {
+  border: 1px solid #ccc; }
+
 html {
   -webkit-font-smoothing: antialiased;
   font-family: helvetica, sans-serif; }
@@ -25,6 +28,17 @@ ul, p, h1, h2, h3 {
   border-color: #730000;
   background-color: #C53030;
   font-weight: bold; }
+  .btn:active, .btn:focus {
+    border-color: #730000;
+    background-color: #C53030; }
+
+.bold {
+  font-weight: bold; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent); }
 
 #pusher {
   height: 50px; }
@@ -80,8 +94,7 @@ ul, p, h1, h2, h3 {
         flex-grow: 0; } }
     #navbar .name-container .name {
       margin: 0;
-      font-size: 18px;
-      font-weight: bold; }
+      font-size: 18px; }
 
 #banner {
   position: relative; }
@@ -130,7 +143,6 @@ ul, p, h1, h2, h3 {
     border-radius: 2px; }
 
 #banner-nav {
-  border: 1px solid #ccc;
   border-top: 0;
   border-radius: 0 0 2px 2px;
   display: flex;
@@ -172,7 +184,6 @@ ul, p, h1, h2, h3 {
     bottom: 10px; }
 
 #profile-content {
-  border: 1px solid #ccc;
   margin-top: 14px; }
   @media only screen and (max-width: 625px) {
     #profile-content {
@@ -185,39 +196,31 @@ ul, p, h1, h2, h3 {
     background: #EAF1E3;
     padding: 10px;
     margin-bottom: 15px;
-    position: relative;
-    border-bottom: 1px solid #ccc; }
+    position: relative; }
     #profile-content #profile-header h1 {
       font-size: 24px; }
     #profile-content #profile-header .button {
       display: inline-block;
       position: absolute;
       right: 10px;
-      top: 8px;
-      padding: 4px;
-      border-radius: 2px;
-      border-color: #730000;
-      background-color: #C53030;
-      font-weight: bold; }
+      top: 8px; }
   #profile-content #profile-content-body {
     width: 100%; }
-    #profile-content #profile-content-body .quotes p {
-      margin-bottom: 15px; }
-    #profile-content #profile-content-body h2 {
-      font-size: 20px;
-      margin-bottom: 14px; }
-    #profile-content #profile-content-body .bold {
-      font-weight: bold; }
-    #profile-content #profile-content-body td {
-      border: 0; }
-      #profile-content #profile-content-body td input {
-        width: 100%;
-        border: 1px solid #888;
-        padding-left: 5px; }
-    #profile-content #profile-content-body textarea {
+  #profile-content #profile-content-body .quotes p {
+    margin-bottom: 15px; }
+  #profile-content #profile-content-body h2 {
+    font-size: 20px;
+    margin-bottom: 14px; }
+  #profile-content #profile-content-body td {
+    border: 0; }
+    #profile-content #profile-content-body td input {
       width: 100%;
-      height: 150px;
-      border: 1px solid #888; }
+      border: 1px solid #888;
+      padding-left: 5px; }
+  #profile-content #profile-content-body textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #888; }
   #profile-content #submit-container {
     padding: 50px;
     display: flex;
@@ -227,40 +230,37 @@ ul, p, h1, h2, h3 {
     #profile-content #submit-container #big-submit {
       width: 500px;
       height: 80px;
-      border-color: #730000;
-      background-color: #C53030;
-      color: white;
       font-size: 28px;
       text-decoration: none; }
-  #profile-content .photo-row {
-    margin: 0; }
-    #profile-content .photo-row .thumbnail-container {
-      position: relative; }
-      #profile-content .photo-row .thumbnail-container:hover > .overlay {
-        opacity: 1; }
-    #profile-content .photo-row .overlay {
-      padding: 15px;
-      position: absolute;
-      z-index: 400;
-      bottom: 30px;
-      background: black;
-      color: white;
-      width: 100%;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.6);
-      opacity: 0;
-      -webkit-transition: .5s;
-      transition: .5s; }
-    #profile-content .photo-row img {
-      width: 100%;
-      margin-bottom: 30px;
-      position: relative; }
+
+.photo-row {
+  margin: 0; }
+  .photo-row .thumbnail-container {
+    position: relative; }
+    .photo-row .thumbnail-container:hover > .overlay {
+      opacity: 1; }
+  .photo-row .overlay {
+    padding: 15px;
+    position: absolute;
+    z-index: 400;
+    bottom: 30px;
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    -webkit-transition: .5s;
+    transition: .5s; }
+  .photo-row img {
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative; }
 
 .friend-row {
   margin: 0; }
 
 .friend-box {
-  border: 1px solid #ccc;
   min-height: 100px;
   width: 100%;
   position: relative;
@@ -290,7 +290,7 @@ ul, p, h1, h2, h3 {
     border-color: #ddd;
     border-radius: 3px;
     font-size: 12px; }
-    .friend-box button:hover {
+    .friend-box button:hover, .friend-box button:active, .friend-box button:focus {
       background: #127C1F;
       border-color: #EAF1E3; }
   .friend-box .small-unfriend {
@@ -317,23 +317,20 @@ ul, p, h1, h2, h3 {
   margin-bottom: 15px; }
 
 .card-header {
+  border-bottom: 0;
   width: 100%;
   background: #EAF1E3;
   text-align: center;
-  padding: 7px;
-  border: 1px solid #ccc;
-  border-bottom: 0; }
+  padding: 7px; }
   .card-header h3 {
     font-size: 14px;
     font-weight: bold; }
 
 .card-body {
   border-top: none;
-  border: 1px solid #ccc;
   padding: 14px; }
   .card-body .link {
     text-align: center;
-    text-decoration: underline;
     padding: 4px 0 8px; }
 
 #post-input-card-body {
@@ -348,68 +345,54 @@ ul, p, h1, h2, h3 {
   #card-photos div {
     width: 33.333333%;
     padding: 4px;
-    text-align: center;
-    text-decoration: underline; }
+    text-align: center; }
   #card-photos img {
     width: 100%; }
 
-.post .post-header {
-  display: inline-flex;
-  align-items: center;
-  margin-bottom: 14px; }
-  .post .post-header .post-thumbnail {
-    margin-right: 14px;
-    width: 80px; }
-  .post .post-header .name {
-    text-decoration: underline;
-    font-weight: bold; }
-.post .post-actions {
-  display: flex;
-  text-decoration: underline; }
-  .post .post-actions .like {
-    margin-right: 14px; }
-  .post .post-actions .delete-post {
-    margin-left: auto; }
-.post .likes {
-  margin-top: 7px; }
-.post .post-comment {
-  display: flex;
-  margin-bottom: 28px; }
-  .post .post-comment .comment-header {
-    margin-bottom: 7px; }
-  .post .post-comment .comment-footer {
-    display: flex;
-    margin-top: 7px; }
-    .post .post-comment .comment-footer .like {
+.post {
+  border-top: 1px solid #ccc; }
+  .post .post-header {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 14px; }
+    .post .post-header .post-thumbnail {
+      margin-right: 14px;
+      width: 80px; }
+    .post .post-header .name {
+      font-weight: bold; }
+  .post .post-actions {
+    display: flex; }
+    .post .post-actions .like {
       margin-right: 14px; }
-    .post .post-comment .comment-footer .delete {
+    .post .post-actions .delete-post {
       margin-left: auto; }
-  .post .post-comment .comment-thumbnail-container {
-    padding-right: 7px; }
-    .post .post-comment .comment-thumbnail-container .comment-thumbnail {
-      width: 80px;
-      border: 1px solid #ccc; }
-.post .last {
-  margin-bottom: 0; }
-.post hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent); }
+  .post .likes {
+    margin-top: 7px; }
+  .post .post-comment {
+    display: flex;
+    margin-bottom: 28px; }
+    .post .post-comment .comment-header {
+      margin-bottom: 7px; }
+    .post .post-comment .comment-footer {
+      display: flex;
+      margin-top: 7px; }
+      .post .post-comment .comment-footer .like {
+        margin-right: 14px; }
+      .post .post-comment .comment-footer .delete {
+        margin-left: auto; }
+    .post .post-comment .comment-thumbnail-container {
+      padding-right: 7px; }
+      .post .post-comment .comment-thumbnail-container .comment-thumbnail {
+        width: 80px; }
+  .post .last {
+    margin-bottom: 0; }
 
 #post-submit-footer {
   text-align: right; }
 
-#post-submit-button {
-  background: #C53030;
-  color: #fff;
-  border-radius: 2px;
-  border-color: #730000;
-  font-weight: bold; }
-
 .card-footer {
   background: #EAF1E3;
   padding: 7px;
-  border: 1px solid #ccc;
   border-top: 0; }
 
 .comment-input-actions {

@@ -1,3 +1,11 @@
+//variables extends and mixins
+$bright-red: #C53030;
+$dark-red: #730000;
+
+.light-border {
+  border: 1px solid #ccc;
+}
+
 //global
 
 html {
@@ -30,10 +38,25 @@ ul, p, h1, h2, h3 {
 .btn {
   padding: 4px;
   border-radius: 2px;
-  border-color: #730000;
-  background-color: #C53030;
+  border-color: $dark-red;
+  background-color: $bright-red;
+  font-weight: bold;
+
+  &:active, &:focus {
+    border-color: $dark-red;
+    background-color: $bright-red;
+  }
+}
+
+.bold {
   font-weight: bold;
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0));
+  }
 
 
 
@@ -109,12 +132,11 @@ ul, p, h1, h2, h3 {
 
     @media only screen and (max-width : 480px) {
       flex-grow: 0;
-      }
+    }
 
     .name {
       margin: 0;
       font-size: 18px;
-      font-weight: bold;
     }
   }
 }
@@ -177,7 +199,7 @@ ul, p, h1, h2, h3 {
 }
 
 #banner-nav {
-  border: 1px solid #ccc;
+  @extend .light-border;
   border-top: 0;
   border-radius: 0 0 2px 2px;
   display: flex;
@@ -243,8 +265,7 @@ ul, p, h1, h2, h3 {
 //profile content
 
 #profile-content {
-
-  border: 1px solid #ccc;
+  @extend .light-border;
   margin-top: 14px;
 
   @media only screen and (max-width : 625px) {
@@ -257,12 +278,12 @@ ul, p, h1, h2, h3 {
   }
 
   #profile-header {
+    @extend .light-border;
     text-align: center;
     background: #EAF1E3;
     padding: 10px;
     margin-bottom: 15px;
     position: relative;
-    border-bottom: 1px solid #ccc;
 
     h1 {
       font-size: 24px;
@@ -273,16 +294,16 @@ ul, p, h1, h2, h3 {
       position: absolute;
       right: 10px;
       top: 8px;
-      padding: 4px;
-      border-radius: 2px;
-      border-color: #730000;
-      background-color: #C53030;
-      font-weight: bold;
     }
   }
 
   #profile-content-body {
     width: 100%;
+  }
+
+  //about and about-edit
+
+  #profile-content-body{
 
     .quotes {
       
@@ -294,10 +315,6 @@ ul, p, h1, h2, h3 {
     h2 {
       font-size: 20px;
       margin-bottom: 14px;
-    }
-
-    .bold {
-      font-weight: bold;
     }
 
     td {
@@ -329,48 +346,49 @@ ul, p, h1, h2, h3 {
     #big-submit {
       width: 500px;
       height: 80px;
-      border-color: #730000;
-      background-color: #C53030;
-      color: white;
       font-size: 28px;
       text-decoration: none;
     }
   }
-
-  .photo-row {
-    margin: 0;
+}
 
 
-    .thumbnail-container {
-      position: relative;
 
-      &:hover > .overlay {
-        opacity: 1;
-      }
-    }
-  
-    .overlay {
-      padding:15px;
-      position: absolute;
-      z-index: 400;
-      bottom: 30px;
-      background: black;
-      color: white;
-      width: 100%;
-      text-align: center;
-      background: rgba(0,0,0, .6);
-      opacity: 0;
-      -webkit-transition: .5s;
-      transition: .5s;
-    }
+//photos page
+.photo-row {
+  margin: 0;
 
-    img {
-      width: 100%;
-      margin-bottom: 30px;
-      position: relative;
+
+  .thumbnail-container {
+    position: relative;
+
+    &:hover > .overlay {
+      opacity: 1;
     }
   }
+
+  .overlay {
+    padding:15px;
+    position: absolute;
+    z-index: 400;
+    bottom: 30px;
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.6);
+    opacity: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+  }
 }
+
 
 
 
@@ -380,7 +398,7 @@ ul, p, h1, h2, h3 {
 }
 
 .friend-box {
-  border: 1px solid #ccc;
+  @extend .light-border;
   min-height: 100px;
   width: 100%;
   position: relative;
@@ -422,10 +440,12 @@ ul, p, h1, h2, h3 {
     border-radius: 3px;
     font-size: 12px;
 
-    &:hover {
+    &:hover, &:active, &:focus {
       background: #127C1F;
       border-color: #EAF1E3;
     }
+
+
   }
 
   .small-unfriend {
@@ -464,12 +484,12 @@ ul, p, h1, h2, h3 {
 }
 
 .card-header {
+  @extend .light-border;
+  border-bottom: 0;
   width: 100%;
   background: #EAF1E3;
   text-align: center;
   padding: 7px;
-  border: 1px solid #ccc;
-  border-bottom: 0;
 
   h3 {
     font-size: 14px;
@@ -478,13 +498,12 @@ ul, p, h1, h2, h3 {
 }
 
 .card-body {
+  @extend .light-border;
   border-top: none;
-  border: 1px solid #ccc;
   padding: 14px;
 
   .link {
     text-align: center;
-    text-decoration: underline;
     padding: 4px 0 8px;;
   }
 }
@@ -506,7 +525,6 @@ ul, p, h1, h2, h3 {
     width: 33.333333%;
     padding: 4px;
     text-align: center;
-    text-decoration: underline;
   }
 
   img {
@@ -515,6 +533,7 @@ ul, p, h1, h2, h3 {
 }
 
 .post {
+  border-top: 1px solid #ccc;
 
   .post-header {
     display: inline-flex;
@@ -527,14 +546,12 @@ ul, p, h1, h2, h3 {
     }
 
     .name {
-      text-decoration: underline;
       font-weight: bold;
     }
   }
 
   .post-actions {
     display: flex;
-    text-decoration: underline;
 
     .like {
       margin-right: 14px;
@@ -574,8 +591,8 @@ ul, p, h1, h2, h3 {
       padding-right: 7px;
 
       .comment-thumbnail {
+        @extend .light-border;
         width: 80px;
-        border: 1px solid #ccc;
       }
     }
   }
@@ -583,30 +600,16 @@ ul, p, h1, h2, h3 {
   .last {
     margin-bottom: 0;
   }
-
-  hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0));
-  }
 }
 
 #post-submit-footer {
   text-align: right;
 }
 
-#post-submit-button {
-  background: #C53030;
-  color: #fff;
-  border-radius: 2px;
-  border-color: #730000;
-  font-weight: bold;
-}
-
 .card-footer {
+  @extend .light-border;
   background: #EAF1E3;
   padding: 7px;
-  border: 1px solid #ccc;
   border-top: 0;
 }
 
