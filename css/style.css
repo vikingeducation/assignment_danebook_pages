@@ -54,6 +54,9 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent); }
 
+.row {
+  margin: 0; }
+
 #pusher {
   height: 50px; }
 
@@ -188,9 +191,8 @@ hr {
           border-left: 0; } }
     #banner-nav #banner-tabs li {
       color: #003707;
-      display: inline;
+      display: inline-block;
       border-left: 1px solid #eee;
-      height: 100%;
       padding: 10px;
       font-weight: bold; }
       #banner-nav #banner-tabs li a, #banner-nav #banner-tabs li a:visited {
@@ -246,43 +248,41 @@ hr {
     height: 150px;
     border: 1px solid #888; }
   #profile-content #submit-container {
+    width: 100%;
     padding: 50px;
     display: flex;
     align-items: center; }
     #profile-content #submit-container a {
+      width: 100%;
+      max-width: 500px;
       margin: 0 auto; }
     #profile-content #submit-container #big-submit {
-      width: 500px;
+      width: 100%;
       height: 80px;
       font-size: 28px;
       text-decoration: none; }
 
-.photo-row {
-  margin: 0; }
-  .photo-row .thumbnail-container {
-    position: relative; }
-    .photo-row .thumbnail-container:hover > .overlay {
-      opacity: 1; }
-  .photo-row .overlay {
-    padding: 15px;
-    position: absolute;
-    z-index: 400;
-    bottom: 30px;
-    background: black;
-    color: white;
-    width: 100%;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-    -webkit-transition: .5s;
-    transition: .5s; }
-  .photo-row img {
-    width: 100%;
-    margin-bottom: 30px;
-    position: relative; }
-
-.friend-row {
-  margin: 0; }
+.photo-row .thumbnail-container {
+  position: relative; }
+  .photo-row .thumbnail-container:hover > .overlay {
+    opacity: 1; }
+.photo-row .overlay {
+  padding: 15px;
+  position: absolute;
+  z-index: 400;
+  bottom: 30px;
+  background: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s; }
+.photo-row img {
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative; }
 
 .friend-box {
   min-height: 100px;
@@ -320,6 +320,8 @@ hr {
   .friend-box .small-unfriend {
     display: none; }
   @media only screen and (max-width: 505px) {
+    .friend-box .name {
+      min-width: 0; }
     .friend-box .big-unfriend {
       display: none; }
     .friend-box .small-unfriend {
@@ -328,7 +330,6 @@ hr {
 
 #timeline-row {
   padding: 0;
-  margin: 0;
   width: 100%; }
 
 #timeline-left {
