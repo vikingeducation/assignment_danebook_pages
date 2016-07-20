@@ -1,6 +1,9 @@
 //variables extends and mixins
 $bright-red: #C53030;
 $dark-red: #730000;
+$light-green: #e6eedd;
+$med-green: #1f7a29;
+$dark-green: #0d5916;
 
 .light-border {
   border: 1px solid #ccc;
@@ -12,6 +15,14 @@ html {
   -webkit-font-smoothing: antialiased;
   font-family: helvetica, sans-serif;
 }
+
+body {
+  background: #f4fcf6; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f4fcf6 1%, #ffffff 33%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f4fcf6 1%,#ffffff 33%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f4fcf6 1%,#ffffff 33%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4fcf6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+ }
 
 main {
   max-width: 960px;
@@ -67,12 +78,15 @@ hr {
 }
 
 #navbar {
-  background: #127C1F;
+  background: $med-green; /* Old browsers */
+  background: -moz-linear-gradient(top, $med-green 0%, $dark-green 96%); /* FF3.6-15 */background: -webkit-linear-gradient(top, $med-green 0%, $dark-green 96%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, $med-green 0%,$dark-green 96%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$dark-green', endColorstr='$dark-green',GradientType=0 ); /* IE6-9 */
   padding: 0 35px;
   height:50px;
   width:100%;
   position:fixed;
-  border-bottom: 1px solid #109320;
+  border-bottom: 1px solid #085A12;
   z-index: 1000;
 
   #navbar-content {
@@ -96,6 +110,11 @@ hr {
       flex-wrap: no-wrap;
       align-items: center;
       justify-content: flex-start;
+
+      &:hover {
+        text-decoration: none;
+
+      }
     } 
 
     .icon {
@@ -215,8 +234,6 @@ hr {
         justify-content: space-between;
         border-top: 1px solid #ccc;
 
-        background: #EAF1E3;
-
         li {
           text-align: center;
           flex-grow: 1;
@@ -241,7 +258,7 @@ hr {
     }
 
     .selected {
-      background: #EAF1E3;
+      background: $light-green;
     }
 
     .last {
@@ -278,9 +295,8 @@ hr {
   }
 
   #profile-header {
-    @extend .light-border;
     text-align: center;
-    background: #EAF1E3;
+    background: $light-green;
     padding: 10px;
     margin-bottom: 15px;
     position: relative;
@@ -434,7 +450,7 @@ hr {
   }
 
   button {
-    background: #EAF1E3;
+    background: $light-green;
     color: #222;
     border-color: #ddd;
     border-radius: 3px;
@@ -442,7 +458,7 @@ hr {
 
     &:hover, &:active, &:focus {
       background: #127C1F;
-      border-color: #EAF1E3;
+      border-color: $light-green;
     }
 
 
@@ -487,7 +503,7 @@ hr {
   @extend .light-border;
   border-bottom: 0;
   width: 100%;
-  background: #EAF1E3;
+  background: $light-green;
   text-align: center;
   padding: 7px;
 
@@ -608,7 +624,7 @@ hr {
 
 .card-footer {
   @extend .light-border;
-  background: #EAF1E3;
+  background: $light-green;
   padding: 7px;
   border-top: 0;
 }
