@@ -321,17 +321,44 @@ ul, p, h1, h2, h3 {
     text-decoration: underline;
     padding: 4px 0 8px; }
 
+#post-input-card-body {
+  padding: 20px;
+  margin-top: -7px; }
+  #post-input-card-body input {
+    width: 100%;
+    height: 100px; }
+
 #card-photos {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; }
   #card-photos div {
-    width: 33%;
+    width: 33.333333%;
     padding: 4px;
     text-align: center;
     text-decoration: underline; }
   #card-photos img {
     width: 100%; }
+
+.post {
+  padding: 14px; }
+  .post .post-thumbnail {
+    width: 80px; }
+  .post .post-header {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 14px; }
+    .post .post-header .post-thumbnail {
+      margin-right: 14px; }
+    .post .post-header .name {
+      text-decoration: underline;
+      font-weight: bold; }
+  .post .post-footer {
+    background: #EAF1E3; }
+    .post .post-footer .post-actions {
+      display: flex; }
+      .post .post-footer .post-actions .delete-post {
+        margin-left: auto; }
 
 @media only screen and (max-width: 480px) {
   .no-small {
