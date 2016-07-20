@@ -1,5 +1,9 @@
-.light-border, #banner-nav, #profile-content, .friend-box, .card-header, .card-body, .post .post-comment .comment-thumbnail-container .comment-thumbnail, .card-footer {
+.light-border, #banner-nav, #profile-content, .card-header, .card-body, .card-footer {
   border: 1px solid #ccc; }
+  @media only screen and (max-width: 625px) {
+    .light-border, #banner-nav, #profile-content, .card-header, .card-body, .card-footer {
+      border-left: 0;
+      border-right: 0; } }
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -175,12 +179,17 @@ hr {
   border-radius: 0 0 2px 2px;
   display: flex;
   align-items: center; }
+  @media only screen and (max-width: 625px) {
+    #banner-nav {
+      margin-top: 15px;
+      border-left: 0;
+      border-right: 0; } }
   #banner-nav #banner-tabs {
     margin-left: 232px;
     display: inline-flex; }
     @media only screen and (max-width: 625px) {
       #banner-nav #banner-tabs {
-        margin: 15px 0 0;
+        margin-left: 0;
         width: 100%;
         justify-content: space-between;
         border-top: 1px solid #ccc; }
@@ -285,6 +294,7 @@ hr {
   position: relative; }
 
 .friend-box {
+  border: 1px solid #ccc;
   min-height: 100px;
   width: 100%;
   position: relative;
@@ -408,6 +418,7 @@ hr {
     .post .post-comment .comment-thumbnail-container {
       padding-right: 7px; }
       .post .post-comment .comment-thumbnail-container .comment-thumbnail {
+        border: 1px solid #ccc;
         width: 80px; }
   .post .last {
     margin-bottom: 0; }

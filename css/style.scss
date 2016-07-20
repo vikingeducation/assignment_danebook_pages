@@ -7,6 +7,11 @@ $dark-green: #0d5916;
 
 .light-border {
   border: 1px solid #ccc;
+
+  @media only screen and (max-width : 625px) {
+    border-left: 0;
+    border-right:0;
+  }
 }
 
 //global
@@ -230,15 +235,21 @@ hr {
   display: flex;
   align-items: center;
 
+  @media only screen and (max-width : 625px) {
+    margin-top: 15px;
+    border-left: 0;
+    border-right: 0;
+  }
+
   #banner-tabs {
     margin-left: 232px;
     display: inline-flex;
 
     @media only screen and (max-width : 625px) {
-        margin: 15px 0 0;
-        width: 100%;
-        justify-content: space-between;
-        border-top: 1px solid #ccc;
+      margin-left: 0;
+      width: 100%;
+      justify-content: space-between;
+      border-top: 1px solid #ccc;
 
         li {
           text-align: center;
@@ -416,7 +427,7 @@ hr {
 
 //friends page
 .friend-box {
-  @extend .light-border;
+  border: 1px solid #ccc;
   min-height: 100px;
   width: 100%;
   position: relative;
@@ -613,7 +624,7 @@ hr {
       padding-right: 7px;
 
       .comment-thumbnail {
-        @extend .light-border;
+        border: 1px solid #ccc;
         width: 80px;
       }
     }
