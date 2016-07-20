@@ -34,15 +34,17 @@ ul, p, h1, h2, h3 {
 .underlined {
   text-decoration: underline; }
 
-.btn {
+.btn, .btn-primary {
   padding: 4px;
   border-radius: 2px;
   border-color: #730000;
   background-color: #C53030;
   font-weight: bold; }
-  .btn:active, .btn:focus {
+  .btn:active, .btn:focus, .btn-primary:active, .btn-primary:focus {
     border-color: #730000;
     background-color: #C53030; }
+  .btn:hover, .btn-primary:hover {
+    background-color: #730000 !important; }
 
 .bold {
   font-weight: bold; }

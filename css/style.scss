@@ -46,7 +46,7 @@ ul, p, h1, h2, h3 {
   text-decoration: underline;
 }
 
-.btn {
+.btn, .btn-primary {
   padding: 4px;
   border-radius: 2px;
   border-color: $dark-red;
@@ -56,6 +56,10 @@ ul, p, h1, h2, h3 {
   &:active, &:focus {
     border-color: $dark-red;
     background-color: $bright-red;
+  }
+
+  &:hover {
+    background-color: $dark-red !important;
   }
 }
 
