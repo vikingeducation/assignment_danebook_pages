@@ -2,3 +2,34 @@
   height: 22px;
   width: auto;
 }
+
+#banner-row {
+  position: relative;
+}
+
+#banner {
+  width: 100%;
+}
+
+#main-navigation {
+  margin-top: 20px;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  bottom: -20px;
+  left: 50px;
+  border-radius: 10px;
+  border: 2px solid #666;
+}
+
+// #edit-profile {
+//   display: flex;
+//   align-items: center;
+//   a {
+//     display: flex;
+//   }
+// }
