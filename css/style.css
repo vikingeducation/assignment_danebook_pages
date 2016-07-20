@@ -5,6 +5,11 @@
       border-left: 0;
       border-right: 0; } }
 
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: helvetica, sans-serif; }
+
 body {
   background: #f4fcf6;
   /* Old browsers */
