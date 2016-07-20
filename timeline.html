@@ -27,6 +27,7 @@
     <div class="name-container">
       <p class="name no-small">Tyrion</p>
     </div>
+    </a>
     </div>
     </nav>
     <div id="pusher"></div>
@@ -151,7 +152,7 @@
                     </div>
                     <div>
                       <img src="images/cersie.jpg">
-                      <a href="#"><p>Cersie Lannister</p></a>
+                      <a href="#"><p>Cersei Lannister</p></a>
                     </div>
                     <div>
                       <img src="images/sansa.jpg">
@@ -176,13 +177,16 @@
                 <div class="card-body" id="post-input-card-body">
                   <textarea placeholder="Tell the world something..."></textarea>
                 </div>
+                <div class="card-footer" id="post-submit-footer">
+                  <button class="btn btn-primary" id="post-submit-button">Post</button>
+                </div>
               </div>
               <div class="card post">
                 <div class="card-body">
                   <header class="post-header">
-                    <img class="post-thumbnail" src="images/dany.jpg">
-                    <p><span class="name"><a href="#0">Daenerys Targaryen</a></span><br/>
-                    <span class="time faded"></span>Posted on <time>Thursday, 5/7/298</time></p>
+                    <img class="post-thumbnail" src="images/cersie.jpg">
+                    <p><span class="name"><a href="#0">Cersei Lannister</a></span><br/>
+                    <span class="time faded">Posted on <time>Thursday, 5/7/298</time></span></p>
                   </header>
                   <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -191,12 +195,100 @@
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <div class="post-footer">
+                <div class="card-footer">
                   <ul class="post-actions">
-                    <li><a href="#">Like</a></li>
+                    <li class="like"><a href="#">Like</a></li>
                     <li><a href="#">Comment</a></li>
                     <li class="delete-post"><a href="#">Delete</a></li>
                   </ul>
+                </div>
+              </div>
+              <div class="card post">
+                <div class="card-body">
+                  <header class="post-header">
+                    <img class="post-thumbnail" src="images/varys.jpg">
+                    <p><span class="name"><a href="#0">Lord Varys</a></span><br/>
+                    <span class="time faded">Posted on <time>Thursday, 5/7/298</time></span></p>
+                  </header>
+                  <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="card-footer">
+                  <ul class="post-actions">
+                    <li class="like"><a href="#">Like</a></li>
+                    <li><a href="#">Comment</a></li>
+                    <li class="delete-post"><a href="#">Delete</a></li>
+                  </ul>
+                  <p class="likes"><span class="underlined"><a href="#">Jon Snow</a></span> likes this.</p>
+                </div>
+              </div>
+              <div class="card post">
+                <div class="card-body">
+                  <header class="post-header">
+                    <img class="post-thumbnail" src="images/dany.jpg">
+                    <p><span class="name"><a href="#0">Daenerys Targaryen</a></span><br/>
+                    <span class="time faded">Posted on <time>Thursday, 5/7/298</time></span></p>
+                  </header>
+                  <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="card-footer">
+                  <ul class="post-actions">
+                    <li class="like"><a href="#">Unlike</a></li>
+                    <li><a href="#">Comment</a></li>
+                    <li class="delete-post"><a href="#">Delete</a></li>
+                  </ul>
+                  <p class="likes">You, <span class="underlined"><a href="#">Jon Snow</a></span> and 3 others like this.</p>
+                  <hr>
+                  <div class="post-comments-container">
+                    <div class="post-comment">
+                      <div class="comment-thumbnail-container">
+                        <img class="comment-thumbnail" src="images/mormont.jpg">
+                      </div>
+                      <div class="comment content">
+                        <p class="comment-header"><a class="underlined" href="#">Jorah Mormont</a><span class="faded"> Said on Thursday, 5/7/298</span></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="comment-footer">
+                          <span class="like"><a class="underlined" href="#">Like</a></span>
+                          <span class="other-likes faded">3 other people like this</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="post-comment last">
+                      <div class="comment-thumbnail-container">
+                        <img class="comment-thumbnail" src="images/tyrion_profile.jpg">
+                      </div>
+                      <div class="comment content">
+                        <p class="comment-header"><a class="underlined" href="#">Tyrion Lannister</a><span class="faded"> Said on Thursday, 5/7/298</span></p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="comment-footer">
+                          <span class="like"><a class="underlined" href="#">Like</a></span>
+                          <span class="other-likes faded">3 other people like this</span>
+                          <span class="delete"><a class="underlined" href="#">Delete</a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                  
                 </div>
               </div>
             </div>
