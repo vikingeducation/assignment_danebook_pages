@@ -19,6 +19,13 @@ ul, p, h1, h2, h3 {
 .underlined {
   text-decoration: underline; }
 
+.btn {
+  padding: 4px;
+  border-radius: 2px;
+  border-color: #730000;
+  background-color: #C53030;
+  font-weight: bold; }
+
 #pusher {
   height: 50px; }
 
@@ -404,6 +411,13 @@ ul, p, h1, h2, h3 {
   padding: 7px;
   border: 1px solid #ccc;
   border-top: 0; }
+
+.comment-input-actions {
+  display: flex;
+  align-items: center;
+  padding: 7px; }
+  .comment-input-actions button {
+    margin-left: auto; }
 
 @media only screen and (max-width: 768px) {
   #timeline-left, #timeline-right {
