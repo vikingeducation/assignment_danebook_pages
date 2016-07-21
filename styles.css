@@ -105,4 +105,14 @@
   box-shadow: 2px 2px 2px #333;
   margin: 5px; }
 
+/* Friends.html styles */
+#unfriend-me {
+  margin-top: 15px;
+  margin-right: 20px;
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #333; }
+
+.margin-fix {
+  margin: 1% 1% 1% 5%; }
+
 /*# sourceMappingURL=styles.css.map */
