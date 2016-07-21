@@ -1,6 +1,6 @@
-body {
-  margin-top: -150px;
-}
+// body {
+//   margin-top: -100px;
+// }
 
 #logo {
   height: 22px;
@@ -9,6 +9,10 @@ body {
 
 #banner-row {
   position: relative;
+  div:first-child {
+    margin-top: -70px;
+    overflow: hidden;
+  }
 }
 
 #hogwarts {
@@ -16,12 +20,13 @@ body {
 }
 
 #main-navigation {
+  border-bottom: 1px solid #eee;
   margin-top: 20px;
 }
 
 #avatar {
   width: 20%;
-  height: 37%;
+  height: 48%;
   overflow: hidden;
   position: absolute;
   bottom: -20px;
@@ -121,4 +126,21 @@ body {
 
 #post-btn {
   margin-top: 10px;
+}
+
+.postImgWrap {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.nameWrap {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.postHeaderWrap {
+  display: flex;
+  align-items: center;
 }
