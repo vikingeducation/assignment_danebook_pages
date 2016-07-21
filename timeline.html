@@ -3,11 +3,119 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Timeline</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-default">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img id="logo" src="img/danish_flag.gif" alt="danish_flag" /></a>
+                <a class="navbar-brand" id="brand" href="#">Danebook</a>
+              </div>
+
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Explo</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">User<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Account</a></li>
+                      <li><a href="#">Messages</a></li>
+                      <li><a href="#">Setting</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Log out</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                  <!-- <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button> -->
+                <div class="input-group">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                  <input type="text" class="form-control" placeholder="Search for...">
+                </div><!-- /input-group -->
+              </form>
+            </div>
+
+            </div>
+          </div>
+      </div>
+    </nav>
+    </header>
+    <!-- header finish here -->
+    <main class="container">
+      <section class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row" id="banner-row">
+            <div class="col-md-12">
+              <img class="img-rounded img-responsive" id="hogwarts" src="img/hogwarts_small.jpg" alt="hogwarts" />
+            </div>
+            <div id="avatar">
+              <img class="img-responsive" src="img/harry_potter_small.jpg" alt="" />
+            </div>
+          </div>
+          <!-- banner part finish -->
+          <!-- nav part begin -->
+          <div class="row">
+            <div class="col-sm-5 col-sm-offset-3">
+              <ul class="nav nav-tabs nav-justified" id="main-navigation">
+                <li role="navigation" class="active"><a href="#">Timeline</a></li>
+                <li role="navigation"><a href="#">About</a></li>
+                <li role="navigation"><a href="#">Photos</a></li>
+                <li role="navigation"><a href="#">Friends</a></li>
+              </ul>
+            </div>
+            <div id="edit-profile" class="col-sm-2 col-sm-offset-2">
+              <a href="#">Edit Profile</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>
+            </div>
+          </div> <!-- row end -->
+        </div>
+      </section>
+    </main>
+
+
 
 
 
