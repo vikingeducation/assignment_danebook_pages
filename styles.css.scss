@@ -88,3 +88,25 @@
   margin-top: 40px;
   margin-bottom: 60px
 }
+
+/* Timeline page styles */
+.section-border {
+  border: 2px solid #333;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+.background {
+  background-color: #ccf;
+}
+.border-top {
+  border-top: 2px solid #333;
+}
+.border-bottom {
+  border-bottom: 2px solid #333;
+}
+#comment,
+#post {
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #333;
+  margin: 5px;
+}
