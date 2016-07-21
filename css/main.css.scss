@@ -22,10 +22,17 @@
   border: 2px solid #666;
 }
 
-// #edit-profile {
-//   display: flex;
-//   align-items: center;
-//   a {
-//     display: flex;
-//   }
-// }
+#edit-profile {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    font-size: 15px;
+    color: #666;
+    text-decoration: none;
+    &:hover {
+      color: #4ceb61;
+    }
+  }
+}
