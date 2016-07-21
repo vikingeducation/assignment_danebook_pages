@@ -30,4 +30,11 @@
     #edit-profile a:hover {
       color: #4ceb61; }
 
+.panel-heading {
+  text-align: center; }
+
+.panel-title {
+  font-size: 30px;
+  font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */
