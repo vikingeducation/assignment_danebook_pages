@@ -1,3 +1,7 @@
+body {
+  margin-top: -150px;
+}
+
 #logo {
   height: 22px;
   width: auto;
@@ -64,4 +68,23 @@
 
 #edit-save-btn {
   margin-bottom: 30px;
+}
+
+
+.friends-profile {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 15%;
+    height: auto;
+    display: inline-block;
+  }
+  div {
+    display: inline-block;
+  }
+  button {
+    display: inline-block;
+  }
 }
