@@ -52,6 +52,11 @@
   resize: none;
   height: 160px; }
 
+#textarea3 {
+  resize: none;
+  height: 150px;
+  margin-bottom: 10px; }
+
 #edit-save-btn {
   margin-bottom: 30px; }
 
@@ -108,5 +113,9 @@
 .postHeaderWrap {
   display: flex;
   align-items: center; }
+
+.comment-style {
+  margin-top: 15px;
+  margin-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */
