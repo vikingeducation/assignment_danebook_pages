@@ -1,0 +1,123 @@
+/* Navbar Styles */
+#navbar {
+  background-color: #06f;
+  border: 3px solid #333;
+  padding: 10px;
+}
+#navbar-brand {
+  color: white;
+  font-size: 30px;
+  margin-left: 2px;
+  padding-left: 5px;
+}
+#danish_flag {
+  height: 40px;
+  width: 40px;
+}
+#img-brand {
+  padding: 3px 0;
+}
+#user-search {
+  width: 400%;
+}
+#user-name {
+  color: white;
+  margin-top: 10px;
+}
+
+/* Wallpaper and Profile pic styles */
+#wallpaper-img {
+  border: 2px solid #333;
+  padding: 0;
+}
+#profile-img {
+  border:2px solid #333;
+  padding: 0;
+  /*-webkit-transform: translate(20px, -200px);
+      -ms-transform: translate(20px, -200px);
+          transform: translate(20px, -200px);*/
+}
+.project-overlay {
+  position: absolute;
+  top: 375px;
+}
+
+/* Middle nav styles */
+.middle-nav {
+  border: 2px solid #333;
+}
+.middle-li {
+  border-left: 2px solid #333;
+}
+.middle-li:nth-of-type(4) {
+  border-right: 2px solid #333;
+}
+.middle-li a {
+  padding: 15px !important;
+}
+
+/* About section styles */
+#about-title {
+  border: 2px solid #333;
+}
+#section-title {
+  margin-top: 10px;
+}
+#button-position-fix {
+  box-shadow: 2px 2px 2px #333;
+  margin: 10px;
+}
+#about-info {
+  border: 2px solid #333;
+}
+.padding-fix {
+  padding-left: 15px;
+}
+.list-group-item {
+  border: none;
+}
+.top-pad-fix {
+  padding-top: 15px;
+}
+
+/* Save changes button on about_edit page style */
+#save-changes {
+  border: 2px solid #333;
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #333;
+  margin-top: 40px;
+  margin-bottom: 60px
+}
+
+/* Timeline page styles */
+.section-border {
+  border: 2px solid #333;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+.background {
+  background-color: #ccf;
+}
+.border-top {
+  border-top: 2px solid #333;
+}
+.border-bottom {
+  border-bottom: 2px solid #333;
+}
+#comment,
+#post {
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #333;
+  margin: 5px;
+}
+
+/* Friends.html styles */
+#unfriend-me {
+  margin-top: 15px;
+  margin-right: 20px;
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #333;
+}
+.margin-fix {
+  margin: 1% 1% 1% 5%;
+}
