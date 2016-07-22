@@ -4,20 +4,19 @@
 
 #banner-row {
   position: relative; }
-  #banner-row div:first-child {
-    margin-top: -70px;
-    overflow: hidden; }
 
-#hogwarts {
-  width: 100%; }
+.bg-container {
+  width: 100%;
+  height: 350px;
+  background: url("../img/hogwarts_small.jpg") no-repeat center center;
+  background-size: cover; }
 
 #main-navigation {
-  border-bottom: 1px solid #eee;
-  margin-top: 20px; }
+  display: flex; }
 
 #avatar {
-  width: 20%;
-  height: 48%;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   position: absolute;
   bottom: -20px;
@@ -25,6 +24,11 @@
   border-radius: 10px;
   border: 2px solid #666; }
 
+@media only screen and (max-width: 625px) {
+  #avatar {
+    right: 0;
+    left: 0;
+    margin: 0 auto; } }
 #edit-profile {
   height: 40px;
   display: flex;
@@ -120,5 +124,20 @@
 
 .text-center {
   text-align: center; }
+
+.center-child-block {
+  display: flex;
+  justify-content: center; }
+
+.nav-row {
+  margin-top: 15px; }
+
+.cover-top {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  border-radius: 0 0 3px 3px; }
+
+#add-margin-top {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
