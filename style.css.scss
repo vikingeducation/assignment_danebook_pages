@@ -1,20 +1,38 @@
 .navcolor {
   background-color: #008cff; }
 
-.brandcolor p {
-  font-size: 30px;
+#brand h {
+  font-size: 25px;
   color: white;
   margin-left: 10px;
  }
 
-nav img{
-  margin-top: 8px;
-  height: 40px;
-  width: 55px;
+#logo{
+    height: 40px;
+    width: auto;
+    margin-top: 5px;
 }
 
+#user{
+  h{
+    color:white;
+    font-weight: bold;
+  }
+}
+
+.search-bar{
+  width:300px;
+}
 .movedown{
   margin-top: 10px;
+}
+
+.movedown2{
+  margin-top: 12px;
+}
+
+.moveup{
+  margin-bottom: 15px;
 }
 
 .User-link{
@@ -23,4 +41,40 @@ nav img{
 .User-font{
   font-size: 20px;
   color:white;
+}
+
+.background{
+  height:400px;
+  width:100%;
+}
+
+.border{
+  border:3px solid gray;
+}
+
+.title{
+  text-align: center;
+}
+
+.btn-style{
+  margin-top: 17px;
+  background-color: #008cff;
+  .h{
+    color:white;
+  }
+}
+
+.row-back{
+  background-color: rgba(133, 133, 138, 0.31);
+}
+
+.panel-title{
+  font-size:30px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+}
+
+.panel-color{
+  background: #008cff;
 }
