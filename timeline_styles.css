@@ -1,0 +1,65 @@
+body {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-family: sans-serif; }
+
+#navbar-background {
+  height: 80px;
+  background-color: #3b5998;
+  color: white; }
+
+#nav-container {
+  vertical-align: middle;
+  line-height: 65px;
+  font-size: 24px; }
+
+#navbar-image {
+  height: 45px;
+  width: 45px;
+  line-height: 80px;
+  vertical-align: middle;
+  padding-top: 4px; }
+
+#hogwarts-image {
+  width: 100%;
+  height: 400px; }
+
+#about-section-header {
+  background-color: #ddd;
+  line-height: 20px; }
+  #about-section-header h2 {
+    padding-bottom: 4px; }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto; }
+
+.img-on-top {
+  position: absolute;
+  left: 100px;
+  top: 315px;
+  z-index: 99;
+  height: 200px;
+  width: 140px; }
+
+.caption {
+  width: 100%;
+  left: 85px;
+  top: 450px;
+  position: absolute;
+  color: white; }
+
+.borders {
+  border: solid 2px black; }
+
+span {
+  color: #ccc; }
+
+.top30 {
+  margin-top: 30px; }
+
+.edit-profile-link {
+  vertical-align: middle;
+  line-height: 46px; }
+
+/*# sourceMappingURL=timeline_styles.css.map */
