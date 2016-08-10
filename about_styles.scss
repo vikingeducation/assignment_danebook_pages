@@ -23,6 +23,39 @@ body {
   height: 400px;
 }
 
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+
+.img-on-top{
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  bottom: 19%;
+  z-index: 99;
+  height: 200px;
+  width: 140px;
+}
+
+
+
+.caption {
+  width:100%;
+  left: 100px;
+  bottom: 150px;
+  position: absolute;
+  color: white;
+}
+
+.borders{
+  border: solid 2px black;
+
+}
+
+.top30{
+  margin-top: 30px;
+}
 
 
 
