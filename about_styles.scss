@@ -1,0 +1,32 @@
+body {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+
+#navbar-background{
+  height: 80px;
+  background-color: #3b5998;
+  color: white;
+}
+
+#navbar-image{
+  height: 45px;
+  width: 45px;
+  line-height: 80px;
+  vertical-align: middle;
+  padding-top: 4px;
+}
+
+.topnav{
+  line-height: 80px;
+  vertical-align: middle;
+  color: white;
+  font-size: 24px;
+}
+
+#navbar-search-textfield{
+  //line-height: 80px;
+  //vertical-align: middle;
+  width: 450px;
+}
