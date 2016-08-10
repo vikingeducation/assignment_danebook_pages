@@ -26,23 +26,56 @@ body {
 .img-on-top {
   position: absolute;
   left: 100px;
-  top: 300px;
-  bottom: 19%;
+  top: 315px;
   z-index: 99;
   height: 200px;
   width: 140px; }
 
 .caption {
   width: 100%;
-  left: 100px;
-  bottom: 150px;
+  left: 85px;
+  top: 450px;
   position: absolute;
   color: white; }
+
+span {
+  color: #ccc; }
+
+#about-section-header {
+  background-color: #ddd;
+  line-height: 20px; }
+  #about-section-header h2 {
+    padding-bottom: 4px; }
+
+.edit-profile-link {
+  vertical-align: middle;
+  line-height: 46px; }
+
+.edit-profile-button {
+  margin-top: 17px;
+  margin-right: 5px; }
 
 .borders {
   border: solid 2px black; }
 
 .top30 {
   margin-top: 30px; }
+
+span {
+  float: right; }
+
+h3 {
+  font-size: 28px;
+  padding-top: 6px;
+  font-weight: 400; }
+
+.bottom-pads {
+  padding-bottom: 60px; }
+
+.right-just {
+  col-span: 50; }
+
+#test {
+  padding-right: 100px; }
 
 /*# sourceMappingURL=about_styles.css.map */
