@@ -74,7 +74,25 @@ span{
   margin-top: 30px;
 }
 
+.top8{
+  margin-top: 8px;
+}
+
+.bottom8{
+    margin-bottom: 8px;
+}
+
 .edit-profile-link{
   vertical-align: middle;
   line-height: 46px;
+  text-decoration: underline;
+}
+
+.link-style{
+  text-decoration: underline;
+}
+
+.timeline-photos{
+    height: 70px;
+    width: 70px;
 }
