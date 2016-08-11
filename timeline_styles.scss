@@ -102,6 +102,8 @@ span{
   margin-bottom: 30px;
 }
 
+
+
 .right16{
   margin-right: 16px;
 }
@@ -130,7 +132,27 @@ hr{
   padding-bottom: 8px;
 }
 
+.hover-effect{
+  position: relative;
+  //height: 175px;
+  width: 285px;
+}
+
 .photos-page-images{
-  height: 210px;
-  width: 210px;
+  height: 175px;
+  width: auto;
+}
+
+.pic-info{
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 160px;
+  left: 16px;
+  font-size: 12px;
+}
+
+.hover-effect:hover .pic-info{
+  visibility: visible;
+  opacity: 1;
 }
