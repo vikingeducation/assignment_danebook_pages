@@ -64,6 +64,9 @@ span {
 .top24 {
   margin-top: 24px; }
 
+.top18 {
+  margin-top: 18px; }
+
 .top16 {
   margin-top: 16px; }
 
@@ -97,5 +100,9 @@ hr {
 .icon-padding {
   padding-top: 8px;
   padding-bottom: 8px; }
+
+.photos-page-images {
+  height: 210px;
+  width: 210px; }
 
 /*# sourceMappingURL=timeline_styles.css.map */
