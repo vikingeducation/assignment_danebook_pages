@@ -24,11 +24,14 @@ body {
   width: 100%;
   height: 400px; }
 
-#about-section-header {
+.about-section-header {
   background-color: #ddd;
   line-height: 20px; }
-  #about-section-header h2 {
+  .about-section-header h2 {
     padding-bottom: 4px; }
+
+.gray-header {
+  background-color: #ddd; }
 
 .img-responsive {
   max-width: 100%;
@@ -50,7 +53,7 @@ body {
   color: white; }
 
 .borders {
-  border: solid 2px black; }
+  border: solid 1px black; }
 
 span {
   color: #ccc; }
@@ -58,11 +61,17 @@ span {
 .top30 {
   margin-top: 30px; }
 
+.top16 {
+  margin-top: 16px; }
+
 .top8 {
   margin-top: 8px; }
 
 .bottom8 {
   margin-bottom: 8px; }
+
+.right16 {
+  margin-right: 16px; }
 
 .edit-profile-link {
   vertical-align: middle;
