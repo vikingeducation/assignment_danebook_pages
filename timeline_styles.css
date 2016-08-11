@@ -56,7 +56,7 @@ body {
   border: solid 1px black; }
 
 span {
-  color: #ccc; }
+  color: #aaa; }
 
 .top30 {
   margin-top: 30px; }
@@ -70,6 +70,9 @@ span {
 .bottom8 {
   margin-bottom: 8px; }
 
+.bottom30 {
+  margin-bottom: 30px; }
+
 .right16 {
   margin-right: 16px; }
 
@@ -82,7 +85,10 @@ span {
   text-decoration: underline; }
 
 .timeline-photos {
-  height: 70px;
-  width: 70px; }
+  height: 90px;
+  width: 75px; }
+
+hr {
+  border-color: black; }
 
 /*# sourceMappingURL=timeline_styles.css.map */
