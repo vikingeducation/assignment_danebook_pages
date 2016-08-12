@@ -65,7 +65,7 @@ body {
 
 @media screen and (max-width: 991px) {
   .img-on-top {
-    top: 120px; } }
+    top: 180px; } }
 .btn-shdw {
   box-shadow: 2px 2px black; }
 
@@ -78,7 +78,7 @@ body {
 
 @media screen and (max-width: 991px) {
   .caption {
-    float: left; } }
+    left: 90px; } }
 @media screen and (max-width: 1199px) {
   #navbar-srch-field {
     width: 500px; } }
