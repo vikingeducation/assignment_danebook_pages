@@ -1,0 +1,127 @@
+body {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-family: sans-serif; }
+
+#navbar-background {
+  height: 80px;
+  background-color: #3b5998;
+  color: white; }
+
+#nav-container {
+  vertical-align: middle;
+  line-height: 65px;
+  font-size: 24px; }
+
+#navbar-image {
+  height: 45px;
+  width: 45px;
+  line-height: 80px;
+  vertical-align: middle;
+  padding-top: 4px; }
+
+#hogwarts-image {
+  width: 100%;
+  height: 400px; }
+
+.about-section-header {
+  background-color: #ddd;
+  line-height: 20px; }
+  .about-section-header h2 {
+    padding-bottom: 4px; }
+
+.gray-header {
+  background-color: #ddd; }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto; }
+
+.img-on-top {
+  position: absolute;
+  left: 100px;
+  top: 315px;
+  z-index: 99;
+  height: 200px;
+  width: 140px; }
+
+.caption {
+  width: 100%;
+  left: 85px;
+  top: 450px;
+  position: absolute;
+  color: white; }
+
+.borders {
+  border: solid 1px black; }
+
+span {
+  color: #aaa; }
+
+.top30 {
+  margin-top: 30px; }
+
+.top24 {
+  margin-top: 24px; }
+
+.top18 {
+  margin-top: 18px; }
+
+.top16 {
+  margin-top: 16px; }
+
+.top8 {
+  margin-top: 8px; }
+
+.bottom8 {
+  margin-bottom: 8px; }
+
+.bottom30 {
+  margin-bottom: 30px; }
+
+.right16 {
+  margin-right: 16px; }
+
+.edit-profile-link {
+  vertical-align: middle;
+  line-height: 46px;
+  text-decoration: underline; }
+
+.link-style {
+  text-decoration: underline; }
+
+.timeline-photos {
+  height: 90px;
+  width: 75px; }
+
+.header-height {
+  height: 65px; }
+
+hr {
+  border-color: black; }
+
+.icon-padding {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.hover-effect {
+  position: relative;
+  width: 285px; }
+
+.photos-page-images {
+  height: 175px;
+  width: auto; }
+
+.pic-info {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 160px;
+  left: 16px;
+  font-size: 12px; }
+
+.hover-effect:hover .pic-info {
+  visibility: visible;
+  opacity: 1; }
+
+/*# sourceMappingURL=timeline_styles.css.map */

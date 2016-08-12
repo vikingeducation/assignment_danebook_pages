@@ -1,0 +1,117 @@
+body {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+
+#navbar-background{
+  height: 80px;
+  background-color: #3b5998;
+  color: white;
+}
+
+#nav-container{
+  vertical-align: middle;
+  line-height: 65px;
+  font-size: 24px;
+}
+
+
+#navbar-image{
+  height: 45px;
+  width: 45px;
+  line-height: 80px;
+  vertical-align: middle;
+  padding-top: 4px;
+}
+
+#hogwarts-image{
+  width:100%;
+  height: 400px;
+}
+
+#hogwarts-image-setup{
+  position: relative;
+}
+
+
+.link-height{
+  line-height: 1px;
+}
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+
+.img-on-top{
+  position: absolute;
+  left: 25px;
+  top: 235px;
+  //bottom: 19%;
+  z-index: 99;
+  height: 200px;
+  width: 140px;
+}
+
+.btn-shdw{
+  box-shadow: 2px 2px black;
+}
+
+.caption {
+  width:100%;
+  left: 35px;
+  top: 335px;
+  position: absolute;
+  color: white;
+}
+
+span{
+  color: #ccc;
+}
+
+#about-section-header{
+  background-color: #ddd;
+  line-height: 20px;
+  h2{
+    padding-bottom: 4px;
+  }
+}
+
+.edit-profile-link{
+  vertical-align: middle;
+  line-height: 46px;
+}
+
+.edit-profile-button{
+  margin-top: 17px;
+  margin-right: 5px;
+  //vertical-align: middle;
+  //line-height: 20px;
+}
+
+.borders{
+  border: solid 2px black;
+
+}
+
+.top30{
+  margin-top: 30px;
+}
+
+h3{
+  font-size: 28px;
+  padding-top: 6px;
+  font-weight: 400;
+}
+
+.bottom-pads{
+  padding-bottom: 60px;
+}
+
+.right-just{
+  col-span: 50;
+}
+#test{
+  padding-right: 100px;
+}
