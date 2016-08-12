@@ -8,7 +8,7 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="timeline_styles.css">
+    <link rel="stylesheet" href="styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,7 +20,6 @@
 
   <body>
     <!--Set up navbar-->
-
     <nav id="navbar-background" class="navbar navbar-default navbar-fixed-top">
 
       <div class="container" id="nav-container">
@@ -34,31 +33,32 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img src="danish_flag.gif" class="img-circle" id="navbar-image">
+
+            <a class="navbar-brand" id="navbar-font" href="#">
+              <span><img src="danish_flag.gif" class="img-circle" id="navbar-image"></span>
+              Danebook
+            </a>
+
         </div>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" ><!--id="bs-example-navbar-collapse-1"-->
 
-        <!--<img src="danish_flag.gif" class="img-circle pull-left" id="navbar-image">-->
-          Danebook
-
-          <form class="navbar-form pull-right">
+          <form class="navbar-form" ><!--navbar-right-->
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search for Users">
-              <div class="nav navbar-nav navbar-right">
-                <p>Harry</p>
+              <input type="text" id="navbar-srch-field" class="form-control srch-field-padding" placeholder="Search for Users">
+              <div class="nav navbar-nav navbar-right left175">
+                Harry
               </div>
             </div>
           </form>
         </div>
       </div>
-
     </nav>
 
 
     <div class="container">
       <!--Row for Hogwarts Image-->
-      <div class="row">
+      <div class="row" id="hogwarts-image-setup">
         <div>
           <img id="hogwarts-image" src="hogwarts_small.jpg">
         </div>
@@ -85,7 +85,7 @@
         </div>
 
         <div class="col-sm-2 col-sm-offset-1">
-          <a class="edit-profile-link" href="#">Edit Profile</a>
+          <a class="edit-profile-link" href="about_edit.html">Edit Profile</a>
         </div>
       </div>
 
@@ -98,30 +98,30 @@
 
         <div class="row top30 bottom30">
           <div class="col-md-12 top16">
-
-            <div class="col-md-4 col-md-offset-1 borders">
+            <!--Add row-->
+            <div class="col-md-5 col-md-offset-1 right16 borders">
               <div class="col-md-2">
                 <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
               </div>
               <div class="col-md-5 col-md-offset-1 top30">
-                <p style="line-height: 1px;"><a class="link-style" href="#">Hermione Granger</a></p>
+                <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
                 <p><span>432 Friends</span></p>
               </div>
               <div class="col-md-2 top30">
-                <button class="btn btn-default gray-header" href="#" role="button">Unfriend Me</button>
+                <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
               </div>
             </div>
 
-            <div class="col-md-4 col-md-offset-2 borders">
+            <div class="col-md-5 borders">
               <div class="col-md-2">
                 <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
               </div>
               <div class="col-md-5 col-md-offset-1 top30">
-                <p style="line-height: 1px;"><a class="link-style" href="#">Hermione Granger</a></p>
+                <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
                 <p><span>432 Friends</span></p>
               </div>
               <div class="col-md-2 top30">
-                <button class="btn btn-default gray-header" href="#" role="button">Unfriend Me</button>
+                <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
               </div>
             </div>
 
@@ -131,29 +131,29 @@
         <div class="row top30 bottom30">
           <div class="col-md-12 top16">
 
-            <div class="col-md-4 col-md-offset-1 borders">
+            <div class="col-md-5 col-md-offset-1 right16 borders">
               <div class="col-md-2">
                 <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
               </div>
               <div class="col-md-5 col-md-offset-1 top30">
-                <p style="line-height: 1px;"><a class="link-style" href="#">Hermione Granger</a></p>
+                <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
                 <p><span>432 Friends</span></p>
               </div>
               <div class="col-md-2 top30">
-                <button class="btn btn-default gray-header" href="#" role="button">Unfriend Me</button>
+                <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
               </div>
             </div>
 
-            <div class="col-md-4 col-md-offset-2 borders">
+            <div class="col-md-5 borders">
               <div class="col-md-2">
                 <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
               </div>
               <div class="col-md-5 col-md-offset-1 top30">
-                <p style="line-height: 1px;"><a class="link-style" href="#">Hermione Granger</a></p>
+                <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
                 <p><span>432 Friends</span></p>
               </div>
               <div class="col-md-2 top30">
-                <button class="btn btn-default gray-header" href="#" role="button">Unfriend Me</button>
+                <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
               </div>
             </div>
 
@@ -166,30 +166,30 @@
             <div class="row">
               <div class="col-md-12">
 
-                <div class="col-md-4 col-md-offset-1 borders">
+                <div class="col-md-5 col-md-offset-1 right16 borders">
                   <div class="col-md-2">
                     <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
                   </div>
                   <div class="col-md-5 col-md-offset-1 top30">
-                    <p style="line-height: 1px;"><a class="link-style" href="#">Hermione Granger</a></p>
+                    <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
                     <p><span>432 Friends</span></p>
                   </div>
                   <div class="col-md-2 top30">
-                    <button class="btn btn-default gray-header" href="#" role="button">Unfriend Me</button>
+                    <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
                   </div>
                 </div>
 
 
-                <div class="col-md-4 col-md-offset-2 borders">
+                <div class="col-md-5 borders">
                   <div class="col-md-2">
                     <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
                   </div>
                   <div class="col-md-5 col-md-offset-1 top30">
-                    <p style="line-height: 1px;"><a class="link-style" href="#">Hermione Granger</a></p>
+                    <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
                     <p><span>432 Friends</span></p>
                   </div>
                   <div class="col-md-2 top30">
-                    <button class="btn btn-default gray-header" href="#" role="button">Unfriend Me</button>
+                    <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
                   </div>
                 </div>
 

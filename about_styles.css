@@ -24,22 +24,31 @@ body {
   width: 100%;
   height: 400px; }
 
+#hogwarts-image-setup {
+  position: relative; }
+
+.link-height {
+  line-height: 1px; }
+
 .img-responsive {
   max-width: 100%;
   height: auto; }
 
 .img-on-top {
   position: absolute;
-  left: 100px;
-  top: 315px;
+  left: 25px;
+  top: 235px;
   z-index: 99;
   height: 200px;
   width: 140px; }
 
+.btn-shdw {
+  box-shadow: 2px 2px black; }
+
 .caption {
   width: 100%;
-  left: 85px;
-  top: 450px;
+  left: 35px;
+  top: 335px;
   position: absolute;
   color: white; }
 
@@ -65,9 +74,6 @@ span {
 
 .top30 {
   margin-top: 30px; }
-
-span {
-  float: right; }
 
 h3 {
   font-size: 28px;

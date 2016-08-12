@@ -30,6 +30,15 @@ body {
   height: 400px;
 }
 
+#hogwarts-image-setup{
+  position: relative;
+}
+
+
+.link-height{
+  line-height: 1px;
+}
+
 .img-responsive{
   max-width: 100%;
   height: auto;
@@ -37,18 +46,22 @@ body {
 
 .img-on-top{
   position: absolute;
-  left: 100px;
-  top: 315px;
+  left: 25px;
+  top: 235px;
   //bottom: 19%;
   z-index: 99;
   height: 200px;
   width: 140px;
 }
 
+.btn-shdw{
+  box-shadow: 2px 2px black;
+}
+
 .caption {
   width:100%;
-  left: 85px;
-  top: 450px;
+  left: 35px;
+  top: 335px;
   position: absolute;
   color: white;
 }
