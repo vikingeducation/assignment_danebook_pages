@@ -1,12 +1,13 @@
-
-
 body {
   margin-top: 50px;
 }
 
+.navbar-collapse.collapse.in {
+  background-color: #266EE1;
+}
+
 .navbar-default {
   background-color: #266EE1;
-  height: 50px;
   .navbar-header {
     a {
       color: #fff;
@@ -25,6 +26,19 @@ body {
   }
 }
 
-.navbar-collapse.collapse.in {
-  background-color: #266EE1;
+.header-wrap {
+  position: relative;
+  .cover-image {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+  .user-image {
+    position: absolute;
+    height: 30%;
+    width: 16.88%;
+    z-index: 2;
+    top: 73%;
+    left: 3%;
+  }
 }
