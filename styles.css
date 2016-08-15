@@ -1,20 +1,18 @@
-* {
-  border-radius: 0 !important; }
-
 body {
   margin-top: 50px; }
 
-.nav-banner {
+.navbar-default {
   background-color: #266EE1;
   height: 50px; }
+  .navbar-default .navbar-header a {
+    color: #fff; }
+  .navbar-default .navbar-right a {
+    color: #fff; }
 
-.nav-title {
-  color: white;
-  letter-spacing: 3px; }
+.navbar-form input {
+  border-radius: 0; }
 
-.navbar-img {
-  height: 20px;
-  width: auto;
-  border-radius: 5px; }
+.navbar-collapse.collapse.in {
+  background-color: #266EE1; }
 
 /*# sourceMappingURL=styles.css.map */
