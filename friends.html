@@ -1,1 +1,80 @@
 <!-- Your markup here! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Danebook - Friends</title>
+    <!-- Bootstrap links -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- navbar container -->
+    <nav class="navbar-default navbar-fixed-top danebook-theme">
+      <section class="container">
+        <div class="row">
+          <div class="navbar-header col-lg-2 col-sm-3">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--logo/brand -->
+            <a class="navbar-brand" id="brand-link" href="index.html"><img src="Images/danish_flag_logo.gif" style="margin-right: 10px;" class="img-circle">danebook</a>
+          </div>
+          <div id="main-navbar-collapse" class="collapse navbar-collapse">
+            <div class="navbar-left">
+              <form class="navbar-form" role="search">
+                <div class="form-group">
+                  <input type="text" name="searchbar" class="form-control" placeholder="Search for Users">
+                </div>
+              </form>
+            </div>
+            <div class="navbar-right">
+              <div class="form-group">
+                <a href="about.html" class="navbar-text">Harry</a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </nav><!-- end of navbar -->
+
+    <!-- header -->
+    <header class="container">
+      <section class="header-wrap row">
+        <img src="Images/banner.jpg" class="img-responsive cover-image" alt="Hogwarts Banner">
+        <a href="about_edit.html"><img src="Images/harry-icon.jpg" class="img-thumbnail user-image" alt="User Icon"></a>
+      </section>
+      <section class="row" style="margin: 15px 0;">
+        <ul class="nav nav-pills navbar-right" role="tablist">
+          <li role="presentation"><a href="timeline.html">Timeline</a></li>
+          <li role="presentation"><a href="about.html">About</a></li>
+          <li role="presentation"><a href="photos.html">Photos <span class="badge">123</span></a></li>
+          <li role="presentation"><a href="friends.html">Friends <span class="badge">542</span></a></li>
+          <li role="presentation"  class="active"><a href="about_edit.html">Edit Profile</a></li>
+        </ul>
+      </section>
+    </header> <!-- end of header -->
+
+    <!-- main -->
+    <main class="container outline" style="margin-bottom:50px;">
+      <!-- main header -->
+      <section class="row header-main">
+        <div class="col-sm-4 col-sm-offset-4 bold">
+          <p class="text-center">Friends</p>
+        </div>
+      </section>
+      <!-- main content -->
+      <section class="row">
+        <!-- left column -->
+      </section>
+    </main>
+
+  </body>
+</html>
