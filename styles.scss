@@ -68,3 +68,12 @@ body {
 .outline {
   border: 1px solid #D8D8D8;
 }
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+  a, button {
+    display: flex;
+    align-items: center;
+  }
+}
