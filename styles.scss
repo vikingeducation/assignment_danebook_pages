@@ -6,7 +6,7 @@ body {
   background-color: #266EE1;
 }
 
-.navbar-default {
+.danebook-theme {
   background-color: #266EE1;
   .navbar-header {
     a {
@@ -32,6 +32,7 @@ body {
     position: relative;
     z-index: 1;
     width: 100%;
+    max-height: 550px;
   }
   .user-image {
     position: absolute;
