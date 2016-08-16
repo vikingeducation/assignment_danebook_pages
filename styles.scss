@@ -1,5 +1,7 @@
 body {
   margin-top: 50px;
+  font-family: 'Lato', serif;
+  min-height: 1000px;
 }
 
 .navbar-collapse.collapse.in {
@@ -37,9 +39,32 @@ body {
   .user-image {
     position: absolute;
     height: 30%;
-    width: 16.88%;
+    width: 15%;
     z-index: 2;
     top: 73%;
     left: 3%;
   }
+}
+
+.bold {
+  p {
+    font-weight: 700;
+  }
+}
+
+.header-main {
+  background-color: #ECECEC;
+  height: 45px;
+  p {
+    font-size: 1.75em;
+    margin: 5px 0 0 0;
+  }
+  button {
+    margin: 5px 15px 0 0;
+    float: right;
+  }
+}
+
+.outline {
+  border: 1px solid #D8D8D8;
 }
