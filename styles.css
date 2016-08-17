@@ -54,4 +54,34 @@ body {
     display: flex;
     align-items: center; }
 
+.hover-info {
+  position: relative;
+  width: auto;
+  height: auto; }
+  .hover-info img {
+    width: auto;
+    vertical-align: top; }
+  .hover-info:after, .hover-info:before {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s; }
+  .hover-info:after {
+    content: "\A";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6); }
+  .hover-info:before {
+    content: attr(data-content);
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+    bottom: 15%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); }
+  .hover-info:hover:after, .hover-info:hover:before {
+    opacity: 1; }
+
 /*# sourceMappingURL=styles.css.map */
