@@ -21,12 +21,6 @@ body {
   }
 }
 
-.navbar-form {
-  input {
-    border-radius: 0;
-  }
-}
-
 .header-wrap {
   position: relative;
   .cover-image {
@@ -43,6 +37,14 @@ body {
     top: 73%;
     left: 3%;
   }
+  .user-name {
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    left: 20%;
+    color: #fff;
+    font-size: 3em;
+  }
 }
 
 .bold {
@@ -53,10 +55,8 @@ body {
 
 .header-main {
   background-color: #ECECEC;
-  height: 45px;
   p {
     font-size: 1.75em;
-    margin: 5px 0 0 0;
   }
   button {
     margin: 5px 15px 0 0;
@@ -64,8 +64,16 @@ body {
   }
 }
 
+.post-bar {
+  background-color: #ECECEC;
+  button {
+    margin: 5px 15px 5px 0;
+  }
+}
+
 .outline {
   border: 1px solid #D8D8D8;
+  margin-bottom: 15px;
 }
 
 .vertical-align {

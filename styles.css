@@ -12,9 +12,6 @@ body {
   .danebook-theme .navbar-right a {
     color: #fff; }
 
-.navbar-form input {
-  border-radius: 0; }
-
 .header-wrap {
   position: relative; }
   .header-wrap .cover-image {
@@ -29,22 +26,33 @@ body {
     z-index: 2;
     top: 73%;
     left: 3%; }
+  .header-wrap .user-name {
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    left: 20%;
+    color: #fff;
+    font-size: 3em; }
 
 .bold p {
   font-weight: 700; }
 
 .header-main {
-  background-color: #ECECEC;
-  height: 45px; }
+  background-color: #ECECEC; }
   .header-main p {
-    font-size: 1.75em;
-    margin: 5px 0 0 0; }
+    font-size: 1.75em; }
   .header-main button {
     margin: 5px 15px 0 0;
     float: right; }
 
+.post-bar {
+  background-color: #ECECEC; }
+  .post-bar button {
+    margin: 5px 15px 5px 0; }
+
 .outline {
-  border: 1px solid #D8D8D8; }
+  border: 1px solid #D8D8D8;
+  margin-bottom: 15px; }
 
 .vertical-align {
   display: flex;
