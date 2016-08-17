@@ -1,7 +1,6 @@
 body {
   margin-top: 50px;
   font-family: 'Lato', serif;
-  min-height: 1000px;
 }
 
 .navbar-collapse.collapse.in {
@@ -78,39 +77,75 @@ body {
   }
 }
 
-.hover-info {
-  position: relative;
-  width: auto;
-  height: auto;
-  img {
-    width: auto;
-    vertical-align: top;
+/***********************
+
+    photo page - hover
+
+***********************/
+
+div.grid-image {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  a {
+    position: relative;
   }
-  &:after, &:before {
-    position: absolute;
-    opacity: 0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-  }
-  &:after {
-    content: "\A";
-    width: 100%; height: 100%;
-    top: 0; left: 0;
-    background:rgba(0,0,0,0.6);
-  }
-  &:before {
-    content: attr(data-content);
-    width: 100%;
-    color: #fff;
-    z-index: 1;
-    bottom: 15%;
-    text-align: center;
-    background:rgba(0,0,0,0.6);
-  }
-  &:hover:after, &:hover:before {
+  a:hover span.text-content {
     opacity: 1;
   }
 }
+
+span.text-content {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: table;
+  bottom: 3%;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
