@@ -3,6 +3,12 @@ body {
   font-family: 'Lato', serif;
 }
 
+/***********************
+
+          navbar
+
+***********************/
+
 .navbar-collapse.collapse.in {
   background-color: #266EE1;
 }
@@ -20,6 +26,12 @@ body {
     }
   }
 }
+
+/***********************
+
+    banner/user image
+
+***********************/
 
 .header-wrap {
   position: relative;
@@ -46,6 +58,12 @@ body {
     font-size: 3em;
   }
 }
+
+/***********************
+
+    body/main adj
+
+***********************/
 
 .bold {
   p {
@@ -117,9 +135,11 @@ span.text-content {
           transition: opacity 500ms;
 }
 
+/***********************
 
+    padding/margins
 
-/* SHIFTS */
+***********************/
 
 .right-shift {
   margin-right: 10px;
@@ -130,7 +150,7 @@ span.text-content {
 }
 
 .inline-pad {
-  padding: 0 5px;
+  padding: 5px;
 }
 
 .span-pad {

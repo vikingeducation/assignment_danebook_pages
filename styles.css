@@ -2,6 +2,11 @@ body {
   margin-top: 50px;
   font-family: 'Lato', serif; }
 
+/***********************
+
+          navbar
+
+***********************/
 .navbar-collapse.collapse.in {
   background-color: #266EE1; }
 
@@ -12,6 +17,11 @@ body {
   .danebook-theme .navbar-right a {
     color: #fff; }
 
+/***********************
+
+    banner/user image
+
+***********************/
 .header-wrap {
   position: relative; }
   .header-wrap .cover-image {
@@ -34,6 +44,11 @@ body {
     color: #fff;
     font-size: 3em; }
 
+/***********************
+
+    body/main adj
+
+***********************/
 .bold p {
   font-weight: 700; }
 
@@ -88,7 +103,11 @@ span.text-content {
   -o-transition: opacity 500ms;
   transition: opacity 500ms; }
 
-/* SHIFTS */
+/***********************
+
+    padding/margins
+
+***********************/
 .right-shift {
   margin-right: 10px; }
 
@@ -96,7 +115,7 @@ span.text-content {
   margin: 15px 0; }
 
 .inline-pad {
-  padding: 0 5px; }
+  padding: 5px; }
 
 .span-pad {
   margin-left: 5px; }
