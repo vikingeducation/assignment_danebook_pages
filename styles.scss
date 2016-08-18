@@ -112,16 +112,34 @@ span.text-content {
   width: 100%;
   opacity: 0;
   -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+     -moz-transition: opacity 500ms;
+       -o-transition: opacity 500ms;
+          transition: opacity 500ms;
 }
 
 
 
+/* SHIFTS */
 
+.right-shift {
+  margin-right: 10px;
+}
 
+.margin-pad {
+  margin: 15px 0;
+}
 
+.inline-pad {
+  padding: 0 5px;
+}
+
+.span-pad {
+  margin-left: 5px;
+}
+
+.block-pad {
+  margin: 0 2.5px;
+}
 
 
 
