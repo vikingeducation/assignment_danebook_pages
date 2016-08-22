@@ -1,7 +1,15 @@
 body {
   padding-top: 70px; }
 
+.navbar-inverse {
+  background-color: #2b78e4; }
+
 #main-logo .navbar-brand {
-  font-size: 25px; }
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #fff; }
+
+#search-bar {
+  text-align: center; }
 
 /*# sourceMappingURL=custom.css.map */
