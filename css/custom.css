@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px; }
+  padding-top: 51px; }
 
 .navbar-inverse {
   background-color: #2b78e4; }
@@ -20,7 +20,8 @@ body {
   #profile-container .profile-pic {
     position: absolute;
     left: 30px;
-    bottom: -20px; }
+    bottom: -20px;
+    box-shadow: 0 0 2px 2px; }
   @media (max-width: 768px) {
     #profile-container .profile-pic img {
       left: 25px;
@@ -31,5 +32,9 @@ body {
 .edit-link a {
   font-size: 12px;
   padding-top: 11px; }
+
+.profile-nav .counter {
+  font-size: 9px;
+  padding: 2px; }
 
 /*# sourceMappingURL=custom.css.map */
