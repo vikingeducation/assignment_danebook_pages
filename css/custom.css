@@ -25,5 +25,11 @@ body {
     #profile-container .profile-pic img {
       left: 25px;
       max-width: 130px; } }
+  #profile-container #profile-nav-row {
+    background-color: #d3d3d3; }
+
+.edit-link a {
+  font-size: 12px;
+  padding-top: 11px; }
 
 /*# sourceMappingURL=custom.css.map */
