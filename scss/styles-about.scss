@@ -1,0 +1,231 @@
+$drk-blue: #11162b;
+
+p {
+  line-height: 250%;
+}
+
+#login-navbar {
+  background-color: $drk-blue;
+  padding: 5px 0;
+
+  .navbar {
+    margin-bottom: 0;
+  }
+
+  .navbar-brand {
+    color: #f5bf2c;
+
+    &:hover {
+      color: #dda538;
+    }
+  }
+
+  .navbar-default {
+    background-color: $drk-blue;
+    border: 0;
+  }
+
+  .btn-info {
+    background-color: #7f9dc6;
+    // color: #46b8da;
+
+    &:hover {
+      background-color: #3777ab;
+      border-color: #7f9dc6;
+    }
+  }
+}
+
+.nav-search-bar-container {
+  float: left;
+  width: 60%;
+
+  form {
+    display: inline-block;
+   }
+
+  fieldset {
+    margin-left: 40px;
+    width: 100%;
+
+    .search-bar {
+      width: 100%;
+    }
+  }
+}
+
+.user-name {
+  color: #f5bf2c;
+  display: block;
+  float: right;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+
+.brand-img-container {
+  float: left;
+  height: auto;
+  padding: 15px 0;
+  padding-left: 15px;
+  width: 45px;
+
+
+  img {
+    border-radius: 50%;
+    width: 100%;
+  }
+}
+
+.body-about-page {
+
+  header {
+    border: 1px solid #c5c5c8;
+    border-top: 0;
+  }
+}
+
+.nav-signed-in {
+  background-color: #c5c5c8;
+
+  div:first-child {
+    border-left: 0;
+    margin-left: 0;
+  }
+}
+
+.nav-signed-in-item {
+  border-left: 1px solid #fff;
+  float: left;
+  font-weight: bold;
+  padding: 20px 35px;
+  text-align: center;
+}
+
+.about-content-title-container {
+    background-color: #c5c5c8;
+}
+
+.about-content-container {
+  border: 1px solid #c5c5c8;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about-content-title {
+  display: inline-block;
+  margin: 0 auto;
+  // padding: 0;
+  text-align: center;
+}
+
+.btn-edit-profile {
+  float: right;
+  padding: 8px 14px;
+}
+
+.profile-content-container {
+  position: relative;
+}
+
+.profile-background-container {
+  background-image: url('../img/hogwarts_small.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+
+  .profile-background-image {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.profile-image-container {
+  display: none;
+  height: auto;
+  left: 3%;
+  position: absolute;
+  top: 50%;
+  width: 150px;
+
+  .profile-image {
+    height: auto;
+    width: 100%;
+  }
+}
+
+
+
+.pad20px {
+  padding: 10px 20px;
+}
+
+.font-weight-normal {
+  color: #6c6c6c;
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+.about-content {
+  border-top:1px solid #c5c5c8;
+  padding: 30px 0;
+
+  h2,
+  p,
+  td {
+    text-align: left;
+  }
+
+  table + h2 {
+    margin-top: 60px;
+  }
+
+  tr:first-child td {
+    padding-top: 20px;
+  }
+
+  p + h2 {
+    margin-top: 60px;
+  }
+
+  td:first-child {
+    width: 150px;
+  }
+
+  td {
+    padding: 10px 0;
+  }
+
+  table:last-child {
+    margin-bottom: 60px;
+  }
+}
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .about-content {
+
+    table:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .nav-signed-in div:first-child {
+    border-left: 1px solid #fff;
+    margin-left: 255px;
+  }
+
+  .profile-image-container {
+    display: block;
+  }
+
+  .profile-background-container {
+    height: 350px;
+  }
+}

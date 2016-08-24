@@ -1,0 +1,133 @@
+#login-navbar {
+  background-color: #11162b; }
+  #login-navbar .navbar-default {
+    background-color: #11162b;
+    border: 0; }
+  #login-navbar .btn-info {
+    background-color: #7f9dc6; }
+    #login-navbar .btn-info:hover {
+      background-color: #3777ab;
+      border-color: #7f9dc6; }
+
+.brand-img-container {
+  float: left;
+  padding: 15px 0;
+  height: auto;
+  width: 30px; }
+  .brand-img-container img {
+    border-radius: 50%;
+    width: 100%; }
+
+.navbar {
+  padding: 1.5% 0; }
+
+.navbar-danebook {
+  background-color: #2b78e4;
+  border-color: #3f6291;
+  height: auto; }
+
+.logo-grouping {
+  padding: 15px; }
+  .logo-grouping .navbar-logo {
+    color: #f6f6f6;
+    float: none;
+    font-size: 2.5em; }
+  .logo-grouping .flag {
+    display: inline-block;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: -15px;
+    width: 30px; }
+
+.profile {
+  color: #f6f6f6;
+  font-size: 1.5em;
+  margin: 0;
+  padding-top: 5px;
+  text-align: right; }
+
+.image-circle {
+  border-radius: 50%; }
+
+.navbar-form label {
+  color: #f6f6f6;
+  display: block;
+  padding-bottom: 4px; }
+
+.login-cta {
+  background-color: #9fc5f8;
+  border-color: #3f6291;
+  color: #3f6291;
+  margin-top: 5%; }
+  .login-cta:hover {
+    background-color: #3f6291;
+    border-color: #9fc5f8;
+    color: #f6f6f6; }
+
+.mainpage-bullets {
+  margin-top: 5%; }
+  .mainpage-bullets li {
+    color: #696969;
+    font-size: 1.25em;
+    margin-bottom: 5%; }
+
+.mainpage-title {
+  font-size: 2.5em;
+  margin-bottom: 5%;
+  margin-top: 0; }
+
+.mainpage-date-label {
+  display: block; }
+
+.margin-bottom-15 {
+  margin-bottom: 15px; }
+
+.margin-bottom-60 {
+  margin-bottom: 60px; }
+
+.margin-right-15 {
+  margin-right: 15px; }
+
+.birthday-date select {
+  max-width: 50%; }
+.birthday-date p {
+  margin-top: 5%; }
+
+.mainpage-signup-cta {
+  font-size: 1.75em;
+  margin-top: 5%;
+  width: 100%; }
+
+@media screen and (min-width: 500px) {
+  .mainpage-bullets {
+    margin-top: 5%; }
+    .mainpage-bullets li {
+      font-size: 1.25em;
+      margin-bottom: 2.5%; } }
+@media screen and (min-width: 768px) {
+  .logo-grouping {
+    margin-top: 10%;
+    padding: 0;
+    padding-top: 15px; }
+    .logo-grouping .flag {
+      margin-right: 15px; }
+
+  .form-margin-right-25 {
+    margin-right: 25px; }
+
+  .birthday-date select {
+    max-width: 100%; } }
+@media screen and (min-width: 1199px) {
+  .navbar-danebook .form-group {
+    margin-right: 23px; } }
+@media screen and (min-width: 1700px) {
+  .navbar-danebook {
+    padding: 10px 0; }
+    .navbar-danebook .form-group {
+      margin-right: 23px; }
+
+  .mainpage-content li {
+    font-size: 1.5em;
+    margin-bottom: 2.5%; } }
+
+/*# sourceMappingURL=styles.css.map */

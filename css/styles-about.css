@@ -1,0 +1,150 @@
+p {
+  line-height: 250%; }
+
+#login-navbar {
+  background-color: #11162b;
+  padding: 5px 0; }
+  #login-navbar .navbar {
+    margin-bottom: 0; }
+  #login-navbar .navbar-brand {
+    color: #f5bf2c; }
+    #login-navbar .navbar-brand:hover {
+      color: #dda538; }
+  #login-navbar .navbar-default {
+    background-color: #11162b;
+    border: 0; }
+  #login-navbar .btn-info {
+    background-color: #7f9dc6; }
+    #login-navbar .btn-info:hover {
+      background-color: #3777ab;
+      border-color: #7f9dc6; }
+
+.nav-search-bar-container {
+  float: left;
+  width: 60%; }
+  .nav-search-bar-container form {
+    display: inline-block; }
+  .nav-search-bar-container fieldset {
+    margin-left: 40px;
+    width: 100%; }
+    .nav-search-bar-container fieldset .search-bar {
+      width: 100%; }
+
+.user-name {
+  color: #f5bf2c;
+  display: block;
+  float: right;
+  font-size: 1.5em;
+  padding-top: 10px; }
+
+.brand-img-container {
+  float: left;
+  height: auto;
+  padding: 15px 0;
+  padding-left: 15px;
+  width: 45px; }
+  .brand-img-container img {
+    border-radius: 50%;
+    width: 100%; }
+
+.body-about-page header {
+  border: 1px solid #c5c5c8;
+  border-top: 0; }
+
+.nav-signed-in {
+  background-color: #c5c5c8; }
+  .nav-signed-in div:first-child {
+    border-left: 0;
+    margin-left: 0; }
+
+.nav-signed-in-item {
+  border-left: 1px solid #fff;
+  float: left;
+  font-weight: bold;
+  padding: 20px 35px;
+  text-align: center; }
+
+.about-content-title-container {
+  background-color: #c5c5c8; }
+
+.about-content-container {
+  border: 1px solid #c5c5c8;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center; }
+
+.about-content-title {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center; }
+
+.btn-edit-profile {
+  float: right;
+  padding: 8px 14px; }
+
+.profile-content-container {
+  position: relative; }
+
+.profile-background-container {
+  background-image: url("../img/hogwarts_small.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 150px; }
+  .profile-background-container .profile-background-image {
+    height: auto;
+    width: 100%; }
+
+.profile-image-container {
+  display: none;
+  height: auto;
+  left: 3%;
+  position: absolute;
+  top: 50%;
+  width: 150px; }
+  .profile-image-container .profile-image {
+    height: auto;
+    width: 100%; }
+
+.pad20px {
+  padding: 10px 20px; }
+
+.font-weight-normal {
+  color: #6c6c6c;
+  font-weight: normal;
+  padding-left: 5px; }
+
+.about-content {
+  border-top: 1px solid #c5c5c8;
+  padding: 30px 0; }
+  .about-content h2,
+  .about-content p,
+  .about-content td {
+    text-align: left; }
+  .about-content table + h2 {
+    margin-top: 60px; }
+  .about-content tr:first-child td {
+    padding-top: 20px; }
+  .about-content p + h2 {
+    margin-top: 60px; }
+  .about-content td:first-child {
+    width: 150px; }
+  .about-content td {
+    padding: 10px 0; }
+  .about-content table:last-child {
+    margin-bottom: 60px; }
+
+@media (min-width: 768px) {
+  .about-content table:last-child {
+    margin-bottom: 0; } }
+@media (min-width: 992px) {
+  .nav-signed-in div:first-child {
+    border-left: 1px solid #fff;
+    margin-left: 255px; }
+
+  .profile-image-container {
+    display: block; }
+
+  .profile-background-container {
+    height: 350px; } }
+
+/*# sourceMappingURL=styles-about.css.map */
