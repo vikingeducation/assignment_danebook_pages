@@ -44,7 +44,7 @@
       <img class="img-responsive profile-cover" src="assets/images/hogwarts_small.jpg" alt="hogwarts school">
     </div>
 
-    <div id="profile-nav-row" class="row">
+    <div id="panel profile-nav-row" class="row">
       <div class="col-xs-3">
         <div class="profile-pic">
           <img src="assets/images/harry_potter_small.jpg" alt="Harry Potter" class="img-resposive">
@@ -70,38 +70,55 @@
       <!-- About Container -->
 
   <div class="container">
-    <div class="row about-header">
+    <div class="panel row about-header">
       <h1 class="text-center col-md-10">About</h1>
       <button class="edit-button pull-right col-md-2">Edit your Profile</button>
     </div>
     <div class="row">
       <div class="col-md-6">
-        <h3 class="basic">Basic Information</h3>
-          <div class="basic-info-keys col-md-6">
+        <div class="basic-info-container">
+          <h3 class="basic">Basic Information</h3>
+          <div id="info-list" class="basic-info-keys">
+            <dl class="dl-horizontal">
+              <div>
+                <dt>Birthday:<dt>
+              </div>
+              <dd>July 31st, 1980</dd>
+              <dt>College:</dt>
+              <dd>Hogwarts College</dd>
+              <dt>Hometown:</dt>
+              <dd>Godrick's Hollow, England</dd>
+              <dt>Currently Lives:</dt>
+              <dd>Godrick's Hollow, England</dd>
+            </dl>
+          </div>
+          <div class="basic-info-values">
             <ul>
-              <li>Birthday:</li>
-              <li>College</li>
-              <li>Hometown</li>
-              <li>Currently Lives</li>
+              
+              
+              
+              
             </ul>
           </div>
-          <div class="basic-info-values col-md-6">
-            <ul>
-              <li>July 31st, 1980</li>
-              <li>Hogwarts College</li>
-              <li>Godrick's Hollow, England</li>
-              <li>Godrick's Hollow, England</li>
-            </ul>
-          </div>
-        <h3 class="contact">Contact Information</h3>
-          <div class="contact col-md-6">
-            <ul>
-              <li>Email:</li>
-              <li>Telephone:</li>
-            </ul>
-          </div>
+        </div>
 
+        <div class="contact-container">
+          <h3 class="contact">Contact Information</h3>
+            <div class="contact-keys col-md-6">
+              <ul>
+                <li>Email:</li>
+                <li>Telephone:</li>
+              </ul>
+            </div>
+            <div class="col-md-6 contact-values">
+              <ul>
+                <li>harry_potter@hogwarts.edu</li>
+                <li>555-123-4567</li>
+              </ul>
+            </div>
       </div>
+        </div>
+
       <div class="col-md-6">
         <h3 class="creed">Words to Live by</h3>
           <p>

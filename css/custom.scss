@@ -19,11 +19,14 @@ body {
   }
 }
 
-
 #search-bar {
   text-align: center;
 }
 
+
+    // Profile Section
+    
+    
 #profile-container {
   margin-bottom: 25px;
   .profile-cover {
@@ -47,7 +50,7 @@ body {
     }
   }
   #profile-nav-row {
-    background-color: #d3d3d3;
+    //background-color: #d3d3d3;
   }
 
 }
@@ -74,4 +77,31 @@ body {
   .edit-button {
     margin-top: 29px;
   }
+}
+
+
+
+
+.basic-info-keys {
+  font-weight: bold;
+  text-align: left;
+}
+
+.contact-keys {
+  font-weight: bold;
+}
+
+.basic-info-container {
+  padding: 20px;
+}
+
+.contact-container {
+  padding: 20px;
+  h3 {
+    padding-top: 60px;
+  }
+}
+
+.panel {
+  background-color: #e4e4e4;
 }
