@@ -9,6 +9,7 @@
     <title>Danebook / About</title>
   </head>
   <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div id="main-logo" class="navbar-header">
@@ -24,10 +25,10 @@
             </a>
             <a href="timeline.html" class="navbar-brand">Danebook</a>
         </div>
-        <div class="navbar-collapse collapse" id="navbar">
+        <div class="navbar-collapse collapse" id="main-navbar-collapse">
           <form id="search-bar" class="navbar-form" action="">
             <div class="form-group">
-              <input  type="text" class="form-control" placeholder="Search for Users">
+              <input  type="text" class="form-control user" placeholder="Search for Users">
             </div>
           </form>
         </div>
@@ -36,6 +37,22 @@
         </div>
       </div>
 </nav>
+
+      <!-- Top Container -->
+  <div id="profile-container" class="container">
+    <div class="row">
+      <img class="img-responsive profile-cover" src="assets/images/hogwarts_small.jpg" alt="hogwarts school">
+    </div>
+
+    <div class="row">
+      <div class="col-xs-3">
+        <div class="profile-pic">
+          <img src="assets/images/harry_potter_small.jpg" alt="Harry Potter" class="img-resposive">
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

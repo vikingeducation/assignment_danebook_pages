@@ -12,4 +12,18 @@ body {
 #search-bar {
   text-align: center; }
 
+#profile-container {
+  margin-bottom: 25px; }
+  #profile-container .profile-cover {
+    width: 100%;
+    margin: 0; }
+  #profile-container .profile-pic {
+    position: absolute;
+    left: 30px;
+    bottom: -20px; }
+  @media (max-width: 768px) {
+    #profile-container .profile-pic img {
+      left: 25px;
+      max-width: 130px; } }
+
 /*# sourceMappingURL=custom.css.map */

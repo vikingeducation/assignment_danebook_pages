@@ -23,3 +23,26 @@ body {
 #search-bar {
   text-align: center;
 }
+
+#profile-container {
+  margin-bottom: 25px;
+  .profile-cover {
+    width: 100%;
+    margin: 0;
+  }
+
+  .profile-pic {
+    position: absolute;
+    left: 30px;
+    bottom: -20px;
+  }
+
+  @media (max-width: 768px) {
+    .profile-pic {
+      img {
+        left: 25px;
+        max-width: 130px;
+      }
+    }
+  }
+}
