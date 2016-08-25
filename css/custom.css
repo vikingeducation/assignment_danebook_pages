@@ -50,16 +50,18 @@ h3.basic {
 h3.contact {
   padding-bottom: 10px; }
 
-.basic-info-data {
-  padding-bottom: 10px; }
-  .basic-info-data dt {
-    font-weight: bold;
-    text-align: left; }
+.static-forms {
+  padding-top: 1px; }
 
-.contact-info-data {
-  padding-bottom: 10px; }
-  .contact-info-data dt {
-    font-weight: bold;
-    text-align: left; }
+.save-btn {
+  padding: 15px; }
+
+.save {
+  color: #fff;
+  background-color: #2b78e4;
+  padding: 15px; }
+
+.save-container {
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=custom.css.map */

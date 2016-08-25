@@ -96,18 +96,22 @@ h3.contact {
 }
 
 
-.basic-info-data {
-  padding-bottom: 10px;
-  dt {
-      font-weight: bold;
-      text-align: left;
-  }
+//       About-Edit Section
+
+.static-forms {
+  padding-top: 1px;
 }
 
-.contact-info-data {
-  padding-bottom: 10px;
-  dt {
-      font-weight: bold;
-      text-align: left;
-  }
+.save-btn {
+  padding: 15px;
+}
+
+.save {
+  color: #fff;
+  background-color: #2b78e4;
+  padding: 15px;
+}
+
+.save-container {
+  margin-bottom: 50px;
 }

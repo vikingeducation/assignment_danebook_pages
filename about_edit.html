@@ -68,62 +68,83 @@
 
   <div class="container">
     <div class="panel row about-header">
-      <h1 id="about" class="text-center col-md-12">About</h1>
+      <h1 id="about" class="text-center col-md-12">Edit Profile</h1>
 
     </div>
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-6">
         <div class="basic-info-container">
           <h3 class="basic">Basic Information</h3>
           <div id="info-list" class="basic-info-keys">
-            <dl class="dl-horizontal">
-              <div class="basic-info-data">
-                <dt>Birthday:<dt>
-                <dd>July 31st, 1980</dd>
+            <form class="form-horizontal">
+              <div class="form-group basic-info-data">
+                <label class="col-md-3">Birthday:</label>
+                <div class="col-md-5">
+                  <p class="form-control-static static-forms">July 31st, 1980</p>
+                </div>
               </div>
-              <div class="basic-info-data">
-                <dt>College:</dt>
-                <dd>Hogwarts College</dd>
+              <div class="form-group basic-info-data">
+                <label class="col-md-3">College:</label>
+                <div class="col-md-5">
+                  <input type="text" class="form-control" value="Hogwarts College">
+                </div>
               </div>
-              <div class="basic-info-data">
-                <dt>Hometown:</dt>
-                <dd>Godrick's Hollow, England</dd>
+              <div class="form-group basic-info-data">
+                <label class="col-md-3">Hometown:</label>
+                <div class="col-md-5">
+                  <input type="text" class="form-control" value="Godrick's Hollow, England">
+                </div>
               </div>
-              <div class="basic-info-data">
-                <dt>Currently Lives:</dt>
-                <dd>Godrick's Hollow, England</dd>
+              <div class="form-group basic-info-data">
+                <label class="col-md-3">Currently Lives:</label>
+                <div class="col-md-5">
+                  <input type="text" class="form-control" value="Godrick's Hollow, England">
+                </div>
               </div>
-            </dl>
+            </form>
           </div>
         </div>
 
         <div class="contact-container">
           <h3 class="contact">Contact Information</h3>
           <div id="contact-list" class="contact-info">
-            <dl class="dl-horizontal">
-              <div class="contact-info-data">
-                <dt>Email:</dt>
-                <dd>harry_potter@hogwarts.edu</dd>
+            <form action="submit" class="form-horizontal">
+              <div class="form-group">
+                <label for="email" class="col-md-3">Email:</label>
+                <div class="col-md-5">
+                  <p class="form-control-static static-forms">harry_potter@hogwarts.edu</p>
+                </div>
               </div>
-              <div class="contact-info-data">
-                <dt>Telephone:</dt>
-                <dd>555-123-4567</dd>
+              <div class="form-group">
+                <label for="phone" class="col-md-3">Telephone:</label>
+                <div class="col-md-5">
+                  <input type="tel" class="form-control" value="555-123-4567">
+                </div>
               </div>
-            </dl>
+            </form>
           </div>
         </div>
       </div>
 
       <div class="col-md-6">
-        <h3 class="creed">Words to Live by</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-          </p>
-        <h3 class="about-me">About Me</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <h3 class="creed">Words to Live By</h3>
+        <form action="submit" role="form">
+          <div class="form-group">
+            <textarea class="form-control" rows="3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</textarea>
+          </div>
+          <h3 class="about-me">About Me</h3>
+          <div class="form-group">
+            <textarea class="form-control" name="about-me" rows="8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+          </div>
+        </form>
       </div>
+    </div>
+    <div class="save-container row">
+        <div class="save-btn text-center">
+          <button class="col-md-offset-4 save col-md-4 btn btn-lg" type="button" name="button">Save Changes</button>
+        </div>
+
+
     </div>
   </div>
 
