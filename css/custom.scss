@@ -25,8 +25,8 @@ body {
 
 
     // Profile Section
-    
-    
+
+
 #profile-container {
   margin-bottom: 25px;
   .profile-cover {
@@ -73,35 +73,41 @@ body {
 
 //       About Section
 
-.about-header {
-  .edit-button {
-    margin-top: 29px;
-  }
-}
-
-
-
-
-.basic-info-keys {
-  font-weight: bold;
-  text-align: left;
-}
-
-.contact-keys {
-  font-weight: bold;
-}
-
-.basic-info-container {
-  padding: 20px;
-}
-
-.contact-container {
-  padding: 20px;
-  h3 {
-    padding-top: 60px;
-  }
-}
 
 .panel {
   background-color: #e4e4e4;
+}
+
+.about-header {
+  .edit-button {
+    margin: 27px;
+    width: 110px;
+    color: #fff;
+    background-color: #2b78e4;
+  }
+}
+
+h3.basic {
+  padding-bottom: 10px;
+}
+
+h3.contact {
+  padding-bottom: 10px;
+}
+
+
+.basic-info-data {
+  padding-bottom: 10px;
+  dt {
+      font-weight: bold;
+      text-align: left;
+  }
+}
+
+.contact-info-data {
+  padding-bottom: 10px;
+  dt {
+      font-weight: bold;
+      text-align: left;
+  }
 }
