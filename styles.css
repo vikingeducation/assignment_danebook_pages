@@ -55,7 +55,10 @@
 	margin: 10px 0;
 }
 
-
+#textarea1  {
+	resize: none;
+	height: 130px;
+}
 
 
 .profile-pic {
@@ -70,6 +73,7 @@
 
 .panel-title {
 	font-size: 24px;
+	padding-left: 60px;
 }
 
 
