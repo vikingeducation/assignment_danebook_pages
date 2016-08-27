@@ -16,6 +16,10 @@
 	color: #FEFEFE;
 }
 
+.navbar-default .navbar-brand:hover {
+	color: #FEFEFE;
+}
+
 .navbar-form .form-group {
 	flex: 1;
 	display: flex;
@@ -32,3 +36,56 @@
 .navbar-default .navbar-nav>li>a:hover {
 	color: #FEFEFE;
 }
+
+.wallcover {
+	width: 100%;
+	border: 2px solid black;
+	height: 450px;
+	position: relative;
+}
+
+.ep {
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.navborder {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+
+
+.profile-pic {
+	position: absolute;
+	width: 170px;
+	height: 165px;
+	bottom: 20px;
+	left: 90px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
