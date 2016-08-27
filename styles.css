@@ -46,12 +46,13 @@
 
 .ep {
 	margin-right: 5px;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 .navborder {
 	border: 1px solid black;
 	border-radius: 5px;
+	margin: 10px 0;
 }
 
 
@@ -59,22 +60,32 @@
 
 .profile-pic {
 	position: absolute;
-	width: 170px;
-	height: 165px;
-	bottom: 20px;
+	width: 150px;
+	height: 135px;
+	bottom: 10px;
 	left: 90px;
 	border: 1px solid black;
 	border-radius: 10px;
 }
 
+.panel-title {
+	font-size: 24px;
+}
 
 
+.basicinfo {
+	padding-left: 80px;
+}
 
 
+.words2liveby {
+	padding-right: 80px;
+}
 
 
-
-
+.panel-title {
+	padding-right: 120px;
+}
 
 
 
