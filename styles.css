@@ -92,6 +92,28 @@
 }
 
 
+.weasleybropic {
+	width: 15%;
+	height: auto;
+	border: 1px solid black;
+	border-radius: 15px;
+	display: inline-block;
+}
+
+.nametag {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+.friends-profile {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+}
+
 
 
 
