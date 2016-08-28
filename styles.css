@@ -73,7 +73,7 @@
 
 .panel-title {
 	font-size: 24px;
-	padding-left: 60px;
+	text-align: center;
 }
 
 
@@ -85,12 +85,6 @@
 .words2liveby {
 	padding-right: 80px;
 }
-
-
-.panel-title {
-	padding-right: 120px;
-}
-
 
 .weasleybropic {
 	width: 15%;
@@ -114,8 +108,18 @@
 	margin-top: 10px;
 }
 
+.thumbnail {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: auto;
+	height: auto;
+}
 
-
+.frdpics {
+	text-anchor: center;
+	font-size: 18px;
+}
 
 
 
