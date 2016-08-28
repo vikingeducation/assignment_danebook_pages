@@ -109,17 +109,23 @@
 }
 
 .thumbnail {
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin: 5px 5px 0;
 	width: auto;
 	height: auto;
 }
 
 .frdpics {
 	text-anchor: center;
-	font-size: 18px;
+	font-size: 16px;
 }
+
+.img-responsive {
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
+
+
 
 
 
