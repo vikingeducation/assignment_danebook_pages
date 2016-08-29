@@ -8,9 +8,14 @@ nav.navbar-default .container {
     width: 30px;
     height: 30px;
     border-radius: 100%;
+    display: inline-block;
     }
-    ul li {
-    vertical-align: middle;
+    .navbar-header {
+        margin-top: -0.5%;
+    }
+    form .form-group input {
+        width: 200%;
+        margin: 0 auto;
     }
 }
 

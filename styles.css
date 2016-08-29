@@ -4,9 +4,13 @@ body {
 nav.navbar-default .container img {
   width: 30px;
   height: 30px;
-  border-radius: 100%; }
-nav.navbar-default .container ul li {
-  vertical-align: middle; }
+  border-radius: 100%;
+  display: inline-block; }
+nav.navbar-default .container .navbar-header {
+  margin-top: -0.5%; }
+nav.navbar-default .container form .form-group input {
+  width: 200%;
+  margin: 0 auto; }
 
 /*nav.navbar-default {
     background-color: #2b78e4;
