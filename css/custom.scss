@@ -1,3 +1,7 @@
+// Variables
+$brand-primary: #2b78e4;
+$brand-secondary: #fff;
+
 // body-padding
 
 body {
@@ -7,15 +11,14 @@ body {
 // navbar
 
 .navbar-inverse {
-  background-color: #2b78e4;
+  background-color: $brand-primary;
 }
 
 #main-logo {
   .navbar-brand {
     font-size: 25px;
     font-family: sans-serif;
-    color: #fff;
-    //background-color: #2b78e4;
+    color: $brand-secondary;
   }
 }
 
@@ -82,8 +85,8 @@ body {
   .edit-button {
     margin: 27px;
     width: 110px;
-    color: #fff;
-    background-color: #2b78e4;
+    color: $brand-secondary;
+    background-color: $brand-primary;
   }
 }
 
@@ -107,8 +110,8 @@ h3.contact {
 }
 
 .save {
-  color: #fff;
-  background-color: #2b78e4;
+  color: $brand-secondary;
+  background-color: $brand-primary;
   padding: 15px;
 }
 
@@ -120,8 +123,8 @@ h3.contact {
 
 .panel-footer {
   button {
-    color: #fff;
-    background-color: #2b78e4;
+    color: $brand-secondary;
+    background-color: $brand-primary;
   }
 }
 
@@ -130,8 +133,8 @@ h3.contact {
 }
 
 .comment-button {
-  color: #fff;
-  background-color: #2b78e4;
+  color: $brand-secondary;
+  background-color: $brand-primary;
 }
 
 .profile-panel-pics {
