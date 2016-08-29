@@ -1,12 +1,30 @@
 
+body { 
+    padding-top: 70px;
+}
 
-.navbar-default {
+nav.navbar-default .container {
+    img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    }
+    ul li {
+    vertical-align: middle;
+    }
+}
+
+
+/*nav.navbar-default {
     background-color: #2b78e4;
     color: #fff;
     border-bottom: 3px solid #333;
-    .container .row .navbar-brand img{
+    .container img{
         border-radius: 100%;
         height: 30px;
         width: 30px;
+
+            background-color: @brand-primary: darken(#428bca, 6.5%);
     }
 }
+*/
