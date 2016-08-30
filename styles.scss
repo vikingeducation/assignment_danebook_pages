@@ -1,10 +1,16 @@
 
 $colortheme: #2b78e4;
 $fontsize: 16px;
+$grid-float-breakpoint: 0px;
 
 body { 
-    padding-top: 70px;
+    padding-top: 50px;
 }
+
+/*=============================
+NAVIGATION
+=============================*/
+
 
 nav.navbar-custom {
     background-color: $colortheme;
@@ -19,7 +25,7 @@ nav.navbar-custom {
         }
         .navbar-header {
             .navbar-brand {
-            color: #eee;
+            color: white;
             font-size: $fontsize + 12;
             }
             a.navbar-brand:hover {
@@ -29,7 +35,12 @@ nav.navbar-custom {
         form .form-group input {
             display: inline;
             width: 250%;
+            ul {
+                display: inline;
+                float: right;
+            }
         }
+
         ul li a {
             color: white;
             font-size: $fontsize +2;
@@ -40,3 +51,30 @@ nav.navbar-custom {
         }
     }
 }
+/*=============================
+HERO
+=============================*/
+
+.jumbotron {
+    background: white url("assets/hogwarts_small.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    height: 350px;
+    .crop {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border: 8px solid #222;
+        position: relative;
+        top: 120px;
+        img {
+            width: 220px;
+            height: 300px;
+            margin-left: -25px;
+        }
+    }
+}
+
+/*=============================
+SUB-NAVIGATION
+=============================*/

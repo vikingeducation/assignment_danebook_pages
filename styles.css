@@ -1,6 +1,9 @@
 body {
-  padding-top: 70px; }
+  padding-top: 50px; }
 
+/*=============================
+NAVIGATION
+=============================*/
 nav.navbar-custom {
   background-color: #2b78e4;
   border-bottom: 2px solid #333; }
@@ -11,18 +14,45 @@ nav.navbar-custom {
     display: inline-block;
     margin-top: -5px; }
   nav.navbar-custom .container .navbar-header .navbar-brand {
-    color: #eee;
+    color: white;
     font-size: 28px; }
   nav.navbar-custom .container .navbar-header a.navbar-brand:hover {
     color: black; }
   nav.navbar-custom .container form .form-group input {
     display: inline;
     width: 250%; }
+    nav.navbar-custom .container form .form-group input ul {
+      display: inline;
+      float: right; }
   nav.navbar-custom .container ul li a {
     color: white;
     font-size: 18px; }
   nav.navbar-custom .container ul li a:hover {
     color: black;
     background-color: white; }
+
+/*=============================
+HERO
+=============================*/
+.jumbotron {
+  background: white url("assets/hogwarts_small.jpg") no-repeat;
+  background-size: cover;
+  background-position: 0 60%;
+  height: 350px; }
+  .jumbotron .crop {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 8px solid #222;
+    position: relative;
+    top: 120px; }
+    .jumbotron .crop img {
+      width: 220px;
+      height: 300px;
+      margin-left: -25px; }
+
+/*=============================
+SUB-NAVIGATION
+=============================*/
 
 /*# sourceMappingURL=styles.css.map */
