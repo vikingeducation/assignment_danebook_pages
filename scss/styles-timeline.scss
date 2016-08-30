@@ -1,0 +1,198 @@
+// TIMELINE CSS
+$drk-blue: #11162b;
+$white: #f1f1f1;
+// Signed in Header banner
+.signed-in-headerbar {
+  background-color: $drk-blue;
+          position: fixed;
+           padding: 1.5em 0;
+           z-index: 1030;
+             width: 100%;
+               top: 0;
+
+  .danebook-flag {
+    vertical-align: baseline;
+      margin-right: 10px;
+            height: auto;
+             width: 25px;
+  }
+
+  p {
+    margin-bottom: 0;
+        font-size: 1.75em;
+            color: $white;
+  }
+
+  .user-name {
+    padding-top: 7px;
+      font-size: 1.25em;
+  }
+}
+
+// Profile section and site nav
+header {
+  margin-top: 77px;
+}
+
+.profile-bgimg-container,
+.searchbar {
+  display: none;
+}
+
+.user-site-nav {
+  
+  li{
+    border-left: 1px solid #e0e0e0;
+
+  }
+
+  li.active{
+    background-color: #e7e7e7;
+
+  }
+}
+
+// timeline page
+.about-user li{
+  padding-top: 10px;
+}
+
+.photo-section-aside, .friends-section-aside{
+
+    div {
+      padding-top: 25px;
+    }
+  }
+
+// Generic
+.subtext {
+  font-size: .75em;
+  display: inline-block;
+  padding-left: 10px;
+}
+img {
+  width: 100%;
+}
+.padding-bottom-sm {
+  padding-bottom: 30px;
+}
+
+
+@media (min-width: 480px) {
+
+  .profile-bgimg-container{
+    position: relative;
+     display: block;
+
+    .profile-bg-img {
+      background-position: center;
+         background-image: url('../img/hogwarts_small.jpg');
+          background-size: cover;
+                   height: 200px;
+                    width: 100%;
+      img {
+        height: auto;
+         width: 100%;
+      }
+    }
+
+    .profile-img-container {
+      display: none;
+    }
+  }
+}
+
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+  .profile-bgimg-container{
+
+    .profile-bg-img {
+      height: 300px;
+    }
+
+    .profile-img-container {
+      position: absolute;
+       display: block;
+       z-index: 1030;
+         width: 20%;
+          left: 40px;
+           top: 40%;
+
+      img {
+        height: auto;
+         width: 100%;
+      }
+    }
+  }
+
+  .photo-section-aside, .friends-section-aside{
+
+      section:first-of-type div {
+      padding-top: 0;
+    }
+  }
+
+  .searchbar {
+    display: inline-block;
+  }
+
+  // Generic styles
+
+  .padding-sm {
+    padding: 0 20px;
+  }
+
+  .margin-left-md {
+    margin-left: 23%;
+  }
+
+  .padding-bottom-sm {
+    padding-bottom: 0;
+  }
+
+  .about-content {
+
+    table:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+
+  .profile-bgimg-container{
+
+    .profile-bg-img {
+      height: 450px;
+    }
+
+    .profile-img-container {
+      width: 18%;
+        top: 55%;
+    }
+  }
+
+  .user-site-nav {
+
+    li{
+      padding: 0 15px;
+    }
+  }
+  .margin-left-md {
+    margin-left: 20.25%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .profile-bgimg-container{
+
+    .profile-img-container {
+      top: 45%;
+    }
+  }
+}
+

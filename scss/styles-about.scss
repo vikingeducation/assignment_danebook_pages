@@ -291,10 +291,6 @@ p {
     clear:both;
 }
 
-.text-right {
-  text-align: right;
-}
-
 // photo page
 
 .photo-content {
@@ -385,16 +381,10 @@ p {
   }
 }
 
-// Small devices (tablets, 768px and up)
-@media (min-width: 768px) {
 
-  .about-content {
 
-    table:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
+
+
 
 // Medium devices (desktops, 992px and up)
 @media (min-width: 992px) {

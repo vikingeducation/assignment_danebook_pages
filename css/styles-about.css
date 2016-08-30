@@ -194,9 +194,6 @@ p {
   display: block;
   clear: both; }
 
-.text-right {
-  text-align: right; }
-
 .photo-content {
   border: 1px solid #c5c5c8;
   padding-top: 20px; }
@@ -265,9 +262,6 @@ p {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-@media (min-width: 768px) {
-  .about-content table:last-child {
-    margin-bottom: 0; } }
 @media (min-width: 992px) {
   .nav-signed-in div:first-child {
     border-left: 1px solid #fff;
