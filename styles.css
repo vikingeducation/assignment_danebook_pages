@@ -38,7 +38,9 @@ HERO
   background: white url("assets/hogwarts_small.jpg") no-repeat;
   background-size: cover;
   background-position: 0 60%;
-  height: 350px; }
+  height: 350px;
+  margin-bottom: 0;
+  border-radius: 0 !important; }
   .jumbotron .crop {
     width: 200px;
     height: 200px;
@@ -54,5 +56,75 @@ HERO
 /*=============================
 SUB-NAVIGATION
 =============================*/
+.sub-navigation {
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  line-height: 40px;
+  border: 2px solid #222; }
+  .sub-navigation ul.nav.nav-pills {
+    margin-left: 280px;
+    font-size: 16px;
+    color: black; }
+  .sub-navigation ul.nav.nav-pills li {
+    border-left: 2px solid #222; }
+  .sub-navigation ul.nav.nav-pills li.last-child {
+    border-right: 2px solid #222; }
+  .sub-navigation ul.nav.nav-pills li.active a {
+    background-color: gray;
+    border-radius: 0; }
+  .sub-navigation .edit-profile:hover {
+    background-color: white; }
+
+.section-navbar {
+  border-bottom: 2px solid #222;
+  height: 50px;
+  position: relative;
+  background: #ddd;
+  text-align: center; }
+
+.section-navbar h2 {
+  text-align: center;
+  line-height: 50px; }
+
+.btn-profile {
+  width: 130px;
+  height: 25px;
+  border: 2px solid #000;
+  background: #3355dd;
+  color: white;
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  line-height: 25px; }
+
+table caption {
+  text-align: left; }
+
+table {
+  font-size: 14px;
+  margin: 50px auto;
+  width: 350px; }
+
+table th {
+  font-weight: bold;
+  text-align: left; }
+
+table td {
+  padding-top: 10px;
+  padding-left: 10px; }
+
+.section-about-right {
+  width: 480px;
+  margin: 50px auto;
+  text-align: justify; }
+
+.section-about-right h3 {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.about {
+  border: 2px solid #222;
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=styles.css.map */

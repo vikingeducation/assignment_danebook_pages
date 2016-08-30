@@ -21,9 +21,7 @@
         <![endif]-->
     </head>
     <body>
-
         <!--NAVIGATION-->
-
         <nav class="navbar navbar-custom navbar-fixed-top">
             <div class="container clearfix">
                 <div class="navbar-header">
@@ -46,7 +44,6 @@
                 </ul>
             </div>
         </nav>
-
         <!--HERO-->
         <div class="container">
             <header class="jumbotron">
@@ -54,33 +51,121 @@
                     <img src="assets/harry_potter_small.jpg">
                 </div>
             </header>
-
             <!--SUB-NAVIGATION-->
-            <nav class="navbar navbar-nav navbar-profile">
-                <ul>
-                    <li><a href="newsfeed.html">Timeline</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Photos<h5>(123)</h5></a></li>
-                    <li><a href="friends.html">Friends<h5>(542)</h5></a></li>
+            <nav class="sub-navigation">
+                <ul class="nav nav-pills" role="tablist">
+                    <li role="presentation">
+                        <a href="newsfeed.html">
+                            Timeline
+                        </a>
+                    </li>
+                    <li role="presentation" class="active">
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="photos.html">
+                            Photos<span class="badge">(123)</span>
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="friends.html">
+                            Friends<span class="badge">(542)</span>
+                        </a>
+                    </li>
+                    <li  class="edit-profile pull-right">
+                        <a href="about_edit.html">
+                            Edit Profile
+                        </a>
+                    </li>
                 </ul>
-                <div class="edit-profile">
-                    <a href="#">Edit Profile</a>
-                </div>
             </nav>
-
-
-
+            <!-- ABOUT-->
+            <!--Basic INFO TABLE-->
+            <section class="about">
+                <div class="section-navbar">
+                    <h2>About</h2>
+                    <a href="#" class="btn-profile">
+                        Edit Your Profile
+                    </a>
+                </div>
+            </div>
+            <div class="col-40-100">
+                <table>
+                    <caption><h3>Basic Information</h3></caption>
+                    <tr>
+                        <th>
+                            Birthday:
+                        </th>
+                        <td>
+                            July 31st, 1980
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            College:
+                        </th>
+                        <td>
+                            Hogwarts College
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Hometown:
+                        </th>
+                        <td>
+                            Godrick's Hollow, England
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Currently Lives:
+                        </th>
+                        <td>
+                            Godrick's Hollow, England
+                        </td>
+                    </tr>
+                </table>
+                <!--CONTACT INFO TABLE-->
+                <table>
+                    <caption><h3>Current Information</h3></caption>
+                    <tr>
+                        <th>
+                            Email:
+                        </th>
+                        <td>
+                            harry_poter@hogwarts.edu
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Telephone:
+                        </th>
+                        <td>
+                            555-123-4567
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- ABOUT RIGHT COLUMN-->
+            <div class="col-60-100">
+                <div class="section-about-right">
+                    <h3>Words to Live By</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sequi magni, voluptatibus dolore illo. Non quae mollitia dolores in tempora. Maiores natus odit quia et, officia iure molestiae ullam repellendus.</p>
+                    <h3>About Me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere magnam, velit, nam pariatur aut amet excepturi modi aperiam atque placeat expedita quaerat voluptatem cum fuga nisi vitae temporibus quas possimus necessitatibus. Ipsum fuga recusandae odit molestiae ab excepturi, voluptates rerum ullam tempore repellat commodi similique autem deleniti illum enim error reprehenderit ut iste, dicta et veniam quasi, amet nihil perspiciatis. Officia, perspiciatis amet. Fugiat tenetur, minima facere et repellat. </p>
+                </div>
+            </section>
+        </section>
         <main>
-             <!--TITLE BAR-->
-            <section></section>
-             <!--DATA TABLE-->
-            <article></article>
-             <!--ABOUT SECTION-->
-            <article></article>
-
-        </main>
-
-
-        </div>
-    </body>
+        <!--TITLE BAR-->
+    <section></section>
+    <!--DATA TABLE-->
+<article></article>
+<!--ABOUT SECTION-->
+<article></article>
+</main>
+</div>
+</body>
 </html>
