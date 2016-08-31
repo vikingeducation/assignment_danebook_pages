@@ -1,8 +1,14 @@
 
-$colortheme: #2b78e4;
+$colortheme: #337ab7;
 $fontsize: 16px;
 $grid-float-breakpoint: 0px;
 $bordertype: 2px solid #222;
+
+.border-3d {
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
 
 body { 
     padding-top: 50px;
@@ -11,50 +17,58 @@ body {
 /*=============================
 NAVIGATION
 =============================*/
-
-
 nav.navbar-custom {
     background-color: $colortheme;
     border-bottom: 2px solid #333;
-    .container {
+    .logo-container {
         img{
         width: 30px;
         height: 30px;
         border-radius: 100%;
         display: inline-block;
-        margin-top: -5px;
+        margin-top: -8px;
         }
-        .navbar-header {
-            .navbar-brand {
-            color: white;
-            font-size: $fontsize + 12;
-            }
-            a.navbar-brand:hover {
-                color: black;
-            }
-        }
-        form .form-group input {
-            display: inline;
-            width: 250%;
-            ul {
-                display: inline;
-                float: right;
-            }
-        }
-
-        ul li a {
-            color: white;
-            font-size: $fontsize +2;
-        }
-        ul li a:hover {
-            color: black;
-            background-color: white;
+        h3 {
+            display: inline-block;
+            margin-top: -8px;
         }
     }
+    .navbar-header {
+        .navbar-brand {
+        color: white;
+        }
+        button .icon-bar {
+        background-color: white;
+        }
+        a.navbar-brand:hover {
+            color: black;
+        }
+    }
+    form .form-group input {
+       width: 450px;
+    }
+    ul li a {
+        color: white;
+        font-size: $fontsize +2;
+    }
+    ul li a:hover {
+        color: black;
+        background-color: white;
+    }
 }
+
 /*=============================
 HERO
 =============================*/
+
+
+
+@media (max-width: 980px) {
+    .hero {
+        width: 920px;
+    }
+}
+
 
 .jumbotron {
     background: white url("assets/hogwarts_small.jpg") no-repeat;
@@ -67,9 +81,9 @@ HERO
         width: 200px;
         height: 200px;
         overflow: hidden;
-        border: 8px solid #222;
+        border: 8px double #222;
         position: relative;
-        top: 120px;
+        top: 50%;
         img {
             width: 220px;
             height: 300px;
@@ -86,59 +100,59 @@ SUB-NAVIGATION
     margin-left: 0px;
     margin-right: 0px;
     line-height: 40px;
-    border: $bordertype;
+    @extend .border-3d;
     ul.nav.nav-pills {
         margin-left: 280px;
         font-size: $fontsize;
         color: black;
     }
-    ul.nav.nav-pills li {
-        border-left: $bordertype;
-    }
-    ul.nav.nav-pills li.last-child {
-        border-right: $bordertype;
-    }
     ul.nav.nav-pills li.active a {
-        background-color: gray;
+        background-color: #aaa;
         border-radius: 0;
     }
-    .edit-profile:hover {
-        background-color: white;
-
+    .edit-profile {
+        text-decoration: underline;
+    }
+    .edit-profile a:hover {
+        background-color: inherit;
     }
 }
 
-.section-navbar {
-  border-bottom: 2px solid #222;
-  height: 50px;
+
+.about {
+  @extend .border-3d;
+  background: #ccc;
+  text-align: center;
   position: relative;
-  background: #ddd;
-  text-align: center;
+    h2 {
+        display: inline-block;
+    }
+    a.btn {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
-.section-navbar h2 {
-  text-align: center;
-  line-height: 50px;
+main.row {
+    @extend .border-3d;
+    margin: 0 0 40px 0;
 }
 
-.btn-profile {
-  width: 130px;
-  height: 25px;
-  border: 2px solid #000;
-  background: #3355dd;
-  color: white;
-  position: absolute;
-  top: 7px;
-  right: 20px;
-  line-height: 25px;
-}
+.interior {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
 
+}
 table caption {
   text-align: left;
 }
 table {
   font-size: 14px;
-  margin: 50px auto;
+  margin: 0px auto;
   width: 350px;
 }
 table th {
@@ -151,25 +165,7 @@ table td{
   padding-left: 10px;
 }
 
-.section-about-right {
-  width: 480px;
-  margin: 50px auto;
-  text-align: justify;
-}
-
-.section-about-right h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
 
 .about {
   border: 2px solid #222;
-  margin-bottom: 30px;
 }
-
-
-
-
-
-
-
