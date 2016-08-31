@@ -149,7 +149,10 @@ header {
     margin-left: 20.25%; }
 
   .timeline-post-container {
-    float: right; } }
+    float: right; }
+
+  aside {
+    float: left; } }
 @media (min-width: 1200px) {
   .profile-bgimg-container .profile-img-container {
     top: 42%; } }
