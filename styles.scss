@@ -158,25 +158,25 @@ MAIN PART ABOUT
     padding-bottom: 20px;
 }
 
-table caption {
-  text-align: left;
-}
-table {
-  font-size: 14px;
-  margin: 0px auto;
-  width: 350px;
-}
-table th {
-  font-weight: bold;
-  text-align: left;
-  padding-top: 10px;
-  width: 130px;
-}
 
-table tr td{
-  padding-top: 10px;
-  padding-left: 5px;
-  width: 250px;
+table.tab-about {
+    font-size: 14px;
+    margin: 0px auto;
+    width: 350px;
+    table caption {
+        text-align: left;
+    }
+    table.tab-about th {
+        font-weight: bold;
+        text-align: left;
+        padding-top: 10px;
+        width: 130px;
+    }
+    tr td{
+        padding-top: 10px;
+        padding-left: 5px;
+        width: 250px;
+    }
 }
 
 .about {
@@ -233,8 +233,22 @@ article section.post {
         text-align: right;
         background-color: #ddd;
         padding: 5px;
+    }
 }
+
+table.tab-timeline {
+    font-size: 12px;
+    margin: 5px 0 5px 10px;
+    tr th {
+        padding-top: 8px;
+    }
+    tr td {
+        padding-left: 8px;
+        padding-top: 8px;
+    }
 }
+
+
 
 
 
