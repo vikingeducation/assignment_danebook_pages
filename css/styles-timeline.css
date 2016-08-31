@@ -14,6 +14,11 @@
     margin-bottom: 0;
     font-size: 1.75em;
     color: #f1f1f1; }
+  .signed-in-headerbar .brand-logo {
+    color: #fdfdfd; }
+    .signed-in-headerbar .brand-logo:hover {
+      text-decoration: none;
+      color: #f1f1f1; }
   .signed-in-headerbar .user-name {
     padding-top: 7px;
     font-size: 1.25em; }
@@ -82,12 +87,12 @@ header {
   width: 50%; }
 
 .hovereffect {
+  margin-bottom: 25px;
   text-align: center;
   overflow: hidden;
   position: relative;
   cursor: default;
   height: 100%;
-  margin-bottom: 25px;
   width: 100%;
   float: left; }
 
@@ -155,6 +160,24 @@ header {
   opacity: 1;
   filter: alpha(opacity=100); }
 
+.friend-lockup .friend-lockup-inner {
+  background-color: #fefefe;
+  padding: 10px 15px;
+  border: 1px solid #dfdfdf; }
+.friend-lockup .friend-profile-img-container {
+  display: inline-block;
+  width: 30%; }
+.friend-lockup .friend-info-container {
+  vertical-align: middle;
+  padding: 0 15px;
+  display: inline-block;
+  width: 50%; }
+.friend-lockup .subtext {
+  padding-left: 0;
+  display: block; }
+.friend-lockup .btn {
+  margin-top: 15px; }
+
 .subtext {
   padding-left: 10px;
   font-size: .75em;
@@ -162,6 +185,9 @@ header {
 
 .padding-bottom-sm {
   padding-bottom: 30px; }
+
+.margin-bottom-sm {
+  margin-bottom: 30px; }
 
 @media (min-width: 480px) {
   .profile-bgimg-container {

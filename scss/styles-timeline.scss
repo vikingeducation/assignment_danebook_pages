@@ -23,6 +23,15 @@ $white: #f1f1f1;
             color: $white;
   }
 
+  .brand-logo {
+    color: #fdfdfd;
+  
+    &:hover {
+      text-decoration: none;
+      color: #f1f1f1;
+    }
+  }
+
   .user-name {
     padding-top: 7px;
       font-size: 1.25em;
@@ -150,14 +159,14 @@ header {
 
 //Photo page
 .hovereffect {
-  text-align: center;
-    overflow: hidden;
-    position: relative;
-      cursor: default;
-      height: 100%;
-      margin-bottom: 25px;
-       width: 100%;
-       float: left;
+  margin-bottom: 25px;
+     text-align: center;
+       overflow: hidden;
+       position: relative;
+         cursor: default;
+         height: 100%;
+          width: 100%;
+          float: left;
 }
 
   .hovereffect .overlay {
@@ -230,6 +239,38 @@ header {
               opacity: 1;
                filter: alpha(opacity=100);
   }
+// Friends page
+.friend-lockup {
+
+  .friend-lockup-inner {
+    background-color: #fefefe;
+    padding: 10px 15px;
+     border: 1px solid #dfdfdf;
+  }
+
+  .friend-profile-img-container {
+      display: inline-block;
+        width: 30%;
+  }
+
+  .friend-info-container {
+    vertical-align: middle;
+           padding: 0 15px;
+           display: inline-block;
+             width: 50%;
+  }
+
+  .subtext {
+    padding-left: 0;
+         display: block;
+  }
+
+  .btn {
+    margin-top: 15px;
+  }
+}
+
+
 
 // Generic
 .subtext {
@@ -242,6 +283,9 @@ header {
   padding-bottom: 30px;
 }
 
+.margin-bottom-sm {
+  margin-bottom: 30px;
+}
 
 @media (min-width: 480px) {
 
