@@ -1,4 +1,4 @@
-.border-3d, .sub-navigation, .about, main.row {
+.border-3d, .sub-navigation, .about, main {
   border-bottom: 1px solid #333;
   border-left: 1px solid #333;
   border-right: 1px solid #333; }
@@ -100,11 +100,12 @@ MAIN PART ABOUT
     top: 50%;
     transform: translateY(-50%); }
 
-main.row {
+main {
   margin: 0 0 40px 0; }
 
 .interior {
-  padding: 0 40px 20px 40px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 table caption {
   text-align: left; }
@@ -116,13 +117,35 @@ table {
 
 table th {
   font-weight: bold;
-  text-align: left; }
-
-table td {
+  text-align: left;
   padding-top: 10px;
-  padding-left: 10px; }
+  width: 130px; }
 
-.about {
-  border: 2px solid #222; }
+table tr td {
+  padding-top: 10px;
+  padding-left: 5px;
+  width: 250px; }
+
+/*=============================
+MAIN PART ABOUT EDIT
+=============================*/
+main .input-group .form-control {
+  height: 28px;
+  width: 200px;
+  font-size: 13px; }
+main textarea {
+  width: 90%;
+  min-height: 80px;
+  font-size: 12px;
+  color: gray;
+  text-align: left;
+  padding: 5px;
+  overflow: auto; }
+main button.btn {
+  display: block;
+  margin: 180px auto;
+  width: 350px;
+  height: 80px;
+  font-size: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
