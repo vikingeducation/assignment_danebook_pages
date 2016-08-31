@@ -84,6 +84,10 @@ HERO
         border: 8px double #222;
         position: relative;
         top: 50%;
+        left: -1.5%;
+        @media (max-width: 780px) {
+            left: 3%;
+        }
         img {
             width: 220px;
             height: 300px;

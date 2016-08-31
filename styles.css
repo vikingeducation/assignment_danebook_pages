@@ -55,7 +55,11 @@ HERO
     overflow: hidden;
     border: 8px double #222;
     position: relative;
-    top: 50%; }
+    top: 50%;
+    left: -1.5%; }
+    @media (max-width: 780px) {
+      .jumbotron .crop {
+        left: 3%; } }
     .jumbotron .crop img {
       width: 220px;
       height: 300px;
