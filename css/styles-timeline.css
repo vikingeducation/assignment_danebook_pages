@@ -87,6 +87,7 @@ header {
   position: relative;
   cursor: default;
   height: 100%;
+  margin-bottom: 25px;
   width: 100%;
   float: left; }
 
@@ -116,7 +117,8 @@ header {
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
   position: relative;
-  display: block; }
+  display: block;
+  width: 100%; }
 
 .hovereffect:hover img {
   -webkit-filter: brightness(0.6);
@@ -129,9 +131,9 @@ header {
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
   text-transform: uppercase;
-  padding-top: 2em;
+  padding-top: 15px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -142,7 +144,7 @@ header {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
-  padding: 1em 0;
+  padding: 10px 0;
   opacity: 0;
   filter: alpha(opacity=0);
   color: #FFF; }
@@ -160,9 +162,6 @@ header {
 
 .padding-bottom-sm {
   padding-bottom: 30px; }
-
-.margin-bottom-sm {
-  margin-bottom: 30px; }
 
 @media (min-width: 480px) {
   .profile-bgimg-container {
