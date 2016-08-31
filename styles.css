@@ -169,6 +169,8 @@ article section.post {
     text-align: right;
     background-color: #ddd;
     padding: 5px; }
+  article section.post .nav-bottom-link {
+    text-align: center; }
 
 table.tab-timeline {
   font-size: 12px;
