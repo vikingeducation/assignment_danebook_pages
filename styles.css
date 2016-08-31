@@ -76,11 +76,17 @@ SUB-NAVIGATION
   .sub-navigation ul.nav.nav-pills li.active a {
     background-color: #aaa;
     border-radius: 0; }
+  .sub-navigation ul li .badge {
+    color: #337ab7;
+    background-color: inherit; }
   .sub-navigation .edit-profile {
     text-decoration: underline; }
   .sub-navigation .edit-profile a:hover {
     background-color: inherit; }
 
+/*=============================
+MAIN PART ABOUT
+=============================*/
 .about {
   background: #ccc;
   text-align: center;
@@ -98,9 +104,7 @@ main.row {
   margin: 0 0 40px 0; }
 
 .interior {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px; }
+  padding: 0 40px 20px 40px; }
 
 table caption {
   text-align: left; }

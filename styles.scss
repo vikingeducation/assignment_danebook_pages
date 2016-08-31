@@ -110,6 +110,10 @@ SUB-NAVIGATION
         background-color: #aaa;
         border-radius: 0;
     }
+    ul li .badge {
+        color: $colortheme;
+        background-color: inherit;
+    }
     .edit-profile {
         text-decoration: underline;
     }
@@ -118,6 +122,10 @@ SUB-NAVIGATION
     }
 }
 
+
+/*=============================
+MAIN PART ABOUT
+=============================*/
 
 .about {
   @extend .border-3d;
@@ -142,11 +150,9 @@ main.row {
 }
 
 .interior {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-
+    padding: 0 40px 20px 40px;
 }
+
 table caption {
   text-align: left;
 }
@@ -164,7 +170,6 @@ table td{
   padding-top: 10px;
   padding-left: 10px;
 }
-
 
 .about {
   border: 2px solid #222;
