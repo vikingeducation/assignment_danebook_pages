@@ -131,7 +131,7 @@ SUB-NAVIGATION
 MAIN PART ABOUT
 =============================*/
 
-.about {
+.nav-about {
   @extend .border-3d;
   background: #ccc;
   text-align: center;
@@ -148,7 +148,7 @@ MAIN PART ABOUT
     }
 }
 
-main {
+.main-about {
     @extend .border-3d;
     margin: 0 0 40px 0;
 }
@@ -186,7 +186,7 @@ table tr td{
 /*=============================
 MAIN PART ABOUT EDIT
 =============================*/
-main {
+.main-about {
     .input-group .form-control {
     height: 28px;
     width: 200px;
@@ -208,6 +208,32 @@ main {
         height: 80px;
         font-size: 30px;
     }
+}
+
+/*=============================
+TIMELINE SECTION
+=============================*/
+article section.post {
+    margin-top: 20px;
+    border: 2px solid black;
+    header.nav-post {
+    background-color: #ddd;
+    text-align: center;
+    border-bottom: 2px solid black;
+        h4 {
+            display: inline-block;
+        }
+    }
+    textarea {
+        width: 95%;
+        margin: 8px auto;
+    }
+    .nav-button  {
+        border-top: 2px solid black;
+        text-align: right;
+        background-color: #ddd;
+        padding: 5px;
+}
 }
 
 

@@ -1,4 +1,4 @@
-.border-3d, .sub-navigation, .about, main {
+.border-3d, .sub-navigation, .nav-about, .main-about, .about {
   border-bottom: 1px solid #333;
   border-left: 1px solid #333;
   border-right: 1px solid #333; }
@@ -91,20 +91,20 @@ SUB-NAVIGATION
 /*=============================
 MAIN PART ABOUT
 =============================*/
-.about {
+.nav-about {
   background: #ccc;
   text-align: center;
   position: relative; }
-  .about h2 {
+  .nav-about h2 {
     display: inline-block; }
-  .about a.btn {
+  .nav-about a.btn {
     display: inline-block;
     position: absolute;
     right: 15px;
     top: 50%;
     transform: translateY(-50%); }
 
-main {
+.main-about {
   margin: 0 0 40px 0; }
 
 .interior {
@@ -133,11 +133,11 @@ table tr td {
 /*=============================
 MAIN PART ABOUT EDIT
 =============================*/
-main .input-group .form-control {
+.main-about .input-group .form-control {
   height: 28px;
   width: 200px;
   font-size: 13px; }
-main textarea {
+.main-about textarea {
   width: 90%;
   min-height: 80px;
   font-size: 12px;
@@ -145,11 +145,32 @@ main textarea {
   text-align: left;
   padding: 5px;
   overflow: auto; }
-main button.btn {
+.main-about button.btn {
   display: block;
   margin: 180px auto;
   width: 350px;
   height: 80px;
   font-size: 30px; }
+
+/*=============================
+TIMELINE SECTION
+=============================*/
+article section.post {
+  margin-top: 20px;
+  border: 2px solid black; }
+  article section.post header.nav-post {
+    background-color: #ddd;
+    text-align: center;
+    border-bottom: 2px solid black; }
+    article section.post header.nav-post h4 {
+      display: inline-block; }
+  article section.post textarea {
+    width: 95%;
+    margin: 8px auto; }
+  article section.post .nav-button {
+    border-top: 2px solid black;
+    text-align: right;
+    background-color: #ddd;
+    padding: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
