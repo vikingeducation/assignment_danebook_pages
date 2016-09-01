@@ -1,1 +1,142 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>DB | About</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div id="main-logo" class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" name="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <a href="timeline.html">
+              <img class="navbar-brand logo img-circle" src="assets/images/danish_flag.gif" alt="Danish flag">
+            </a>
+            <a href="timeline.html" class="navbar-brand">Danebook</a>
+        </div>
+        <div class="navbar-collapse collapse" id="main-navbar-collapse">
+          <form id="search-bar" class="navbar-form" action="">
+            <div class="form-group">
+              <input  type="text" class="form-control user" placeholder="Search for Users">
+            </div>
+          </form>
+        </div>
+        <div class="">
+
+        </div>
+      </div>
+</nav>
+
+      <!-- Top Container -->
+  <div id="profile-container" class="container">
+    <div class="row">
+      <img class="img-responsive profile-cover" src="assets/images/hogwarts_small.jpg" alt="hogwarts school">
+    </div>
+
+    <div id="panel profile-nav-row" class="row">
+      <div class="col-xs-3">
+        <div class="profile-pic">
+          <img src="assets/images/harry_potter_small.jpg" alt="Harry Potter" class="img-resposive">
+        </div>
+      </div>
+
+          <!-- Profile navigation -->
+      <div class="profile-nav col-xs-6">
+        <ul class="nav nav-justified nav-pills">
+          <li class="" role="presentation"><a href="timeline.html">Timeline</a></li>
+          <li class="disabled" role="presentation"><a href="#">About</a></li>
+          <li class="" role="presentation"><a href="#">Photos <span class="counter">(123)</span></a></li>
+          <li class="" role="presentation"><a href="#">Friends <span class="counter">(542)</span></a></li>
+        </ul>
+      </div>
+
+      <div class="edit-link col-xs-3">
+        <a href="about_edit.html" class="edit pull-right">Edit Profile</a>
+      </div>
+    </div>
+  </div>
+
+      <!-- About Container -->
+
+  <div class="container">
+    <div class="panel row about-header">
+      <h1 id="about" class="text-center col-md-10">About</h1>
+      <a href="about_edit.html">
+        <button class="btn btn-sm edit-button pull-right col-md-2">Edit your Profile</button>
+      </a>
+
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="basic-info-container">
+          <h3 class="basic">Basic Information</h3>
+          <div id="info-list" class="basic-info-keys">
+            <dl class="dl-horizontal">
+              <div class="basic-info-data">
+                <dt>Birthday:<dt>
+                <dd>July 31st, 1980</dd>
+              </div>
+              <div class="basic-info-data">
+                <dt>College:</dt>
+                <dd>Hogwarts College</dd>
+              </div>
+              <div class="basic-info-data">
+                <dt>Hometown:</dt>
+                <dd>Godrick's Hollow, England</dd>
+              </div>
+              <div class="basic-info-data">
+                <dt>Currently Lives:</dt>
+                <dd>Godrick's Hollow, England</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="contact-container">
+          <h3 class="contact">Contact Information</h3>
+          <div id="contact-list" class="contact-info">
+            <dl class="dl-horizontal">
+              <div class="contact-info-data">
+                <dt>Email:</dt>
+                <dd>harry_potter@hogwarts.edu</dd>
+              </div>
+              <div class="contact-info-data">
+                <dt>Telephone:</dt>
+                <dd>555-123-4567</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h3 class="creed">Words to Live by</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          </p>
+        <h3 class="about-me">About Me</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

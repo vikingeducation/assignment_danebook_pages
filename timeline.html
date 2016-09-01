@@ -1,1 +1,388 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>DB | Timeline</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div id="main-logo" class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" name="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <a href="timeline.html">
+              <img class="navbar-brand logo img-circle" src="assets/images/danish_flag.gif" alt="Danish flag">
+            </a>
+            <a href="timeline.html" class="navbar-brand">Danebook</a>
+        </div>
+        <div class="navbar-collapse collapse" id="main-navbar-collapse">
+          <form id="search-bar" class="navbar-form" action="">
+            <div class="form-group">
+              <input  type="text" class="form-control user" placeholder="Search for Users">
+            </div>
+          </form>
+      </div>
+    </nav>
+    <!-- Top Container -->
+    <div id="profile-container" class="container">
+      <div class="row">
+        <img class="img-responsive profile-cover" src="assets/images/hogwarts_small.jpg" alt="hogwarts school">
+      </div>
+
+      <div id="panel profile-nav-row" class="row">
+        <div class="col-xs-3">
+          <div class="profile-pic">
+            <img src="assets/images/harry_potter_small.jpg" alt="Harry Potter" class="img-resposive">
+          </div>
+        </div>
+
+            <!-- Profile navigation -->
+        <div class="profile-nav col-xs-6">
+          <ul class="nav nav-justified nav-pills">
+            <li class="disabled" role="presentation"><a href="#">Timeline</a></li>
+            <li class="" role="presentation"><a href="about.html">About</a></li>
+            <li class="" role="presentation"><a href="#">Photos <span class="counter">(123)</span></a></li>
+            <li class="" role="presentation"><a href="#">Friends <span class="counter">(542)</span></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+        <!-- Timeline Container -->
+    <div id="timeline-container" class="container">
+      <div class="row">
+        <div class="col-md-4">
+
+              <!-- About Panel -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="text-center panel-title">About</h3>
+            </div>
+            <div class="panel-body">
+              <div id="info-list" class="basic-info-keys">
+                <dl class="dl-horizontal">
+                  <div class="basic-info-data">
+                    <dt>Birthday:<dt>
+                    <dd>July 31st, 1980</dd>
+                  </div>
+                  <div class="basic-info-data">
+                    <dt>College:</dt>
+                    <dd>Hogwarts College</dd>
+                  </div>
+                  <div class="basic-info-data">
+                    <dt>Hometown:</dt>
+                    <dd>Godrick's Hollow, England</dd>
+                  </div>
+                  <div class="basic-info-data">
+                    <dt>Currently Lives:</dt>
+                    <dd>Godrick's Hollow, England</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Photos Panel -->
+          <div class="panel panel-default photos-panel">
+            <div class="panel-heading">
+              <h3 class="text-center panel-title">Photos</h3>
+            </div>
+            <div class="profile-panel-pics panel-body">
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+              </div>
+              <div class="more-items row">
+                <p class="text-center">
+                  <a href="#">See More Photos</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Friends Panel -->
+          <div class="panel panel-default friends-panel">
+            <div class="panel-heading">
+              <h3 class="text-center panel-title">Friends</h3>
+            </div>
+            <div class="profile-panel-pics panel-body">
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="text-center col-xs-4">
+                  <a href="#">Ron Weasley</a>
+                </div>
+                <div class="text-center col-xs-4">
+                  <a href="#">Ginny Weasley</a>
+                </div>
+                <div class="text-center col-xs-4">
+                  <a href="#">Hermione Granger</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-xs-4">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="text-center col-xs-4">
+                  <a href="#">Lavender Brown</a>
+                </div>
+                <div class="text-center col-xs-4">
+                  <a href="#">Seamus Finnigan</a>
+                </div>
+                <div class="text-center col-xs-4">
+                  <a href="#">Dean Thomas</a>
+                </div>
+              </div>
+              <div class="more-items row">
+                <p class="text-center">
+                  <a href="#">See More Friends</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-8">
+          <div class="panel panel-default post-form">
+            <div class="panel-heading">
+              <h3 class="text-center panel-title">Post</h3>
+            </div>
+            <div class="panel-body">
+              <form action="submit" role="form">
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Tell the world something..."rows="3"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="panel-footer clearfix">
+              <div class="pull-right">
+                <button class="btn btn-sm">Post</button>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default example-post">
+            <div class="panel-body">
+              <div class="row example-post-header">
+                <div class="pull-left post-picture">
+                  <a href="about.html">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <a href="#">Harry Potter</a>
+                <p class="small">Posted on Thursday 6/1/2014</p>
+              </div>
+              <div class="row example-post-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="panel-footer clearfix">
+              <a href="#">Like</a>
+              <a href="#">Comment</a>
+              <a href="#" class="pull-right">Delete</a>
+            </div>
+          </div>
+          <div class="panel panel-default liked-post">
+            <div class="panel-body">
+              <div class="row example-post-header">
+                <div class="pull-left post-picture">
+                  <a href="about.html">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <a href="#">Harry Potter</a>
+                <p class="small">Posted on Thursday 5/21/2014</p>
+              </div>
+              <div class="row liked-post-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="panel-footer clearfix">
+              <div class="row">
+                <a href="#">Like</a>
+                <a href="#">Comment</a>
+                <a href="#" class="pull-right">Delete</a>
+              </div>
+                <div class="row">
+                  <p><a href="#">Hermione Granger</a> <span class="small"> likes this.</span></p>
+                </div>
+            </div>
+          </div>
+          <div class="panel panel-default commented-post">
+            <div class="panel-body">
+              <div class="row commented-post-header">
+                <div class="pull-left post-picture">
+                  <a href="about.html">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <a href="#">Harry Potter</a>
+                <p class="small">Posted on Thursday 5/21/2014</p>
+              </div>
+              <div class="row liked-post-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="commented-post-header" class="panel panel-body panel-default commented-post">
+            <div class="panel-header">
+              <div class="row">
+                <a href="#">Unlike</a>
+                <a href="#" class="pull-right">Delete</a>
+              </div>
+                <div class="row">
+                  <p>You<span class="small">, </span><a href="#">Hermione Granger,</a> <span class="small">and <strong>3</strong> other people like this.</span></p>
+                </div>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-md-2">
+                  <a href="#">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-md-10">
+                  <p>
+                    <a href="#">Ron Weasley</a>
+                    <span class="small">Said on Thursday 5/21/2014:</span>
+                  </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute.</p>
+                  <p>
+                    <a href="#">Like</a>
+                     <strong>3</strong><span class="small"> other people like this</span>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-2">
+                  <a href="about.html">
+                    <img class="img-responsive" src="assets/images/user_silhouette_smaller.png" alt="user silhoutte"/>
+                  </a>
+                </div>
+                <div class="col-md-10">
+                  <p>
+                    <a href="about.html">Harry Potter</a>
+                    <span class="small">Said on Friday 5/22/2014:</span>
+                  </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute.</p>
+                  <p>
+                    <a href="#">Like</a>
+                    <strong>3</strong><span class="small"> other people like this</span>
+                    <a class="pull-right" href="#">Delete</a>
+                  </p>
+                </div>
+              </div>
+
+              <form action="submit" role="form">
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Write a comment..."rows="5"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="row">
+              <div class="col-md-2">
+                <a href="#" class="pull-left">Cancel</a>
+              </div>
+              <div class="col-md-10">
+                <a href="#" class="comment-button pull-right btn btn-default">Comment</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

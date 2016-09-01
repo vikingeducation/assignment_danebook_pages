@@ -1,0 +1,84 @@
+body {
+  padding-top: 51px; }
+
+.navbar-inverse {
+  background-color: #2b78e4; }
+
+#main-logo .navbar-brand {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #fff; }
+
+#search-bar {
+  text-align: center; }
+
+#profile-container {
+  margin-bottom: 25px; }
+  #profile-container .profile-cover {
+    width: 100%;
+    margin: 0; }
+  #profile-container .profile-pic {
+    position: absolute;
+    left: 30px;
+    bottom: -20px;
+    box-shadow: 0 0 2px 2px; }
+  @media (max-width: 768px) {
+    #profile-container .profile-pic img {
+      left: 25px;
+      max-width: 130px; } }
+
+.edit-link a {
+  font-size: 12px;
+  padding-top: 11px; }
+
+.profile-nav .counter {
+  font-size: 9px;
+  padding: 2px; }
+
+.panel {
+  background-color: #e4e4e4; }
+
+.about-header .edit-button {
+  margin: 27px;
+  width: 110px;
+  color: #fff;
+  background-color: #2b78e4; }
+
+h3.basic {
+  padding-bottom: 10px; }
+
+h3.contact {
+  padding-bottom: 10px; }
+
+.static-forms {
+  padding-top: 1px; }
+
+.save-btn {
+  padding: 15px; }
+
+.save {
+  color: #fff;
+  background-color: #2b78e4;
+  padding: 15px; }
+
+.save-container {
+  margin-bottom: 50px; }
+
+.panel-footer button {
+  color: #fff;
+  background-color: #2b78e4; }
+
+#commented-post-header {
+  margin-top: -20px; }
+
+.comment-button {
+  color: #fff;
+  background-color: #2b78e4; }
+
+.profile-panel-pics img {
+  padding: 5px; }
+
+.more-items {
+  margin-top: 20px; }
+
+/*# sourceMappingURL=custom.css.map */
