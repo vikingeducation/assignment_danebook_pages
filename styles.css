@@ -144,7 +144,7 @@ MAIN PART ABOUT EDIT
     text-align: left;
     padding: 5px;
     overflow: auto; }
-  .main-about button.btn {
+  .main-about button.btn-save {
     display: block;
     margin: 180px auto;
     width: 350px;
@@ -222,5 +222,34 @@ PHOTOS SECTION
   opacity: 1;
   filter: Alpha(opacity=100);
   z-index: 20; }
+
+/*=============================
+FRIENDS SECTION
+=============================*/
+.main-about .row .friend-box {
+  border: 1px solid black;
+  width: 430px;
+  height: 150px;
+  padding: 15px;
+  margin: 10px auto; }
+  .main-about .row .friend-box img {
+    height: 120px;
+    width: 120px;
+    float: left; }
+  .main-about .row .friend-box .friend-name {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px; }
+    .main-about .row .friend-box .friend-name a {
+      display: block; }
+  .main-about .row .friend-box button.unfriend {
+    float: right;
+    width: 27%;
+    background-color: #aaa;
+    font-weight: bold;
+    margin-top: 30px; }
+  .main-about .row .friend-box button.unfriend:hover {
+    background-color: #ddd;
+    font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */

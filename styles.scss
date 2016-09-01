@@ -202,7 +202,7 @@ MAIN PART ABOUT EDIT
     padding: 5px;
     overflow: auto;
     }
-    button.btn{
+    button.btn-save{
         display: block;
         margin: 180px auto;
         width: 350px;
@@ -293,4 +293,40 @@ PHOTOS SECTION
     opacity: 1;
     filter: Alpha(opacity=100);
     z-index: 20;
+}
+
+/*=============================
+FRIENDS SECTION
+=============================*/
+
+.main-about .row .friend-box {
+    border: 1px solid black;
+    width: 430px;
+    height: 150px;
+    padding: 15px;
+    margin: 10px auto;
+    img {
+        height: 120px;
+        width: 120px;
+        float: left;
+    }
+    .friend-name {
+        float: left;
+        margin-top: 30px;
+        margin-left: 20px;
+        a {
+            display: block;
+        }
+    }
+    button.unfriend {
+        float: right;
+        width: 27%;
+        background-color: #aaa;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    button.unfriend:hover {
+        background-color: #ddd;
+        font-weight: bold;
+    }
 }
