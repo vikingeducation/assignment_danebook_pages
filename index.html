@@ -22,95 +22,53 @@
 
   </head>
   <body>
-<section id = "login-navbar">
-      <div class = "container">
-        <nav class = "navbar navbar-default navbar-static-top row">
-          <!-- mobile collapses down -->
-          <div class = "navbar-header col-md-3">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <!--company brand link -->
-            <a class = "navbar-brand" id = "brand-link" href = "#">Danebook</a>
+    <section class="sign-in-headerbar">
+      <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- mobile collapses down -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <!--company brand link -->
+                <p class="login-logo">
+                  <a href="index.html" class="brand-logo"><img src="img/danish_flag.gif" class="img-circle danebook-flag">Danebook</a>
+                </p>
+              </div>
+
+              <!-- wraps rest of links to collapse in mobile-->
+              <div id="main-navbar-collapse" class="collapse navbar-collapse">
+                <section class="navbar-right login-nav-form">
+                  <form class="navbar-form" role="login">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group" style="vertical-align:baseline;">
+                      <button type="submit" class="btn btn-primary btn-md">Login</button>
+                    </div>
+                  </form>
+                </section>
+              </div><!--navbar-collapse-->
+            </div>
           </div>
-
-          <!-- wraps rest of links to collapse in mobile-->
-          <div id="main-navbar-collapse" class="collapse navbar-collapse col-md-9 navbar-right" >
-
-            <!-- rows and columns control button placement -->
-            <form class="navbar-form" role="login">
-            <!-- Yes, kids, even a form-group can be a column -->
-              <div class = "col-md-4 col-sm-4 form-group">
-                <label for="email">Email</label>
-                <input type="text" class="form-control" placeholder="Email">
-              </div>
-
-              <div class = "col-md-4 col-sm-4 form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" placeholder="Password">
-              </div>
-
-              <div class = "col-md-4 col-sm-4 form-group">
-              <!-- empty label to line up submit button -->
-                <label for="submit">&nbsp;</label><br>
-                <!-- unless you really need it, use basic Bootstrap button styles -->
-                <button type="submit" class="btn btn-info">Login</button>
-              </div>
-            </form>
-
-          </div><!--navbar-collapse-->
-        </nav>
-      </div>
+        </div>
+      </nav>
     </section>
-
-  
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-danebook">
-      <section class="container">
-
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <div class="logo-grouping">
-            <a href="index.html"><img src="img/danish_flag.gif" class="image-circle flag"></a>
-            <a class="navbar-brand navbar-logo" href="index.html">Danebook</a>
-          </div>
-        </div>
-
-        <div id="navbar" class="navbar-collapse collapse">
-         <form class="navbar-form navbar-right">
-            <fieldset class="form-group">
-              <label class="control-label" for="email">
-                Email
-              </label>
-              <input id="email" naem="email" type="text" class="form-control">
-            </fieldset>
-            <fieldset class="form-group">
-              <label class="control-label" for="password">
-                Password
-              </label>
-              <input id="password" name="password" type="password" class="form-control">
-            </fieldset>
-            <button type="submit" class="btn  nav-button login-cta">log in</button>
-          </form>
-        </div>
-
-      </section>
-    </nav>
-
-    <main class="container">
+    <main class="container sign-in-content-container">
       <div class="row">
-        <article class="col-md-6 col-lg-7 margin-bottom-60">
+        <article class="col-md-6 col-lg-7">
           <header>
-            <h2>
+            <h1>
               Connect with all your friends!
-            </h2>
+            </h1>
           </header>
           <section>
             <ul class="mainpage-bullets">
@@ -129,7 +87,7 @@
             </ul>
           </section>
         </article>
-        <section class="col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-0">
+        <section class="col-md-6 col-lg-5">
           <h1 class="mainpage-title">
             Sign Up
           </h1>

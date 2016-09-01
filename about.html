@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <link rel="stylesheet" href="css/styles-about.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,112 +21,126 @@
     <![endif]-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   </head>
-  <body class = "body-signedin">
-    <section id = "login-navbar">
-      <div class = "container">
-        <nav class = "navbar navbar-default navbar-static-top row">
-          <!-- mobile collapses down -->
-          <div class = "navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <!--company brand link -->
-            <div class = "brand-img-container">
-              <a href = "index.html"><img src="img/danish_flag.gif"></a>
-            </div>
-            <a class = "navbar-brand" id = "brand-link" href = "index.html">Danebook</a>
+  <body>
+    <!-- header fixed to top banner -->
+    <section class="signed-in-headerbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-xs-7">
+            <p>
+              <a href="index.html" class="brand-logo"><img src="img/danish_flag.gif" class="img-circle danebook-flag">Danebook</a>
+            </p>
           </div>
-
-          <!-- wraps rest of links to collapse in mobile-->
-          <div id="navbar" class="navbar-collapse collapse">
-            <form class="navbar-form nav-search-bar-container">
-              <fieldset class="form-group">
-                <input id="password" name="password" type="password" placeholder="Search for Users" class="form-control search-bar">
-              </fieldset>
+          <div class="col-sm-6 searchbar">
+            <form>
+              <input id="search" name="search" type="text" placeholder="Search for Users" class="form-control">
             </form>
-            <span class = "user-name">Harry</span>
-          </div><!--navbar-collapse-->
-        </nav>
-      </div>
-    </section>
-
-    <header class = "container ">
-      <div class = "profile-content-container">
-        <div class = "profile-background-container row">
-          <!-- <img src = "img/hogwarts_small.jpg" class="profile-background-image"> -->
-        </div>
-        <div class = "profile-image-container">
-          <img src = "img/harry_potter_small.jpg" class = "profile-image">
+          </div>
+          <div class="col-sm-3 col-xs-5">
+            <p class="text-right user-name">Harry Potter</p>
+          </div>
         </div>
       </div>
-      <nav class = "nav-signed-in row">
-        <div class = "nav-signed-in-item"><a href="timeline.html" class="signed-in-nav-links">Timeline</a></div>
-        <div class = "nav-signed-in-item"><a href="about.html" class="signed-in-nav-links">About</a></div>
-        <div class = "nav-signed-in-item"><a href="photos.html" class="signed-in-nav-links">Photos</a> <span class = "font-weight-normal">(123)</div>
-        <div class = "nav-signed-in-item"><a href="friends.html" class="signed-in-nav-links">Friends</a> <span class = "font-weight-normal">(542)</div>
-      </nav>
-    </header>
-    
-    <main class = "container about-content-container">
-      
-      <section class = "about-content-title-container pad20px row">
-        <h1 class = "about-content-title">About</h1>
-        <a href="about-edit.html" class = "btn btn-primary btn-edit-profile">Edit your Profile</a>
-      </section>
-      
-      <section class = "row peronal about-content">
-        <div class = "col-sm-5 col-sm-offset-1">
-          <h2>
-            Basic Information
-          </h2>
-          <table>
-            <tr>
-              <td>Birthday:</td>
-              <td>July 31, 1980</td>
-            </tr>
-            <tr>
-              <td>College:</td>
-              <td>Hogwarts College</td>
-            </tr>
-            <tr>
-              <td>Hometown:</td>
-              <td>Godrick's Hollow, England</td>
-            </tr>
-            <tr>
-              <td>Currently Lives:</td>
-              <td>Godrick's Hollow, England</td>
-            </tr>
-          </table>
-          <h2>
-            Contact Information
-          </h2>
-          <table>
-            <tr>
-              <td>Email:</td>
-              <td>harry_potter@hogwarts.edu</td>
-            </tr>
-            <tr>
-              <td>Telephone:</td>
-              <td>555-123-4567</td>
-            </tr>
-          </table>
+    </section><!-- / header fixed to top banner -->
+    <!-- page content container-->
+    <div class="container">
+      <!-- page content header -->
+      <header class="row">
+        <div class="col-xs-12 profile-bgimg-container">
+          <div class="profile-bg-img">
+            &nbsp;
+          </div>
+          <div class="profile-img-container">
+            <img src="img/harry_potter_small.jpg" class="profile-image">
+          </div>
         </div>
-        <div class = "col-sm-5">
-          <h2>
-            Words to Live By
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias incidunt velit consequatur eligendi aut suscipit, labore cum non quasi, deleniti eius porro quas quaerat recusandae odit et reprehenderit at facere!</p>
-          <h2>
-            About Me
-          </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias incidunt velit consequatur eligendi aut suscipit, labore cum non quasi, deleniti eius porro quas quaerat recusandae odit et reprehenderit at facere! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nisi veritatis provident dolores maxime consequuntur nam incidunt, debitis molestiae qui assumenda? Alias explicabo ipsam, unde soluta sint similique quia delectus!</p>
-        </div>
-      </section>
-
-    </main>
+        <!-- user site navagation -->
+        <section class="col-xs-12">
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="padding-sm margin-left-md">
+                <ul class="nav navbar-nav user-site-nav">
+                  <li><a href="timeline.html">Timeline</a></li>
+                  <li class="active"><a href="about.html">About <span class="sr-only">(current)</span></a></li>
+                  <li><a href="photos.html">Photos <span class="subtext">(123)</span></a> </li>
+                  <li><a href="friends.html">Friends <span class="subtext">(542)</span></a> </li>
+                </ul>
+                <p class="navbar-text navbar-right"><a href="about_edit.html" class="navbar-link">edit profile</a></p>
+              </div>
+            </div>
+          </nav>
+        </section><!-- user site navagation -->
+      </header><!-- /page content header -->
+      <!-- main content area-->
+      <main class = "row">
+        <section class="col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center about-panel-heading">
+              <h3 class="panel-title">About</h3>
+              <span class="edit-profile-btn"><a href="about_edit.html" class = "btn btn-primary btn-sm btn-edit-profile">Edit your Profile</a></span>
+            </div>
+            <div class="panel-body">
+              <section class ="row about-content">
+                <div class="col-sm-5">
+                  <h4>
+                    Basic Information
+                  </h4>
+                  <table>
+                    <tr>
+                      <td>Birthday:</td>
+                      <td>July 31, 1980</td>
+                    </tr>
+                    <tr>
+                      <td>College:</td>
+                      <td>Hogwarts College</td>
+                    </tr>
+                    <tr>
+                      <td>Hometown:</td>
+                      <td>Godrick's Hollow, England</td>
+                    </tr>
+                    <tr>
+                      <td>Currently Lives:</td>
+                      <td>Godrick's Hollow, England</td>
+                    </tr>
+                  </table>
+                  <h4>
+                    Contact Information
+                  </h4>
+                  <table>
+                    <tr>
+                      <td>Email:</td>
+                      <td>harry_potter@hogwarts.edu</td>
+                    </tr>
+                    <tr>
+                      <td>Telephone:</td>
+                      <td>555-123-4567</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="col-sm-7">
+                  <h4>
+                    Words to Live By
+                  </h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias incidunt velit consequatur eligendi aut suscipit, labore cum non quasi, deleniti eius porro quas quaerat recusandae odit et reprehenderit at facere!</p>
+                  <h4>
+                    About Me
+                  </h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias incidunt velit consequatur eligendi aut suscipit, labore cum non quasi, deleniti eius porro quas quaerat recusandae odit et reprehenderit at facere! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nisi veritatis provident dolores maxime consequuntur nam incidunt, debitis molestiae qui assumenda? Alias explicabo ipsam, unde soluta sint similique quia delectus!</p>
+                </div>
+              </section><!-- /first row -->
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

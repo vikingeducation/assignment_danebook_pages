@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>About You Edit</title>
+    <title>About You</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <!-- <link rel="stylesheet" href="css/styles.css"> -->
-    <link rel="stylesheet" href="css/styles-about.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,128 +21,142 @@
     <![endif]-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   </head>
-  <body class = "body-about-page">
-    <section id = "login-navbar">
-      <div class = "container">
-        <nav class = "navbar navbar-default navbar-static-top row">
-          <!-- mobile collapses down -->
-          <div class = "navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <!--company brand link -->
-            <div class = "brand-img-container">
-              <a href = "index.html"><img src="img/danish_flag.gif"></a>
-            </div>
-            <a class = "navbar-brand" id = "brand-link" href = "index.html">Danebook</a>
+  <body>
+    <!-- header fixed to top banner -->
+    <section class="signed-in-headerbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-xs-7">
+            <p>
+              <a href="index.html" class="brand-logo"><img src="img/danish_flag.gif" class="img-circle danebook-flag">Danebook</a>
+            </p>
           </div>
-
-          <!-- wraps rest of links to collapse in mobile-->
-          <div id="navbar" class="navbar-collapse collapse">
-            <form class="navbar-form nav-search-bar-container">
-              <fieldset class="form-group">
-                <input id="password" name="password" type="password" placeholder="Search for Users" class="form-control search-bar">
-              </fieldset>
+          <div class="col-sm-6 searchbar">
+            <form>
+              <input id="search" name="search" type="text" placeholder="Search for Users" class="form-control">
             </form>
-            <span class = "user-name">Harry</span>
-          </div><!--navbar-collapse-->
-        </nav>
-      </div>
-    </section>
-
-    <header class = "container ">
-      <div class = "profile-content-container">
-        <div class = "profile-background-container row">
-          <!-- <img src = "img/hogwarts_small.jpg" class="profile-background-image"> -->
-        </div>
-        <div class = "profile-image-container">
-          <img src = "img/harry_potter_small.jpg" class = "profile-image">
-        </div>
-      </div>
-      <nav class = "nav-signed-in row">
-        <div class = "nav-signed-in-item"><a href="timeline.html" class="signed-in-nav-links">Timeline</a></div>
-        <div class = "nav-signed-in-item"><a href="about.html" class="signed-in-nav-links">About</a></div>
-        <div class = "nav-signed-in-item"><a href="photos.html" class="signed-in-nav-links">Photos</a> <span class = "font-weight-normal">(123)</div>
-        <div class = "nav-signed-in-item"><a href="friends.html" class="signed-in-nav-links">Friends</a> <span class = "font-weight-normal">(542)</div>
-      </nav>
-    </header>
-    
-    <main class = "container about-content-container">
-      
-      <section class = "about-content-title-container pad20px row">
-        <h1 class = "about-content-title">Edit Profile</h1>
-      </section>
-      
-      <form>
-        <section class = "row peronal about-content pdng-top-30">
-          <div class = "col-sm-5 col-sm-offset-1">
-            <h2>
-              Basic Information
-            </h2>
-            <table>
-              <tr>
-                <td>Birthday:</td>
-                <td>July 31, 1980</td>
-              </tr>
-              <tr>
-                <td>College:</td>
-                <td><fieldset class="form-group">
-                <input name="college" type="college" placeholder="College" class="form-control">
-              </fieldset></td>
-              </tr>
-              <tr>
-                <td>Hometown:</td>
-                <td><fieldset class="form-group">
-                <input name="hometown" type="hometown" placeholder="Howntown" class="form-control">
-              </fieldset></td>
-              </tr>
-              <tr>
-                <td>Currently Lives:</td>
-                <td><fieldset class="form-group">
-                <input name="current-location" type="current-location" placeholder="Current Location" class="form-control">
-              </fieldset></td>
-              </tr>
-            </table>
-            <h2>
-              Contact Information
-            </h2>
-            <table>
-              <tr>
-                <td>Email:</td>
-                <td>harry_potter@hogwarts.edu</td>
-              </tr>
-              <tr>
-                <td>Telephone:</td>
-                <td><fieldset class="form-group">
-                <input name="telephone" type="telephone" placeholder="Telephone" class="form-control">
-              </fieldset></td>
-              </tr>
-            </table>
           </div>
-          <div class = "col-sm-5">
-            <h2>
-              Words to Live By
-            </h2>
-            <fieldset class="form-group">
-                <input name="words" type="words" placeholder="Words to Live By" class="form-control">
-              </fieldset>
-            <h2>
-              About Me
-            </h2>
-            <fieldset class="form-group">
-                <input name="About Me" type="About Me" placeholder="About Me" class="form-control">
-              </fieldset>
+          <div class="col-sm-3 col-xs-5">
+            <p class="text-right user-name">Harry Potter</p>
+          </div>
+        </div>
+      </div>
+    </section><!-- / header fixed to top banner -->
+    <!-- page content container-->
+    <div class="container">
+      <!-- page content header -->
+      <header class="row">
+        <div class="col-xs-12 profile-bgimg-container">
+          <div class="profile-bg-img">
+            &nbsp;
+          </div>
+          <div class="profile-img-container">
+            <img src="img/harry_potter_small.jpg" class="profile-image">
+          </div>
+        </div>
+        <!-- user site navagation -->
+        <section class="col-xs-12">
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <div class="padding-sm margin-left-md">
+                <ul class="nav navbar-nav user-site-nav">
+                  <li><a href="timeline.html">Timeline</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="photos.html">Photos <span class="subtext">(123)</span></a> </li>
+                  <li><a href="friends.html">Friends <span class="subtext">(542)</span></a></li>
+                </ul>
+                <p class="navbar-text navbar-right "><a href="about_edit.html" class="navbar-link active-cta">edit profile <span class="sr-only">(current)</span></a></p>
+              </div>
+            </div>
+          </nav>
+        </section><!-- user site navagation -->
+      </header><!-- /page content header -->
+      <!-- main content area-->
+      <main class = "row">
+        <section class="col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">
+              <h3 class="panel-title">About</h3>
+            </div>
+            <div class="panel-body">
+              <form>
+                <section class="row about-content">
+                  <div class="col-sm-5">
+                    <h4>
+                      Basic Information
+                    </h4>
+                    <table>
+                      <tr>
+                        <td>Birthday:</td>
+                        <td>July 31, 1980</td>
+                      </tr>
+                      <tr>
+                        <td>College:</td>
+                        <td><fieldset class="form-group">
+                        <input name="college" type="college" placeholder="College" class="form-control">
+                      </fieldset></td>
+                      </tr>
+                      <tr>
+                        <td>Hometown:</td>
+                        <td><fieldset class="form-group">
+                        <input name="hometown" type="hometown" placeholder="Howntown" class="form-control">
+                      </fieldset></td>
+                      </tr>
+                      <tr>
+                        <td>Currently Lives:</td>
+                        <td><fieldset class="form-group">
+                        <input name="current-location" type="current-location" placeholder="Current Location" class="form-control">
+                      </fieldset></td>
+                      </tr>
+                    </table>
+                    <h4>
+                      Contact Information
+                    </h4>
+                    <table>
+                      <tr>
+                        <td>Email:</td>
+                        <td>harry_potter@hogwarts.edu</td>
+                      </tr>
+                      <tr>
+                        <td>Telephone:</td>
+                        <td><fieldset class="form-group">
+                        <input name="telephone" type="telephone" placeholder="Telephone" class="form-control">
+                      </fieldset></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class = "col-sm-7">
+                    <h4>
+                      Words to Live By
+                    </h4>
+                    <fieldset class="form-group">
+                      <textarea class="form-control" rows="6" placeholder="Words to Live By..."></textarea>
+                    </fieldset>
+                    <h4>
+                      About Me
+                    </h4>
+                    <fieldset class="form-group">
+                      <textarea class="form-control" rows="6" placeholder="Write a comment about you..."></textarea>
+                      </fieldset>
+                  </div>
+                </section>
+                <div class="margin-top-sm">
+                  <button type="button" class="btn btn-primary btn-lg active col-sm-4 col-sm-offset-4">Save Changes</button>
+                </div>
+              </form>
+            </div>
           </div>
         </section>
-        <div class="row pdng-btm-40 pdng-top-30">
-          <button type="button" class="btn btn-primary btn-lg active col-sm-4 col-sm-offset-4">Save Changes</button>
-        </div>
-      </form>
-
-    </main>
+      </main>
+    </div>
   </body>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

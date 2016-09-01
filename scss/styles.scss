@@ -1,241 +1,568 @@
-$brand-lt-blue: #9fc5f8;
-$brand-md-blue: #2b78e4;
-$brand-dk-blue: #3f6291;
-
-$white: #f6f6f6;
-$light-grey: #696969;
-
-
-
-
+// TIMELINE CSS
 $drk-blue: #11162b;
+$white: #f1f1f1;
+// Signed in Header banner
 
-#login-navbar {
+.signed-in-headerbar, .sign-in-headerbar {
   background-color: $drk-blue;
+          position: fixed;
+           padding: 1.5em 0;
+           z-index: 1030;
+             width: 100%;
+               top: 0;
 
-  .navbar-default {
-    background-color: $drk-blue;
-    border:0;
+  .danebook-flag {
+    vertical-align: baseline;
+      margin-right: 10px;
+            height: auto;
+             width: 25px;
   }
 
-  .btn-info {
-    background-color: #7f9dc6;
-    // color: #46b8da;
+   .navbar-default {
+      background-color: $drk-blue;
+      border: none;
+      margin: 0;
+      padding: 0;
+  }
 
+  .navbar-header {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+        font-size: 1.75em;
+            color: $white;
+  }
+
+  .brand-logo {
+    color: #fdfdfd;
+  
     &:hover {
-      background-color: #3777ab;
-      border-color: #7f9dc6;
+      text-decoration: none;
+      color: #f1f1f1;
     }
   }
-}
 
-.brand-img-container {
- 
-  float: left;
-  padding: 15px 0;
-  height: auto;
-  width: 30px;
-  
+  .login-logo{
+    margin-top: -6px;
+    font-size: 3em;
+  }
 
-  img {
-    border-radius: 50%;
-    width:100%;
+  .login-nav-form{
+
+    div {
+      margin-right: 15px;
+    }
+
+    input, button {
+      margin-top: 15px;
+    }
+
+    button {
+      margin-bottom: 15px;
+    }
+  }
+  .user-name {
+    padding-top: 7px;
+      font-size: 1.25em;
   }
 }
 
-// ____________navigation menu____________
-
-.navbar {
-  padding: 1.5% 0;
-}
-
-.navbar-danebook {
-  background-color: $brand-md-blue;
-  border-color: $brand-dk-blue;
-  height: auto;
-}
-
-.logo-grouping {
-  padding: 15px;
-
-  .navbar-logo {
-    color: $white;
-    float: none;
-    font-size: 2.5em;
-  }
-
-  .flag {
-    display: inline-block;
-    height: 30px;
-    margin-right: 5px;
-    margin-top: -15px;
-    width: 30px;
-  }
-}
-
-
-.profile {
-  color: $white;
-  font-size: 1.5em;
-  margin: 0;
-  padding-top: 5px;
-  text-align: right;
-  }
-
-.image-circle {
-  border-radius: 50%;
-}
-
-
-// ____________homepage nav form____________
-
-.navbar-form {
-
-  label {
-    color: $white;
-    display: block;
-    padding-bottom: 4px;
-  }
-}
-
-.login-cta {
-  background-color: $brand-lt-blue;
-  border-color: $brand-dk-blue;
-  color: $brand-dk-blue;
-  margin-top: 5%;
-
-  &:hover {
-    background-color: $brand-dk-blue;
-    border-color: $brand-lt-blue;
-    color: $white;
-  }
-}
-
-// ____________main content____________
-
+//index page
 .mainpage-bullets {
   margin-top: 5%;
 
   li {
-    color: $light-grey;
     font-size: 1.25em;
     margin-bottom: 5%;
   }
 }
 
-// ____________form content____________
-
-.mainpage-title {
-  font-size: 2.5em;
-  margin-bottom: 5%;
-  margin-top: 0;
+// Profile section and site nav
+header {
+  margin-top: 77px;
 }
 
-.mainpage-date-label {
-  display: block;
-}
+.sign-in-content-container {
+  margin-top: 130px;
 
-.margin-bottom-15 {
-  margin-bottom: 15px;
-}
+  header {
+    margin-top:0;
+  }
 
-.margin-bottom-60 {
-  margin-bottom: 60px;
-}
+  article + section {
+    margin-top: 60px;
+  }
 
-.margin-right-15 {
-  margin-right: 15px;
-}
-
-.birthday-date {
+  input {
+    margin-top: 30px;
+    margin-right: 15px;
+  }
 
   select {
-    max-width: 50%;
+    margin-right: 15px;
   }
 
-  p {
-    margin-top: 5%;
+  .radio label input {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .radio label {
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+
+  button {
+    margin:15px 0 30px 0;
   }
 }
 
-.mainpage-signup-cta {
-  font-size: 1.75em;
-  margin-top: 5%;
-  width: 100%;
+.profile-bgimg-container,
+.searchbar {
+  display: none;
 }
 
+.user-site-nav {
 
-// ____________@MEDIA STYLES____________
+  li{
+    border-left: 1px solid #e0e0e0;
 
-@media screen and (min-width: 500px) {
+  }
 
-  // body {
-  //   padding-top: 15%;
-  // }
+  li.active{
+    background-color: #e7e7e7;
 
-  .mainpage-bullets {
-    margin-top: 5%;
+  }
+}
 
-    li {
-      font-size: 1.25em;
-      margin-bottom: 2.5%;
+// timeline page
+.about-user li{
+  padding-top: 10px;
+}
+
+.photo-section-aside, .friends-section-aside{
+
+    div {
+      padding-top: 25px;
     }
   }
+
+.aside-see-more-cta {
+  padding-top: 25px;
 }
 
-@media screen and (min-width: 768px) {
+.post-author-img-container {
+  margin-top: 25px;
 
-  .logo-grouping {
-    margin-top: 10%;
-    padding: 0;
-    padding-top: 15px;
+  &:first-child {
+    margin-top: 0;
+  }
 
-    .flag {
+  .post-img-container {
+    vertical-align: top;
+     margin-bottom: 15px;
+           display: inline-block;
+             width: 15%;
+  }
+
+  .post-author-container {
+      padding-left: 15px;
+       padding-top: 10px;
+           display: inline-block;
+             width: 80%;
+
+    .comment-author {
+      margin-top: -10px;
+      }
+  }
+
+  .comment-author{
+    display: inline-block;
+    }
+
+  .author-subtext {
+    font-size: .75em;
+  }
+
+  .commented-links {
+
+    p{
       margin-right: 15px;
-    }
-  }
-
-  .form-margin-right-25 {
-    margin-right: 25px;
-  }
-
-  .birthday-date {
-
-    select {
-      max-width: 100%;
+        margin-top: 15px;
+           display: inline-block;
     }
   }
 }
 
-@media screen and (min-width: 1199px) {
+.post-links, .commented-links {
 
-  .navbar-danebook {
+  .post-link-cta, ul {
+    margin-top: 15px;
+          display: inline-block;
+            width: 50%;
+  }
 
-    .form-group {
-      margin-right: 23px;
+  .post-likes{
+    margin-top: 15px;
+  }
+}
+
+.panel-footer {
+
+  .post-cta-container {
+    margin-bottom: 0;
+  }
+
+  hr {
+    border-color: #dfdfdf;
+  }
+
+  .comment-container, .comment-cta-container {
+    margin-top: 15px;
+  }
+
+  .comment-cta-container {
+
+    p, ul {
+      display: inline-block;
+      width: 50%;
     }
   }
 }
 
-@media screen and (min-width: 1700px) {
 
-  // body {
-  //   padding-top: 8%;
-  // }
+//Photo page
+.hovereffect {
+     text-align: center;
+       overflow: hidden;
+       position: relative;
+         cursor: default;
+         height: 100%;
+          width: 100%;
+          float: left;
+}
 
-  .navbar-danebook {
+  .hovereffect .overlay {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: scale(0,1);
+         -ms-transform: scale(0,1);
+             transform: scale(0,1);
+         border-bottom: 1px solid #FFF;
+            border-top: 1px solid #FFF;
+              position: absolute;
+              overflow: hidden;
+                height: 80%;
+                 width: 80%;
+                  left: 10%;
+                   top: 10%;
+  }
+
+  .hovereffect:hover .overlay {
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+              opacity: 1;
+               filter: alpha(opacity=100);
+  }
+
+  .hovereffect img {
+    -webkit-transition: all 0.35s;
+            transition: all 0.35s;
+              position: relative;
+               display: block;
+                 width: 100%;
+  }
+
+  .hovereffect:hover img {
+    -webkit-filter: brightness(0.6);
+            filter: brightness(0.6);
+            filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  }
+
+  .hovereffect h2 {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: translate3d(0,-100%,0);
+             transform: translate3d(0,-100%,0);
+        text-transform: uppercase;
+           padding-top: 15px;
+            text-align: center;
+             font-size: 16px;
+              position: relative;
+               opacity: 0;
+                filter: alpha(opacity=0);
+                 color: #FFF;
+  }
+
+  .hovereffect a, hovereffect p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+     -webkit-transform: translate3d(0,100%,0);
+             transform: translate3d(0,100%,0);
+               padding: 10px 0;
+               opacity: 0;
+                filter: alpha(opacity=0);
+                 color: #FFF;
+  }
+
+  .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+    -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+              opacity: 1;
+               filter: alpha(opacity=100);
+  }
+
+// Friends page
+.friend-lockup {
+
+  .friend-lockup-inner {
+    background-color: #fefefe;
+             padding: 10px 15px;
+              border: 1px solid #dfdfdf;
+  }
+
+  .friend-profile-img-container {
+    vertical-align: top;
+           display: inline-block;
+             width: 30%;
+  }
+
+  .friend-info-container {
+    vertical-align: middle;
+           padding: 0 15px;
+           display: inline-block;
+             width: 50%;
+  }
+
+  .subtext {
+    padding-left: 0;
+         display: block;
+  }
+
+  .btn {
+    margin-top: 15px;
+  }
+}
+
+//about page
+.about-panel-heading {
+  overflow: hidden;
+
+  h3 {
+    padding-top: 10px;
+    display: inline-block;
+  }
+  .edit-profile-btn{
+    float: right;
+  }
+}
+
+.about-content {
+
+  table + h4 {
+    margin-top: 60px;
+  }
+
+  tr:first-child td {
+    padding-top: 20px;
+  }
+
+  p + h4 , fieldset + h4 {
+    margin-top: 60px;
+  }
+
+  td:first-child {
+    width: 150px;
+  }
+
+  td {
     padding: 10px 0;
-
-    .form-group {
-      margin-right: 23px;
-    }
+  }
+  
+  p {
+    line-height: 200%;
   }
 
-  .mainpage-content {
+  table:last-child {
+    margin-bottom: 60px;
+  }
+}
 
-    li {
-      font-size: 1.5em;
-      margin-bottom: 2.5%;
+//about edit page 
+.active-cta {
+  opacity: .4;
+
+  a:hover {
+    color:inherit;
+    text-decoration: none;
+  }
+}
+
+// Generic
+.subtext {
+  padding-left: 10px;
+     font-size: .75em;
+       display: inline-block;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 30px;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 30px;
+}
+.margin-top-sm {
+  margin-top: 30px;
+}
+
+@media (min-width: 480px) {
+
+  .profile-bgimg-container{
+    position: relative;
+     display: block;
+
+    .profile-bg-img {
+      background-position: center;
+         background-image: url('../img/hogwarts_small.jpg');
+          background-size: cover;
+                   height: 200px;
+                    width: 100%;
+      img {
+        height: auto;
+         width: 100%;
+      }
+    }
+
+    .profile-img-container {
+      display: none;
     }
   }
 }
+
+
+// Small devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+.sign-in-content-container {
+  margin-top: 230px;
+  
+  header {
+    margin-top:0;
+  }
+  article + section {
+    margin-top: -100px;
+  }
+
+}
+  .login-nav-form{
+  
+  .form-group {
+    input, button {
+      margin-top: 0 ;
+    }
+
+    button {
+      margin-bottom: 0 ;
+    }
+  }
+}
+  .profile-bgimg-container{
+
+    .profile-bg-img {
+      height: 300px;
+    }
+
+    .profile-img-container {
+      position: absolute;
+       display: block;
+       z-index: 1029;
+         width: 20%;
+          left: 40px;
+           top: 40%;
+
+      img {
+        height: auto;
+         width: 100%;
+      }
+    }
+  }
+
+  .photo-section-aside, .friends-section-aside{
+
+      section:first-of-type div {
+      padding-top: 0;
+    }
+  }
+
+  .searchbar {
+    display: inline-block;
+  }
+
+  // Generic styles
+
+  .padding-sm {
+    padding: 0 20px;
+  }
+
+  .margin-left-md {
+    margin-left: 23%;
+  }
+
+  .padding-bottom-sm {
+    padding-bottom: 0;
+  }
+
+  .about-content {
+
+    table:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+
+  .profile-bgimg-container{
+
+    .profile-bg-img {
+      height: 450px;
+    }
+
+    .profile-img-container {
+      width: 18%;
+        top: 53%;
+    }
+  }
+
+  .user-site-nav {
+
+    li{
+      padding: 0 15px;
+    }
+  }
+
+  .margin-left-md {
+    margin-left: 20.25%;
+  }
+
+  .timeline-post-container {
+    float: right;
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .profile-bgimg-container{
+
+    .profile-img-container {
+      top: 42%;
+    }
+  }
+}
+
