@@ -166,13 +166,42 @@ article section.post {
   article section.post textarea {
     width: 95%;
     margin: 8px auto; }
-  article section.post .nav-button {
+  article section.post .nav-footer {
     border-top: 2px solid black;
     text-align: right;
     background-color: #ddd;
-    padding: 5px; }
+    padding: 5px;
+    min-height: 30px; }
+    article section.post .nav-footer a {
+      display: inline-block;
+      margin-left: 5px;
+      margin-right: 5px; }
+    article section.post .nav-footer .clearfix:after,
+    article section.post .nav-footer .clearfix:before {
+      content: "";
+      clear: both; }
+    article section.post .nav-footer .liked-box {
+      display: block;
+      text-align: left;
+      margin-top: 8px; }
+      article section.post .nav-footer .liked-box p {
+        display: inline-block; }
   article section.post .nav-bottom-link {
     text-align: center; }
+  article section.post img {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    display: inline-block; }
+  article section.post .author-box {
+    margin-top: 5px;
+    display: inline-block; }
+    article section.post .author-box time {
+      display: block;
+      color: #666;
+      font-size: 12px; }
+  article section.post p.comment-area {
+    padding: 8px; }
 
 table.tab-timeline {
   font-size: 12px;
@@ -226,12 +255,15 @@ PHOTOS SECTION
 /*=============================
 FRIENDS SECTION
 =============================*/
+.main-about .row {
+  padding: 15px; }
+
 .main-about .row .friend-box {
   border: 1px solid black;
   width: 430px;
   height: 150px;
   padding: 15px;
-  margin: 10px auto; }
+  margin: 5px auto; }
   .main-about .row .friend-box img {
     height: 120px;
     width: 120px;

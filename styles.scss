@@ -229,15 +229,53 @@ article section.post {
         width: 95%;
         margin: 8px auto;
     }
-    .nav-button  {
+    .nav-footer  {
         border-top: 2px solid black;
         text-align: right;
         background-color: #ddd;
         padding: 5px;
+        min-height: 30px;
+        a {
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .clearfix:after,
+        .clearfix:before  {
+            content: "";
+            clear: both;
+        }
+        .liked-box {
+            display: block;
+            text-align: left;
+            margin-top: 8px;
+            p {
+                display: inline-block;
+            }
+        }
     }
     .nav-bottom-link {
         text-align: center;
     }
+    img {
+        width: 60px;
+        height: 60px;
+        margin: 8px;
+        display: inline-block;
+    }
+    .author-box {
+        margin-top: 5px;
+        display: inline-block;
+        time {
+            display: block;
+            color: #666;
+            font-size: 12px;
+        }
+    }
+    p.comment-area {
+        padding: 8px;
+    }
+
 }
 
 table.tab-timeline {
@@ -251,6 +289,12 @@ table.tab-timeline {
         padding-top: 8px;
     }
 }
+
+
+
+
+
+
 
 /*=============================
 PHOTOS SECTION
@@ -299,12 +343,15 @@ PHOTOS SECTION
 FRIENDS SECTION
 =============================*/
 
+.main-about .row {
+    padding: 15px;
+}
 .main-about .row .friend-box {
     border: 1px solid black;
     width: 430px;
     height: 150px;
     padding: 15px;
-    margin: 10px auto;
+    margin: 5px auto;
     img {
         height: 120px;
         width: 120px;
