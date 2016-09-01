@@ -187,6 +187,7 @@ table.tab-about {
 MAIN PART ABOUT EDIT
 =============================*/
 .main-about {
+    padding: 25px;
     .input-group .form-control {
     height: 28px;
     width: 200px;
@@ -253,5 +254,29 @@ table.tab-timeline {
 
 
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
 
 
+main.main-about.photos article{
+    a.hover-action:hover {
+        display: block;
+        animation: fadeInUp 2s;
+    }
+}

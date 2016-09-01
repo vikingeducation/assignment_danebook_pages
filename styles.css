@@ -130,24 +130,26 @@ table.tab-about {
 /*=============================
 MAIN PART ABOUT EDIT
 =============================*/
-.main-about .input-group .form-control {
-  height: 28px;
-  width: 200px;
-  font-size: 13px; }
-.main-about textarea {
-  width: 90%;
-  min-height: 80px;
-  font-size: 12px;
-  color: gray;
-  text-align: left;
-  padding: 5px;
-  overflow: auto; }
-.main-about button.btn {
-  display: block;
-  margin: 180px auto;
-  width: 350px;
-  height: 80px;
-  font-size: 30px; }
+.main-about {
+  padding: 25px; }
+  .main-about .input-group .form-control {
+    height: 28px;
+    width: 200px;
+    font-size: 13px; }
+  .main-about textarea {
+    width: 90%;
+    min-height: 80px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+    padding: 5px;
+    overflow: auto; }
+  .main-about button.btn {
+    display: block;
+    margin: 180px auto;
+    width: 350px;
+    height: 80px;
+    font-size: 30px; }
 
 /*=============================
 TIMELINE SECTION
@@ -180,5 +182,22 @@ table.tab-timeline {
   table.tab-timeline tr td {
     padding-left: 8px;
     padding-top: 8px; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+main.main-about.photos article a.hover-action:hover {
+  display: block;
+  animation: fadeInUp 2s; }
 
 /*# sourceMappingURL=styles.css.map */
