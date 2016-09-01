@@ -183,21 +183,44 @@ table.tab-timeline {
     padding-left: 8px;
     padding-top: 8px; }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0); }
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none; } }
-.fadeInUp {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp; }
+/*=============================
+PHOTOS SECTION
+=============================*/
+.photo-box {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  margin: 1.5%; }
+  .photo-box img {
+    width: 238px;
+    height: 100%; }
 
-main.main-about.photos article a.hover-action:hover {
-  display: block;
-  animation: fadeInUp 2s; }
+.hover-box {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 240px;
+  height: 50px;
+  background-color: #999;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 5px;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0;
+  filter: Alpha(opacity=0); }
+
+.hover-box:hover {
+  overflow: visible;
+  cursor: pointer; }
+
+.photo-box:hover .hover-box {
+  opacity: 1;
+  filter: Alpha(opacity=100);
+  z-index: 20; }
 
 /*# sourceMappingURL=styles.css.map */
