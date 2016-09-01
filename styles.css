@@ -4,7 +4,8 @@
   border-right: 1px solid #333; }
 
 body {
-  padding-top: 50px; }
+  padding-top: 50px;
+  padding-bottom: 20px; }
 
 /*=============================
 NAVIGATION
@@ -194,14 +195,33 @@ article section.post {
     margin: 8px;
     display: inline-block; }
   article section.post .author-box {
-    margin-top: 5px;
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px; }
     article section.post .author-box time {
       display: block;
       color: #666;
       font-size: 12px; }
-  article section.post p.comment-area {
+  article section.post .comment-area {
     padding: 8px; }
+  article section.post .unfolded {
+    background-color: #ddd; }
+    article section.post .unfolded time {
+      display: inline-block; }
+    article section.post .unfolded p,
+    article section.post .unfolded .like-area {
+      display: inline-block;
+      width: 500px;
+      margin-left: 75px;
+      margin-top: -40px; }
+      article section.post .unfolded p a,
+      article section.post .unfolded .like-area a {
+        margin-right: 10px; }
+    article section.post .unfolded .liked-box {
+      margin-left: 30px; }
+
+.post .unfolded .form-group .nav-footer {
+  border-top: 0; }
 
 table.tab-timeline {
   font-size: 12px;
