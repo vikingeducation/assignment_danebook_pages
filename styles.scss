@@ -10,12 +10,13 @@ $bordertype: 2px solid #222;
     border-right: 1px solid #333;
 }
 
-body { 
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    @media  screen and (max-width: 600px){
+        width: 620px;
+    }
 }
-
-
 
 
 /*=============================
@@ -64,42 +65,21 @@ nav.navbar-custom {
 /*=============================
 HERO
 =============================*/
-body .container .hero {
-    padding-right: 0;
-    padding-left: 0;
-}
 
-
-/*@media (max-width: 980px) {
-    .hero {
-        width: 920px;
-    }
-}*/
-
-
-.jumbotron {
+.hero {
     background: white url("assets/hogwarts_small.jpg") no-repeat;
     background-size: cover;
     background-position: 0 60%;
-    height: 350px;
+    height: 400px;
     margin-bottom: 0;
-    /*border-radius: 0 !important;*/
-    .crop {
-        width: 200px;
-        height: 200px;
-        overflow: hidden;
+    .avatar {
+        width: 250px;
+        height: 250px;
         border: 8px double #222;
         position: relative;
-        top: 50%;
-        left: -1.5%;
-        @media (max-width: 780px) {
-            left: 3%;
-        }
-        img {
-            width: 220px;
-            height: 300px;
-            margin-left: -25px;
-        }
+        top: 45%;
+        left: 3%;
+        background: url("assets/harry_potter_small.jpg");
     }
 }
 
@@ -132,11 +112,15 @@ SUB-NAVIGATION
         background-color: inherit;
     }
     @media (max-width: 990px) {
-        button {
+        button.navbar-toggle {
             display: block;
-        }
-        .navbar-toggle {
-            display: block;
+            margin-top:0;
+            margin-bottom: 0;
+            font-size: 18px;
+            text-align: center;
+            @media (max-width: 420px) {
+                width: 155px;
+            }
         }
         .navbar-collapse {
             border-top: 1px solid transparent;
@@ -147,10 +131,6 @@ SUB-NAVIGATION
         }
         .collapse.in{
             display:block !important;
-        }
-        button {
-            margin-left: 280px;
-            width: 50%;
         }
         ul li {
             clear: both;
@@ -193,17 +173,11 @@ MAIN PART ABOUT
 
 .main-about {
     @extend .border-3d;
-    margin: 0 0 40px 0;
 }
-
-.interior {
-    padding: 20px 10px 20px 10px;
-}
-
 
 table.tab-about {
     font-size: 14px;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 350px;
     table caption {
         text-align: left;
@@ -221,15 +195,10 @@ table.tab-about {
     }
 }
 
-.about {
-  @extend .border-3d;
-}
-
 /*=============================
 MAIN PART ABOUT EDIT
 =============================*/
 .main-about {
-    padding: 25px;
     .input-group .form-control {
     height: 28px;
     width: 200px;
@@ -364,18 +333,18 @@ PHOTOS SECTION
 
 
 main.about-photos .row .col-xs-3 {
-
+        img {
+            width: 100%;
+        }
     }
 
 a .hover-box {
     position: absolute;
     bottom: 0;
-    left:  0;
-
     height: 50px;
     background-color: #999;
     color: #FFF;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     padding-top: 5px;
     -moz-transition: all 0.4s;
