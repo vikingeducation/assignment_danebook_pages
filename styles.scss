@@ -173,11 +173,12 @@ MAIN PART ABOUT
 
 .main-about {
     @extend .border-3d;
+    padding-left: 50px;
 }
 
 table.tab-about {
     font-size: 14px;
-    margin: 0 auto;
+    margin: -10px auto 0 auto;
     width: 350px;
     table caption {
         text-align: left;
@@ -205,13 +206,13 @@ MAIN PART ABOUT EDIT
     font-size: 13px;
     }
     textarea {
-    width: 90%;
-    min-height: 80px;
-    font-size: 12px;
-    color: gray;
-    text-align: left;
-    padding: 5px;
-    overflow: auto;
+        width: 90%;
+        min-height: 80px;
+        font-size: 12px;
+        color: gray;
+        text-align: left;
+        padding: 5px;
+        overflow: auto;
     }
     button.btn-save{
         display: block;

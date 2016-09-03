@@ -126,9 +126,12 @@ MAIN PART ABOUT
     top: 50%;
     transform: translateY(-50%); }
 
+.main-about {
+  padding-left: 50px; }
+
 table.tab-about {
   font-size: 14px;
-  margin: 0 auto;
+  margin: -10px auto 0 auto;
   width: 350px; }
   table.tab-about table caption {
     text-align: left; }
