@@ -126,9 +126,6 @@ MAIN PART ABOUT
     top: 50%;
     transform: translateY(-50%); }
 
-.main-about {
-  padding-left: 50px; }
-
 table.tab-about {
   font-size: 14px;
   margin: -10px auto 0 auto;
@@ -250,16 +247,15 @@ table.tab-timeline {
 /*=============================
 PHOTOS SECTION
 =============================*/
-main.about-photos .row .col-xs-3 img {
-  width: 100%; }
-
-a .hover-box {
+a time.overlay {
   position: absolute;
   bottom: 0;
+  left: 0;
   height: 50px;
+  width: 100%;
   background-color: #999;
   color: #FFF;
-  font-size: 14px;
+  font-size: 1.5em;
   text-align: center;
   padding-top: 5px;
   -moz-transition: all 0.4s;
@@ -267,16 +263,38 @@ a .hover-box {
   -o-transition: all 0.4s;
   transition: all 0.4s;
   opacity: 0;
-  filter: Alpha(opacity=0); }
+  filter: Alpha(opacity=0);
+  border-radius: 4px; }
 
-.hover-box:hover {
+a time.overlay:hover {
   overflow: visible;
   cursor: pointer; }
 
-.photo-box:hover .hover-box {
-  opacity: 1;
+.hovereffect:hover .overlay {
+  opacity: 0.9;
   filter: Alpha(opacity=100);
-  z-index: 20; }
+  z-index: 20;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 4.75em; }
+
+.hovereffect {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  cursor: default; }
+
+.hovereffect img {
+  width: 98%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s; }
+
+.hovereffect:hover img {
+  -webkit-transform: translate3d(0, -10%, 0);
+  transform: translate3d(0, -10%, 0); }
 
 /*=============================
 FRIENDS SECTION

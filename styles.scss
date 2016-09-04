@@ -173,7 +173,6 @@ MAIN PART ABOUT
 
 .main-about {
     @extend .border-3d;
-    padding-left: 50px;
 }
 
 table.tab-about {
@@ -331,39 +330,61 @@ table.tab-timeline {
 /*=============================
 PHOTOS SECTION
 =============================*/
+a time.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #999;
+  color: #FFF;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+  -moz-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0;
+  filter: Alpha(opacity=0);
+  border-radius: 4px;
+}
 
+a time.overlay:hover {
+  overflow: visible;
+  cursor: pointer;
+}
 
-main.about-photos .row .col-xs-3 {
-        img {
-            width: 100%;
-        }
-    }
-
-a .hover-box {
-    position: absolute;
+.hovereffect:hover .overlay{
+  opacity: 0.9;
+  filter: Alpha(opacity=100);
+  z-index: 20;
+    left: 0;
+    top: auto;
     bottom: 0;
-    height: 50px;
-    background-color: #999;
-    color: #FFF;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 5px;
-    -moz-transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    opacity: 0;
-    filter: Alpha(opacity=0);
-}
-.hover-box:hover {
-    overflow: visible;
-    cursor: pointer;
+    padding: 1em;
+    height: 4.75em;
 }
 
-.photo-box:hover .hover-box {
-    opacity: 1;
-    filter: Alpha(opacity=100);
-    z-index: 20;
+.hovereffect {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    cursor: default;
+}
+
+
+.hovereffect img {
+    width: 98%;
+    -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s;
+
+}
+
+.hovereffect:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+        transform: translate3d(0,-10%,0);
 }
 
 /*=============================

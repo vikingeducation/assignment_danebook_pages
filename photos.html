@@ -21,7 +21,7 @@
         <![endif]-->
     </head>
     <body>
-        <!--NAVIGATION-->
+         <!--NAVIGATION-->
         <nav class="navbar navbar-custom navbar-fixed-top">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -54,43 +54,49 @@
         </nav>
 
         <!--HERO-->
-        <div class="container hero">
-            <header class="jumbotron">
-                <div class="crop">
-                    <img src="assets/harry_potter_small.jpg">
+        <div class="container">
+            <header class="hero">
+                <div class="avatar">
                 </div>
             </header>
             <!--SUB-NAVIGATION-->
             <nav class="sub-navigation" role="navigation">
-                <ul class="nav nav-pills " role="tablist">
-                    <li role="presentation">
-                        <a href="timeline.html">
-                            Timeline
-                        </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="about.html">
-                            About
-                        </a>
-                    </li>
-                    <li role="presentation" class="active">
-                        <a href="photos.html">
-                            Photos<span class="badge">(123)</span>
-                        </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="friends.html">
-                            Friends<span class="badge">(542)</span>
-                        </a>
-                    </li>
-                    <li class="edit-profile pull-right">
-                        <a href="about_edit.html">
-                            Edit Profile
-                        </a>
-                    </li>
-                </ul>
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sub-nav-collapse" aria-expanded="false"><span class="caret"></span>Menu
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="sub-nav-collapse">
+                        <ul class="nav nav-pills">
+                            <li role="presentation">
+                                <a href="timeline.html">
+                                    Timeline
+                                </a>
+                            </li>
+                            <li role="presentation" class="active">
+                                <a href="about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="photos.html">
+                                    Photos<span class="badge">(123)</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="friends.html">
+                                    Friends<span class="badge">(542)</span>
+                                </a>
+                            </li>
+                            <li class="edit-profile pull-right">
+                                <a href="about_edit.html">
+                                    Edit Profile
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
-
             <!--SECTION BAR-->
             <section class="nav-about">
                 <h2>
@@ -104,142 +110,187 @@
             <!--PHOTOS TABLE-->
             <main class="main-about photos">
                 <div class="row"> <!-- 1st ROW-->
-                    <div class="col-xs-3">
-                        <a href="#" class="photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
                             </div>
-                        </a>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="row"><!-- 2nd ROW-->
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+                                        <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="row"><!-- 3rd ROW-->
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+                                        <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
                 <div class="row"><!-- 4th ROW-->
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+                                        <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-xs-3">
-                        <a href="#" class="thumbnail photo-box">
-                           <img src="assets/icon_photo_small.png" alt="holiday photo placeholder" class="img-thumbnail">
-                            <div class="hover-box">
-                                Uploaded January 15, 2016
-                            </div>
-                        </a>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="#">
+                                <img class="img-thumbnail" src="assets/icon_photo_small.png" alt="">
+                                <time datetime="01/15/2016" class="overlay">
+                                    Uploaded January 15, 2016
+                                </time>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </main>
