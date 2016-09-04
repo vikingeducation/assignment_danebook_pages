@@ -229,17 +229,22 @@ article section.post {
     margin-top: 20px;
     border: 2px solid black;
     header.nav-post {
-    background-color: #ddd;
-    text-align: center;
-    border-bottom: 2px solid black;
-        h4 {
-            display: inline-block;
+        background-color: #ddd;
+        text-align: center;
+        border-bottom: 2px solid black;
+            h4 {
+                display: inline-block;
+            }
         }
-    }
     textarea {
         width: 95%;
         margin: 8px auto;
     }
+    
+    .container-fluid .row {
+        padding-top: 1em;
+    }
+
     .nav-footer  {
         border-top: 2px solid black;
         text-align: right;
@@ -267,6 +272,7 @@ article section.post {
     }
     .nav-bottom-link {
         text-align: center;
+        margin: 6px 0;
     }
     .container-fluid .row div {
         padding-left: 3px;
@@ -299,8 +305,9 @@ article section.post {
         p,
         .like-area {
             display: inline-block;
-            margin-left: 75px;
+            padding-left: 75px;
             margin-top: -40px;
+            width: 100%;
             a {
                 margin-right: 10px;
             }
@@ -308,12 +315,13 @@ article section.post {
         .liked-box  {
             margin-left: 30px;
         }
+        .form-group .nav-footer {
+            border-top: 0;
+        }
     }
 }
 
-.post .unfolded .form-group .nav-footer {
-    border-top: 0;
-}
+
 
 table.tab-timeline {
     font-size: 12px;
@@ -334,34 +342,34 @@ table.tab-timeline {
 PHOTOS SECTION
 =============================*/
 a time.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 50px;
-  width: 100%;
-  background-color: #999;
-  color: #FFF;
-  font-size: 1.5em;
-  text-align: center;
-  padding-top: 5px;
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0;
-  filter: Alpha(opacity=0);
-  border-radius: 4px;
-}
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #999;
+    color: #FFF;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5px;
+        -moz-transition: all 0.4s;
+     -webkit-transition: all 0.4s;
+          -o-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    border-radius: 4px;
+    }
 
 a time.overlay:hover {
-  overflow: visible;
-  cursor: pointer;
+    overflow: visible;
+    cursor: pointer;
 }
 
 .hovereffect:hover .overlay{
-  opacity: 0.9;
-  filter: Alpha(opacity=100);
-  z-index: 20;
+    opacity: 0.9;
+    filter: Alpha(opacity=100);
+    z-index: 20;
     left: 0;
     top: auto;
     bottom: 0;
@@ -386,8 +394,8 @@ a time.overlay:hover {
 }
 
 .hovereffect:hover img {
--webkit-transform: translate3d(0,-10%,0);
-        transform: translate3d(0,-10%,0);
+    -webkit-transform: translate3d(0,-10%,0);
+            transform: translate3d(0,-10%,0);
 }
 
 

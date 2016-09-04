@@ -179,6 +179,8 @@ article section.post {
   article section.post textarea {
     width: 95%;
     margin: 8px auto; }
+  article section.post .container-fluid .row {
+    padding-top: 1em; }
   article section.post .nav-footer {
     border-top: 2px solid black;
     text-align: right;
@@ -200,7 +202,8 @@ article section.post {
       article section.post .nav-footer .liked-box p {
         display: inline-block; }
   article section.post .nav-bottom-link {
-    text-align: center; }
+    text-align: center;
+    margin: 6px 0; }
   article section.post .container-fluid .row div {
     padding-left: 3px;
     padding-right: 3px; }
@@ -226,16 +229,16 @@ article section.post {
     article section.post .unfolded p,
     article section.post .unfolded .like-area {
       display: inline-block;
-      margin-left: 75px;
-      margin-top: -40px; }
+      padding-left: 75px;
+      margin-top: -40px;
+      width: 100%; }
       article section.post .unfolded p a,
       article section.post .unfolded .like-area a {
         margin-right: 10px; }
     article section.post .unfolded .liked-box {
       margin-left: 30px; }
-
-.post .unfolded .form-group .nav-footer {
-  border-top: 0; }
+    article section.post .unfolded .form-group .nav-footer {
+      border-top: 0; }
 
 table.tab-timeline {
   font-size: 12px;
