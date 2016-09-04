@@ -201,7 +201,10 @@ article section.post {
         display: inline-block; }
   article section.post .nav-bottom-link {
     text-align: center; }
-  article section.post img {
+  article section.post .container-fluid .row div {
+    padding-left: 3px;
+    padding-right: 3px; }
+  article section.post .post-body img {
     width: 60px;
     height: 60px;
     margin: 8px;
@@ -223,7 +226,6 @@ article section.post {
     article section.post .unfolded p,
     article section.post .unfolded .like-area {
       display: inline-block;
-      width: 500px;
       margin-left: 75px;
       margin-top: -40px; }
       article section.post .unfolded p a,

@@ -268,7 +268,11 @@ article section.post {
     .nav-bottom-link {
         text-align: center;
     }
-    img {
+    .container-fluid .row div {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .post-body img {
         width: 60px;
         height: 60px;
         margin: 8px;
@@ -295,7 +299,6 @@ article section.post {
         p,
         .like-area {
             display: inline-block;
-            width: 500px;
             margin-left: 75px;
             margin-top: -40px;
             a {
@@ -386,6 +389,7 @@ a time.overlay:hover {
 -webkit-transform: translate3d(0,-10%,0);
         transform: translate3d(0,-10%,0);
 }
+
 
 /*=============================
 FRIENDS SECTION
