@@ -54,41 +54,48 @@
         </nav>
 
         <!--HERO-->
-        <div class="container hero">
-            <header class="jumbotron">
-                <div class="crop">
-                    <img src="assets/harry_potter_small.jpg">
+        <div class="container">
+            <header class="hero">
+                <div class="avatar">
                 </div>
             </header>
             <!--SUB-NAVIGATION-->
             <nav class="sub-navigation" role="navigation">
-                <ul class="nav nav-pills " role="tablist">
-                    <li role="presentation">
-                        <a href="timeline.html">
-                            Timeline
-                        </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="about.html">
-                            About
-                        </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="photos.html">
-                            Photos<span class="badge">(123)</span>
-                        </a>
-                    </li>
-                    <li role="presentation" class="active">
-                        <a href="friends.html">
-                            Friends<span class="badge">(542)</span>
-                        </a>
-                    </li>
-                    <li class="edit-profile pull-right">
-                        <a href="about_edit.html">
-                            Edit Profile
-                        </a>
-                    </li>
-                </ul>
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sub-nav-collapse" aria-expanded="false"><span class="caret"></span>Menu
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="sub-nav-collapse">
+                        <ul class="nav nav-pills">
+                            <li role="presentation">
+                                <a href="timeline.html">
+                                    Timeline
+                                </a>
+                            </li>
+                            <li role="presentation" class="active">
+                                <a href="about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="photos.html">
+                                    Photos<span class="badge">(123)</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="friends.html">
+                                    Friends<span class="badge">(542)</span>
+                                </a>
+                            </li>
+                            <li class="edit-profile pull-right">
+                                <a href="about_edit.html">
+                                    Edit Profile
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
 
             <!--SECTION BAR-->
@@ -101,8 +108,9 @@
             <!--FRIENDS GRID -->
             <main class="main-about">
                 <div class="row">
-                   <div class="col-xs-12 col-md-6 friend-box">
-                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
+                   <div class="col-xs-12 col-md-6">
+                        <div class="friend-box">
+                            <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
                         <div class="friend-name">
                             <a href="#">
                                 Hermione Granger
@@ -113,55 +121,8 @@
                             <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
                         </form>
                     </div>
-                    <div class="col-xs-12 col-md-6 friend-box">
-                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
-                        <div class="friend-name">
-                            <a href="#">
-                                Hermione Granger
-                            </a>
-                            Friends<span class="badge">(432)</span>
-                        </div>
-                        <form>
-                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
-                        </form>
-                    </div>
-                    <div class="col-xs-12 col-md-6 friend-box">
-                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
-                        <div class="friend-name">
-                            <a href="#">
-                                Hermione Granger
-                            </a>
-                            Friends<span class="badge">(432)</span>
-                        </div>
-                        <form>
-                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
-                        </form>
-                    </div>
-                    <div class="col-xs-12 col-md-6 friend-box">
-                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
-                        <div class="friend-name">
-                            <a href="#">
-                                Hermione Granger
-                            </a>
-                            Friends<span class="badge">(432)</span>
-                        </div>
-                        <form>
-                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
-                        </form>
-                    </div>
-                    <div class="col-xs-12 col-md-6 friend-box">
-                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
-                        <div class="friend-name">
-                            <a href="#">
-                                Hermione Granger
-                            </a>
-                            Friends<span class="badge">(432)</span>
-                        </div>
-                        <form>
-                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
-                        </form>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
+                </div>
+                <div class="col-xs-12 col-md-6">
                     <div class="friend-box">
                         <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
                         <div class="friend-name">
@@ -174,6 +135,61 @@
                             <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
                         </form>
                     </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="friend-box">
+                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
+                        <div class="friend-name">
+                            <a href="#">
+                                Hermione Granger
+                            </a>
+                            Friends<span class="badge">(432)</span>
+                        </div>
+                        <form>
+                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="friend-box">
+                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
+                        <div class="friend-name">
+                            <a href="#">
+                                Hermione Granger
+                            </a>
+                            Friends<span class="badge">(432)</span>
+                        </div>
+                        <form>
+                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="friend-box">
+                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
+                        <div class="friend-name">
+                            <a href="#">
+                                Hermione Granger
+                            </a>
+                            Friends<span class="badge">(432)</span>
+                        </div>
+                        <form>
+                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="friend-box">
+                        <img src="assets/user_silhouette_generic.gif" class="img-thumbnail">
+                        <div class="friend-name">
+                            <a href="#">
+                                Hermione Granger
+                            </a>
+                            Friends<span class="badge">(432)</span>
+                        </div>
+                        <form>
+                            <button type="submit" class="btn btn-default btn-sm unfriend">Unfriend me</button>
+                        </form>
                     </div>
                 </div>
             </main>
