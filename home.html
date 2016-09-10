@@ -21,8 +21,11 @@
     <![endif]-->
   </head>
   <body>
+    <!--NAVBAR-->
     <nav class="navbar navbar-default">
       <div class="container">
+      <div class="row">
+
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
             <h1>Danebook</h1>
@@ -34,12 +37,14 @@
           <span class="icon-bar"></span>
           </button>
         </div>
+
+        <!--NAVBAR RIGHT-->
         <div class="navbar-right">
+
           <div class="collapse navbar-collapse" id="form-collapse">
-            <form class="navbar-form">
-              <div class="form-group">
+            <form class="navbar-form form-group container">
                 <div class="row">
-                  <label class="control-label col-xs-5" for="inputemail">
+                  <label class="control-label col-sm-5" for="inputemail">
                     Email
                   </label>
                   <label class="control-label col-xs-5" for="inputpassword" required>
@@ -47,21 +52,26 @@
                   </label>
                 </div>
                 <div class="row">
-                  <div class="col-xs-5">
-                    <input type="email" class="form-control" required>
+                    <div class="col-xs-5">
+                      <input type="email" class="form-control" required>
+                    </div>
+                    <div class="col-xs-5">
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-xs-2">
+                    <button type="submit" class="btn btn-primary pull-right">Log In</button>
+                    </div>
                   </div>
-                  <div class="col-xs-5">
-                    <input type="text" class="form-control" required>
-                  </div>
-                  <button type="submit" class="btn btn-primary col-xs-2">Log In</button>
                 </form>
               </div>
+            </div>
             </div>
           </nav>
           <div class="container">
             <div class="row">
-              <aside class="col-md-8 col-md-push-1">
-                <div class="centering">
+              <aside class="col-md-7">
+                <div class="row">
+                  <div class="col-md-12 col-lg-10 col-lg-offset-1">
                   <h2>Connect with all your friends!</h2>
                   <ul>
                     <li>See photos and updates in your news feed.</li>
@@ -70,8 +80,11 @@
                     <li>Like things because you're a positive person!</li>
                   </ul>
                 </div>
+                </div>
               </aside>
-              <section class="col-md-4 col-md-pull-1">
+              <!--FORM SECTION -->
+              <section class="col-md-5">
+              <div class="">
                 <h1>Sign Up</h1>
                 <form class="form-horizontal">
                   <fieldset class="form-group row">
@@ -231,6 +244,7 @@
                   </fieldset>
                   <input class="betn btn-success btn-lg btn-block" type="submit" value="Sign Up!">
                 </form>
+                </div>
               </section>
             </div>
           </div>

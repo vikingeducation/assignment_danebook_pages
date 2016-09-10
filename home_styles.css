@@ -8,18 +8,21 @@ nav.navbar-default {
   nav.navbar-default .navbar-brand h1 {
     margin-top: 0px;
     color: white; }
-  nav.navbar-default .navbar-right .collapse button {
+  nav.navbar-default .collapse button {
     background-color: #0af;
     color: black;
     font-weight: bold; }
-  nav.navbar-default .navbar-right .collapse button:hover {
+  nav.navbar-default .collapse button:hover {
     background-color: #bef;
     color: black; }
+.navbar-right .collapse .form-group {
+  padding-right: 0;
+}
 
-.container .row aside .centering {
-  margin-top: 70px;
-  padding-left: 5px;
-  margin-left: -5%; }
+.container .row aside {
+  margin-top: 50px;
+}
+
 .container .row aside h2 {
   padding-bottom: 5px;
   font-weight: bold; }
@@ -28,6 +31,7 @@ nav.navbar-default {
   color: gray;
   font-size: 19px;
   font-weight: light; }
+
 
 section form fieldset input {
   margin-bottom: 15px; }

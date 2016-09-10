@@ -186,7 +186,7 @@ article section.post {
     text-align: right;
     background-color: #ddd;
     padding: 5px;
-    min-height: 30px; }
+    min-height: 60px; }
     article section.post .nav-footer a {
       display: inline-block;
       margin-left: 5px;
@@ -215,7 +215,8 @@ article section.post {
   article section.post .author-box {
     display: inline-block;
     vertical-align: top;
-    margin-top: 5px; }
+    margin-top: 5px;
+    width: 80%; }
     article section.post .author-box time {
       display: block;
       color: #666;
@@ -230,8 +231,11 @@ article section.post {
     article section.post .unfolded .like-area {
       display: inline-block;
       padding-left: 75px;
-      margin-top: -40px;
       width: 100%; }
+      @media (min-width: 800px) {
+        article section.post .unfolded p,
+        article section.post .unfolded .like-area {
+          margin-top: -40px; } }
       article section.post .unfolded p a,
       article section.post .unfolded .like-area a {
         margin-right: 10px; }

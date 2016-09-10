@@ -27,11 +27,11 @@ nav.navbar-custom {
     border-bottom: 2px solid #333;
     .logo-container {
         img{
-        width: 30px;
-        height: 30px;
-        border-radius: 100%;
-        display: inline-block;
-        margin-top: -8px;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            display: inline-block;
+            margin-top: -8px;
         }
         h3 {
             display: inline-block;
@@ -40,10 +40,10 @@ nav.navbar-custom {
     }
     .navbar-header {
         .navbar-brand {
-        color: white;
+            color: white;
         }
         button .icon-bar {
-        background-color: white;
+            background-color: white;
         }
         a.navbar-brand:hover {
             color: black;
@@ -250,7 +250,7 @@ article section.post {
         text-align: right;
         background-color: #ddd;
         padding: 5px;
-        min-height: 30px;
+        min-height: 60px;
         a {
             display: inline-block;
             margin-left: 5px;
@@ -288,6 +288,7 @@ article section.post {
         display: inline-block;
         vertical-align: top;
         margin-top: 5px;
+        width: 80%;
         time {
             display: block;
             color: #666;
@@ -306,8 +307,10 @@ article section.post {
         .like-area {
             display: inline-block;
             padding-left: 75px;
-            margin-top: -40px;
             width: 100%;
+            @media (min-width: 800px) {
+                margin-top: -40px;
+            }
             a {
                 margin-right: 10px;
             }
