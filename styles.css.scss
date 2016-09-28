@@ -1,0 +1,40 @@
+$bg_nav: #2B78E4;
+$font-stack: 'Open Sans', sans-serif;
+
+body{
+    font-family: $font-stack;
+    color: white;
+    padding-top: 85px;
+}
+.navbar-custom {
+  background-color: $bg_nav;
+  border: 2px solid black;
+  color: white;
+}
+.navbar-brand {
+  color: white;
+  font-size: 30px;
+}
+.img-circle {
+}
+.navbar-toggle {
+ background-color: white;
+}
+.mycolor a {
+  color: white;
+}
+.cover {
+  background-image: url("resources/hogwarts_small.jpg");
+  background-size: cover;
+  height: 400px;
+}
+ .bottom-align-text {
+    position: absolute;
+    bottom: 0;
+  }
+.user-photo {
+}
+#about {
+  color: black;
+}
+
