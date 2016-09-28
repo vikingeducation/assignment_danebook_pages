@@ -1,101 +1,119 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-<title>Welcome to Danebook</title>
-<!-- Latest compiled and minified CSS -->
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                <!-- Optional theme -->
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-                <link rel="stylesheet" href="styles.css">
-                <!-- Latest compiled and minified JavaScript -->
-                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<nav class="navbar navbar-fixed-top navbar-custom">
-                        <div class="container">
-                                <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                                <span class="sr-only">Toggle navigation</span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                                <span class="icon-bar"></span>
-                                        </button>
-                                        <a class="navbar-left" href="#">
-						<img height="42" width="42" class="img-circle" src="resources/danish_flag.gif">
-					</a>
-					<a class="navbar-brand" href="#">Danebook</a>
-                                </div>
-                                <div id="navbar" class="navbar-collapse collapse">
-                                        <form class="navbar-form">
-                                                <div class="form-group" style="display:inline;">
-							<a class="navbar-right mycolor" href="#">Harry</a>
-							<div class="input-group col-xs-6" style="display:table;">
-							<input type="text" placeholder="Search for Users" class="form-control">
-							</div>
-						</div>
-                                        </form>
-                                </div><!--/.navbar-collapse -->
+<html lang="en">
+    <head>
+        <title>Welcome to Danebook</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--NAV-->
+        <nav class="navbar navbar-fixed-top navbar-custom ">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="home.html">
+                        <img src="resources/danish_flag.gif" alt="Brand">
+                        <h3>Danebook</h3>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search for User">
                         </div>
-                </nav>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Harry</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
 
-<main class="container">
-	<section class="row">
-		<div class="col-xs-12 cover">
-			<div class="row">
-				<div class="col-xs-4 col-xs-offset-2 bottom-align-text">
-					<h1>Harry Potter</h1>
-				</div>
-				<div class="col-xs-2 bottom-align-text">
-					<img height="200px" width="180px" src="resources/user_silhouette_generic.png">
-				</div>
-			</div>
-		</div>
-		<nav class="navbar col-xs-offset-2">
-			<ul class="nav navbar-nav">
-				<li>
-    					<a href="#">Timeline</a>
-                                 </li>
-				<li>
-    					<a href="#">About</a>
-                                 </li>
-				<li>
-    					<a href="#">Photos(234)</a>
-                                 </li>
-				<li>
-    					<a href="#">Friends(345)</a>
-                                 </li>
-			</ul>	
-    					<a class="navbar-right" href="#">Edit Profile</a>
-		</nav>
-	</section>
+        <div class="container">
+            <header class="cover">
+                <div class="avatar">
+                </div>
+            </header>
 
-	<section id="about" class="row">
-		<div class="col-xs-12">
-		<header class="page-header text-center">
+            <!--SUB-NAV-->
+            <nav class="sub-navigation">
+                <div class="container-fluid">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sub-nav-collapse" aria-expanded="false"><span class="caret"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="sub-nav-collapse">
+                        <ul class="nav nav-pills">
+                            <li role="presentation">
+                                <a href="timeline.html">
+                                    Timeline
+                                </a>
+                            </li>
+                            <li role="presentation" class="active">
+                                <a href="about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="photos.html">
+                                    Photos<span class="badge">(123)</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="friends.html">
+                                    Friends<span class="badge">(542)</span>
+                                </a>
+                            </li>
+                            <li class="edit-profile pull-right">
+                                <a href="about_edit.html">
+                                    Edit Profile
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+
+            <main class="main-about">
+		<header class="page-header text-center nav-about">
 			<div class='btn-toolbar pull-right'>
-			    <div class='btn-group'>
-				<button type='button' class='btn btn-primary'>Edit Your Profile</button>
-			    </div>
+				<a class="btn btn-primary" href="about_edit.html" role="button">
+				    Edit Your Profile
+				</a>
 			</div>
-			<h1>About</h1>
+			<h2>About</h2>
 		</header>
-		</div>
-		<div class="row">
-			<div class="col-xs-4 col-xs-offset-1">
+			<div class="row">
+			<div id="info" class="col-xs-4 col-xs-offset-1">
 				<h2>Basic Information</h2>
-				<ul class="list-unstyled">
-				<label>Birthday:</label><li class="text-right">July 31st, 1980</li>
-				<label>College:</label><li class="text-right">Hogswart College</li>
-				<label>Hometown:</label><li class="text-right">Godrick's Hollow, England</li>
-				<label>Currently Lives:</label><li class="text-right">Godrick's Hollow, England</li>
-				</ul>
+				<dl class="dl-horizontal">
+					<dt>Birthday:</dt>
+					<dd>July 31st, 1980</dd>
+					<dt>College</dt>
+					<dd>Hogswart College</dd>
+					<dt>Hometown</dt>
+					<dd>Godrick's Hollow, England</dd>
+					<dt>Currently Lives:</dt>
+					<dd>Godrick's Hollow, England</dd>
+				</dl>
 				<h2>Contact Information</h2>
-				<ul class="list-unstyled">
-				<label>Email:</label><li class="text-right">harry_potter@hogswart.edu</li>
-				<label>Telephone:</label><li class="text-right">555-123-4567</li>
-				</ul>
+				<dl class="dl-horizontal">
+					<dt>Email:</dt>
+					<dd>harry_potter@hogswart.edu</dd>
+					<dt>Telephone:</dt>
+					<dd>555-123-456</dd>
+				</dl>
 			</div>
 			<div class="col-xs-5 col-xs-offset-1">
 				<h2>Words to Live By</h2>
@@ -104,7 +122,6 @@
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 			</div>
 		</div>
-	</section>
-</main>
-
+            </main>
+    </body>
 </html>
