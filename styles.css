@@ -108,7 +108,7 @@ SUB-NAV
 /*=============================
 ABOUT
 =============================*/
-.nav-about {
+.nav-custom {
   border: 2px solid #333;
   border-top: 0;
   border-left: 0;
@@ -117,22 +117,22 @@ ABOUT
   text-align: center;
   position: relative;
   margin-top: 0; }
-  .nav-about h2 {
+  .nav-custom h2 {
     display: inline-block; }
-  .nav-about a.btn {
+  .nav-custom a.btn {
     display: inline-block;
     position: absolute;
     right: 15px;
     top: 50%;
     transform: translateY(-50%); }
 
-.main-about {
+.main-custom {
   border: 2px solid #333; }
-  .main-about .form-control {
+  .main-custom .form-control {
     height: 30px;
     width: 200px;
     font-size: 12px; }
-  .main-about textarea {
+  .main-custom textarea {
     width: 90%;
     min-height: 80px;
     font-size: 12px;
@@ -140,12 +140,45 @@ ABOUT
     padding: 5px;
     overflow: auto;
     text-align: left; }
-  .main-about button.btn-save {
+  .main-custom button.btn-save {
     display: block;
     margin: 100px auto;
     width: 400px;
     height: 80px;
     font-size: 25px; }
+  .main-custom .row {
+    padding: 15px; }
+
+.friend-card {
+  border: 1px solid black;
+  width: 400px;
+  height: 150px;
+  padding: 15px;
+  margin: 5px auto; }
+  .friend-card img {
+    height: 120px;
+    width: 120px;
+    float: left; }
+
+.friend-info {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px; }
+  .friend-info a {
+    display: block;
+    text-decoration: underline; }
+
+button.unfriend {
+  float: right;
+  width: 27%;
+  background-color: #aaa;
+  font-weight: bold;
+  margin-top: 30px;
+  box-shadow: 5px 5px 5px #888888; }
+
+button.unfriend:hover {
+  background-color: #ddd;
+  font-weight: bold; }
 
 #info dt {
   text-align: left;

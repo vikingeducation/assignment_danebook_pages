@@ -144,7 +144,7 @@ SUB-NAV
 ABOUT
 =============================*/
 
-.nav-about {
+.nav-custom {
   
   border: 2px solid #333;
   border-top: 0;
@@ -166,7 +166,7 @@ ABOUT
 }
 }
 
-.main-about {
+.main-custom {
     border: 2px solid #333;
 .form-control {
   height: 30px;
@@ -189,8 +189,44 @@ button.btn-save {
   height: 80px;
   font-size: 25px;
 }
+.row {
+  padding: 15px;
 }
 
+}
+.friend-card {
+  border: 1px solid black;
+  width: 400px;
+  height: 150px;
+  padding: 15px;
+  margin: 5px auto;
+  img {
+  height: 120px;
+  width: 120px;
+  float: left;
+}
+}
+.friend-info {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  a {
+      display: block;
+      text-decoration: underline;
+    }
+}
+button.unfriend {
+        float: right;
+        width: 27%;
+        background-color: #aaa;
+        font-weight: bold;
+        margin-top: 30px;
+	box-shadow: 5px 5px 5px #888888;
+    }
+    button.unfriend:hover {
+        background-color: #ddd;
+        font-weight: bold;
+    }
 #info dt {
   text-align:left;
   padding-bottom: 5px;
