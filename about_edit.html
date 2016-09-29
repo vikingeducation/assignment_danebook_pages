@@ -1,1 +1,124 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome to Danebook</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--NAV-->
+        <nav class="navbar navbar-fixed-top navbar-custom ">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="home.html">
+                        <img src="resources/danish_flag.gif" alt="Brand">
+                        <h3>Danebook</h3>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search for User">
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Harry</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+        <div class="container">
+            <header class="cover">
+                <div class="avatar">
+                </div>
+            </header>
+
+            <!--SUB-NAV-->
+            <nav class="sub-navigation">
+                <div class="container-fluid">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sub-nav-collapse" aria-expanded="false"><span class="caret"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="sub-nav-collapse">
+                        <ul class="nav nav-pills">
+                            <li role="presentation">
+                                <a href="timeline.html">
+                                    Timeline
+                                </a>
+                            </li>
+                            <li role="presentation" class="active">
+                                <a href="about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="photos.html">
+                                    Photos<span class="badge">(123)</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="friends.html">
+                                    Friends<span class="badge">(542)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+
+            <main class="main-about">
+		<header class="page-header text-center nav-about">
+			<h2>Edit Profile</h2>
+		</header>
+			<div class="row">
+			<div id="info" class="col-xs-4 col-xs-offset-1">
+				<h2>Basic Information</h2>
+				<dl class="dl-horizontal">
+					<dt>Birthday:</dt>
+					<dd>July 31st, 1980</dd>
+					<dt>College:</dt>
+					<dd><input type="text" class="form-control" placeholder="Godrick's Hollow, England"></dd>
+					<dt>Hometown:</dt>
+					<dd><input type="text" class="form-control" placeholder="Godrick's Hollow, England"></dd>
+					<dt>Currently Lives:</dt>
+					<dd><input type="text" class="form-control" placeholder="Godrick's Hollow, England"></dd>
+				</dl>
+				<h2>Contact Information</h2>
+				<dl class="dl-horizontal">
+					<dt>Email:</dt>
+					<dd><input type="email" class="form-control" placeholder="harry_potter@hogswart.edu"></dd>
+					<dt>Telephone:</dt>
+					<dd><input type="telephone" class="form-control" placeholder="555-123-456"></dd>
+				</dl>
+			</div>
+			<div class="col-xs-5 col-xs-offset-1">
+				<h2>Words to Live By</h2>
+				<textarea wrap="hard" rows="4" name="words-to-live-by">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</textarea>
+				<h2>About Me</h2>
+				<textarea name="about-me" rows="8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</textarea>
+			</div>
+		</div>
+		<div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn btn-primary btn-lg btn-save">
+                    Save Changes
+                    </button>
+                </div>
+            </div>
+            </main>
+    </body>
+</html>

@@ -168,6 +168,27 @@ ABOUT
 
 .main-about {
     border: 2px solid #333;
+.form-control {
+  height: 30px;
+  width: 200px;
+  font-size: 12px;
+}
+textarea {
+  width: 90%;
+  min-height: 80px;
+  font-size: 12px;
+  color: gray;
+  padding: 5px;
+  overflow: auto;
+  text-align: left;
+}
+button.btn-save {
+  display: block;
+  margin: 100px auto;
+  width: 400px;
+  height: 80px;
+  font-size: 25px;
+}
 }
 
 #info dt {
