@@ -1,1 +1,402 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Welcome to Danebook</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--NAV-->
+        <nav class="navbar navbar-fixed-top navbar-custom ">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#login-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="home.html">
+                        <img src="resources/danish_flag.gif" alt="Brand">
+                        <h3>Danebook</h3>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search for User">
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Harry</a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+
+        <div class="container">
+            <header class="cover">
+                <div class="avatar">
+<div class="user-name">
+                          <h1>Harry Potter</h1>
+                      </div>
+                </div>
+            </header>
+
+            <!--SUB-NAV-->
+            <nav class="sub-navigation">
+                <div class="container-fluid">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sub-nav-collapse" aria-expanded="false"><span class="caret"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="sub-nav-collapse">
+                        <ul class="nav nav-pills">
+                            <li role="presentation" class="active">
+                                <a href="timeline.html">
+                                    Timeline
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="photos.html">
+                                    Photos<span class="badge">(123)</span>
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="friends.html">
+                                    Friends<span class="badge">(542)</span>
+                                </a>
+                            </li>
+                            <li class="edit-profile pull-right">
+                                <a href="about_edit.html">
+                                    Edit Profile
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </nav>
+
+            <main class="main-custom">
+		<div class="row">
+			<div class="col-xs-4">
+			     <section id="about" class="boxx">
+				<header class="page-header timeline-header">
+					<h4>About (Text Area)</h4>
+				</header>
+				<dl class="dl-horizontal">
+					<dt>Birthday:</dt>
+					<dd>July 31st, 1980</dd>
+					<dt>Went to school at:</dt>
+					<dd>Hogswart</dd>
+					<dt>Hometown:</dt>
+					<dd>Godrick's Hollow, England</dd>
+					<dt>Currently Lives:</dt>
+					<dd>Godrick's Hollow, England</dd>
+				</dl>
+			      </section>
+                              <section id="photos" class="boxx">
+				<header class="page-header text-center timeline-header">
+					<h4>Photos (123) (Copied Text Area)</h4>
+				</header>
+				<div class="row"> 
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+                               </div>
+				<div class="row"> 
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+                               </div>
+				<div class="row"> 
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/icon_photo_small.png" alt="">
+					    </a>
+				    </div>
+                               </div>
+				<div class="text-center txt-btn">
+				    <a href="photos.html">
+					See More Photos
+				    </a>
+				</div>
+                              </section>
+                              <section id="friends" class="boxx">
+				<header class="page-header text-center timeline-header">
+					<h4>Friends (542) (Copied Text Area)</h4>
+				</header>
+				<div class="row"> 
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/user_silhouette_generic.png" alt="">
+						Ron Weasley
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/user_silhouette_generic.png" alt="">
+					   	Ron Weasley
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/user_silhouette_generic.png" alt="">
+					    	Ron Weasley
+					    </a>
+				    </div>
+                               </div>
+				<div class="row"> 
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/user_silhouette_generic.png" alt="">
+						Ron Weasley
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/user_silhouette_generic.png" alt="">
+					   	Ron Weasley
+					    </a>
+				    </div>
+				    <div class="col-xs-4">
+					    <a href="#">
+						<img class="img-thumbnail" src="resources/user_silhouette_generic.png" alt="">
+					    	Ron Weasley
+					    </a>
+				    </div>
+                               </div>
+				<div class="text-center txt-btn">
+				    <a href="friends.html">
+					See More Friends
+				    </a>
+				</div>
+                              </section>
+			</div>
+			<div class="col-xs-8">
+			     <section class="post boxx">
+				<header class="page-header text-center timeline-header">
+					<h4>Post (copied)</h4>
+				</header>
+					<div class="post-body">
+					    <div class="form-group">
+						<textarea class="form-control" placeholder="Message">Tell the world something...</textarea>
+					    </div>
+					</div>
+					<div class="nav-footer">
+					    <button class="btn btn-primary" type="button">
+					    Post
+					    </button>
+					</div>
+			     </section>
+			<section class="post boxx addon">
+                        <div class="post-body">
+                            <img src="resources/user_silhouette_generic.png">
+                            <div class="author-box">
+                                <a href="#">
+                                    Harry Potter
+                                </a>
+                                <time datetime="6/1/2013" pubdate>
+                                Posted on Thursday 6/1/2013
+                                </time>
+                            </div>
+                            <p class="comment-area">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora inventore praesentium, distinctio saepe facere, dolores laboriosam magnam id cum eius repellendus harum, excepturi, dolorem vero quisquam. Fugiat, quod ad.
+                            </p>
+                        </div>
+                        <div class="nav-footer">
+                            <a href="#" class="link pull-left">
+                                Like
+                            </a>
+                            <a href="#" class="comment pull-left">
+                                Comment
+                            </a>
+                            <a href="#" class="delete pull-right">
+                                Delete
+                            </a>
+                        </div>
+                    </section>
+		<section class="post boxx addon">
+                        <div class="post-body">
+                            <img src="resources/user_silhouette_generic.png">
+                            <div class="author-box">
+                                <a href="#">
+                                    Harry Potter
+                                </a>
+                                <time datetime="5/21/2014" pubdate>
+                                Posted on Thursday 5/21/2014
+                                </time>
+                            </div>
+                            <p class="comment-area">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora inventore praesentium, distinctio saepe facere, dolores laboriosam magnam id cum eius repellendus harum, excepturi, dolorem vero quisquam. Fugiat, quod ad.
+                            </p>
+                        </div>
+                        <div class="nav-footer">
+                            <div class="clearfix">
+                                <a href="#" class="like pull-left">
+                                    Link
+                                </a>
+                                <a href="#" class="comment pull-left">
+                                    Comment
+                                </a>
+                                <a href="#" class="delete pull-right">
+                                    Delete
+                                </a>
+                            </div>
+                            <div class="liked-box">
+                                <a href="#" class="liking">
+                                    Hermione Granger
+                                </a>
+                                <p>
+                                    likes this
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+<section class="post boxx addon">
+                        <div class="post-body">
+                            <img src="resources/user_silhouette_generic.png">
+                            <div class="author-box">
+                                <a href="#">
+                                    Harry Potter
+                                </a>
+                                <time datetime="5/21/2014" pubdate>
+                                Posted on Thursday 5/21/2014
+                                </time>
+                            </div>
+                            <p class="comment-area">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora inventore praesentium, distinctio saepe facere, dolores laboriosam magnam id cum eius repellendus harum, excepturi, dolorem vero quisquam. Fugiat, quod ad.
+                            </p>
+                        </div>
+                        <div class="nav-footer">
+                            <div class="clearfix">
+                                <a href="#" class="like pull-left">
+                                    Unike
+                                </a>
+                                <a href="#" class="delete pull-right">
+                                    Delete
+                                </a>
+                            </div>
+                            <div class="liked-box">
+                                <p>
+                                    You and
+                                </p>
+                                <a href="#" class="liking">
+                                    Hermione Granger
+                                </a>
+                                <p>
+                                    and 3 other like this
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="post-body unfolded">
+                            <img src="resources/user_silhouette_generic.png">
+                            <div class="author-box">
+                                <a href="#">
+                                    Ron Weasley
+                                </a>
+                                <time datetime="5/21/2014" pubdate>
+                                Posted on Thursday 5/21/2014
+                                </time>
+                            </div>
+                            <div class="comment-area">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora inventore praesentium, distinctio saepe facere, dolores laboriosam magnam id cum eius repellendus harum, excepturi, dolorem vero quisquam. Fugiat, quod ad.
+                                </p>
+                                <div class="like-area">
+                                    <div class="clearfix">
+                                        <a href="#" class="like pull-left">
+                                            Like
+                                        </a>
+                                        3 other people like this
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-body unfolded">
+                                <img src="resources/user_silhouette_generic.png">
+                                <div class="author-box">
+                                    <a href="#">
+                                        Ron Weasley
+                                    </a>
+                                    <time datetime="5/22/2014" pubdate>
+                                    Posted on Thursday 5/21/2014
+                                    </time>
+                                </div>
+                                <div class="comment-area">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum tempora inventore praesentium, distinctio saepe facere, dolores laboriosam magnam id cum eius repellendus harum, excepturi, dolorem vero quisquam. Fugiat, quod ad.
+                                    </p>
+                                    <div class="like-area">
+                                        <a href="#" class="like pull-left">
+                                            Like
+                                        </a>
+                                        3 other people like this
+                                        <a href="#" class="delete pull-right">
+                                            Delete
+                                        </a>
+                                    </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message" rows="6">Tell the world something...</textarea>
+                                    <div class="nav-footer">
+                                        <div class="clearfix">
+                                            <a href="#" class="like pull-left">
+                                                Cancel
+                                            </a>
+                                            <button type="button" class="btn btn-primary btn-sm">Comment</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+			</div>
+		</div>
+            </main>
+    </body>
+</html>
