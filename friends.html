@@ -1,1 +1,173 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Danebook</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" >
+      <link rel="stylesheet" href="styles.css">
+    </head>
+  <body>
+  <!--navbar-->
+  <nav id="navbar-background" class="navbar navbar-default navbar-fixed-top">
+    <div class="container" id="nav-container">
+      <div class="navbar-header">
+          <a class="navbar-brand" id="navbar-font" href="#">
+            <span><img src="danish_flag.gif" class="img-circle" id="navbar-image"></span>
+            Danebook
+          </a>
+      </div>
+      <div class="collapse navbar-collapse" >
+        <form class="navbar-form" ><!--navbar right-->
+          <div class="form-group">
+            <input type="text" id="navbar-srch-field" class="form-control srch-field-padding" placeholder="Search for Users">
+            <div class="nav navbar-nav navbar-right left175">
+              Harry
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+<main>
+  <div class="container">
+    <!--Row for Hogwarts Img-->
+    <div class="row" id="hogwarts-image-setup">
+      <div>
+        <img id="hogwarts-image" src="hogwarts_small.jpg">
+      </div>
+      <div>
+        <img class="img-on-top img-responsive" src="harry_potter_small.jpg">
+      </div>
+      <div class="caption">
+        <h4 class="col-xs-2 col-xs-offset-2">Harry Potter</h4>
+      </div>
+    </div>
+        <!--Nav links-->
+    <div class="row borders">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="btn-group btn-group-lg" role="group">
+          <a href="timeline.html" class="btn btn-default" role="button">Timeline</a>
+          <a href="about.html" class="btn btn-default">About</a>
+          <a href="photos.html" class="btn btn-default">Photos <span>(123)</span></a>
+          <a href="friends.html" class="btn btn-default disabled">Friends<span>(542)</span></a>
+        </div>
+      </div>
+      <div class="col-sm-2 col-sm-offset-1">
+        <a class="edit-profile-link" href="about_edit.html">Edit Profile</a>
+      </div>
+    </div>
+    <!--Container for Friends-->
+    <div class="row borders top_30">
+      <div class="col-md-12 gray-header borders">
+        <center><h2>Friends</h2></center>
+      </div>
+      <!--Friends no.1-->
+    <section>
+      <div class="row top_30 bottom30">
+        <div class="col-md-12 top16">
+          <div class="col-md-5 col-md-offset-1 right16 borders">
+            <div class="col-md-2">
+              <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
+            </div>
+            <div class="col-md-5 col-md-offset-1 top_30">
+              <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
+              <p><span>432 Friends</span></p>
+            </div>
+            <div class="col-md-2 top_30">
+              <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
+            </div>
+          </div>
+          <!--Friend no.2-->
+          <div class="col-md-5 borders">
+            <div class="col-md-2">
+              <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
+            </div>
+            <div class="col-md-5 col-md-offset-1 top_30">
+              <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
+              <p><span>432 Friends</span></p>
+            </div>
+            <div class="col-md-2 top_30">
+              <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Friends no.3-->
+      <div class="row top_30 bottom30">
+        <div class="col-md-12 top16">
+          <div class="col-md-5 col-md-offset-1 right16 borders">
+            <div class="col-md-2">
+              <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
+            </div>
+            <div class="col-md-5 col-md-offset-1 top_30">
+              <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
+              <p><span>432 Friends</span></p>
+            </div>
+            <div class="col-md-2 top_30">
+              <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
+            </div>
+          </div>
+          <!--Friends no.4-->
+          <div class="col-md-5 borders">
+            <div class="col-md-2">
+              <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
+            </div>
+            <div class="col-md-5 col-md-offset-1 top_30">
+              <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
+              <p><span>432 Friends</span></p>
+            </div>
+            <div class="col-md-2 top_30">
+              <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Friends no.5-->
+      <div class="row top_30 bottom30">
+        <div class="col-md-12 top16">
+          <div class="col-md-5 col-md-offset-1 right16 borders">
+            <div class="col-md-2">
+              <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
+            </div>
+            <div class="col-md-5 col-md-offset-1 top_30">
+              <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
+              <p><span>432 Friends</span></p>
+            </div>
+            <div class="col-md-2 top_30">
+              <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
+            </div>
+          </div>
+          <!--Friends no.6-->
+          <div class="col-md-5 borders">
+            <div class="col-md-2">
+              <img class="timeline-photos icon-padding" src="user_silhouette_generic.gif">
+            </div>
+            <div class="col-md-5 col-md-offset-1 top_30">
+              <p class="link-height"><a class="link-style" href="#">Hermione Granger</a></p>
+              <p><span>432 Friends</span></p>
+            </div>
+            <div class="col-md-2 top_30">
+              <button class="btn btn-default btn-shdw gray-header" href="#" role="button">Unfriend Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Close Friends Container-->
+    </div>
+   <!--close container-->
+    </div>
+  </main>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <!-- Bootstrap JavaScript -->
+      <script src="/js/bootstrap.min.js" ></script>
+    </body>
+</html>

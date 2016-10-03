@@ -1,1 +1,122 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Danebook</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!--navbar-->
+    <nav id="navbar-background" class="navbar navbar-default navbar-fixed-top">
+      <div class="container" id="nav-container">
+        <div class="navbar-header">
+            <a class="navbar-brand" id="navbar-font" href="#">
+              <span><img src="danish_flag.gif" class="img-circle" id="navbar-image"></span>
+              Danebook
+            </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <form class="navbar-form" ><!--navbar-right-->
+            <div class="form-group">
+              <input type="text" id="navbar-srch-field" class="form-control" placeholder="Search for Users">
+              <div class="navbar-right left175">
+                Harry
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <main>
+    <div class="container">
+      <!--Row for Hogwarts Image-->
+      <div class="row" id="hogwarts-image-setup">
+        <div>
+          <img id="hogwarts-image" src="hogwarts_small.jpg">
+        </div>
+        <div>
+          <img class="img-on-top img-responsive" src="harry_potter_small.jpg">
+        </div>
+        <div class="caption">
+          <h4 class="col-xs-2 col-xs-offset-2">Harry Potter</h4>
+        </div>
+      </div>
+      <!--Nav links-->
+      <div class="row borders">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="btn-group btn-group-lg" role="group">
+            <a href="timeline.html" class="btn btn-default" role="button">Timeline</a>
+            <a href="about.html" class="btn btn-default disabled">About</a>
+            <a href="photos.html" class="btn btn-default">Photos <span>(123)</span></a>
+            <a href="friends.html" class="btn btn-default">Friends<span>(542)</span></a>
+          </div>
+        </div>
+        <div class="col-sm-2 col-sm-offset-1">
+          <a class="edit-profile-link" href="about_edit.html">Edit Profile</a>
+        </div>
+      </div>
+      <!--About section header-->
+      <div class="row borders top_30 gray-header" id="about-section-header">
+        <div class="col-xs-1 col-xs-offset-5">
+          <h2>About</h2>
+        </div>
+        <div class="pull-right">
+          <a href="about_edit.html"><button type="button" class="btn btn-primary edit-profile-button btn-shdw">Edit Your Profile</button></a>
+        </div>
+      </div>
+      <!--Rows for Data-->
+      <div class="row borders bottom-pads">
+        <!--leftside-->
+        <div class="col-md-5">
+          <h3>Basic Information</h3>
+          <div class="row">
+            <div class="col-md-4 pull-left">
+              <p>Birthday:</p>
+              <p>College:</p>
+              <p>Hometown:</p>
+              <p>Currently Lives:</p>
+            </div>
+            <div class="col-md-7 pull-right">
+              <p>July 31st, 1980</p>
+              <p>Hogwarts College</p>
+              <p>Godrick's Hollow, England</p>
+              <p>Godrick's Hollow, England</p>
+            </div>
+          </div>
+          <h3>Contact Information</h3>
+          <div class="row">
+            <div class="col-md-3 pull-left">
+              <p>Email:</p>
+              <p>Telephone:</p>
+            </div>
+            <div class="col-md-7 pull-right">
+              <p>harry_potter@hogwarts.edu</p>
+              <p>555-123-4567</p>
+            </div>
+          </div>
+        </div>
+      <!--right side-->
+        <div class="col-md-7 pull-right">
+          <h3>Words to Live By</h3>
+          <p>Id mollit laboris exercitation labore excepteur enim laborum exercitation. Nostrud aliqua ullamco magna ullamco commodo aliquip adipisicing.
+          </p>
+          <h3>About Me</h3>
+          <p>Consequat qui aliquip exercitation enim quis id amet do. Cupidatat reprehenderit voluptate consectetur elit nisi anim nulla quis magna eiusmod Lorem aliquip ad officia. Aute nostrud qui aute do commodo eu occaecat irure cupidatat. Proident voluptate laboris velit non elit officia reprehenderit adipisicing magna cupidatat dolor adipisicing eiusmod id in. Velit adipisicing id pariatur minim ut amet exercitation ullamco ullamco labore cupidatat consequat exercitation. Duis anim laborum adipisicing laborum officia veniam ex ex adipisicing. Voluptate magna labore exercitation dolore nostrud adipisicing reprehenderit nulla proident. Adipisicing sit dolore consequat officia Lorem magna culpa aute minim quis sunt nulla.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap JavaScript -->
+    <script src="/js/bootstrap.min.js" ></script>
+  </body>
+</html>
