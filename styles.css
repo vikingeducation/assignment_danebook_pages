@@ -31,7 +31,8 @@ body {
   width: 705px; }
 
 .srch-field-padding {
-  margin-top: 18px; }
+  margin-top: 18px;
+  margin-bottom: 18px; }
 
 #navbar-font {
   color: white;
@@ -63,9 +64,6 @@ body {
   height: 200px;
   width: 140px; }
 
-@media screen and (max-width: 991px) {
-  .img-on-top {
-    top: 180px; } }
 .btn-shdw {
   box-shadow: 2px 2px black; }
 
@@ -76,15 +74,6 @@ body {
   position: absolute;
   color: white; }
 
-@media screen and (max-width: 991px) {
-  .caption {
-    left: 90px; } }
-@media screen and (max-width: 1199px) {
-  #navbar-srch-field {
-    width: 500px; } }
-@media screen and (max-width: 991px) {
-  #navbar-srch-field {
-    width: 275px; } }
 .borders {
   border: solid 1px black; }
 
@@ -178,5 +167,18 @@ h3 {
 .btn-large {
   height: 65px;
   width: 360px; }
+
+@media screen and (max-width: 991px) {
+  .caption {
+    left: 90px; } }
+@media screen and (max-width: 1199px) {
+  #navbar-srch-field {
+    width: 500px; } }
+@media screen and (max-width: 991px) {
+  #navbar-srch-field {
+    width: 275px; } }
+@media screen and (max-width: 991px) {
+  .img-on-top {
+    top: 180px; } }
 
 /*# sourceMappingURL=styles.css.map */
