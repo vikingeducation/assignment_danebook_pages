@@ -1,4 +1,13 @@
-body {
-  background-color: red; }
+/* base */
+header {
+  background-color: #2b78e4; }
+  header a, header a:hover, header a:visited {
+    color: #fff;
+    text-decoration: none; }
+
+/* module */
+.custom-logo-img {
+  height: 25px;
+  width: 25px; }
 
 /*# sourceMappingURL=screen.css.map */
