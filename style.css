@@ -52,4 +52,23 @@
   float: right;
   padding: 1em; }
 
+.panel {
+  margin-top: 1em;
+  position: relative; }
+
+.panel > .row {
+  margin: 1em; }
+
+.panel-heading {
+  text-align: center;
+  font-size: 1.5em; }
+
+.edit-profile-button {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+table td:first-of-type {
+  font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
