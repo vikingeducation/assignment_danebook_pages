@@ -42,5 +42,7 @@ h2 {
   margin: 10px 0; }
   .custom-info .custom-info-label {
     font-weight: bold; }
+  .custom-info .custom-info-form {
+    text-align: left; }
 
 /*# sourceMappingURL=screen.css.map */
