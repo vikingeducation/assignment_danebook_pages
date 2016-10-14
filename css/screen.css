@@ -9,26 +9,30 @@ h2 {
   color: #fff; }
 
 /* positioning */
-.cover-inside {
+.custom-cover-inside {
   position: relative;
   left: 30px;
   top: 130px;
   z-index: 1; }
-  .cover-inside .name {
+  .custom-cover-inside .custom-name {
     position: relative;
     left: 20px;
     top: 105px; }
+
+.custom-middle-nav {
+  position: relative;
+  left: 230px; }
 
 /* module */
 .custom-logo-img {
   height: 25px;
   width: 25px; }
 
-.cover {
+.custom-cover {
   background: url("../images/hogwarts_small.jpg") no-repeat center center;
   background-size: cover;
   height: 300px; }
-  .cover .profile {
+  .custom-cover .custom-profile {
     background: url("../images/harry_potter_small.jpg") no-repeat 80% 10%;
     height: 200px;
     width: 200px; }
