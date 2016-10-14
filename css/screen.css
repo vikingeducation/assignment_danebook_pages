@@ -5,9 +5,32 @@ header {
     color: #fff;
     text-decoration: none; }
 
+h2 {
+  color: #fff; }
+
+/* positioning */
+.cover-inside {
+  position: relative;
+  left: 30px;
+  top: 130px;
+  z-index: 1; }
+  .cover-inside .name {
+    position: relative;
+    left: 20px;
+    top: 105px; }
+
 /* module */
 .custom-logo-img {
   height: 25px;
   width: 25px; }
+
+.cover {
+  background: url("../images/hogwarts_small.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px; }
+  .cover .profile {
+    background: url("../images/harry_potter_small.jpg") no-repeat 80% 10%;
+    height: 200px;
+    width: 200px; }
 
 /*# sourceMappingURL=screen.css.map */
