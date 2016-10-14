@@ -8,6 +8,9 @@ header {
     color: #fff;
     text-decoration: none; }
 
+.custom-name {
+  color: #fff; }
+
 h2 {
   text-align: center;
   margin: 0; }
