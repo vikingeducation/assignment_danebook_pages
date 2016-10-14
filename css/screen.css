@@ -1,4 +1,7 @@
 /* base */
+body {
+  padding-bottom: 50px; }
+
 header {
   background-color: #2b78e4; }
   header a, header a:hover, header a:visited {
