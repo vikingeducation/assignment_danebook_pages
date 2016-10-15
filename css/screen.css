@@ -11,7 +11,7 @@ header {
 .custom-name {
   color: #fff; }
 
-h2 {
+h2, h4 {
   text-align: center;
   margin: 0; }
 
@@ -50,5 +50,10 @@ h2 {
     font-weight: bold; }
   .custom-info .custom-info-form {
     text-align: left; }
+
+.custom-post-header {
+  margin-bottom: 20px; }
+  .custom-post-header img {
+    margin-right: 10px; }
 
 /*# sourceMappingURL=screen.css.map */
