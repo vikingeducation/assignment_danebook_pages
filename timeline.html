@@ -158,7 +158,9 @@
         <article class="panel panel-default">
           <div class="panel-body">
             <div class="custom-post-header clearfix">
-              <img src="images/harry_potter_small.jpg" alt="" class="img-thumbnail pull-left custom-poster">
+              <a href="about.html">
+                <img src="images/harry_potter_small.jpg" alt="Harry Potter" class="img-thumbnail pull-left custom-poster">
+              </a>
               <div class="col-xs-10">
                 <a href="about.html">Harry Potter</a>
                 <p>Posted on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time></p>
@@ -178,7 +180,9 @@
         <article class="panel panel-default">
           <div class="panel-body">
             <div class="custom-post-header clearfix">
-              <img src="images/harry_potter_small.jpg" alt="" class="img-thumbnail pull-left custom-poster">
+              <a href="about.html">
+                <img src="images/harry_potter_small.jpg" alt="Harry Potter" class="img-thumbnail pull-left custom-poster">
+              </a>
               <div class="col-xs-10">
                 <a href="about.html">Harry Potter</a>
                 <p>Posted on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time></p>
@@ -200,7 +204,9 @@
         <article class="panel panel-default">
           <div class="panel-body">
             <div class="custom-post-header clearfix">
-              <img src="images/harry_potter_small.jpg" alt="Harry Potter" class="img-thumbnail pull-left custom-poster">
+              <a href="about.html">
+                <img src="images/harry_potter_small.jpg" alt="Harry Potter" class="img-thumbnail pull-left custom-poster">
+              </a>
               <div class="col-xs-10">
                 <a href="about.html">Harry Potter</a>
                 <p>Posted on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time></p>
@@ -219,27 +225,51 @@
 
 
             <div class="custom-comment clearfix">
-              <img src="images/user_silhouette_generic.gif" class="img-thumbnail pull-left custom-poster" alt="Ron Weasley">
-              <div class="col-xs-10">
-                <div class="custom-post-header">
-                  <a href="#">Ron Weasley</a> said on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time>
+              <div class="row">
+                <div class="col-xs-2">
+                  <a href="#">
+                    <img src="images/user_silhouette_generic.gif" class="img-thumbnail pull-right custom-poster" alt="Ron Weasley">
+                  </a>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore suscipit deleniti voluptatibus ipsa in, sapiente tempora cumque quisquam nesciunt odio iure repudiandae qui quaerat quasi amet, dicta vel atque repellat.</p>
-                <a href="#">Like</a>
-              </div>
+                <div class="col-xs-10">
+                  <div class="custom-post-header">
+                    <a href="#">Ron Weasley</a> said on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore suscipit deleniti voluptatibus ipsa in, sapiente tempora cumque quisquam nesciunt odio iure repudiandae qui quaerat quasi amet, dicta vel atque repellat.</p>
+                  <a href="#">Like</a> 3 people liked this
+                </div>
+              </div><!-- row -->
             </div><!-- post comment -->
 
 
             <div class="custom-comment clearfix">
-              <img src="images/harry_potter_small.jpg" class="img-thumbnail pull-left custom-poster" alt="Harry Potter">
-              <div class="col-xs-10">
-                <div class="custom-post-header">
-                  <a href="#">Harry Potter</a> said on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time>
+              <div class="row">
+                <div class="col-xs-2">
+                  <a href="about.html">
+                    <img src="images/harry_potter_small.jpg" class="img-thumbnail pull-right custom-poster" alt="Harry Potter">
+                  </a>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore suscipit deleniti voluptatibus ipsa in, sapiente tempora cumque quisquam nesciunt odio iure repudiandae qui quaerat quasi amet, dicta vel atque repellat.</p>
-                <a href="#">Like</a>
-              </div>
+                <div class="col-xs-10 clearfix">
+                  <div class="custom-post-header">
+                    <a href="about.html">Harry Potter</a> said on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore suscipit deleniti voluptatibus ipsa in, sapiente tempora cumque quisquam nesciunt odio iure repudiandae qui quaerat quasi amet, dicta vel atque repellat.</p>
+                  <a href="#">Like</a> 3 people liked this
+                  <a href="" class="pull-right">Delete</a>
+                </div>
+              </div><!-- row -->
             </div><!-- post comment -->
+
+            <div class="clearfix">
+              <form action="">
+                <div class="form-group">
+                  <textarea class="form-control" id="create-comment" rows="3" placeholder="Write a comment..."></textarea>
+                </div>
+                <a href="#">Cancel</a>
+                <a href="#" class="btn btn-primary pull-right">Comment</a>
+              </form>
+            </div>
+
 
 
           </div><!-- panel footer -->
