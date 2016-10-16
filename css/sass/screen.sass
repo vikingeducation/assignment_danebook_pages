@@ -43,6 +43,20 @@ h2, h4
   position: relative
   left: 230px
 
+/* photos page */
+.hover
+  position: relative
+  width: 160px
+  height: 160px
+  display: inline
+
+.overlay
+  position: absolute
+  top: 50px
+  left: 0
+  height: 25px
+  width: 100%
+
 
 
 
@@ -104,3 +118,19 @@ h2, h4
 
 .custom-friend-pic
   height: 120px
+
+
+
+
+/* photos page */
+.custom-photos img
+  margin: 10px 8px
+
+.overlay
+  display: none
+  color: $white
+  padding: 5px 0
+  background-color: rgba(0,0,0,0.7)
+
+.hover:hover .overlay
+  display: block
