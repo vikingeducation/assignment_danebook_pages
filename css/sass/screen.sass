@@ -27,8 +27,8 @@ h2, h4
 /* positioning */
 .custom-cover-inside
   position: relative
-  left: 30px
-  top: 130px
+  left: 20px
+  top: 120px
   z-index: 1
 
   .custom-name
@@ -44,6 +44,7 @@ h2, h4
 
 
 /* module */
+/* top section photos */
 .custom-logo-img
   height: 25px
   width: 25px
@@ -53,11 +54,8 @@ h2, h4
   background-size: cover
   height: 300px
 
-  .custom-profile
-    background: url('../images/harry_potter_small.jpg') no-repeat 80% 10%
-    height: 200px
-    width: 200px
 
+/* about page */
 .custom-info
   margin: 10px 0
 
@@ -67,11 +65,20 @@ h2, h4
   .custom-info-form
     text-align: left
 
+/* timeline page */
 .custom-margin
-  padding-right: 0
+  padding-right: 0 /* fixes margin for 2 column layout on timeline page */
 
-.custom-post-header
-  margin-bottom: 20px
+/* each comment on a post, any post's poster info */
+.custom-comment, .custom-post-header
+  margin: 10px 0
 
-  img
-    margin-right: 10px
+/* poster's profile pic */
+.custom-poster
+  height: 55px
+  width: 55px
+
+/* people who liked the post */
+.custom-post-liked
+  border-bottom: 1px solid #e7e7e7
+  padding: 15px 0
