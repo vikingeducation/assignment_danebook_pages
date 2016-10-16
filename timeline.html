@@ -1,1 +1,403 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danebook - Timeline</title>
+
+  <!-- MINIFIED BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/screen.css">
+</head>
+<body>
+
+<!-- TOP NAVBAR -->
+  <header class="navbar">
+    <div class="container">
+
+      <!-- NAV LOGO & TOGGLE -->
+      <nav class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="about.html">
+          <img alt="Danebook Logo" src="images/danish_flag.gif" class="img-circle custom-logo-img">
+        </a>
+        <a href="about.html" class="navbar-brand">Danebook</a>
+      </nav>
+
+
+      <!-- SEARCH BAR & PROFILE NAME -->
+      <nav class="collapse navbar-collapse" id="navbar">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search for Users">
+          </div>
+        </form>
+        <a href="about.html" class="navbar-text navbar-right">Harry</a>
+      </nav>
+
+
+    </div><!-- .container -->
+  </header><!-- top navbar -->
+
+
+
+
+<!-- MAIN -->
+  <main class="container">
+
+  <!-- COVER/PROFILE/NAV LINKS -->
+    <section class="row">
+      <div class="custom-cover">
+        <div class="custom-cover-inside clearfix">
+          <div class="pull-left">
+            <img src="images/harry_potter_small.jpg" class="img-thumbnail" alt="Harry's Profile Picture">
+          </div>
+          <h1 class="custom-name pull-left">Harry Potter</h1>
+        </div>
+      </div>
+
+
+    <!-- MIDDLE NAV -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <ul class="nav navbar-nav custom-middle-nav">
+            <li class="active">
+              <a href="timeline.html">Timeline<span class="sr-only"> (current)</span></a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="photos.html">Photos (123)</a>
+            </li>
+            <li>
+              <a href="friends.html">Friends (542)</a>
+            </li>
+          </ul>
+
+          <div class="navbar-nav navbar-right">
+            <a href="about_edit.html" class="navbar-text navbar-link">Edit Profile</a></p>
+          </div>
+
+        </div>
+      </nav>
+    </section><!-- top section (cover photo & middle nav) -->
+
+
+
+
+  <!-- TIMELINE SECTION  -->
+    <section class="row">
+
+    <!-- LEFT -->
+      <aside class="col-sm-5">
+        <div class="row">
+
+
+        <article class="panel panel-default">
+          <div class="panel-heading">
+            <h4>About</h4>
+          </div>
+          <div class="panel-body">
+            <div class="col-xs-12">
+              <p><span class="custom-info-label">Born on:</span> July 31st, 1980</p>
+              <p><span class="custom-info-label">Went to school at:</span> Hogwarts</p>
+              <p><span class="custom-info-label">Hometown:</span> Godrick's Hollow, England</p>
+              <p><span class="custom-info-label">Currently Lives:</span> Godrick's Hollow</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel panel-default">
+          <div class="panel-heading">
+            <h4>Photos (123)</h4>
+          </div>
+          <div class="panel-body">
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+            </div>
+
+
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+            </div>
+
+
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+              <a href="#">
+                <img src="images/icon_photo_small.png" alt="Photo" class="img-thumbnail">
+              </a>
+            </div>
+
+
+            <p class="text-center">
+              <a href="photos.html">See More Photos</a>
+            </p>
+          </div>
+        </article>
+
+
+
+
+        <article class="panel panel-default">
+          <div class="panel-heading">
+            <h4>Friends (542)</h4>
+          </div>
+          <div class="panel-body">
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/user_silhouette_generic.gif" alt="Ron Weasley" class="img-thumbnail">
+              </a>
+              <p class="text-center">
+                <a href="#">Ron Weasley</a>
+              </p>
+            </div>
+
+
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/user_silhouette_generic.gif" alt="Ginny Weasley" class="img-thumbnail">
+              </a>
+              <p class="text-center">
+                <a href="#">Ginny Weasley</a>
+              </p>
+            </div>
+
+
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/user_silhouette_generic.gif" alt="Hermione Granger" class="img-thumbnail">
+              </a>
+              <p class="text-center">
+                <a href="#">Hermione Granger</a>
+              </p>
+            </div>
+
+
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/user_silhouette_generic.gif" alt="Fred Weasley" class="img-thumbnail">
+              </a>
+              <p class="text-center">
+                <a href="#">Fred Weasley</a>
+              </p>
+            </div>
+
+
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/user_silhouette_generic.gif" alt="George Weasley" class="img-thumbnail">
+              </a>
+              <p class="text-center">
+                <a href="#">George Weasley</a>
+              </p>
+            </div>
+
+
+            <div class="col-sm-4">
+              <a href="#">
+                <img src="images/user_silhouette_generic.gif" alt="Luna Lovegood" class="img-thumbnail">
+              </a>
+              <p class="text-center">
+                <a href="#">Luna Lovegood</a>
+              </p>
+            </div>
+
+
+            <p class="text-center">
+              <a href="friends.html">See More Friends</a>
+            </p>
+
+          </div>
+        </article>
+
+        </div>
+      </aside><!-- left -->
+
+
+
+
+    <!-- RIGHT -->
+      <div class="col-sm-7 custom-margin">
+
+
+      <!-- POST CREATION -->
+        <article class="panel panel-default">
+          <div class="panel-heading">
+            <h4>Post</h4>
+          </div>
+          <div class="panel-body">
+            <form action="">
+              <textarea class="form-control" id="create-post" rows="3" placeholder="Tell the world something..."></textarea>
+            </form>
+          </div>
+          <div class="panel-footer clearfix">
+            <a href="#" class="btn btn-primary pull-right">Post</a>
+          </div>
+        </article>
+
+
+      <!-- EXISTING POSTS -->
+        <article class="panel panel-default">
+          <div class="panel-body">
+            <div class="custom-post-header clearfix">
+              <a href="about.html">
+                <img src="images/harry_potter_small.jpg" alt="Harry Potter" class="img-thumbnail pull-left custom-poster">
+              </a>
+              <div class="col-xs-10">
+                <a href="about.html">Harry Potter</a>
+                <p>Posted on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time></p>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae fuga atque corporis sint saepe iure, eius assumenda eligendi, inventore a quam provident maiores illum ducimus commodi iusto modi nostrum ipsam.
+            </p>
+          </div>
+          <div class="panel-footer">
+            <a href="#">Like</a>
+            <a href="#">Comment</a>
+            <a href="#" class="pull-right">Delete</a>
+          </div>
+        </article>
+
+        <article class="panel panel-default">
+          <div class="panel-body">
+            <div class="custom-post-header clearfix">
+              <a href="about.html">
+                <img src="images/harry_potter_small.jpg" alt="Harry Potter" class="img-thumbnail pull-left custom-poster">
+              </a>
+              <div class="col-xs-10">
+                <a href="about.html">Harry Potter</a>
+                <p>Posted on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time></p>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae fuga atque corporis sint saepe iure, eius assumenda eligendi, inventore a quam provident maiores illum ducimus commodi iusto modi nostrum ipsam.
+            </p>
+          </div>
+          <div class="panel-footer">
+            <a href="#">Like</a>
+            <a href="#">Comment</a>
+            <a href="#" class="pull-right">Delete</a>
+          </div>
+        </article>
+
+
+      <!-- LIKED POST -->
+        <article class="panel panel-default">
+          <div class="panel-body">
+            <div class="custom-post-header clearfix">
+              <a href="about.html">
+                <img src="images/harry_potter_small.jpg" alt="Harry Potter" class="img-thumbnail pull-left custom-poster">
+              </a>
+              <div class="col-xs-10">
+                <a href="about.html">Harry Potter</a>
+                <p>Posted on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time></p>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae fuga atque corporis sint saepe iure, eius assumenda eligendi, inventore a quam provident maiores illum ducimus commodi iusto modi nostrum ipsam.
+            </p>
+          </div>
+          <div class="panel-footer">
+            <a href="#">Unlike</a>
+            <a href="#" class="pull-right">Delete</a>
+            <div class="custom-post-liked">
+              You, <a href="#">Hermione Granger</a>, and 3 others like this.
+            </div>
+
+
+            <div class="custom-comment clearfix">
+              <div class="row">
+                <div class="col-xs-2">
+                  <a href="#">
+                    <img src="images/user_silhouette_generic.gif" class="img-thumbnail pull-right custom-poster" alt="Ron Weasley">
+                  </a>
+                </div>
+                <div class="col-xs-10">
+                  <div class="custom-post-header">
+                    <a href="#">Ron Weasley</a> said on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore suscipit deleniti voluptatibus ipsa in, sapiente tempora cumque quisquam nesciunt odio iure repudiandae qui quaerat quasi amet, dicta vel atque repellat.</p>
+                  <a href="#">Like</a> 3 people liked this
+                </div>
+              </div><!-- row -->
+            </div><!-- post comment -->
+
+
+            <div class="custom-comment clearfix">
+              <div class="row">
+                <div class="col-xs-2">
+                  <a href="about.html">
+                    <img src="images/harry_potter_small.jpg" class="img-thumbnail pull-right custom-poster" alt="Harry Potter">
+                  </a>
+                </div>
+                <div class="col-xs-10 clearfix">
+                  <div class="custom-post-header">
+                    <a href="about.html">Harry Potter</a> said on <time datetime="2016-10-14 08:00">Thursday 10/14/2016</time>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore suscipit deleniti voluptatibus ipsa in, sapiente tempora cumque quisquam nesciunt odio iure repudiandae qui quaerat quasi amet, dicta vel atque repellat.</p>
+                  <a href="#">Like</a> 3 people liked this
+                  <a href="" class="pull-right">Delete</a>
+                </div>
+              </div><!-- row -->
+            </div><!-- post comment -->
+
+            <div class="clearfix">
+              <form action="">
+                <div class="form-group">
+                  <textarea class="form-control" id="create-comment" rows="3" placeholder="Write a comment..."></textarea>
+                </div>
+                <a href="#">Cancel</a>
+                <a href="#" class="btn btn-primary pull-right">Comment</a>
+              </form>
+            </div>
+
+
+
+          </div><!-- panel footer -->
+        </article>
+
+      </div><!-- right -->
+
+
+    </section><!-- timeline section -->
+
+  </main>
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- MINIFIED BOOTSTRAP JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

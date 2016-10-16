@@ -1,1 +1,205 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danebook - Edit Profile</title>
+
+  <!-- MINIFIED BOOTSTRAP CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/screen.css">
+</head>
+<body>
+
+<!-- TOP NAVBAR -->
+  <header class="navbar">
+    <div class="container">
+
+      <!-- NAV LOGO & TOGGLE -->
+      <nav class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="about.html">
+          <img alt="Danebook Logo" src="images/danish_flag.gif" class="img-circle custom-logo-img">
+        </a>
+        <a href="about.html" class="navbar-brand">Danebook</a>
+      </nav>
+
+
+      <!-- SEARCH BAR & PROFILE NAME -->
+      <nav class="collapse navbar-collapse" id="navbar">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search for Users">
+          </div>
+        </form>
+        <a href="about.html" class="navbar-text navbar-right">Harry</a>
+      </nav>
+
+
+    </div><!-- .container -->
+  </header><!-- top navbar -->
+
+
+
+
+<!-- MAIN -->
+  <main class="container">
+
+  <!-- COVER/PROFILE/NAV LINKS -->
+    <section class="row">
+      <div class="custom-cover">
+        <div class="custom-cover-inside clearfix">
+          <div class="pull-left">
+            <img src="images/harry_potter_small.jpg" class="img-thumbnail" alt="Harry's Profile Picture">
+          </div>
+          <h1 class="custom-name pull-left">Harry Potter</h1>
+        </div>
+      </div>
+
+
+    <!-- MIDDLE NAV -->
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <ul class="nav navbar-nav custom-middle-nav">
+            <li>
+              <a href="timeline.html">Timeline</a>
+            </li>
+            <li class="active">
+              <a href="about.html">About<span class="sr-only"> (current)</span></a>
+            </li>
+            <li>
+              <a href="photos.html">Photos (123)</a>
+            </li>
+            <li>
+              <a href="friends.html">Friends (542)</a>
+            </li>
+          </ul>
+
+
+        </div>
+      </nav>
+    </section><!-- top section (cover photo & middle nav) -->
+
+
+
+
+  <!-- ABOUT SECTION  -->
+    <section class="row">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2>About</h2>
+        </div>
+        <div class="panel-body">
+
+
+        <!-- LEFT PANEL (INFO) -->
+          <div class="col-sm-4 col-sm-offset-1">
+            <h3>Basic Information</h3>
+
+            <div class="row custom-info">
+              <div class="col-xs-4 custom-info-label">
+                <div class="row">
+                  Birthday
+                </div>
+              </div>
+              <div class="col-xs-8">July 31st, 1980</div>
+            </div>
+
+            <div class="row custom-info">
+              <form action="" class="form-horizontal">
+                <div class="form-group">
+                  <label for="college" class="col-xs-4 control-label custom-info-form">College</label>
+                  <div class="col-xs-8">
+                    <input type="text" class="form-control" id="college" value="Hogwarts College">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="hometown" class="col-xs-4 control-label custom-info-form">Hometown</label>
+                  <div class="col-xs-8">
+                    <input type="text" class="form-control" id="hometown" value="Godrick's Hollow, England">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="lives" class="col-xs-4 control-label custom-info-form">Currently Lives</label>
+                  <div class="col-xs-8">
+                    <input type="text" class="form-control" id="lives" value="Godrick's Hollow, England">
+                  </div>
+                </div>
+              </form>
+            </div>
+
+
+            <h3>Contact Information</h3>
+            <div class="row custom-info">
+              <div class="col-xs-4 custom-info-label">
+                <div class="row">
+                  Email
+                </div>
+              </div>
+              <div class="col-xs-8">harry_potter@hogwarts.edu</div>
+            </div>
+
+            <div class="row custom-info">
+              <form action="" class="form-horizontal">
+                <div class="form-group">
+                  <label for="phone" class="col-xs-4 control-label custom-info-form">Telephone</label>
+                  <div class="col-xs-8">
+                    <input type="tel" class="form-control" id="phone" value="555-123-4567">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div><!-- left panel -->
+
+
+
+
+        <!-- RIGHT PANEL (WORDS/ABOUT ME) -->
+          <div class="col-sm-5 col-sm-offset-1">
+            <form action="">
+              <div class="form-group">
+                <label for="words" class="custom-info-form">
+                  <h3>Words to Live By</h3>
+                </label>
+                <textarea rows="2" class="form-control" id="words">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>
+              </div>
+
+              <div class="form-group">
+                <label for="about-me" class="custom-info-form">
+                  <h3>About Me</h3>
+                </label>
+                <textarea rows="4" class="form-control" id="about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio voluptatum voluptatibus laudantium modi aliquam harum dignissimos vel necessitatibus quos, rerum in suscipit enim consectetur ratione, ducimus repellendus dolorum blanditiis nam.</textarea>
+              </div>
+            </form>
+          </div><!-- right panel -->
+
+
+        <!-- SAVE CHANGES BUTTON -->
+          <div class="col-sm-4 col-sm-offset-4">
+            <a href="#" class="btn btn-primary btn-lg btn-block">Save Changes</a>
+          </div>
+
+
+        </div><!-- panel body -->
+      </div><!-- panel -->
+
+    </section><!-- about_edit section -->
+
+  </main>
+
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- MINIFIED BOOTSTRAP JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
