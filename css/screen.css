@@ -30,7 +30,6 @@ h2, h4 {
   position: relative;
   left: 230px; }
 
-/* module */
 /* top section photos */
 .custom-logo-img {
   height: 25px;
@@ -44,10 +43,12 @@ h2, h4 {
 /* about page */
 .custom-info {
   margin: 10px 0; }
-  .custom-info .custom-info-label {
-    font-weight: bold; }
-  .custom-info .custom-info-form {
-    text-align: left; }
+
+.custom-info-label {
+  font-weight: bold; }
+
+.custom-info-form {
+  text-align: left; }
 
 /* timeline page */
 .custom-margin {
