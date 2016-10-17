@@ -15,12 +15,43 @@
 		<!--Google Font - Roboto-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
+		<!--Navigation Bar Stylesheet-->
+		<link rel="stylesheet" href="styles/nav_styles.css">
+
 		<!--Main Stylesheet-->
 		<link rel="stylesheet" href="styles/photos_styles.css">
 	</head>
 
 	<body>
 
+		<!--Navigation Bar-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-3">
+						<div class="navbar-header">
+							<div class="navbar-logo">
+								<a href="home.html">
+									<img alt="denmark flag logo" class="logo" src="assets/danish_flag.gif">
+								</a>
+							</div>
+							<a class="navbar-brand">Danebook</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-7">
+						<form class="navbar-user-search" class="form-inline">
+							<input type="text" class="form-control" placeholder="Search for Users">
+						</form>
+					</div>
+					<div class="col-xs-12 col-sm-2 col-md-2">
+						<div class="navbar-current-user">
+							<a href="about.html">Harry</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
 		<!--Bootstrap JS & jQuery-->
 		<!--at end for faster loading-->
 		<script src="jquery/jquery-3.1.1.min.js"></script>
