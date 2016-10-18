@@ -86,16 +86,16 @@
 			<div class="container">
 				<div class="row">
 					<!--Left Side - About, Photos, Friends-->
-					<section class="col-xs-5">
+					<div class="col-xs-5">
 						<div class="about">
 						</div>
 						<div class="photos">
 						</div>
 						<div class="friends">
 						</div>
-					</section>
+					</div>
 					<!--Right Side - Timeline Posts-->
-					<section class="col-xs-7">
+					<div class="col-xs-7">
 						<!--Make Post-->
 						<div class="make-post">
 							<div class="make-post-heading">
@@ -157,8 +157,83 @@
 						</article>
 						<!--Existing Post 3 (Liked & Comments)-->
 						<article class="timeline-post">
+							<div class="poster-photo">
+								<a href="about.html">
+									<img src="assets/harry_potter_small.jpg">
+								</a>
+							</div>
+							<div class="poster-info">
+								<a class="btn btn-link" href="about.html" role="button">Harry Potter</a>
+								<p>Posted on Thursday 5/21/2014</p>
+							</div>
+							<div class="post-content">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+							<div class="post-interaction">
+								<a class="btn btn-link like-button" href="#" role="button">Unlike</a>
+								<a class="btn btn-link comment-button" href="#" role="button">Comment</a>
+								<a class="btn btn-link delete-button" href="#" role="button">Delete</a>
+							</div>
+							<div class="post-likes">
+								You and <a href="#">Hermione Granger</a> and 3 others like this.
+							</div>
+							<!--Comments-->
+							<div class="post-comments">
+								<!--Comment 1-->
+								<div class="comment">
+									<div class="comment-poster-photo">
+										<a href="about.html">
+											<img src="assets/user_silhouette_generic.gif">
+										</a>	
+									</div>
+									<div class="comment-poster-info">
+										<a href="#">Ron Weasley</a>
+										<p>Said on Thursday 5/21/2014</p>
+									</div>
+									<div class="comment-post-content">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										</p>
+									</div>
+									<div class="comment-post-likes">
+										<a href="#">Like</a>
+										<p>3 other people like this</p>
+									</div>
+								</div>
+								<!--Comment 2-->
+								<div class="comment">
+									<div class="comment-poster-photo">
+										<a href="about.html">
+											<img src="assets/harry_potter_small.jpg">
+										</a>	
+									</div>
+									<div class="comment-poster-info">
+										<a href="about.html">Harry Potter</a>
+										<p>Said on Friday 5/22/2014</p>
+									</div>
+									<div class="comment-post-content">
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										</p>
+									</div>
+									<div class="comment-post-likes">
+										<a class="like-button" href="#">Like</a>
+										<p>3 other people like this</p>
+										<a class="delete-button" href="#">Delete</a>
+									</div>
+								</div>
+								<div class="comment-entry">
+									<textarea class="form-control" rows="6" placeholder="Write a comment..."></textarea>
+								</div>
+								<div class="comment-submission">
+									<a class="btn btn-link" href="#" role="button">Cancel</a>
+									<a class="btn btn-primary" href="#" role="button">Comment</a>
+								</div>
+							</div>
 						</article>
-					</section>
+					</div>
 				</div>
 			</div>
 		</main>
