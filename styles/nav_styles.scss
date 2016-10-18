@@ -8,82 +8,93 @@ $main-blue: #2B78E4;
 /* NAVIGATION BAR STYLES */
 /*******************************************************************/
 
-.navbar-default { // entire bar
+.navbar-main { // entire top bar
 	background-color: $main-blue;
-}
 
-.navbar-header { // logo container + "brand
-	display: inline-block;
+	/*******************************************************************/
+	/* LOGO + BRAND */
+	/*******************************************************************/
 
- 	.navbar-logo { // logo container
-	  	float: left;
-	  	height: 40px;
-	  	width: 40px;
-	  	overflow: hidden;
-	  	border-radius: 50%;
-	  	margin-top: 5px; /* vertical centering */
-	  	margin-right: 10px;
+	.navbar-header { // logo container + brand
+		display: inline-block;
 
-	  	img { // logo (circular Denmark flag)
-	  		margin: 0 auto;
-	  		height: 100%;
-	  		width: auto;
+	 	.navbar-logo { // logo container
+		  	float: left;
+		  	height: 40px;
+		  	width: 40px;
+		  	overflow: hidden;
+		  	border-radius: 50%;
+		  	margin-top: 5px; /* vertical centering */
+		  	margin-right: 10px;
+
+		  	img { // logo (circular Denmark flag)
+		  		margin: 0 auto;
+		  		height: 100%;
+		  		width: auto;
+		  	}
+	 	}
+	 	.navbar-brand { // brand ("Danebook")
+		  	color: white;
+		  	font-size: 2em;
+		  	font-weight: bold;
+
+		  	&:hover, &:focus, &:active {
+		  		color: white;
+		  	}
 	  	}
- 	}
- 	.navbar-brand { // brand ("Danebook")
-	  	color: white;
-	  	font-size: 2em;
-	  	font-weight: bold;
 
-	  	&:hover, &:focus, &:active {
-	  		color: white;
-	  	}
-  	}
-
-	@media screen and (max-width: 768px) {
-		.navbar-brand { font-size: 3em; }
-		.navbar-logo { margin-right: 0px; }
-	}
-}
-
-.navbar-user-search {
-	position: relative; 
-	height: 50px;
-
-	input {
-		position: absolute; 
-		top: 50%;
-		transform: translateY(-50%); 
-		font-size: 1.3em;
-	}
-
-	@media screen and (max-width: 768px) {
-		input { 
-			font-size: 1.5em; 
-			height: 90%;
-		}
-		margin: 0 auto;
-	}
-}
-
-.navbar-current-user {
-	line-height: 50px;
-	border: none;
-	text-align: right;
-
-	a {
-		color: white; 
-		font-size: 1.5em;
-		font-weight: bold;
-
-		&:hover, &:focus, &:active {
-			text-decoration: none;
+		@media screen and (max-width: 768px) {
+			.navbar-brand { font-size: 3em; }
+			.navbar-logo { margin-right: 0px; }
 		}
 	}
 
-	@media screen and (max-width: 768px) {
-		a { font-size: 2em; }
+	/*******************************************************************/
+	/* USER SEARCH BAR */
+	/*******************************************************************/
+
+	.navbar-user-search {
+		position: relative; 
+		height: 50px;
+
+		input {
+			position: absolute; 
+			top: 50%;
+			transform: translateY(-50%); 
+			font-size: 1.3em;
+		}
+
+		@media screen and (max-width: 768px) {
+			input { 
+				font-size: 1.5em; 
+				height: 90%;
+			}
+			margin: 0 auto;
+		}
+	}
+
+	/*******************************************************************/
+	/* CURRENT USER */
+	/*******************************************************************/
+
+	.navbar-current-user {
+		line-height: 50px;
+		border: none;
+		text-align: right;
+
+		a {
+			color: white; 
+			font-size: 1.5em;
+			font-weight: bold;
+
+			&:hover, &:focus, &:active {
+				text-decoration: none;
+			}
+		}
+
+		@media screen and (max-width: 768px) {
+			a { font-size: 2em; }
+		}
 	}
 }
-
 

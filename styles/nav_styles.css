@@ -4,63 +4,69 @@
 /*******************************************************************/
 /* NAVIGATION BAR STYLES */
 /*******************************************************************/
-.navbar-default {
-  background-color: #2B78E4; }
-
-.navbar-header {
-  display: inline-block; }
-  .navbar-header .navbar-logo {
-    float: left;
-    height: 40px;
-    width: 40px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-top: 5px;
-    /* vertical centering */
-    margin-right: 10px; }
-    .navbar-header .navbar-logo img {
-      margin: 0 auto;
-      height: 100%;
-      width: auto; }
-  .navbar-header .navbar-brand {
-    color: white;
-    font-size: 2em;
-    font-weight: bold; }
-    .navbar-header .navbar-brand:hover, .navbar-header .navbar-brand:focus, .navbar-header .navbar-brand:active {
-      color: white; }
-  @media screen and (max-width: 768px) {
-    .navbar-header .navbar-brand {
-      font-size: 3em; }
-    .navbar-header .navbar-logo {
-      margin-right: 0px; } }
-
-.navbar-user-search {
-  position: relative;
-  height: 50px; }
-  .navbar-user-search input {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.3em; }
-  @media screen and (max-width: 768px) {
-    .navbar-user-search {
-      margin: 0 auto; }
-      .navbar-user-search input {
-        font-size: 1.5em;
-        height: 90%; } }
-
-.navbar-current-user {
-  line-height: 50px;
-  border: none;
-  text-align: right; }
-  .navbar-current-user a {
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold; }
-    .navbar-current-user a:hover, .navbar-current-user a:focus, .navbar-current-user a:active {
-      text-decoration: none; }
-  @media screen and (max-width: 768px) {
-    .navbar-current-user a {
-      font-size: 2em; } }
+.navbar-main {
+  background-color: #2B78E4;
+  /*******************************************************************/
+  /* LOGO + BRAND */
+  /*******************************************************************/
+  /*******************************************************************/
+  /* USER SEARCH BAR */
+  /*******************************************************************/
+  /*******************************************************************/
+  /* CURRENT USER */
+  /*******************************************************************/ }
+  .navbar-main .navbar-header {
+    display: inline-block; }
+    .navbar-main .navbar-header .navbar-logo {
+      float: left;
+      height: 40px;
+      width: 40px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-top: 5px;
+      /* vertical centering */
+      margin-right: 10px; }
+      .navbar-main .navbar-header .navbar-logo img {
+        margin: 0 auto;
+        height: 100%;
+        width: auto; }
+    .navbar-main .navbar-header .navbar-brand {
+      color: white;
+      font-size: 2em;
+      font-weight: bold; }
+      .navbar-main .navbar-header .navbar-brand:hover, .navbar-main .navbar-header .navbar-brand:focus, .navbar-main .navbar-header .navbar-brand:active {
+        color: white; }
+    @media screen and (max-width: 768px) {
+      .navbar-main .navbar-header .navbar-brand {
+        font-size: 3em; }
+      .navbar-main .navbar-header .navbar-logo {
+        margin-right: 0px; } }
+  .navbar-main .navbar-user-search {
+    position: relative;
+    height: 50px; }
+    .navbar-main .navbar-user-search input {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.3em; }
+    @media screen and (max-width: 768px) {
+      .navbar-main .navbar-user-search {
+        margin: 0 auto; }
+        .navbar-main .navbar-user-search input {
+          font-size: 1.5em;
+          height: 90%; } }
+  .navbar-main .navbar-current-user {
+    line-height: 50px;
+    border: none;
+    text-align: right; }
+    .navbar-main .navbar-current-user a {
+      color: white;
+      font-size: 1.5em;
+      font-weight: bold; }
+      .navbar-main .navbar-current-user a:hover, .navbar-main .navbar-current-user a:focus, .navbar-main .navbar-current-user a:active {
+        text-decoration: none; }
+    @media screen and (max-width: 768px) {
+      .navbar-main .navbar-current-user a {
+        font-size: 2em; } }
 
 /*# sourceMappingURL=nav_styles.css.map */
