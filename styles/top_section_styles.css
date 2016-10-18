@@ -4,7 +4,7 @@
 /*******************************************************************/
 /* USER INFORMATION */
 /*******************************************************************/
-.profile-info {
+.top-section {
   margin-top: 50px;
   font-family: "Roboto", sans-serif;
   /*******************************************************************/
@@ -16,13 +16,13 @@
   /*******************************************************************/
   /* MIDDLE NAVIGATION BAR */
   /*******************************************************************/ }
-  .profile-info .cover-photo {
+  .top-section .cover-photo {
     width: 100%;
     height: 400px;
     overflow-y: auto; }
-    .profile-info .cover-photo img {
+    .top-section .cover-photo img {
       width: 100%; }
-  .profile-info .personal-photo {
+  .top-section .personal-photo {
     background-color: white;
     width: 220px;
     height: 220px;
@@ -33,27 +33,27 @@
     border: 1px solid black;
     overflow: hidden;
     z-index: 1; }
-    .profile-info .personal-photo img {
+    .top-section .personal-photo img {
       width: 100%; }
-  .profile-info .navbar-mid {
+  .top-section .navbar-mid {
     margin-top: -220px;
     background-color: white;
     border-radius: 0px; }
-    .profile-info .navbar-mid .navbar-mid-buttons {
+    .top-section .navbar-mid .navbar-mid-buttons {
       margin-left: 250px;
       height: 100%; }
-    .profile-info .navbar-mid .navbar-profile-buttons {
+    .top-section .navbar-mid .navbar-profile-buttons {
       display: inline-block; }
-      .profile-info .navbar-mid .navbar-profile-buttons a {
+      .top-section .navbar-mid .navbar-profile-buttons a {
         font-size: 1.3em;
         min-width: 140px;
         border-radius: 0px;
         height: 50px;
         padding: 10px 0; }
-    .profile-info .navbar-mid .navbar-edit-button {
+    .top-section .navbar-mid .navbar-edit-button {
       display: inline-block;
       float: right; }
-      .profile-info .navbar-mid .navbar-edit-button a {
+      .top-section .navbar-mid .navbar-edit-button a {
         font-size: 1.3em;
         text-decoration: underline;
         color: #2B78E4;
@@ -61,4 +61,4 @@
         padding: 10px 0;
         margin-right: 15px; }
 
-/*# sourceMappingURL=profile_info_styles.css.map */
+/*# sourceMappingURL=top_section_styles.css.map */
