@@ -1,3 +1,37 @@
-
+/*******************************************************************/
+/* COLORS */
+/*******************************************************************/
+/*******************************************************************/
+/* TIMELINE */
+/*******************************************************************/
+#timeline .make-post {
+  border: 2px solid #EEE;
+  margin-top: 0px; }
+#timeline .make-post-heading {
+  background-color: #EEE;
+  border: 2px solid #EEE;
+  text-align: center;
+  height: 40px; }
+  #timeline .make-post-heading h3 {
+    padding: 5px 0;
+    margin: 0; }
+#timeline .make-post-content {
+  padding: 15px 15px; }
+#timeline .make-post-submit {
+  background-color: #EEE;
+  text-align: right;
+  height: 50px;
+  position: relative; }
+  #timeline .make-post-submit a {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    background-color: #2B78E4;
+    border-radius: 0px;
+    width: 75px;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 3px 0; }
 
 /*# sourceMappingURL=timeline_styles.css.map */

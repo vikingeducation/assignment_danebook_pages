@@ -1,0 +1,54 @@
+/*******************************************************************/
+/* COLORS */
+/*******************************************************************/
+
+$main-blue: #2B78E4;
+$gray: #EEE;
+
+/*******************************************************************/
+/* TIMELINE */
+/*******************************************************************/
+
+#timeline {
+
+	.make-post {
+		border: 2px solid $gray;
+		margin-top: 0px;
+	}
+
+	.make-post-heading {	
+		background-color: $gray;
+		border: 2px solid $gray;
+		text-align: center; 
+		height: 40px;
+
+		h3 {
+			padding: 5px 0; // vertical centering
+			margin: 0;
+		}
+	}
+
+	.make-post-content {
+		padding: 15px 15px;
+	}
+
+	.make-post-submit {
+		background-color: $gray;
+		text-align: right;
+		height: 50px;
+		position: relative; 
+
+		a {
+			position: absolute; 
+			top: 50%; 
+			right: 15px; 
+			transform: translateY(-50%);
+			background-color: $main-blue;
+			border-radius: 0px;
+			width: 75px;
+			font-size: 1.2em;
+			box-shadow: 1px 1px 1px 1px black;
+			padding: 3px 0;
+		}
+	}
+}
