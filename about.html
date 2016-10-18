@@ -5,22 +5,16 @@
 		<!--Basics-->
 		<meta charset="utf-8">
 		<title>Welcome to Danebook</title>
-
 		<!--Mobile Viewport Compatibility (Recommended for Bootstrap)-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
 		<!--Bootstrap CSS-->
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-
 		<!--Google Font - Roboto-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-
 		<!--Navigation Bar Stylesheet-->
 		<link rel="stylesheet" href="styles/nav_styles.css">
-
 		<!--User Information Stylesheet-->
 		<link rel="stylesheet" href="styles/profile_info_styles.css">
-
 		<!--Main Stylesheet-->
 		<link rel="stylesheet" href="styles/about_styles.css">
 	</head>
@@ -56,7 +50,7 @@
 		</nav>
 
 		<!--Profile Information-->
-		<div class="profile-info">
+		<section class="profile-info">
 			<div class="container">
 				<!--Cover Photo-->
 				<div class="cover-photo">
@@ -66,8 +60,22 @@
 				<div class="personal-photo">
 					<img src="assets/harry_potter_small.jpg">
 				</div>
+				<!--Middle Navigation Bar-->
+				<nav class="navbar navbar-default navbar-mid">
+					<div class="navbar-mid-buttons">
+						<div class="navbar-profile-buttons btn-group">
+							<a class="btn btn-default" href="timeline.html" role="button">Timeline</a>
+							<a class="btn btn-default" href="about.html" role="button" disabled="disabled">About</a>
+							<a class="btn btn-default" href="photos.html" role="button">Photos (<span id="photo-count">123</span>)</a>
+							<a class="btn btn-default" href="friends.html" role="button">Friends (<span id="friend-count">542</span>)</a>
+						</div>
+						<div class="navbar-edit-button">
+							<a class="btn btn-link" href="about_edit.html" role="button">Edit Profile</a>
+						</div>
+					</form>
+				</nav>
 			</div>
-		</div>
+		</section>
 
 		<!--Bootstrap JS & jQuery-->
 		<!--at end for faster loading-->

@@ -10,6 +10,11 @@ $main-blue: #2B78E4;
 
 .profile-info {
 	margin-top: 50px; // navbar height
+	font-family: "Roboto", sans-serif;
+
+	/*******************************************************************/
+	/* COVER PHOTO */
+	/*******************************************************************/
 
 	.cover-photo { // cover photo container
 		width: 100%;
@@ -22,6 +27,10 @@ $main-blue: #2B78E4;
 
 	}
 
+	/*******************************************************************/
+	/* PERSONAL PHOTO */
+	/*******************************************************************/
+
 	.personal-photo { // personal photo container
 		background-color: white;
 		width: 220px;
@@ -32,10 +41,51 @@ $main-blue: #2B78E4;
 		text-align: center;
 		border: 1px solid black;
 		overflow: hidden; // only show portion if image is large
+		z-index: 1; // place profile pic in front of middle nav bar
 
 		img { // personal photo itself
 			width: 100%;
 		}
 	}
 
+	/*******************************************************************/
+	/* MIDDLE NAVIGATION BAR */
+	/*******************************************************************/
+
+	.navbar-mid {
+		margin-top: -220px; // height of profile pic
+		background-color: white;
+		border-radius: 0px;
+
+		.navbar-mid-buttons {
+			margin-left: 250px;
+			height: 100%;
+		}
+
+		.navbar-profile-buttons {
+			display: inline-block;
+
+			a {
+				font-size: 1.3em;
+				min-width: 140px;
+				border-radius: 0px;
+				height: 50px; 
+				padding: 10px 0;
+			}	
+		}
+
+		.navbar-edit-button {
+			display: inline-block;
+			float: right;
+
+			a {
+				font-size: 1.3em;
+				text-decoration: underline;
+				color: $main-blue;
+				height: 50px; 
+				padding: 10px 0;
+				margin-right: 15px;
+			}
+		}
+	}
 }
