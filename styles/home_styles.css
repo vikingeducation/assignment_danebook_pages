@@ -120,7 +120,6 @@ main {
   #sign-up .btn-group {
     margin-right: 20px; }
   #sign-up .dropdown-menu {
-    /* scroll through dropdown options */
     height: 150px;
     overflow-x: hidden; }
   #sign-up input[type=radio] {
@@ -144,4 +143,4 @@ main {
       margin-top: 20px;
       margin-right: 80px; } }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=home_styles.css.map */

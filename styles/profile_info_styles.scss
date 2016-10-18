@@ -1,0 +1,41 @@
+/*******************************************************************/
+/* COLORS */
+/*******************************************************************/
+
+$main-blue: #2B78E4;
+
+/*******************************************************************/
+/* USER INFORMATION */
+/*******************************************************************/
+
+.profile-info {
+	margin-top: 50px; // navbar height
+
+	.cover-photo { // cover photo container
+		width: 100%;
+		height: 400px;
+		overflow-y: auto; // scroll up/down image if large
+
+		img { // cover photo itself
+			width: 100%;
+		}
+
+	}
+
+	.personal-photo { // personal photo container
+		background-color: white;
+		width: 220px;
+		height: 220px;
+		position: relative; 
+		left: 15px;
+		bottom: 190px;
+		text-align: center;
+		border: 1px solid black;
+		overflow: hidden; // only show portion if image is large
+
+		img { // personal photo itself
+			width: 100%;
+		}
+	}
+
+}

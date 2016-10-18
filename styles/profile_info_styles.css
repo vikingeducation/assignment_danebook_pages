@@ -1,0 +1,28 @@
+/*******************************************************************/
+/* COLORS */
+/*******************************************************************/
+/*******************************************************************/
+/* USER INFORMATION */
+/*******************************************************************/
+.profile-info {
+  margin-top: 50px; }
+  .profile-info .cover-photo {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto; }
+    .profile-info .cover-photo img {
+      width: 100%; }
+  .profile-info .personal-photo {
+    background-color: white;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    left: 15px;
+    bottom: 190px;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden; }
+    .profile-info .personal-photo img {
+      width: 100%; }
+
+/*# sourceMappingURL=profile_info_styles.css.map */
