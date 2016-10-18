@@ -6,32 +6,72 @@
 /*******************************************************************/
 #timeline .make-post {
   border: 2px solid #EEE;
-  margin-top: 0px; }
-#timeline .make-post-heading {
-  background-color: #EEE;
+  margin-bottom: 15px; }
+  #timeline .make-post .make-post-heading {
+    background-color: #EEE;
+    border: 2px solid #EEE;
+    text-align: center;
+    height: 35px; }
+    #timeline .make-post .make-post-heading h1 {
+      padding: 2px 0;
+      margin: 0;
+      font-size: 1.5em; }
+  #timeline .make-post .make-post-content {
+    padding: 15px 15px; }
+  #timeline .make-post .make-post-submit {
+    background-color: #EEE;
+    text-align: right;
+    height: 45px;
+    position: relative; }
+    #timeline .make-post .make-post-submit a {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      background-color: #2B78E4;
+      border-radius: 0px;
+      width: 75px;
+      font-size: 1.1em;
+      box-shadow: 1px 1px 1px 1px black;
+      padding: 3px 0;
+      margin-right: 15px; }
+#timeline .timeline-post {
   border: 2px solid #EEE;
-  text-align: center;
-  height: 40px; }
-  #timeline .make-post-heading h3 {
-    padding: 5px 0;
-    margin: 0; }
-#timeline .make-post-content {
-  padding: 15px 15px; }
-#timeline .make-post-submit {
-  background-color: #EEE;
-  text-align: right;
-  height: 50px;
+  margin-bottom: 15px;
   position: relative; }
-  #timeline .make-post-submit a {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
-    background-color: #2B78E4;
-    border-radius: 0px;
+  #timeline .timeline-post .poster-photo {
+    display: inline-block;
+    background-color: white;
     width: 75px;
-    font-size: 1.2em;
-    box-shadow: 1px 1px 1px 1px black;
+    height: 75px;
+    text-align: center;
+    overflow: hidden;
+    margin: 7px; }
+    #timeline .timeline-post .poster-photo img {
+      width: 100%; }
+  #timeline .timeline-post .poster-info {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 7px; }
+    #timeline .timeline-post .poster-info a {
+      padding: 0;
+      margin: 0;
+      color: #2B78E4;
+      text-decoration: underline; }
+    #timeline .timeline-post .poster-info p {
+      color: #888; }
+  #timeline .timeline-post .post-content {
+    padding: 0 15px; }
+  #timeline .timeline-post .post-interaction {
+    background-color: #EEE;
+    height: 40px;
     padding: 3px 0; }
+    #timeline .timeline-post .post-interaction a {
+      color: #2B78E4;
+      text-decoration: underline; }
+    #timeline .timeline-post .post-interaction .delete-button {
+      float: right; }
 
 /*# sourceMappingURL=timeline_styles.css.map */
