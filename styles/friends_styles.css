@@ -1,3 +1,77 @@
+/*******************************************************************/
+/* COLORS */
+/*******************************************************************/
+/*******************************************************************/
+/* FRIENDS */
+/*******************************************************************/
+.friends-main {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 60px; }
 
+.friends-header {
+  background-color: #EEE;
+  height: 50px;
+  border: 2px solid #EEE;
+  position: relative; }
+  .friends-header h1 {
+    font-size: 2.5em;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    line-height: 50px; }
+  .friends-header a {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    background-color: #2B78E4;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px 1px black; }
+
+.friends-container {
+  border: 2px solid #EEE;
+  padding: 15px 45px 45px; }
+
+.friend {
+  border: 2px solid #EEE;
+  padding: 15px;
+  position: relative; }
+
+.friend-photo {
+  display: inline-block;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  overflow: hidden;
+  float: left; }
+  .friend-photo img {
+    width: 100%; }
+
+.friend-info {
+  position: absolute;
+  top: 50%;
+  left: 130px;
+  transform: translateY(-50%); }
+
+.friend-name {
+  color: #2B78E4;
+  text-decoration: underline;
+  font-size: 1.3em; }
+
+.friend-count {
+  color: #888;
+  font-size: 1.3em; }
+
+.unfriend-button {
+  display: inline-block;
+  border-radius: 0;
+  background-color: #BFBFBF;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px 1px black;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%); }
 
 /*# sourceMappingURL=friends_styles.css.map */
