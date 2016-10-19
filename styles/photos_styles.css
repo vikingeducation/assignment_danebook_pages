@@ -1,0 +1,62 @@
+/*******************************************************************/
+/* COLORS */
+/*******************************************************************/
+/*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+/*******************************************************************/
+/* PHOTOS */
+/*******************************************************************/
+.photos-main {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 60px; }
+
+.photos-header {
+  background-color: #EEE;
+  height: 50px;
+  border: 2px solid #EEE;
+  position: relative; }
+  .photos-header h1 {
+    font-size: 2.5em;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    line-height: 50px; }
+  .photos-header a {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    background-color: #2B78E4;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px 1px black; }
+
+.photos-container {
+  border: 2px solid #EEE;
+  padding: 15px 45px 45px; }
+
+.photo {
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  overflow: hidden; }
+  .photo img {
+    width: 100%; }
+  .photo:hover .photo-date {
+    display: block; }
+
+.photo-date {
+  display: none;
+  background-color: #8A8A8A;
+  color: white;
+  border: none;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  margin-top: -40px; }
+
+/*# sourceMappingURL=photos_styles.css.map */
