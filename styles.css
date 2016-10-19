@@ -1,4 +1,6 @@
 #main-navbar {
+  border-color: #337AB7;
+  border-radius: 0;
   background-color: #337AB7; }
   #main-navbar .navbar-brand {
     color: white; }
@@ -10,5 +12,35 @@
     height: 35px;
     width: 35px;
     margin-top: -8px; }
+
+.cover-photo {
+  margin-top: -20px;
+  background: url(hogwarts_small.jpg);
+  width: 86%;
+  margin-left: 7%;
+  height: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.profile-photo img {
+  width: 150px;
+  margin-top: 220px;
+  margin-left: 20px; }
+
+.username {
+  float: left;
+  margin-left: 260px;
+  margin-top: -35px;
+  color: #fff; }
+
+.nav-pills {
+  margin-left: 165px;
+  background-color: #fff; }
+  .nav-pills .navbar-right {
+    margin-top: 10px; }
+
+.cover-nav-badge {
+  color: #aaa; }
 
 /*# sourceMappingURL=styles.css.map */
