@@ -2,7 +2,30 @@
 /* COLORS */
 /*******************************************************************/
 /*******************************************************************/
-/* TIMELINE */
+/* TIMELINE - LEFT SIDE */
+/*******************************************************************/
+.timeline-about-heading {
+  background-color: #EEE;
+  border: 2px solid #EEE;
+  text-align: center;
+  height: 35px; }
+  .timeline-about-heading h1 {
+    padding: 4px 0;
+    margin: 0;
+    font-size: 1.5em; }
+
+.timeline-about-info {
+  border: 2px solid #EEE;
+  padding: 10px 30px; }
+  .timeline-about-info dl {
+    margin: 10px; }
+  .timeline-about-info dt {
+    display: inline; }
+  .timeline-about-info dd {
+    display: inline; }
+
+/*******************************************************************/
+/* TIMELINE - RIGHT SIDE */
 /*******************************************************************/
 /*******************************************************************/
 /* MAKE POST */
