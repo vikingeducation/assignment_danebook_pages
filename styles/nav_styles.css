@@ -2,6 +2,9 @@
 /* COLORS */
 /*******************************************************************/
 /*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+/*******************************************************************/
 /* NAVIGATION BAR STYLES */
 /*******************************************************************/
 .navbar-main {
@@ -28,6 +31,9 @@
     margin: 0 auto;
     height: 100%;
     width: auto; }
+  @media screen and (max-width: 768px) {
+    .navbar-logo {
+      display: none; } }
 
 .navbar-header .navbar-brand {
   color: white;
@@ -45,7 +51,9 @@
   .navbar-user-search input {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
     font-size: 1.3em; }
 
 /*******************************************************************/

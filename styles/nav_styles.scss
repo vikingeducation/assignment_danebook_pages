@@ -6,6 +6,16 @@ $main-blue: #2B78E4;
 $gray: #EEE; 
 
 /*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+
+@mixin transform($xdist, $ydist) { // for browser compatibility
+    -webkit-transform: translate($xdist, $ydist);
+        -ms-transform: translate($xdist, $ydist);
+            transform: translate($xdist, $ydist);
+}
+
+/*******************************************************************/
 /* NAVIGATION BAR STYLES */
 /*******************************************************************/
 
@@ -37,7 +47,12 @@ $gray: #EEE;
 		height: 100%;
 		width: auto;
 	}
+
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
 }
+
 .navbar-header .navbar-brand { // brand ("Danebook")
 	color: white;
 	font-size: 2em;
@@ -59,7 +74,7 @@ $gray: #EEE;
 	input {
 		position: absolute; 
 		top: 50%;
-		transform: translateY(-50%); 
+		@include transform(0,-50%); 
 		font-size: 1.3em;
 	}
 }

@@ -1,0 +1,17 @@
+I should have designed the page for screens less than 992 pixels in width. I guess that will have to be a future task, especially if Danebook is revisited in Unit 2. 
+
+My solution liberally used the method of setting a parent element to "position: relative", then setting the child element to "position: absolute" and aligning as necessary (setting top/bottom/left/right). This came in handy when I had to vertically center an element (top: 50% and tranform: translateY(-50%)). 
+
+I should have used Bootstrap media classes (http://getbootstrap.com/components/#media) for posts and comments. This...would have been extremely useful. 
+
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="..." alt="...">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">Media heading</h4>
+    ...
+  </div>
+</div>

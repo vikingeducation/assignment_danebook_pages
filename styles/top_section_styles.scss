@@ -25,6 +25,7 @@ $gray: #EEE;
 
 	img { // cover photo itself
 		width: 100%;
+		min-width: 768px;
 	}
 
 }
@@ -47,6 +48,13 @@ $gray: #EEE;
 	img { // personal photo itself
 		width: 100%;
 	}
+
+	@media (max-width: 992px) {
+		width: 180px; 
+		height: 180px;
+		left: 0;
+		bottom: 220px;
+	}
 }
 
 /*******************************************************************/
@@ -64,6 +72,12 @@ $gray: #EEE;
 		top: -270px;
 		left: 250px; // personal photo size + margins
 		z-index: 1;
+
+		@media (max-width: 992px) {
+			font-size: 2em;
+			top: -435px;
+			left: 15px;
+		}
 	}
 }
 
@@ -80,10 +94,18 @@ $gray: #EEE;
 .navbar-mid .navbar-mid-buttons {
 	margin-left: 250px;
 	height: 100%;
+
+	@media (max-width: 992px) {
+		margin-left: 0;
+	}
 }
 
 .navbar-mid .navbar-profile-buttons {
 	display: inline-block;
+
+	@media (max-width: 728px) { // collapse into single col of buttons
+		display: block;
+	}
 
 	a {
 		font-size: 1.3em;
@@ -91,6 +113,10 @@ $gray: #EEE;
 		border-radius: 0px;
 		height: 50px; 
 		padding: 10px 0;
+
+		@media (max-width: 728px) {
+			width: 100%;
+		}
 	}	
 
 	a[disabled] {
@@ -100,7 +126,15 @@ $gray: #EEE;
 
 .navbar-mid .navbar-edit-button {
 	display: inline-block;
-	float: right;
+
+	@media (min-width: 729px) { // keep to the right on large screens
+		float: right; 
+	}
+
+	@media (max-width: 728px) { // drop below profile buttons on small screens
+		display: block;
+		text-align: center; 
+	}
 
 	a {
 		font-size: 1.3em;

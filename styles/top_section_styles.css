@@ -16,7 +16,8 @@
   height: 400px;
   overflow-y: auto; }
   .cover-photo img {
-    width: 100%; }
+    width: 100%;
+    min-width: 768px; }
 
 /*******************************************************************/
 /* PERSONAL PHOTO */
@@ -33,6 +34,12 @@
   z-index: 1; }
   .personal-photo img {
     width: 100%; }
+  @media (max-width: 992px) {
+    .personal-photo {
+      width: 180px;
+      height: 180px;
+      left: 0;
+      bottom: 220px; } }
 
 /*******************************************************************/
 /* PROFILE NAME */
@@ -47,6 +54,11 @@
     top: -270px;
     left: 250px;
     z-index: 1; }
+    @media (max-width: 992px) {
+      .profile-name h1 {
+        font-size: 2em;
+        top: -435px;
+        left: 15px; } }
 
 /*******************************************************************/
 /* MIDDLE NAVIGATION BAR */
@@ -59,21 +71,36 @@
 .navbar-mid .navbar-mid-buttons {
   margin-left: 250px;
   height: 100%; }
+  @media (max-width: 992px) {
+    .navbar-mid .navbar-mid-buttons {
+      margin-left: 0; } }
 
 .navbar-mid .navbar-profile-buttons {
   display: inline-block; }
+  @media (max-width: 728px) {
+    .navbar-mid .navbar-profile-buttons {
+      display: block; } }
   .navbar-mid .navbar-profile-buttons a {
     font-size: 1.3em;
     min-width: 140px;
     border-radius: 0px;
     height: 50px;
     padding: 10px 0; }
+    @media (max-width: 728px) {
+      .navbar-mid .navbar-profile-buttons a {
+        width: 100%; } }
   .navbar-mid .navbar-profile-buttons a[disabled] {
     background-color: #EEE; }
 
 .navbar-mid .navbar-edit-button {
-  display: inline-block;
-  float: right; }
+  display: inline-block; }
+  @media (min-width: 729px) {
+    .navbar-mid .navbar-edit-button {
+      float: right; } }
+  @media (max-width: 728px) {
+    .navbar-mid .navbar-edit-button {
+      display: block;
+      text-align: center; } }
   .navbar-mid .navbar-edit-button a {
     font-size: 1.3em;
     text-decoration: underline;
