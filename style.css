@@ -71,4 +71,16 @@
 table td:first-of-type {
   font-weight: bold; }
 
+.hundred-px {
+  width: 100px;
+  height: 100px;
+  margin: 4px; }
+
+.salmon {
+  background-color: salmon; }
+
+.flex-flow {
+  display: flex;
+  flex-wrap: wrap; }
+
 /*# sourceMappingURL=style.css.map */
