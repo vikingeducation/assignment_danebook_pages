@@ -1,0 +1,68 @@
+body {
+  padding-top: 50px; }
+
+#navbar {
+  color: #eee;
+  background: #2b78e4;
+  border-color: #080808; }
+  #navbar .icon-bar {
+    background-color: #fff; }
+  #navbar .navbar-toggle:focus, #navbar .navbar-toggle:hover {
+    background-color: #fff; }
+    #navbar .navbar-toggle:focus .icon-bar, #navbar .navbar-toggle:hover .icon-bar {
+      background-color: #000; }
+  #navbar li:hover > a, #navbar .navbar-brand:hover {
+    color: #fff; }
+  #navbar, #navbar a, #navbar a:visited {
+    font-size: 20px;
+    color: #eee;
+    font-weight: bold; }
+  #navbar .navbar-brand {
+    padding: 10px;
+    font-size: 30px;
+    line-height: 1;
+    color: #eee; }
+    #navbar .navbar-brand img {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      float: left;
+      margin-right: 15px; }
+  #navbar .navbar-form * {
+    width: 100%; }
+  #navbar .navbar-form {
+    border: 0; }
+    @media (max-width: 767px) {
+      #navbar .navbar-form {
+        margin: 0 -15px; } }
+  #navbar .collapse {
+    border-bottom: 1px solid #cccccc; }
+    @media (min-width: 768px) {
+      #navbar .collapse {
+        border: 0;
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important; } }
+
+#profile_header {
+  position: relative;
+  height: 0;
+  padding-bottom: 30%;
+  background: #fff url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  margin-bottom: 50px; }
+  #profile_header .profile-nav {
+    position: absolute;
+    bottom: -50px;
+    background: #eee; }
+  #profile_header .navbar-nav {
+    float: left; }
+  #profile_header li {
+    border-left: 1px solid rgba(0, 0, 0, 0.8); }
+    #profile_header li:last-child {
+      border-right: 1px solid rgba(0, 0, 0, 0.8); }
+
+/*# sourceMappingURL=styles.css.map */
