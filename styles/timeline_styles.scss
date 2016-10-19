@@ -7,10 +7,14 @@ $gray: #EEE;
 $text-gray: #888;
 
 /*******************************************************************/
-/* TIMELINE - LEFT SIDE */
+/* TIMELINE ITEMS - ABOUT, PHOTOS, FRIENDS, POST */
 /*******************************************************************/
 
-.timeline-about-heading {
+.timeline-item {
+	margin-bottom: 15px; 
+}
+
+.timeline-heading {
 	background-color: $gray;
 	border: 2px solid $gray;
 	text-align: center; 
@@ -40,33 +44,33 @@ $text-gray: #888;
 	}
 }
 
-/*******************************************************************/
-/* TIMELINE - RIGHT SIDE */
-/*******************************************************************/
-
-/*******************************************************************/
-/* MAKE POST */
-/*******************************************************************/
-
-.make-post { // submit text post
+.timeline-photo-container {
 	border: 2px solid $gray;
-	margin-bottom: 15px;
+	padding: 15px;	
 }
 
-.make-post-heading {	
-	background-color: $gray;
-	border: 2px solid $gray;
-	text-align: center; 
-	height: 35px;
+.timeline-photo { 
+	display: inline-block;
+	background-color: white;
+	text-align: center;
+	overflow: hidden; 
 
-	h1 {
-		padding: 2px 0; // vertical centering
-		margin: 0;
-		font-size: 1.5em;
+	img { 
+		width: 100%;
+	}
+}
+
+.timeline-footer {
+	text-align: center;
+
+	a {
+		color: $main-blue;
+		text-decoration: underline;		
 	}
 }
 
 .make-post-content {
+	border: 2px solid $gray;
 	padding: 15px;
 }
 
@@ -92,7 +96,7 @@ $text-gray: #888;
 }
 
 /*******************************************************************/
-/* TIMELINE POST 1 */
+/* TIMELINE POSTS */
 /*******************************************************************/
 
 .timeline-post { // existing post
@@ -153,10 +157,6 @@ $text-gray: #888;
 	}
 }
 
-/*******************************************************************/
-/* TIMELINE POST 2 (INCLUDES LIKES) */
-/*******************************************************************/
-
 .post-likes { 
 	background-color: $gray;
 	height: 40px;
@@ -168,10 +168,6 @@ $text-gray: #888;
 		text-decoration: underline;
 	}
 }
-
-/*******************************************************************/
-/* TIMELINE POST 3 (INCLUDES LIKES & COMMENTS) */
-/*******************************************************************/
 
 .post-comments {
 	border-top: 1px solid #BBB;

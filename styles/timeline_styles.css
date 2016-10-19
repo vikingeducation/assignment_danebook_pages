@@ -2,14 +2,17 @@
 /* COLORS */
 /*******************************************************************/
 /*******************************************************************/
-/* TIMELINE - LEFT SIDE */
+/* TIMELINE ITEMS - ABOUT, PHOTOS, FRIENDS, POST */
 /*******************************************************************/
-.timeline-about-heading {
+.timeline-item {
+  margin-bottom: 15px; }
+
+.timeline-heading {
   background-color: #EEE;
   border: 2px solid #EEE;
   text-align: center;
   height: 35px; }
-  .timeline-about-heading h1 {
+  .timeline-heading h1 {
     padding: 4px 0;
     margin: 0;
     font-size: 1.5em; }
@@ -24,27 +27,26 @@
   .timeline-about-info dd {
     display: inline; }
 
-/*******************************************************************/
-/* TIMELINE - RIGHT SIDE */
-/*******************************************************************/
-/*******************************************************************/
-/* MAKE POST */
-/*******************************************************************/
-.make-post {
+.timeline-photo-container {
   border: 2px solid #EEE;
-  margin-bottom: 15px; }
+  padding: 15px; }
 
-.make-post-heading {
-  background-color: #EEE;
-  border: 2px solid #EEE;
+.timeline-photo {
+  display: inline-block;
+  background-color: white;
   text-align: center;
-  height: 35px; }
-  .make-post-heading h1 {
-    padding: 2px 0;
-    margin: 0;
-    font-size: 1.5em; }
+  overflow: hidden; }
+  .timeline-photo img {
+    width: 100%; }
+
+.timeline-footer {
+  text-align: center; }
+  .timeline-footer a {
+    color: #2B78E4;
+    text-decoration: underline; }
 
 .make-post-content {
+  border: 2px solid #EEE;
   padding: 15px; }
 
 .make-post-submit {
@@ -66,7 +68,7 @@
     margin-right: 15px; }
 
 /*******************************************************************/
-/* TIMELINE POST 1 */
+/* TIMELINE POSTS */
 /*******************************************************************/
 .timeline-post {
   border: 2px solid #EEE;
@@ -111,9 +113,6 @@
   .post-interaction .delete-button {
     float: right; }
 
-/*******************************************************************/
-/* TIMELINE POST 2 (INCLUDES LIKES) */
-/*******************************************************************/
 .post-likes {
   background-color: #EEE;
   height: 40px;
@@ -123,9 +122,6 @@
     color: #2B78E4;
     text-decoration: underline; }
 
-/*******************************************************************/
-/* TIMELINE POST 3 (INCLUDES LIKES & COMMENTS) */
-/*******************************************************************/
 .post-comments {
   border-top: 1px solid #BBB;
   background-color: #EEE;
