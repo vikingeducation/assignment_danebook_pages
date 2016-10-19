@@ -10,229 +10,226 @@ $text-gray: #888;
 /* TIMELINE */
 /*******************************************************************/
 
-#timeline {
+/*******************************************************************/
+/* MAKE POST */
+/*******************************************************************/
 
-	/*******************************************************************/
-	/* MAKE POST */
-	/*******************************************************************/
+.make-post { // submit text post
+	border: 2px solid $gray;
+	margin-bottom: 15px;
+}
 
-	.make-post { // submit text post
-		border: 2px solid $gray;
-		margin-bottom: 15px;
+.make-post-heading {	
+	background-color: $gray;
+	border: 2px solid $gray;
+	text-align: center; 
+	height: 35px;
 
-		.make-post-heading {	
-			background-color: $gray;
-			border: 2px solid $gray;
-			text-align: center; 
-			height: 35px;
+	h1 {
+		padding: 2px 0; // vertical centering
+		margin: 0;
+		font-size: 1.5em;
+	}
+}
 
-			h1 {
-				padding: 2px 0; // vertical centering
-				margin: 0;
-				font-size: 1.5em;
-			}
-		}
+.make-post-content {
+	padding: 15px;
+}
 
-		.make-post-content {
-			padding: 15px;
-		}
+.make-post-submit {
+	background-color: $gray;
+	text-align: right;
+	height: 45px;
+	position: relative; 
 
-		.make-post-submit {
-			background-color: $gray;
-			text-align: right;
-			height: 45px;
-			position: relative; 
+	a {
+		position: absolute; 
+		top: 50%; 
+		right: 15px; 
+		transform: translateY(-50%);
+		background-color: $main-blue;
+		border-radius: 0px;
+		width: 75px;
+		font-size: 1.1em;
+		box-shadow: 1px 1px 1px 1px black;
+		padding: 3px 0;
+		margin-right: 15px;
+	}
+}
 
-			a {
-				position: absolute; 
-				top: 50%; 
-				right: 15px; 
-				transform: translateY(-50%);
-				background-color: $main-blue;
-				border-radius: 0px;
-				width: 75px;
-				font-size: 1.1em;
-				box-shadow: 1px 1px 1px 1px black;
-				padding: 3px 0;
-				margin-right: 15px;
-			}
-		}
+/*******************************************************************/
+/* TIMELINE POST 1 */
+/*******************************************************************/
+
+.timeline-post { // existing post
+	border: 2px solid $gray;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.poster-photo { // container of poster's photo
+	display: inline-block;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	overflow: hidden; // only show portion if image is large
+	margin: 7px;
+
+	img { // poster's photo
+		width: 100%;
+	}
+}
+
+.poster-info { //
+	display: inline-block;
+	margin: 0; 
+	padding: 0;
+	position: absolute;
+	top: 7px; // same as .poster-photo margin
+
+	a {
+		padding: 0;
+		margin: 0; 
+		color: $main-blue;
+		text-decoration: underline;
 	}
 
-	/*******************************************************************/
-	/* TIMELINE POST 1 */
-	/*******************************************************************/
-
-	.timeline-post { // existing post
-		border: 2px solid $gray;
-		margin-bottom: 15px;
-		position: relative;
-
-		.poster-photo { // container of poster's photo
-			display: inline-block;
-			background-color: white;
-			width: 75px;
-			height: 75px;
-			text-align: center;
-			overflow: hidden; // only show portion if image is large
-			margin: 7px;
-
-			img { // poster's photo
-				width: 100%;
-			}
-		}
-
-		.poster-info { //
-			display: inline-block;
-			margin: 0; 
-			padding: 0;
-			position: absolute;
-			top: 7px; // same as .poster-photo margin
-
-			a {
-				padding: 0;
-				margin: 0; 
-				color: $main-blue;
-				text-decoration: underline;
-			}
-
-			p {
-				color: $text-gray;
-			}
-		}
-
-		.post-content {
-			padding: 0 15px;
-		}
-
-		.post-interaction {
-			background-color: $gray;
-			height: 40px;
-			padding: 3px 0; // vertically center
-
-			a {
-				color: $main-blue;
-				text-decoration: underline;
-			}
-
-			.delete-button {
-				float: right;
-			}
-		}
-
-		/*******************************************************************/
-		/* TIMELINE POST 2 (LIKED) */
-		/*******************************************************************/
-
-		.post-likes { 
-			background-color: $gray;
-			height: 40px;
-			padding: 3px 0; // vertically center
-			padding-left: 12px;
-
-			a {
-				color: $main-blue; 
-				text-decoration: underline;
-			}
-		}
-
-		/*******************************************************************/
-		/* TIMELINE POST 3 (LIKED & COMMENTS) */
-		/*******************************************************************/
-
-		.post-comments {
-			border-top: 1px solid #BBB;
-			background-color: $gray;
-			position: relative;
-
-			.comment-poster-photo { // container of comment poster's photo
-				display: inline-block;
-				background-color: white;
-				width: 75px;
-				height: 75px;
-				text-align: center;
-				overflow: hidden; // only show portion if image is large
-				margin: 10px;
-				float: left;
-
-				img { // poster's photo
-					width: 100%;
-				}
-			}
-
-			.comment-poster-info {
-				display: inline-block;
-				margin: 0; 
-				padding: 0;
-				position: relative; 
-				top: 10px;
-
-				a {
-					color: $main-blue;
-					text-decoration: underline;
-				}
-
-				p {
-					display: inline-block;
-					color: $text-gray;
-				}
-			}
-
-			.comment-post-content {
-				display: inline-block;
-				padding-right: 15px; // same value as .post-content padding
-				margin-top: -50px; // shift up 
-				margin-left: 95px; // width of comment photo, with 10px as L&R margins
-			}
-
-			.comment-post-likes {
-				margin-left: 95px; // width of comment photo, with 10px as L&R margins
-
-				a {
-					display: inline-block;
-					color: $main-blue;
-					text-decoration: underline;
-					padding: 0;
-					padding-right: 15px;
-				}
-
-				.delete-button {
-					float: right;
-				}
-
-				p {
-					display: inline-block; 
-					color: $text-gray;
-				}
-			}
-
-			.comment-entry {
-				padding: 15px; 
-			}
-
-			.comment-submission {
-				height: 50px;
-
-				.btn-link {
-					display: inline-block;
-					color: $main-blue;
-					text-decoration: underline;
-					padding: 0;
-					margin-left: 30px;
-				}
-
-				.btn-primary {
-					background-color: $main-blue;
-					border-radius: 0px;
-					width: 75px;
-					font-size: 1.1em;
-					box-shadow: 1px 1px 1px 1px black;
-					padding: 3px 0;
-					float: right;
-					margin-right: 30px;
-				}
-
-			}
-		}
+	p {
+		color: $text-gray;
 	}
+}
+
+.post-content {
+	padding: 0 15px;
+}
+
+.post-interaction {
+	background-color: $gray;
+	height: 40px;
+	padding: 3px 0; // vertically center
+
+	a {
+		color: $main-blue;
+		text-decoration: underline;
+	}
+
+	.delete-button {
+		float: right;
+	}
+}
+
+/*******************************************************************/
+/* TIMELINE POST 2 (INCLUDES LIKES) */
+/*******************************************************************/
+
+.post-likes { 
+	background-color: $gray;
+	height: 40px;
+	padding: 3px 0; // vertically center
+	padding-left: 12px;
+
+	a {
+		color: $main-blue; 
+		text-decoration: underline;
+	}
+}
+
+/*******************************************************************/
+/* TIMELINE POST 3 (INCLUDES LIKES & COMMENTS) */
+/*******************************************************************/
+
+.post-comments {
+	border-top: 1px solid #BBB;
+	background-color: $gray;
+	position: relative;
+}
+
+.comment-poster-photo { // container of comment poster's photo
+	display: inline-block;
+	background-color: white;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+	overflow: hidden; // only show portion if image is large
+	margin: 10px;
+	float: left;
+
+	img { // poster's photo
+		width: 100%;
+	}
+}
+
+.comment-poster-info {
+	display: inline-block;
+	margin: 0; 
+	padding: 0;
+	position: relative; 
+	top: 10px;
+
+	a {
+		color: $main-blue;
+		text-decoration: underline;
+	}
+
+	p {
+		display: inline-block;
+		color: $text-gray;
+	}
+}
+
+.comment-post-content {
+	display: inline-block;
+	padding-right: 15px; // same value as .post-content padding
+	margin-top: -50px; // shift up 
+	margin-left: 95px; // width of comment photo, with 10px as L&R margins
+}
+
+.comment-post-likes {
+	margin-left: 95px; // width of comment photo, with 10px as L&R margins
+
+	a {
+		display: inline-block;
+		color: $main-blue;
+		text-decoration: underline;
+		padding: 0;
+		padding-right: 15px;
+	}
+
+	.delete-button {
+		float: right;
+	}
+
+	p {
+		display: inline-block; 
+		color: $text-gray;
+	}
+}
+
+.comment-entry {
+	padding: 15px; 
+}
+
+.comment-submission {
+	height: 50px;
+
+	.btn-link {
+		display: inline-block;
+		color: $main-blue;
+		text-decoration: underline;
+		padding: 0;
+		margin-left: 30px;
+	}
+
+	.btn-primary {
+		background-color: $main-blue;
+		border-radius: 0px;
+		width: 75px;
+		font-size: 1.1em;
+		box-shadow: 1px 1px 1px 1px black;
+		padding: 3px 0;
+		float: right;
+		margin-right: 30px;
+	}
+
 }
