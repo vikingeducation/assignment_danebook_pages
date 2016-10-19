@@ -17,6 +17,25 @@
     margin: 0;
     font-size: 1.5em; }
 
+.timeline-content-container {
+  border: 2px solid #EEE;
+  padding: 15px; }
+
+.timeline-content {
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  overflow: hidden; }
+  .timeline-content img {
+    width: 100%; }
+
+.timeline-footer {
+  text-align: center;
+  padding-top: 15px; }
+  .timeline-footer a {
+    color: #2B78E4;
+    text-decoration: underline; }
+
 .timeline-about-info {
   border: 2px solid #EEE;
   padding: 10px 30px; }
@@ -27,23 +46,9 @@
   .timeline-about-info dd {
     display: inline; }
 
-.timeline-photo-container {
-  border: 2px solid #EEE;
-  padding: 15px; }
-
-.timeline-photo {
-  display: inline-block;
-  background-color: white;
-  text-align: center;
-  overflow: hidden; }
-  .timeline-photo img {
-    width: 100%; }
-
-.timeline-footer {
-  text-align: center; }
-  .timeline-footer a {
-    color: #2B78E4;
-    text-decoration: underline; }
+.timeline-friend-name {
+  color: #2B78E4;
+  text-decoration: underline; }
 
 .make-post-content {
   border: 2px solid #EEE;

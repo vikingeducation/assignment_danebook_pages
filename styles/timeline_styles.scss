@@ -27,6 +27,32 @@ $text-gray: #888;
 	}	
 }
 
+.timeline-content-container {
+	border: 2px solid $gray;
+	padding: 15px;	
+}
+
+.timeline-content {
+	display: inline-block;
+	background-color: white;
+	text-align: center;
+	overflow: hidden; 
+
+	img { 
+		width: 100%;
+	}	
+}
+
+.timeline-footer {
+	text-align: center;
+	padding-top: 15px;
+
+	a {
+		color: $main-blue;
+		text-decoration: underline;		
+	}
+}
+
 .timeline-about-info {
 	border: 2px solid $gray;
 	padding: 10px 30px;
@@ -44,29 +70,9 @@ $text-gray: #888;
 	}
 }
 
-.timeline-photo-container {
-	border: 2px solid $gray;
-	padding: 15px;	
-}
-
-.timeline-photo { 
-	display: inline-block;
-	background-color: white;
-	text-align: center;
-	overflow: hidden; 
-
-	img { 
-		width: 100%;
-	}
-}
-
-.timeline-footer {
-	text-align: center;
-
-	a {
-		color: $main-blue;
-		text-decoration: underline;		
-	}
+.timeline-friend-name {
+	color: $main-blue;
+	text-decoration: underline;		
 }
 
 .make-post-content {
