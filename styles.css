@@ -46,23 +46,54 @@ body {
         overflow: visible !important; } }
 
 #profile_header {
-  position: relative;
-  height: 0;
-  padding-bottom: 30%;
-  background: #fff url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 0;
-  margin-bottom: 50px; }
-  #profile_header .profile-nav {
+  position: relative; }
+  #profile_header .cover-img {
+    height: 0;
+    padding-bottom: 30%;
+    background: #fff url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0; }
+  #profile_header .profile-img {
     position: absolute;
-    bottom: -50px;
-    background: #eee; }
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-width: 4px;
+    border-radius: 4px;
+    width: 15%;
+    z-index: 2;
+    left: 15px;
+    bottom: -35px; }
+    #profile_header .profile-img img {
+      width: 100%; }
+  #profile_header .profile-nav {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8); }
   #profile_header .navbar-nav {
-    float: left; }
-  #profile_header li {
-    border-left: 1px solid rgba(0, 0, 0, 0.8); }
-    #profile_header li:last-child {
-      border-right: 1px solid rgba(0, 0, 0, 0.8); }
+    width: 100%;
+    padding-left: calc(15% + 15px); }
+  #profile_header li, #profile_header li:hover, #profile_header li:active {
+    display: block;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: auto;
+    font-weight: bold; }
+    #profile_header li a, #profile_header li a:hover, #profile_header li a:active, #profile_header li:hover a, #profile_header li:hover a:hover, #profile_header li:hover a:active, #profile_header li:active a, #profile_header li:active a:hover, #profile_header li:active a:active {
+      background: transparent;
+      color: #333; }
+    @media (min-width: 768px) {
+      #profile_header li:nth-last-child(2), #profile_header li:hover:nth-last-child(2), #profile_header li:active:nth-last-child(2) {
+        border-right: 1px solid rgba(0, 0, 0, 0.8); }
+      #profile_header li.edit, #profile_header li:hover.edit, #profile_header li:active.edit {
+        border: none;
+        float: right; }
+        #profile_header li.edit a, #profile_header li:hover.edit a, #profile_header li:active.edit a {
+          color: #2b78e4;
+          text-decoration: underline; } }
+    #profile_header li .active, #profile_header li:hover .active, #profile_header li:active .active {
+      background: #eee; }
+  #profile_header .navbar-toggle:hover + .collapse, #profile_header .collapse:hover {
+    display: block; }
+  @media (min-width: 768px) {
+    #profile_header .collapse {
+      display: block; } }
 
 /*# sourceMappingURL=styles.css.map */

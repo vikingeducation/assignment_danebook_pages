@@ -1,12 +1,13 @@
 $nav-font-color: #eee;
 $nav-font-hover-color: #fff;
 $nav-border: 1px solid rgba(0, 0, 0, .8);
+$primary: #2b78e4;
 body {
   padding-top:50px;
 }
 #navbar {
   color:$nav-font-color;
-  background: #2b78e4;
+  background: $primary;
   border-color: rgb(8, 8, 8);
   .icon-bar {
     background-color:#fff;
@@ -64,28 +65,74 @@ body {
   }
 }
 #profile_header {
-  position:relative;
-  height:0;
-  padding-bottom:30%;
-  background: #fff url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius:0;
-  margin-bottom:50px;
+    position:relative;
+  .cover-img {
+    
+    height:0;
+    padding-bottom:30%;
+    background: #fff url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius:0;
 
-  .profile-nav{
+  }
+  
+
+  .profile-img {
     position:absolute;
-    bottom:-50px;
-    background:#eee
+    border: $nav-border;
+    border-width: 4px;
+    border-radius: 4px;
+    width:15%;
+    z-index:2;
+    left:15px;
+    bottom:-35px;
+    img {
+      width:100%
+    }
+  }
+  .profile-nav{
+    background:#fff;
+    border:$nav-border;
   }
   .navbar-nav{
-    float:left;
+    width:100%;
+    padding-left:calc(15% + 15px);
   }
-  li {
+  li, li:hover, li:active {
+    display:block;
     border-left:$nav-border;
-
-    &:last-child {
-      border-right:$nav-border;
+    width:auto;
+    font-weight: bold;
+    a, a:hover, a:active{
+      background:transparent;
+      color: #333;
+    }
+    
+    @media (min-width: 768px) {
+      &:nth-last-child(2) {
+        border-right:$nav-border;
+      }
+      &.edit{
+        border:none;
+        float:right;
+        a {
+          color: $primary;
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    .active {
+      background: #eee;
+    }
+  }
+  .navbar-toggle:hover + .collapse, .collapse:hover {
+    display:block;
+  }
+  @media (min-width: 768px) {
+    .collapse {
+      display:block;
     }
   }
 }

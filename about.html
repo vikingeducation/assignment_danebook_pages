@@ -53,20 +53,27 @@
     
     <div class="row">
       <header id="profile_header">
-        <div class="col-xs-12 profile-nav">
-          <div class="row">
-            <section>
-               <ul class="nav navbar-nav">
-                <li><a href="#">Timeline</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Friends</a></li>
-              </ul>
-            </section>
-           
-          </div>
+        <div class="cover-img">
           
         </div>
+        <section class="profile-img">
+          <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="profile">
+        </section>
+        <section class="col-xs-12 profile-nav">
+          <button type="button" aria-expanded="false" class="navbar-toggle">
+            <span class="sr-only">"Toggle Navigation"</span>
+            <span class="glyphicon glyphicon-menu-down"></span>
+          </button>
+          <ul class="collapse nav navbar-nav" role="menu">
+            <li><a href="#">Timeline</a></li>
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Friends</a></li>
+            <li class="edit"><a href="#">Edit Profile</a></li>
+          </ul>
+           
+          
+        </section>
       </header>
 
 
