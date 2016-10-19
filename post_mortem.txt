@@ -1,4 +1,4 @@
-I should have designed the page for screens less than 992 pixels in width. I guess that will have to be a future task, especially if Danebook is revisited in Unit 2. 
+I should have designed the page for screens less than 500 pixels in width. I guess that will have to be a future task, especially if Danebook is revisited in Unit 2. 
 
 My solution liberally used the method of setting a parent element to "position: relative", then setting the child element to "position: absolute" and aligning as necessary (setting top/bottom/left/right). This came in handy when I had to vertically center an element (top: 50% and tranform: translateY(-50%)). 
 
