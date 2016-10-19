@@ -2,6 +2,9 @@
 /* COLORS */
 /*******************************************************************/
 /*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+/*******************************************************************/
 /* ABOUT EDIT */
 /*******************************************************************/
 .about-edit-main {
@@ -19,21 +22,13 @@
     text-align: center;
     height: 50px;
     line-height: 50px; }
-  .about-header a {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
-    background-color: #2B78E4;
-    border-radius: 0px;
-    box-shadow: 2px 2px 2px 1px black; }
 
 .about-info {
   border: 2px solid #EEE;
   padding: 15px 45px 45px 45px; }
   .about-info h2 {
     margin-bottom: 15px;
-    font-size: 2.2em; }
+    font-size: 2em; }
   .about-info .basic-info {
     margin-bottom: 45px; }
   .about-info dt, .about-info dd {

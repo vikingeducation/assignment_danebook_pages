@@ -3,8 +3,18 @@
 /*******************************************************************/
 
 $main-blue: #2B78E4;
-$gray: #EEE;
+$main-gray: #EEE;
 $text-gray: #888;
+
+/*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+
+@mixin transform($xdist, $ydist) { // for browser compatibility
+    -webkit-transform: translate($xdist, $ydist);
+        -ms-transform: translate($xdist, $ydist);
+            transform: translate($xdist, $ydist);
+}
 
 /*******************************************************************/
 /* TIMELINE ITEMS - ABOUT, PHOTOS, FRIENDS, POST */
@@ -15,8 +25,8 @@ $text-gray: #888;
 }
 
 .timeline-heading {
-	background-color: $gray;
-	border: 2px solid $gray;
+	background-color: $main-gray;
+	border: 2px solid $main-gray;
 	text-align: center; 
 	height: 35px;
 
@@ -28,7 +38,7 @@ $text-gray: #888;
 }
 
 .timeline-content-container {
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	padding: 15px;	
 }
 
@@ -54,7 +64,7 @@ $text-gray: #888;
 }
 
 .timeline-about-info {
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	padding: 10px 30px;
 
 	dl {
@@ -76,12 +86,12 @@ $text-gray: #888;
 }
 
 .make-post-content {
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	padding: 15px;
 }
 
 .make-post-submit {
-	background-color: $gray;
+	background-color: $main-gray;
 	text-align: right;
 	height: 45px;
 	position: relative; 
@@ -90,7 +100,7 @@ $text-gray: #888;
 		position: absolute; 
 		top: 50%; 
 		right: 15px; 
-		transform: translateY(-50%);
+		@include transform(0,-50%);
 		background-color: $main-blue;
 		border-radius: 0px;
 		width: 75px;
@@ -106,7 +116,7 @@ $text-gray: #888;
 /*******************************************************************/
 
 .timeline-post { // existing post
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	margin-bottom: 15px;
 	position: relative;
 }
@@ -149,7 +159,7 @@ $text-gray: #888;
 }
 
 .post-interaction {
-	background-color: $gray;
+	background-color: $main-gray;
 	height: 40px;
 	padding: 3px 0; // vertically center
 
@@ -164,7 +174,7 @@ $text-gray: #888;
 }
 
 .post-likes { 
-	background-color: $gray;
+	background-color: $main-gray;
 	height: 40px;
 	padding: 3px 0; // vertically center
 	padding-left: 12px;
@@ -177,7 +187,7 @@ $text-gray: #888;
 
 .post-comments {
 	border-top: 1px solid #BBB;
-	background-color: $gray;
+	background-color: $main-gray;
 	position: relative;
 }
 

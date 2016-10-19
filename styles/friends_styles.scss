@@ -3,9 +3,19 @@
 /*******************************************************************/
 
 $main-blue: #2B78E4;
-$gray: #EEE;
+$main-gray: #EEE;
 $text-gray: #888;
-$button-gray: #BFBFBF;
+$unfriend-gray: #BFBFBF;
+
+/*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+
+@mixin transform($xdist, $ydist) { // for browser compatibility
+    -webkit-transform: translate($xdist, $ydist);
+        -ms-transform: translate($xdist, $ydist);
+            transform: translate($xdist, $ydist);
+}
 
 /*******************************************************************/
 /* FRIENDS */
@@ -17,9 +27,9 @@ $button-gray: #BFBFBF;
 }
 
 .friends-header { 
-	background-color: $gray;
+	background-color: $main-gray;
 	height: 50px;
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	position: relative; 
 
 	h1 {
@@ -34,7 +44,7 @@ $button-gray: #BFBFBF;
 		position: absolute;
 		top: 50%; 
 		right: 15px;
-		transform: translateY(-50%);
+		@include transform(0,-50%);
 		background-color: $main-blue;
 		border-radius: 0px;
 		box-shadow: 2px 2px 2px 1px black;
@@ -42,12 +52,12 @@ $button-gray: #BFBFBF;
 }
 
 .friends-container {
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	padding: 15px 45px 45px; // top left-right bottom 
 }
 
 .friend {
-	border: 2px solid $gray; 
+	border: 2px solid $main-gray; 
 	padding: 15px;
 	position: relative; 
 }
@@ -87,7 +97,7 @@ $button-gray: #BFBFBF;
 .unfriend-button {
 	display: inline-block; 
 	border-radius: 0;
-	background-color: $button-gray;
+	background-color: $unfriend-gray;
 	font-weight: bold;
 	box-shadow: 2px 2px 2px 1px black;
 	position: absolute; 

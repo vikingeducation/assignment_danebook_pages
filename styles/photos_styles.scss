@@ -3,8 +3,18 @@
 /*******************************************************************/
 
 $main-blue: #2B78E4;
-$gray: #EEE;
+$main-gray: #EEE;
 $date-gray: #8A8A8A;
+
+/*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+
+@mixin transform($xdist, $ydist) { // for browser compatibility
+    -webkit-transform: translate($xdist, $ydist);
+        -ms-transform: translate($xdist, $ydist);
+            transform: translate($xdist, $ydist);
+}
 
 /*******************************************************************/
 /* PHOTOS */
@@ -16,9 +26,9 @@ $date-gray: #8A8A8A;
 }
 
 .photos-header { 
-	background-color: $gray;
+	background-color: $main-gray;
 	height: 50px;
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	position: relative; 
 
 	h1 {
@@ -33,7 +43,7 @@ $date-gray: #8A8A8A;
 		position: absolute;
 		top: 50%; 
 		right: 15px;
-		transform: translateY(-50%);
+		@include transform(0,-50%);
 		background-color: $main-blue;
 		border-radius: 0px;
 		box-shadow: 2px 2px 2px 1px black;
@@ -41,7 +51,7 @@ $date-gray: #8A8A8A;
 }
 
 .photos-container {
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	padding: 15px 45px 45px; // top left-right bottom 
 }
 

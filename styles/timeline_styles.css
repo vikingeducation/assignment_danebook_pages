@@ -2,6 +2,9 @@
 /* COLORS */
 /*******************************************************************/
 /*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+/*******************************************************************/
 /* TIMELINE ITEMS - ABOUT, PHOTOS, FRIENDS, POST */
 /*******************************************************************/
 .timeline-item {
@@ -63,7 +66,9 @@
     position: absolute;
     top: 50%;
     right: 15px;
-    transform: translateY(-50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
     background-color: #2B78E4;
     border-radius: 0px;
     width: 75px;

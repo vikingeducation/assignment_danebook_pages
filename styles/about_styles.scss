@@ -3,7 +3,17 @@
 /*******************************************************************/
 
 $main-blue: #2B78E4;
-$gray: #EEE;
+$main-gray: #EEE;
+
+/*******************************************************************/
+/* MIXINS */
+/*******************************************************************/
+
+@mixin transform($xdist, $ydist) { // for browser compatibility
+    -webkit-transform: translate($xdist, $ydist);
+        -ms-transform: translate($xdist, $ydist);
+            transform: translate($xdist, $ydist);
+}
 
 /*******************************************************************/
 /* ABOUT */
@@ -15,9 +25,9 @@ $gray: #EEE;
 }
 
 .about-header {
-	background-color: $gray;
+	background-color: $main-gray;
 	height: 50px;
-	border: 2px solid $gray;
+	border: 2px solid $main-gray;
 	position: relative; 
 
 	h1 {
@@ -32,7 +42,7 @@ $gray: #EEE;
 		position: absolute;
 		top: 50%; 
 		right: 15px;
-		transform: translateY(-50%);
+		@include transform(0,-50%);
 		background-color: $main-blue;
 		border-radius: 0px;
 		box-shadow: 2px 2px 2px 1px black;
@@ -40,12 +50,12 @@ $gray: #EEE;
 }
 
 .about-info {
-	border: 2px solid $gray;
-	padding: 15px 45px 45px 45px;
+	border: 2px solid $main-gray;
+	padding: 15px 45px 45px;
 
 	h2 {
 		margin-bottom: 15px;
-		font-size: 2.2em;
+		font-size: 2em;
 	}
 
 	.basic-info {
