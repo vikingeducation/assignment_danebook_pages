@@ -1,0 +1,14 @@
+#main-navbar {
+  background-color: #337AB7; }
+  #main-navbar .navbar-brand {
+    color: white; }
+  #main-navbar .navbar-text {
+    color: white; }
+  #main-navbar .form-control {
+    width: 350%; }
+  #main-navbar .img-circle {
+    height: 35px;
+    width: 35px;
+    margin-top: -8px; }
+
+/*# sourceMappingURL=styles.css.map */
