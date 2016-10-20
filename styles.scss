@@ -8,6 +8,10 @@ body {
   font-family: $font-family;
   padding: 50px 0 20px 0;
 }
+.btn-primary {
+  background-color: $primary;
+}
+
 @import 'navbar';
 @import 'header';
 @import 'post';
