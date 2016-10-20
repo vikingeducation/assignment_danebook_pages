@@ -8,6 +8,9 @@ body {
 .muted {
   color: #999; }
 
+.right-gutter {
+  padding-right: 2em; }
+
 #navbar {
   color: #eee;
   background: #2b78e4;
@@ -175,6 +178,22 @@ body {
     .post .comment p {
       margin: 0;
       padding-bottom: 1em; }
+  .post dl dt, .post dl dd {
+    float: left;
+    width: 30%; }
+  .post dl dd {
+    width: 70%;
+    margin-bottom: 20px; }
+  .post dl:before, .post dl:after {
+    display: table;
+    content: " "; }
+  .post dl:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0; }
 
 .profile {
   padding-bottom: 15px; }
@@ -193,22 +212,9 @@ body {
     .profile .profile-info p {
       color: #777; }
 
-#about .information dl dt, #about .information dl dd {
-  float: left;
-  width: 30%; }
-#about .information dl dd {
-  width: 70%;
-  margin-bottom: 20px; }
-#about .information dl:before, #about .information dl:after {
-  display: table;
-  content: " "; }
-#about .information dl:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0; }
+.photo-gallery img {
+  width: 100%; }
+
 #about .information, #about .personality, #about .submit-button {
   margin-bottom: 20px; }
 #about .submit-button .btn {

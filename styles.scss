@@ -14,37 +14,19 @@ body {
 .muted {
   color: #999;
 }
+.right-gutter {
+  padding-right:2em
+}
+
 @import 'navbar';
 @import 'header';
 @import 'post';
 @import 'profile';
+@import 'gallery';
+
 
 #about {
 
-  .information {
-    dl{
-      dt, dd{
-        float:left;
-        width: 30%;
-      }
-      dd {
-        width: 70%;
-        margin-bottom:20px;
-      }
-      &:before, &:after{
-        display: table;
-        content: " ";
-      }
-      &:after {
-        visibility: hidden;
-        display: block;
-        font-size: 0;
-        content: " ";
-        clear: both;
-        height: 0;
-      }
-    }
-  }
   .information, .personality, .submit-button {
     margin-bottom:20px;
   }
