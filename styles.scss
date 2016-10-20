@@ -39,5 +39,16 @@ body {
       }
     }
   }
+  .information, .personality, .submit-button {
+    margin-bottom:20px;
+  }
+  .submit-button {
+
+    .btn{
+    padding: 20px 0;
+      font-size:24px;
+    }
+    
+  }
 }
 

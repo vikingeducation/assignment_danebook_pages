@@ -69,15 +69,75 @@
             <span class="glyphicon glyphicon-menu-down"></span>
           </button>
           <ul class="collapse nav navbar-nav" role="menu">
-            <li><a href="#">Timeline</a></li>
-            <li><a href="#" class="active">About</a></li>
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">Friends</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="friends.html">Friends</a></li>
+            <li class="edit hidden"><a href="about_edit.html">Edit Profile</a></li>
           </ul>
         </section>
       </header>
     </div>
     
+    <div class="row">
+      <section id="about" class="post col-xs-12">
+        <div class="row">
+          <header class="post-header col-xs-12">
+            <h2>About</h2>
+          </header>
+        </div>
+        <div class="row">
+          <section class="post-content col-xs-12">
+            <div class="row">
+              <div class="information col-md-5">
+
+                <form id="edit-information">
+                  <h3>Basic Information</h3>
+                  <dl>
+                    <dt><label for="edit-birthday">Birthday:</label</dt>
+                    <dd><input type="text" id="edit-birthday" name="birthday" class="form-control" value="July 31st, 1980"></dd>
+                    
+                    <dt><label for="edit-college">College:</label</dt>
+                    <dd><input type="text" id="edit-college" name="college" class="form-control" value="Hogwarts College"></dd>
+                    
+                    <dt><label for="edit-hometown">Hometown:</label</dt>
+                    <dd><input type="text" id="edit-hometown" name="hometown" class="form-control" value="Godrick's Hollow, England"></dd>
+                    
+                    <dt><label for="edit-lives">Currently Lives:</label</dt>
+                    <dd><input type="text" id="edit-lives" name="lives" class="form-control" value="Godrick's Hollow, England"></dd>
+                  </dl>
+                  
+                  <h3>Contact Information</h3>
+                  <dl>
+                    <dt><label for="edit-email"><p>Email:</p></label</dt>
+                    <dd><p><input type="text" id="edit-email" name="email" class="form-control" value="harry_potter@hogwarts.edu"></p></dd>
+                    
+                    <dt><label for="edit-telephone"><p>Telephone:</p></label</dt>
+
+                    <dd><p><input type="tel" id="edit-telephone" name="telephone" class="form-control" value="555-123-4567"></p></dd>
+                  </dl>
+                </form>
+                
+              </div>
+
+              <div class="personality col-md-7">
+                <h3><label for="edit-slogan">Words To Live By</label></h3>
+                <textarea id="edit-slogan" name="slogan" class="form-control" rows="5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis minima natus assumenda, iste nesciunt odio dolorum. Eveniet accusamus, quis, esse dignissimos ex fuga est, excepturi ab non itaque nostrum quae.
+                </textarea>
+                <h3><label for="edit-about">About Me</label></h3>
+                <textarea id="edit-about" name="about" class="form-control" rows="9">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra tellus nisi, id condimentum dui tristique sed. Donec luctus eros quis ante consequat sagittis. Phasellus consectetur lectus ac lectus mattis vulputate. Maecenas non risus tellus. Proin ullamcorper, ex id iaculis scelerisque, odio dui posuere purus, sit amet viverra mi nibh sit amet risus. Duis tempor pretium arcu, ut dictum justo interdum pharetra. Suspendisse vulputate pellentesque massa, eu gravida diam semper ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra erat eget vulputate lacinia. Aenean in porta elit. Aenean egestas in urna id bibendum. Integer nec placerat metus.
+                </textarea>
+              </div>
+              <div class="submit-button col-xs-12 col-md-6 col-md-offset-3">
+                <button type="submit" class="btn btn-block btn-primary">Save Changes</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
 
   </main>
   

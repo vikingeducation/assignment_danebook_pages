@@ -144,5 +144,10 @@ body {
   content: " ";
   clear: both;
   height: 0; }
+#about .information, #about .personality, #about .submit-button {
+  margin-bottom: 20px; }
+#about .submit-button .btn {
+  padding: 20px 0;
+  font-size: 24px; }
 
 /*# sourceMappingURL=styles.css.map */
