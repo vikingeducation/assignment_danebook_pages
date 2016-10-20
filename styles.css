@@ -11,6 +11,10 @@ body {
 .right-gutter {
   padding-right: 2em; }
 
+.btn.unfriend {
+  background: #ccc;
+  color: #000; }
+
 #navbar {
   color: #eee;
   background: #2b78e4;
@@ -211,6 +215,20 @@ body {
       font-weight: 600; }
     .profile .profile-info p {
       color: #777; }
+  .profile.profile-bordered {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+    padding: 1em;
+    margin-bottom: 1em; }
+  .profile.profile-center {
+    display: flex; }
+    .profile.profile-center .profile-info {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center; }
+      .profile.profile-center .profile-info * {
+        margin: 0;
+        padding: 0; }
 
 .photo-gallery img {
   width: 100%; }

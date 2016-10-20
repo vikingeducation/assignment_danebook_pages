@@ -17,6 +17,10 @@ body {
 .right-gutter {
   padding-right:2em
 }
+.btn.unfriend {
+  background: #ccc;
+  color: #000;
+}
 
 @import 'navbar';
 @import 'header';
