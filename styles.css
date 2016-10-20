@@ -138,7 +138,8 @@ body {
     background: #eee;
     text-align: center;
     font-size: 24px;
-    padding: 15px; }
+    padding: 15px;
+    position: relative; }
     .post .post-header .edit-button {
       position: absolute;
       right: 15px;
@@ -174,6 +175,8 @@ body {
     padding: 15px; }
     .post.post-small .post-content h3 {
       margin: 30px 0 20px 0; }
+  .post.post-gutters .post-content {
+    padding: 15px; }
   .post .comment {
     width: calc(100% - 60px);
     padding-left: 15px; }
@@ -230,8 +233,27 @@ body {
         margin: 0;
         padding: 0; }
 
-.photo-gallery img {
-  width: 100%; }
+.photo {
+  position: relative; }
+  .photo img {
+    width: 100%; }
+  .photo .description {
+    position: absolute;
+    display: none;
+    left: 15px;
+    bottom: 0;
+    height: 10%;
+    padding: 1%;
+    font-size: 100%;
+    color: #fff;
+    width: calc(100% - 30px);
+    text-align: center;
+    background: #333;
+    background: rgba(0, 0, 0, 0.3); }
+  .photo:hover .description {
+    display: block; }
+  .gallery .photo {
+    margin-bottom: 15px; }
 
 #about .information, #about .personality, #about .submit-button {
   margin-bottom: 20px; }
