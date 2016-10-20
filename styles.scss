@@ -11,7 +11,9 @@ body {
 .btn-primary {
   background-color: $primary;
 }
-
+.muted {
+  color: #999;
+}
 @import 'navbar';
 @import 'header';
 @import 'post';

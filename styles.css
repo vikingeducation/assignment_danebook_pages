@@ -5,6 +5,9 @@ body {
 .btn-primary {
   background-color: #2b78e4; }
 
+.muted {
+  color: #999; }
+
 #navbar {
   color: #eee;
   background: #2b78e4;
@@ -145,6 +148,14 @@ body {
       padding-right: 15px; }
     .post .post-footer .likes {
       margin-top: 15px; }
+    .post .post-footer .comments {
+      padding-top: 15px;
+      background: #eee;
+      background-image: -webkit-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: -moz-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: -o-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: -ms-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px); }
   .post.post-small .post-header, .post.post-small .post-footer {
     padding: 4px 15px;
     font-size: 14px; }
@@ -154,6 +165,14 @@ body {
     padding: 15px; }
     .post.post-small .post-content h3 {
       margin: 30px 0 20px 0; }
+  .post .comment {
+    width: calc(100% - 60px);
+    padding-left: 15px; }
+    .post .comment .muted {
+      padding-left: 5px; }
+    .post .comment p {
+      margin: 0;
+      padding-bottom: 1em; }
 
 .profile {
   padding-bottom: 15px; }
