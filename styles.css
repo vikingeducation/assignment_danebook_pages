@@ -1,5 +1,6 @@
 body {
-  padding-top: 50px; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 50px 0 20px 0; }
 
 #navbar {
   color: #eee;
@@ -45,9 +46,9 @@ body {
         padding-bottom: 0;
         overflow: visible !important; } }
 
-#profile_header {
+#profile-header {
   position: relative; }
-  #profile_header .cover-img {
+  #profile-header .cover-img {
     position: relative;
     height: 0;
     padding-bottom: 30%;
@@ -55,13 +56,20 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 0; }
-    #profile_header .cover-img img {
+    #profile-header .cover-img img {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%; }
-  #profile_header .profile-img {
+  #profile-header .profile-username {
+    position: absolute;
+    bottom: 0;
+    left: calc(15% + 30px);
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; }
+  #profile-header .profile-img {
     position: absolute;
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-width: 4px;
@@ -70,45 +78,71 @@ body {
     z-index: 2;
     left: 15px;
     bottom: -35px; }
-    #profile_header .profile-img img {
+    #profile-header .profile-img img {
       width: 100%; }
-  #profile_header .profile-nav {
+  #profile-header .profile-nav {
     background: #fff;
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 0 0 2px 2px; }
-  #profile_header .navbar-nav {
+  #profile-header .navbar-nav {
     width: 100%;
     padding-left: calc(15% + 15px); }
-  #profile_header li, #profile_header li:hover, #profile_header li:active {
+  #profile-header li, #profile-header li:hover, #profile-header li:active {
     display: block;
     border-left: 1px solid rgba(0, 0, 0, 0.8);
     width: auto;
     font-weight: bold; }
-    #profile_header li a, #profile_header li a:hover, #profile_header li a:active, #profile_header li:hover a, #profile_header li:hover a:hover, #profile_header li:hover a:active, #profile_header li:active a, #profile_header li:active a:hover, #profile_header li:active a:active {
+    #profile-header li a, #profile-header li a:hover, #profile-header li a:active, #profile-header li:hover a, #profile-header li:hover a:hover, #profile-header li:hover a:active, #profile-header li:active a, #profile-header li:active a:hover, #profile-header li:active a:active {
       background: transparent;
       color: #333; }
     @media (min-width: 768px) {
-      #profile_header li:nth-last-child(2), #profile_header li:hover:nth-last-child(2), #profile_header li:active:nth-last-child(2) {
+      #profile-header li:nth-last-child(2), #profile-header li:hover:nth-last-child(2), #profile-header li:active:nth-last-child(2) {
         border-right: 1px solid rgba(0, 0, 0, 0.8); }
-      #profile_header li.edit, #profile_header li:hover.edit, #profile_header li:active.edit {
+      #profile-header li.edit, #profile-header li:hover.edit, #profile-header li:active.edit {
         border: none;
         float: right; }
-        #profile_header li.edit a, #profile_header li:hover.edit a, #profile_header li:active.edit a {
+        #profile-header li.edit a, #profile-header li:hover.edit a, #profile-header li:active.edit a {
           color: #2b78e4;
           text-decoration: underline; } }
-    #profile_header li .active, #profile_header li:hover .active, #profile_header li:active .active {
+    #profile-header li .active, #profile-header li:hover .active, #profile-header li:active .active {
       background: #eee; }
-  #profile_header .navbar-toggle:hover + .collapse, #profile_header .collapse:hover {
+  #profile-header .navbar-toggle:hover + .collapse, #profile-header .collapse:hover {
     display: block; }
   @media (min-width: 768px) {
-    #profile_header .collapse {
+    #profile-header .collapse {
       display: block; } }
 
 .post {
   margin-top: 20px;
   border: 2px solid rgba(0, 0, 0, 0.8);
   border-radius: 2px; }
+  .post h1, .post h2, .post h3 {
+    font-weight: bold; }
   .post .post-header {
-    background: #eee; }
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    background: #eee;
+    text-align: center; }
+    .post .post-header h2 {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  .post .post-content h3 {
+    margin: 30px 0 20px 0; }
+
+#about .information dl dt, #about .information dl dd {
+  float: left;
+  width: 30%; }
+#about .information dl dd {
+  width: 70%;
+  margin-bottom: 20px; }
+#about .information dl:before, #about .information dl:after {
+  display: table;
+  content: " "; }
+#about .information dl:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
 
 /*# sourceMappingURL=styles.css.map */
