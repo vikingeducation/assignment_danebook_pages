@@ -97,7 +97,7 @@ body {
     font-weight: bold; }
     #profile-header li a, #profile-header li a:hover, #profile-header li a:active, #profile-header li:hover a, #profile-header li:hover a:hover, #profile-header li:hover a:active, #profile-header li:active a, #profile-header li:active a:hover, #profile-header li:active a:active {
       background: transparent;
-      color: #333; }
+      color: #555; }
     @media (min-width: 768px) {
       #profile-header li:nth-last-child(2), #profile-header li:hover:nth-last-child(2), #profile-header li:active:nth-last-child(2) {
         border-right: 1px solid rgba(0, 0, 0, 0.8); }
@@ -119,7 +119,8 @@ body {
   margin-top: 20px;
   border: 2px solid rgba(0, 0, 0, 0.8);
   border-radius: 2px;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #555; }
   .post h1, .post h2, .post h3 {
     font-weight: bold; }
   .post .post-header {
@@ -140,6 +141,10 @@ body {
   .post .post-footer {
     padding: 15px;
     background: #eee; }
+    .post .post-footer a.public {
+      padding-right: 15px; }
+    .post .post-footer .likes {
+      margin-top: 15px; }
   .post.post-small .post-header, .post.post-small .post-footer {
     padding: 4px 15px;
     font-size: 14px; }
