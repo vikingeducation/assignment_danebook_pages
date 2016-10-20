@@ -2,7 +2,7 @@
   margin-top:20px;
   border:$content-border;
   border-radius:2px;
-  
+  font-size: 14px;
   h1,h2,h3 {
       font-weight: bold;
   }
@@ -11,17 +11,51 @@
     border-bottom: $content-border;
     background: #eee;
     text-align:center;
+    font-size:24px;
+    padding:15px;
 
 
-    h2 {
-      margin-top: 10px;
-      margin-bottom: 10px;
+    .edit-button {
+      position: absolute;
+      right: 15px;
+      top:15px;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p {
+      margin-top: 0;
+      margin-bottom: 0;
     }
   }
   .post-content {
     h3 {
       margin: 30px 0 20px 0;
     }
+  }
+
+  .post-footer {
+    padding:15px;
+    background: #eee;
+  }
+
+  &.post-small {
+
+    .post-header, .post-footer {
+      padding:4px 15px;
+      font-size:14px;
+    }
+    .post-header {
+      h1, h2, h3, h4, h5, h6, p {
+        font-weight: bold;
+      }
+    }
+
+    .post-content {
+      padding:15px;
+      h3 {
+        margin: 30px 0 20px 0;
+      }
+    }
+
   }
 
 

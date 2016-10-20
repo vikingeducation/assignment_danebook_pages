@@ -115,18 +115,54 @@ body {
 .post {
   margin-top: 20px;
   border: 2px solid rgba(0, 0, 0, 0.8);
-  border-radius: 2px; }
+  border-radius: 2px;
+  font-size: 14px; }
   .post h1, .post h2, .post h3 {
     font-weight: bold; }
   .post .post-header {
     border-bottom: 2px solid rgba(0, 0, 0, 0.8);
     background: #eee;
-    text-align: center; }
-    .post .post-header h2 {
-      margin-top: 10px;
-      margin-bottom: 10px; }
+    text-align: center;
+    font-size: 24px;
+    padding: 15px; }
+    .post .post-header .edit-button {
+      position: absolute;
+      right: 15px;
+      top: 15px; }
+    .post .post-header h1, .post .post-header h2, .post .post-header h3, .post .post-header h4, .post .post-header h5, .post .post-header h6, .post .post-header p {
+      margin-top: 0;
+      margin-bottom: 0; }
   .post .post-content h3 {
     margin: 30px 0 20px 0; }
+  .post .post-footer {
+    padding: 15px;
+    background: #eee; }
+  .post.post-small .post-header, .post.post-small .post-footer {
+    padding: 4px 15px;
+    font-size: 14px; }
+  .post.post-small .post-header h1, .post.post-small .post-header h2, .post.post-small .post-header h3, .post.post-small .post-header h4, .post.post-small .post-header h5, .post.post-small .post-header h6, .post.post-small .post-header p {
+    font-weight: bold; }
+  .post.post-small .post-content {
+    padding: 15px; }
+    .post.post-small .post-content h3 {
+      margin: 30px 0 20px 0; }
+
+.profile {
+  padding-bottom: 15px; }
+  .profile .profile-img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.8); }
+    .profile .profile-img img {
+      width: 100%; }
+  .profile .profile-info {
+    padding-left: 15px; }
+    .profile .profile-info a, .profile .profile-info a:visited, .profile .profile-info a:hover {
+      text-decoration: underline; }
+    .profile .profile-info p {
+      color: #777; }
 
 #about .information dl dt, #about .information dl dd {
   float: left;
