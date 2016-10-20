@@ -156,6 +156,8 @@ body {
       background-image: -o-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
       background-image: -ms-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
       background-image: linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px); }
+      .post .post-footer .comments textarea {
+        margin-bottom: 1em; }
   .post.post-small .post-header, .post.post-small .post-footer {
     padding: 4px 15px;
     font-size: 14px; }
