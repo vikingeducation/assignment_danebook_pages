@@ -1,0 +1,28 @@
+.post {
+  margin-top:20px;
+  border:$content-border;
+  border-radius:2px;
+  
+  h1,h2,h3 {
+      font-weight: bold;
+  }
+
+  .post-header {
+    border-bottom: $content-border;
+    background: #eee;
+    text-align:center;
+
+
+    h2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .post-content {
+    h3 {
+      margin: 30px 0 20px 0;
+    }
+  }
+
+
+}
