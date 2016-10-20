@@ -34,13 +34,39 @@
   margin-top: -35px;
   color: #fff; }
 
+#nav-pills-margin {
+  margin-left: 200px; }
+
 .nav-pills {
   margin-left: 165px;
   background-color: #fff; }
   .nav-pills .navbar-right {
-    margin-top: 10px; }
+    margin-top: 10px;
+    margin-right: 20px; }
 
 .cover-nav-badge {
   color: #aaa; }
+
+.lower-pane-header {
+  width: 100%;
+  padding-left: 50%;
+  background-color: #eee;
+  margin-top: 15px;
+  line-height: 40px; }
+  .lower-pane-header button {
+    margin: 5px 5px 0 0;
+    float: right;
+    height: 30px;
+    text-align: middle; }
+
+.lower-pane {
+  line-height: 2em;
+  border: solid 1px #000;
+  margin: 0 0 20px 0; }
+
+.table-top {
+  line-height: 3em;
+  font-size: 18px;
+  font-weight: 700; }
 
 /*# sourceMappingURL=styles.css.map */
