@@ -1,0 +1,264 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 50px 0 20px 0; }
+
+.btn-primary {
+  background-color: #2b78e4; }
+
+.muted {
+  color: #999; }
+
+.right-gutter {
+  padding-right: 2em; }
+
+.btn.unfriend {
+  background: #ccc;
+  color: #000; }
+
+#navbar {
+  color: #eee;
+  background: #2b78e4;
+  border-color: #080808; }
+  #navbar .icon-bar {
+    background-color: #fff; }
+  #navbar .navbar-toggle:focus, #navbar .navbar-toggle:hover {
+    background-color: #fff; }
+    #navbar .navbar-toggle:focus .icon-bar, #navbar .navbar-toggle:hover .icon-bar {
+      background-color: #000; }
+  #navbar li:hover > a, #navbar .navbar-brand:hover {
+    color: #fff; }
+  #navbar, #navbar a, #navbar a:visited {
+    font-size: 20px;
+    color: #eee;
+    font-weight: bold; }
+  #navbar .navbar-brand {
+    padding: 10px;
+    font-size: 30px;
+    line-height: 1;
+    color: #eee; }
+    #navbar .navbar-brand img {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      float: left;
+      margin-right: 15px; }
+  #navbar .navbar-form * {
+    width: 100%; }
+  #navbar .navbar-form {
+    border: 0; }
+    @media (max-width: 767px) {
+      #navbar .navbar-form {
+        margin: 0 -15px; } }
+  #navbar .collapse {
+    border-bottom: 1px solid #cccccc; }
+    @media (min-width: 768px) {
+      #navbar .collapse {
+        border: 0;
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important; } }
+
+#profile-header {
+  position: relative; }
+  #profile-header .cover-img {
+    position: relative;
+    height: 0;
+    padding-bottom: 30%;
+    background: #fff url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0; }
+    #profile-header .cover-img img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  #profile-header .profile-username {
+    position: absolute;
+    bottom: 0;
+    left: calc(15% + 30px);
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black; }
+  #profile-header .profile-img {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-width: 4px;
+    border-radius: 4px;
+    width: 15%;
+    z-index: 2;
+    left: 15px;
+    bottom: -35px; }
+    #profile-header .profile-img img {
+      width: 100%; }
+  #profile-header .profile-nav {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 0 0 2px 2px; }
+  #profile-header .navbar-nav {
+    width: 100%;
+    padding-left: calc(15% + 15px); }
+  #profile-header li, #profile-header li:hover, #profile-header li:active {
+    display: block;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: auto;
+    font-weight: bold; }
+    #profile-header li a, #profile-header li a:hover, #profile-header li a:active, #profile-header li:hover a, #profile-header li:hover a:hover, #profile-header li:hover a:active, #profile-header li:active a, #profile-header li:active a:hover, #profile-header li:active a:active {
+      background: transparent;
+      color: #555; }
+    @media (min-width: 768px) {
+      #profile-header li:nth-last-child(2), #profile-header li:hover:nth-last-child(2), #profile-header li:active:nth-last-child(2) {
+        border-right: 1px solid rgba(0, 0, 0, 0.8); }
+      #profile-header li.edit, #profile-header li:hover.edit, #profile-header li:active.edit {
+        border: none;
+        float: right; }
+        #profile-header li.edit a, #profile-header li:hover.edit a, #profile-header li:active.edit a {
+          color: #2b78e4;
+          text-decoration: underline; } }
+    #profile-header li .active, #profile-header li:hover .active, #profile-header li:active .active {
+      background: #eee; }
+  #profile-header .navbar-toggle:hover + .collapse, #profile-header .collapse:hover {
+    display: block; }
+  @media (min-width: 768px) {
+    #profile-header .collapse {
+      display: block; } }
+
+.post {
+  margin-top: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+  font-size: 14px;
+  color: #555; }
+  .post h1, .post h2, .post h3 {
+    font-weight: bold; }
+  .post .post-header {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    background: #eee;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    position: relative; }
+    .post .post-header .edit-button {
+      position: absolute;
+      right: 15px;
+      top: 15px; }
+    .post .post-header h1, .post .post-header h2, .post .post-header h3, .post .post-header h4, .post .post-header h5, .post .post-header h6, .post .post-header p {
+      margin-top: 0;
+      margin-bottom: 0; }
+  .post .post-content h3 {
+    margin: 30px 0 20px 0; }
+  .post .post-footer {
+    padding: 15px;
+    background: #eee; }
+    .post .post-footer a.public {
+      padding-right: 15px; }
+    .post .post-footer .likes {
+      margin-top: 15px; }
+    .post .post-footer .comments {
+      padding-top: 15px;
+      background: #eee;
+      background-image: -webkit-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: -moz-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: -o-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: -ms-linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px);
+      background-image: linear-gradient(top, rgba(238, 238, 238, 0) 0px, #999 2px, rgba(238, 238, 238, 0) 0px); }
+      .post .post-footer .comments textarea {
+        margin-bottom: 1em; }
+  .post.post-small .post-header, .post.post-small .post-footer {
+    padding: 4px 15px;
+    font-size: 14px; }
+  .post.post-small .post-header h1, .post.post-small .post-header h2, .post.post-small .post-header h3, .post.post-small .post-header h4, .post.post-small .post-header h5, .post.post-small .post-header h6, .post.post-small .post-header p {
+    font-weight: bold; }
+  .post.post-small .post-content {
+    padding: 15px; }
+    .post.post-small .post-content h3 {
+      margin: 30px 0 20px 0; }
+  .post.post-gutters .post-content {
+    padding: 15px; }
+  .post .comment {
+    width: calc(100% - 60px);
+    padding-left: 15px; }
+    .post .comment .muted {
+      padding-left: 5px; }
+    .post .comment p {
+      margin: 0;
+      padding-bottom: 1em; }
+  .post dl dt, .post dl dd {
+    float: left;
+    width: 30%; }
+  .post dl dd {
+    width: 70%;
+    margin-bottom: 20px; }
+  .post dl:before, .post dl:after {
+    display: table;
+    content: " "; }
+  .post dl:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0; }
+
+.profile {
+  padding-bottom: 15px; }
+  .profile .profile-img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 2px;
+    border: 2px solid rgba(0, 0, 0, 0.8); }
+    .profile .profile-img img {
+      width: 100%; }
+  .profile .profile-info {
+    padding-left: 15px; }
+    .profile .profile-info a, .profile .profile-info a:visited, .profile .profile-info a:hover {
+      font-weight: 600; }
+    .profile .profile-info p {
+      color: #777; }
+  .profile.profile-bordered {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 2px;
+    padding: 1em;
+    margin-bottom: 1em; }
+  .profile.profile-center {
+    display: flex; }
+    .profile.profile-center .profile-info {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center; }
+      .profile.profile-center .profile-info * {
+        margin: 0;
+        padding: 0; }
+
+.photo {
+  position: relative; }
+  .photo img {
+    width: 100%; }
+  .photo .description {
+    position: absolute;
+    display: none;
+    left: 15px;
+    bottom: 0;
+    height: 10%;
+    padding: 1%;
+    font-size: 100%;
+    color: #fff;
+    width: calc(100% - 30px);
+    text-align: center;
+    background: #333;
+    background: rgba(0, 0, 0, 0.3); }
+  .photo:hover .description {
+    display: block; }
+  .gallery .photo {
+    margin-bottom: 15px; }
+
+#about .information, #about .personality, #about .submit-button {
+  margin-bottom: 20px; }
+#about .submit-button .btn {
+  padding: 20px 0;
+  font-size: 24px; }
+
+/*# sourceMappingURL=styles.css.map */
