@@ -17,6 +17,11 @@
 		margin-top: -8px;
 	}
 }
+.edit-profile-btn{
+	a{
+		color: #fff;
+	}
+}
 .cover-photo{
 	margin-top: -20px;
 	background: url(hogwarts_small.jpg);
@@ -79,6 +84,8 @@
 	line-height: 2em;
 	border: solid 1px #000;
 	margin: 0 0 20px 0;
+}
+.lower-pane-edit{
 	td{
 		width: 100px;
 		input{

@@ -13,6 +13,9 @@
     width: 35px;
     margin-top: -8px; }
 
+.edit-profile-btn a {
+  color: #fff; }
+
 .cover-photo {
   margin-top: -20px;
   background: url(hogwarts_small.jpg);
@@ -71,19 +74,20 @@
   line-height: 2em;
   border: solid 1px #000;
   margin: 0 0 20px 0; }
-  .lower-pane td {
-    width: 100px; }
-    .lower-pane td input {
-      width: 200px; }
-  .lower-pane button {
-    height: 60px;
-    width: 400px;
-    margin: 40px 0 100px 0;
-    margin-left: 30%;
-    background-color: #337AB7;
-    border: 0;
-    color: #fff;
-    font-size: 20px; }
+
+.lower-pane-edit td {
+  width: 100px; }
+  .lower-pane-edit td input {
+    width: 200px; }
+.lower-pane-edit button {
+  height: 60px;
+  width: 400px;
+  margin: 40px 0 100px 0;
+  margin-left: 30%;
+  background-color: #337AB7;
+  border: 0;
+  color: #fff;
+  font-size: 20px; }
 
 .table-top {
   line-height: 3em;
