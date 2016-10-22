@@ -37,3 +37,30 @@
   }
 }
 
+// Jumbotron
+
+.cover-image {
+  margin-top: 25px;
+  background-image: url(../images/cover_image.jpg);
+  background-size: cover;
+  color: #fff;
+  height: 360px;
+  .image-mask {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+    .profile-pic {
+      width: 100%;
+    }
+  }
+  .profile-name {
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    font-weight: 600;
+  }
+}

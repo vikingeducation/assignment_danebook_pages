@@ -27,4 +27,26 @@
   .main-nav .white-nav-text {
     color: #fff; }
 
+.cover-image {
+  margin-top: 25px;
+  background-image: url(../images/cover_image.jpg);
+  background-size: cover;
+  color: #fff;
+  height: 360px; }
+  .cover-image .image-mask {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 100px; }
+    .cover-image .image-mask .profile-pic {
+      width: 100%; }
+  .cover-image .profile-name {
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    font-weight: 600; }
+
 /*# sourceMappingURL=styles.css.map */
