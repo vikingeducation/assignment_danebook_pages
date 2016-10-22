@@ -44,23 +44,69 @@
   background-image: url(../images/cover_image.jpg);
   background-size: cover;
   color: #fff;
-  height: 360px;
+  height: 320px;
   .image-mask {
     width: 180px;
     height: 180px;
     overflow: hidden;
     display: inline-block;
     position: absolute;
-    top: 230px;
-    left: 100px;
+    top: 190px;
+    left: 60px;
     .profile-pic {
       width: 100%;
     }
   }
   .profile-name {
     position: absolute;
-    top: 310px;
-    left: 300px;
+    top: 270px;
+    left: 260px;
     font-weight: 600;
+  }
+}
+
+// Middle Nav
+
+.mid-nav {
+  border: 2px solid #444;
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  margin-top: -30px;
+  ul {
+    margin-left: 220px;
+    list-style-type: none;
+    height: 40px;
+    display: inline-block;
+    padding: 0;
+    li {
+      float: left;
+      border-right: 2px solid #444;
+      &.current {
+        background: #ddd;
+      }
+      &:first-child {
+        border-left: 2px solid #444;
+      }
+      a {
+        display: block;
+        color: #444;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      a:hover {
+        background-color: #50a1b9;
+      }
+      .count-text {
+        color: #aaa;
+      }
+    }
+  }
+  .mid-nav-edit {
+    display: inline-block;
+    float: right;
+    line-height: 40px;
+    margin-right: 20px;
   }
 }

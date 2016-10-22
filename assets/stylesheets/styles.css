@@ -32,21 +32,56 @@
   background-image: url(../images/cover_image.jpg);
   background-size: cover;
   color: #fff;
-  height: 360px; }
+  height: 320px; }
   .cover-image .image-mask {
     width: 180px;
     height: 180px;
     overflow: hidden;
     display: inline-block;
     position: absolute;
-    top: 230px;
-    left: 100px; }
+    top: 190px;
+    left: 60px; }
     .cover-image .image-mask .profile-pic {
       width: 100%; }
   .cover-image .profile-name {
     position: absolute;
-    top: 310px;
-    left: 300px;
+    top: 270px;
+    left: 260px;
     font-weight: 600; }
+
+.mid-nav {
+  border: 2px solid #444;
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  margin-top: -30px; }
+  .mid-nav ul {
+    margin-left: 220px;
+    list-style-type: none;
+    height: 40px;
+    display: inline-block;
+    padding: 0; }
+    .mid-nav ul li {
+      float: left;
+      border-right: 2px solid #444; }
+      .mid-nav ul li.current {
+        background: #ddd; }
+      .mid-nav ul li:first-child {
+        border-left: 2px solid #444; }
+      .mid-nav ul li a {
+        display: block;
+        color: #444;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none; }
+      .mid-nav ul li a:hover {
+        background-color: #50a1b9; }
+      .mid-nav ul li .count-text {
+        color: #aaa; }
+  .mid-nav .mid-nav-edit {
+    display: inline-block;
+    float: right;
+    line-height: 40px;
+    margin-right: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
