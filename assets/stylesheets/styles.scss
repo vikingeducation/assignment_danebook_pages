@@ -1,0 +1,30 @@
+/* application layout */
+
+.main-nav {
+  background-color: #50a1b9;
+  border-radius: 0;
+  height: 40px;
+  .navbar-brand {
+    height: 25px;
+    padding: 10px 15px;
+  }
+  .navbar-text {
+    margin: 10px 15px;
+  }
+  .search-bar {
+    display: inline-block;
+    input {
+      -webkit-appearance: textfield;
+      box-sizing: border-box;
+      height: 24px;
+      width: 350px;
+    }
+  }
+  .white-nav-text {
+    color: #fff;
+  }
+}
+
+.navbar {
+  min-height: 0px;
+}

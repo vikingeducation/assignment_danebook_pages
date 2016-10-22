@@ -1,0 +1,24 @@
+/* application layout */
+.main-nav {
+  background-color: #50a1b9;
+  border-radius: 0;
+  height: 40px; }
+  .main-nav .navbar-brand {
+    height: 25px;
+    padding: 10px 15px; }
+  .main-nav .navbar-text {
+    margin: 10px 15px; }
+  .main-nav .search-bar {
+    display: inline-block; }
+    .main-nav .search-bar input {
+      -webkit-appearance: textfield;
+      box-sizing: border-box;
+      height: 24px;
+      width: 350px; }
+  .main-nav .white-nav-text {
+    color: #fff; }
+
+.navbar {
+  min-height: 0px; }
+
+/*# sourceMappingURL=styles.css.map */
