@@ -2,10 +2,18 @@
 .main-nav {
   background-color: #50a1b9;
   border-radius: 0;
-  height: 40px; }
+  height: 40px;
+  min-height: 0px; }
   .main-nav .navbar-brand {
     height: 25px;
+    width: auto;
     padding: 10px 15px; }
+    .main-nav .navbar-brand img {
+      height: 25px;
+      width: 25px;
+      border-radius: 100%;
+      display: inline-block;
+      margin-top: -4px; }
   .main-nav .navbar-text {
     margin: 10px 15px; }
   .main-nav .search-bar {
@@ -14,11 +22,9 @@
       -webkit-appearance: textfield;
       box-sizing: border-box;
       height: 24px;
-      width: 350px; }
+      width: 350px;
+      border-radius: 0; }
   .main-nav .white-nav-text {
     color: #fff; }
-
-.navbar {
-  min-height: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
