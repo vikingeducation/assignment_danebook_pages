@@ -154,6 +154,7 @@
 	color: #bbb;
 }
 /* Timeline Page Styling */
+/* Timeline Post Styling */
 .post-input{
 	margin: 10px 0 5px 0;
 	width: 100%;
@@ -228,7 +229,45 @@ hr{
 	@extend .post-input;
 	margin-top: 20px;
 }
-
-
-
+/* Timeline Photos Pane */
+.timeline_thumbnail{
+	img{
+		width: 50px;
+	}
+}
+.photo-border{
+	border: 1px #000 solid;
+	border-bottom: 0;
+	border-top: 0;
+	margin: 0;
+}
+.photo-pane-header{
+	width: 100%;
+	background-color: #eee;
+	margin-top: 15px;
+	line-height: 40px;
+	border: 1px solid #000;
+	text-align: center;
+}
+.first-photo-row{
+	margin-top:10px;
+}
+.photos-pane-bottom{
+	margin: 0;
+	border: 1px solid #000;
+	border-top: 0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.friends-pane-name{
+	text-align: center;
+}
+.thumbnail{
+	margin: 0;
+}
+.about-pane{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
