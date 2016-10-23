@@ -154,9 +154,6 @@
 	color: #bbb;
 }
 /* Timeline Page Styling */
-.tl-left-column{
-	background-color: blue;
-}
 .post-input{
 	margin: 10px 0 5px 0;
 	width: 100%;
@@ -210,6 +207,28 @@
 		padding-top: 0;
 	}
 }
+hr{
+	border-color: #ccc;
+	margin: 0;
+	margin-bottom: 10px;
+}
+#media-body-comment{
+	padding-top: 0;
+	span{
+		color: #bbb;
+	}
+	p{
+		color: #000;
+	}
+	a{
+		margin-right: 10px;
+	}
+}
+.comment-input{
+	@extend .post-input;
+	margin-top: 20px;
+}
+
 
 
 

@@ -133,10 +133,7 @@
   color: #bbb; }
 
 /* Timeline Page Styling */
-.tl-left-column {
-  background-color: blue; }
-
-.post-input {
+.post-input, .comment-input {
   margin: 10px 0 5px 0;
   width: 100%;
   height: 5em; }
@@ -177,5 +174,22 @@
   line-height: 40px; }
 .past-post-bottom .like-notice {
   padding-top: 0; }
+
+hr {
+  border-color: #ccc;
+  margin: 0;
+  margin-bottom: 10px; }
+
+#media-body-comment {
+  padding-top: 0; }
+  #media-body-comment span {
+    color: #bbb; }
+  #media-body-comment p {
+    color: #000; }
+  #media-body-comment a {
+    margin-right: 10px; }
+
+.comment-input {
+  margin-top: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
