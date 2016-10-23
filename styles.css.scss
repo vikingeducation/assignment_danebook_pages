@@ -61,6 +61,8 @@
 	background-color: #eee;
 	margin-top: 15px;
 	line-height: 40px;
+	border: 1px solid #000;
+	border-bottom: 0;
 	button{
 		margin: 5px 5px 0 0;
 		float: right;
@@ -78,6 +80,10 @@
 .lower-pane{
 	border: 1px #000 solid;
 	margin: 0 0 40px 0;
+}
+.lower-pane-w-bottom{
+	border: 1px #000 solid;
+	margin: 0;
 }
 /* Lower Pane (Page Specific) */
 /* About Page Styling */
@@ -151,3 +157,59 @@
 .tl-left-column{
 	background-color: blue;
 }
+.post-input{
+	margin: 10px 0 5px 0;
+	width: 100%;
+	height: 5em;
+}
+.post-border{
+	border: 1px #000 solid;
+	margin: 0;
+}
+.post-bottom{
+	width: 100%;
+	height: auto;
+	background-color: #eee;
+	margin: 0;
+	margin-bottom:15px;
+	border: 1px solid #000;
+	border-top: 0;
+	.post-btn{
+		float: right;
+		margin: 5px 5px 5px 0;
+		a{
+			color: #fff;
+		}
+	}
+}
+#post-photo{
+	img{
+		height: 75px;
+		width: auto;
+	}
+}
+.media-post{
+	margin: 0;
+}
+#media-body-post{
+	padding-top: 25px;
+}
+.publish-date{
+	@extend .friend-count;
+}
+.like-link{
+	margin-right: 10px;
+}
+.past-post-bottom{
+	@extend .post-bottom;
+	a{
+		text-decoration: underline;
+		line-height: 40px;
+	}
+	.like-notice{
+		padding-top: 0;
+	}
+}
+
+
+

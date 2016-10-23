@@ -53,7 +53,9 @@
   width: 100%;
   background-color: #eee;
   margin-top: 15px;
-  line-height: 40px; }
+  line-height: 40px;
+  border: 1px solid #000;
+  border-bottom: 0; }
   .lower-pane-header button, .lower-pane-header-w-btn button, .lower-pane-header-wo-btn button {
     margin: 5px 5px 0 0;
     float: right;
@@ -68,6 +70,10 @@
 .lower-pane {
   border: 1px #000 solid;
   margin: 0 0 40px 0; }
+
+.lower-pane-w-bottom {
+  border: 1px #000 solid;
+  margin: 0; }
 
 /* Lower Pane (Page Specific) */
 /* About Page Styling */
@@ -123,11 +129,53 @@
   border-color: #337AB7;
   box-shadow: 0; }
 
-.friend-count {
+.friend-count, .publish-date {
   color: #bbb; }
 
 /* Timeline Page Styling */
 .tl-left-column {
   background-color: blue; }
+
+.post-input {
+  margin: 10px 0 5px 0;
+  width: 100%;
+  height: 5em; }
+
+.post-border {
+  border: 1px #000 solid;
+  margin: 0; }
+
+.post-bottom, .past-post-bottom {
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  margin: 0;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  border-top: 0; }
+  .post-bottom .post-btn, .past-post-bottom .post-btn {
+    float: right;
+    margin: 5px 5px 5px 0; }
+    .post-bottom .post-btn a, .past-post-bottom .post-btn a {
+      color: #fff; }
+
+#post-photo img {
+  height: 75px;
+  width: auto; }
+
+.media-post {
+  margin: 0; }
+
+#media-body-post {
+  padding-top: 25px; }
+
+.like-link {
+  margin-right: 10px; }
+
+.past-post-bottom a {
+  text-decoration: underline;
+  line-height: 40px; }
+.past-post-bottom .like-notice {
+  padding-top: 0; }
 
 /*# sourceMappingURL=styles.css.map */
