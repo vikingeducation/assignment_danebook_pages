@@ -1,3 +1,4 @@
+/* Top Navbar Styling */
 #main-navbar{
 	border-color: #337AB7;
 	border-radius: 0;
@@ -9,7 +10,7 @@
 		color: white;
 	}
 	.form-control{
-		width: 350%;
+		width: 250%;
 	}
 	.img-circle{
 		height: 35px;
@@ -25,8 +26,7 @@
 .cover-photo{
 	margin-top: -20px;
 	background: url(hogwarts_small.jpg);
-	width: 86%;
-	margin-left: 7%;
+	width: 100%;
 	height: 400px;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -41,7 +41,7 @@
 }
 .username{
 	float: left;
-	margin-left: 260px;
+	margin-left: 200px;
 	margin-top: -35px;
 	color: #fff;
 }
@@ -69,23 +69,21 @@
 		margin: 5px 5px 0 0;
 		float: right;
 		height: 30px;
-		text-align: middle;
 	}
 }
 .wtlb-textarea{
-	width: 520px;
+	width: 99%;
 	height: 70px;
 }
 .about-me-textarea{
-	width: 520px;
+	width: 99%;
 	height: 180px;
 }
 .lower-pane{
-	line-height: 2em;
-	border: solid 1px #000;
-	margin: 0 0 20px 0;
+	border: 1px #000 solid;
+	margin: 0 0 40px 0;
 }
-.lower-pane-edit{
+.lower-pane-about-edit{
 	td{
 		width: 100px;
 		input{
@@ -95,7 +93,6 @@
 	button{
 		height: 60px;
 		width: 400px;
-		margin: 40px 0 100px 0;
 		margin-left: 30%;
 		background-color: #337AB7;
 		border: 0;

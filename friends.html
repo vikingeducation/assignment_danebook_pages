@@ -1,1 +1,67 @@
-friends<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Welcome to Danebook</title>
+		<meta charset="utf-8">
+		<!-- Meta Stuff -->
+		<!-- Meta Stuff -->
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<!-- Our CSS -->
+		<link href="styles.css" rel="stylesheet">
+		<!-- jQuery -->
+		<script src="jquery-3.1.1.js"></script>
+		<!-- Bootstrap Javascripts -->
+		<script src="bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-default" id="main-navbar">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <a class="navbar-brand" href="about.html">
+        	<img class="img-circle" alt="danish flag" src="danish_flag.gif">
+      	</a>
+		    <a class="navbar-brand" href="#">Danebook</a>
+    		<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+					  <input type="text" class="form-control" placeholder="Search for Users">
+					</div>
+				</form>
+				<p class="navbar-text navbar-right	">Harry</p>
+		  </div>
+		</nav>
+
+		<!-- Cover photo and profile photo -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="cover-photo">
+						<div class="profile-photo">
+							<img src="harry_potter_small.jpg" alt="profile photo">
+						</div>
+					</div>
+					<span class="username h3">Harry Potter</span>
+
+		<!-- Cover nav -->
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="nav nav-pills" id="nav-pills-margin">
+					  <li role="presentation"><a href="timeline.html">Timeline</a></li>
+					  <li role="presentation"><a href="about.html">About</a></li>
+					  <li role="presentation"><a href="photos.html">Photos<span class="cover-nav-badge"> (123)</span></a></li>
+					  <li role="presentation" class="active disabled"><a href="friends.html">Friends<span class="cover-nav-badge"> (542)</span></a></li>
+					  <a class="navbar-right" href="about_edit.html">Edit Profile</a>
+					</ul>
+				</div>
+			</div>
+		<!-- About information -->
+			<div class="row">
+				<div class="col-xs-12">
+					<nav class="lower-pane-header">
+						<span class="h3">Friends</span>
+					</nav>
+				</div>
+			</div>
+			<div class="row lower-pane">
+				<div class="col-md-12">
