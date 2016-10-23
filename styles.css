@@ -14,9 +14,7 @@
     width: 35px;
     margin-top: -8px; }
 
-.edit-profile-btn a {
-  color: #fff; }
-
+/* Cover Photo, Profile Photo and Nav Styling */
 .cover-photo {
   margin-top: -20px;
   background: url(hogwarts_small.jpg);
@@ -50,6 +48,7 @@
 .cover-nav-badge {
   color: #aaa; }
 
+/* Lower Pane Styling */
 .lower-pane-header {
   width: 100%;
   padding-left: 45%;
@@ -61,6 +60,18 @@
     float: right;
     height: 30px; }
 
+.lower-pane {
+  border: 1px #000 solid;
+  margin: 0 0 40px 0; }
+
+/* Lower Pane (Page Specific) */
+/* About and Edit About Styling */
+.table-top {
+  line-height: 3em;
+  font-size: 18px;
+  font-weight: 700; }
+
+/* Edit About Page Styling */
 .wtlb-textarea {
   width: 99%;
   height: 70px; }
@@ -68,10 +79,6 @@
 .about-me-textarea {
   width: 99%;
   height: 180px; }
-
-.lower-pane {
-  border: 1px #000 solid;
-  margin: 0 0 40px 0; }
 
 .lower-pane-about-edit td {
   width: 100px; }
@@ -86,9 +93,27 @@
   color: #fff;
   font-size: 20px; }
 
-.table-top {
-  line-height: 3em;
-  font-size: 18px;
-  font-weight: 700; }
+/* Friends Page Styling */
+.media img {
+  width: 100px;
+  margin: 10px 0; }
+
+.media-heading a {
+  text-decoration: underline;
+  font-size: 16px; }
+
+.media-body {
+  padding-top: 43px; }
+  .media-body button {
+    margin-top: 3px; }
+
+.unfriend-btn {
+  background-color: #337AB7;
+  color: #fff;
+  border-color: #337AB7;
+  box-shadow: 0; }
+
+.friend-count {
+  color: #bbb; }
 
 /*# sourceMappingURL=styles.css.map */
