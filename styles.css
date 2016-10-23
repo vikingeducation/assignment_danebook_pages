@@ -65,7 +65,11 @@
   margin: 0 0 40px 0; }
 
 /* Lower Pane (Page Specific) */
-/* About and Edit About Styling */
+/* About Page Styling */
+.edit-profile-btn a {
+  color: #fff; }
+
+/* About and Edit About Page Styling */
 .table-top {
   line-height: 3em;
   font-size: 18px;
@@ -91,7 +95,8 @@
   background-color: #337AB7;
   border: 0;
   color: #fff;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-bottom: 40px; }
 
 /* Friends Page Styling */
 .media img {
