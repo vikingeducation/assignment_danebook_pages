@@ -49,16 +49,21 @@
   color: #aaa; }
 
 /* Lower Pane Styling */
-.lower-pane-header {
+.lower-pane-header, .lower-pane-header-w-btn, .lower-pane-header-wo-btn {
   width: 100%;
-  padding-left: 45%;
   background-color: #eee;
   margin-top: 15px;
   line-height: 40px; }
-  .lower-pane-header button {
+  .lower-pane-header button, .lower-pane-header-w-btn button, .lower-pane-header-wo-btn button {
     margin: 5px 5px 0 0;
     float: right;
     height: 30px; }
+
+.lower-pane-header-w-btn {
+  padding-left: 45%; }
+
+.lower-pane-header-wo-btn {
+  text-align: center; }
 
 .lower-pane {
   border: 1px #000 solid;
@@ -120,5 +125,9 @@
 
 .friend-count {
   color: #bbb; }
+
+/* Timeline Page Styling */
+.tl-left-column {
+  background-color: blue; }
 
 /*# sourceMappingURL=styles.css.map */

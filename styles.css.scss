@@ -58,7 +58,6 @@
 /* Lower Pane Styling */
 .lower-pane-header{
 	width: 100%;
-	padding-left: 45%;
 	background-color: #eee;
 	margin-top: 15px;
 	line-height: 40px;
@@ -67,6 +66,14 @@
 		float: right;
 		height: 30px;
 	}
+}
+.lower-pane-header-w-btn{
+	@extend .lower-pane-header;
+	padding-left: 45%;
+}
+.lower-pane-header-wo-btn{
+	@extend .lower-pane-header;
+	text-align: center;
 }
 .lower-pane{
 	border: 1px #000 solid;
@@ -139,4 +146,8 @@
 }
 .friend-count{
 	color: #bbb;
+}
+/* Timeline Page Styling */
+.tl-left-column{
+	background-color: blue;
 }
