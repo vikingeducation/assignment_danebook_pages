@@ -83,4 +83,10 @@ table td:first-of-type {
   display: flex;
   flex-wrap: wrap; }
 
+.danebook-post .media-heading {
+  padding-top: .25em; }
+
+.like {
+  margin-right: .75em; }
+
 /*# sourceMappingURL=style.css.map */
