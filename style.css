@@ -77,7 +77,9 @@ table td:first-of-type {
   margin: 4px; }
 
 .salmon {
-  background-color: salmon; }
+  background-color: salmon;
+  background-image: url(img/icon_photo_small.png);
+  background-size: contain; }
 
 .flex-flow {
   display: flex;
