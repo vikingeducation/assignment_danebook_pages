@@ -1,0 +1,268 @@
+/* Top Navbar Styling */
+#main-navbar {
+  border-color: #337AB7;
+  border-radius: 0;
+  background-color: #337AB7; }
+  #main-navbar .navbar-brand {
+    color: white; }
+  #main-navbar .navbar-text {
+    color: white; }
+  #main-navbar .form-control {
+    width: 250%; }
+  #main-navbar .img-circle {
+    height: 35px;
+    width: 35px;
+    margin-top: -8px; }
+
+/* Cover Photo, Profile Photo and Nav Styling */
+.cover-photo {
+  margin-top: -20px;
+  background: url(hogwarts_small.jpg);
+  width: 100%;
+  height: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.profile-photo img {
+  width: 150px;
+  margin-top: 220px;
+  margin-left: 20px; }
+
+.username {
+  float: left;
+  margin-left: 200px;
+  margin-top: -35px;
+  color: #fff; }
+
+#nav-pills-margin {
+  margin-left: 200px; }
+
+.nav-pills {
+  margin-left: 165px;
+  background-color: #fff; }
+  .nav-pills .navbar-right {
+    margin-top: 10px;
+    margin-right: 20px; }
+
+.cover-nav-badge {
+  color: #aaa; }
+
+/* Lower Pane Styling */
+.lower-pane-header, .lower-pane-header-w-btn, .lower-pane-header-wo-btn {
+  width: 100%;
+  background-color: #eee;
+  margin-top: 15px;
+  line-height: 40px;
+  border: 1px solid #000;
+  border-bottom: 0; }
+  .lower-pane-header button, .lower-pane-header-w-btn button, .lower-pane-header-wo-btn button {
+    margin: 5px 5px 0 0;
+    float: right;
+    height: 30px; }
+
+.lower-pane-header-w-btn {
+  padding-left: 45%; }
+
+.lower-pane-header-wo-btn {
+  text-align: center; }
+
+.lower-pane {
+  border: 1px #000 solid;
+  margin: 0 0 40px 0; }
+
+.lower-pane-w-bottom {
+  border: 1px #000 solid;
+  margin: 0; }
+
+/* Lower Pane (Page Specific) */
+/* About Page Styling */
+.edit-profile-btn a {
+  color: #fff; }
+
+/* About and Edit About Page Styling */
+.table-top {
+  line-height: 3em;
+  font-size: 18px;
+  font-weight: 700; }
+
+/* Edit About Page Styling */
+.wtlb-textarea {
+  width: 99%;
+  height: 70px; }
+
+.about-me-textarea {
+  width: 99%;
+  height: 180px; }
+
+.lower-pane-about-edit td {
+  width: 100px; }
+  .lower-pane-about-edit td input {
+    width: 200px; }
+.lower-pane-about-edit button {
+  height: 60px;
+  width: 400px;
+  margin-left: 30%;
+  background-color: #337AB7;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px; }
+
+/* Friends Page Styling */
+.media img {
+  width: 100px;
+  margin: 10px 0; }
+
+.media-heading a {
+  text-decoration: underline;
+  font-size: 16px; }
+
+.media-body {
+  padding-top: 43px; }
+  .media-body button {
+    margin-top: 3px; }
+
+.unfriend-btn {
+  background-color: #337AB7;
+  color: #fff;
+  border-color: #337AB7;
+  box-shadow: 0; }
+
+.friend-count, .publish-date {
+  color: #bbb; }
+
+/* Timeline Page Styling */
+/* Timeline Post Styling */
+.post-input, .comment-input {
+  margin: 10px 0 5px 0;
+  width: 100%;
+  height: 5em; }
+
+.post-border {
+  border: 1px #000 solid;
+  margin: 0; }
+
+.post-bottom, .past-post-bottom {
+  width: 100%;
+  height: auto;
+  background-color: #eee;
+  margin: 0;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  border-top: 0; }
+  .post-bottom .post-btn, .past-post-bottom .post-btn {
+    float: right;
+    margin: 5px 5px 5px 0; }
+    .post-bottom .post-btn a, .past-post-bottom .post-btn a {
+      color: #fff; }
+
+#post-photo img {
+  height: 75px;
+  width: auto; }
+
+.media-post {
+  margin: 0; }
+
+#media-body-post {
+  padding-top: 25px; }
+
+.like-link {
+  margin-right: 10px; }
+
+.past-post-bottom a {
+  text-decoration: underline;
+  line-height: 40px; }
+.past-post-bottom .like-notice {
+  padding-top: 0; }
+
+hr {
+  border-color: #ccc;
+  margin: 0;
+  margin-bottom: 10px; }
+
+#media-body-comment {
+  padding-top: 0; }
+  #media-body-comment span {
+    color: #bbb; }
+  #media-body-comment p {
+    color: #000; }
+  #media-body-comment a {
+    margin-right: 10px; }
+
+.comment-input {
+  margin-top: 20px; }
+
+/* Timeline Photos Pane */
+.timeline_thumbnail img {
+  width: 50px; }
+
+.photo-border {
+  border: 1px #000 solid;
+  border-bottom: 0;
+  border-top: 0;
+  margin: 0; }
+
+.photo-pane-header {
+  width: 100%;
+  background-color: #eee;
+  margin-top: 15px;
+  line-height: 40px;
+  border: 1px solid #000;
+  text-align: center; }
+
+.first-photo-row {
+  margin-top: 10px; }
+
+.photos-pane-bottom {
+  margin: 0;
+  border: 1px solid #000;
+  border-top: 0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* Timeline Friends Pane */
+.friends-pane-name {
+  text-align: center; }
+
+.thumbnail {
+  margin: 0; }
+
+.about-pane {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* Photos Page Styling */
+#photos-thumbnail {
+  margin: 10px; }
+
+.photo-icon {
+  position: relative;
+  margin-top: 10px;
+  background: url(icon_photo_small.png);
+  width: 100%;
+  height: 160px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px; }
+
+.photo-icon:hover .photo-info {
+  display: block; }
+
+.photo-info {
+  display: none;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 10px; }
+
+.last-photo-row {
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,1 +1,329 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Welcome to Danebook</title>
+		<meta charset="utf-8">
+		<!-- Meta Stuff -->
+		<!-- Meta Stuff -->
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<!-- Our CSS -->
+		<link href="styles.css" rel="stylesheet">
+		<!-- jQuery -->
+		<script src="jquery-3.1.1.js"></script>
+		<!-- Bootstrap Javascripts -->
+		<script src="bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-default" id="main-navbar">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <a class="navbar-brand" href="about.html">
+        	<img class="img-circle" alt="danish flag" src="danish_flag.gif">
+      	</a>
+		    <a class="navbar-brand" href="#">Danebook</a>
+    		<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+					  <input type="text" class="form-control" placeholder="Search for Users">
+					</div>
+				</form>
+				<p class="navbar-text navbar-right	">Harry</p>
+		  </div>
+		</nav>
+
+		<!-- Cover photo and profile photo -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="cover-photo">
+						<div class="profile-photo">
+							<img src="harry_potter_small.jpg" alt="profile photo">
+						</div>
+					</div>
+					<span class="username h3">Harry Potter</span>
+
+		<!-- Cover nav -->
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="nav nav-pills" id="nav-pills-margin">
+					  <li role="presentation" class="active disabled"><a href="timeline.html">Timeline</a></li>
+					  <li role="presentation"><a href="about.html">About</a></li>
+					  <li role="presentation"><a href="photos.html">Photos<span class="cover-nav-badge"> (123)</span></a></li>
+					  <li role="presentation"><a href="friends.html">Friends<span class="cover-nav-badge"> (542)</span></a></li>
+					  <a class="navbar-right" href="about_edit.html">Edit Profile</a>
+					</ul>
+				</div>
+			</div>
+		<!-- Timeline information -->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="row">
+						<div class="col-md-12">
+							<nav class="lower-pane-header-wo-btn">
+								<span class="h3">About</span>
+							</nav>
+						</div>
+					</div>
+					<div class="row post-border">
+						<div  class="about-pane col-md-12">
+							<span><b>Born on:</b> July 31st, 1980</span><br>
+							<span><b>Went to school at:</b> Hogwarts</span><br>
+							<span><b>Hometown:</b> Godrick's Hollow, England</span><br>
+							<span><b>Currently Lives:</b> Godrick's Hollow</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<nav class="photo-pane-header">
+								<span class="h3">Photos</span>
+							</nav>
+						</div>
+					</div>
+					<div class="row photo-border">
+						<div class="col-md-4 first-photo-row">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+						<div class="col-md-4 first-photo-row">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+						<div class="col-md-4 first-photo-row">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+					</div>
+					<div class="row photo-border">
+						<div class="col-md-4">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+					</div>
+					<div class="row photo-border">
+						<div class="col-md-4">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a class="thumbnail" href="photos.html">
+								<img src="icon_photo_small.png">
+							</a>
+						</div>
+					</div>
+					<div class="row photos-pane-bottom">
+						<div class="col-md-12">
+							<a href="photos.html">See More Photos</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<nav class="photo-pane-header">
+								<span class="h3">Friends (542)</span>
+							</nav>
+						</div>
+					</div>
+					<div class="row photo-border">
+						<div class="col-md-4 first-photo-row">
+							<a class="thumbnail" href="friends.html">
+								<img src="user_silhouette_generic.gif">
+							</a>
+						</div>
+						<div class="col-md-4 first-photo-row">
+							<a class="thumbnail" href="friends.html">
+								<img src="user_silhouette_generic.gif">
+							</a>
+						</div>
+						<div class="col-md-4 first-photo-row">
+							<a class="thumbnail" href="friends.html">
+								<img src="user_silhouette_generic.gif">
+							</a>
+						</div>
+					</div>
+					<div class="row photo-border">
+						<div class="col-md-4 friends-pane-name">
+							<a href="friends.html">Ron<br>Weasley</a>
+						</div>
+						<div class="col-md-4 friends-pane-name">
+							<a href="friends.html">Ginny<br>Weasley</a>
+						</div>
+						<div class="col-md-4 friends-pane-name">
+							<a href="friends.html">Hermione<br>Granger</a>
+						</div>
+					</div>
+					<div class="row photo-border">
+						<div class="col-md-4">
+							<a class="thumbnail" href="friends.html">
+								<img src="user_silhouette_generic.gif">
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a class="thumbnail" href="friends.html">
+								<img src="user_silhouette_generic.gif">
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a class="thumbnail" href="friends.html">
+								<img src="user_silhouette_generic.gif">
+							</a>
+						</div>
+					</div>
+					<div class="row photo-border">
+						<div class="col-md-4 friends-pane-name">
+							<a href="friends.html">paragraph<br>text</a>
+						</div>
+						<div class="col-md-4 friends-pane-name">
+							<a href="friends.html">paragraph<br>text</a>
+						</div>
+						<div class="col-md-4 friends-pane-name">
+							<a href="friends.html">paragraph<br>text</a>
+						</div>
+					</div>
+					<div class="row photos-pane-bottom">
+						<div class="col-md-12">
+							<a href="friends.html">See More Friends</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 tl-right-column">
+					<div class="row">
+						<div class="col-md-12">
+							<nav class="lower-pane-header-wo-btn">
+								<span class="h3">Post</span>
+							</nav>
+						</div>
+					</div>
+					<div class="row post-border">
+						<div class="col-md-12">
+							<textarea class="post-input" placeholder="Tell the world something..."></textarea>
+						</div>
+					</div>
+					<div class="row post-bottom">
+						<div class="col-md-12">
+							<button type="button" class="btn btn-primary post-btn"><a href="#">Post</a></button>
+						</div>
+					</div>
+					<div class="row lower-pane-w-bottom">
+						<div class="col-md-12">
+							<div class="media media-post">
+							  <div class="media-left">
+							    <a href="#" id="post-photo">
+							      <img class="media-object" src="user_silhouette_generic.gif" alt="friend's photo">
+							    </a>
+							  </div>
+							  <div class="media-body" id="media-body-post">
+							    <span class="media-heading"><a href="#">Harry Potter</a></span>
+							    <br>
+							    <span class="publish-date">Posted on Thursday 6/1/2014</span>
+							  </div>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui</p>
+						</div>
+					</div>
+					<div class="row past-post-bottom">
+						<div class="col-md-12">
+							<a class="like-link" href="#">Like</a><a href="#">Comment</a><a class="pull-right" href="#">Delete</a>
+						</div>
+					</div>
+					<div class="row lower-pane-w-bottom">
+						<div class="col-md-12">
+							<div class="media media-post">
+							  <div class="media-left">
+							    <a href="#" id="post-photo">
+							      <img class="media-object" src="user_silhouette_generic.gif" alt="friend's photo">
+							    </a>
+							  </div>
+							  <div class="media-body" id="media-body-post">
+							    <span class="media-heading"><a href="#">Harry Potter</a></span>
+							    <br>
+							    <span class="publish-date">Posted on Thursday 5/21/2014</span>
+							  </div>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui</p>
+						</div>
+					</div>
+					<div class="row past-post-bottom">
+						<div class="col-md-12">
+							<a class="like-link" href="#">Like</a><a href="#">Comment</a><a class="pull-right" href="#">Delete</a>
+							<br>
+							<span><a class="like-notice" href="friends.html">Hermione Granger</a> likes this.</span>
+						</div>
+					</div>
+					<div class="row lower-pane-w-bottom">
+						<div class="col-md-12">
+							<div class="media media-post">
+							  <div class="media-left">
+							    <a href="#" id="post-photo">
+							      <img class="media-object" src="user_silhouette_generic.gif" alt="friend's photo">
+							    </a>
+							  </div>
+							  <div class="media-body" id="media-body-post">
+							    <span class="media-heading"><a href="#">Harry Potter</a></span>
+							    <br>
+							    <span class="publish-date">Posted on Thursday 5/21/2014</span>
+							  </div>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui</p>
+						</div>
+					</div>
+					<div class="row past-post-bottom">
+						<div class="col-md-12">
+							<a class="like-link" href="#">Unlike</a><a class="pull-right" href="#">Delete</a>
+							<br>
+							<span>You and <a class="like-notice" href="friends.html">Hermione Granger</a> and 3 others like this.</span>
+							<hr>
+							<div class="media media-post">
+							  <div class="media-left">
+							    <a href="#" id="post-photo">
+							      <img class="media-object" src="user_silhouette_generic.gif" alt="friend's photo">
+							    </a>
+							  </div>
+							  <div class="media-body" id="media-body-comment">
+							    <span class="media-heading"><a href="#">Ron Weasley</a> Said on Thursday 5/21/2014</span>
+							    <br>
+							    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+							    <span><a href="#">Like</a>  3 other people like this</span>
+							  </div>
+							</div>
+							<div class="media media-post">
+							  <div class="media-left">
+							    <a href="#" id="post-photo">
+							      <img class="media-object" src="user_silhouette_generic.gif" alt="friend's photo">
+							    </a>
+							  </div>
+							  <div class="media-body" id="media-body-comment">
+							    <span class="media-heading"><a href="#">Harry Potter</a> Said on Friday 5/22/2014</span>
+							    <br>
+							    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+							    <span><a href="#">Like</a>  3 other people like this<a href="#" class="pull-right">Delete</a></span>
+							  </div>
+							</div>
+							<textarea class="comment-input" placeholder="Write a comment..."></textarea>
+							<a href="#">Cancel</a>
+							<a href="#"><button class="btn btn-primary post-btn">Comment</button></a>
+						</div>
+					</div>
+
+
+
+
