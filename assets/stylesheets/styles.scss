@@ -45,6 +45,8 @@
   background-size: cover;
   color: #fff;
   height: 320px;
+  border: 2px solid #000;
+  border-radius: 0;
   .image-mask {
     width: 180px;
     height: 180px;
@@ -108,5 +110,62 @@
     float: right;
     line-height: 40px;
     margin-right: 20px;
+  }
+}
+
+// Misc
+
+.page-title {
+  border: 2px solid #444;
+  text-align: center;
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
+
+/* Pages */
+
+// Profile
+
+.profile {
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  td {
+    padding: 10px;
+    box-sizing: border-box;
+    // width: 80%;
+    &.table-info {
+      width: 100%;
+      input {
+        width: 75%;
+      }
+    }
+  }
+  textarea {
+    width: 90%;
+  }
+  .table-label {
+    font-weight: 600;
+  }
+  .btn-lg {
+    width: 50%;
+    background-color: #50a1b9;
+    margin-left: 25%;
+    margin-top: 75px;
+    height: 75px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700px;
+    border-radius: 0;
+    border:2px solid #000;
+  }
+  main {
+    border: 2px solid #000;
+    padding: 25px;
+    padding-bottom: 75px;
   }
 }
