@@ -268,4 +268,31 @@
       .photos .photo .image-wrapper img:hover ~ .photo-info {
         display: block; }
 
+.friends {
+  margin-top: 25px; }
+  .friends .page-title {
+    background-color: #ddd; }
+  .friends .friend-grid {
+    display: inline-block;
+    border: 2px solid #000;
+    border-top: 0;
+    padding: 10px;
+    padding-bottom: 20px; }
+  .friends .friend .friend-wrapper {
+    margin-top: 15px;
+    border: 2px solid #000; }
+    .friends .friend .friend-wrapper img {
+      width: 25%;
+      margin: 2.5%; }
+    .friends .friend .friend-wrapper .friend-info {
+      width: 40%;
+      margin: 2.5%;
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle; }
+      .friends .friend .friend-wrapper .friend-info a {
+        text-decoration: underline; }
+      .friends .friend .friend-wrapper .friend-info p {
+        color: #bbb; }
+
 /*# sourceMappingURL=styles.css.map */
