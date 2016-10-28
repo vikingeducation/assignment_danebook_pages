@@ -133,6 +133,10 @@
 /////// Profile -- About & About Edit pages
 
 .profile {
+  margin-top: 15px;
+  .page-title {
+    background: #ddd;
+  }
   h3 {
     font-size: 32px;
     font-weight: 700;
@@ -168,8 +172,10 @@
   }
   main {
     border: 2px solid #000;
+    border-top: 0;
     padding: 25px;
     padding-bottom: 75px;
+    display: inline-block;
   }
 }
 
@@ -400,6 +406,7 @@
   }
   .friend {
     .friend-wrapper {
+      padding: 10px;
       margin-top: 15px;
       border: 2px solid #000;
       img {
