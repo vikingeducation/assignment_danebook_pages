@@ -73,94 +73,79 @@
           </div>
         </heading>
 
-          <section class="profile row">
-            <div class='page-title'>
-              <h1>Edit Profile</h1>
-            </div>
-            <main>
-              <form action="#">
-                <article class="col-md-6">
-                  <section class='basic-info'>
-                    <h3>Basic Information</h3>
-                    <table>
-                      <tr>
-                        <td class="table-label">Birthday:</td>
-                        <td>July 31st, 1980</td>
-                      </tr>
-                      <tr>
-                        <td class="table-label">College:</td>
-                        <td class='table-info'>
-                          <input name='edit-college' type="text" value='Hogwarts College' >
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="table-label">Hometown:</td>
-                        <td class='table-info'>
-                          <input name='edit-hometown' type="text" value="Godrick's Hollow, England">
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="table-label">Currently Lives:</td>
-                        <td class='table-info'>
-                          <input name='edit-current-city' type="text" value="Godrick's Hollow, England">
-                        </td>
-                      </tr>
-                    </table>
-                  </section>
-                  <section class='contact-info'>
-                    <h3>Contact Information</h3>
-                    <table>
-                      <tr>
-                        <td class="table-label">Email:</td>
-                        <td>harry_potter@hogwarts.edu</td>
-                      </tr>
-                      <tr>
-                        <td class="table-label">Telephone:</td>
-                        <td class='table-info'>
-                          <input name='edit-telephone' type="text" value='555-123-4567'>
-                        </td>
-                      </tr>
-                    </table>
-                  </section>
-                </article>
-                <article class="col-md-6">
-                  <section class="words">
-                    <h3>Words to Live By </h3>
-                    <textarea rows='4' name='edit-favorite-words'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit velit et accusamus accusantium maxime tempora.
-                    </textarea>
-                  </section>
-                  <section class="about">
-                    <h3>About Me </h3>
-                    <textarea name='about-me' id="edit-about-me" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eos illum repellat unde, fugit, omnis obcaecati eum explicabo autem sequi maxime blanditiis! Repellat, magnam, autem. Quia ratione aspernatur nihil quibusdam veritatis, tenetur rerum repudiandae reprehenderit quae, modi nesciunt animi libero voluptatibus eius temporibus asperiores vitae assumenda eos officia a totam.</textarea>
-                  </section>
-                </article>
-                <input type="submit" class='btn btn-lg' value='Save Changes'>
-              </main>
-            </section>
-          </form>
-        </div>
+        <section class="profile row">
+          <div class='page-title'>
+            <h1>Edit Profile</h1>
+          </div>
 
-          <!-- EVERYTHING IS AN INPUT -->
-          <!-- content section -->
-            <!-- Title bar -->
-            <!-- body -->
-              <!-- col 6 -->
-                <!-- Basic info -->
-                  <!-- title -->
-                  <!-- table -->
-                <!-- contact -->
-                  <!-- title -->
-                  <!-- table -->
-              <!-- col 6 -->
-                <!-- words -->
-                  <!-- p --> <!-- title first... -->
-                  <!-- title -->
-                <!-- about -->
-                  <!-- p -->
-                  <!-- title -->
-              <!-- col 6 offset 3 -->
-                <!-- big button -->
+          <main>
+            <!-- Left column -->
+            <form action="#">
+              <article class="col-md-6">
+                <section class='basic-info'>
+                  <h3>Basic Information</h3>
+                  <table>
+                    <tr>
+                      <td class="table-label">Birthday:</td>
+                      <td>July 31st, 1980</td>
+                    </tr>
+                    <tr>
+                      <td class="table-label">College:</td>
+                      <td class='table-info'>
+                        <input name='edit-college' type="text" value='Hogwarts College' >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-label">Hometown:</td>
+                      <td class='table-info'>
+                        <input name='edit-hometown' type="text" value="Godrick's Hollow, England">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-label">Currently Lives:</td>
+                      <td class='table-info'>
+                        <input name='edit-current-city' type="text" value="Godrick's Hollow, England">
+                      </td>
+                    </tr>
+                  </table>
+                </section> <!-- /basic info -->
 
+                <section class='contact-info'>
+                  <h3>Contact Information</h3>
+                  <table>
+                    <tr>
+                      <td class="table-label">Email:</td>
+                      <td>harry_potter@hogwarts.edu</td>
+                    </tr>
+                    <tr>
+                      <td class="table-label">Telephone:</td>
+                      <td class='table-info'>
+                        <input name='edit-telephone' type="text" value='555-123-4567'>
+                      </td>
+                    </tr>
+                  </table>
+                </section> <!-- /contact info -->
+              </article><!-- /left column -->
 
+              <!-- Right column -->
+              <article class="col-md-6">
+                <section class="words">
+                  <h3>Words to Live By </h3>
+                  <textarea rows='4' name='edit-favorite-words'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit velit et accusamus accusantium maxime tempora.
+                  </textarea>
+                </section> <!-- /words -->
+
+                <section class="about">
+                  <h3>About Me </h3>
+                  <textarea name='about-me' id="edit-about-me" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eos illum repellat unde, fugit, omnis obcaecati eum explicabo autem sequi maxime blanditiis! Repellat, magnam, autem. Quia ratione aspernatur nihil quibusdam veritatis, tenetur rerum repudiandae reprehenderit quae, modi nesciunt animi libero voluptatibus eius temporibus asperiores vitae assumenda eos officia a totam.</textarea>
+                </section> <!-- /about -->
+              </article><!-- /right colum -->
+
+              <input type="submit" class='btn btn-lg' value='Save Changes'>
+            </form>
+          </main>
+
+        </section> <!-- profile -->
+      </div><!-- container -->
     </body>
 </html>

@@ -126,7 +126,7 @@
 
 /* Pages */
 
-// Profile
+// Profile -- About & About Edit pages
 
 .profile {
   h3 {
@@ -167,5 +167,96 @@
     border: 2px solid #000;
     padding: 25px;
     padding-bottom: 75px;
+  }
+}
+
+// Timeline
+
+.timeline {
+  section {
+    border: 2px solid #000;
+  }
+  section h2 {
+    background-color: #ddd;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  section footer {
+    background-color: #ddd;
+    border-top: 2px solid #000;
+  }
+
+  // left column
+  .left-column section {
+    margin-top: 15px;
+    img {
+      max-width: 100%;
+    }
+    a {
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+  .about-info {
+    .about-list {
+      padding: 10px;
+    }
+  }
+  .timeline-photos {
+    padding-bottom: 10px;
+  }
+
+  // right column
+  .right-column section {
+    margin-top: 25px;
+    margin-left: 15px; // not reasonable
+  }
+  .submit-post {
+    textarea {
+      width: 95%;
+      margin-left: 2.5%;
+      margin-rihgt: 2.5%;
+    }
+  }
+  .post {
+    .poster {
+      padding: 10px;
+      img {
+        max-width: 50px;
+      }
+      .post-details {
+        padding: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1em;
+        p {
+          color: #ccc;
+        }
+      }
+    }
+    .post-text {
+      padding: 10px;
+    }
+    footer {
+      padding: 10px;
+      .post-options {
+        a{
+          margin-right: 10px;
+        }
+        .delete-post {
+          display: block;
+          float: right;
+        }
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
   }
 }

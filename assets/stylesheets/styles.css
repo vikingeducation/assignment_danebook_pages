@@ -125,4 +125,60 @@
   padding: 25px;
   padding-bottom: 75px; }
 
+.timeline section {
+  border: 2px solid #000; }
+.timeline section h2 {
+  background-color: #ddd;
+  border-bottom: 2px solid #000;
+  text-align: center;
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700; }
+.timeline section footer {
+  background-color: #ddd;
+  border-top: 2px solid #000; }
+.timeline .left-column section {
+  margin-top: 15px; }
+  .timeline .left-column section img {
+    max-width: 100%; }
+  .timeline .left-column section a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px; }
+.timeline .about-info .about-list {
+  padding: 10px; }
+.timeline .timeline-photos {
+  padding-bottom: 10px; }
+.timeline .right-column section {
+  margin-top: 25px;
+  margin-left: 15px; }
+.timeline .submit-post textarea {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-rihgt: 2.5%; }
+.timeline .post .poster {
+  padding: 10px; }
+  .timeline .post .poster img {
+    max-width: 50px; }
+  .timeline .post .poster .post-details {
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em; }
+    .timeline .post .poster .post-details p {
+      color: #ccc; }
+.timeline .post .post-text {
+  padding: 10px; }
+.timeline .post footer {
+  padding: 10px; }
+  .timeline .post footer .post-options a {
+    margin-right: 10px; }
+  .timeline .post footer .post-options .delete-post {
+    display: block;
+    float: right; }
+  .timeline .post footer p {
+    margin-bottom: 0; }
+
 /*# sourceMappingURL=styles.css.map */
