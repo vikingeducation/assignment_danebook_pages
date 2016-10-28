@@ -225,7 +225,18 @@
     textarea {
       width: 95%;
       margin-left: 2.5%;
-      margin-rihgt: 2.5%;
+      margin-right: 2.5%;
+    }
+    footer {
+      background-color: #ddd;
+      height: 40px;
+      .new-post-submit {
+        margin-top: 1%;
+        float: right;
+        color: #fff;
+        background-color: #50a1b9;
+        margin-right: 5%;
+      }
     }
   }
 

@@ -159,7 +159,16 @@
 .timeline .submit-post textarea {
   width: 95%;
   margin-left: 2.5%;
-  margin-rihgt: 2.5%; }
+  margin-right: 2.5%; }
+.timeline .submit-post footer {
+  background-color: #ddd;
+  height: 40px; }
+  .timeline .submit-post footer .new-post-submit {
+    margin-top: 1%;
+    float: right;
+    color: #fff;
+    background-color: #50a1b9;
+    margin-right: 5%; }
 .timeline .post .poster {
   padding: 10px; }
   .timeline .post .poster img {
