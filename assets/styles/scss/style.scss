@@ -8,19 +8,30 @@
     font-size: 32px;
     color: #fff; }
 
+  img {
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+  margin-top: -5px; }
 }
 
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   font-size: 18px; }
 
-img {
-  height: 25px;
-  width: 25px;
-  border-radius: 15px;
-  margin-top: -5px; }
-
 
 body {
   margin-top: 40px
+
 }
+
+.jumbotron {
+  height: 500px;
+  z-index: -1;
+}
+
+.profile-image {
+  height: 200px;
+  margin-top: -175px;
+  }
+
