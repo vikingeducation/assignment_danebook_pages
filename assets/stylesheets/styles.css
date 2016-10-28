@@ -88,10 +88,13 @@
 
 .page-title {
   border: 2px solid #444;
-  text-align: center; }
+  text-align: center;
+  height: 40px; }
   .page-title h1 {
-    font-size: 40px;
-    font-weight: 700; }
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 40px; }
 
 /* Pages */
 .profile h3 {
@@ -225,5 +228,44 @@
     float: right;
     background-color: #50a1b9;
     color: #fff; }
+
+.photos {
+  margin-top: 25px; }
+  .photos .page-title {
+    background-color: #ddd; }
+    .photos .page-title .add-photo-btn {
+      color: #fff;
+      background-color: #50a1b9;
+      border-radius: 0;
+      position: absolute;
+      top: 4px;
+      right: 15px; }
+  .photos .photo-grid {
+    display: inline-block;
+    border: 2px solid #000;
+    border-top: 0; }
+  .photos .photo .image-wrapper {
+    position: relative; }
+    .photos .photo .image-wrapper .photo-info {
+      display: none;
+      background-color: rgba(50, 50, 50, 0.5);
+      position: absolute;
+      bottom: 0px;
+      width: 90%;
+      margin: 5%;
+      max-width: 200px;
+      height: 32px;
+      color: #fff;
+      text-align: center; }
+      .photos .photo .image-wrapper .photo-info p {
+        line-height: 32px; }
+    .photos .photo .image-wrapper img {
+      width: 90%;
+      max-width: 200px;
+      max-height: 200px;
+      border: 1px solid #000;
+      margin: 5%; }
+      .photos .photo .image-wrapper img:hover ~ .photo-info {
+        display: block; }
 
 /*# sourceMappingURL=styles.css.map */
