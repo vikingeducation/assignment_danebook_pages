@@ -126,7 +126,7 @@
 
 /* Pages */
 
-// Profile -- About & About Edit pages
+/////// Profile -- About & About Edit pages
 
 .profile {
   h3 {
@@ -170,7 +170,8 @@
   }
 }
 
-// Timeline
+
+/////// Timeline
 
 .timeline {
   section {
@@ -189,6 +190,9 @@
     background-color: #ddd;
     border-top: 2px solid #000;
   }
+  a {
+    text-decoration: underline;
+  }
 
   // left column
   .left-column section {
@@ -200,7 +204,7 @@
       display: block;
       text-align: center;
       font-size: 14px;
-      line-height: 22px;
+      line-height: 18px;
     }
   }
   .about-info {
@@ -224,6 +228,8 @@
       margin-rihgt: 2.5%;
     }
   }
+
+  // Post
   .post {
     .poster {
       padding: 10px;
@@ -234,7 +240,7 @@
         padding: 10px;
         display: inline-block;
         vertical-align: middle;
-        line-height: 1em;
+        line-height: 1.1em;
         p {
           color: #ccc;
         }
@@ -256,6 +262,56 @@
       }
       p {
         margin-bottom: 0;
+      }
+    }
+
+    // Comments section
+    .comments {
+      background-color: #ddd;
+      display: inline-block;
+      .commenter-image {
+        padding: 10px;
+        line-height: 1em;
+        img {
+          max-width: 50px;
+        }
+      }
+      .comment{
+        width: 100%;
+        background-color: #ddd;
+        padding-top: 10px;
+        display: inline-block;
+        &:first-child {
+          border-top: 1px solid #ccc;
+        }
+        .comment-text {
+          padding-bottom: 5px;
+        }
+        .comment-options {
+          line-height: 1;
+          .delete-comment {
+            float: right;
+          }
+        }
+        .comment-meta {
+          color: #666;
+          display: inline-block;
+          padding-bottom: 5px;
+        }
+      }
+      .comment-form {
+        form {
+          width: 90%;
+          margin: 5%;
+          textarea {
+            width: 100%;
+          }
+        }
+        .submit-comment {
+          float: right;
+          background-color: #50a1b9;
+          color: #fff;
+        }
       }
     }
   }

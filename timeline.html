@@ -212,6 +212,7 @@
               </section> <!-- liked post -->
 
               <section class="post commented-post row">
+
                 <div class="poster">
                   <img src="assets/images/default_user.png" alt="the poster of the post">
                   <div class="post-details">
@@ -224,7 +225,7 @@
                 <p class='post-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere obcaecati soluta hic. Maiores harum necessitatibus obcaecati explicabo consectetur nam magnam, placeat cum atque. Suscipit minus doloribus illo, mollitia illum. Fugiat iste iure, eaque fugit consequuntur repellendus voluptates hic, nam nostrum harum quaerat voluptatem libero earum officiis necessitatibus vel vero deserunt explicabo mollitia? Eveniet officia aperiam, rem. Quis commodi eveniet officia unde temporibus error, nulla quo.</p>
                 <footer>
                   <div class="post-options">
-                    <a href="#">Like</a>
+                    <a href="#">Unlike</a>
                     <a href="#">Comment</a>
                     <a href="#" class="delete-post">Delete</a>
                   </div>
@@ -232,6 +233,48 @@
                     You and <a href="#">Hermione Granger</a> and 3 others like this.
                   </p>
                 </footer>
+
+                <div class="comments">
+                  <article class="comment">
+                    <div class="commenter-image col-md-1">
+                      <a href="#"><img src="assets/images/default_user.png" alt="the poster of the post"></a>
+                    </div>
+                    <div class='comment-text col-md-11'>
+                      <p class='comment-meta'>
+                        <a href="#">Ron Weasley</a> said on Thursday 10/27/2016:
+                      </p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere obcaecati soluta hic. Maiores harum necessitatibus obcaecati explicabo consectetur nam magnam.</p>
+
+                        <div class="comment-options">
+                          <a href="#">Like</a>
+                          <p class='comment-meta'>3 other people like this</p>
+                        </div>
+                    </div>
+                  </article> <!-- /comment -->
+                  <article class="comment">
+                    <div class="commenter-image col-md-1">
+                      <a href="#"><img src="assets/images/default_user.png" alt="the poster of the post"></a>
+                    </div>
+                    <div class='comment-text col-md-11'>
+                      <p class='comment-meta'>
+                        <a href="#">Harry Potter</a> said on Friday 10/28/2016:
+                      </p>
+                      <p>Lorem ipsum dolor sit amet?! Consectetur adipisicing elit!</p>
+                      <div class="comment-options">
+                        <a href="#">Like</a>
+                        <p class='comment-meta'>13 other people like this</p>
+                        <a href="#" class='delete-comment'>Delete</a>
+                      </div>
+                    </div>
+                  </article> <!-- /comment -->
+                  <article class="comment-form">
+                    <form action="#">
+                      <textarea name="new-comment" id="new-comment" rows="5" placeholder="Write a comment..."></textarea>
+                      <a href="#">Cancel</a>
+                      <input type="submit" value='Comment' class='submit-comment'>
+                    </form>
+                  </article>
+                </div><!-- comments -->
               </section> <!-- commented post -->
             </article> <!-- /right column -->
           </main>

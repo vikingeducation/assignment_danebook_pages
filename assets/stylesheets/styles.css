@@ -138,6 +138,8 @@
 .timeline section footer {
   background-color: #ddd;
   border-top: 2px solid #000; }
+.timeline a {
+  text-decoration: underline; }
 .timeline .left-column section {
   margin-top: 15px; }
   .timeline .left-column section img {
@@ -146,7 +148,7 @@
     display: block;
     text-align: center;
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 18px; }
 .timeline .about-info .about-list {
   padding: 10px; }
 .timeline .timeline-photos {
@@ -166,7 +168,7 @@
     padding: 10px;
     display: inline-block;
     vertical-align: middle;
-    line-height: 1em; }
+    line-height: 1.1em; }
     .timeline .post .poster .post-details p {
       color: #ccc; }
 .timeline .post .post-text {
@@ -180,5 +182,39 @@
     float: right; }
   .timeline .post footer p {
     margin-bottom: 0; }
+.timeline .post .comments {
+  background-color: #ddd;
+  display: inline-block; }
+  .timeline .post .comments .commenter-image {
+    padding: 10px;
+    line-height: 1em; }
+    .timeline .post .comments .commenter-image img {
+      max-width: 50px; }
+  .timeline .post .comments .comment {
+    width: 100%;
+    background-color: #ddd;
+    padding-top: 10px;
+    display: inline-block; }
+    .timeline .post .comments .comment:first-child {
+      border-top: 1px solid #ccc; }
+    .timeline .post .comments .comment .comment-text {
+      padding-bottom: 5px; }
+    .timeline .post .comments .comment .comment-options {
+      line-height: 1; }
+      .timeline .post .comments .comment .comment-options .delete-comment {
+        float: right; }
+    .timeline .post .comments .comment .comment-meta {
+      color: #666;
+      display: inline-block;
+      padding-bottom: 5px; }
+  .timeline .post .comments .comment-form form {
+    width: 90%;
+    margin: 5%; }
+    .timeline .post .comments .comment-form form textarea {
+      width: 100%; }
+  .timeline .post .comments .comment-form .submit-comment {
+    float: right;
+    background-color: #50a1b9;
+    color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
