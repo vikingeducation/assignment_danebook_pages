@@ -11,11 +11,10 @@
     color: #fff; }
   .navbar-fixed-top img {
     height: 25px;
-    width: 25px;
-    border-radius: 15px;
+    border-radius: 50% !important;
     margin-top: -5px; }
   .navbar-fixed-top a {
-    color: #fff;
+    color: white !important;
     font-size: 18px; }
 
 body {
