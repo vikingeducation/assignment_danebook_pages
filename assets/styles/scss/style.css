@@ -20,8 +20,7 @@
 body {
   margin-top: 40px; }
   body * {
-    border-radius: 0 !important;
-    border: 1px black solid; }
+    border-radius: 0 !important; }
 
 .jumbotron {
   height: 400px;
@@ -62,5 +61,13 @@ body {
   .section-bar button {
     margin-right: 5px;
     margin-top: 15px; }
+
+.section-container {
+  border: 1px black solid; }
+
+.save-button {
+  width: 50%;
+  margin-left: 25%;
+  margin: 50px 25%; }
 
 /*# sourceMappingURL=style.css.map */
