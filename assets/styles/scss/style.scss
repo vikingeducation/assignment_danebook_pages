@@ -1,8 +1,13 @@
-.navbar {
+.navbar-fixed-top {
   background-color: #2B78E4;
   border: 1px black solid;
   padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 55px;
+
+  .form-control {
+    border-radius: 0px;
+    width: 600px;
+  }
 
   .navbar-brand {
     font-size: 32px;
@@ -13,25 +18,69 @@
   width: 25px;
   border-radius: 15px;
   margin-top: -5px; }
-}
 
-.navbar-default .navbar-nav > li > a {
+
+  a {
   color: #fff;
   font-size: 18px; }
-
-
-body {
-  margin-top: 40px
-
 }
 
+body {
+  margin-top: 40px;
+
+  * {
+    border-radius: 0 !important;
+    //border: 1px black solid;
+  }
+}
+
+
 .jumbotron {
-  height: 500px;
+  height: 400px;
   z-index: -1;
+  border-radius: 0px;
+  background-position: bottom;
+}
+
+main {
+
+  .row {
+    //border: 1px black solid;
+  }
 }
 
 .profile-image {
   height: 200px;
-  margin-top: -175px;
-  }
+  margin-top: -350px;
+  z-index: +1;
+}
 
+.middle-nav {
+  //z-index: -1;
+  margin-top: -30px;
+  background-color: white;
+  border: 1px black solid;
+
+  ul {
+    padding-left: 250px;
+    display: inline-block;
+
+    li {
+      border-right: 1px black solid;
+      border-left: 1px black solid;
+    }
+
+    .count {
+      color: grey;
+    }
+  }
+  .navbar-right {
+    margin: 20px 15px 0 0;
+  }
+}
+
+.edit {
+    align: right;
+    border: 2px black solid;
+    font-size: 16px;
+  }

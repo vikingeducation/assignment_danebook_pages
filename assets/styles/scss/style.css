@@ -1,30 +1,57 @@
-.navbar {
+.navbar-fixed-top {
   background-color: #2B78E4;
   border: 1px black solid;
   padding-left: 25px;
-  padding-right: 25px; }
-  .navbar .navbar-brand {
+  padding-right: 55px; }
+  .navbar-fixed-top .form-control {
+    border-radius: 0px;
+    width: 600px; }
+  .navbar-fixed-top .navbar-brand {
     font-size: 32px;
     color: #fff; }
-  .navbar img {
+  .navbar-fixed-top img {
     height: 25px;
     width: 25px;
     border-radius: 15px;
     margin-top: -5px; }
-
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
-  font-size: 18px; }
+  .navbar-fixed-top a {
+    color: #fff;
+    font-size: 18px; }
 
 body {
   margin-top: 40px; }
+  body * {
+    border-radius: 0 !important; }
 
 .jumbotron {
-  height: 500px;
-  z-index: -1; }
+  height: 400px;
+  z-index: -1;
+  border-radius: 0px;
+  background-position: bottom; }
 
 .profile-image {
   height: 200px;
-  margin-top: -175px; }
+  margin-top: -350px;
+  z-index: +1; }
+
+.middle-nav {
+  margin-top: -30px;
+  background-color: white;
+  border: 1px black solid; }
+  .middle-nav ul {
+    padding-left: 250px;
+    display: inline-block; }
+    .middle-nav ul li {
+      border-right: 1px black solid;
+      border-left: 1px black solid; }
+    .middle-nav ul .count {
+      color: grey; }
+  .middle-nav .navbar-right {
+    margin: 20px 15px 0 0; }
+
+.edit {
+  align: right;
+  border: 2px black solid;
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

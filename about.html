@@ -31,7 +31,7 @@
   </head>
   <body>
 
-    <!-- Navigation bar -->
+    <!-- Top Navigation bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search for users" class="search-bar" size="80" >
+              <input type="text" class="form-control search-bar" placeholder="Search for users" >
             </div>
           </form>
           <ul class="nav navbar-nav navbar-right">
@@ -67,6 +67,23 @@
         <!-- Cover image -->
         <section class="jumbotron" style="background-image: url(assets/images/hogwarts_small.jpg); background-size: 100%;">
         </section>
+        <!-- Middle nav links -->
+        <div class="row">
+          <div class="collapse navbar-collapse">
+            <nav class="navbar navbar-default  middle-nav">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Timeline</a></li>
+                <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Photos <span class="count">(8)</span></a></li>
+                <li><a href="#">Friends <span class="count">(12)</span></a></li>
+              </ul>
+              <div class="navbar-right">
+                <a href="#">Edit Profile</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
       </div>
 
         <!-- Profile photo -->
