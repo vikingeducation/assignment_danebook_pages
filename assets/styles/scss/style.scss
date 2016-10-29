@@ -29,7 +29,7 @@ body {
 
   * {
     border-radius: 0 !important;
-    //border: 1px black solid;
+    border: 1px black solid;
   }
 }
 
@@ -79,7 +79,21 @@ main {
 }
 
 .edit {
-    align: right;
-    border: 2px black solid;
-    font-size: 16px;
+  align: right;
+  border: 2px black solid;
+  font-size: 16px;
   }
+
+.section-bar {
+  background-color: gray;
+  margin: 0 -15px 0 -15px;
+
+  h3 {
+  margin-left: 50%;
+  }
+  button {
+  margin-right: 5px;
+  margin-top: 15px;
+  }
+}
+
