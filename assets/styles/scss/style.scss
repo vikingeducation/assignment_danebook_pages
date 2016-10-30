@@ -312,11 +312,42 @@ main {
   .comment-footer {
     margin-bottom: 10px;
 
-  .btn {
-    margin-bottom: 10px;
+    .btn {
+      margin-bottom: 10px;
+    }
+    a {
+      margin-left: 15px;
+    }
   }
-  a {
-    margin-left: 15px;
+}
+
+.photo-box {
+  text-align: center;
+  border: 1px black solid;
+
+  img {
+    width: 100%;
   }
-  }
+}
+
+.photo-frame {
+  display: inline-block;
+  width: 200px;
+  padding: 0;
+  margin: 0 20px;
+}
+
+
+.overlay {
+  margin-top: -50px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.photo-frame:hover .overlay{
+display: block;
+}
+
+bottom-spacer {
+  border-top: 1px black solid;
 }

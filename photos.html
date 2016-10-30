@@ -31,7 +31,7 @@
   </head>
   <body>
 
-    <!-- Navigation bar -->
+    <!-- Top Navigation bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search for users" class="search-bar" size="80" >
+              <input type="text" class="form-control" placeholder="Search for users" >
             </div>
           </form>
           <ul class="nav navbar-nav navbar-right">
@@ -61,5 +61,208 @@
       </div><!-- /.container-fluid -->
     </nav>
 
+
+    <main class="container">
+      <div class="row">
+        <!-- Cover image -->
+        <section class="jumbotron" style="background-image: url(assets/images/hogwarts_small.jpg); background-size: 100%;">
+        </section>
+        <!-- Middle nav links -->
+        <div class="row">
+          <div class="collapse navbar-collapse">
+            <nav class="navbar navbar-default  middle-nav">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Timeline</a></li>
+                <li><a href="#">About <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">Photos <span class="count">(8)</span></a></li>
+                <li><a href="#">Friends <span class="count">(12)</span></a></li>
+              </ul>
+              <div class="navbar-right">
+                <a href="#">Edit Profile</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+
+        <!-- Profile photo -->
+      <div class="row">
+        <section class="col-sm-4 img-responsive profile-image">
+          <img src="assets/images/harry_potter_small.jpg">
+        </section>
+      </div>
+
+
+        <!-- Section Header -->
+      <div class="navbar section-bar">
+        <section>
+            <h3 class="navbar-header">Photos</h3>
+            <button type="button" class="btn btn-primary navbar-right navbar-btn about-btn">Add a Photo!</button>
+        </section>
+      </div>
+
+
+      <!-- Photo box -->
+      <!-- <div class="photo-box">
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png"></a>
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay-visable">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div> -->
+
+        <!-- Photo box -->
+        <table class="photo-box row">
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <!-- <div class="photo-box row"></div> -->
+        </table>
+
+      </div>
+    <div class="row bottom-spacer">
+    <br>
+    </div>
+    </main>
   </body>
 </html>

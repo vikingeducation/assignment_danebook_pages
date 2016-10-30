@@ -220,4 +220,27 @@ body {
     .comment-box .comment-footer a {
       margin-left: 15px; }
 
+.photo-box {
+  text-align: center;
+  border: 1px black solid; }
+  .photo-box img {
+    width: 100%; }
+
+.photo-frame {
+  display: inline-block;
+  width: 200px;
+  padding: 0;
+  margin: 0 20px; }
+
+.overlay {
+  margin-top: -50px;
+  margin-bottom: 20px;
+  display: none; }
+
+.photo-frame:hover .overlay {
+  display: block; }
+
+bottom-spacer {
+  border-top: 1px black solid; }
+
 /*# sourceMappingURL=style.css.map */
