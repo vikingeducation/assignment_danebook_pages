@@ -1,1 +1,268 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8"/>
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- HTML5 Shim -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Danebook | Photos</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Local Styles -->
+    <link rel="stylesheet" href="assets/styles/scss/style.css"/>
+
+  </head>
+  <body>
+
+    <!-- Top Navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/danish_flag.gif" class="navbar-img" alt="Danish Flag Logo">
+          </a>
+          <a class="navbar-brand" href="#">Danebook</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search for users" >
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Harry</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <main class="container">
+      <div class="row">
+        <!-- Cover image -->
+        <section class="jumbotron" style="background-image: url(assets/images/hogwarts_small.jpg); background-size: 100%;">
+        </section>
+        <!-- Middle nav links -->
+        <div class="row">
+          <div class="collapse navbar-collapse">
+            <nav class="navbar navbar-default  middle-nav">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Timeline</a></li>
+                <li><a href="#">About <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">Photos <span class="count">(8)</span></a></li>
+                <li><a href="#">Friends <span class="count">(12)</span></a></li>
+              </ul>
+              <div class="navbar-right">
+                <a href="#">Edit Profile</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+
+        <!-- Profile photo -->
+      <div class="row">
+        <section class="col-sm-4 img-responsive profile-image">
+          <img src="assets/images/harry_potter_small.jpg">
+        </section>
+      </div>
+
+
+        <!-- Section Header -->
+      <div class="navbar section-bar">
+        <section>
+            <h3 class="navbar-header">Photos</h3>
+            <button type="button" class="btn btn-primary navbar-right navbar-btn about-btn">Add a Photo!</button>
+        </section>
+      </div>
+
+
+      <!-- Photo box -->
+      <!-- <div class="photo-box">
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png"></a>
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay-visable">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div>
+        <a href=""><div class="photo-frame"><img src="assets/images/icon_photo_small.png">
+          <div class="overlay">
+            Uploaded January 1, 2016
+          </div></a>
+        </div> -->
+
+        <!-- Photo box -->
+        <table class="photo-box row">
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <tr>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+            <td class="photo-frame">
+              <a href=""><img src="assets/images/icon_photo_small.png"></a>
+              <div class="overlay">
+                Uploaded January 1, 2016
+            </td></div>
+          </tr>
+          <!-- <div class="photo-box row"></div> -->
+        </table>
+
+      </div>
+    <div class="row bottom-spacer">
+    <br>
+    </div>
+    </main>
+  </body>
+</html>

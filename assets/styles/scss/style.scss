@@ -1,0 +1,353 @@
+.navbar-fixed-top {
+  background-color: #2B78E4;
+  border: 1px black solid;
+  padding-left: 25px;
+  padding-right: 55px;
+
+  .form-control {
+    border-radius: 0px;
+    width: 600px;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+    color: #fff; }
+
+  img {
+  height: 25px;
+  border-radius: 50% !important;
+  margin-top: -5px; }
+
+
+  a {
+  color: white !important;// #fff;
+  font-size: 18px; }
+}
+
+body {
+  margin-top: 40px;
+
+  * {
+    border-radius: 0 !important;
+    //border: 1px black solid;
+  }
+}
+
+
+.jumbotron {
+  height: 400px;
+  z-index: -1;
+  border-radius: 0px;
+  background-position: bottom;
+}
+
+main {
+
+
+}
+
+.profile-image {
+  height: 200px;
+  margin-top: -350px;
+  z-index: +1;
+}
+
+.middle-nav {
+  //z-index: -1;
+  margin-top: -30px;
+  background-color: white;
+  border: 1px black solid;
+
+  ul {
+    padding-left: 250px;
+    display: inline-block;
+
+    li {
+      border-right: 1px black solid;
+      border-left: 1px black solid;
+    }
+
+  }
+  .navbar-right {
+    margin: 20px 15px 0 0;
+  }
+}
+
+.count {
+  color: grey;
+}
+
+.edit {
+  align: right;
+  border: 2px black solid;
+  font-size: 16px;
+  }
+
+.section-bar {
+  background-color: gray;
+  margin: 0 -15px 0 -15px;
+
+  h3 {
+  margin-left: 47%;
+  }
+  button {
+  margin-right: 5px;
+  margin-top: 15px;
+  }
+}
+
+.title-box {
+  background-color: #ccc;
+  text-align: center;
+  padding: 1px 0;
+  border: 1px black solid;
+  margin-top: 8px;
+
+  h3 {
+  margin-left: 47%;
+  }
+}
+
+.pull-left {
+  padding: 0 2px 0 0 ;
+}
+
+.pull-right {
+  padding: 0 0 0 2px;
+}
+
+.section-container {
+  border: 1px black solid;
+  padding-left: 50px;
+  }
+
+.save-button {
+  width: 50%;
+  margin-left: 25%;
+  margin: 50px 25%;
+}
+
+.friend-box {
+  border: 1px black solid;
+  margin: 5px 10px;
+  width: 45%;
+  //height: 40px;
+  display: inline-block;
+
+  img {
+    width: 20%;
+    margin: -20px 10px 10px 10px;
+  }
+  .friend-info {
+    display: inline-block;
+    margin: 10px 20px;
+
+    .name-wrapper {
+      height: 60px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+
+  .btn {
+    border: 1px black solid;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+}
+
+.about-box-timeline {
+  border: 1px black solid;
+  padding-left: 5px;
+}
+
+.photo-box-timeline {
+  border: 1px black solid;
+  text-align: center;
+
+  a {
+    text-decoration: underline;
+  }
+
+  img {
+    width: 25%;
+    margin: 2px;
+    display: inline-block;
+  }
+}
+
+.friend-box-timeline {
+  border: 1px black solid;
+  text-align: center;
+
+  a {
+    text-decoration: underline;
+  }
+
+  img {
+    width: 25%;
+    margin: 2px;
+    display: inline-block;
+  }
+
+  .friend-link {
+    font-size: 75%;
+    line-height: 90%;
+    display: inline-block;
+    margin: -10px 20px;
+    text-decoration: underline;
+  }
+}
+
+.post-box-timeline {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+.box-footer {
+  border: 1px black solid;
+  background-color: #ccc;
+  position: relative;
+  height: 50px;
+
+  .btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+}
+
+.past-post-box {
+  border: 1px black solid;
+  margin-top: 10px;
+
+  a {
+    text-decoration: underline;
+  }
+  .img-frame {
+    //background-image: url('assets/images/harry_potter_small.jpg');
+    background-image: url('http://vignette1.wikia.nocookie.net/harrypotter/images/c/c1/Harry%2Bpotter-Harry_Potter_HP4_01.jpg/revision/latest?cb=20120207172914');
+    background-position: right -10px top -10px;
+    height: 50px;
+    width: 50px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+
+    margin: 10px;
+    display: inline-block;
+    clear: both;
+  }
+  .poster-info {
+    //display: inline-block;
+    margin-top: -60px;
+    margin-left: 80px;
+    line-height: 97%;
+  }
+  .past-post-body {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+.past-post-footer {
+  background-color: #ccc;
+  overflow: auto;
+  padding: 5px 10px;
+
+  a {
+    padding-right: 5px;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+}
+
+.reply-box {
+  border: 1px gray solid;
+  background-color: #ccc;
+  overflow: auto;
+
+  .past-reply{
+
+    .pull-left {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .pull-right {
+      display: inline-block;
+      width: 88%;
+      margin-bottom: 10px;
+    }
+  }
+  img {
+    width: 50px;
+    margin: 5px 10px;
+  }
+  .reply-body {
+    width: 100%;
+    padding-top: 5px;
+    //margin: -20px 0 0 83px;
+  }
+  .reply-footer {
+    margin-right: 15px;
+    .pull-right {
+      width: 10%;
+      //margin-bottom: 10px;
+    }
+  }
+  .reply-container {
+    margin-top: 10px;
+  }
+  .clear {
+    clear: both;
+  }
+}
+
+.comment-box {
+  padding: 15px;
+
+  .comment-footer {
+    margin-bottom: 10px;
+
+    .btn {
+      margin-bottom: 10px;
+    }
+    a {
+      margin-left: 15px;
+    }
+  }
+}
+
+.photo-box {
+  text-align: center;
+  border: 1px black solid;
+
+  img {
+    width: 100%;
+  }
+}
+
+.photo-frame {
+  display: inline-block;
+  width: 200px;
+  padding: 0;
+  margin: 0 20px;
+}
+
+
+.overlay {
+  margin-top: -50px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.photo-frame:hover .overlay{
+display: block;
+}
+
+bottom-spacer {
+  border-top: 1px black solid;
+}

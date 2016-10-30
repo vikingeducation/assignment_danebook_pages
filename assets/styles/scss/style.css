@@ -1,0 +1,246 @@
+.navbar-fixed-top {
+  background-color: #2B78E4;
+  border: 1px black solid;
+  padding-left: 25px;
+  padding-right: 55px; }
+  .navbar-fixed-top .form-control {
+    border-radius: 0px;
+    width: 600px; }
+  .navbar-fixed-top .navbar-brand {
+    font-size: 32px;
+    color: #fff; }
+  .navbar-fixed-top img {
+    height: 25px;
+    border-radius: 50% !important;
+    margin-top: -5px; }
+  .navbar-fixed-top a {
+    color: white !important;
+    font-size: 18px; }
+
+body {
+  margin-top: 40px; }
+  body * {
+    border-radius: 0 !important; }
+
+.jumbotron {
+  height: 400px;
+  z-index: -1;
+  border-radius: 0px;
+  background-position: bottom; }
+
+.profile-image {
+  height: 200px;
+  margin-top: -350px;
+  z-index: +1; }
+
+.middle-nav {
+  margin-top: -30px;
+  background-color: white;
+  border: 1px black solid; }
+  .middle-nav ul {
+    padding-left: 250px;
+    display: inline-block; }
+    .middle-nav ul li {
+      border-right: 1px black solid;
+      border-left: 1px black solid; }
+  .middle-nav .navbar-right {
+    margin: 20px 15px 0 0; }
+
+.count {
+  color: grey; }
+
+.edit {
+  align: right;
+  border: 2px black solid;
+  font-size: 16px; }
+
+.section-bar {
+  background-color: gray;
+  margin: 0 -15px 0 -15px; }
+  .section-bar h3 {
+    margin-left: 47%; }
+  .section-bar button {
+    margin-right: 5px;
+    margin-top: 15px; }
+
+.title-box {
+  background-color: #ccc;
+  text-align: center;
+  padding: 1px 0;
+  border: 1px black solid;
+  margin-top: 8px; }
+  .title-box h3 {
+    margin-left: 47%; }
+
+.pull-left {
+  padding: 0 2px 0 0; }
+
+.pull-right {
+  padding: 0 0 0 2px; }
+
+.section-container {
+  border: 1px black solid;
+  padding-left: 50px; }
+
+.save-button {
+  width: 50%;
+  margin-left: 25%;
+  margin: 50px 25%; }
+
+.friend-box {
+  border: 1px black solid;
+  margin: 5px 10px;
+  width: 45%;
+  display: inline-block; }
+  .friend-box img {
+    width: 20%;
+    margin: -20px 10px 10px 10px; }
+  .friend-box .friend-info {
+    display: inline-block;
+    margin: 10px 20px; }
+    .friend-box .friend-info .name-wrapper {
+      height: 60px;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+  .friend-box .btn {
+    border: 1px black solid;
+    margin-left: 20px;
+    margin-top: -20px; }
+
+.about-box-timeline {
+  border: 1px black solid;
+  padding-left: 5px; }
+
+.photo-box-timeline {
+  border: 1px black solid;
+  text-align: center; }
+  .photo-box-timeline a {
+    text-decoration: underline; }
+  .photo-box-timeline img {
+    width: 25%;
+    margin: 2px;
+    display: inline-block; }
+
+.friend-box-timeline {
+  border: 1px black solid;
+  text-align: center; }
+  .friend-box-timeline a {
+    text-decoration: underline; }
+  .friend-box-timeline img {
+    width: 25%;
+    margin: 2px;
+    display: inline-block; }
+  .friend-box-timeline .friend-link {
+    font-size: 75%;
+    line-height: 90%;
+    display: inline-block;
+    margin: -10px 20px;
+    text-decoration: underline; }
+
+.post-box-timeline {
+  border: 1px black solid;
+  padding: 5px; }
+
+.box-footer {
+  border: 1px black solid;
+  background-color: #ccc;
+  position: relative;
+  height: 50px; }
+  .box-footer .btn {
+    position: absolute;
+    top: 10px;
+    right: 20px; }
+
+.past-post-box {
+  border: 1px black solid;
+  margin-top: 10px; }
+  .past-post-box a {
+    text-decoration: underline; }
+  .past-post-box .img-frame {
+    background-image: url("http://vignette1.wikia.nocookie.net/harrypotter/images/c/c1/Harry%2Bpotter-Harry_Potter_HP4_01.jpg/revision/latest?cb=20120207172914");
+    background-position: right -10px top -10px;
+    height: 50px;
+    width: 50px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    display: inline-block;
+    clear: both; }
+  .past-post-box .poster-info {
+    margin-top: -60px;
+    margin-left: 80px;
+    line-height: 97%; }
+  .past-post-box .past-post-body {
+    padding: 10px;
+    margin-top: 10px; }
+
+.past-post-footer {
+  background-color: #ccc;
+  overflow: auto;
+  padding: 5px 10px; }
+  .past-post-footer a {
+    padding-right: 5px; }
+  .past-post-footer .left {
+    float: left; }
+  .past-post-footer .right {
+    float: right; }
+
+.reply-box {
+  border: 1px gray solid;
+  background-color: #ccc;
+  overflow: auto; }
+  .reply-box .past-reply .pull-left {
+    display: inline-block;
+    vertical-align: top; }
+  .reply-box .past-reply .pull-right {
+    display: inline-block;
+    width: 88%;
+    margin-bottom: 10px; }
+  .reply-box img {
+    width: 50px;
+    margin: 5px 10px; }
+  .reply-box .reply-body {
+    width: 100%;
+    padding-top: 5px; }
+  .reply-box .reply-footer {
+    margin-right: 15px; }
+    .reply-box .reply-footer .pull-right {
+      width: 10%; }
+  .reply-box .reply-container {
+    margin-top: 10px; }
+  .reply-box .clear {
+    clear: both; }
+
+.comment-box {
+  padding: 15px; }
+  .comment-box .comment-footer {
+    margin-bottom: 10px; }
+    .comment-box .comment-footer .btn {
+      margin-bottom: 10px; }
+    .comment-box .comment-footer a {
+      margin-left: 15px; }
+
+.photo-box {
+  text-align: center;
+  border: 1px black solid; }
+  .photo-box img {
+    width: 100%; }
+
+.photo-frame {
+  display: inline-block;
+  width: 200px;
+  padding: 0;
+  margin: 0 20px; }
+
+.overlay {
+  margin-top: -50px;
+  margin-bottom: 20px;
+  display: none; }
+
+.photo-frame:hover .overlay {
+  display: block; }
+
+bottom-spacer {
+  border-top: 1px black solid; }
+
+/*# sourceMappingURL=style.css.map */
