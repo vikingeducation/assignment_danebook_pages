@@ -12,8 +12,10 @@
 
     <nav class="main-nav">
       <div class="container">
-        <img src="images/danish_flag.gif" alt="danish flag">
-        <h2>Danebook</h2>
+        <a><div class="logo">
+          <img src="images/danish_flag.gif" alt="danish flag">
+          <h2>Danebook</h2>
+      </div></a>
         <form>
           <input type="search" placeholder="Search for Users">
         </form>
@@ -30,13 +32,23 @@
           <h2>Harry Potter</h2>
         </div>
         <nav class="mid-nav-bar">
-          <ul class="mid-nav">
-            <a><li>Timeline</li></a><!--
-            --><a><li>About</li></a><!--
-            --><a><li>Photos <span>(123)</span></li></a><!--
-            --><a><li>Friends <span>(542)</span></li></a>
-          </ul>
-          <p class="edit-profile"><a>Edit Profile</a></p>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-collapsing-bar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="mobile-collapsing-bar">
+            <ul class="nav navbar-nav mid-nav">
+              <a><li>Timeline</li></a><!--
+              --><a><li>About</li></a><!--
+              --><a><li>Photos <span>(123)</span></li></a><!--
+              --><a><li>Friends <span>(542)</span></li></a>
+            </ul>
+            <p class="edit-profile"><a href="#hello">Edit Profile</a></p>
+          </div>
         </nav>
       </header>
 
@@ -83,6 +95,7 @@
               <h2>Words to Live By</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+              <h2>About Me</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
