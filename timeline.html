@@ -31,7 +31,7 @@
   </head>
   <body>
 
-    <!-- Navigation bar -->
+    <!-- Top Navigation bar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <form class="navbar-form navbar-left" role="search">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search for users" class="search-bar" size="80" >
+              <input type="text" class="form-control" placeholder="Search for users" >
             </div>
           </form>
           <ul class="nav navbar-nav navbar-right">
@@ -61,24 +61,27 @@
       </div><!-- /.container-fluid -->
     </nav>
 
+
     <main class="container">
       <div class="row">
         <!-- Cover image -->
         <section class="jumbotron" style="background-image: url(assets/images/hogwarts_small.jpg); background-size: 100%;">
         </section>
         <!-- Middle nav links -->
-        <div class="row middle-nav">
-          <section>
-            <div class="collapse navbar-collapse">
-              <nav class="navbar navbar-default">
+        <div class="row">
+          <div class="collapse navbar-collapse">
+            <nav class="navbar navbar-default  middle-nav">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Timeline <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Friends</a></li>
-              </nav>
-            </div>
-          </section>
+                <li><a href="#">Timeline</a></li>
+                <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Photos <span class="count">(8)</span></a></li>
+                <li><a href="#">Friends <span class="count">(12)</span></a></li>
+              </ul>
+              <div class="navbar-right">
+                <a href="#">Edit Profile</a>
+              </div>
+            </nav>
+          </div>
         </div>
 
       </div>
@@ -91,8 +94,236 @@
       </div>
 
 
+      <div class="row">
+        <!-- Left side -->
+        <div class="pull-left col-sm-4">
+
+          <div class="title-box">
+            <h4>About (Text area)</h4>
+          </div>
+          <div class="about-box-timeline">
+            <p><strong>Born:</strong> July 31st, 1990</p>
+            <p><strong>Went to school:</strong> Hogwarts College</p>
+            <p><strong>Hometown:</strong> Godrick's Hollow, England</p>
+            <p><strong>Currently Lives:</strong> Godrick's Hollow, England</p>
+          </div>
+
+          <div class="title-box">
+            <h4>Photos(123) (Copied Text area)</h4>
+          </div>
+          <div class="photo-box-timeline">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <br><a href="#">See More Photos</a>
+          </div>
+
+
+          <div class="title-box">
+            <h4>Friends(123) (Copied Text area)</h4>
+          </div>
+          <div class="friend-box-timeline">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+              <br>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+              <br>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+            <img src="assets/images/icon_photo_small.png">
+              <br>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+              <div class="friend-link"><a href="#">Jonathan<br>Archer</a></div>
+            <br><a href="#">See More Friends</a>
+          </div>
+
+        </div>
+
+        <!-- Right side -->
+        <div class="pull-right col-sm-8">
+
+          <!-- Post -->
+          <div class="title-box">
+            <h4>Post (Copied)</h4>
+          </div>
+          <div class="post-box-timeline">
+            <div class="form-group">
+              <textarea class="form-control" rows="3" id="post" placeholder="Tell the world something..."></textarea>
+            </div>
+          </div>
+          <div class="box-footer">
+            <button class="btn btn-primary btn-sm">Post</button>
+          </div>
+
+          <!-- Posts Feed -->
+          <div class="past-post-box">
+            <div calss="past-post-head">
+              <div class="img-frame"></div>
+              <div class="poster-info">
+                <a href="#">Harry Potter</a>
+                <br><span class="count">Posted on 6/1/16</span>
+              </div>
+            </div>
+            <div class="past-post-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="past-post-footer">
+              <div class="pull-left">
+                <a href="#">Like</a>
+                <a href="#">Comment</a>
+              </div>
+              <div class="pull-right">
+                <a href="#">Delete</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="past-post-box">
+            <div calss="past-post-head">
+              <div class="img-frame"></div>
+              <div class="poster-info">
+                <a href="#">Harry Potter</a>
+                <br><span class="count">Posted on 6/1/16</span>
+              </div>
+            </div>
+            <div class="past-post-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="past-post-footer">
+              <div class="pull-left">
+                <a href="#">Like</a>
+                <a href="#">Comment</a>
+                <br>
+                <a href="#">William Riker</a> Likes This
+              </div>
+              <div class="pull-right">
+                <a href="#">Delete</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="past-post-box">
+            <div calss="past-post-head">
+              <div class="img-frame"></div>
+              <div class="poster-info">
+                <a href="#">Harry Potter</a>
+                <br><span class="count">Posted on 6/1/16</span>
+              </div>
+            </div>
+            <div class="past-post-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="past-post-footer">
+              <div class="pull-left">
+                <a href="#">Unlike</a>
+                <br>
+                <span class="count">You and </span><a href="#">Fox Moulder</a><span class="count"> and 4 others like this
+              </div>
+              <div class="pull-right">
+                <a href="#">Delete</a>
+              </div>
+            </div>
+            <div class="reply-box">
+              <div>
+              <div class="past-reply">
+                <img src="assets/images/user_silhouette_generic.gif">
+                <div class="pull-right reply-container">
+                  <a href="">Dana Scully</a> <span class="count">Said on 6/1/16</span>
+                  <div class="reply-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    <div class="reply-footer">
+                      <div class="pull-left">
+                        <a href="#">Like</a> <span class="count">3 other people liked this</span>
+                      </div>
+                      <div class="pull-right">
+                        <a href="#">Delete</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="clear">
+              <div class="past-reply">
+                <div class="img-frame"></div>
+                <div class="pull-right reply-container">
+                  <a href="">Harry Potter</a> <span class="count">Said on Thursday   6/1/16</span>
+                  <div class="reply-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    <div class="reply-footer">
+                      <div class="pull-left">
+                        <a href="#">Like</a> <span class="count">3 other people liked this</span>
+                      </div>
+                      <div class="pull-right">
+                        <a href="#">Delete</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="comment-box">
+                <div class="form-group">
+                  <textarea class="form-control" rows="3" id="post" placeholder="Write a comment..."></textarea>
+                </div>
+                <div class="comment-footer">
+                  <div class="pull-left">
+                    <a href="#">Cancel</a>
+                  </div>
+                  <div class="pull-right">
+                    <button class="btn btn-primary btn-sm">Comment</button>
+                  </div>
+                </div><!-- End comment footer  -->
+              </div>
+
+            </div>
+          </div>
+
+
+        </div><!-- end of right column   -->
+      </div>
 
 
 
+    </main>
   </body>
 </html>

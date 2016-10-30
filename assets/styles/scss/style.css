@@ -63,6 +63,21 @@ body {
     margin-right: 5px;
     margin-top: 15px; }
 
+.title-box {
+  background-color: #ccc;
+  text-align: center;
+  padding: 1px 0;
+  border: 1px black solid;
+  margin-top: 8px; }
+  .title-box h3 {
+    margin-left: 47%; }
+
+.pull-left {
+  padding: 0 2px 0 0; }
+
+.pull-right {
+  padding: 0 0 0 2px; }
+
 .section-container {
   border: 1px black solid;
   padding-left: 50px; }
@@ -91,5 +106,118 @@ body {
     border: 1px black solid;
     margin-left: 20px;
     margin-top: -20px; }
+
+.about-box-timeline {
+  border: 1px black solid;
+  padding-left: 5px; }
+
+.photo-box-timeline {
+  border: 1px black solid;
+  text-align: center; }
+  .photo-box-timeline a {
+    text-decoration: underline; }
+  .photo-box-timeline img {
+    width: 25%;
+    margin: 2px;
+    display: inline-block; }
+
+.friend-box-timeline {
+  border: 1px black solid;
+  text-align: center; }
+  .friend-box-timeline a {
+    text-decoration: underline; }
+  .friend-box-timeline img {
+    width: 25%;
+    margin: 2px;
+    display: inline-block; }
+  .friend-box-timeline .friend-link {
+    font-size: 75%;
+    line-height: 90%;
+    display: inline-block;
+    margin: -10px 20px;
+    text-decoration: underline; }
+
+.post-box-timeline {
+  border: 1px black solid;
+  padding: 5px; }
+
+.box-footer {
+  border: 1px black solid;
+  background-color: #ccc;
+  position: relative;
+  height: 50px; }
+  .box-footer .btn {
+    position: absolute;
+    top: 10px;
+    right: 20px; }
+
+.past-post-box {
+  border: 1px black solid;
+  margin-top: 10px; }
+  .past-post-box a {
+    text-decoration: underline; }
+  .past-post-box .img-frame {
+    background-image: url("http://vignette1.wikia.nocookie.net/harrypotter/images/c/c1/Harry%2Bpotter-Harry_Potter_HP4_01.jpg/revision/latest?cb=20120207172914");
+    background-position: right -10px top -10px;
+    height: 50px;
+    width: 50px;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    display: inline-block;
+    clear: both; }
+  .past-post-box .poster-info {
+    margin-top: -60px;
+    margin-left: 80px;
+    line-height: 97%; }
+  .past-post-box .past-post-body {
+    padding: 10px;
+    margin-top: 10px; }
+
+.past-post-footer {
+  background-color: #ccc;
+  overflow: auto;
+  padding: 5px 10px; }
+  .past-post-footer a {
+    padding-right: 5px; }
+  .past-post-footer .left {
+    float: left; }
+  .past-post-footer .right {
+    float: right; }
+
+.reply-box {
+  border: 1px gray solid;
+  background-color: #ccc;
+  overflow: auto; }
+  .reply-box .past-reply .pull-left {
+    display: inline-block;
+    vertical-align: top; }
+  .reply-box .past-reply .pull-right {
+    display: inline-block;
+    width: 88%;
+    margin-bottom: 10px; }
+  .reply-box img {
+    width: 50px;
+    margin: 5px 10px; }
+  .reply-box .reply-body {
+    width: 100%;
+    padding-top: 5px; }
+  .reply-box .reply-footer {
+    margin-right: 15px; }
+    .reply-box .reply-footer .pull-right {
+      width: 10%; }
+  .reply-box .reply-container {
+    margin-top: 10px; }
+  .reply-box .clear {
+    clear: both; }
+
+.comment-box {
+  padding: 15px; }
+  .comment-box .comment-footer {
+    margin-bottom: 10px; }
+    .comment-box .comment-footer .btn {
+      margin-bottom: 10px; }
+    .comment-box .comment-footer a {
+      margin-left: 15px; }
 
 /*# sourceMappingURL=style.css.map */
