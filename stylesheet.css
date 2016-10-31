@@ -1,0 +1,726 @@
+/* GENERAL STYLES
+===================== */
+
+body {
+  position: relative;
+  font-family: 'helvetica', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+a {
+  cursor: pointer;
+}
+
+.active {
+  background: #eee;
+}
+
+/* FIXED NAV
+===================== */
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  background: #2B78E4;
+  color: #fff;
+  z-index: 1000;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main-nav .logo {
+  display: inline-block;
+}
+
+.main-nav img {
+  max-height: 40px;
+  max-width: 40px;
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.main-nav h2 {
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+  color: #fff;
+}
+
+.main-nav form {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.main-nav input {
+  width: 100%;
+  padding: 3px 5px;
+  color: #333;
+}
+
+.main-nav p {
+  float: right;
+  margin: 0;
+  line-height: 32px;
+}
+
+@media (max-width: 767px) {
+
+  .main-nav img {
+    max-height: 30px;
+    max-width: 30px;
+  }
+
+  .main-nav h2 { 
+    font-size: 15px;
+  }
+
+  .main-nav form {
+    width: 40%;
+  }
+}
+
+/* COVER HEADER
+====================== */
+
+.cover {
+  margin-top: 60px;
+  position: relative;
+}
+
+.cover-photo {
+  width: 100%;
+  max-height: 400px;
+}
+
+.avatar {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.avatar img {
+  max-height: 200px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+
+.avatar h2 { 
+  margin-left: 20px;
+  display: inline-block;
+  color: #fff;
+}
+
+.mid-nav-bar {
+  border: 1px solid #555;
+  position: relative;
+}
+
+.mid-nav {
+  margin-left: 20%;
+  margin-bottom: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.mid-nav a {
+  display: inline-block;
+  color: #333;
+}
+
+.mid-nav a:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+.mid-nav li {
+  display: inline-block;
+  padding: 15px 20px;
+  border-left: 1px solid #555;
+}
+
+.mid-nav span { color: #aaa;}
+
+.mid-nav a:last-of-type li {
+  border-right: 1px solid #555;
+}
+
+.mid-nav-bar .edit-profile {
+  float: right;
+  line-height: 50px;
+  margin: 0 15px 0 0;
+}
+
+.mid-nav-bar .edit-profile a:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .avatar img {
+    max-height: 150px;
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    background-color: rgb(221,221,221);
+  }
+  .navbar-toggle .icon-bar {
+    background: #333;
+  }
+  .avatar {
+    top: 20px;
+    left: 20px;
+  }
+  .avatar img {
+    border: 1px solid #fff;
+  }
+  .avatar h2 {
+    font-size: 20px;
+  }
+  .mid-nav { 
+    margin: 0;
+    display: block;
+  }
+  .mid-nav a {
+    display: block;
+  }
+  .mid-nav li {
+    border: 0;
+    display: block;
+    padding: 10px 20px;
+  }
+  .mid-nav a:last-of-type li {
+    border: 0;
+  }
+  .mid-nav-bar .edit-profile {
+    float: none;
+    margin: 0;
+    padding: 10px 20px 30px;
+    line-height: 20px;
+    position: relative;
+    z-index: 1000;
+    display: inline-block;
+  }
+  .mid-nav-bar .edit-profile:hover {
+    cursor: pointer;
+  }
+}
+
+/* ABOUT
+================== */
+.about {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+  background: #ddd;
+  border: 1px solid #555;
+  padding: 10px 0;
+  position: relative;
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.title button {
+  background: #2B78E4;
+  border: 0;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  transform:translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.about-information {
+  border: 1px solid #555;
+  border-top: 0;
+  padding: 30px 40px;
+
+}
+
+.about-information td {
+  padding: 4px 20px 4px 0;
+}
+
+.about-information td:first-child {
+  font-weight: 600;
+}
+
+.about-information p {
+  font-size: 16px;
+  margin: 0 0 1em 0;
+}
+
+@media (max-width: 767px) {
+  .title h1 {
+    font-size: 25px;
+  }
+  .title button {
+    font-size: 12px;
+    right: 10px;
+  }
+  .about-information {
+    padding: 15px 20px;
+  }
+  .about-information h2 {
+    font-size: 22px;
+  }
+  .about-information p {
+    font-size: 14px;
+  }
+}
+
+/* ABOUT EDIT
+================== */
+.about-edit {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.about-edit-information {
+  border: 1px solid #555;
+  border-top: 0;
+  padding: 30px 40px;
+
+}
+
+.about-edit-information td {
+  padding: 4px 20px 4px 0;
+}
+
+.about-edit-information td:first-of-type {
+  width: 30%;
+  font-weight: 600;
+}
+
+.about-edit-information p {
+  font-size: 16px;
+  margin: 0 0 1em 0;
+}
+
+.about-edit input[type="text"] {
+  width: 100%;
+}
+
+.about-edit-information td:last-of-type {
+  width: 70%;
+}
+
+.about-edit-information textarea {
+  width: 100%;
+  overflow: visible;
+  padding: 5px;
+}
+
+.about-edit-information .about-textarea {
+  min-height: 140px;
+}
+
+.about-edit button[type="submit"] {
+  width: 450px;
+  max-width: 60%;
+  background: #2b78e4;
+  color: #fff;
+  border: 0;
+  font-size: 24px;
+  padding: 20px;
+  margin: 20px auto 0;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .about-edit-information h2 {
+    font-size: 20px;
+  }
+  .about-edit button[type="submit"] {
+    font-size: 16px;
+    max-width: 100%;
+  }
+}
+
+/* TIMELINE
+================== */
+.timeline {
+  margin-bottom: 30px;
+}
+
+.timeline .new-post {
+  margin-top: 20px;
+  border: 1px solid #333;
+}
+
+.new-post header {
+  background: #eee;
+  padding: 10px;
+}
+
+.new-post header h3 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.new-post section {
+  padding: 10px;
+}
+
+.new-post textarea {
+  width: 100%;
+  padding: 5px;
+  color: #999;
+  min-height: 100px;
+}
+
+.new-post footer {
+  background: #eee;
+  text-align: right;
+  padding: 5px 10px;
+}
+
+.new-post button {
+  display: inline-block;
+  background: #2B78E4;
+  color: #fff;
+}
+
+.timeline .post {
+  margin-top: 20px;
+  border: 1px solid #333;
+}
+
+.post header {
+  padding: 10px;
+}
+
+.post header img {
+  max-width: 80px;
+  height: auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.post header p {
+  display: inline-block;
+}
+
+.post header a {
+  cursor: pointer;
+}
+
+.post header span {
+  color: #999;
+}
+
+.post section {
+  padding: 10px;
+}
+
+.post footer {
+  padding: 10px;
+  background: #eee;
+}
+
+.post footer p {
+  margin: 0;
+}
+
+.timeline .like {
+  display: inline-block;
+}
+
+.timeline .like p {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.timeline .like a {
+  cursor: pointer;
+}
+
+.timeline .delete {
+  float: right;
+}
+
+.timeline .delete p {
+  display: inline-block;
+  text-align: right;
+}
+
+.timeline .delete a {
+  cursor: pointer;
+}
+
+.timeline .likes {
+  margin: 10px 0;
+}
+
+.timeline .likes a {
+  cursor: pointer;
+}
+
+.timeline .commented-post {
+  border-bottom-color: #aaa;
+}
+
+.comments {
+  background: #eee;
+  border: 1px solid #333;
+  border-top: 0;
+  padding: 10px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.comment span {
+  color: #999;
+  margin-left: 5px;
+}
+
+.comment img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-comment textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 5px;
+}
+
+.post-comment p {
+  display: inline-block;
+}
+
+.post-comment a {
+  text-decoration: underline;
+}
+
+.post-comment button {
+  float: right;
+  background: #2B78E4;
+  color: #fff;
+}
+
+.timeline-widget {
+  border: 1px solid #333;
+  margin-top: 20px;
+}
+
+.timeline-widget header {
+  background: #eee;
+  border-bottom: 1px solid #333;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.timeline-widget header h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.timeline-widget-content {
+  padding: 15px;
+}
+
+.timeline-widget-content p:last-of-type {
+  margin: 0;
+}
+
+.timeline-widget-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.photo-widget p {
+  text-align: center;
+  margin: 0;
+}
+
+.photo-widget a {
+  cursor: pointer;
+}
+
+.friend-widget p {
+  text-align: center;
+  margin: 0 0 15px;
+  line-height: 1.2;
+}
+
+.friend-widget .timeline-widget-content p {
+  margin: 0 0 15px;
+}
+
+.friend-widget a {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .photo-widget img { 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .friend-widget img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+/* PHOTOS
+================== */
+.photos {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.photos-section {
+  border: 1px solid #555;
+  border-top: 0;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.photo {
+  position: relative;
+  display: inline-block;
+}
+
+.photo img {
+  margin: 0 auto;
+  display: block;
+}
+
+.photo .photo-text {
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  padding: 10px 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+}
+.photo:hover {
+  cursor: pointer;
+}
+
+.photo:hover .photo-text {
+  opacity: 1;
+}
+
+.photo-text p { 
+  margin: 0;
+  font-size: 11px;
+}
+
+/* FRIENDS
+================== */
+.friends {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.friends-information {
+  border: 1px solid #555;
+  border-top: 0;
+  padding: 30px 40px;
+}
+
+.friend {
+  border: 1px solid #333;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.friend img {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.friend p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px 0 10px;
+  font-size: 16px;
+}
+
+.friend a {
+  cursor: pointer;
+}
+
+.friend span {
+  color: #999;
+}
+
+.friend button {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+@media (max-width: 767px) {
+  .friend img {
+    margin: 0 auto;
+    display: block;
+  }
+  .friend p {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .friend button {
+    position: static;
+    display: block;
+    margin: 20px auto 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
