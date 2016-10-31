@@ -348,6 +348,63 @@ header {
   }
 }
 
+/* PHOTOS
+================== */
+.photos {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.photos-section {
+  border: 1px solid #555;
+  border-top: 0;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.photo {
+  position: relative;
+  display: inline-block;
+}
+
+.photo img {
+  margin: 0 auto;
+  display: block;
+}
+
+.photo .photo-text {
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  padding: 10px 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  -webkit-transition: opacity 0.3s;
+}
+.photo:hover {
+  cursor: pointer;
+}
+
+.photo:hover .photo-text {
+  opacity: 1;
+}
+
+.photo-text p { 
+  margin: 0;
+  font-size: 11px;
+}
+
+
+
+
+
+
+
 
 
 
