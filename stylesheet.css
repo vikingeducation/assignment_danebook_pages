@@ -399,9 +399,73 @@ header {
   font-size: 11px;
 }
 
+/* FRIENDS
+================== */
+.friends {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
 
+.friends-information {
+  border: 1px solid #555;
+  border-top: 0;
+  padding: 30px 40px;
+}
 
+.friend {
+  border: 1px solid #333;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
 
+.friend img {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.friend p {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px 0 10px;
+  font-size: 16px;
+}
+
+.friend a {
+  cursor: pointer;
+}
+
+.friend span {
+  color: #999;
+}
+
+.friend button {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+@media (max-width: 767px) {
+  .friend img {
+    margin: 0 auto;
+    display: block;
+  }
+  .friend p {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .friend button {
+    position: static;
+    display: block;
+    margin: 20px auto 0;
+  }
+}
 
 
 
