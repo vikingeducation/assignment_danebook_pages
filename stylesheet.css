@@ -280,3 +280,85 @@ header {
   }
 }
 
+/* ABOUT EDIT
+================== */
+.about-edit {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.about-edit-information {
+  border: 1px solid #555;
+  border-top: 0;
+  padding: 30px 40px;
+
+}
+
+.about-edit-information td {
+  padding: 4px 20px 4px 0;
+}
+
+.about-edit-information td:first-of-type {
+  width: 30%;
+  font-weight: 600;
+}
+
+.about-edit-information p {
+  font-size: 16px;
+  margin: 0 0 1em 0;
+}
+
+.about-edit input[type="text"] {
+  width: 100%;
+}
+
+.about-edit-information td:last-of-type {
+  width: 70%;
+}
+
+.about-edit-information textarea {
+  width: 100%;
+  overflow: visible;
+  padding: 5px;
+}
+
+.about-edit-information .about-textarea {
+  min-height: 140px;
+}
+
+.about-edit button[type="submit"] {
+  width: 450px;
+  max-width: 60%;
+  background: #2b78e4;
+  color: #fff;
+  border: 0;
+  font-size: 24px;
+  padding: 20px;
+  margin: 20px auto 0;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .about-edit-information h2 {
+    font-size: 20px;
+  }
+  .about-edit button[type="submit"] {
+    font-size: 16px;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
