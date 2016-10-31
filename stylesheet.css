@@ -12,6 +12,10 @@ a {
   cursor: pointer;
 }
 
+.active {
+  background: #eee;
+}
+
 /* FIXED NAV
 ===================== */
 
@@ -32,8 +36,9 @@ a {
 }
 
 .main-nav img {
-  max-height: 50px;
-  max-width: 50px;
+  max-height: 40px;
+  max-width: 40px;
+  border-radius: 50%;
   height: auto;
   width: auto;
   display: inline-block;
@@ -86,7 +91,7 @@ a {
 ====================== */
 
 .cover {
-  margin-top: 53px;
+  margin-top: 60px;
   position: relative;
 }
 
