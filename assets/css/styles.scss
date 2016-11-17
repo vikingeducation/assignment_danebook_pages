@@ -1,0 +1,59 @@
+#top-nav {
+  background-color: #337ab7;
+
+  .container-fluid {
+  }
+
+  a {
+    font-weight: 600;
+    color: white;
+  }
+
+
+  .nav-brand-img {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .nav-brand-word {
+    font-size: 20px;
+    margin-left: 10px;
+    vertical-align: top;
+  }
+
+  .navbar-toggle {
+    &:hover {
+      background-color: #337ab7;
+    }
+    &:focus {
+      background-color: #337ab7;
+    }
+    &:active {
+      background-color: #26679e;
+    }
+  }
+
+  .icon-bar {
+    background-color: white;
+  }
+
+  .nav-icon {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #nav-search {
+    width: 400px;
+  }
+}
