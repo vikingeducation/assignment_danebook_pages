@@ -12,7 +12,7 @@ h3 {
 
 .right {
   position: absolute;
-  right: 12px;
+  right: 15px;
   top: 50%;
   transform: translateY(-50%); }
 
@@ -95,11 +95,15 @@ h3 {
     height: 100%;
     border: 1px solid #333; }
     #main-nav ul li {
-      display: inline-block; }
+      display: inline-block;
+      border-left: 1px solid #333; }
       #main-nav ul li a {
+        display: inline-block;
         font-size: 16px;
-        padding: 10px 20px;
-        border-left: 1px solid #333; }
+        padding: 10px 20px; }
+      #main-nav ul li small {
+        color: #aaa;
+        margin-left: 5px; }
       #main-nav ul li .active {
         color: #333; }
       #main-nav ul li:last-child {
@@ -110,7 +114,8 @@ h3 {
     display: block;
     border-bottom: 1px solid #333; }
     #main-nav ul li:last-child {
-      border: 0; }
+      border-right: 0;
+      border-bottom: 0; }
 
   #edit-profile-link {
     top: 50px;
@@ -128,7 +133,7 @@ h3 {
 
 .box-body {
   margin-top: -1px;
-  padding-bottom: 20px; }
+  padding-bottom: 15px; }
 
 .bg-gray {
   background-color: #efefef; }
@@ -159,5 +164,26 @@ dd {
 @media screen and (min-width: 768px) {
   .edit-form .control-label {
     margin-bottom: 5px; } }
+
+.friend-box {
+  border-color: #aaa;
+  margin-top: 15px;
+  position: relative;
+  padding: 15px 15px; }
+  .friend-box .friend-img {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    border: 1px solid #aaa; }
+    .friend-box .friend-img img {
+      height: 100%; }
+  .friend-box .friend-details {
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+    .friend-box .friend-details a, .friend-box .friend-details small {
+      display: block; }
 
 /*# sourceMappingURL=styles.css.map */

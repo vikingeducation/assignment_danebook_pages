@@ -15,7 +15,7 @@ h3 {
 
 .right {
   position: absolute;
-  right: 12px;
+  right: 15px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -146,11 +146,17 @@ h3 {
 
     li {
       display: inline-block;
+      border-left: 1px solid #333;
 
       a {
+        display: inline-block;
         font-size: 16px;
         padding: 10px 20px;
-        border-left: 1px solid #333;
+      }
+
+      small {
+        color: #aaa;
+        margin-left: 5px;
       }
 
       .active {
@@ -171,7 +177,8 @@ h3 {
       border-bottom: 1px solid #333;
 
       &:last-child {
-        border: 0;
+        border-right: 0;
+        border-bottom: 0;
       }
     }
   }
@@ -198,7 +205,7 @@ h3 {
 
 .box-body {
   margin-top: -1px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .bg-gray {
@@ -244,6 +251,36 @@ dd {
   @media screen and (min-width: 768px) {
     .control-label {
       margin-bottom: 5px;
+    }
+  }
+}
+
+.friend-box {
+  border-color: #aaa;
+  margin-top: 15px;
+  position: relative;
+  padding: 15px 15px;
+
+  .friend-img {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    border: 1px solid #aaa;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .friend-details {
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    a, small {
+      display: block;
     }
   }
 }
