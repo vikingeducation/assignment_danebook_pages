@@ -122,36 +122,71 @@
     <div class="row">
       <section class="box-body col-xs-12">
 
-        <!-- Left Column -->
-        <div class="col-md-5">
-          <h3>Basic Information</h3>
-          <dl>
-            <dt>Birthday</dt>
-            <dd>July 31st, 1980</dd>
-            <dt>College</dt>
-            <dd>Hogwarts School of Witchcraft and Wizardry</dd>
-            <dt>Hometown</dt>
-            <dd>Godric's Hollow, England</dd>
-            <dt>Currently Lives</dt>
-            <dd>The Cupboard Under the Stairs</dd>
-          </dl>
+        <form class="edit-form">
+          <div class="row">
 
-          <h3>Contact Information</h3>
-          <dl>
-            <dt>Email</dt>
-            <dd>harry.potter@hogwarts.edu</dd>
-            <dt>Telephone</dt>
-            <dd>555-123-4567</dd>
-          </dl>
-        </div>
+            <!-- Left Column -->
+            <div class="col-md-5 form-horizontal">
+              <h3>Basic Information</h3>
+              <div class="form-group">
+                <label for="about-birthday" class="col-md-3 control-label">Birthday</label>
+                <div class="col-md-9">
+                  <input id="about-birthday" type="text" class="form-control" name="about-birthday" type="text" placeholder="July 31st, 1980">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="about-college" class="col-md-3 control-label">College</label></dt>
+                <div class="col-md-9">
+                  <input id="about-college" type="text" class="form-control" name="about-college" placeholder="Hogwarts School of Witchcraft and Wizardry">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="about-hometown" class="col-md-3 control-label">Hometown</label></dt>
+                <div class="col-md-9">
+                  <input id="about-hometown" type="text" class="form-control" name="about-hometown" placeholder="Godric's Hollow, England">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="about-address" class="col-md-3 control-label">Location</label></dt>
+                <div class="col-md-9">
+                  <input id="about-address" type="text" class="form-control" name="about-address" placeholder="The Cupboard Under the Stairs">
+                </div>
+              </div>
 
-        <!-- Right Column -->
-        <div class="col-md-7">
-          <h3>Words to Live By</h3>
-          <p>Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Levicorpus.</p>
-          <h3>About Me</h3>
-          <p>Half-giant jinxes peg-leg gillywater. Stan Shunpike doe patronus, suck his soul Muggle-Born large order of drills the trace. Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire.</p>
-        </div>
+              <h3>Contact Information</h3>
+              <div class="form-group">
+                <label for="about-email" class="col-md-3 control-label">Email</label>
+                <div class="col-md-9">
+                  <input id="about-email" type="email" class="form-control" name="about-email" placeholder="harry.potter@hogwarts.edu">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="about-phone" class="col-md-3 control-label">Telephone</label>
+                <div class="col-md-9">
+                  <input id="about-phone" type="tel" class="form-control" name="about-phone" placeholder="555-123-4567">
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-7">
+              <h3>Words to Live By</h3>
+                <textarea name="about-words" rows="4" class="form-control" placeholder="Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Levicorpus."></textarea>
+              <h3>About Me</h3>
+              <textarea name="about-me" rows="6" class="form-control" placeholder="Half-giant jinxes peg-leg gillywater. Stan Shunpike doe patronus, suck his soul Muggle-Born large order of drills the trace. Bred in captivity fell through the veil, quaffle blue flame ickle diddykins Aragog. Yer a wizard, Harry Doxycide the woes of Mrs. Weasley Goblet of Fire."></textarea>
+            </div>
+
+          </div><!-- end row -->
+
+          <!-- Submit Button -->
+          <div class="row">
+            <div class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Save Changes</button
+                >
+            </div>
+          </div>
+
+        </form>
 
       </section>
     </div><!-- end row -->

@@ -3,14 +3,14 @@ body {
   padding-bottom: 50px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 600;
   margin: 10px 0 10px;
 }
 
 h3 {
-  font-weight: 600;
   margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .right {
@@ -96,7 +96,7 @@ h3 {
 
   .cover-img {
     position: relative;
-    height: 375px;
+    height: 300px;
     overflow: hidden;
     border: 1px solid #333;
 
@@ -104,7 +104,7 @@ h3 {
       position: absolute;
       min-width: 100%;
       min-height: 375px;
-      top: 0;
+      top: -150px;
     }
   }
 
@@ -196,7 +196,7 @@ h3 {
 .box-body {
   border: 1px solid #333;
   margin-top: -1px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .bg-gray {
@@ -218,4 +218,30 @@ dt {
 dd {
   margin-left: 130px;
   padding: 5px 0;
+}
+
+.edit-form {
+  .row {
+    margin: 0;
+  }
+
+  .control-label {
+    text-align: left;
+
+    &:after {
+      content: ":";
+    }
+  }
+
+  button[type="submit"] {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .control-label {
+      margin-bottom: 5px;
+    }
+  }
 }

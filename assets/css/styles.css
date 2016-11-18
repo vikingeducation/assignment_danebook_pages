@@ -2,13 +2,13 @@ body {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: 600;
   margin: 10px 0 10px; }
 
 h3 {
-  font-weight: 600;
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 15px; }
 
 .right {
   position: absolute;
@@ -60,14 +60,14 @@ h3 {
   position: relative; }
   #cover .cover-img {
     position: relative;
-    height: 375px;
+    height: 300px;
     overflow: hidden;
     border: 1px solid #333; }
     #cover .cover-img img {
       position: absolute;
       min-width: 100%;
       min-height: 375px;
-      top: 0; }
+      top: -150px; }
   #cover .profile-img {
     position: absolute;
     height: 180px;
@@ -127,7 +127,7 @@ h3 {
 .box-body {
   border: 1px solid #333;
   margin-top: -1px;
-  padding-bottom: 10px; }
+  padding-bottom: 20px; }
 
 .bg-gray {
   background-color: #efefef; }
@@ -144,5 +144,19 @@ dt {
 dd {
   margin-left: 130px;
   padding: 5px 0; }
+
+.edit-form .row {
+  margin: 0; }
+.edit-form .control-label {
+  text-align: left; }
+  .edit-form .control-label:after {
+    content: ":"; }
+.edit-form button[type="submit"] {
+  text-align: center;
+  width: 100%;
+  margin-top: 15px; }
+@media screen and (min-width: 768px) {
+  .edit-form .control-label {
+    margin-bottom: 5px; } }
 
 /*# sourceMappingURL=styles.css.map */
