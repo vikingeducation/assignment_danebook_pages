@@ -110,7 +110,11 @@ h3 {
     display: block;
     border-bottom: 1px solid #333; }
     #main-nav ul li:last-child {
-      border: 0; } }
+      border: 0; }
+
+  #edit-profile-link {
+    top: 50px;
+    left: 18px; } }
 .header-title {
   text-align: center;
   vertical-align: middle; }
