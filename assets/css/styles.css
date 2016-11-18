@@ -28,9 +28,45 @@
     background-color: white; }
   #top-nav .nav-icon {
     margin-right: 5px; }
+  #top-nav li a:hover {
+    background-color: #26679e; }
+  #top-nav li a:focus {
+    background-color: #26679e; }
+  #top-nav li a:active {
+    background-color: #26679e; }
 
 @media screen and (min-width: 992px) {
   #nav-search {
     width: 400px; } }
+#cover {
+  position: relative; }
+  #cover .cover-img {
+    position: relative;
+    height: 375px;
+    overflow: hidden;
+    border: 1px solid #333; }
+    #cover .cover-img img {
+      position: absolute;
+      min-width: 100%;
+      min-height: 375px;
+      top: 0; }
+  #cover .profile-img {
+    position: absolute;
+    height: 180px;
+    padding: 5px 5px;
+    left: 15px;
+    bottom: -25px;
+    border: 1px solid #333;
+    background-color: white;
+    overflow: hidden; }
+    #cover .profile-img img {
+      height: 100%; }
+  #cover .cover-name {
+    position: absolute;
+    left: 170px;
+    bottom: 15px; }
+    #cover .cover-name h1 {
+      color: white;
+      font-weight: 600; }
 
 /*# sourceMappingURL=styles.css.map */
