@@ -187,14 +187,16 @@ h3 {
   vertical-align: middle;
 }
 
-.box-header {
+.box {
   border: 1px solid #333;
+}
+
+.box-header {
   margin-top: 20px;
   position: relative;
 }
 
 .box-body {
-  border: 1px solid #333;
   margin-top: -1px;
   padding-bottom: 20px;
 }
