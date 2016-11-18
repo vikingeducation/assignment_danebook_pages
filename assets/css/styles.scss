@@ -1,3 +1,18 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1, h2 {
+  font-weight: 600;
+  margin: 10px 0 10px;
+}
+
+h3 {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
 #top-nav {
   background-color: #337ab7;
 
@@ -109,7 +124,6 @@
 
     h1 {
       color: white;
-      font-weight: 600;
     }
   }
 }
@@ -152,4 +166,49 @@
       }
     }
   }
+}
+
+.header-title {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.box-header {
+  border: 1px solid #333;
+  margin-top: 20px;
+  position: relative;
+
+  button {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.box-body {
+  border: 1px solid #333;
+  margin-top: -1px;
+  padding-bottom: 20px;
+}
+
+.bg-gray {
+  background-color: #efefef;
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 120px;
+  font-weight: 600;
+  padding: 5px 0;
+
+  &:after {
+    content: ":";
+  }
+}
+
+dd {
+  margin-left: 130px;
+  padding: 5px 0;
 }
