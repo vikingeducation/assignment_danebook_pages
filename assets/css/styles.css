@@ -7,7 +7,7 @@ h1, h2, h3 {
   margin: 10px 0 10px; }
 
 h3 {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 15px; }
 
 .right {
@@ -130,25 +130,27 @@ h3 {
 .box-header {
   margin-top: 20px;
   position: relative; }
+  .box-header small {
+    margin-left: 5px; }
 
 .box-body {
   margin-top: -1px;
+  padding-top: 15px;
   padding-bottom: 15px; }
 
 .bg-gray {
   background-color: #efefef; }
 
-dt {
+.about-list dt {
   float: left;
   clear: left;
-  width: 120px;
+  width: 100px;
   font-weight: 600;
   padding: 5px 0; }
-  dt:after {
+  .about-list dt:after {
     content: ":"; }
-
-dd {
-  margin-left: 130px;
+.about-list dd {
+  margin-left: 100px;
   padding: 5px 0; }
 
 .edit-form .row {
@@ -185,5 +187,15 @@ dd {
     transform: translateY(-50%); }
     .friend-box .friend-details a, .friend-box .friend-details small {
       display: block; }
+
+.timeline-list dt {
+  float: left;
+  clear: left;
+  padding: 3px 0; }
+  .timeline-list dt:after {
+    content: ":"; }
+.timeline-list dd {
+  margin-left: 120px;
+  padding: 3px 0; }
 
 /*# sourceMappingURL=styles.css.map */

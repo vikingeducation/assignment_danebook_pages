@@ -9,7 +9,7 @@ h1, h2, h3 {
 }
 
 h3 {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -201,10 +201,15 @@ h3 {
 .box-header {
   margin-top: 20px;
   position: relative;
+
+  small {
+    margin-left: 5px;
+  }
 }
 
 .box-body {
   margin-top: -1px;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
@@ -212,21 +217,23 @@ h3 {
   background-color: #efefef;
 }
 
-dt {
-  float: left;
-  clear: left;
-  width: 120px;
-  font-weight: 600;
-  padding: 5px 0;
+.about-list {
+  dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    font-weight: 600;
+    padding: 5px 0;
 
-  &:after {
-    content: ":";
+    &:after {
+      content: ":";
+    }
   }
-}
 
-dd {
-  margin-left: 130px;
-  padding: 5px 0;
+  dd {
+    margin-left: 100px;
+    padding: 5px 0;
+  }
 }
 
 .edit-form {
@@ -282,5 +289,22 @@ dd {
     a, small {
       display: block;
     }
+  }
+}
+
+.timeline-list {
+  dt {
+    float: left;
+    clear: left;
+    padding: 3px 0;
+
+    &:after {
+      content: ":";
+    }
+  }
+
+  dd {
+    margin-left: 120px;
+    padding: 3px 0;
   }
 }
