@@ -10,6 +10,12 @@ h3 {
   font-weight: 600;
   margin-top: 30px; }
 
+.right {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%); }
+
 #top-nav {
   background-color: #337ab7; }
   #top-nav a {
@@ -70,7 +76,8 @@ h3 {
     bottom: -25px;
     border: 1px solid #333;
     background-color: white;
-    overflow: hidden; }
+    overflow: hidden;
+    z-index: 1; }
     #cover .profile-img img {
       height: 100%;
       width: 120px; }
@@ -81,20 +88,22 @@ h3 {
     #cover .cover-name h1 {
       color: white; }
 
-#main-nav ul {
-  padding-left: 160px;
-  height: 100%;
-  border: 1px solid #333; }
-  #main-nav ul li {
-    display: inline-block; }
-    #main-nav ul li a {
-      font-size: 16px;
-      padding: 10px 20px;
-      border-left: 1px solid #333; }
-    #main-nav ul li .active {
-      color: #333; }
-    #main-nav ul li:last-child {
-      border-right: 1px solid #333; }
+#main-nav {
+  position: relative; }
+  #main-nav ul {
+    padding-left: 160px;
+    height: 100%;
+    border: 1px solid #333; }
+    #main-nav ul li {
+      display: inline-block; }
+      #main-nav ul li a {
+        font-size: 16px;
+        padding: 10px 20px;
+        border-left: 1px solid #333; }
+      #main-nav ul li .active {
+        color: #333; }
+      #main-nav ul li:last-child {
+        border-right: 1px solid #333; }
 
 @media screen and (max-width: 768px) {
   #main-nav ul li {
@@ -110,11 +119,6 @@ h3 {
   border: 1px solid #333;
   margin-top: 20px;
   position: relative; }
-  .box-header button {
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%); }
 
 .box-body {
   border: 1px solid #333;
