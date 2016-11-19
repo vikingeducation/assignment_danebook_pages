@@ -1,4 +1,5 @@
 body {
+  font-family: "Open Sans", Arial, sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -316,9 +317,9 @@ h3 {
   }
 }
 
-/* Friend Page */
+/* Friends and Photos Page */
 
-.friend-box {
+.item-box {
   border-color: #aaa;
   margin-top: 15px;
   position: relative;
@@ -345,6 +346,35 @@ h3 {
     a, small {
       display: block;
     }
+  }
+}
+
+.photo {
+  text-align: center;
+  height: 180px;
+  overflow: hidden;
+
+  .box-photo-details {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    height: 40px;
+    background-color: rgba(51, 122, 183, 0.75);
+    text-align: center;
+
+    .photo-details {
+      color: white;
+      font-size: 13px;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  &:hover .box-photo-details {
+    display: block;
   }
 }
 
