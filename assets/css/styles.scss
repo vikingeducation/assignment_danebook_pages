@@ -20,6 +20,13 @@ h3 {
   transform: translateY(-50%);
 }
 
+
+
+/*
+  Top Navigation Bar
+  =====================================
+*/
+
 #top-nav {
   background-color: #337ab7;
 
@@ -49,12 +56,6 @@ h3 {
     margin-left: 10px;
     vertical-align: top;
   }
-
-@media screen and (min-width: 992px) {
-  #nav-search {
-    width: 400px;
-  }
-}
 
   .navbar-toggle {
     &:hover {
@@ -89,7 +90,20 @@ h3 {
       }
     }
   }
+
+  @media screen and (min-width: 992px) {
+    #nav-search {
+      width: 400px;
+    }
+  }
 }
+
+
+
+/*
+  Cover
+  =====================================
+*/
 
 #cover {
   position: relative;
@@ -135,6 +149,13 @@ h3 {
     }
   }
 }
+
+
+
+/*
+  Main Navigation
+  =====================================
+*/
 
 #main-nav {
   position: relative;
@@ -189,6 +210,13 @@ h3 {
   }
 }
 
+
+
+/*
+  Page Content
+  =====================================
+*/
+
 .header-title {
   text-align: center;
   vertical-align: middle;
@@ -216,6 +244,9 @@ h3 {
 .bg-gray {
   background-color: #efefef;
 }
+
+
+/* About Page */
 
 .about-list {
   dt {
@@ -262,6 +293,8 @@ h3 {
   }
 }
 
+/* Friend Page */
+
 .friend-box {
   border-color: #aaa;
   margin-top: 15px;
@@ -292,6 +325,8 @@ h3 {
   }
 }
 
+/* Timeline Page */
+
 .timeline-list {
   dt {
     float: left;
@@ -312,5 +347,15 @@ h3 {
 .box-img {
   img {
     width: 100%;
+  }
+}
+
+.col-padding {
+  padding-right: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .col-padding {
+    padding-right: 15px;
   }
 }

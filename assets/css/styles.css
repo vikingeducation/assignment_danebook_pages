@@ -16,6 +16,10 @@ h3 {
   top: 50%;
   transform: translateY(-50%); }
 
+/*
+  Top Navigation Bar
+  =====================================
+*/
 #top-nav {
   background-color: #337ab7; }
   #top-nav a {
@@ -36,9 +40,6 @@ h3 {
     font-size: 20px;
     margin-left: 10px;
     vertical-align: top; }
-  @media screen and (min-width: 992px) {
-    #top-nav #nav-search {
-      width: 400px; } }
   #top-nav .navbar-toggle:hover {
     background-color: #337ab7; }
   #top-nav .navbar-toggle:focus {
@@ -55,7 +56,14 @@ h3 {
     background-color: #26679e; }
   #top-nav li a:active {
     background-color: #26679e; }
+  @media screen and (min-width: 992px) {
+    #top-nav #nav-search {
+      width: 400px; } }
 
+/*
+  Cover
+  =====================================
+*/
 #cover {
   position: relative; }
   #cover .cover-img {
@@ -88,6 +96,10 @@ h3 {
     #cover .cover-name h1 {
       color: white; }
 
+/*
+  Main Navigation
+  =====================================
+*/
 #main-nav {
   position: relative; }
   #main-nav ul {
@@ -120,6 +132,10 @@ h3 {
   #edit-profile-link {
     top: 50px;
     left: 18px; } }
+/*
+  Page Content
+  =====================================
+*/
 .header-title {
   text-align: center;
   vertical-align: middle; }
@@ -141,6 +157,7 @@ h3 {
 .bg-gray {
   background-color: #efefef; }
 
+/* About Page */
 .about-list dt {
   float: left;
   clear: left;
@@ -167,6 +184,7 @@ h3 {
   .edit-form .control-label {
     margin-bottom: 5px; } }
 
+/* Friend Page */
 .friend-box {
   border-color: #aaa;
   margin-top: 15px;
@@ -188,6 +206,7 @@ h3 {
     .friend-box .friend-details a, .friend-box .friend-details small {
       display: block; }
 
+/* Timeline Page */
 .timeline-list dt {
   float: left;
   clear: left;
@@ -200,5 +219,12 @@ h3 {
 
 .box-img img {
   width: 100%; }
+
+.col-padding {
+  padding-right: 35px; }
+
+@media screen and (max-width: 768px) {
+  .col-padding {
+    padding-right: 15px; } }
 
 /*# sourceMappingURL=styles.css.map */
