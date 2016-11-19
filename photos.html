@@ -1,1 +1,274 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Photos</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="top-nav" class="navbar navbar-fixed-top">
+    <div class="container">
+
+      <!-- Burger Button -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <div class="nav-brand-img">
+            <img src="assets/img/danish_flag.gif">
+          </div>
+          <span class="nav-brand-word">Danebook</span>
+        </a>
+      </div><!-- end navbar-header -->
+
+      <!-- Collapsible Nav -->
+      <div id="nav-collapse" class="collapse navbar-collapse">
+        <!-- Search Bar -->
+        <form class="navbar-form navbar-left" role="search">
+          <div class="input-group">
+            <input id="nav-search" class="form-control" type="search" name="nav-search" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form><!-- end search bar -->
+        <!-- User & Sign Out Links -->
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="about.html">
+              <span class="glyphicon glyphicon-user nav-icon"></span>
+              Potter
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/blackwright/project_danebook_pages">
+              <span class="glyphicon glyphicon-log-out nav-icon"></span>
+              Sign Out
+            </a>
+          </li>
+        </ul>
+      </div><!-- end collapsible nav -->
+
+    </div><!-- end container -->
+  </nav><!-- end navbar -->
+
+
+
+  <div class="container">
+
+    <!-- Cover -->
+    <div class="row">
+      <section id="cover">
+        <!-- Cover Image -->
+        <div class="cover-img">
+          <a href="#">
+            <img src="assets/img/cover.jpg" alt="Cover Image">
+          </a>
+        </div>
+        <!-- Profile Image -->
+        <div class="profile-img">
+          <a href="#">
+            <img src="assets/img/potter.jpg" alt="Profile Image">
+          </a>
+        </div>
+        <!-- Cover Name -->
+        <div class="cover-name">
+          <h1>The Boy Who Lived</h1>
+        </div>
+      </section><!-- end cover -->
+    </div>
+
+    <!-- Main Navigation -->
+    <div class="row">
+      <nav id="main-nav">
+        <ul class="nav">
+          <li>
+            <a href="timeline.html">Timeline</a>
+          </li><!--
+          --><li>
+            <a href="about.html">About</a>
+          </li><!--
+          --><li class="active">
+            <a href="photos.html">Photos<small>(123)</small></a>
+          </li><!--
+          --><li>
+            <a href="friends.html">Friends<small>(321)</small></a>
+          </li>
+        </ul>
+        <a id="edit-profile-link" href="about_edit.html" class="right">
+          Edit Profile
+        </a>
+      </nav>
+    </div><!-- end row -->
+
+
+
+    <!-- Photos -->
+    <main>
+      <section class="row">
+        <div class="box box-header header-title col-xs-12">
+          <header>
+            <h2>Photos</h2>
+          </header>
+          <a href="#" class="btn btn-small btn-primary right">Add Photo</a>
+        </div>
+      </section>
+      <section class="row">
+        <div class="box box-body padding-bottom col-xs-12">
+          <div class="row">
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <!-- Photo -->
+            <a href="#">
+              <div class="col-xs-4 col-sm-3">
+                <div class="box item-box photo">
+                  <img src="assets/img/photo.png">
+                  <div class="box-photo-details">
+                    <div class="photo-details">Uploaded on <time datetime="2016-11-19">November 19, 2016</time></div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div><!-- end row -->
+        </div><!-- end box -->
+      </section>
+    </main>
+
+  </div><!-- end container -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
