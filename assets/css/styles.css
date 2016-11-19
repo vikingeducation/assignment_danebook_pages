@@ -220,11 +220,17 @@ h3 {
 .box-img img {
   width: 100%; }
 
-.col-padding {
-  padding-right: 35px; }
+.box-link {
+  margin-top: 10px; }
 
-@media screen and (max-width: 768px) {
+.friend-caption {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 16px; }
+
+@media screen and (min-width: 768px) {
   .col-padding {
-    padding-right: 15px; } }
+    padding-right: 35px; } }
 
 /*# sourceMappingURL=styles.css.map */
