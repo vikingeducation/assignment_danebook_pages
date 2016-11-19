@@ -104,28 +104,27 @@ h3 {
 */
 #main-nav {
   position: relative; }
-  #main-nav .nav {
+  #main-nav .nav a:hover {
+    background-color: #ccc; }
+  #main-nav .nav .active {
+    background-color: #949494; }
+    #main-nav .nav .active a {
+      color: white; }
+  #main-nav ul {
     padding-left: 160px;
     height: 100%;
     border: 1px solid #333; }
-    #main-nav .nav .active {
-      background-color: #949494; }
-      #main-nav .nav .active a {
-        color: white; }
-    #main-nav .nav li {
+    #main-nav ul li {
       display: inline-block;
       border-left: 1px solid #333; }
-      #main-nav .nav li a {
+      #main-nav ul li a {
         display: inline-block;
-        color: #333;
         font-size: 16px;
         padding: 10px 20px; }
-        #main-nav .nav li a:hover {
-          background-color: #ccc; }
-      #main-nav .nav li small {
+      #main-nav ul li small {
         color: #333;
         margin-left: 5px; }
-      #main-nav .nav li:last-child {
+      #main-nav ul li:last-child {
         border-right: 1px solid #333; }
   @media screen and (max-width: 768px) {
     #main-nav ul li {

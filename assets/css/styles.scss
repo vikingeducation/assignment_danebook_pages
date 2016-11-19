@@ -163,9 +163,11 @@ h3 {
   position: relative;
 
   .nav {
-    padding-left: 160px;
-    height: 100%;
-    border: 1px solid #333;
+    a {
+      &:hover {
+        background-color: #ccc;
+      }
+    }
 
     .active {
       background-color: #949494;
@@ -174,6 +176,12 @@ h3 {
         color: white;
       }
     }
+  }
+
+  ul {
+    padding-left: 160px;
+    height: 100%;
+    border: 1px solid #333;
 
     li {
       display: inline-block;
@@ -181,13 +189,8 @@ h3 {
 
       a {
         display: inline-block;
-        color: #333;
         font-size: 16px;
         padding: 10px 20px;
-
-        &:hover {
-          background-color: #ccc;
-        }
       }
 
       small {
