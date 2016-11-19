@@ -258,12 +258,30 @@ h3 {
   left: 100px;
   top: 50%;
   transform: translateY(-50%); }
-  #timeline .author-details time {
-    color: #777;
-    font-size: 13px;
-    display: block; }
+#timeline .post-date {
+  color: #777;
+  font-size: 13px;
+  display: block; }
+#timeline .inline {
+  display: inline;
+  margin-left: 3px; }
 #timeline .post-feedback {
+  font-size: 13px;
   color: #666; }
+#timeline .divider {
+  margin-top: 15px;
+  height: 1px;
+  border-top: 1px solid #ccc; }
+#timeline .comment {
+  padding-top: 15px; }
+#timeline .comment-body {
+  width: calc(100% - 85px);
+  margin-left: 15px; }
+  #timeline .comment-body p {
+    font-size: 14px;
+    margin-top: 10px; }
+#timeline #write-comment textarea {
+  margin: 15px 0 10px; }
 @media screen and (min-width: 768px) {
   #timeline .col-padding {
     padding-right: 35px; } }

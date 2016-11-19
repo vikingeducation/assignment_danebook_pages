@@ -407,16 +407,46 @@ h3 {
     left: 100px;
     top: 50%;
     transform: translateY(-50%);
+  }
 
-    time {
+  .post-date {
       color: #777;
       font-size: 13px;
       display: block;
     }
+
+  .inline {
+    display: inline;
+    margin-left: 3px;
   }
 
   .post-feedback {
+    font-size: 13px;
     color: #666;
+  }
+
+  .divider {
+    margin-top: 15px;
+    height: 1px;
+    border-top: 1px solid #ccc;
+  }
+
+  .comment {
+    padding-top: 15px;
+  }
+
+  .comment-body {
+    width: calc(100% - 85px);
+    margin-left: 15px;
+
+    p {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  }
+
+  #write-comment textarea {
+    margin: 15px 0 10px;
   }
 
   @media screen and (min-width: 768px) {

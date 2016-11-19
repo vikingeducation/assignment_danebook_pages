@@ -293,12 +293,14 @@
             <div class="box box-header bg-gray header-title">
               <h4>Post</h4>
             </div>
-            <div class="box box-body padding-top padding-bottom col-xs-12">
-              <textarea rows="4" placeholder="Tell the world something..."></textarea>
-            </div>
-            <div class="box box-footer col-xs-12">
-              <button type="submit" class="btn btn-md btn-primary pull-right">Post</a>
-            </div>
+            <form id="write-post">
+              <div class="box box-body padding-top padding-bottom col-xs-12">
+                <textarea rows="4" placeholder="Tell the world something..."></textarea>
+              </div>
+              <div class="box box-footer col-xs-12">
+                <button type="submit" class="btn btn-md btn-primary pull-right">Post</button>
+              </div>
+            </form>
           </section>
 
           <!-- Post -->
@@ -330,13 +332,138 @@
                 <a href="#">Like</a>
                 <a href="#" class="padding-left">Comment</a>
                 <a href="#" class="pull-right">Delete</a>
-              </div>
+              </div><!-- end links -->
+            </div><!-- end footer box -->
+          </section>
+
+          <!-- Post -->
+          <section class="row">
+            <div class="box box-post padding-top padding-bottom col-xs-12">
+              <!-- Author -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="author-img">
+                    <img src="assets/img/potter.jpg">
+                  </div>
+                  <div class="author-details">
+                    <a href="#">Harry Potter</a>
+                    <time class="post-date" datetime="2016-11-18">Posted on November 18, 2016</time>
+                  </div>
+                </div>
+              </div><!-- end author -->
+              <!-- Content -->
+              <div class="row padding-top">
+                <div class="col-xs-12">
+                  <p>Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall. Ministry-of-Magic mimubulus mimbletonia Pigwidgeon knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders You-Know-Who cursed. Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks.</p>
+                </div>
+              </div><!-- end content -->
+            </div><!-- end box -->
+            <!-- Footer -->
+            <div class="box box-footer padding-top padding-bottom col-xs-12">
+              <!-- Like/Comment/Delete Links -->
+              <div class="post-links">
+                <a href="#">Like</a>
+                <a href="#" class="padding-left">Comment</a>
+                <a href="#" class="pull-right">Delete</a>
+              </div><!-- end links -->
               <!-- Feedback -->
               <div class="padding-top post-feedback">
                 <a href="#">Hermione Granger</a>
                 <span>likes this.</span>
-              </div>
-            </div>
+              </div><!-- end feedback -->
+            </div><!-- end footer box -->
+          </section>
+
+          <!-- Post -->
+          <section class="row">
+            <div class="box box-post padding-top padding-bottom col-xs-12">
+              <!-- Author -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="author-img">
+                    <img src="assets/img/potter.jpg">
+                  </div>
+                  <div class="author-details">
+                    <a href="#">Harry Potter</a>
+                    <time class="post-date" datetime="2016-11-18">Posted on November 18, 2016</time>
+                  </div>
+                </div>
+              </div><!-- end author -->
+              <!-- Content -->
+              <div class="row padding-top">
+                <div class="col-xs-12">
+                  <p>Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall. Ministry-of-Magic mimubulus mimbletonia Pigwidgeon knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders You-Know-Who cursed. Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks.</p>
+                </div>
+              </div><!-- end content -->
+            </div><!-- end box -->
+            <!-- Footer -->
+            <div class="box box-footer padding-top padding-bottom col-xs-12">
+              <!-- Like/Comment/Delete Links -->
+              <div class="post-links">
+                <a href="#">Unlike</a>
+                <a href="#" class="pull-right">Delete</a>
+              </div><!-- end links -->
+              <!-- Feedback -->
+              <div class="post-feedback padding-top">
+                <span>You, </span>
+                <a href="#">Hermione Granger</a>
+                <span> and 3 others</span>
+                <span>like this.</span>
+              </div><!-- end feedback -->
+              <div class="divider"></div>
+              <!-- Comments -->
+              <div class="post-comments">
+                <div class="row comment">
+                  <div class="col-xs-12">
+                    <!-- Comment Author Image -->
+                    <div class="author-img pull-left">
+                      <img src="assets/img/user.gif">
+                    </div>
+                    <!-- Comment Body -->
+                    <div class="comment-body pull-left">
+                      <!-- Comment Author Details -->
+                      <a href="#">Ron Weasley</a>
+                      <time class="post-date inline" datetime="2016-11-18">commented on November 18, 2016</time>
+                      <!-- Comment Text -->
+                      <p>Red hair crookshanks bludger Marauder’s Map Prongs sunshine daisies butter mellow Ludo Bagman. Beaters gobbledegook. How curious Devil’s snare love potion Ravenclaw, and yet Professor Sinistra time-turner steak and kidney pie.</p>
+                      <p>Half-giant jinxes peg-leg gillywater broken glasses large black dog Great Hall. Nearly-Headless Nick now string them together, and answer me this, which creature would you be unwilling to kiss?</p>
+                      <!-- Comment Links -->
+                      <div class="post-feedback">
+                        <a href="#">Like</a>
+                        <span class="inline">3 people like this</span>
+                      </div>
+                    </div><!-- end comment body -->
+                  </div>
+                </div><!-- end comment -->
+                <div class="row comment">
+                  <div class="col-xs-12">
+                    <!-- Comment Author Image -->
+                    <div class="author-img pull-left">
+                      <img src="assets/img/potter.jpg">
+                    </div>
+                    <!-- Comment Body -->
+                    <div class="comment-body pull-left">
+                      <!-- Comment Author Details -->
+                      <a href="#">Harry Potter</a>
+                      <time class="post-date inline" datetime="2016-11-18">commented on November 18, 2016</time>
+                      <!-- Comment Text -->
+                      <p>Red hair crookshanks bludger Marauder’s Map Prongs sunshine daisies butter mellow Ludo Bagman. Beaters gobbledegook. How curious Devil’s snare love potion Ravenclaw, and yet Professor Sinistra time-turner steak and kidney pie.</p>
+                      <!-- Comment Links -->
+                      <div class="post-feedback">
+                        <a href="#">Like</a>
+                        <span class="inline">3 people like this</span>
+                        <a href="#" class="pull-right">Delete</a>
+                      </div>
+                    </div><!-- end comment body -->
+                  </div>
+                </div><!-- end comment -->
+              </div><!-- end comments -->
+              <form id="write-comment">
+                <textarea rows="3" placeholder="Write a comment"></textarea>
+                <a href="#">Cancel</a>
+                <button type="submit" class="btn btn-md btn-primary pull-right">Comment</button>
+              </form>
+            </div><!-- end footer box -->
           </section>
 
         </div><!-- end right col -->
