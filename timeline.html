@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About</title>
+  <meta charset="utf-8">
+  <title>Timeline</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -61,6 +62,8 @@
     </div><!-- end container -->
   </nav><!-- end navbar -->
 
+
+
   <div class="container">
 
     <!-- Cover -->
@@ -108,8 +111,12 @@
       </nav>
     </div><!-- end row -->
 
+
+
     <main id="timeline">
       <div class="row"><!-- main row -->
+
+
 
         <!-- Left Column -->
         <div class="col-sm-5 col-md-4 col-padding">
@@ -119,7 +126,7 @@
             <div class="box box-header bg-gray header-title">
               <h4>About</h4>
             </div>
-            <div class="box box-body col-xs-12">
+            <div class="box box-body padding-top padding-bottom col-xs-12">
               <dl class="timeline-list">
                 <dt>Born on</dt>
                 <dd>July 31st, 1980</dd>
@@ -138,7 +145,7 @@
             <div class="box box-header bg-gray header-title">
               <h4>Photos<small>(123)</small></h4>
             </div>
-            <div class="box box-body col-xs-12">
+            <div class="box box-body padding-top padding-bottom col-xs-12">
               <div class="row">
                 <div class="col-xs-4 box-img">
                   <a href="#">
@@ -186,7 +193,7 @@
                   </a>
                 </div>
               </div><!-- end row -->
-              <p class="text-center box-link"><a href="#">See More Photos</a></p>
+              <p class="text-center box-link"><a href="photos.html">See More Photos</a></p>
             </div><!-- end box -->
           </section>
 
@@ -195,7 +202,7 @@
             <div class="box box-header bg-gray header-title">
               <h4>Friends<small>(321)</small></h4>
             </div>
-            <div class="box box-body col-xs-12">
+            <div class="box box-body padding-top padding-bottom col-xs-12">
               <div class="row">
                 <div class="col-xs-4 box-img">
                   <a href="#">
@@ -270,22 +277,71 @@
                   </div>
                 </div>
               </div><!-- end row -->
-              <p class="text-center box-link"><a href="#">See More Friends</a></p>
+              <p class="text-center box-link"><a href="friends.html">See More Friends</a></p>
             </div><!-- end box -->
           </section>
 
         </div><!-- end left col -->
 
+
+
         <!-- Right Column -->
         <div class="col-sm-7 col-md-8">
+
+          <!-- Create Post -->
           <section class="row">
             <div class="box box-header bg-gray header-title">
               <h4>Post</h4>
             </div>
-            <div class="box-body col-xs-12">
+            <div class="box box-body padding-top padding-bottom col-xs-12">
+              <textarea rows="4" placeholder="Tell the world something..."></textarea>
+            </div>
+            <div class="box box-footer col-xs-12">
+              <button type="submit" class="btn btn-md btn-primary pull-right">Post</a>
             </div>
           </section>
+
+          <!-- Post -->
+          <section class="row">
+            <div class="box box-post padding-top padding-bottom col-xs-12">
+              <!-- Author -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="author-img">
+                    <img src="assets/img/potter.jpg">
+                  </div>
+                  <div class="author-details">
+                    <a href="#">Harry Potter</a>
+                    <time class="post-date" datetime="2016-11-18">Posted on November 18, 2016</time>
+                  </div>
+                </div>
+              </div><!-- end author -->
+              <!-- Content -->
+              <div class="row padding-top">
+                <div class="col-xs-12">
+                  <p>Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9¾ dress robes I must not tell lies. Mudbloods yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall. Ministry-of-Magic mimubulus mimbletonia Pigwidgeon knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders You-Know-Who cursed. Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks.</p>
+                </div>
+              </div><!-- end content -->
+            </div><!-- end box -->
+            <!-- Footer -->
+            <div class="box box-footer padding-top padding-bottom col-xs-12">
+              <!-- Like/Comment/Delete Links -->
+              <div class="post-links">
+                <a href="#">Like</a>
+                <a href="#" class="padding-left">Comment</a>
+                <a href="#" class="pull-right">Delete</a>
+              </div>
+              <!-- Feedback -->
+              <div class="padding-top post-feedback">
+                <a href="#">Hermione Granger</a>
+                <span>likes this.</span>
+              </div>
+            </div>
+          </section>
+
         </div><!-- end right col -->
+
+
 
       </div><!-- end main row -->
     </main>

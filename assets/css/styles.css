@@ -120,42 +120,60 @@ h3 {
         color: #333; }
       #main-nav ul li:last-child {
         border-right: 1px solid #333; }
+  @media screen and (max-width: 768px) {
+    #main-nav ul li {
+      display: block;
+      border-bottom: 1px solid #333; }
+      #main-nav ul li:last-child {
+        border-right: 0;
+        border-bottom: 0; }
+    #main-nav #edit-profile-link {
+      top: 50px;
+      left: 18px; } }
 
-@media screen and (max-width: 768px) {
-  #main-nav ul li {
-    display: block;
-    border-bottom: 1px solid #333; }
-    #main-nav ul li:last-child {
-      border-right: 0;
-      border-bottom: 0; }
-
-  #edit-profile-link {
-    top: 50px;
-    left: 18px; } }
 /*
   Page Content
   =====================================
 */
 .header-title {
   text-align: center;
-  vertical-align: middle; }
+  vertical-align: middle;
+  color: white; }
 
 .box {
   border: 1px solid #333; }
 
 .box-header {
   margin-top: 20px;
-  position: relative; }
+  position: relative;
+  background-color: #949494; }
   .box-header small {
-    margin-left: 5px; }
+    margin-left: 5px;
+    color: white; }
 
-.box-body {
-  margin-top: -1px;
-  padding-top: 15px;
+.padding-left {
+  padding-left: 10px; }
+
+.padding-top {
+  padding-top: 15px; }
+
+.padding-bottom {
   padding-bottom: 15px; }
 
-.bg-gray {
-  background-color: #efefef; }
+.box-body {
+  margin-top: -1px; }
+
+.box-post {
+  margin-top: 20px;
+  position: relative; }
+
+.box-footer {
+  margin-top: -1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eaeaea; }
+  .box-footer footer-link {
+    float: right; }
 
 /* About Page */
 .about-list dt {
@@ -207,30 +225,47 @@ h3 {
       display: block; }
 
 /* Timeline Page */
-.timeline-list dt {
+#timeline .timeline-list dt {
   float: left;
   clear: left;
   padding: 3px 0; }
-  .timeline-list dt:after {
+  #timeline .timeline-list dt:after {
     content: ":"; }
-.timeline-list dd {
+#timeline .timeline-list dd {
   margin-left: 120px;
   padding: 3px 0; }
-
-.box-img img {
+#timeline .box-img img {
   width: 100%; }
-
-.box-link {
+#timeline .box-link {
   margin-top: 10px; }
-
-.friend-caption {
+#timeline .friend-caption {
   text-align: center;
   margin: 5px 0;
   font-size: 14px;
   line-height: 16px; }
-
+#timeline textarea {
+  width: 100%;
+  resize: none; }
+#timeline .author-img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border: 1px solid #333; }
+  #timeline .author-img img {
+    width: 100%; }
+#timeline .author-details {
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%); }
+  #timeline .author-details time {
+    color: #777;
+    font-size: 13px;
+    display: block; }
+#timeline .post-feedback {
+  color: #666; }
 @media screen and (min-width: 768px) {
-  .col-padding {
+  #timeline .col-padding {
     padding-right: 35px; } }
 
 /*# sourceMappingURL=styles.css.map */

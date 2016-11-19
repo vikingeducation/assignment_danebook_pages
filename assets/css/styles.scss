@@ -189,10 +189,8 @@ h3 {
       }
     }
   }
-}
 
-@media screen and (max-width: 768px) {
-  #main-nav {
+  @media screen and (max-width: 768px) {
     ul li {
       display: block;
       border-bottom: 1px solid #333;
@@ -202,14 +200,13 @@ h3 {
         border-bottom: 0;
       }
     }
-  }
 
-  #edit-profile-link {
-    top: 50px;
-    left: 18px;
+    #edit-profile-link {
+      top: 50px;
+      left: 18px;
+    }
   }
 }
-
 
 
 /*
@@ -220,6 +217,7 @@ h3 {
 .header-title {
   text-align: center;
   vertical-align: middle;
+  color: white;
 }
 
 .box {
@@ -229,21 +227,46 @@ h3 {
 .box-header {
   margin-top: 20px;
   position: relative;
+  background-color: #949494;
 
   small {
     margin-left: 5px;
+    color: white;
   }
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+.padding-top {
+  padding-top: 15px;
+}
+
+.padding-bottom {
+  padding-bottom: 15px;
 }
 
 .box-body {
   margin-top: -1px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
-.bg-gray {
-  background-color: #efefef;
+.box-post {
+  margin-top: 20px;
+  position: relative;
 }
+
+.box-footer {
+  margin-top: -1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eaeaea;
+
+  footer-link {
+    float: right;
+  }
+}
+  
 
 
 /* About Page */
@@ -327,42 +350,78 @@ h3 {
 
 /* Timeline Page */
 
-.timeline-list {
-  dt {
-    float: left;
-    clear: left;
-    padding: 3px 0;
+#timeline {
+  .timeline-list {
+    dt {
+      float: left;
+      clear: left;
+      padding: 3px 0;
 
-    &:after {
-      content: ":";
+      &:after {
+        content: ":";
+      }
+    }
+
+    dd {
+      margin-left: 120px;
+      padding: 3px 0;
     }
   }
 
-  dd {
-    margin-left: 120px;
-    padding: 3px 0;
+  .box-img {
+    img {
+      width: 100%;
+    }
   }
-}
 
-.box-img {
-  img {
+  .box-link {
+    margin-top: 10px;
+  }
+
+  .friend-caption {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  textarea {
     width: 100%;
+    resize: none;
+
   }
-}
 
-.box-link {
-  margin-top: 10px;
-}
+  .author-img {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border: 1px solid #333;
 
-.friend-caption {
-  text-align: center;
-  margin: 5px 0;
-  font-size: 14px;
-  line-height: 16px;
-}
+    img {
+      width: 100%;
+    }
+  }
 
-@media screen and (min-width: 768px) {
-  .col-padding {
-    padding-right: 35px;
+  .author-details {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    time {
+      color: #777;
+      font-size: 13px;
+      display: block;
+    }
+  }
+
+  .post-feedback {
+    color: #666;
+  }
+
+  @media screen and (min-width: 768px) {
+    .col-padding {
+      padding-right: 35px;
+    }
   }
 }
