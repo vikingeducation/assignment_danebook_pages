@@ -163,7 +163,7 @@ h3 {
   position: relative;
 
   .nav {
-    a {
+    a, li {
       &:hover {
         background-color: #ccc;
       }

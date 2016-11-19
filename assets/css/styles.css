@@ -104,7 +104,7 @@ h3 {
 */
 #main-nav {
   position: relative; }
-  #main-nav .nav a:hover {
+  #main-nav .nav a:hover, #main-nav .nav li:hover {
     background-color: #ccc; }
   #main-nav .nav .active {
     background-color: #949494; }
