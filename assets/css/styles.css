@@ -104,23 +104,28 @@ h3 {
 */
 #main-nav {
   position: relative; }
-  #main-nav ul {
+  #main-nav .nav {
     padding-left: 160px;
     height: 100%;
     border: 1px solid #333; }
-    #main-nav ul li {
+    #main-nav .nav .active {
+      background-color: #949494; }
+      #main-nav .nav .active a {
+        color: white; }
+    #main-nav .nav li {
       display: inline-block;
       border-left: 1px solid #333; }
-      #main-nav ul li a {
+      #main-nav .nav li a {
         display: inline-block;
+        color: #333;
         font-size: 16px;
         padding: 10px 20px; }
-      #main-nav ul li small {
-        color: #aaa;
+        #main-nav .nav li a:hover {
+          background-color: #ccc; }
+      #main-nav .nav li small {
+        color: #333;
         margin-left: 5px; }
-      #main-nav ul li .active {
-        color: #333; }
-      #main-nav ul li:last-child {
+      #main-nav .nav li:last-child {
         border-right: 1px solid #333; }
   @media screen and (max-width: 768px) {
     #main-nav ul li {
