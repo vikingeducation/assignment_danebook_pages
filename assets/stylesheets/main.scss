@@ -55,7 +55,6 @@ header{
 
       .btn{
         width:100%;
-        height:100%;
         border-radius:0;
         border:none;
       }
@@ -82,11 +81,102 @@ header{
   } 
 }
 
+/*Main Title*/
+
+main{
+  margin-top: 25px;
+
+  .main-title{
+    margin:0;
+    border:1px solid black;
+    background-color:#EEEEEE;
+
+    div{
+      margin:0;
+      padding:0;
+      text-align: center;
+
+      h1{
+        font-weight: bold;
+        margin:20.5px 0;
+      }
+
+      .btn{
+        width:75%;
+        border-radius:5px;
+        border:none;
+        margin:20px 0;
+        padding:10px;
+      }
+    }
+  }
+}
+
+/*Main Content*/
+
+.main-content{
+    margin:0;
+    border:1px solid black;
+    border-top:none;
+
+    .personal-info{
+      padding:0;
+      margin:0;
+
+      .detail-category{
+          font-weight: bold;
+        }
+
+      div{        
+        padding:0;
+        margin:0;
+
+        p{          
+        padding:0 0 10px 0;
+        margin:0;
+        }
+      }
+    }
+
+    .contact-info{
+      padding:0;
+      margin:0;
+
+      .detail-category{
+          font-weight: bold;
+        }
+
+      div{        
+        padding:0;
+        margin:0;
+
+        p{          
+        padding:0 0 10px 0;
+        margin:0;
+        }
+      }
+    }
 
 
+    div{
+      padding-left:50px;
 
+      h3{
+        font-weight: bold;
+        margin:40px 0 20px 0;
+      }
 
+      p{
+        margin: 0 35px 35px 0;
+      }
+    }
+}
 
+/*Footer*/
 
-
-
+footer{
+  margin-top: 90px;
+  height:30px;
+  width:100%;
+  background-color:#C1C1C1;
+}
