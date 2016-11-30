@@ -52,4 +52,9 @@
 .about-section {
   border: solid 2px black; }
 
+.top-navigation {
+  background-color: #337AB7; }
+  .top-navigation .navbar-link, .top-navigation .navbar-brand {
+    color: black; }
+
 /*# sourceMappingURL=styles.css.map */
