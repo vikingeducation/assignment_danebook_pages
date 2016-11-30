@@ -1,9 +1,42 @@
 
-.img-responsive{ 
-	width:100%; 
+#cover-picture{
+	position: relative; 
 }
 #profile-picture{
-	position: relative;
-	top: -140px; 
-	left: 15px; 
+	position: absolute;
+	z-index: 3; 
+  bottom: 96px;
+  left: 168px;
+}
+
+.site-navigation{
+	width: 85%; 
+	margin-left: 15%; 
+	li{
+		float: none; 
+		display: inline-block;
+ 
+		h5{	
+			width: 132px;
+   		height: 50px;
+	    padding-top: 1em;
+	    padding-bottom: .5em;
+	    border: solid 1.5px black;
+	    text-align: center;
+	    margin:0px 0px; 
+	    a{
+	    	color: black; 
+	    }
+		}
+	}
+}
+
+.tabs{
+	border: solid 2px black; 
+}
+
+.not-active {
+ pointer-events: none;
+ cursor: default;
+ background-color: #C7C7C7; 
 }
