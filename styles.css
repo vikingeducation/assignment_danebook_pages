@@ -1,4 +1,9 @@
-.circle-image {
-  border-radius: 50%; }
+.img-responsive {
+  width: 100%; }
+
+#profile-picture {
+  position: relative;
+  top: -140px;
+  left: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
