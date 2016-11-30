@@ -1,13 +1,29 @@
 
-#cover-picture{
-	position: relative; 
+
+.jumbotron{
+	padding-bottom: 0px; 
+	margin-bottom: 0px; 
+	#cover-picture{
+		position: relative; 
+	}
+	#profile-picture{
+		position: absolute;
+		z-index: 3; 
+	  top: 190px;
+	  left: 168px;
+	}
+	.profile-name{
+    display: inline;
+    position: absolute;
+    left: 313px;
+    z-index: 3;
+    top: 288px;
+    color: rgb(252, 252, 252);
+	}
 }
-#profile-picture{
-	position: absolute;
-	z-index: 3; 
-  bottom: 96px;
-  left: 168px;
-}
+
+
+
 
 .site-navigation{
 	width: 85%; 
@@ -40,3 +56,19 @@
  cursor: default;
  background-color: #C7C7C7; 
 }
+
+
+.main-heading{
+	border: solid 2px black; 
+	.edit-profile-button{
+		border-radius: 0px; 
+		margin-top: 1em;
+    margin-left: 2em;
+    box-shadow: 3px 3px 5px black;
+	}
+}
+
+.about-section{
+	border: solid 2px black; 
+}
+
