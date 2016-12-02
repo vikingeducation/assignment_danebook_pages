@@ -1,0 +1,313 @@
+body {
+  padding-top: 50px; }
+
+/*Navbar*/
+.navbar-default {
+  background-color: #2B78E4;
+  border-bottom: 1px solid black; }
+  .navbar-default .navbar-header .navbar-brand {
+    padding: 0 15px; }
+    .navbar-default .navbar-header .navbar-brand img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin: 7.5px 0; }
+  .navbar-default .navbar-header h1 {
+    display: inline-block;
+    color: white;
+    margin: 8.6365px 0;
+    font-size: 30px; }
+  .navbar-default h3 {
+    color: white;
+    margin: 11.818px 15px 11.818px 0; }
+
+/*Cover Pic and Navigation*/
+header img {
+  width: 100%;
+  height: 450px;
+  border: 1px solid black;
+  border-top: none; }
+header .main-links {
+  margin: 0;
+  border: 1px solid black;
+  border-top: none; }
+  header .main-links div {
+    margin: 0;
+    padding: 0; }
+    header .main-links div .btn {
+      width: 100%;
+      border-radius: 0;
+      border: none; }
+    header .main-links div #current-page {
+      background-color: #EEEEEE; }
+    header .main-links div a {
+      padding: 8px 0; }
+  header .main-links .profile-pic-container {
+    text-align: center; }
+    header .main-links .profile-pic-container .profile-pic {
+      margin-top: -220px;
+      width: 230px;
+      height: 230px;
+      border: 1px solid black; }
+
+/*Main Title*/
+main {
+  margin-top: 25px; }
+  main .main-title {
+    margin: 0;
+    border: 1px solid black;
+    background-color: #EEEEEE; }
+    main .main-title div {
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+      main .main-title div h1 {
+        font-weight: bold;
+        margin: 20.5px 0; }
+      main .main-title div .btn {
+        width: 75%;
+        border-radius: 5px;
+        border: none;
+        margin: 20px 0;
+        padding: 10px; }
+
+/*Main Content*/
+.main-content {
+  margin: 0;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none; }
+  .main-content .personal-info {
+    padding: 0;
+    margin: 0; }
+    .main-content .personal-info .detail-category {
+      font-weight: bold; }
+    .main-content .personal-info div {
+      padding: 0;
+      margin: 0; }
+      .main-content .personal-info div p {
+        padding: 0 0 10px 0;
+        margin: 0 0 5px 0; }
+      .main-content .personal-info div input {
+        margin-bottom: 5px;
+        height: 28px; }
+  .main-content .contact-info {
+    padding: 0;
+    margin: 0; }
+    .main-content .contact-info .detail-category {
+      font-weight: bold; }
+    .main-content .contact-info div {
+      padding: 0;
+      margin: 0; }
+      .main-content .contact-info div p {
+        padding: 0 0 10px 0;
+        margin: 0 0 5px 0; }
+      .main-content .contact-info div input {
+        margin-bottom: 5px;
+        height: 28px; }
+  .main-content div {
+    padding-left: 50px; }
+    .main-content div h3 {
+      font-weight: bold;
+      margin: 40px 0 20px 0; }
+    .main-content div p {
+      margin: 0 35px 35px 0; }
+    .main-content div textarea {
+      margin: 0 0 10px 0;
+      padding: 10px; }
+
+.submit-changes {
+  margin: 0;
+  border: 1px solid black;
+  border-top: none;
+  text-align: center; }
+  .submit-changes .btn {
+    margin: 20px 0 40px 0;
+    height: 75px;
+    width: 50%;
+    line-height: 61px;
+    font-size: 30px;
+    border-radius: 5px; }
+
+.borderbottom {
+  border-bottom: 1px solid black; }
+
+/*Photo Page*/
+.photo-page div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0; }
+  .photo-page div a {
+    text-align: center; }
+    .photo-page div a p {
+      visibility: hidden;
+      margin: 0; }
+  .photo-page div a:hover p {
+    visibility: visible; }
+
+/*Friend Page*/
+.friend-page #marginbottom {
+  margin-bottom: 15px; }
+.friend-page .friend {
+  margin: 2.5%;
+  padding: 10px;
+  border: 1px solid black;
+  width: 45%; }
+  .friend-page .friend div {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    .friend-page .friend div a {
+      font-size: 18px;
+      margin-top: 40px;
+      display: inline-block; }
+    .friend-page .friend div p {
+      font-size: 16px;
+      margin: 0;
+      padding: 0; }
+    .friend-page .friend div .btn {
+      margin: 43px 0;
+      width: 90%;
+      height: 50px;
+      line-height: 36px;
+      border-radius: 5px; }
+.friend-page img {
+  width: 120px;
+  display: inline-block;
+  margin-right: 10px; }
+@media (max-width: 992px) {
+  .friend-page .friend {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px; } }
+
+/*Timeline*/
+.timeline {
+  margin: 0; }
+  .timeline .create-post {
+    border-left: 1px solid black;
+    border-right: 1px solid black; }
+    .timeline .create-post textarea {
+      padding: 10px;
+      margin: 15px 0; }
+  .timeline .timeline-title {
+    border: 1px solid black;
+    background-color: #EEEEEE;
+    text-align: center;
+    line-height: 38px; }
+    .timeline .timeline-title h4 {
+      padding: 0;
+      margin: 0;
+      display: inline-block; }
+  .timeline .timeline-footer {
+    border: 1px solid black;
+    background-color: #EEEEEE;
+    margin-bottom: 25px; }
+    .timeline .timeline-footer .btn {
+      float: right;
+      margin: 7px 0; }
+    .timeline .timeline-footer a {
+      font-size: 15px;
+      text-decoration: underline;
+      display: inline-block;
+      margin: 5px; }
+    .timeline .timeline-footer #delete-link {
+      float: right; }
+  .timeline .timeline-post {
+    border: 1px solid black;
+    border-bottom: none; }
+    .timeline .timeline-post img {
+      width: 75px;
+      display: inline-block; }
+    .timeline .timeline-post a {
+      text-decoration: underline; }
+    .timeline .timeline-post .post-date {
+      color: gray; }
+    .timeline .timeline-post .name-date {
+      display: inline-block;
+      height: 55px;
+      vertical-align: bottom; }
+  .timeline .post-footer {
+    border: 1px solid black;
+    border-top: none;
+    background-color: #EEEEEE;
+    margin-top: -25px;
+    margin-bottom: 25px; }
+    .timeline .post-footer .likes {
+      margin: 5px;
+      font-size: 16px;
+      padding-top: 5px; }
+    .timeline .post-footer p {
+      display: inline-block; }
+    .timeline .post-footer a {
+      text-decoration: underline; }
+  .timeline .comment {
+    border: 1px solid black;
+    border-top: none;
+    background-color: #EEEEEE;
+    margin-top: -25px; }
+    .timeline .comment img {
+      width: 75px; }
+    .timeline .comment a {
+      text-decoration: underline; }
+    .timeline .comment .datetime {
+      display: inline-block;
+      color: gray; }
+    .timeline .comment .like {
+      margin-right: 10px; }
+    .timeline .comment .delete {
+      float: right; }
+  .timeline .make-comment {
+    border: 1px solid black;
+    border-top: none;
+    background-color: #EEEEEE;
+    margin-top: -25px; }
+    .timeline .make-comment textarea {
+      margin: 30px 0 0 0;
+      border: 2px solid black;
+      padding: 10px; }
+    .timeline .make-comment a {
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 15px; }
+    .timeline .make-comment .btn {
+      float: right;
+      margin: 7px 0;
+      text-decoration: none; }
+  .timeline .basic-infomation {
+    border: 1px solid black;
+    border-top: none;
+    margin-bottom: 25px;
+    padding-top: 15px; }
+    .timeline .basic-infomation p {
+      font-size: 16px; }
+  .timeline .timeline-photos-friends {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center; }
+    .timeline .timeline-photos-friends a {
+      text-decoration: underline; }
+  .timeline .photos-friends-fotter {
+    border: 1px solid black;
+    border-top: none;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 6px; }
+    .timeline .photos-friends-fotter a {
+      text-decoration: underline; }
+  .timeline .paddingtop {
+    padding-top: 35px; }
+  .timeline .no-border {
+    border-bottom: none; }
+  .timeline .gray-border {
+    border-bottom: 1px solid gray; }
+
+/*Footer*/
+footer {
+  margin-top: 90px;
+  height: 30px;
+  width: 100%;
+  background-color: #C1C1C1;
+  line-height: 61px; }
+
+/*# sourceMappingURL=main.css.map */
