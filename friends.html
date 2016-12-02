@@ -11,73 +11,164 @@
 
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/danish_flag.gif">        
-      </a>
-      <h1>Danebook</h1>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/danish_flag.gif">        
+        </a>
+        <h1>Danebook</h1>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+        <h3 class="navbar-right">Harry</h3>     
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search for Users">
+          </div>
+        </form>      
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
-      <h3 class="navbar-right">Harry</h3>     
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search for Users">
+  </nav>
+
+  <header class="container">
+    <section class="row">
+      <div class="col-xs-12">
+        <img src="assets/images/hogwarts_small.jpg">
+      </div>
+    </section>
+    <section class="row main-links">
+      <div class="col-md-3 profile-pic-container">
+        <img class="profile-pic" src="assets/images/profile-pic.jpg">
+      </div>
+      <div class="col-md-1">
+        <a href="timeline.html" class="btn btn-default first-button">Timeline</a>
+      </div>
+      <div class="col-md-1">
+        <a href="about.html" class="btn btn-default">About</a>
+      </div>
+      <div class="col-md-1">
+        <a href="photos.html" class="btn btn-default">Photos (123)</a>
+      </div>
+      <div class="col-md-1">
+        <a href="friends.html" class="btn btn-default" id="current-page">Friends (542)</a>
+      </div>
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-2">
+        <a href="about_edit.html" class="btn btn-default">Edit Profile</a>
+      </div>
+    </section>
+  </header>
+
+  <main class="container">
+    <div class="row main-title">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <h1>Friends</h1>
+      </div>   
+    </div>
+
+    <section class="row main-content friend-page">
+      <div class="col-md-6 friend">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/icon_photo_small.png" class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <a href="#">Hermione Granger</a>
+            <p>432 Friends</p>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-danger">Unfriend Me</a>
+          </div>
         </div>
-      </form>      
-    </div>
-  </div>
-</nav>
-
-<header class="container">
-  <section class="row">
-    <div class="col-xs-12">
-      <img src="assets/images/hogwarts_small.jpg">
-    </div>
-  </section>
-  <section class="row main-links">
-    <div class="col-md-3 profile-pic-container">
-      <img class="profile-pic" src="assets/images/profile-pic.jpg">
-    </div>
-    <div class="col-md-1">
-      <a href="timeline.html" class="btn btn-default first-button">Timeline</a>
-    </div>
-    <div class="col-md-1">
-      <a href="about.html" class="btn btn-default">About</a>
-    </div>
-    <div class="col-md-1">
-      <a href="photos.html" class="btn btn-default">Photos (123)</a>
-    </div>
-    <div class="col-md-1">
-      <a href="friends.html" class="btn btn-default" id="current-page">Friends (542)</a>
-    </div>
-    <div class="col-md-3">
-    </div>
-    <div class="col-md-2">
-      <a href="about_edit.html" class="btn btn-default">Edit Profile</a>
-    </div>
-  </section>
-</header>
-
-<main class="container">
-  <div class="row main-title">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-      <h1>Friends</h1>
-    </div>   
-  </div>
-</main>
-  
-<footer></footer>
-
-
+      </div>
+      <div class="col-md-6 friend">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/icon_photo_small.png" class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <a href="#">Hermione Granger</a>
+            <p>432 Friends</p>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-danger">Unfriend Me</a>
+          </div>
+        </div>
+      </div>     
+    </section>
+    <section class="row main-content friend-page">
+      <div class="col-md-6 friend">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/icon_photo_small.png" class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <a href="#">Hermione Granger</a>
+            <p>432 Friends</p>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-danger">Unfriend Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 friend">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/icon_photo_small.png" class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <a href="#">Hermione Granger</a>
+            <p>432 Friends</p>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-danger">Unfriend Me</a>
+          </div>
+        </div>
+      </div>     
+    </section>
+    <section class="row main-content borderbottom friend-page">
+      <div class="col-md-6 friend">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/icon_photo_small.png" class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <a href="#">Hermione Granger</a>
+            <p>432 Friends</p>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-danger">Unfriend Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 friend" id="marginbottom">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/icon_photo_small.png" class="img-responsive">
+          </div>
+          <div class="col-md-4">
+            <a href="#">Hermione Granger</a>
+            <p>432 Friends</p>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn btn-danger">Unfriend Me</a>
+          </div>
+        </div>
+      </div>     
+    </section>
+   
+  </main>
+    
+  <footer>
+  </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
