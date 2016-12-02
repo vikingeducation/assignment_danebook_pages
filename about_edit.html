@@ -4,15 +4,90 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-
+    <title>Welcome to Danebook</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
   </head>
   <body>
-   
-
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsible" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/danish_flag.gif" alt="Danebook logo" class="navbar-logo img-circle">Danebook</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapsible">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group form-group-sm">
+              <label for="user-search" class="sr-only">Search for Users</label>
+              <input type="text" class="form-control" name="user-search" placeholder="Search for Users">
+            </div>
+          </form>
+          <p class="navbar-text navbar-right"><a href="about.html">Harry</a></p>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+    <section class="profile-top container">
+      <div class="row">
+        <div class="profile-cover" style="background-image: url('images/hogwarts_small.jpg')">
+        </div>
+        <h2 class="profile-name">Harry Potter</h2>
+        <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail profile-pic">
+        <nav class="profile-nav">
+          <ul class="nav nav-pills">
+            <li><a href="timeline.html">Timeline</a></li>
+            <li class="current"><a href="#">About</a></li>
+            <li><a href="photos.html">Photos <span class="text-muted">(123)</span></a></li>
+            <li><a href="friends.html">Friends <span class="text-muted">(123)</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="profile-section container">
+      <header class="row">
+        <div class="col-xs-12">
+          <h2 class="text-center">About</h2>
+          <span class="profile-edit">
+          </span>
+        </div>
+      </header>
+      <div class="row">
+      <form class="form-group">
+        <div class="col-md-5 col-md-offset-1">
+          <h3>Basic Information</h3>
+          <dl class="dl-horizontal bio">
+            <dt>Birthday:</dt>
+            <dd>July 31st, 1980</dd>
+            <dt><label for="college">College</label></dt>
+            <dd><input type="text" class="form-control" name="college" value="Hogwarts College"></dd>
+            <dt><label for="hometown">Hometown</label></dt>
+            <dd><input type="text" class="form-control" value="Godrick's Hollow, England" name="hometown"></dd>
+            <dt><label for="currently-lives">Currently Lives:</label></dt>
+            <dd><input type="text" class="form-control" name="current-lives" value="Godrick's Hollow, England"></dd>
+          </dl>
+          <h3>Contact Information</h3>
+          <dl class="dl-horizontal bio">
+            <dt>Email:</dt>
+            <dd>harry_potter@hogwarts.edu</dd>
+            <dt><label for="telephone">Telephone:</label></dt>
+            <dd><input type="tel" class="form-control" name="telephone" value="555-123-4567"></dd>
+          </dl>
+        </div>
+        <div class="col-md-5">
+          <h3><label for="quote">Words to Live By</label></h3>
+          <textarea class="form-control" rows="3" name="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ratione aliquid pariatur optio voluptatum accusantium est debitis, nisi rem, vel, voluptas aut maxime maiores voluptates, officiis magnam officia adipisci ad.</textarea>
+          <h3><label for="about">About Me</label></h3>
+          <textarea class="form-control" rows="7" name="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit voluptas commodi pariatur sapiente consequatur praesentium ut saepe ea aliquid quam, officiis excepturi id perferendis, quasi, necessitatibus rerum ipsam reiciendis, magnam quaerat. Illum ad cumque quaerat, rem perspiciatis porro amet sint unde accusantium vel dignissimos totam ducimus sequi, hic, deleniti ut.</textarea>
+        </div>
+      </div>
+      </form>
+    </section>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
