@@ -38,17 +38,26 @@ a:hover {
 /* PROFILE */
 .profile-top {
   border: 1px solid #ccc;
-  position: relative; }
+  position: relative;
+  border-top: 0; }
+
+.profile-name {
+  position: absolute;
+  left: 170px;
+  margin: 0;
+  bottom: 50px;
+  color: #fff; }
 
 .profile-pic {
   width: 150px;
   height: 150px;
   position: absolute;
   bottom: 10px;
-  left: 10px; }
+  left: 10px;
+  z-index: 1; }
 
 .profile-nav {
-  margin-left: 190px;
+  padding-left: 170px;
   border-top: 1px solid #ccc;
   position: relative; }
   .profile-nav .nav-pills a:hover {
