@@ -3,6 +3,9 @@
 a:hover {
   text-decoration: none; }
 
+.btn {
+  border-radius: 0; }
+
 /* NAVBAR */
 .navbar {
   background-color: #2B78E4;
@@ -85,6 +88,25 @@ a:hover {
   position: absolute;
   right: 10px;
   bottom: 0; }
+
+.profile-section {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  .profile-section header {
+    background-color: #f9f9f9;
+    position: relative;
+    padding: 5px;
+    border-bottom: 1px solid #ccc; }
+    .profile-section header h2 {
+      margin: 0 auto; }
+  .profile-section .bio dt {
+    text-align: left;
+    margin-bottom: 5px; }
+  .profile-section .bio dd {
+    margin-bottom: 10px; }
+  .profile-section .profile-edit {
+    margin-bottom: 2px; }
 
 /* WIDE SCREEN SETTINGS */
 @media screen and (min-width: 768px) {

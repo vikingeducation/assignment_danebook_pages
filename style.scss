@@ -7,6 +7,10 @@ $bg-inactive: #f9f9f9;
 a:hover {
   text-decoration: none;
 }
+.btn {
+  border-radius: 0;
+}
+
 
 
 /* NAVBAR */
@@ -102,7 +106,34 @@ a:hover {
   right: 10px;
   bottom: 0;
 }
+.profile-section {
+  border: 1px solid $border-color-light;
+  margin-top: 20px;
+  margin-bottom:10px;
 
+  header {
+    background-color: $bg-inactive;
+    position: relative;
+    padding:5px;
+    border-bottom: 1px solid $border-color-light;
+
+    h2 {
+      margin: 0 auto;
+    }
+
+  }
+    .bio  dt {
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    .bio dd {
+      margin-bottom: 10px;
+    }
+    .profile-edit {
+      margin-bottom: 2px;
+    }
+
+}
 
 /* WIDE SCREEN SETTINGS */
 
