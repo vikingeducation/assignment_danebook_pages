@@ -1,4 +1,8 @@
 /* VARS */
+/* GLOBAL SETTINGS */
+a:hover {
+  text-decoration: none; }
+
 /* NAVBAR */
 .navbar {
   background-color: #2B78E4;
@@ -12,8 +16,7 @@
   margin-right: 10px; }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default a, .navbar-default a:hover {
-  color: #fff;
-  text-decoration: none; }
+  color: #fff; }
 
 .navbar-collapse {
   border: 0; }
@@ -24,6 +27,57 @@
   .navbar-form .form-group, .navbar-form .form-control {
     width: 100%; }
 
+.navbar-right {
+  margin-right: 0; }
+
+/* MAIN */
+/* compensate for fixed navbar */
+.main {
+  margin-top: 50px; }
+
+/* PROFILE */
+.profile-top {
+  border: 1px solid #ccc;
+  position: relative; }
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px; }
+
+.profile-nav {
+  margin-left: 190px;
+  border-top: 1px solid #ccc;
+  position: relative; }
+  .profile-nav .nav-pills a:hover {
+    border-radius: 0;
+    background-color: transparent; }
+  .profile-nav .nav-pills li {
+    border-left: 1px solid #ccc;
+    margin-left: 0; }
+  .profile-nav .nav-pills li:last-of-type {
+    border-right: 1px solid #ccc; }
+  .profile-nav .current {
+    background-color: #f9f9f9; }
+  .profile-nav .current a {
+    color: #333;
+    cursor: default; }
+
+.profile-cover {
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.profile-edit {
+  position: absolute;
+  right: 10px;
+  bottom: 0; }
+
+/* WIDE SCREEN SETTINGS */
 @media screen and (min-width: 768px) {
   .navbar-form {
     width: 60%;

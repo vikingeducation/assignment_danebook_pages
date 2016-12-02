@@ -9,30 +9,44 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-   <nav class="navbar navbar-default navbar-fixed-top">
-     <div class="container">
-       <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsible" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="images/danish_flag.gif" alt="Danebook logo" class="navbar-logo img-circle">Danebook</a>
-      </div>
-      <div class="navbar-collapse collapse" id="navbar-collapsible">
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group form-group-sm">
-          <label for="user-search" class="sr-only">Search for Users</label>
-          <input type="text" class="form-control" name="user-search" placeholder="Search for Users">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsible" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/danish_flag.gif" alt="Danebook logo" class="navbar-logo img-circle">Danebook</a>
         </div>
-      </form>
-      <p class="navbar-text navbar-right"><a href="about.html">Harry</a></p>
-     </div>
-     </div>
-   </nav>
-
-
+        <div class="navbar-collapse collapse" id="navbar-collapsible">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group form-group-sm">
+              <label for="user-search" class="sr-only">Search for Users</label>
+              <input type="text" class="form-control" name="user-search" placeholder="Search for Users">
+            </div>
+          </form>
+          <p class="navbar-text navbar-right"><a href="about.html">Harry</a></p>
+        </div>
+      </div>
+    </nav>
+    <main class="main container">
+    <section class="profile-top">
+      <div class="profile-cover" style="background-image: url('images/hogwarts_small.jpg')">
+      </div>
+      <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail profile-pic">
+      <nav class="profile-nav">
+        <ul class="nav nav-pills">
+          <li><a href="timeline.html">Timeline</a></li>
+          <li class="current"><a href="#">About</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li><a href="friends.html">Friends</a></li>
+        </ul>
+      <p class="profile-edit"><a href="about_edit.html">Edit Profile</a></p>
+      </nav>
+    </section>
+    </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
