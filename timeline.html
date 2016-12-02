@@ -33,23 +33,115 @@
     </nav>
     <main class="main">
     <section class="profile-top container">
-    <div class="row">
-      <div class="profile-cover" style="background-image: url('images/hogwarts_small.jpg')">
+      <div class="row">
+        <div class="profile-cover" style="background-image: url('images/hogwarts_small.jpg')">
+        </div>
+        <h2 class="profile-name">Harry Potter</h2>
+        <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail profile-pic">
+        <nav class="profile-nav">
+          <ul class="nav nav-pills">
+            <li class="current"><a href="#">Timeline</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos <span class="text-muted">(123)</span></a></li>
+            <li><a href="friends.html">Friends <span class="text-muted">(123)</span></a></li>
+          </ul>
+          <p class="profile-edit"><a href="about_edit.html">Edit Profile</a></p>
+        </nav>
       </div>
-      <h2 class="profile-name">Harry Potter</h2>
-      <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail profile-pic">
-      <nav class="profile-nav">
-        <ul class="nav nav-pills">
-          <li class="current"><a href="#">Timeline</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="photos.html">Photos <span class="text-muted">(123)</span></a></li>
-          <li><a href="friends.html">Friends <span class="text-muted">(123)</span></a></li>
-        </ul>
-        <p class="profile-edit"><a href="about_edit.html">Edit Profile</a></p>
-      </nav>
-    </div>
     </section>
-   
+    <section class="timeline container">
+    <div class="row">
+      <aside class="col-sm-4 timeline-sidebar">
+        <div class="timeline-module row">
+          <header class="col-xs-12">
+            <h4>About</h4>
+          </header>
+          <div class="col-xs-12">
+          <p><b>Born on:</b> July 31st, 1980</p>
+          <p><b>Went to school at:</b> Hogwarts</p>
+          <p><b>Hometown:</b> Godrick's Hollow, England</p>
+          <p><b>Currently Lives:</b> Godrick's Hollow</p>
+          </div>
+        </div>
+        <div class="timeline-module row">
+          <header class="col-xs-12">
+            <h4>Photos (123)</h4>
+          </header>
+          <div class="col-xs-12 ">
+          <div class="row thumbnail-grid">
+            <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+             <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></div>
+          </div>
+          <p class="text-center"><a href="photos.html">See More Photos</a></p>
+          </div>
+        </div>
+          <div class="timeline-module row">
+          <header class="col-xs-12">
+            <h4>Friends (542)</h4>
+          </header>
+          <div class="col-xs-12">
+            <div class="row thumbnail-grid text-center">
+              <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail">
+              <p class="name"><a href="#">Ron Weasley</a></p>
+              </div>
+                <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail">
+              <p class="name"><a href="#">Ron Weasley</a></p>
+              </div>
+               <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail">
+              <p class="name"><a href="#">Ginny Weasley</a></p>
+              </div>
+               <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail">
+              <p class="name"><a href="#">Hermione Granger</a></p>
+              </div>
+               <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail">
+              <p class="name"><a href="#">paragraph text</a></p>
+              </div>
+               <div class="col-xs-4"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail">
+              <p class="name"><a href="#">paragraph text</a></p>
+              </div>
+              <p class="text-center"><a href="#">See More Friends</a></p>
+              
+            </div>
+          </div>
+        </div>
+      </aside>
+    <div class="col-sm-8">
+      <section class="timeline-feed">
+        <div class="row timeline-module">
+          <header class="col-xs-12">
+            <h4>Post</h4>
+          </header>
+          <form class="form-group post-form col-xs-12">
+            <textarea name="post-text" id="" cols="30" rows="2" class="form-control" placeholder="Tell the world something..."></textarea>
+            <footer class="row post-footer">
+            <div class="col-xs-12">
+            <button type="submit" class="btn btn-primary pull-right">Post</button> 
+            </div>
+            </footer>
+          </form>
+        </div>
+      <article class="row post">
+        <header class="col-xs-12 media">
+            <div class="media-left">
+              <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail media-object">
+            </div>
+            <div class="media-body">
+              <h5 class="media-heading"><a href="about.html">Harry Potter</a></h5>
+              <p class="small">Posted on Thursday <time datetime="2014-6-1">6/1/2014</time></p>
+            </div>
+          fdsjkl
+        </header>
+      </article>
+    </section>
+    </div>
+    </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

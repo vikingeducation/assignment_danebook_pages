@@ -10,7 +10,12 @@ a:hover {
 .btn {
   border-radius: 0;
 }
-
+.container {
+  max-width: 900px;
+}
+.img-thumbnail {
+  border-radius: 0;
+}
 
 
 /* NAVBAR */
@@ -54,6 +59,7 @@ a:hover {
   border: 1px solid $border-color-light;
   position: relative;
   border-top: 0;
+  margin-bottom: 20px;
 }
 .profile-name {
   position: absolute;
@@ -108,7 +114,6 @@ a:hover {
 }
 .profile-section {
   border: 1px solid $border-color-light;
-  margin-top: 20px;
   margin-bottom:10px;
 
   header {
@@ -135,6 +140,53 @@ a:hover {
 
 }
 
+/* TIMELINE */
+.timeline-module {
+  border: 1px solid $border-color-light;
+  margin-bottom: 20px;
+
+  header {
+    background-color: $bg-inactive;
+    border-bottom:1px solid $border-color-light;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .thumbnail-grid .img-thumbnail {
+    margin-bottom: 10px;
+  }
+  .thumbnail-grid .name {
+    margin-top: -5px;
+    line-height:1.2;
+  }
+
+  .post-footer {
+    border-top: 1px solid $border-color-light;
+    background-color: $bg-inactive;
+    margin-top: 10px;
+    padding: 5px 0;
+  }
+
+  .post-form {
+    margin-bottom: 0;
+  }
+}
+.timeline-feed {
+  .post {
+    border: 1px solid $border-color-light;
+    padding: 10px 0;
+  }
+  .post .img-thumbnail {
+    width: 40px;
+    height: 40px;
+  }
+  .post .media-heading {
+    margin-top: 5px;
+  }
+}
+
+
+
 /* WIDE SCREEN SETTINGS */
 
 @media screen and (min-width: 768px){
@@ -142,6 +194,9 @@ a:hover {
     width: 60%;
     margin-top: 10px;
   }
+  .timeline-feed {
+  margin-left: 15px;
+}
 }
 
 

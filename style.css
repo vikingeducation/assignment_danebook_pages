@@ -6,6 +6,12 @@ a:hover {
 .btn {
   border-radius: 0; }
 
+.container {
+  max-width: 900px; }
+
+.img-thumbnail {
+  border-radius: 0; }
+
 /* NAVBAR */
 .navbar {
   background-color: #2B78E4;
@@ -42,7 +48,8 @@ a:hover {
 .profile-top {
   border: 1px solid #ccc;
   position: relative;
-  border-top: 0; }
+  border-top: 0;
+  margin-bottom: 20px; }
 
 .profile-name {
   position: absolute;
@@ -91,7 +98,6 @@ a:hover {
 
 .profile-section {
   border: 1px solid #ccc;
-  margin-top: 20px;
   margin-bottom: 10px; }
   .profile-section header {
     background-color: #f9f9f9;
@@ -108,10 +114,44 @@ a:hover {
   .profile-section .profile-edit {
     margin-bottom: 2px; }
 
+/* TIMELINE */
+.timeline-module {
+  border: 1px solid #ccc;
+  margin-bottom: 20px; }
+  .timeline-module header {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    text-align: center; }
+  .timeline-module .thumbnail-grid .img-thumbnail {
+    margin-bottom: 10px; }
+  .timeline-module .thumbnail-grid .name {
+    margin-top: -5px;
+    line-height: 1.2; }
+  .timeline-module .post-footer {
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    padding: 5px 0; }
+  .timeline-module .post-form {
+    margin-bottom: 0; }
+
+.timeline-feed .post {
+  border: 1px solid #ccc;
+  padding: 10px 0; }
+.timeline-feed .post .img-thumbnail {
+  width: 40px;
+  height: 40px; }
+.timeline-feed .post .media-heading {
+  margin-top: 5px; }
+
 /* WIDE SCREEN SETTINGS */
 @media screen and (min-width: 768px) {
   .navbar-form {
     width: 60%;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .timeline-feed {
+    margin-left: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
