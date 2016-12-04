@@ -96,7 +96,8 @@ body {
 
 /* about.html */
 .profile-header {
-  height: 350px; }
+  height: 350px;
+  margin-bottom: 25px; }
   .profile-header .cover-photo {
     height: 300px;
     background: url("../images/hogwarts_small.jpg") no-repeat;
@@ -116,6 +117,26 @@ body {
         width: 100%; }
     .profile-header .profile-nav ul.nav li:nth-of-type(2) {
       margin-left: 235px; }
+
+.about-page {
+  clear: both;
+  border: 1px solid black;
+  margin-bottom: 3em;
+  padding-bottom: 2em; }
+  .about-page .about-header {
+    background-color: #eee;
+    line-height: 2em;
+    padding: .5em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid black; }
+    .about-page .about-header .title {
+      font-size: 1.5em;
+      font-weight: bold; }
+  .about-page .about-info section h1, .about-page .about-info section p {
+    margin-bottom: 1.5em; }
+  .about-page .about-info section h1 {
+    font-size: 1.2em;
+    font-weight: bold; }
 
 /*
  *  Responsive styles
