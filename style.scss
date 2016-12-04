@@ -137,8 +137,40 @@ a:hover {
     .profile-edit {
       margin-bottom: 2px;
     }
+}
+
+/* PHOTO GRID */
+.photo-grid {
+  .photo {
+    margin: 0 auto;
+  }
+  figure {
+    position: relative;
+  }
+  figcaption {
+    width: 100%;
+    background: #999;
+    opacity: .5;
+  }
+}
+
+/* FRIEND GRID */
+.friend-grid {
+  padding: 10px;
+}
+.friend-item {
+  border: 1px solid $border-color-light;
+  padding: 10px;
+  margin: 10px 0;
+
+  .img-thumbnail {
+    width: 80px; 
+    height: 80px;
+  }
 
 }
+
+
 
 /* TIMELINE */
 .timeline-module {
