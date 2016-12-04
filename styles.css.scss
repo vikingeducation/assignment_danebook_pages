@@ -1,0 +1,33 @@
+#navbar {
+  background-color: #2B78E4;
+  border-bottom: 2px solid #333;
+  img {
+    height: 40px;
+    width: 40px;
+  }
+  .navbar-brand {
+    margin-top: -9px;
+    color: white;
+    font-size: 30px;
+  }
+  li a {
+    font-size: 20px;
+    color: white;
+  }
+
+}
+
+.test {
+  display:table;
+}
+
+.test > .form-control {
+  display: table-cell;
+  margin-left:-3px;
+}
+
+.test > span {
+  display: table-cell;
+  width:1%;
+  padding:0 3px;
+}
