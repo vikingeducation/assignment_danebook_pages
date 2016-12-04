@@ -25,15 +25,16 @@ html {
  *  Custom styles
  */
 
-$dane-blue: #2B78E4;
-$navbar-text-color: white;
-
 $screen-xs-max: 749px;
 $screen-sm-min: 750px;
 $screen-sm-max: 969px;
 $screen-md-min: 970px;
 $screen-md-max: 1169px;
 
+$dane-blue: #2B78E4;
+$navbar-text-color: white;
+$cover-photo-height: 300px;
+$profile-nav-height: 50px;
 
 body {
   font-family: arial, sans-serif; 
@@ -75,10 +76,48 @@ body {
   }
 }
 
+/* Main content wrapper */
+
 .page-wrapper {
-  margin-top: 50px;
   width: 80%;
   margin: 50px auto 0;
+}
+
+/* about.html */
+
+$profile-image-width: 225px;
+
+.profile-header {
+  height: $cover-photo-height + $profile-nav-height;
+
+  .cover-photo {
+    height: $cover-photo-height;
+    background: url("../images/hogwarts_small.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .profile-nav {
+    position: relative;
+    height: $profile-nav-height;
+
+    .profile-image-wrapper {
+      position: absolute;
+      bottom: -30px;
+      display: inline-block;
+      width: $profile-image-width;
+      height: $profile-image-width;
+      overflow: hidden;
+
+      .profile-image {
+        width: 100%;
+      }
+    }
+
+    ul.nav li:nth-of-type(2) {
+      margin-left: $profile-image-width + 10px;
+    }
+  }
 }
 
 
