@@ -193,6 +193,11 @@ a:hover {
   .comment-form textarea {
     margin-bottom: 10px; }
 
+/* ABOUT FORM */
+.about-form button {
+  margin: 40px auto;
+  max-width: 400px; }
+
 /* WIDE SCREEN SETTINGS */
 @media screen and (min-width: 768px) {
   .navbar-form {
