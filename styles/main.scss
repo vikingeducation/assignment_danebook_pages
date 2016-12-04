@@ -49,8 +49,16 @@ body {
     }
   }
 
-  .flag-logo {
-    width: 2em;
+  .logo-wrapper {
+    display: block;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+
+    .flag-logo {
+      width: 50px;
+    }
   }
 }
 

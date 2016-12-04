@@ -78,8 +78,14 @@ body {
     color: white; }
     .navbar-danebook .navbar-nav > li > a:hover {
       color: #eee; }
-  .navbar-danebook .flag-logo {
-    width: 2em; }
+  .navbar-danebook .logo-wrapper {
+    display: block;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    overflow: hidden; }
+    .navbar-danebook .logo-wrapper .flag-logo {
+      width: 50px; }
 
 .page-wrapper {
   margin-top: 50px;
