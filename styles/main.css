@@ -54,6 +54,13 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
 /*
  *  Custom styles
  */
@@ -61,5 +68,22 @@ body {
   font-family: arial, sans-serif; }
 
 /* Danebook nav bar */
+.navbar-danebook {
+  background-color: #2B78E4;
+  border: none; }
+  .navbar-danebook .danebook-brand {
+    color: white;
+    margin-left: 2.5em; }
+  .navbar-danebook .navbar-nav > li > a {
+    color: white; }
+    .navbar-danebook .navbar-nav > li > a:hover {
+      color: #eee; }
+  .navbar-danebook .flag-logo {
+    width: 2em; }
+
+.page-wrapper {
+  margin-top: 50px;
+  width: 80%;
+  margin: 50px auto 0; }
 
 /*# sourceMappingURL=main.css.map */

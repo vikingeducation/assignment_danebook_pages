@@ -11,11 +11,20 @@ html {
   box-sizing: inherit;
 }
 
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 /*
  *  Custom styles
  */
 
 $dane-blue: #2B78E4;
+$navbar-text-color: white;
 
 body {
   font-family: arial, sans-serif; 
@@ -24,4 +33,29 @@ body {
 /* Danebook nav bar */
 
 .navbar-danebook {
+  background-color: $dane-blue;
+  border: none;
+
+  .danebook-brand {
+    color: $navbar-text-color;
+    margin-left: 2.5em;
+  }
+
+  .navbar-nav > li > a {
+    color: $navbar-text-color;
+
+    &:hover {
+      color: #eee;
+    }
+  }
+
+  .flag-logo {
+    width: 2em;
+  }
+}
+
+.page-wrapper {
+  margin-top: 50px;
+  width: 80%;
+  margin: 50px auto 0;
 }
