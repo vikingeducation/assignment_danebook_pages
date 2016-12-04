@@ -60,6 +60,7 @@ a:hover {
   position: relative;
   border-top: 0;
   margin-bottom: 20px;
+  padding: 0;
 }
 .profile-name {
   position: absolute;
@@ -111,32 +112,6 @@ a:hover {
   position: absolute;
   right: 10px;
   bottom: 0;
-}
-.profile-section {
-  border: 1px solid $border-color-light;
-  margin-bottom:10px;
-
-  header {
-    background-color: $light-gray;
-    position: relative;
-    padding:5px;
-    border-bottom: 1px solid $border-color-light;
-
-    h2 {
-      margin: 0 auto;
-    }
-
-  }
-    .bio  dt {
-      text-align: left;
-      margin-bottom: 5px;
-    }
-    .bio dd {
-      margin-bottom: 10px;
-    }
-    .profile-edit {
-      margin-bottom: 2px;
-    }
 }
 
 /* PHOTO GRID */
@@ -190,7 +165,7 @@ a:hover {
 
 
 /* TIMELINE */
-.timeline-module {
+.info-box {
   border: 1px solid $border-color-light;
   margin-bottom: 20px;
 
@@ -199,6 +174,14 @@ a:hover {
     border-bottom:1px solid $border-color-light;
     margin-bottom: 10px;
     text-align: center;
+  }
+  .module-title {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .module-edit {
+    right: 10px;
+    @extend .vertical-middle;
   }
 
   .thumbnail-grid .img-thumbnail {
@@ -276,6 +259,15 @@ a:hover {
   }
 }
 
+/* HELPER CLASS */
+.vertical-middle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.absolute-right {
+  right: 10px;
+}
 
 
 /* WIDE SCREEN SETTINGS */

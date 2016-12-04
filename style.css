@@ -49,7 +49,8 @@ a:hover {
   border: 1px solid #ccc;
   position: relative;
   border-top: 0;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding: 0; }
 
 .profile-name {
   position: absolute;
@@ -96,24 +97,6 @@ a:hover {
   right: 10px;
   bottom: 0; }
 
-.profile-section {
-  border: 1px solid #ccc;
-  margin-bottom: 10px; }
-  .profile-section header {
-    background-color: #f9f9f9;
-    position: relative;
-    padding: 5px;
-    border-bottom: 1px solid #ccc; }
-    .profile-section header h2 {
-      margin: 0 auto; }
-  .profile-section .bio dt {
-    text-align: left;
-    margin-bottom: 5px; }
-  .profile-section .bio dd {
-    margin-bottom: 10px; }
-  .profile-section .profile-edit {
-    margin-bottom: 2px; }
-
 /* PHOTO GRID */
 .photo-grid .photo-item {
   position: relative;
@@ -149,17 +132,22 @@ a:hover {
     height: 80px; }
 
 /* TIMELINE */
-.timeline-module {
+.info-box {
   border: 1px solid #ccc;
   margin-bottom: 20px; }
-  .timeline-module header {
+  .info-box header {
     background-color: #f9f9f9;
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
     text-align: center; }
-  .timeline-module .thumbnail-grid .img-thumbnail {
+  .info-box .module-title {
+    display: inline-block;
+    margin-top: 10px; }
+  .info-box .module-edit {
+    right: 10px; }
+  .info-box .thumbnail-grid .img-thumbnail {
     margin-bottom: 10px; }
-  .timeline-module .thumbnail-grid .name {
+  .info-box .thumbnail-grid .name {
     margin-top: -5px;
     line-height: 1.2; }
 
@@ -209,6 +197,15 @@ a:hover {
 .about-form button {
   margin: 40px auto;
   max-width: 400px; }
+
+/* HELPER CLASS */
+.vertical-middle, .info-box .module-edit {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.absolute-right {
+  right: 10px; }
 
 /* WIDE SCREEN SETTINGS */
 @media screen and (min-width: 768px) {
