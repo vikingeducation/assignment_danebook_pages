@@ -198,6 +198,12 @@ a:hover {
   margin: 40px auto;
   max-width: 400px; }
 
+.bio dd {
+  margin-bottom: 10px;
+  margin-top: 10px; }
+.bio dt {
+  text-align: left; }
+
 /* HELPER CLASS */
 .vertical-middle, .info-box .module-edit {
   position: absolute;
