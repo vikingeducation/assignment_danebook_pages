@@ -1,1 +1,238 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Danebook</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsible" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/danish_flag.gif" alt="Danebook logo" class="navbar-logo img-circle">Danebook</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapsible">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group form-group-sm">
+              <label for="user-search" class="sr-only">Search for Users</label>
+              <input type="text" class="form-control" name="user-search" placeholder="Search for Users">
+            </div>
+          </form>
+          <p class="navbar-text navbar-right"><a href="about.html">Harry</a></p>
+        </div>
+      </div>
+    </nav>
+    <main class="main container">
+    <header class="row">
+      <div class="profile-top col-xs-12">
+        <div class="profile-cover" style="background-image: url('images/hogwarts_small.jpg')">
+        </div>
+        <h2 class="profile-name">Harry Potter</h2>
+        <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail profile-pic">
+        <nav class="profile-nav">
+          <ul class="nav nav-pills">
+            <li class="current"><a href="timeline.html">Timeline</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="photos.html">Photos <span class="text-muted">(123)</span></a></li>
+            <li><a href="friends.html">Friends <span class="text-muted">(123)</span></a></li>
+          </ul>
+          <p class="profile-edit"><a href="about_edit.html">Edit Profile</a></p>
+        </nav>
+      </div>
+    </header>
+    <section class="row">
+      <aside class="col-sm-4 timeline-sidebar">
+        <div class="info-box row">
+          <header class="col-xs-12">
+            <h4>About</h4>
+          </header>
+          <div class="col-xs-12">
+            <p><b>Born on:</b> July 31st, 1980</p>
+            <p><b>Went to school at:</b> Hogwarts</p>
+            <p><b>Hometown:</b> Godrick's Hollow, England</p>
+            <p><b>Currently Lives:</b> Godrick's Hollow</p>
+          </div>
+        </div>
+        <div class="info-box row">
+          <header class="col-xs-12">
+            <h4>Photos (123)</h4>
+          </header>
+          <div class="col-xs-12 ">
+            <div class="row thumbnail-grid">
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+              <div class="col-xs-4"><a href="#"><img src="images/icon_photo_small.png" alt="" class="img-thumbnail"></a></div>
+            </div>
+            <p class="text-center"><a href="photos.html">See More Photos</a></p>
+          </div>
+        </div>
+        <div class="info-box row">
+          <header class="col-xs-12">
+            <h4>Friends (542)</h4>
+          </header>
+          <div class="col-xs-12">
+            <div class="row thumbnail-grid text-center">
+              <div class="col-xs-4">
+                <a href="#"><img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail"></a>
+                <p class="name"><a href="#">Ron Weasley</a></p>
+              </div>
+              <div class="col-xs-4">
+                <a href="#"><img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail"></a>
+                <p class="name"><a href="#">Ron Weasley</a></p>
+              </div>
+              <div class="col-xs-4">
+                <a href="#"><img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail"></a>
+                <p class="name"><a href="#">Ginny Weasley</a></p>
+              </div>
+              <div class="col-xs-4">
+                <a href="#"><img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail"></a>
+                <p class="name"><a href="#">Hermione Granger</a></p>
+              </div>
+              <div class="col-xs-4">
+                <a href="#"><img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail"></a>
+                <p class="name"><a href="#">paragraph text</a></p>
+              </div>
+              <div class="col-xs-4">
+                <a href="#"><img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail"></a>
+                <p class="name"><a href="#">paragraph text</a></p>
+              </div>
+              <p class="text-center"><a href="#">See More Friends</a></p>
+            </div>
+          </div>
+        </aside>
+        <div class="col-sm-8">
+          <section class="timeline-feed">
+            <div class="row info-box">
+              <header class="col-xs-12">
+                <h4>Post</h4>
+              </header>
+              <form class="form-group post-form col-xs-12">
+                <textarea name="post-form" cols="30" rows="2" class="form-control"></textarea>
+                <footer class="row post-footer">
+                  <div class="col-xs-12">
+                    <button type="submit" class="btn btn-primary pull-right">Post</button>
+                  </div>
+                </footer>
+              </form>
+            </div>
+            <article class="row post">
+              <header class="col-xs-12 media">
+                <div class="media-left">
+                  <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail media-object">
+                </div>
+                <div class="media-body">
+                  <h5 class="media-heading"><a href="about.html">Harry Potter</a></h5>
+                  <p class="small text-muted">Posted on Thursday <time datetime="2014-6-1">6/1/2014</time></p>
+                </div>
+              </header>
+              <div class="col-xs-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloremque vel fugit, nulla atque voluptatibus ex iusto mollitia labore, cumque, ullam. Rerum sunt nesciunt numquam maxime eligendi ex. Quas, voluptatibus.</p>
+              </div>
+              <footer class="post-footer col-xs-12">
+                <span class="post-action"><a href="#">Like</a><a href="#">Comment</a></span>
+                <span class="pull-right"><a href="#">Delete</a></span>
+              </footer>
+            </article>
+            <article class="row post">
+              <header class="col-xs-12 media">
+                <div class="media-left">
+                  <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail media-object">
+                </div>
+                <div class="media-body">
+                  <h5 class="media-heading"><a href="about.html">Harry Potter</a></h5>
+                  <p class="small text-muted">Posted on Thursday <time datetime="2014-6-1">6/1/2014</time></p>
+                </div>
+              </header>
+              <div class="col-xs-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloremque vel fugit, nulla atque voluptatibus ex iusto mollitia labore, cumque, ullam. Rerum sunt nesciunt numquam maxime eligendi ex. Quas, voluptatibus.</p>
+              </div>
+              <footer class="post-footer col-xs-12">
+                <span class="post-action"><a href="#">Like</a><a href="#">Comment</a></span>
+                <span class="pull-right"><a href="#">Delete</a></span>
+                <div class="post-reaction">
+                  <span><a href="#">Hermione Granger</a> likes this</span>
+                </div>
+              </footer>
+            </article>
+            <article class="row post">
+              <header class="col-xs-12 media">
+                <div class="media-left">
+                  <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail media-object">
+                </div>
+                <div class="media-body">
+                  <h5 class="media-heading"><a href="about.html">Harry Potter</a></h5>
+                  <p class="small text-muted">Posted on Thursday <time datetime="2014-6-1">6/1/2014</time></p>
+                </div>
+              </header>
+              <div class="col-xs-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloremque vel fugit, nulla atque voluptatibus ex iusto mollitia labore, cumque, ullam. Rerum sunt nesciunt numquam maxime eligendi ex. Quas, voluptatibus.</p>
+              </div>
+              <footer class="post-footer col-xs-12">
+                <span class="post-action"><a href="#">Unlike</a></span>
+                <span class="pull-right"><a href="#">Delete</a></span>
+                <div class="post-reaction">
+                  <span>You and <a href="#">Hermione Granger</a> and 3 others like this</span>
+                </div>
+              </footer>
+              <div class="post-comments col-xs-12 post-footer">
+                <article class="row post-comment">
+                  <div class="col-xs-12 media">
+                    <div class="media-left">
+                      <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail media-object">
+                    </div>
+                    <div class="media-body">
+                      <span class="media-heading h5"><a href="#">Ron Weasley</a></span>
+                      <span class="small text-muted">Posted on Thursday <time datetime="2014-6-1">6/1/2014</time></span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae commodi, iste. Voluptatibus enim similique velit adipisci dolore reprehenderit qui! Veniam quod nisi, quia voluptas assumenda tenetur perspiciatis modi sunt animi.</p>
+                      <footer>
+                        <span class="post-action"><a href="#">Like</a><a href="#">Comment</a></span>
+                      </footer>
+                    </div>
+                  </div>
+                </article>
+                
+                <article class="row post-comment">
+                  <div class="col-xs-12 media">
+                    <div class="media-left">
+                      <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail media-object">
+                    </div>
+                    <div class="media-body">
+                      <span class="media-heading h5"><a href="about.html">Harry Potter</a></span>
+                      <span class="small">Posted on Thursday <time datetime="2014-6-1">6/1/2014</time></span>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae commodi, iste. Voluptatibus enim similique velit adipisci dolore reprehenderit qui! Veniam quod nisi, quia voluptas assumenda tenetur perspiciatis modi sunt animi.</p>
+                      <footer>
+                        <span class="post-action"><a href="#">Like</a><a href="#">Comment</a><span><span class="text-muted">3 other people like this</span><span class="pull-right"><a href="#">Delete</a></span>
+                      </footer>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <form class="col-xs-12 form-group comment-form">
+                <textarea name="comment" id="" cols="30" rows="2" class="form-control" placeholder="Write a comment"></textarea>
+                <span><a href="#">Cancel</a></span>
+                <button type="submit" class="btn btn-primary pull-right">Comment</button>
+              </form>
+            </article>
+          </section>
+        </div>
+      </div>
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+  </html>

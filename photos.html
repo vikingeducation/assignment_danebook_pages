@@ -1,1 +1,135 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Danebook</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsible" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/danish_flag.gif" alt="Danebook logo" class="navbar-logo img-circle">Danebook</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapsible">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group form-group-sm">
+              <label for="user-search" class="sr-only">Search for Users</label>
+              <input type="text" class="form-control" name="user-search" placeholder="Search for Users">
+            </div>
+          </form>
+          <p class="navbar-text navbar-right"><a href="about.html">Harry</a></p>
+        </div>
+      </div>
+    </nav>
+    <main class="main container">
+    <header class="row">
+      <div class="profile-top col-xs-12">
+        <div class="profile-cover" style="background-image: url('images/hogwarts_small.jpg')">
+        </div>
+        <h2 class="profile-name">Harry Potter</h2>
+        <img src="images/user_silhouette_generic.png" alt="" class="img-thumbnail profile-pic">
+        <nav class="profile-nav">
+          <ul class="nav nav-pills">
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="current"><a href="photos.html">Photos <span class="text-muted">(123)</span></a></li>
+            <li><a href="friends.html">Friends <span class="text-muted">(123)</span></a></li>
+          </ul>
+          <p class="profile-edit"><a href="about_edit.html">Edit Profile</a></p>
+        </nav>
+      </div>
+    </header>
+    <section class="row">
+      <div class="col-xs-12">
+        <div class="info-box row">
+         <header class="col-xs-12">
+            <h2 class="module-title">Photos</h2>
+              <a href="about_edit.html" class="btn btn-primary btn-sm module-edit">Add Photos</a>
+          </header>
+       <div class="col-xs-12">
+          <div class="row photo-grid">
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption><span>Uploaded January 1, 2015</span></figcaption>
+             </figure>
+           </div>
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption>Uploaded January 1, 2015</figcaption>
+             </figure>
+           </div>
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption><span>Uploaded January 1, 2015</span></figcaption>
+             </figure>
+           </div>
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption>Uploaded January 1, 2015</figcaption>
+             </figure>
+           </div>
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption>Uploaded January 1, 2015</figcaption>
+             </figure>
+           </div>
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption>Uploaded January 1, 2015</figcaption>
+             </figure>
+           </div>
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption>Uploaded January 1, 2015</figcaption>
+             </figure>
+           </div>
+           <div class="col-xs-4 col-sm-3">
+             <figure class="photo-item">
+               <a href="#">
+                 <div class="photo-bg" style="background-image: url('images/icon_photo_small.png')"></div>
+               </a>
+               <figcaption>Uploaded January 1, 2015</figcaption>
+             </figure>
+           </div>
+           
+         </div>
+       </div>
+        </div>
+        </div>
+      </section>
+      </main>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+  </html>
