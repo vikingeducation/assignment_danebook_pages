@@ -71,7 +71,7 @@ body {
   }
 
   .search-field {
-    width: 800px;
+    width: 700px;
   }
 }
 
@@ -94,11 +94,11 @@ body {
 }
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   .navbar-danebook .search-field {
-    width: 400px;
+    width: 300px;
   }
 }
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
   .navbar-danebook .search-field {
-    width: 700px;
+    width: 500px;
   }
 }

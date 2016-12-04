@@ -87,7 +87,7 @@ body {
     .navbar-danebook .logo-wrapper .flag-logo {
       width: 50px; }
   .navbar-danebook .search-field {
-    width: 800px; }
+    width: 700px; }
 
 .page-wrapper {
   margin-top: 50px;
@@ -102,9 +102,9 @@ body {
     width: 200px; } }
 @media (min-width: 750px) and (max-width: 969px) {
   .navbar-danebook .search-field {
-    width: 400px; } }
+    width: 300px; } }
 @media (min-width: 970px) and (max-width: 1169px) {
   .navbar-danebook .search-field {
-    width: 700px; } }
+    width: 500px; } }
 
 /*# sourceMappingURL=main.css.map */
