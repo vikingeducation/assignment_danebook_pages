@@ -141,16 +141,33 @@ a:hover {
 
 /* PHOTO GRID */
 .photo-grid {
-  .photo {
-    margin: 0 auto;
-  }
-  figure {
+  .photo-item {
     position: relative;
+    overflow: hidden;
+    margin:10px auto;
+
+    figcaption {
+      position: absolute;
+      opacity: 0;
+      bottom: 0;
+      background: rgba(102, 102, 102, .7);
+      color: #fff;
+      padding: 5px;
+      transition: all 0.3s ease;
+      width: 100%;
+
+    }
   }
-  figcaption {
-    width: 100%;
-    background: #999;
-    opacity: .5;
+  .photo-item:hover {
+    figcaption {
+      opacity: 1;
+    }
+  }
+  .photo-bg {
+    height:150px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
   }
 }
 
