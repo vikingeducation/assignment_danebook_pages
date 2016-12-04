@@ -86,10 +86,25 @@ body {
     overflow: hidden; }
     .navbar-danebook .logo-wrapper .flag-logo {
       width: 50px; }
+  .navbar-danebook .search-field {
+    width: 800px; }
 
 .page-wrapper {
   margin-top: 50px;
   width: 80%;
   margin: 50px auto 0; }
+
+/*
+ *  Responsive styles
+ */
+@media (max-width: 749px) {
+  .navbar-danebook .search-field {
+    width: 200px; } }
+@media (min-width: 750px) and (max-width: 969px) {
+  .navbar-danebook .search-field {
+    width: 400px; } }
+@media (min-width: 970px) and (max-width: 1169px) {
+  .navbar-danebook .search-field {
+    width: 700px; } }
 
 /*# sourceMappingURL=main.css.map */
