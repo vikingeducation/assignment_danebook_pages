@@ -25,16 +25,8 @@ html {
  *  Custom styles
  */
 
-$screen-xs-max: 749px;
-$screen-sm-min: 750px;
-$screen-sm-max: 969px;
-$screen-md-min: 970px;
-$screen-md-max: 1169px;
-
 $dane-blue: #2B78E4;
 $navbar-text-color: white;
-$cover-photo-height: 300px;
-$profile-nav-height: 50px;
 
 body {
   font-family: arial, sans-serif; 
@@ -86,37 +78,42 @@ body {
 /* about.html */
 
 $profile-image-width: 225px;
+$cover-photo-height: 300px;
+$cover-photo-margin: 10px;
+$profile-nav-height: 50px;
 
 .profile-header {
   height: $cover-photo-height + $profile-nav-height;
   margin-bottom: 25px;
 
   .cover-photo {
+    position: relative;
     height: $cover-photo-height;
     background: url("../images/hogwarts_small.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-  }
-
-  .profile-nav {
-    position: relative;
-    height: $profile-nav-height;
 
     .profile-image-wrapper {
       position: absolute;
+      left: $cover-photo-margin;
       bottom: -30px;
       display: inline-block;
       width: $profile-image-width;
       height: $profile-image-width;
       overflow: hidden;
+      z-index: 1000;
 
       .profile-image {
         width: 100%;
       }
     }
+  }
 
-    ul.nav li:nth-of-type(2) {
-      margin-left: $profile-image-width + 10px;
+  .profile-nav {
+    height: $profile-nav-height;
+
+    ul.nav li:first-child {
+      margin-left: $profile-image-width + $cover-photo-margin;
     }
   }
 }
@@ -158,6 +155,12 @@ $profile-image-width: 225px;
  *  Responsive styles
  */
 
+$screen-xs-max: 749px;
+$screen-sm-min: 750px;
+$screen-sm-max: 969px;
+$screen-md-min: 970px;
+$screen-md-max: 1169px;
+
 @media (max-width: $screen-xs-max) {
   .navbar-danebook .search-field {
     width: 200px;
@@ -166,6 +169,20 @@ $profile-image-width: 225px;
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
   .navbar-danebook .search-field {
     width: 300px;
+  }
+}
+@media (max-width: $screen-sm-max + 20px) {
+  .profile-header {
+
+    .cover-photo .profile-image-wrapper {
+      bottom: 0;
+    }
+
+    .profile-nav {
+      ul.nav li:first-child {
+        margin-left: 0;
+      }
+    }
   }
 }
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {

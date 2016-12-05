@@ -99,23 +99,25 @@ body {
   height: 350px;
   margin-bottom: 25px; }
   .profile-header .cover-photo {
+    position: relative;
     height: 300px;
     background: url("../images/hogwarts_small.jpg") no-repeat;
     background-size: cover;
     background-position: center; }
-  .profile-header .profile-nav {
-    position: relative;
-    height: 50px; }
-    .profile-header .profile-nav .profile-image-wrapper {
+    .profile-header .cover-photo .profile-image-wrapper {
       position: absolute;
+      left: 10px;
       bottom: -30px;
       display: inline-block;
       width: 225px;
       height: 225px;
-      overflow: hidden; }
-      .profile-header .profile-nav .profile-image-wrapper .profile-image {
+      overflow: hidden;
+      z-index: 1000; }
+      .profile-header .cover-photo .profile-image-wrapper .profile-image {
         width: 100%; }
-    .profile-header .profile-nav ul.nav li:nth-of-type(2) {
+  .profile-header .profile-nav {
+    height: 50px; }
+    .profile-header .profile-nav ul.nav li:first-child {
       margin-left: 235px; }
 
 .about-page {
@@ -147,6 +149,11 @@ body {
 @media (min-width: 750px) and (max-width: 969px) {
   .navbar-danebook .search-field {
     width: 300px; } }
+@media (max-width: 989px) {
+  .profile-header .cover-photo .profile-image-wrapper {
+    bottom: 0; }
+  .profile-header .profile-nav ul.nav li:first-child {
+    margin-left: 0; } }
 @media (min-width: 970px) and (max-width: 1169px) {
   .navbar-danebook .search-field {
     width: 500px; } }
