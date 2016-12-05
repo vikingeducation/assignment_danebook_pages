@@ -82,4 +82,13 @@ main {
     font-weight: bold;
     margin-bottom: 25px;
   }
+  p {
+    line-height: 1.5em;
+    input.form-control {
+      height: 30px;
+    }
+    textarea.about-textarea {
+      height: 160px;
+    }
+  }
 }
