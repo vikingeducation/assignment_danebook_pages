@@ -71,7 +71,8 @@ main {
   main .right-timeline {
     padding-right: 0; }
   main .post {
-    border: 1px solid #ccc; }
+    border: 1px solid #ccc;
+    margin-bottom: 70px; }
     main .post header {
       margin-top: -10px;
       text-align: center;
@@ -79,14 +80,26 @@ main {
       main .post header h4 {
         line-height: 30px; }
     main .post .post-textarea {
-      padding: 5px; }
+      padding: 8px; }
+    main .post .post-author {
+      padding: 8px; }
+      main .post .post-author img {
+        max-width: 80px;
+        max-height: 100px; }
+      main .post .post-author a {
+        text-decoration: underline; }
+      main .post .post-author p {
+        color: #aaa; }
+      main .post .post-author .post-date {
+        vertical-align: middle; }
     main .post .form-control {
       margin-bottom: 10px; }
     main .post footer {
-      border-top: 1px solid #ccc;
-      text-align: right;
-      background-color: #eee; }
-      main .post footer button {
-        margin: 5px 15px 5px 0; }
+      border: 1px solid #ccc;
+      background-color: #eee;
+      padding-top: 7px;
+      padding-bottom: 7px; }
+      main .post footer a {
+        text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */

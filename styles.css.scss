@@ -98,6 +98,8 @@ main {
   }
   .post {
     border: 1px solid #ccc;
+    margin-bottom: 70px;
+
     header {
       margin-top: -10px;
       text-align: center;
@@ -107,17 +109,34 @@ main {
       }
     }
     .post-textarea {
-      padding: 5px;
+      padding: 8px;
+    }
+    .post-author {
+      padding: 8px;
+      img {
+        max-width: 80px;
+        max-height: 100px;
+      }
+      a {
+        text-decoration: underline;
+      }
+      p {
+        color: #aaa;
+      }
+      .post-date {
+        vertical-align: middle;
+      }
     }
     .form-control {
       margin-bottom: 10px;
     }
     footer {
-      border-top: 1px solid #ccc;
-      text-align: right;
+      border: 1px solid #ccc;
       background-color: #eee;
-      button {
-        margin: 5px 15px 5px 0;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      a {
+        text-decoration: underline;
       }
     }
   }
