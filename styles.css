@@ -45,8 +45,9 @@
 
 main {
   margin-top: 70px;
-  border: 1px solid #ccc;
   padding-bottom: 50px; }
+  main.main-about {
+    border: 1px solid #ccc; }
   main header {
     height: 50px;
     line-height: 50px;
@@ -67,5 +68,25 @@ main {
       height: 30px; }
     main p textarea.about-textarea {
       height: 160px; }
+  main .right-timeline {
+    padding-right: 0; }
+  main .post {
+    border: 1px solid #ccc; }
+    main .post header {
+      margin-top: -10px;
+      text-align: center;
+      height: 30px; }
+      main .post header h4 {
+        line-height: 30px; }
+    main .post .post-textarea {
+      padding: 5px; }
+    main .post .form-control {
+      margin-bottom: 10px; }
+    main .post footer {
+      border-top: 1px solid #ccc;
+      text-align: right;
+      background-color: #eee; }
+      main .post footer button {
+        margin: 5px 15px 5px 0; }
 
 /*# sourceMappingURL=styles.css.map */

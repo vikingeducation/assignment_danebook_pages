@@ -63,7 +63,9 @@
 
 main {
   margin-top: 70px;
-  border: 1px solid #ccc;
+  &.main-about {
+    border: 1px solid #ccc;
+  }
   padding-bottom: 50px;
   header {
     height: 50px;
@@ -89,6 +91,34 @@ main {
     }
     textarea.about-textarea {
       height: 160px;
+    }
+  }
+  .right-timeline {
+    padding-right: 0;
+  }
+  .post {
+    border: 1px solid #ccc;
+    header {
+      margin-top: -10px;
+      text-align: center;
+      height: 30px;
+      h4 {
+        line-height: 30px;
+      }
+    }
+    .post-textarea {
+      padding: 5px;
+    }
+    .form-control {
+      margin-bottom: 10px;
+    }
+    footer {
+      border-top: 1px solid #ccc;
+      text-align: right;
+      background-color: #eee;
+      button {
+        margin: 5px 15px 5px 0;
+      }
     }
   }
 }
