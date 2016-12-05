@@ -1,6 +1,6 @@
 #navbar {
   background-color: #2B78E4;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid #aaa;
   img {
     height: 40px;
     width: 40px;
@@ -46,9 +46,35 @@
       color: #aaa;
     }
   }
-  .right-middle-nav>li {
-    a {
-      text-decoration: underline;
+  .right-middle-nav {
+    border-right: 1px solid #ccc;
+    li {
+      a {
+        text-decoration: underline;
+      }
     }
+  }
+}
+
+main {
+  margin-top: 70px;
+  border: 1px solid #ccc;
+  padding-bottom: 50px;
+  header {
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    h1 {
+      font-size: 30px;
+      line-height: 50px;
+      margin-top: 0;
+      font-weight: bold;
+    }
+  }
+  h2 {
+    font-weight: bold;
+    margin-bottom: 25px;
   }
 }
