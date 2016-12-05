@@ -10,6 +10,9 @@
     color: white;
     font-size: 30px;
   }
+  input {
+    width: 600px;
+  }
   li a {
     font-size: 20px;
     color: white;
@@ -17,17 +20,3 @@
 
 }
 
-.test {
-  display:table;
-}
-
-.test > .form-control {
-  display: table-cell;
-  margin-left:-3px;
-}
-
-.test > span {
-  display: table-cell;
-  width:1%;
-  padding:0 3px;
-}
