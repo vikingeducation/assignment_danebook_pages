@@ -52,13 +52,29 @@
       </div><!-- /.container -->
     </nav>
 
-    <header class="jumbotron" id="header">
+    <header id="header">
       <div class="container">
-        <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg" alt="default cover photo" class="img-responsive back-photo">
-        <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="harry's profile pic" class="img-responsive img-thumbnail profile-photo">
+        <div class="row">
+          <div class="col-xs-12 cover-photo"></div>
+        </div>
+        <nav class="row">
+          <div class="col-xs-2">
+            <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="harry's profile pic" class="img-responsive img-thumbnail profile-photo">
+          </div>
+          <ul class="nav nav-tabs col-xs-8 left-middle-nav">
+            <li role="presentation"><a href="timeline.html">Timeline</a></li>
+            <li role="presentation" class="active"><a href="about.html">About</a></li>
+            <li role="presentation"><a href="photos.html">Photos <span class="count">(123)</span></a></li>
+            <li role="presentation"><a href="friends.html">Friends <span class="count">(523)</span></a></li>
+          </ul>
+          <ul class="nav nav-tabs col-xs-2 right-middle-nav">
+            <li><a href="about_edit.html">Edit profile</a></li>
+          </ul>
+        </nav>
       </div>
-
     </header>
+    
+    
 
   </body>
 
