@@ -26,6 +26,11 @@
     padding-top: 50px;
     background: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg") no-repeat;
     background-size: 100%;
+    h1 {
+      margin-top: 250px;
+      color: white;
+      font-weight: bold;
+    }
   }
   img.profile-photo {
     max-height: 180px;
