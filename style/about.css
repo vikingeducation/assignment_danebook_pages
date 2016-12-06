@@ -55,7 +55,7 @@ main .profile-picture {
   height: 180px;
   top: 250px;
   left: 20px;
-  background-image: url("../assets/harry_potter_small.jpg");
+  background-image: url("../assets/harry_potter_small.png");
   position: relative;
   z-index: 99999; }
   @media (min-width: 1200px) {
