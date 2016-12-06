@@ -132,5 +132,16 @@ main {
       main .post .see-more a {
         text-decoration: underline;
         font-weight: bold; }
+  main .friends-field {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .friends-field button {
+      background-color: #eee; }
+    main .friends-field a {
+      text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */
