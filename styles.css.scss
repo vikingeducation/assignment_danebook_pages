@@ -167,5 +167,12 @@ main {
         padding-left: 0;
       }
     }
+    .see-more {
+      padding-bottom: 14px;
+      a {
+        text-decoration: underline;
+        font-weight: bold;
+      }
+    }
   }
 }
