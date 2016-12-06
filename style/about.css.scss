@@ -1,0 +1,35 @@
+.navbar{
+	background-color: #426bf4;
+	.navbar-wrapper{
+		width: 1400px;
+		margin: 0 auto;
+	}
+	img{
+		height: 50px;
+		width: 50px;
+		vertical-align: middle;
+	}
+	.danebook-label{
+		font-size: 44px;
+		color: white;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 20px;
+	}
+	form{
+		display: inline-block;
+		margin-left: 20px;
+		input{
+			vertical-align: middle;
+			font-size: 20px;
+			width: 850px;
+		}
+	}
+	.name-label{
+		font-size: 24px;
+		color: white;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 150px;
+	}
+}
