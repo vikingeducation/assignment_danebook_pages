@@ -32,9 +32,8 @@
       font-weight: bold;
     }
   }
-  img.profile-photo {
+  img {
     max-height: 180px;
-    width: 160px;
     margin-top: -150px;
   }
  .left-middle-nav>li{
@@ -53,10 +52,8 @@
   }
   .right-middle-nav {
     border-right: 1px solid #ccc;
-    li {
-      a {
-        text-decoration: underline;
-      }
+    li>a {
+      text-decoration: underline;
     }
   }
 }
@@ -215,5 +212,4 @@ main {
       }
     }
     }
-  
 }

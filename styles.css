@@ -25,9 +25,8 @@
       margin-top: 250px;
       color: white;
       font-weight: bold; }
-  #header img.profile-photo {
+  #header img {
     max-height: 180px;
-    width: 160px;
     margin-top: -150px; }
   #header .left-middle-nav > li a {
     color: #333;
@@ -40,7 +39,7 @@
     color: #aaa; }
   #header .right-middle-nav {
     border-right: 1px solid #ccc; }
-    #header .right-middle-nav li a {
+    #header .right-middle-nav li > a {
       text-decoration: underline; }
 
 main {
