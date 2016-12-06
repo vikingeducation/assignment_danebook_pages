@@ -72,13 +72,13 @@ main {
     padding-right: 0; }
   main .post {
     border: 1px solid #ccc;
-    margin-bottom: 70px; }
+    margin-bottom: 20px;
+    padding: 0; }
     main .post header {
-      margin-top: -10px;
       text-align: center;
       height: 30px; }
       main .post header h4 {
-        line-height: 30px; }
+        margin-top: 5px; }
     main .post .post-textarea {
       padding: 8px; }
     main .post .post-author {
@@ -93,12 +93,13 @@ main {
     main .post .form-control {
       margin-bottom: 10px; }
     main .post footer {
-      border: 1px solid #ccc;
+      border-top: 1px solid #ccc;
       background-color: #eee;
       padding-top: 7px;
       padding-bottom: 7px; }
       main .post footer p {
-        padding-top: 7px; }
+        padding-top: 7px;
+        color: #888; }
       main .post footer a {
         text-decoration: underline; }
 
