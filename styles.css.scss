@@ -123,9 +123,6 @@ main {
       p {
         color: #aaa;
       }
-      .post-date {
-        vertical-align: middle;
-      }
     }
     .form-control {
       margin-bottom: 10px;
@@ -135,6 +132,9 @@ main {
       background-color: #eee;
       padding-top: 7px;
       padding-bottom: 7px;
+      p {
+        padding-top: 7px;
+      }
       a {
         text-decoration: underline;
       }

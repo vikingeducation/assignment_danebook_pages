@@ -90,8 +90,6 @@ main {
         text-decoration: underline; }
       main .post .post-author p {
         color: #aaa; }
-      main .post .post-author .post-date {
-        vertical-align: middle; }
     main .post .form-control {
       margin-bottom: 10px; }
     main .post footer {
@@ -99,6 +97,8 @@ main {
       background-color: #eee;
       padding-top: 7px;
       padding-bottom: 7px; }
+      main .post footer p {
+        padding-top: 7px; }
       main .post footer a {
         text-decoration: underline; }
 
