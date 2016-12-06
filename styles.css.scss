@@ -109,12 +109,15 @@ main {
     }
     .post-textarea {
       padding: 8px;
+     .form-control {
+        margin-bottom: 10px;
+      }
     }
     .post-author {
       padding: 8px;
       img {
-        max-width: 80px;
-        max-height: 100px;
+        width: 80px;
+        height: 80px;
       }
       a {
         text-decoration: underline;
@@ -123,20 +126,45 @@ main {
         color: #aaa;
       }
     }
-    .form-control {
-      margin-bottom: 10px;
-    }
     footer {
       border-top: 1px solid #ccc;
       background-color: #eee;
       padding-top: 7px;
       padding-bottom: 7px;
+      &.comment-footer {
+        border: none;
+        padding-top: 0;
+      }
       p {
         padding-top: 7px;
         color: #888;
       }
       a {
         text-decoration: underline;
+      }
+    }
+    .post-comment {
+      padding-left: 0;
+      margin-bottom: 0;
+      border: none;
+      border-top: 1px solid #ccc;
+      background-color: #eee;
+      .post-textarea {
+        padding-bottom: 0;
+      }
+    }
+    .comment-textarea {
+      padding-left: 8px;
+    }
+    .comment-footer {
+      padding-left: 8px;
+      color: #888;
+      a {
+        text-decoration: underline;
+        padding-right: 20px;
+      }
+      p.col-xs-10 {
+        padding-left: 0;
       }
     }
   }

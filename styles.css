@@ -81,26 +81,47 @@ main {
         margin-top: 5px; }
     main .post .post-textarea {
       padding: 8px; }
+      main .post .post-textarea .form-control {
+        margin-bottom: 10px; }
     main .post .post-author {
       padding: 8px; }
       main .post .post-author img {
-        max-width: 80px;
-        max-height: 100px; }
+        width: 80px;
+        height: 80px; }
       main .post .post-author a {
         text-decoration: underline; }
       main .post .post-author p {
         color: #aaa; }
-    main .post .form-control {
-      margin-bottom: 10px; }
     main .post footer {
       border-top: 1px solid #ccc;
       background-color: #eee;
       padding-top: 7px;
       padding-bottom: 7px; }
+      main .post footer.comment-footer {
+        border: none;
+        padding-top: 0; }
       main .post footer p {
         padding-top: 7px;
         color: #888; }
       main .post footer a {
         text-decoration: underline; }
+    main .post .post-comment {
+      padding-left: 0;
+      margin-bottom: 0;
+      border: none;
+      border-top: 1px solid #ccc;
+      background-color: #eee; }
+      main .post .post-comment .post-textarea {
+        padding-bottom: 0; }
+    main .post .comment-textarea {
+      padding-left: 8px; }
+    main .post .comment-footer {
+      padding-left: 8px;
+      color: #888; }
+      main .post .comment-footer a {
+        text-decoration: underline;
+        padding-right: 20px; }
+      main .post .comment-footer p.col-xs-10 {
+        padding-left: 0; }
 
 /*# sourceMappingURL=styles.css.map */
