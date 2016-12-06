@@ -194,5 +194,26 @@ main {
     a {
       text-decoration: underline;
     }
+    p {
+      color: #888;
+    }
   }
+  .photos-row {
+    margin-bottom: 20px;
+    .thumbnail {
+      .caption {
+        background-color: #888;
+        visibility: hidden;
+        border-top: 1px solid #aaa;
+        color: white;
+        text-align: center;
+      }
+    }
+    .thumbnail:hover {
+      .caption {
+        visibility: visible;
+      }
+    }
+    }
+  
 }
