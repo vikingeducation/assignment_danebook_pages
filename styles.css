@@ -83,6 +83,10 @@ main {
       padding: 8px; }
       main .post .post-textarea .form-control {
         margin-bottom: 10px; }
+      main .post .post-textarea a {
+        text-decoration: underline; }
+      main .post .post-textarea h5 {
+        text-align: center; }
     main .post .post-author {
       padding: 8px; }
       main .post .post-author img {
