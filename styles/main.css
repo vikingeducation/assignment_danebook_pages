@@ -134,11 +134,14 @@ body {
     .about-page .about-header .title {
       font-size: 1.5em;
       font-weight: bold; }
-  .about-page .about-info section h1, .about-page .about-info section p {
+  .about-page .about-info section h1, .about-page .about-info section p, .about-page .about-info section textarea {
     margin-bottom: 1.5em; }
   .about-page .about-info section h1 {
     font-size: 1.2em;
     font-weight: bold; }
+  .about-page .about-info .submit-wrapper {
+    width: 40%;
+    margin: 0 auto; }
 
 /*
  *  Responsive styles

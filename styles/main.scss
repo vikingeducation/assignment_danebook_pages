@@ -137,14 +137,21 @@ $profile-nav-height: 50px;
     }
   }
 
-  .about-info section {
-    h1, p {
-      margin-bottom: 1.5em;
+  .about-info {
+    section {
+      h1, p, textarea {
+        margin-bottom: 1.5em;
+      }
+
+      h1 {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
     }
 
-    h1 {
-      font-size: 1.2em;
-      font-weight: bold;
+    .submit-wrapper {
+      width: 40%;
+      margin: 0 auto;
     }
   }
 }
