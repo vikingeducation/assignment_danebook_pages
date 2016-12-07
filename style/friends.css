@@ -1,3 +1,40 @@
+.friend-wrapper {
+  text-align: center; }
 
+.friends-wrapper {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-bottom: 30px; }
+
+.a-friend {
+  height: 200px;
+  border: 2px solid black; }
+
+.friends-wrapper-line {
+  margin-top: 20px; }
+
+.friend-pic {
+  line-height: 200px;
+  padding-left: 30px; }
+
+.friend-info {
+  font-size: 18px;
+  padding-top: 70px;
+  /* FIXME : hack for vertical middle*/
+  text-align: left;
+  color: #aaa; }
+  .friend-info a {
+    text-decoration: underline; }
+
+.friend-btn {
+  padding-top: 70px;
+  /* FIXME : hack for vertical middle*/ }
+
+.btn-unfriend {
+  background-color: #aaa;
+  font-size: 16px;
+  box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76);
+  height: 40px; }
 
 /*# sourceMappingURL=friends.css.map */
