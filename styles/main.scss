@@ -75,7 +75,7 @@ body {
   margin: 50px auto 0;
 }
 
-/* about.html */
+/* Header that appears on every page */
 
 $profile-image-width: 225px;
 $cover-photo-height: 300px;
@@ -118,6 +118,8 @@ $profile-nav-height: 50px;
   }
 }
 
+/* about.html */
+
 .about-page {
   clear: both;
   border: 1px solid black;
@@ -137,23 +139,32 @@ $profile-nav-height: 50px;
     }
   }
 
-  .about-info {
-    section {
-      h1, p, textarea {
-        margin-bottom: 1.5em;
-      }
-
-      h1 {
-        font-size: 1.2em;
-        font-weight: bold;
-      }
+  .about-info section {
+    h1, p, textarea {
+      margin-bottom: 1.5em;
     }
 
-    .submit-wrapper {
-      width: 40%;
-      margin: 0 auto;
+    h1 {
+      font-size: 1.2em;
+      font-weight: bold;
     }
   }
+}
+
+/* about_edit.html */
+
+.about-page .about-info .submit-wrapper {
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* friends.html */
+
+.friend-card {
+  border: 1px solid black;
+  width: 90%;
+  min-height: 100px;
+  margin: 0 auto;
 }
 
 

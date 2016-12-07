@@ -94,7 +94,7 @@ body {
   width: 80%;
   margin: 50px auto 0; }
 
-/* about.html */
+/* Header that appears on every page */
 .profile-header {
   height: 350px;
   margin-bottom: 25px; }
@@ -120,6 +120,7 @@ body {
     .profile-header .profile-nav ul.nav li:first-child {
       margin-left: 235px; }
 
+/* about.html */
 .about-page {
   clear: both;
   border: 1px solid black;
@@ -139,9 +140,18 @@ body {
   .about-page .about-info section h1 {
     font-size: 1.2em;
     font-weight: bold; }
-  .about-page .about-info .submit-wrapper {
-    width: 40%;
-    margin: 0 auto; }
+
+/* about_edit.html */
+.about-page .about-info .submit-wrapper {
+  width: 40%;
+  margin: 0 auto; }
+
+/* friends.html */
+.friend-card {
+  border: 1px solid black;
+  width: 90%;
+  min-height: 100px;
+  margin: 0 auto; }
 
 /*
  *  Responsive styles
