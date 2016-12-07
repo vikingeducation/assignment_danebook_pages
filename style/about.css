@@ -66,10 +66,22 @@ main .profile-picture {
       top: 210px; } }
 main .profile-container {
   margin-top: 20px; }
-  main .profile-container .info-line {
+  main .profile-container .save-line {
     border-left: 2px solid black;
     border-right: 2px solid black;
-    border-bottom: 2px solid black; }
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding-bottom: 300px; }
+    main .profile-container .save-line button {
+      width: 90%;
+      height: 60px;
+      box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76);
+      font-size: 25px; }
+  main .profile-container .info-line {
+    border-left: 2px solid black;
+    border-right: 2px solid black; }
+    main .profile-container .info-line .basic-info-line {
+      margin-top: 4px; }
   main .profile-container .about-line {
     background-color: #eee;
     border: 2px solid black; }
@@ -84,12 +96,15 @@ main .profile-container {
       text-align: right; }
   main .profile-container .info-wrapper {
     padding: 30px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px; }
   main .profile-container .aboutme-wrapper {
     padding: 30px; }
   main .profile-container h2 {
     margin-top: 30px;
     margin-bottom: 30px; }
+
+#lives {
+  height: 155px; }
 
 /*# sourceMappingURL=about.css.map */
