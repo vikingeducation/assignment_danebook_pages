@@ -167,6 +167,36 @@ $profile-nav-height: 50px;
   margin: 0 auto;
 }
 
+/* photos.html */
+
+.photo-card {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 2em auto;
+
+  img {
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 1em;
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 500;
+  }
+
+  &:hover .overlay {
+    display: block;
+  }
+}
+
 
 
 /*
