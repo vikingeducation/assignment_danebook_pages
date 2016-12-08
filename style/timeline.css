@@ -1,0 +1,120 @@
+.right-columns-timeline {
+  padding-left: 40px; }
+
+.column-label-line {
+  background-color: #eee;
+  border: 2px solid black;
+  margin-top: 20px; }
+  .column-label-line .column-label {
+    font-size: 16px;
+    text-align: center; }
+
+.column-area {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  overflow: auto; }
+
+.column-area-with-top-border {
+  border-top: 2px solid black; }
+
+.column-area-footer {
+  background-color: #eee;
+  margin-bottom: 25px;
+  padding-left: 10px; }
+
+.column-area-footer-no-margin {
+  background-color: #eee;
+  height: 70px;
+  border-bottom: 2px solid #aaa;
+  padding-left: 10px; }
+
+.comments-section {
+  background-color: #eee;
+  padding-left: 10px;
+  padding-top: 5px; }
+
+.about-content {
+  padding-left: 30px;
+  padding-top: 10px; }
+  .about-content h4 {
+    display: inline-block; }
+
+.photos-section-wrapper {
+  text-align: center;
+  padding-top: 15px; }
+  .photos-section-wrapper .row {
+    margin-bottom: 15px; }
+  .photos-section-wrapper img {
+    height: 130px;
+    width: 130px; }
+  .photos-section-wrapper a {
+    text-decoration: underline; }
+    .photos-section-wrapper a h5 {
+      font-size: 22px; }
+
+.post-btn-wrapper {
+  line-height: 70px; }
+  .post-btn-wrapper .btn-post {
+    font-size: 18px;
+    width: 80px;
+    box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76); }
+
+.post-content-wrapper, .comment-text-area {
+  padding: 15px; }
+  .post-content-wrapper #postcontent, .comment-text-area #postcontent {
+    height: 100px; }
+
+.posted-post-wrapper {
+  padding: 5px; }
+  .posted-post-wrapper a {
+    text-decoration: underline; }
+  .posted-post-wrapper .posted-time {
+    color: #aaa; }
+
+.posted-post-content-wrapper p {
+  padding: 15px; }
+
+.small-profile-pic {
+  height: 60px;
+  width: 60px; }
+
+.author-info-wrapper {
+  vertical-align: middle;
+  display: inline-block; }
+
+.like-button .like-stat-text {
+  color: #777; }
+.like-button a {
+  text-decoration: underline; }
+
+.likes-stat {
+  margin-top: 15px; }
+
+@media (min-width: 1200px) {
+  .commenter-photo {
+    padding-left: 40px; } }
+
+.comment-info-wrapper a {
+  text-decoration: underline; }
+.comment-info-wrapper span {
+  color: #777; }
+
+.commenter-comment {
+  padding-top: 15px; }
+
+.commenter-buttons span {
+  color: #777;
+  padding-left: 5px; }
+
+.a-comment-line {
+  margin-bottom: 25px; }
+
+.comment-buttons a {
+  text-decoration: underline; }
+.comment-buttons .btn-comment {
+  font-size: 14px;
+  box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76);
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=timeline.css.map */

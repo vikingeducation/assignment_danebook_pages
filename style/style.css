@@ -1,0 +1,112 @@
+.navbar {
+  background-color: #426bf4;
+  margin-bottom: 0; }
+  .navbar .navbar-wrapper {
+    width: 1170px;
+    margin: 0 auto; }
+  .navbar img {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle; }
+  .navbar .danebook-label {
+    font-size: 44px;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px; }
+  .navbar form {
+    display: inline-block;
+    margin-left: 40px; }
+    .navbar form input {
+      vertical-align: middle;
+      font-size: 20px;
+      width: 650px; }
+  .navbar .name-label {
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px; }
+
+main {
+  margin-bottom: 30px; }
+  main .cover-container {
+    background-image: url("../assets/hogwarts_small.jpg");
+    height: 400px; }
+  main .buttons-container {
+    font-size: 14px;
+    border: 2px solid black; }
+  main .bordered-column {
+    border-left: 2px solid black;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 45px; }
+  main .left-columns {
+    color: #aaa; }
+    @media (max-width: 1200px) {
+      main .left-columns {
+        font-size: 12px; } }
+    main .left-columns b {
+      color: black; }
+    main .left-columns #clicked-button {
+      background-color: #eee; }
+  main .right-columns a {
+    text-decoration: underline;
+    float: right; }
+  main .profile-picture {
+    width: 180px;
+    height: 180px;
+    top: 250px;
+    left: 20px;
+    background-image: url("../assets/harry_potter_small.png");
+    position: relative;
+    z-index: 99999; }
+    @media (min-width: 1200px) {
+      main .profile-picture {
+        width: 220px;
+        height: 220px;
+        top: 210px; } }
+  main .profile-container {
+    margin-top: 20px; }
+    main .profile-container .save-line {
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      text-align: center;
+      padding-bottom: 300px; }
+      main .profile-container .save-line button {
+        width: 90%;
+        height: 60px;
+        box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76);
+        font-size: 25px; }
+    main .profile-container .info-line {
+      border-left: 2px solid black;
+      border-right: 2px solid black; }
+      main .profile-container .info-line .basic-info-line {
+        margin-top: 4px; }
+    main .profile-container .about-line {
+      background-color: #eee;
+      border: 2px solid black; }
+      main .profile-container .about-line button {
+        box-shadow: 6px 3px 14px 1px rgba(0, 0, 0, 0.76);
+        font-size: 13px; }
+      main .profile-container .about-line .about-label {
+        font-size: 33px;
+        text-align: center; }
+      main .profile-container .about-line .edit-button {
+        line-height: 56px;
+        text-align: right; }
+    main .profile-container .info-wrapper {
+      padding: 30px;
+      font-size: 14px;
+      line-height: 30px; }
+    main .profile-container .aboutme-wrapper {
+      padding: 30px; }
+    main .profile-container h2 {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+
+#lives {
+  height: 155px; }
+
+/*# sourceMappingURL=style.css.map */
