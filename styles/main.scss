@@ -118,15 +118,15 @@ $profile-nav-height: 50px;
   }
 }
 
-/* about.html */
+/* widget boxes */
 
-.about-page {
+.widget-box {
   clear: both;
   border: 1px solid black;
   margin-bottom: 3em;
   padding-bottom: 2em;
 
-  .about-header {
+  .widget-header {
     background-color: #eee;
     line-height: 2em;
     padding: .5em;
@@ -138,8 +138,12 @@ $profile-nav-height: 50px;
       font-weight: bold;
     }
   }
+}
 
-  .about-info section {
+/* about.html & about_edit.html */
+
+.about-page .about-info {
+  section {
     h1, p, textarea {
       margin-bottom: 1.5em;
     }
@@ -149,13 +153,11 @@ $profile-nav-height: 50px;
       font-weight: bold;
     }
   }
-}
 
-/* about_edit.html */
-
-.about-page .about-info .submit-wrapper {
-  width: 40%;
-  margin: 0 auto;
+  .submit-wrapper {
+    width: 40%;
+    margin: 0 auto;
+  }
 }
 
 /* friends.html */
@@ -195,6 +197,18 @@ $profile-nav-height: 50px;
   &:hover .overlay {
     display: block;
   }
+}
+
+/* timeline.html */
+
+.widget-box .widget-header .title {
+  font-size: 1em;
+}
+
+.about-widget-body {
+  width: 80%;
+  line-height: 1.2em;
+  margin: 0 auto;
 }
 
 

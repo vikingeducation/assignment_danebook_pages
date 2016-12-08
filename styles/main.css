@@ -120,28 +120,28 @@ body {
     .profile-header .profile-nav ul.nav li:first-child {
       margin-left: 235px; }
 
-/* about.html */
-.about-page {
+/* widget boxes */
+.widget-box {
   clear: both;
   border: 1px solid black;
   margin-bottom: 3em;
   padding-bottom: 2em; }
-  .about-page .about-header {
+  .widget-box .widget-header {
     background-color: #eee;
     line-height: 2em;
     padding: .5em;
     margin-bottom: 2em;
     border-bottom: 1px solid black; }
-    .about-page .about-header .title {
+    .widget-box .widget-header .title {
       font-size: 1.5em;
       font-weight: bold; }
-  .about-page .about-info section h1, .about-page .about-info section p, .about-page .about-info section textarea {
-    margin-bottom: 1.5em; }
-  .about-page .about-info section h1 {
-    font-size: 1.2em;
-    font-weight: bold; }
 
-/* about_edit.html */
+/* about.html & about_edit.html */
+.about-page .about-info section h1, .about-page .about-info section p, .about-page .about-info section textarea {
+  margin-bottom: 1.5em; }
+.about-page .about-info section h1 {
+  font-size: 1.2em;
+  font-weight: bold; }
 .about-page .about-info .submit-wrapper {
   width: 40%;
   margin: 0 auto; }
@@ -174,6 +174,15 @@ body {
     z-index: 500; }
   .photo-card:hover .overlay {
     display: block; }
+
+/* timeline.html */
+.widget-box .widget-header .title {
+  font-size: 1em; }
+
+.about-widget-body {
+  width: 80%;
+  line-height: 1.2em;
+  margin: 0 auto; }
 
 /*
  *  Responsive styles
