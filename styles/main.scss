@@ -38,6 +38,10 @@ body {
   background-color: $dane-blue;
   border: none;
 
+  .nh-danebook {
+    position: relative;
+  }
+
   .danebook-brand {
     color: $navbar-text-color;
     margin-left: 2.5em;
@@ -178,7 +182,7 @@ $profile-nav-height: 50px;
     height: 50px;
     margin: 5%;
     padding: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
 
     .friend-pic {
       width: 100%;
@@ -259,7 +263,7 @@ $screen-md-max: 1169px;
 
     .profile-nav {
       ul.nav li:first-child {
-        margin-left: 0;
+        margin-left: initial;
       }
     }
   }
