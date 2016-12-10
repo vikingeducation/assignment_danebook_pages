@@ -1,0 +1,218 @@
+/*
+ *  http://meyerweb.com/eric/tools/css/reset/
+ *  v2.0 | 20110126
+ *  License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* "borrowed" from https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+/*
+ *  Custom styles
+ */
+body {
+  font-family: arial, sans-serif; }
+
+/* Danebook nav bar */
+.navbar-danebook {
+  background-color: #2B78E4;
+  border: none; }
+  .navbar-danebook .nh-danebook {
+    position: relative; }
+  .navbar-danebook .danebook-brand {
+    color: white;
+    margin-left: 2.5em; }
+  .navbar-danebook .navbar-nav > li > a {
+    color: white; }
+    .navbar-danebook .navbar-nav > li > a:hover {
+      color: #eee; }
+  .navbar-danebook .logo-wrapper {
+    display: block;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    overflow: hidden; }
+    .navbar-danebook .logo-wrapper .flag-logo {
+      width: 50px; }
+  .navbar-danebook .search-field {
+    width: 700px; }
+
+/* Main content wrapper */
+.page-wrapper {
+  width: 80%;
+  margin: 50px auto 0; }
+
+/* Header that appears on every page */
+.profile-header {
+  height: 350px;
+  margin-bottom: 25px; }
+  .profile-header .cover-photo {
+    position: relative;
+    height: 300px;
+    background: url("../images/hogwarts_small.jpg") no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .profile-header .cover-photo .profile-image-wrapper {
+      position: absolute;
+      left: 10px;
+      bottom: -30px;
+      display: inline-block;
+      width: 225px;
+      height: 225px;
+      overflow: hidden;
+      z-index: 1000; }
+      .profile-header .cover-photo .profile-image-wrapper .profile-image {
+        width: 100%; }
+  .profile-header .profile-nav {
+    height: 50px; }
+    .profile-header .profile-nav ul.nav li:first-child {
+      margin-left: 235px; }
+
+/* widget boxes */
+.widget-box {
+  clear: both;
+  border: 1px solid black;
+  margin-bottom: 3em;
+  padding-bottom: 2em; }
+  .widget-box .widget-header {
+    background-color: #eee;
+    line-height: 2em;
+    padding: .5em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid black; }
+    .widget-box .widget-header .title {
+      font-size: 1.5em;
+      font-weight: bold; }
+
+/* about.html & about_edit.html */
+.about-page .about-info section h1, .about-page .about-info section p, .about-page .about-info section textarea {
+  margin-bottom: 1.5em; }
+.about-page .about-info section h1 {
+  font-size: 1.2em;
+  font-weight: bold; }
+.about-page .about-info .submit-wrapper {
+  width: 40%;
+  margin: 0 auto; }
+
+/* friends.html */
+.friend-card {
+  border: 1px solid black;
+  width: 90%;
+  height: 100px;
+  margin: 0 auto; }
+  .friend-card .friend-info,
+  .friend-card button {
+    margin-top: 5%; }
+  .friend-card .friend-pic-wrapper {
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+    padding: 0;
+    overflow: hidden; }
+    .friend-card .friend-pic-wrapper .friend-pic {
+      width: 100%; }
+
+/* photos.html */
+.photo-card {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 2em auto; }
+  .photo-card img {
+    width: 100%; }
+  .photo-card .overlay {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 1em;
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 500; }
+  .photo-card:hover .overlay {
+    display: block; }
+
+/* timeline.html */
+.widget-box .widget-header .title {
+  font-size: 1em; }
+
+.about-widget-body {
+  width: 80%;
+  line-height: 1.2em;
+  margin: 0 auto; }
+
+/*
+ *  Responsive styles
+ */
+@media (max-width: 749px) {
+  .navbar-danebook .search-field {
+    width: 200px; } }
+@media (min-width: 750px) and (max-width: 969px) {
+  .navbar-danebook .search-field {
+    width: 300px; } }
+@media (max-width: 989px) {
+  .profile-header .cover-photo .profile-image-wrapper {
+    bottom: 0; }
+  .profile-header .profile-nav ul.nav li:first-child {
+    margin-left: initial; } }
+@media (min-width: 970px) and (max-width: 1169px) {
+  .navbar-danebook .search-field {
+    width: 500px; } }
+
+/*# sourceMappingURL=main.css.map */

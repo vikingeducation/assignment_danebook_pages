@@ -1,1 +1,124 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Danebook</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles/main.css"/>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top navbar-danebook">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header nh-danebook">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-left" href="#">
+              <span class="logo-wrapper vertical-align"><img alt="Brand" class="flag-logo" src="images/danish_flag.gif"></span>
+            </a>
+            <h1 class="navbar-text danebook-brand">Danebook</h1>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control search-field" placeholder="Search for Users"/>
+              </div>
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Harry</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
+    </header>
+
+    <div class="page-wrapper">
+      <section class="profile-header">
+        <div class="cover-photo">
+          <div class="profile-image-wrapper">
+            <img class="profile-image" alt="Profile image" src="images/harry_potter_small.jpg"/>
+          </div>
+        </div>
+        <nav class="navbar navbar-default profile-nav">
+          <div class="navbar-header pull-left">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Timeline</a></li>
+              <li><a href="#">About</a></li>
+              <li class="active"><a href="#">Photos <span class="muted">(123)</span></a></li>
+              <li><a href="#">Friends <span class="muted">(543)</span></a></li>
+            </ul>
+          </div>
+          <div class="navbar-header pull-right">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Edit profile</a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+
+      <main class="timeline-page">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5">
+              <section class="widget-box about-widget">
+                <header class="widget-header">
+                  <h1 class="title text-center">About</h1>
+                </header>
+
+                <div class="about-widget-body">
+                  <p>Born on: July 31st, 1980</p>
+                  <p>Went to school at: Hogwarts</p>
+                  <p>Hometown: Godric's Hollow, England</p>
+                  <p>Currently lives: Surrey, England</p>
+                </div>
+              </section>
+
+              <section class="widget-box photos-widget">
+                <header class="widget-header">
+                  <h1 class="title text-center">Photos (123)</h1>
+                </header>
+              </section>
+
+              <section class="widget-box friends-widget">
+                <header class="widget-header">
+                  <h1 class="title text-center">Friends (542)</h1>
+                </header>
+              </section>
+            </div>
+
+            <div class="col-md-7">
+              <section class="widget-box post-widget">
+                <header class="widget-header">
+                  <h1 class="title text-center">Post</h1>
+                </header>
+              </section>
+
+              <article class="timeline-comment"></article>
+              <article class="timeline-comment"></article>
+              <article class="timeline-comment"></article>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Custom code -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

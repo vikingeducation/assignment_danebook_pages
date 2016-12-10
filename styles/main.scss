@@ -1,0 +1,275 @@
+@import 'reset';
+
+/* "borrowed" from https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+/*
+ *  Custom styles
+ */
+
+$dane-blue: #2B78E4;
+$navbar-text-color: white;
+
+body {
+  font-family: arial, sans-serif; 
+}
+
+/* Danebook nav bar */
+
+.navbar-danebook {
+  background-color: $dane-blue;
+  border: none;
+
+  .nh-danebook {
+    position: relative;
+  }
+
+  .danebook-brand {
+    color: $navbar-text-color;
+    margin-left: 2.5em;
+  }
+
+  .navbar-nav > li > a {
+    color: $navbar-text-color;
+
+    &:hover {
+      color: #eee;
+    }
+  }
+
+  .logo-wrapper {
+    display: block;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    overflow: hidden;
+
+    .flag-logo {
+      width: 50px;
+    }
+  }
+
+  .search-field {
+    width: 700px;
+  }
+}
+
+/* Main content wrapper */
+
+.page-wrapper {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+/* Header that appears on every page */
+
+$profile-image-width: 225px;
+$cover-photo-height: 300px;
+$cover-photo-margin: 10px;
+$profile-nav-height: 50px;
+
+.profile-header {
+  height: $cover-photo-height + $profile-nav-height;
+  margin-bottom: 25px;
+
+  .cover-photo {
+    position: relative;
+    height: $cover-photo-height;
+    background: url("../images/hogwarts_small.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .profile-image-wrapper {
+      position: absolute;
+      left: $cover-photo-margin;
+      bottom: -30px;
+      display: inline-block;
+      width: $profile-image-width;
+      height: $profile-image-width;
+      overflow: hidden;
+      z-index: 1000;
+
+      .profile-image {
+        width: 100%;
+      }
+    }
+  }
+
+  .profile-nav {
+    height: $profile-nav-height;
+
+    ul.nav li:first-child {
+      margin-left: $profile-image-width + $cover-photo-margin;
+    }
+  }
+}
+
+/* widget boxes */
+
+.widget-box {
+  clear: both;
+  border: 1px solid black;
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+
+  .widget-header {
+    background-color: #eee;
+    line-height: 2em;
+    padding: .5em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid black;
+
+    .title {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
+}
+
+/* about.html & about_edit.html */
+
+.about-page .about-info {
+  section {
+    h1, p, textarea {
+      margin-bottom: 1.5em;
+    }
+
+    h1 {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
+
+  .submit-wrapper {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+/* friends.html */
+
+.friend-card {
+  border: 1px solid black;
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+
+  .friend-info,
+  button {
+    margin-top: 5%;
+  }
+
+  .friend-pic-wrapper {
+    width: 50px;
+    height: 50px;
+    margin: 5%;
+    padding: 0;
+    overflow: hidden;
+
+    .friend-pic {
+      width: 100%;
+    }
+  }
+}
+
+/* photos.html */
+
+.photo-card {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto 2em auto;
+
+  img {
+    width: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    display: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 1em;
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    z-index: 500;
+  }
+
+  &:hover .overlay {
+    display: block;
+  }
+}
+
+/* timeline.html */
+
+.widget-box .widget-header .title {
+  font-size: 1em;
+}
+
+.about-widget-body {
+  width: 80%;
+  line-height: 1.2em;
+  margin: 0 auto;
+}
+
+
+
+/*
+ *  Responsive styles
+ */
+
+$screen-xs-max: 749px;
+$screen-sm-min: 750px;
+$screen-sm-max: 969px;
+$screen-md-min: 970px;
+$screen-md-max: 1169px;
+
+@media (max-width: $screen-xs-max) {
+  .navbar-danebook .search-field {
+    width: 200px;
+  }
+}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .navbar-danebook .search-field {
+    width: 300px;
+  }
+}
+@media (max-width: $screen-sm-max + 20px) {
+  .profile-header {
+
+    .cover-photo .profile-image-wrapper {
+      bottom: 0;
+    }
+
+    .profile-nav {
+      ul.nav li:first-child {
+        margin-left: initial;
+      }
+    }
+  }
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+  .navbar-danebook .search-field {
+    width: 500px;
+  }
+}
