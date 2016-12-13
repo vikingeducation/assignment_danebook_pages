@@ -169,3 +169,69 @@ $secondary-gray: #f9f9f9;
 }
 
 	/**** END NAVBAR ****/
+
+#user-profile-head{
+	margin-bottom: 30px;
+	.profile-banner{
+		width: 100%;
+		margin: 0;
+	}
+
+	@media (min-width: 1200px){
+		.profile-banner{
+		}
+	}
+
+	.profile-photo-element{
+		border: 2px solid $prime-white;
+		position: absolute;
+		bottom: -25px;
+		left: 45px;
+	}
+
+	@media (max-width: 768px){
+		.profile-photo-element{
+			left: 25px;
+			max-width: 138px;
+		}
+	}
+	.edit-profile-element{
+		margin-top: 10px;
+		margin-right: 10px;
+		float: right;
+	}
+
+	.profile-nav{
+		background-color: $prime-gray;
+	}
+}
+
+#about-container{
+	border: 2px solid $prime-gray;
+
+	.about-header{
+		background-color: $prime-gray;
+	}
+
+	.profile-edit-btn{
+		margin-top: 20px;
+	}
+
+	.no-border{
+		border: none;
+	}
+
+	h3{
+		padding-top: 20px;
+		padding-bottom: 20px
+	}
+
+	#about-content{
+		background-color: $secondary-gray;
+	}
+
+	.save-button{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}

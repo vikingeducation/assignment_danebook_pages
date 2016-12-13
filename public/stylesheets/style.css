@@ -87,5 +87,42 @@
       width: 600px; } }
 
 /**** END NAVBAR ****/
+#user-profile-head {
+  margin-bottom: 30px; }
+  #user-profile-head .profile-banner {
+    width: 100%;
+    margin: 0; }
+  #user-profile-head .profile-photo-element {
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: -25px;
+    left: 45px; }
+  @media (max-width: 768px) {
+    #user-profile-head .profile-photo-element {
+      left: 25px;
+      max-width: 138px; } }
+  #user-profile-head .edit-profile-element {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right; }
+  #user-profile-head .profile-nav {
+    background-color: #E6E6E6; }
+
+#about-container {
+  border: 2px solid #E6E6E6; }
+  #about-container .about-header {
+    background-color: #E6E6E6; }
+  #about-container .profile-edit-btn {
+    margin-top: 20px; }
+  #about-container .no-border {
+    border: none; }
+  #about-container h3 {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  #about-container #about-content {
+    background-color: #f9f9f9; }
+  #about-container .save-button {
+    margin-top: 30px;
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
