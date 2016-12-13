@@ -177,6 +177,20 @@
     margin-top: 10px;
     margin-bottom: 10px; }
 
+.friends-field {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .friends-field button {
+    background-color: #eee; }
+  .friends-field a {
+    text-decoration: underline; }
+  .friends-field p {
+    color: #888; }
+
 .photos-row {
   margin-bottom: 20px; }
   .photos-row .thumbnail .caption {

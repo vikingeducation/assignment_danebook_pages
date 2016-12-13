@@ -323,6 +323,24 @@ $secondary-gray: #f9f9f9;
 
 }
 
+.friends-field {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background-color: #eee;
+    }
+    a {
+      text-decoration: underline;
+    }
+    p {
+      color: #888;
+    }
+  }
+
 .photos-row {
     margin-bottom: 20px;
     .thumbnail {
