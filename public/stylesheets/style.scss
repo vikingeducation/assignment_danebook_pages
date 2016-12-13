@@ -1,0 +1,171 @@
+	
+
+$prime-blue: #2B78E4;
+
+$prime-white: #fff;
+
+$secondary-blue: #9FC5F8;
+
+$prime-black: #000;
+
+$dark-blue: #2d5b9b;
+
+$prime-gray: #E6E6E6;
+
+$secondary-gray: #f9f9f9;
+
+	/**** NAVBAR ****/
+
+.navbar-default.large{
+	background-color: $prime-blue;
+
+	.container{
+		margin-bottom: 10px;
+	}
+
+	.navbar-brand{
+		font-size: 35px;
+		font-weight: 500;
+		color: $prime-white;
+	}
+
+	@media (min-width: 768px){
+		.navbar-brand{
+			font-size: 35px;
+			font-weight: 500;
+			color: $prime-white;
+			margin-top: 15px;
+		}
+	}
+
+	.navbar-brand:hover{
+		color: $prime-white;
+	}
+
+	@media (min-width: 768px){
+		button{
+			background-color: $secondary-blue;
+			color: $prime-black;
+		}
+	}
+
+	button:hover{
+		color: $prime-black;
+	}
+	.navbar-toggle{
+		border-color: $prime-black;
+		.icon-bar{
+			background-color: $prime-black;
+
+		}
+	}
+
+	.navbar-toggle:hover{
+		background-color: $prime-blue;
+		.icon-bar{
+			background-color: $prime-white;
+
+		}
+	}
+
+	.navbar-collapse{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
+		box-shadow: none;
+	}
+
+	.navbar-form{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
+	}
+
+	#main-navbar-collapse{
+		.navbar-form{
+			box-shadow: none;
+			p{
+				color: $prime-white;
+			}
+			@media (min-width: 768px){
+				p{
+					color: $prime-white;
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+				button{
+					margin-top: 20px;
+				}
+			}
+		}
+	}
+
+}
+
+.navbar-default.small{
+	background-color: $prime-blue;
+
+	.container{
+		margin-bottom: 0px;
+	}
+
+	.navbar-brand{
+		font-size: 20px;
+		font-weight: 500;
+		color: $prime-white;
+		img{
+			height: auto;
+			width: 30px;
+			display: inline;
+		}
+	}
+
+	.navbar-brand:hover{
+		color: $prime-white;
+	}
+
+
+	button:hover{
+		color: $prime-black;
+	}
+
+	.navbar-toggle{
+		border-color: $prime-black;
+		.icon-bar{
+			background-color: $prime-black;
+
+		}
+	}
+
+	.navbar-toggle:hover{
+		background-color: $prime-blue;
+		.icon-bar{
+			background-color: $prime-white;
+
+		}
+	}
+
+	.navbar-collapse{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
+		box-shadow: none;
+	}
+
+	.navbar-form{
+		background-color: $prime-blue;
+		border-color: $prime-blue;
+	}
+
+	@media (min-width: 768px){
+		#search-bar{
+			width: 400px;
+		}
+	}
+
+	@media (min-width: 992px){
+		#search-bar{
+			width: 600px;
+		}
+	}
+
+}
+
+	/**** END NAVBAR ****/
