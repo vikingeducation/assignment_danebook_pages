@@ -1,4 +1,3 @@
-/**** NAVBAR ****/
 .navbar-default.large {
   background-color: #2B78E4; }
   .navbar-default.large .container {
@@ -86,7 +85,41 @@
     .navbar-default.small #search-bar {
       width: 600px; } }
 
-/**** END NAVBAR ****/
+.description-list li {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.block-margin-lg {
+  margin-top: 80px; }
+
+.block-margin-sm {
+  margin-top: 15px; }
+
+.lastname-margin {
+  margin-top: 25px; }
+
+.btn-signup {
+  height: 50px; }
+
+@media (min-width: 768px) {
+  .block-margin-sm {
+    margin-top: 15px; }
+
+  .block-margin-lg {
+    margin-top: 150px; }
+
+  .block-margin-md {
+    margin-top: 85px; }
+
+  .block-margin-xs {
+    margin-top: 5px;
+    margin-bottom: 10px; }
+
+  .block-margin-sm {
+    margin-top: 15px; }
+
+  .btn-signup {
+    height: inherit; } }
 #user-profile-head {
   margin-bottom: 30px; }
   #user-profile-head .profile-banner {
@@ -124,5 +157,24 @@
   #about-container .save-button {
     margin-top: 30px;
     margin-bottom: 30px; }
+
+#info-nav .title-bar {
+  height: 30px;
+  background-color: #E6E6E6; }
+#info-nav .about-description {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.gray-border {
+  border: 2px solid #E6E6E6; }
+
+#user-posts .footer-bar {
+  background-color: #E6E6E6; }
+  #user-posts .footer-bar a {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,20 +1,17 @@
-	
-
 $prime-blue: #2B78E4;
-
-$prime-white: #fff;
 
 $secondary-blue: #9FC5F8;
 
+$dark-blue: #2d5b9b;
+
 $prime-black: #000;
 
-$dark-blue: #2d5b9b;
+$prime-white: #fff;
 
 $prime-gray: #E6E6E6;
 
 $secondary-gray: #f9f9f9;
 
-	/**** NAVBAR ****/
 
 .navbar-default.large{
 	background-color: $prime-blue;
@@ -100,6 +97,7 @@ $secondary-gray: #f9f9f9;
 
 }
 
+
 .navbar-default.small{
 	background-color: $prime-blue;
 
@@ -168,7 +166,56 @@ $secondary-gray: #f9f9f9;
 
 }
 
-	/**** END NAVBAR ****/
+
+
+.description-list{
+	li{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+.block-margin-lg{
+	margin-top: 80px;
+	}
+
+.block-margin-sm{
+		margin-top: 15px;
+	}
+
+.lastname-margin{
+	margin-top: 25px;
+}
+
+.btn-signup{
+	height: 50px;
+}
+
+@media (min-width: 768px){
+	.block-margin-sm{
+		margin-top: 15px;
+	}
+
+	.block-margin-lg{
+		margin-top: 150px;
+	}
+
+	.block-margin-md{
+		margin-top: 85px;
+	}
+
+	.block-margin-xs{
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+
+	.block-margin-sm{
+		margin-top: 15px;
+	}
+	.btn-signup{
+		height: inherit;
+	}
+}
 
 #user-profile-head{
 	margin-bottom: 30px;
@@ -195,6 +242,9 @@ $secondary-gray: #f9f9f9;
 			max-width: 138px;
 		}
 	}
+
+
+
 	.edit-profile-element{
 		margin-top: 10px;
 		margin-right: 10px;
@@ -204,6 +254,9 @@ $secondary-gray: #f9f9f9;
 	.profile-nav{
 		background-color: $prime-gray;
 	}
+
+
+
 }
 
 #about-container{
@@ -234,4 +287,38 @@ $secondary-gray: #f9f9f9;
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
+}
+
+#info-nav{
+	.title-bar{
+		height: 30px;
+		background-color: $prime-gray;
+
+	}
+
+	.about-description{
+		display: block;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+
+}
+
+.gray-border{
+	border: 2px solid $prime-gray;
+}
+
+#user-posts{
+	.footer-bar{
+			background-color: $prime-gray;
+
+		a{
+			padding-top: 10px;
+			padding-bottom: 5px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+
 }
