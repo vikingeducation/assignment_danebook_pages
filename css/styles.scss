@@ -1,20 +1,24 @@
+body {
+  margin-top: 50px;
+}
 
-  #navbar {
-    height: 50px;
-  }
+#navbar {
+  height: 50px;
+}
 
-  #search-bar-container {
-    width: 65%;
-    margin-left: 50;
-  }
+/* faulty */
+#search-bar-container {
+  width: 65%;
+  margin-left: 50;
+}
 
-  #search-bar-container-2 {
-    width: 100%;
-  }
-  
-  #search-bar {
-    width: 100%;
-  }
+#search-bar-container-2 {
+  width: 100%;
+}
+
+#search-bar {
+  width: 100%;
+}
 
 #logo-image { 
   height: 40px;
@@ -27,3 +31,31 @@
 #logo-name {
   margin-top: -15px;
 }
+
+
+
+
+/* About page main content CSS */
+#cover-photo {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+#main-photos-container {
+  position: relative;
+}
+
+#profile-photo {
+  position: absolute;
+  left: 35px;
+  bottom: -20px;
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+
+
+
