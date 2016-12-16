@@ -1,0 +1,85 @@
+body {
+	height: 800px;
+}
+
+nav {
+	background-color: #2B78E4;
+}
+
+.navbar-custom {
+	border-radius: 0px;
+}
+
+#search-bar {
+	width: 500px;
+	border-radius: 0px;
+}
+
+a.navbar-brand {
+	color: white;
+	font-size: 24px;
+}
+
+.navbar-right {
+	color: white;
+	font-size: 24px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+div.jumbotron {
+	border-radius: 0px;
+}
+
+.jumbotron {
+	position: relative;
+	height: 300px;
+	margin-top: -20px;
+    margin-bottom: 0px;
+    background-image: url("../../assets/big_ben_clockface_190677.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#head-shot {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -50px;
+}
+
+main {
+	position: relative;
+}
+
+.btn-group-justified {
+	position: relative;
+	border-radius: 0px;
+	z-index: -1;
+}
+
+#edit-profile {
+	float: right;
+}
+
+div.panel-body {
+	position: relative;
+	margin: -10px;
+}
+
+div h3 {
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding-top: 3px;
+}
+
+section {
+	border-color: black;
+	border-width: 2px;
+}
+
+p {
+	font-weight: bold;
+}
