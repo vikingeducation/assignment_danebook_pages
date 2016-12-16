@@ -1,0 +1,33 @@
+body {
+  height: 1000px; }
+
+nav {
+  background-color: #2B78E4; }
+
+input.form-control {
+  width: 400px; }
+
+a.navbar-brand {
+  color: white;
+  font-size: 24px; }
+
+.navbar-right {
+  color: white;
+  font-size: 24px;
+  margin: auto;
+  margin-top: 10px; }
+
+.jumbotron {
+  margin-top: -20px;
+  margin-bottom: 0px;
+  background-image: url(../assets/big_ben_clockface_190677.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+
+section {
+  border-color: black;
+  border-width: 2px; }
+
+/*# sourceMappingURL=styles.css.map */
