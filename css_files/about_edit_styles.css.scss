@@ -22,9 +22,6 @@
 	}
 }
 
-
-
-
 .site-navigation{
 	width: 85%; 
 	margin-left: 15%; 
@@ -54,7 +51,10 @@
 .not-active {
  pointer-events: none;
  cursor: default;
- background-color: #C7C7C7; 
+}
+
+.not-active.link-tab{
+   background-color: #C7C7C7; 
 }
 
 
@@ -72,10 +72,25 @@
 	border: solid 2px black; 
 }
 
+.submit-button{
+	height: 70px; 
+	width: 100%;
+	font-size: 20px; 
+	font-weight: bold; 
+	margin-top: 2.5em; 
+	margin-bottom: 4em; 
+	border: solid 2px black; 
+	text-align: center; 
+	border-radius:0; 
+}
+
+
+// Fixed Navbar at Top of Page
 .top-navigation{
 	background-color: #337AB7; 
-	.navbar-link, .navbar-brand{
-		color: black; 
+	line-height: 2; 
+	a.navbar-link, a.navbar-brand, a.navbar-link:hover, a.navbar-brand:hover{
+		color: #fff; 
 	}
-
 }
+
