@@ -3,7 +3,8 @@ body {
   min-width: 300px;
   width: auto !important;
   /* to account for height of navbar */
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-color: #eef7fa; }
 
 /* Top Navbar CSS */
 .navbar-style {
@@ -50,24 +51,41 @@ body {
     .navbar-style .search-box {
       width: 100%; } }
 
-/* About page main content CSS */
-#cover-photo {
-  width: 100%;
-  height: 360px;
-  object-fit: cover; }
+/* About page top section CSS */
+main .top-section-container {
+  position: relative;
+  /* required for absolute position of profile photo to work correctly*/
+  border: 1px solid #000080;
+  margin-bottom: 15px; }
+  main .top-section-container #cover-photo {
+    width: 100%;
+    height: 360px;
+    object-fit: cover; }
+  main .top-section-container .middle-navbar-style {
+    margin-bottom: 0; }
+    @media (min-width: 768px) {
+      main .top-section-container .middle-navbar-style .middle-navbar-left-style {
+        margin-left: 188px; }
+        main .top-section-container .middle-navbar-style .middle-navbar-left-style a {
+          border-left: 1px solid #000080; }
+        main .top-section-container .middle-navbar-style .middle-navbar-left-style li:nth-child(4) > a {
+          border-right: 1px solid #000080; } }
+    main .top-section-container .middle-navbar-style .navbar-right > li > a {
+      text-decoration: underline;
+      color: #0000cd; }
+    main .top-section-container .middle-navbar-style .navbar-right > li > a:hover {
+      color: black; }
+  main .top-section-container #profile-photo {
+    position: absolute;
+    left: 20px;
+    top: 210px;
+    /*bottom: 20px;*/
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    object-position: 50% 0%; }
 
-#main-photos-container {
-  position: relative; }
-
-#profile-photo {
-  position: absolute;
-  left: 20px;
-  bottom: -20px;
-  height: 180px;
-  width: 180px;
-  object-fit: cover;
-  object-position: 50% 0%; }
-
+/* //////////////// */
 #about-container {
   border: 1px solid #666; }
   #about-container header {

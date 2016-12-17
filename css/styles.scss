@@ -5,6 +5,8 @@ body {
 
   /* to account for height of navbar */ 
   margin-top: 50px;
+
+  background-color: #eef7fa;
 }
 
 /* Top Navbar CSS */
@@ -73,28 +75,53 @@ body {
 
 
 
-
-/* About page main content CSS */
-#cover-photo {
-  width: 100%;
-  height: 360px;
-  object-fit: cover;
+/* About page top section CSS */
+main {
+  .top-section-container {
+    position: relative; /* required for absolute position of profile photo to work correctly*/
+    border: 1px solid #000080;
+    margin-bottom: 15px;
+    #cover-photo {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+    }
+    .middle-navbar-style {
+      margin-bottom: 0;
+      @media (min-width: 768px) {
+        .middle-navbar-left-style {
+          margin-left: 188px;
+          a {
+            border-left: 1px solid #000080;
+          }
+          li:nth-child(4) > a {
+            border-right: 1px solid #000080;
+          }
+        }
+      }
+      .navbar-right > li > a {
+        text-decoration: underline;
+        color: #0000cd;
+      }
+      .navbar-right > li > a:hover {
+        color: black;
+      }
+    }
+    #profile-photo {
+      position: absolute;
+      left: 20px;
+      top: 210px;
+      /*bottom: 20px;*/
+      height: 180px;
+      width: 180px;
+      object-fit: cover;
+      object-position: 50% 0%;
+    }
+  }
 }
 
-#main-photos-container {
-  position: relative;
-}
 
-#profile-photo {
-  position: absolute;
-  left: 20px;
-  bottom: -20px;
-  height: 180px;
-  width: 180px;
-  object-fit: cover;
-  object-position: 50% 0%;
-}
-
+/* //////////////// */
 #about-container {
   border: 1px solid #666;
   header {
@@ -105,10 +132,6 @@ body {
     text-align: center;
   }
 }
-
-
-
-
 /* Timeline page CSS */
 #create-post {
   border: 1px solid #666;
