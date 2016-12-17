@@ -9,6 +9,28 @@ body {
   background-color: #eef7fa;
 }
 
+.content-header {
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #000080;
+  h1 { 
+    font-size: 2.4em; 
+    margin: 0;
+    text-align: center; 
+    line-height: 56px;
+  }
+}
+
+.content-body {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.column-style {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 /* Top Navbar CSS */
 
 .navbar-style {
@@ -46,7 +68,7 @@ body {
     background-color: #3232d7;
   }
   .navbar-toggle-button-style:focus {
-    background-color: #4876ff;
+    background-color: #3232d7;
   }
   .navbar-right-style > li > a {
     color: #fffaf0;
@@ -116,22 +138,25 @@ main {
       width: 180px;
       object-fit: cover;
       object-position: 50% 0%;
+      border: 2px solid #000080;
+    }
+  }
+  .bottom-section-container {
+    border: 1px solid #000080;
+    margin-bottom: 15px;
+    background-color: white;
+    #edit-profile-btn-container {
+      text-align: right;
+      line-height: 56px;
+      .edit-profile-btn-style {
+        margin-right: 10px;
+      }
     }
   }
 }
 
 
 /* //////////////// */
-#about-container {
-  border: 1px solid #666;
-  header {
-    text-align: center;
-    border-bottom: 1px solid #666;
-  }
-  #save-changes-button-container {
-    text-align: center;
-  }
-}
 /* Timeline page CSS */
 #create-post {
   border: 1px solid #666;
