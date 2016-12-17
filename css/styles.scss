@@ -1,36 +1,77 @@
 body {
+  /* prevent bootstrap resizing for screen width <300px */
+  min-width: 300px;
+  width: auto !important;
+
+  /* to account for height of navbar */ 
   margin-top: 50px;
 }
 
-#navbar {
+/* Top Navbar CSS */
+
+.navbar-style {
   height: 50px;
+  min-width: 300px;
+  width: auto !important;
+  background-color: #4876ff;
+  border-bottom: 1px solid #000080;
+  box-shadow: 1px 1px 2px #666;
+  .navbar-brand-style {
+    padding-top: 5px;
+    font-size: 30px;
+    color: #fffaf0;
+    .brand-image {
+      height: 40px;
+      width: 40px;
+      border: 1px solid #000080;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .brand-image:hover {
+      border: 1px solid #0000cd;
+    }
+  }
+  .navbar-brand-style:hover {
+    color: #0000cd;
+  }
+  .navbar-toggle-button-style {
+    border: 1px solid #fffaf0;
+    .icon-bar-style {
+      background-color: #fffaf0;
+    }
+  }
+  .navbar-toggle-button-style:hover {
+    background-color: #3232d7;
+  }
+  .navbar-toggle-button-style:focus {
+    background-color: #4876ff;
+  }
+  .navbar-right-style > li > a {
+    color: #fffaf0;
+  }
+  .navbar-right-style > li > a:hover {
+    color: #0000cd;
+  }
+  .navbar-collapse-style {
+    background-color: #4876ff;
+  }
+  /* div#top-nav-toggle.navbar-collapse.collapse.in {  } */
+  @media (min-width: 768px) {
+    .navbar-left-style {
+      width: 65%;
+    } 
+    .search-box-container {
+      width: 100%;
+    }
+    .search-box {
+      width: 100%;
+    }
+  }
+
 }
 
-/* faulty */
-#search-bar-container {
-  width: 65%;
-  margin-left: 50;
-}
 
-#search-bar-container-2 {
-  width: 100%;
-}
 
-#search-bar {
-  width: 100%;
-}
-
-#logo-image { 
-  height: 40px;
-  width: 40px;
-  margin-top: -25px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-#logo-name {
-  margin-top: -15px;
-}
 
 
 /* About page main content CSS */
@@ -55,14 +96,25 @@ body {
 }
 
 #about-container {
+  border: 1px solid #666;
   header {
     text-align: center;
-    border: 1px solid #666;
+    border-bottom: 1px solid #666;
   }
-  #about-content {
-    border: 1px solid #666;
+  #save-changes-button-container {
+    text-align: center;
   }
 }
+
+
+
+
+/* Timeline page CSS */
+#create-post {
+  border: 1px solid #666;
+}
+
+
 
 
 

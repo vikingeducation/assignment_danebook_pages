@@ -1,29 +1,54 @@
 body {
+  /* prevent bootstrap resizing for screen width <300px */
+  min-width: 300px;
+  width: auto !important;
+  /* to account for height of navbar */
   margin-top: 50px; }
 
-#navbar {
-  height: 50px; }
-
-/* faulty */
-#search-bar-container {
-  width: 65%;
-  margin-left: 50; }
-
-#search-bar-container-2 {
-  width: 100%; }
-
-#search-bar {
-  width: 100%; }
-
-#logo-image {
-  height: 40px;
-  width: 40px;
-  margin-top: -25px;
-  border-radius: 50%;
-  object-fit: cover; }
-
-#logo-name {
-  margin-top: -15px; }
+/* Top Navbar CSS */
+.navbar-style {
+  height: 50px;
+  min-width: 300px;
+  width: auto !important;
+  background-color: #4876ff;
+  border-bottom: 1px solid #000080;
+  box-shadow: 1px 1px 2px #666;
+  /* div#top-nav-toggle.navbar-collapse.collapse.in {  } */ }
+  .navbar-style .navbar-brand-style {
+    padding-top: 5px;
+    font-size: 30px;
+    color: #fffaf0; }
+    .navbar-style .navbar-brand-style .brand-image {
+      height: 40px;
+      width: 40px;
+      border: 1px solid #000080;
+      border-radius: 50%;
+      object-fit: cover; }
+    .navbar-style .navbar-brand-style .brand-image:hover {
+      border: 1px solid #0000cd; }
+  .navbar-style .navbar-brand-style:hover {
+    color: #0000cd; }
+  .navbar-style .navbar-toggle-button-style {
+    border: 1px solid #fffaf0; }
+    .navbar-style .navbar-toggle-button-style .icon-bar-style {
+      background-color: #fffaf0; }
+  .navbar-style .navbar-toggle-button-style:hover {
+    background-color: #3232d7; }
+  .navbar-style .navbar-toggle-button-style:focus {
+    background-color: #4876ff; }
+  .navbar-style .navbar-right-style > li > a {
+    color: #fffaf0; }
+  .navbar-style .navbar-right-style > li > a:hover {
+    color: #0000cd; }
+  .navbar-style .navbar-collapse-style {
+    background-color: #4876ff; }
+  @media (min-width: 768px) {
+    .navbar-style .navbar-left-style {
+      width: 65%; }
+    .navbar-style .search-box-container {
+      width: 100%; }
+    .navbar-style .search-box {
+      width: 100%; } }
 
 /* About page main content CSS */
 #cover-photo {
@@ -43,10 +68,16 @@ body {
   object-fit: cover;
   object-position: 50% 0%; }
 
-#about-container header {
-  text-align: center;
+#about-container {
   border: 1px solid #666; }
-#about-container #about-content {
+  #about-container header {
+    text-align: center;
+    border-bottom: 1px solid #666; }
+  #about-container #save-changes-button-container {
+    text-align: center; }
+
+/* Timeline page CSS */
+#create-post {
   border: 1px solid #666; }
 
 /*# sourceMappingURL=styles.css.map */
