@@ -112,6 +112,8 @@ main .bottom-section-container {
       margin-right: 10px; }
   main .bottom-section-container .profile-info-category {
     margin-top: 8px; }
+  main .bottom-section-container footer {
+    padding: 15px 30px; }
 
 /* //////////////// */
 /* Timeline page CSS */
