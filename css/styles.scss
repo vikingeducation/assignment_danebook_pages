@@ -97,7 +97,7 @@ body {
 
 
 
-/* About page top section CSS */
+/* Top section CSS */
 main {
   .top-section-container {
     position: relative; /* required for absolute position of profile photo to work correctly*/
@@ -151,6 +151,9 @@ main {
       .edit-profile-btn-style {
         margin-right: 10px;
       }
+    }
+    .profile-info-category {
+      margin-top: 8px;
     }
   }
 }

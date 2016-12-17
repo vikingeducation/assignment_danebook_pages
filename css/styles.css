@@ -67,7 +67,7 @@ body {
     .navbar-style .search-box {
       width: 100%; } }
 
-/* About page top section CSS */
+/* Top section CSS */
 main .top-section-container {
   position: relative;
   /* required for absolute position of profile photo to work correctly*/
@@ -110,6 +110,8 @@ main .bottom-section-container {
     line-height: 56px; }
     main .bottom-section-container #edit-profile-btn-container .edit-profile-btn-style {
       margin-right: 10px; }
+  main .bottom-section-container .profile-info-category {
+    margin-top: 8px; }
 
 /* //////////////// */
 /* Timeline page CSS */
