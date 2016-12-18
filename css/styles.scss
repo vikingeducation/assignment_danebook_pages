@@ -24,6 +24,13 @@ body {
     text-align: center;
     line-height: 28px;
   }
+  #edit-profile-btn-container {
+    text-align: right;
+    line-height: 56px;
+    .edit-profile-btn-style {
+      margin-right: 10px;
+    }
+  }
 }
 
 .content-body {
@@ -150,13 +157,6 @@ main {
     border: 1px solid #000080;
     margin-bottom: 15px;
     background-color: white;
-    #edit-profile-btn-container {
-      text-align: right;
-      line-height: 56px;
-      .edit-profile-btn-style {
-        margin-right: 10px;
-      }
-    }
     .profile-info-category {
       margin-top: 8px;
     }
@@ -203,6 +203,7 @@ main {
         float: right;
       }
       .hr-style {
+
         border-top: 1px solid #666;
       }
     }
@@ -222,3 +223,51 @@ main {
 
 
 
+/* Photos page photo hover CSS*/
+.photo {
+    position: relative;
+}
+
+.caption {
+  background-color: #939393;
+  border-bottom: 1px solid #337ab7;
+  border-right: 1px solid #337ab7;
+  border-left: 1px solid #337ab7;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  p {
+    margin: 0;
+  }
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  -ms-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+}
+
+.photo:hover .caption {
+  opacity: 0.9;
+}
+
+
+
+
+/* Friends page CSS */
+.friends-container {
+  border: 1px solid #000080;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  .thumbnail-style {
+    margin-bottom: 0px;
+  }
+}
