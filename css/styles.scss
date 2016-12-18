@@ -18,6 +18,12 @@ body {
     text-align: center; 
     line-height: 56px;
   }
+  h2 {
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    line-height: 28px;
+  }
 }
 
 .content-body {
@@ -94,10 +100,8 @@ body {
 
 }
 
+/* Main CSS */
 
-
-
-/* Top section CSS */
 main {
   .top-section-container {
     position: relative; /* required for absolute position of profile photo to work correctly*/
@@ -141,6 +145,7 @@ main {
       border: 2px solid #000080;
     }
   }
+
   .bottom-section-container {
     border: 1px solid #000080;
     margin-bottom: 15px;
@@ -155,19 +160,64 @@ main {
     .profile-info-category {
       margin-top: 8px;
     }
-    footer {
-      padding: 15px 30px;
+    .edit-profile-footer {
+      padding: 5px 30px 15px;
+    }
+  }
+
+  .content-item-container {
+    border: 1px solid #000080;
+    margin-bottom: 15px;
+    background-color: white;
+    a {
+      color: #0000cd;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #007f00;
+    }
+    header {
+      margin-bottom: 10px;
+    }
+    span {
+      color: #666;
+    }
+    .content-item-internal-container {
+      margin: 0 10px;
+    }
+    .posts-photo-container {
+      margin-top: 10px;
+    }
+    .name-time-info-container {
+      margin-top: 10px;
+    }
+    .posts-footer {
+      overflow: hidden;
+      background-color: #e7e7e7;
+      border-top: 1px solid #000080;
+      padding: 6px 10px;
+      a {
+        display: inline-block;
+      }
+      .delete-link {
+        float: right;
+      }
+      .hr-style {
+        border-top: 1px solid #666;
+      }
+    }
+    .photos-footer,
+    .friends-footer {
+      background-color: white;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .friends-name {
+      text-align: center;
+      word-wrap: break-word;
     }
   }
 }
-
-
-/* //////////////// */
-/* Timeline page CSS */
-#create-post {
-  border: 1px solid #666;
-}
-
 
 
 

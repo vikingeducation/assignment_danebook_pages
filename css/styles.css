@@ -14,6 +14,11 @@ body {
     margin: 0;
     text-align: center;
     line-height: 56px; }
+  .content-header h2 {
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    line-height: 28px; }
 
 .content-body h1 {
   font-size: 2em; }
@@ -67,7 +72,7 @@ body {
     .navbar-style .search-box {
       width: 100%; } }
 
-/* Top section CSS */
+/* Main CSS */
 main .top-section-container {
   position: relative;
   /* required for absolute position of profile photo to work correctly*/
@@ -112,12 +117,45 @@ main .bottom-section-container {
       margin-right: 10px; }
   main .bottom-section-container .profile-info-category {
     margin-top: 8px; }
-  main .bottom-section-container footer {
-    padding: 15px 30px; }
-
-/* //////////////// */
-/* Timeline page CSS */
-#create-post {
-  border: 1px solid #666; }
+  main .bottom-section-container .edit-profile-footer {
+    padding: 5px 30px 15px; }
+main .content-item-container {
+  border: 1px solid #000080;
+  margin-bottom: 15px;
+  background-color: white; }
+  main .content-item-container a {
+    color: #0000cd;
+    text-decoration: underline; }
+  main .content-item-container a:hover {
+    color: #007f00; }
+  main .content-item-container header {
+    margin-bottom: 10px; }
+  main .content-item-container span {
+    color: #666; }
+  main .content-item-container .content-item-internal-container {
+    margin: 0 10px; }
+  main .content-item-container .posts-photo-container {
+    margin-top: 10px; }
+  main .content-item-container .name-time-info-container {
+    margin-top: 10px; }
+  main .content-item-container .posts-footer {
+    overflow: hidden;
+    background-color: #e7e7e7;
+    border-top: 1px solid #000080;
+    padding: 6px 10px; }
+    main .content-item-container .posts-footer a {
+      display: inline-block; }
+    main .content-item-container .posts-footer .delete-link {
+      float: right; }
+    main .content-item-container .posts-footer .hr-style {
+      border-top: 1px solid #666; }
+  main .content-item-container .photos-footer,
+  main .content-item-container .friends-footer {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px; }
+  main .content-item-container .friends-name {
+    text-align: center;
+    word-wrap: break-word; }
 
 /*# sourceMappingURL=styles.css.map */
