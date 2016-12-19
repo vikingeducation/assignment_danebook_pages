@@ -1,5 +1,5 @@
 body {
-	height: 800px;
+	height: 900px;
 }
 
 nav {
@@ -50,6 +50,14 @@ div.jumbotron {
 	border-radius: 0;
 }
 
+#name {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 160px;
+	margin-left: 100px;
+}
+
 main {
 	position: relative;
 }
@@ -96,4 +104,8 @@ div h3 {
 
 .btn-link {
 	text-decoration: underline;
+}
+
+#personal-info {
+	font-weight: bold;
 }
