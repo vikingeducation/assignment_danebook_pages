@@ -74,6 +74,8 @@ main {
 
 #edit-profile {
 	float: right;
+	box-shadow: 5px 5px black;
+	border-radius: 0;
 }
 
 .well {
@@ -90,11 +92,6 @@ div h3 {
 	float: left;
 	margin: 0;
 	padding-top: 3px;
-}
-
-#edit-profile {
-	box-shadow: 5px 5px black;
-	border-radius: 0;
 }
 
 .info {

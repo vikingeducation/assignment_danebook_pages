@@ -41,11 +41,13 @@
         <div class="jumbotron">
           <div class="container">
           <p><img id="head-shot" class="img-thumbnail" src="../assets/harry.jpg" class="" href="#" role=""></a></p>
+          <p id="name">Harry Houdini</p>
         </div>
       </div>
-      <div id="btn-bar" class="btn-group btn-group-justified" role="group" aria-label="...">
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">~</button>
+      <div id="btn-bar" class="row">
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group col-xs-2" role="spacer">
+          <p></p>
         </div>
         <div class="btn-group" role="group">
           <button type="button" class="btn btn-default">Timeline</button>
@@ -54,21 +56,24 @@
           <button type="button" class="btn btn-default">About</button>
         </div>
         <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">Photos (123)</button>
+          <button type="button" class="btn btn-default active">Photos (123)</button>
         </div>
         <div class="btn-group" role="group">
           <button type="button" class="btn btn-default">Friends</button>
         </div>
         <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">Edit Profile</button>
+          <button type="button" class="btn btn-default btn-link">Edit Profile</button>
         </div>
       </div>
-      <div class="panel panel-default">
+      </div>
+      <br>
+      <div class="panel panel-default ">
+        <div class="well panel">
         <div class="panel-body">
           <div class="col-xs-2 col-xs-offset-5">
           <h3>Photos</h3>
           </div>
-          <button id="edit-profile" type="edit-profile" class="btn btn-default btn-sm">Add Photo</button>
+          <button id="add-photo" type="edit-profile" class="btn btn-primary btn-sm">Add Photo</button>
         </div>
       </div>
       <section class="row">
