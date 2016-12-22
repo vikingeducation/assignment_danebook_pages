@@ -14,7 +14,7 @@
     left: 313px;
     z-index: 3;
     top: 288px;
-    color: #fcfcfc; }
+    color: #fff; }
 
 .site-navigation {
   width: 85%;
@@ -53,8 +53,21 @@
   border: solid 2px black; }
 
 .top-navigation {
-  background-color: #337AB7; }
-  .top-navigation .navbar-link, .top-navigation .navbar-brand {
-    color: black; }
+  background-color: #337AB7;
+  line-height: 2; }
+  .top-navigation a.navbar-link, .top-navigation a.navbar-brand, .top-navigation a.navbar-link:hover, .top-navigation a.navbar-brand:hover {
+    color: #fff; }
+
+.submit-button {
+  height: 70px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2.5em;
+  margin-bottom: 4em;
+  border: solid 2px black;
+  text-align: center;
+  padding-top: 1em;
+  border-radius: 0; }
 
 /*# sourceMappingURL=styles.css.map */
