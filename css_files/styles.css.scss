@@ -1,11 +1,137 @@
+
+// **********Variables***********
+$primary-blue: #337AB7; 
+$border-style: solid 2px black; 
+
+
+// **********Mixins***********
+@mixin generic-button{
+	background-color: $primary-blue;
+	border-radius: 0; 
+  box-shadow: 3px 3px 5px black;
+  border: $border-style; 
+}
+
+
+
+
 body{ 
 	font-family: "Comic Sans MS", Comic Sans, cursive; 
 }
 
+.tabs, 
+.main-section, 
+.main-heading{
+	border: $border-style; 
+}
+
+.edit-link, 
+.text-link{
+	text-decoration: underline;
+}
+
+.not-active {
+ pointer-events: none;
+ cursor: default;
+}
+
+.link-tab.not-active{
+ background-color: #C7C7C7;
+}
+	
+.edit-profile-button{
+	@include generic-button; 
+	margin-top: 1em;
+  margin-left: 2em;
+}
+
+.post-button{
+		@include generic-button; 
+    width: 6em; 
+	}
+
+	.comment-button{
+		@include generic-button; 
+	}
+
+.top-navigation{
+	background-color: $primary-blue; 
+	line-height: 2; 
+	a.navbar-link, 
+	a.navbar-brand, 
+	a.navbar-link:hover, 
+	a.navbar-brand:hover{
+		color: #fff; 
+	}
+}
+
+.submit-button{
+	@include generic-button;  
+	height: 70px; 
+	width: 100%;
+	font-size: 20px; 
+	font-weight: bold; 
+	margin-top: 2.5em; 
+	margin-bottom: 4em; 
+	text-align: center; 
+	padding-top: 1em; 
+}
+
+.navbar{
+	margin-bottom: 0; 
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.friend-detail{
+	border: $border-style;  
+	margin: 20px 0; 
+	height: 110px; 
+	padding-top: 10px; 
+	img{
+		margin: 0 10px;  
+	}
+	button{
+		margin-top: 20px; 
+		width: 170px; 
+	}
+}
+
+.name-detail{ 
+	margin-top: 15px; 
+	margin-left: 15px; 
+	letter-spacing: 2px;
+	a{
+		text-decoration: underline; 
+	}
+}
+
+.timeline-photo{ 
+	margin-bottom: 10px; 
+	img{
+		height: 90px; 
+		width: 90px; 
+	}
+}
+
+.post-photo{
+	height: 50px; 
+	width: 45px; 
+}
+
+.friends-photo{
+	height: 80px; 
+	width: 75px; 
+}
 
 .jumbotron{
-	padding-bottom: 0px; 
-	margin-bottom: 0px; 
+	padding-bottom: 0; 
+	margin-bottom: 0; 
 	#cover-picture{
 		position: relative; 
 	}
@@ -31,115 +157,17 @@ body{
 	li{
 		float: none; 
 		display: inline-block;
- 
 		h5{	
 			width: 132px;
    		height: 50px;
 	    padding-top: 1em;
 	    padding-bottom: .5em;
-	    border: solid 1.5px black;
+	    border: $border-style;
 	    text-align: center;
-	    margin:0px 0px; 
+	    margin:0; 
 	    a{
 	    	color: black; 
 	    }
 		}
 	}
 }
-
-.tabs{
-	border: solid 2px black; 
-}
-
-.not-active {
- pointer-events: none;
- cursor: default;
- 
-}
-
-.link-tab.not-active{
- background-color: #C7C7C7;
-}
-
-.main-heading{
-	border: solid 2px black; 
-	.edit-profile-button{
-		border-radius: 0px; 
-		margin-top: 1em;
-    margin-left: 2em;
-    box-shadow: 3px 3px 5px black;
-	}
-}
-
-.post-button{
-		border-radius: 0px; 
-    box-shadow: 3px 3px 5px black;
-    width: 6em; 
-	}
-
-	.comment-button{
-		border-radius: 0px; 
-    box-shadow: 3px 3px 5px black;
-	}
-
-.about-section{
-	border: solid 2px black; 
-}
-
-.top-navigation{
-	background-color: #337AB7; 
-	line-height: 2; 
-	a.navbar-link, a.navbar-brand, a.navbar-link:hover, a.navbar-brand:hover{
-		color: #fff; 
-	}
-}
-
-.submit-button{
-	height: 70px; 
-	width: 100%;
-	font-size: 20px; 
-	font-weight: bold; 
-	margin-top: 2.5em; 
-	margin-bottom: 4em; 
-	border: solid 2px black; 
-	text-align: center; 
-	padding-top: 1em; 
-	border-radius:0; 
-}
-
-.navbar{
-	margin-bottom: 0px; 
-}
-
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-
-.friend_detail{
-	border: solid 2px black; 
-	margin: 20px 0px; 
-	height: 110px; 
-	padding-top: 10px; 
-	img{
-		margin: 0px 10px;  
-	}
-
-	button{
-		margin-top: 20px; 
-		width: 170px; 
-	}
-}
-
-
-
-	.name_detail{ 
-		margin-top: 15px; 
-		margin-left: 15px; 
-		letter-spacing: 2px;
-	}
