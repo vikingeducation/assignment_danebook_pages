@@ -1,1 +1,199 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- These 3 meta tags *must* come first in the head-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Danebook About Edit Page </title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Project CSS -->
+    <link rel="stylesheet" type="text/css" href="css_files/styles.css">
+  </head>
+  
+  <body> 
+    <nav class="navbar navbar-default navbar-fixed-top top-navigation">
+    	<div class="container">
+
+    	<!-- Logo and Brand Name -->
+    		<div class="navbar-header">
+    			<a class="navbar-brand" href="about.html">
+    				<span><img src="assets/danish_flag.gif" alt="danish flag" height="32" width="32" class="img-circle"></span>
+    				Danebook
+					</a>
+	    	</div>
+
+
+	    <!-- Search Bar and User Name -->
+	    	<form class="navbar-form navbar-left">
+	    		<div class="form-group">
+	    			<input type="text" class="form-control navbar-search" name="search" placeholder="Search for Users">
+    			</div>
+  			</form>
+
+  			<p class="navbar-text navbar-right">
+  				<a href="#" class="navbar-link">Harry Potter</a>
+				</p>
+			
+    	</div>
+  	</nav>
+
+
+  	<div class="jumbotron">
+  		<div class="container">
+
+  		<!-- Cover picture, profile picture and user name -->
+  			<img src="assets/hogwarts_small.jpg" height="300px" width="100%" alt="Responsive Hogwarts Picture" id="cover-picture">
+  			<img src="assets/harry_potter_small.jpg" height="180px" alt="Harry Potter Picture" id="profile-picture">
+  			<h3 class="profile-name">Harry Potter</h3>
+
+
+
+  		<!-- Navigation links to switch between Danebook pages -->
+  			<nav class="navbar navbar-default" role="navigation">
+				  <div class="container tabs">
+	  				<ul class="nav navbar-nav site-navigation">
+	  					<li class="link-tab"><h5><a href="timeline.html">Timeline</a></h5></li>
+	  					<li class="link-tab not-active"><h5><a href="about.html">About</a></h5></li>
+	  					<li class="link-tab"><h5><a href="photos.html">Photos <small>(123)</small></a></h5></li>
+	  					<li class="link-tab"><h5><a href="friends.html">Friends <small>(542)</small></a></h5></li>
+	  					<!-- <li class="pull-right"><a href="about_edit.html">Edit Profile</a></li> -->
+	  				</ul>
+		  		</div>	
+				</nav>
+  		</div>			<!-- End jumbotron container -->
+		</div>				<!-- End jumbotron class -->
+    <br>
+
+
+
+    <main>
+    	<div class="container">
+	    	<div class="row main-heading">
+	    		<div class="col-sm-8 col-sm-offset-2">
+	    			<h3 class="text-center">About</h3> 
+	  			</div>
+				</div>
+
+
+				<div class="row main-section">						<!-- Start of About Section  -->
+
+
+					<!-- left side of About section -->
+					<div class="col-sm-5 col-sm-offset-1">							
+						<h3>Basic Information</h3>
+
+						<div class="row">
+							<div class="col-sm-4">	
+								<p><strong>Birthday: </strong></p>
+							</div>
+							<div class="col-sm-8">
+								<p>July 31st, 1980</p>
+							</div>
+						</div>
+
+
+						<div class="row">	
+							<div class="col-sm-4">	
+								<p><strong>College: </strong></p>
+							</div>
+							<div class="col-sm-8">
+								<input type="text" size="30" value="Hogwarts College">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-4">	
+								<p><strong>Hometown: </strong></p>
+							</div>
+							<div class="col-sm-8">
+								<input type="text" size="30" value="Godrick's Hollow, England">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-4">	
+								<p><strong>Currently Lives: </strong></p>
+							</div>
+							<div class="col-sm-8">
+								<input type="text" size="30" value="Godrick's Hollow, England">
+							</div>
+						</div>
+					<br>
+
+
+
+
+					<!-- Contact Information Section  -->
+						<h3>Contact Information</h3>					
+					  <div class="row">
+							<div class="col-sm-4">	
+								<p><strong>Email: </strong></p>
+							</div>
+							<div class="col-sm-8">
+								<p>harry_potter@hogwarts.edu</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-4">	
+								<p><strong>Telephone: </strong></p>
+							</div>
+							<div class="col-sm-8">
+								<input type="text" size="30" value="555-123-4567">
+							</div>
+						</div>
+
+						<br>
+					</div>				<!-- End left column -->
+
+
+
+					<!-- Begin right side of about section -->
+					<div class="col-sm-6"> 						
+						<h3>Words to Live By</h3>
+						<div class="row">
+							<div class="col-sm-12">
+								<textarea rows="3" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
+							</div>
+						</div>
+						<br>
+
+						<h3>About me</h3>
+						<div class="row">
+							<div class="col-sm-12">
+								<textarea rows="7" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </textarea>
+							</div>
+						</div>
+					</div>				<!-- End right side of About -->
+
+
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3">	
+							<!-- <button type="button" class="btn btn-primary btn-lg submit-button">Save Changes</button> -->
+
+							<a href="about.html" role="button" class="btn btn-primary btn-lg submit-button">Save Changes</a>
+						</div>
+					</div>
+
+				</div>			<!-- End about section -->
+			</div>				<!-- End main container -->
+    </main>
+    <br>
+    <br>
+    
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+  </body>
+</html>
+    
