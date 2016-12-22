@@ -1,1 +1,155 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- These 3 meta tags *must* come first in the head-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Danebook Timeline</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Project CSS -->
+    <link rel="stylesheet" type="text/css" href="css_files/styles.css">
+  </head>
+  
+  <body> 
+    <nav class="navbar navbar-default navbar-fixed-top top-navigation">
+    	<div class="container">
+
+    	<!-- Logo and Brand Name -->
+    		<div class="navbar-header">
+    			<a class="navbar-brand" href="about.html">
+    				<span><img src="assets/danish_flag.gif" alt="danish flag" height="32" width="32" class="img-circle"></span>
+    				Danebook
+					</a>
+	    	</div>
+
+
+			<!-- Search Bar and User Name -->
+	    	<form class="navbar-form navbar-left">
+	    		<div class="form-group">
+	    			<input type="text" class="form-control navbar-search" name="search" placeholder="Search for Users">
+    			</div>
+  			</form>
+
+  			<p class="navbar-text navbar-right">
+  				<a href="#" class="navbar-link">Harry Potter</a>
+				</p>
+			
+    	</div>
+  	</nav>
+
+
+  	<div class="jumbotron">
+  		<div class="container">
+
+  		<!-- Cover picture, profile picture and user name -->
+  			<img src="assets/hogwarts_small.jpg" height="300px" width="100%" alt="Responsive Hogwarts Picture" id="cover-picture">
+  			<img src="assets/harry_potter_small.jpg" height="180px" alt="Harry Potter Picture" id="profile-picture">
+  			<h3 class="profile-name">Harry Potter</h3>
+
+
+
+			<!-- Navigation links to switch between Danebook pages -->
+  			<nav class="navbar navbar-default" role="navigation">
+				  <div class="container tabs">
+	  				<ul class="nav navbar-nav site-navigation">
+	  					<li class="link-tab not-active"><h5><a href="timeline.html">Timeline</a></h5></li>
+	  					<li class="link-tab"><h5><a href="about.html">About</a></h5></li>
+	  					<li class="link-tab"><h5><a href="photos.html">Photos <small>(123)</small></a></h5></li>
+	  					<li class="link-tab"><h5><a href="friends.html">Friends <small>(542)</small></a></h5></li>
+	  					<li class="pull-right edit-link"><a href="about_edit.html">Edit Profile</a></li>
+	  				</ul>
+		  		</div>	
+				</nav>
+  		</div>			<!-- End jumbotron container -->
+		</div>				<!-- End jumbotron class -->
+    <br>
+
+
+		
+    <main>
+    	<div class="container">
+    		<div class="row">
+
+
+    		<!-- Left column of main content -->
+    			<div class="col-sm-4">
+    			</div>
+
+
+
+
+  			<!-- Right column of main content -->
+    			<div class="col-sm-8">
+
+    			<!-- Create a post -->
+    				<div class="panel panel-default">
+						  <div class="panel-heading">
+						    <h3 class="panel-title text-center">Post</h3>
+						  </div>
+
+						  <div class="panel-body">
+						  	<div class="row">
+           				<div class="col-sm-12">
+                		<textarea class="form-control">Tell the world something...</textarea>
+           				</div>
+            		</div>
+							</div>
+
+						  <div class="panel-footer">
+							  <div class="row">
+           				<div class="col-sm-2 col-sm-offset-10">
+						  			<button class="btn btn-primary text-right post-button"> Post </button>
+						 		 	</div>
+					 		 	</div>
+							</div>
+						</div>		<!-- End post panel -->
+
+
+					<!-- Existing Post -->
+						<div class="panel panel-default">
+      			 	<div class="panel-body">
+           			
+
+           			<div class="row">
+                	<div class="col-sm-1">
+                		<a href="about.html"><img src="assets/harry_potter_small.jpg" height="50px" width="45px"></a>
+           				</div>
+                	<div class="col-sm-11">
+           					<h5><a href="about.html">Harry Potter</a><br><small>Posted on Thursday 1/16/2014</small></h5>
+           				</div>
+         				</div>
+         				<br>
+
+            		<div class="row"> 
+           				<div class="col-sm-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+           				</div>
+								</div>
+							</div>
+
+
+		        	<div class="panel-footer">
+		          	Panel footer
+		        	</div>
+    				</div>
+
+    			</div>   <!-- End right column-->
+    		</div>			<!-- End main content row -->
+    	</div>        <!-- End main content container-->
+    </main>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+  </body>
+</html>
+    
+    

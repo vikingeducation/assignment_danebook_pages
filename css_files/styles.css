@@ -49,6 +49,11 @@
     margin-left: 2em;
     box-shadow: 3px 3px 5px black; }
 
+.post-button {
+  border-radius: 0px;
+  box-shadow: 3px 3px 5px black;
+  width: 6em; }
+
 .about-section {
   border: solid 2px black; }
 
@@ -69,5 +74,8 @@
   text-align: center;
   padding-top: 1em;
   border-radius: 0; }
+
+.navbar {
+  margin-bottom: 0px; }
 
 /*# sourceMappingURL=styles.css.map */
