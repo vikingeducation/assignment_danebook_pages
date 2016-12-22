@@ -69,6 +69,12 @@
     width: 6em; 
 	}
 
+	.comment-button{
+		border-radius: 0px; 
+    box-shadow: 3px 3px 5px black;
+    // margin-right: 25px; 
+	}
+
 .about-section{
 	border: solid 2px black; 
 }
@@ -94,7 +100,16 @@
 	border-radius:0; 
 }
 
-
 .navbar{
 	margin-bottom: 0px; 
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
