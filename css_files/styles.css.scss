@@ -50,7 +50,11 @@
 .not-active {
  pointer-events: none;
  cursor: default;
- background-color: #C7C7C7; 
+ 
+}
+
+.link-tab.not-active{
+ background-color: #C7C7C7;
 }
 
 .main-heading{

@@ -38,7 +38,9 @@
 
 .not-active {
   pointer-events: none;
-  cursor: default;
+  cursor: default; }
+
+.link-tab.not-active {
   background-color: #C7C7C7; }
 
 .main-heading {
