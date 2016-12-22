@@ -80,7 +80,6 @@ body{
 	.comment-button{
 		border-radius: 0px; 
     box-shadow: 3px 3px 5px black;
-    // margin-right: 25px; 
 	}
 
 .about-section{
@@ -121,3 +120,26 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+
+.friend_detail{
+	border: solid 2px black; 
+	margin: 20px 0px; 
+	height: 110px; 
+	padding-top: 10px; 
+	img{
+		margin: 0px 10px;  
+	}
+
+	button{
+		margin-top: 20px; 
+		width: 170px; 
+	}
+}
+
+
+
+	.name_detail{ 
+		margin-top: 15px; 
+		margin-left: 15px; 
+		letter-spacing: 2px;
+	}

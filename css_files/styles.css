@@ -96,4 +96,20 @@ hr {
   border-style: inset;
   border-width: 1px; }
 
+.friend_detail {
+  border: solid 2px black;
+  margin: 20px 0px;
+  height: 110px;
+  padding-top: 10px; }
+  .friend_detail img {
+    margin: 0px 10px; }
+  .friend_detail button {
+    margin-top: 20px;
+    width: 170px; }
+
+.name_detail {
+  margin-top: 15px;
+  margin-left: 15px;
+  letter-spacing: 2px; }
+
 /*# sourceMappingURL=styles.css.map */
