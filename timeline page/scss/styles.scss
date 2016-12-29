@@ -1,0 +1,172 @@
+body {
+	height: 800px;
+}
+
+nav {
+	background-color: #337AB7;
+}
+
+.navbar-custom {
+	border-radius: 0px;
+}
+
+#search-bar {
+	width: 500px;
+	border-radius: 0px;
+}
+
+a.navbar-brand {
+	color: white;
+	font-size: 24px;
+}
+
+.navbar-right {
+	color: white;
+	font-size: 24px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+div.jumbotron {
+	border-radius: 0px;
+}
+
+.jumbotron {
+	position: relative;
+	height: 270px;
+	margin-top: -20px;
+    margin-bottom: 0px;
+    background-image: url("../../assets/big_ben_clockface_190677.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#head-shot {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: -72px;
+}
+
+#name {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 160px;
+	margin-left: 100px;
+}
+
+main {
+	position: relative;
+}
+
+.btn-group-justified {
+	position: relative;
+	z-index: -1;
+}
+
+#btn-bar {
+	border: 1px solid;
+	margin: auto;
+}
+
+.btn-link {
+	text-decoration: underline;
+}
+
+.well {
+	height: 50px;
+	border-radius: 0;
+}
+
+#edit-profile {
+	float: right;
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+}
+
+.panel-body {
+	margin: -26px;
+}
+
+div h3 {
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding-top: 3px;
+}
+
+.panel {
+	border: 1px solid;
+}
+
+p {
+	font-weight: bold;
+}
+
+.thumbnail {
+	height: 137px;
+	border-radius: 0px;
+}
+
+section img {
+	float: left;
+}
+
+.caption {
+	padding: auto;
+	margin-top: 35px;
+}
+
+#friend-name {
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+#unfriend-btn {
+	margin-top: 42px;
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+	padding: 0px 15px 0px 15px;
+}
+
+#content {
+	margin: auto;
+}
+
+#posted {
+	margin: auto;
+}
+
+#timeline-post-footer {
+	height: 40px;
+}
+
+#post-btn {
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+	float: right;
+}
+
+#like {
+	float: left;
+	margin-right: 10px;
+}
+
+#comment {
+	float: left;
+}
+
+#delete {
+	float: right;
+}
+
+#likes {
+	
+}
+
+
+#unlike {
+	float: left;
+}
