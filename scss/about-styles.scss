@@ -47,22 +47,54 @@ nav {}
 
 #cover-img {
     width: 100%;
-
 }
+
 #profile-img {
     width: 200px;
     height: 200px;
-    z-index: 10000 ;
+    z-index: 2000;
     position: absolute;
-    left: 50px;
-    bottom: 38px;
+    left: 35px;
+    bottom: 30px;
     object-fit: none;
     object-position: top;
-
 }
 
 #pages-nav {
-    height: 75px;
+    height: 60px;
     border: 1px solid #444;
 
+}
+
+.list-group-horizontal {
+    .list-group-item {
+        display: inline-block;
+        height: 58px;
+        margin-bottom: 0;
+        margin-left: -4px;
+        margin-right: 0;
+        border: 0;
+        border-radius: 0;
+        padding: 0 25px;
+        font-size: 20px;
+        line-height: 60px;
+        border-left: 1px solid #444;
+    }
+
+    .active,
+    .active:hover {
+        background: #999;
+        color: #222;
+    }
+}
+
+
+.list-group-horizontal .list-group-item:last-child {
+  border-right: 1px solid #444;
+}
+
+#edit-profile-link{
+  line-height: 60px;
+  font-size: 16px;
+  text-decoration: underline;
 }
