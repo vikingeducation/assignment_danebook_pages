@@ -1,0 +1,68 @@
+/* Move down content because we have a fixed navbar */
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+nav {}
+
+#top-nav {
+    background: #337ab7;
+    height: 60px;
+}
+
+#logo-link {
+    padding-top: 10px;
+    margin-left: -15px;
+}
+
+#logo-text {
+    font-size: 32px;
+    color: white;
+    display: inline;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+    display: inline;
+}
+
+#search-box {
+    margin-top: 5px;
+    width: 200%;
+}
+
+#user-name {
+    color: white !important;
+    font-size: 22px;
+}
+
+#main-image-wrapper {
+    height: 450px;
+    overflow: hidden;
+}
+
+#cover-img {
+    width: 100%;
+
+}
+#profile-img {
+    width: 200px;
+    height: 200px;
+    z-index: 10000 ;
+    position: absolute;
+    left: 50px;
+    bottom: 38px;
+    object-fit: none;
+    object-position: top;
+
+}
+
+#pages-nav {
+    height: 75px;
+    border: 1px solid #444;
+
+}
