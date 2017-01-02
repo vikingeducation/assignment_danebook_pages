@@ -34,7 +34,7 @@ body {
   font-weight: bold; }
 
 #main-image-wrapper {
-  height: 450px;
+  height: 350px;
   overflow: hidden; }
 
 #cover-img {
@@ -88,12 +88,12 @@ body {
   font-size: 16px;
   text-decoration: underline; }
 
-#about-main {
+#about-top {
   margin-top: 20px;
   height: 50px;
   border: 1px solid #444;
   background: #ddd; }
-  #about-main .text-center {
+  #about-top .text-center {
     font-size: 36px;
     font-weight: bold; }
 
@@ -107,5 +107,19 @@ body {
   box-shadow: 2px 2px #444;
   background: #337ab7;
   color: white; }
+
+#about-main {
+  height: 400px;
+  border: 1px solid #444;
+  border-top: 0; }
+
+#about-left,
+#about-right {
+  font-size: 16px;
+  line-height: 1.6; }
+  #about-left h1,
+  #about-right h1 {
+    margin-top: 40px;
+    margin-bottom: 25px; }
 
 /*# sourceMappingURL=about-styles.css.map */
