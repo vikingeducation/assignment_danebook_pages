@@ -87,12 +87,12 @@ body {
   font-size: 16px;
   text-decoration: underline; }
 
-#about-top {
+#center-page-bar {
   margin-top: 20px;
   height: 50px;
   border: 1px solid #444;
   background: #ddd; }
-  #about-top .text-center {
+  #center-page-bar .text-center {
     font-size: 36px;
     font-weight: bold; }
 
