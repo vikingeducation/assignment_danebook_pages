@@ -1,3 +1,100 @@
+/* Move down content because we have a fixed navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 20px; }
 
+#top-nav {
+  background: #337ab7;
+  height: 60px;
+  z-index: 1600; }
+
+#logo-link {
+  padding-top: 10px;
+  margin-left: -15px; }
+
+#logo-text {
+  font-size: 32px;
+  color: white;
+  display: inline;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-weight: bold; }
+
+#logo {
+  height: 40px;
+  width: 40px; }
+
+#search-box {
+  margin-top: 5px;
+  width: 200%; }
+
+#user-name-nav {
+  color: white !important;
+  font-size: 22px;
+  font-weight: bold; }
+
+#main-image-wrapper {
+  height: 350px;
+  overflow: hidden; }
+
+#cover-img {
+  width: 100%; }
+
+#user-name {
+  position: absolute;
+  left: 260px;
+  bottom: 60px;
+  color: black;
+  font-size: 36px;
+  font-weight: bold; }
+
+#profile-img {
+  width: 200px;
+  height: 200px;
+  z-index: 1500;
+  position: absolute;
+  left: 35px;
+  bottom: 30px;
+  object-fit: none;
+  object-position: top; }
+
+#pages-nav {
+  height: 60px;
+  border: 1px solid #444; }
+
+.list-group-horizontal .list-group-item {
+  display: inline-block;
+  height: 58px;
+  margin-bottom: 0;
+  margin-left: -4px;
+  margin-right: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0 25px;
+  font-size: 20px;
+  line-height: 60px;
+  border-left: 1px solid #444;
+  font-weight: bold; }
+.list-group-horizontal .active,
+.list-group-horizontal .active:hover {
+  background: #ddd;
+  color: #222; }
+
+.list-group-horizontal .list-group-item:last-child {
+  border-right: 1px solid #444; }
+
+#edit-profile-link {
+  line-height: 60px;
+  font-size: 16px;
+  text-decoration: underline; }
+
+#center-page-bar {
+  margin-top: 20px;
+  height: 50px;
+  border: 1px solid #444;
+  background: #ddd; }
+  #center-page-bar .text-center {
+    font-size: 36px;
+    font-weight: bold; }
 
 /*# sourceMappingURL=timeline-styles.css.map */
