@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
+
     <nav class="navbar navbar-custom">
       <div class="container">
         <div class="navbar-header">
@@ -39,334 +40,315 @@
 
     <main id="main-content" class="container">
 
-      <div class="row">
-        <div class="jumbotron">
+      <div id="timeline-content" class="row">
+
+        <div id="clock" class="jumbotron">
           <div class="container">
-          <p><img id="head-shot" class="img-thumbnail" src="../assets/harry.jpg" class="" href="#" role=""></a></p>
-          <p id="name">Harry Houdini</p>
+            <p><img id="head-shot" class="img-thumbnail" src="../assets/harry.jpg" class="" href="#" role=""></a></p>
+            <h2 id="name">Harry Houdini</h2>
+          </div>
         </div><!-- /.jumbotron -->
-      </div>
 
-      <div id="btn-bar" class="row">
-        <div id="btn-bar" class="btn-group btn-group-justified" role="group" aria-label="...">
-          <div class="btn-group col-xs-2" role="spacer">
-            <p></p>
-          </div>
-          <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default active">Timeline</button>
-          </div>
-          <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default">About</button>
-          </div>
-          <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default">Photos (123)</button>
-          </div>
-          <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default">Friends (4567)</button>
-          </div>
-          <div class="btn-group" role="group">
-            <button type="button btn-link" class="btn btn-link">Edit Profile</button>
-          </div>
-        </div><!-- /.btn-group #btn-bar -->
-      </div><!-- /.row #btn-bar -->
-
-      <br>
-
-      <section id="content" class="row">
-        <div class="col-xs-5">
-          <div id="about" class="panel panel-default">
-            <div class="well panel info">
-              <div class="panel-body">
-                <div class="col-xs-2 col-xs-offset-4">
-                  <h3>About</h3>
-                </div>
-              </div><!-- /.panel-body "About" -->
+        <div id="btn-bar" class="row">
+          <div id="btn-bar" class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div id="no-top-border" class="btn-group " role="spacer">
+              <p></p>
             </div>
-            <p>Born on: March 24, 1874</p>
-            <p>Went to school at: Self-Taught (School of Hard Locks)</p>
-            <p>Hometown: Appleton, Wisconsin</p>
-            <p>Resting Place: Detroit, Michigan</p>
-          </div><!-- /#about -->
-
-          <br>
-
-          <div id="photos" class="panel panel-default ">
-            <div class="well panel">
-              <div class="panel-body">
-                <div class="col-xs-2 col-xs-offset-4">
-                  <h3>Photos</h3>
-                </div>
-              </div><!-- /.panel-body "Photos" -->
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default active">Timeline</button>
             </div>
-            <div class="row uploads">
-              <div class="col-xs-12">
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-                </div>
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-                </div>
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default">About</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default">Photos (123)</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default">Friends (4567)</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button btn-link" class="btn btn-link">Edit Profile</button>
+            </div>
+          </div><!-- /.btn-group #btn-bar -->
+        </div><!-- /.row #btn-bar -->
+
+        <br>
+
+        <section id="content" class="row">
+
+          <div id class="col-xs-12 col-md-5">
+
+            <div id="about" class="panel panel-default">
+              <div class="well panel info">
+                <div class="panel-body">
+                  <div class="col-xs-2 col-xs-offset-4">
+                    <h3>About</h3>
+                  </div>
                 </div>
               </div>
-              <div class="col-xs-12">
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+              <div id="about-info" class="row panel-body info">
+                <p><strong>Born on:</strong> March 24, 1874</p>
+                <p><strong>Went to school at:</strong> Self-Taught (School of Hard Locks)</p>
+                <p><strong>Hometown:</strong> Appleton, Wisconsin</p>
+                <p><strong>Resting Place:</strong> Detroit, Michigan</p>
+              </div>
+            </div><!-- /#about -->
+
+            <div id="photos" class="panel panel-default ">
+              <div class="well panel">
+                <div class="panel-body">
+                  <div class="col-xs-2 col-xs-offset-4">
+                    <h3>Photos</h3>
+                  </div>
+                </div><!-- /.panel-body "Photos" -->
+              </div>
+              <div class="row uploads">
+                <div class="col-xs-12">
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
                 </div>
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                <div class="col-xs-12">
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
                 </div>
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                <div class="col-xs-12">
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
+                  <div class="col-xs-4">
+                    <img src="../assets/icon_photo_xsmall.png" alt="Mrs. Bessie Houdini">
+                  </div>
+                </div>
+                <p class="text-center"><a href="#"><u>See More Photos</u></a></p>
+            
+              </div><!-- /.uploads -->
+            
+            </div><!-- /#photos -->
+
+            <div id="friends" class="panel panel-default ">
+              <div class="well panel">
+                <div class="panel-body">
+                  <div class="col-xs-2 col-xs-offset-4">
+                    <h3>Friends</h3>
+                  </div>
                 </div>
               </div>
-              <div class="col-xs-12">
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-                </div>
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-                </div>
-                <div class="col-xs-4">
-                  <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-                </div>
+
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="thumbnail">
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <img class="" src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
+                          <div class="caption">
+                            <a id="friend-name" href="#">Bessie Houdini</a>
+                          </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
+                        <div class="caption">
+                          <a id="friend-name" href="#">Bessie Houdini</a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
+                        <div class="caption">
+                          <a id="friend-name" href="#">Bessie Houdini</a>
+                        </div>
+                      </div>
+                    </div><!-- row 1 -->
+
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
+                        <div class="caption">
+                          <a id="friend-name" href="#">Bessie Houdini</a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
+                        <div class="caption">
+                          <a id="friend-name" href="#">Bessie Houdini</a>
+                        </div>
+                      </div>
+                      <div class="col-xs-4">
+                        <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
+                        <div class="caption">
+                          <a id="friend-name" href="#">Bessie Houdini</a>
+                        </div>
+                      </div>
+                    </div><!-- row 2 -->
+                  </div><!-- /.thumbnail -->
+                </div><!-- /.col-xs-12 -->
+                <p class="text-center"><a href="#"><u>See More Friends</u></a></p>
+              </div><!-- /.row -->
+            </div><!-- /#friends -->
+          </div><!-- /.col-md-5 -->
+
+          <div class="col-xs-12 col-md-7">
+            <div id="" class="post panel panel-default">
+              <div class="well panel info">
+                <div class="panel-body">
+                  <div class="col-xs-2 col-xs-offset-5">
+                    <h3>Post</h3>
+                  </div>
+                </div><!-- /.panel-body "Post" -->
               </div>
-            </div>
-          </div><!-- /#photos -->
-
-          <br>
-
-          <div id="friends" class="panel panel-default ">
-            <div class="well panel">
-              <div class="panel-body">
-                <div class="col-xs-2 col-xs-offset-4">
-                  <h3>Friends</h3>
-                </div>
-              </div><!-- /.panel-body "Friends" -->
-            </div>
-            <div class="row">
-            <div class="col-xs-12">
-              <div class="thumbnail">
-                <div class="row">
-                  <div class="col-xs-4">
-                    <img class="" src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
-                    <div class="caption">
-                      <a id="friend-name" href="#">Bessie Houdini</a>
-                    </div>
-                  </div>
-                  <div class="col-xs-4">
-                    <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
-                    <div class="caption">
-                      <a id="friend-name" href="#">Bessie Houdini</a>
-                    </div>
-                  </div>
-                  <div class="col-xs-4">
-                    <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
-                    <div class="caption">
-                      <a id="friend-name" href="#">Bessie Houdini</a>
-                    </div>
-                  </div>
-                </div><!-- row 1 -->
-
-                <div class="row">
-                  <div class="col-xs-4">
-                    <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
-                     <div class="caption">
-                      <a id="friend-name" href="#">Bessie Houdini</a>
-                    </div>
-                  </div>
-                  <div class="col-xs-4">
-                    <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
-                    <div class="caption">
-                      <a id="friend-name" href="#">Bessie Houdini</a>
-                    </div>
-                  </div>
-                  <div class="col-xs-4">
-                    <img src="../assets/imgres-1.jpg" alt="Mrs. Bessie Houdini">
-                    <div class="caption">
-                      <a id="friend-name" href="#">Bessie Houdini</a>
-                    </div>
-                  </div>
-                </div><!-- row 2 -->
-              </div><!-- /.thumbnail -->
-            </div><!-- /.col-xs-12 -->
-            </div><!-- /.row -->
-          </div><!-- /#friends -->
-        </div><!-- /.col-xs-5 -->
-
-
-        <div class="col-xs-7">
-          <div class="panel panel-default">
-            <div class="well panel info">
-              <div class="panel-body">
-                <div class="col-xs-2 col-xs-offset-5">
-                  <h3>Post</h3>
-                </div>
-              </div><!-- /.panel-body "Post" -->
-            </div>
-            <div class="input-group input-group-sm">
-              <textarea>Tell the world something...</textarea>
-            </div>
-            <div class="info">
+              <div class="input-group-lg">
+                <textarea>Tell the world something...</textarea>
+              </div>
               <div id="timeline-post-footer" class="panel-footer info">
                 <p>
                   <button id="post-btn" type="post" class="btn btn-primary">Post</button>
                 </p>
               </div>
-            </div><!-- /.panel .well "" -->
-          </div>
+            </div><!-- /#post -->
 
-          <br>
-
-          <div id="posted" class="panel panel-default row">
-            <div class="panel-body">
-              <img src="../assets/harry.jpg" class="col-xs-2">
-              <p id="post-name" class="col-xs-10" href="#">Harry Houdini</p>
-              <p id="post-date" class="col-xs-10">Posted on 12/28/1916</p>
-            </div>
             <br>
-            <p id="post-text" class="col-xs-12">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <div class="panel-footer">
-              <p id="like">Like</p>
-              <p id="comment">Comment</p>
-              <p id="delete">Delete</p>
-            </div>
-          </div>
 
-          <br>
-
-          <div id="posted" class="panel panel-default row">
-            <div class="panel-body">
-              <img src="../assets/harry.jpg" class="col-xs-2">
-              <p id="post-name" class="col-xs-10" href="#">Harry Houdini</p>
-              <p id="post-date" class="col-xs-10">Posted on 12/27/1916</p>
-            </div>
-            <br>
-            <p id="post-text" class="col-xs-12">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <div class="panel-footer col-xs-12">
-              <p id="like">Like</p>
-              <p id="comment">Comment</p>
-              <p id="delete">Delete</p>
-            </div>
-            <div class="panel-footer col-xs-12">
-              <p id="likes">Bessie Houdini likes this</p>
-            </div>
-          </div>
-
-          <br>
-
-          <div id="posted" class="panel panel-default row">
-            <div class="panel-body">
-              <img src="../assets/harry.jpg" class="col-xs-2">
-              <p id="post-name" class="col-xs-10" href="#">Harry Houdini</p>
-              <p id="post-date" class="col-xs-10">Posted on 12/27/1916</p>
-            </div>
-            <br>
-            <p id="post-text" class="col-xs-12">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <div class="panel-footer col-xs-12">
-              <p id="unlike">Unlike</p>
-              <p id="delete">Delete</p>
-              <p id="likes" class="col-xs-12">You and Bessie Houdini and 3 others like this</p>
-            </div>
-            <div id="posted" class="panel panel-default row well">
+            <div id="" class="posted media panel panel-default row">
+              <div class="panel-body media-left">
+                <a href="#">
+                  <img src="../assets/harry-sm.jpg" class="media-object">
+                </a>
+              </div>
+              <div class="panel-body media-body">
+                <a href="#"><h4 class="media-heading col-xs-10" href="#" id="post-name"><u>Harry Houdini</u></h4></a>
+                  <p id="post-date" class="col-xs-10">Posted on 12/28/1916</p>
+              </div>
               <div class="panel-body">
-                <img src="../assets/harry.jpg" class="col-xs-2">
-                <p id="post-name" class="col-xs-10" href="#">Harry Houdini</p>
-                <p id="post-said-date" class="col-xs-10">Said on 12/28/1916</p>
-              </div>
-              <br>
-              <p id="post-text" class="col-xs-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <div class="panel-footer">
-                <p id="like">Like</p>
-                <p>3 other people like this</p>
-              </div>
-            </div>
-          </div>
-
-          <br>
-
-          <div id="posted" class="panel panel-default row">
-            <div class="panel-body">
-              <img src="../assets/harry.jpg" class="col-xs-2">
-              <p id="post-name" class="col-xs-10" href="#">Harry Houdini</p>
-              <p id="post-date" class="col-xs-10">Posted on 12/27/1916</p>
-            </div>
-            <br>
-            <p id="post-text" class="col-xs-12">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <div class="panel-footer col-xs-12">
-              <p id="unlike">Unlike</p>
-              <p id="delete">Delete</p>
-              <p id="likes" class="col-xs-12">You and Bessie Houdini and 3 others like this</p>
-            </div>
-            <div id="posted" class="panel panel-default row well">
-              <div class="panel-body">
-                <img src="../assets/harry.jpg" class="col-xs-2">
-                <p id="post-name" class="col-xs-10" href="#">Harry Houdini</p>
-                <p id="post-said-date" class="col-xs-10">Said on 12/28/1916</p>
-              </div>
-              <br>
-              <p id="post-text" class="col-xs-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <div class="panel-footer">
-                <p id="like">Like</p>
-                <p>3 other people like this</p>
-              </div>
-            </div>
-
-          </div>
-          <div class="panel panel-default">
-            <div class="well panel info">
-              <div class="panel-body">
-                <div class="col-xs-2 col-xs-offset-5">
-                  <h3>Post</h3>
-                </div>
-              </div><!-- /.panel-body "Post" -->
-            </div>
-            <div class="input-group input-group-sm">
-              <textarea>Tell the world something...</textarea>
-            </div>
-            <div class="info">
-              <div id="timeline-post-footer" class="panel-footer info">
-                <p>
-                  <button id="post-btn" type="post" class="btn btn-primary">Comment</button>
+                <p id="post-text" class="col-xs-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
               </div>
-            </div><!-- /.panel .well "" -->
-          </div>
-        </div>
 
+              <div class="panel-footer col-xs-12">
+                <a href="#" id="like" class="col-xs-1"><u>Like</u></a>
+                <a href="#" id="comment" class="col-xs-1"><u>Comment</u></a>
+                <a href="#" id="delete"><u>Delete</u></a>
+              </div>
+            </div><!-- /#posted -->
+
+            <br>
+
+            <div id="" class="posted media panel panel-default row">
+              <div class="panel-body media-left">
+                <a href="#">
+                  <img src="../assets/harry-sm.jpg" class="media-object">
+                </a>
+              </div>
+              <div class="media-body">
+                <a href="#"><h4 class="media-heading col-xs-10" href="#" id="post-name"><u>Harry Houdini</u></h4></a>
+                <p id="post-date" class="col-xs-10">Posted on 12/27/1916</p>
+              </div>
+              <div class="panel-body">
+                <p id="post-text" class="col-xs-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="panel-footer col-xs-12">
+                <a href="#" id="like-2" class="col-xs-1"><u>Like</u></a>
+                <a href="#" id="comment-2" class="col-xs-1"><u>Comment</u></a>
+                <a href="#" id="delete-2"><u>Delete</u></a>
+                <p id="likes" class="col-xs-12"><a href="#"><u>Bessie Houdini</u></a> likes this</p>
+              </div>
+            </div><!-- /#posted(&liked) -->
+
+            <br>
+
+            <div id="reply-group-first" class="posted media panel grey panel-default row">
+              <div class="panel-body media-left">
+                <a href="#">
+                  <img src="../assets/harry-sm.jpg" class="media-object">
+                </a>
+              </div>
+              <div class="media-body">
+                <a href="#"><h4 class="media-heading col-xs-10" href="#" id="post-name"><u>Harry Houdini</u></h4></a>
+                <p id="post-date" class="col-xs-10">Posted on 12/27/1916</p>
+              </div>
+              <div class="panel-body">
+                <p id="post-text" class="col-xs-12">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div id="footer-border" class="panel-footer bottom-border col-xs-12">
+                <a href="#" id="unlike"><u>Unlike</u></a>
+                <a href="#" id="delete"><u>Delete</u></a>
+                <p id="likes" class="col-xs-12">You and <a href=""><u>Bessie Houdini</u></a> and 3 others like this</p>
+              </div>
+            </div>
+
+            <div id="reply-group-second" class="no-border posted media panel panel-default grey row">
+              <div class="panel-body media-left">
+                <a href="#">
+                  <img src="../assets/imgres-1-xsm.jpg" class="media-object">
+                </a>
+              </div>
+              <div class="media-body">
+                <a href="#"><h4 class="media-heading col-xs-10" href="#" id="post-name"><u>Bessie Houdini</u></h4></a>
+                <p id="post-said-date" class="col-xs-10">Said on 12/28/1916</p>
+              </div>
+              <div class="panel-body">
+                <p id="post-text" class="col-xs-12">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="panel-footer no-top-border">
+                <a href="3" id="like-3"><u>Like</u></a>
+                <p>3 other people like this</p>
+              </div>
+            </div>
+
+            <div id="reply-group-third" class="no-border posted media panel panel-default grey row">
+              <div class="panel-body media-left">
+                <a href="#">
+                  <img src="../assets/harry-sm.jpg" class="media-object">
+                </a>
+              </div>
+              <div class="media-body">
+                <a href="#"><h4 class="media-heading col-xs-10" href="#" id="post-name"><u>Harry Houdini</u></h4></a>
+                <p id="post-said-date" class="col-xs-10">Said on 12/29/1916</p>
+              </div>
+              <div class="panel-body">
+                <p id="post-text" class="col-xs-12">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="panel-footer no-top-border">
+                <a href="3" id="like-3"><u>Like</u></a>
+                <a href="#" id="delete"><u>Delete</u></a>
+                <p>3 other people like this</p>
+              </div>
+              <div class="input-group-lg">
+                <textarea>Tell the world something...</textarea>
+              </div>
+                <div class="panel-footer info no-top-border">
+                  <a id="cancel" href="#"><u>Cancel</u></a>
+                    <button id="comment-btn" type="post" class="btn btn-primary">Comment</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.panel .well "" -->
       </section>
     </div>
   </main>

@@ -1,9 +1,9 @@
 body {
-	height: 800px;
+	height: 2500px;
 }
 
 nav {
-	background-color: #337AB7;
+	background-color: #2B78E4;
 }
 
 .navbar-custom {
@@ -27,11 +27,7 @@ a.navbar-brand {
 	margin-top: 10px;
 }
 
-div.jumbotron {
-	border-radius: 0px;
-}
-
-.jumbotron {
+#clock {
 	position: relative;
 	height: 270px;
 	margin-top: -20px;
@@ -41,12 +37,14 @@ div.jumbotron {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    border-radius: 0px;
 }
 
 #head-shot {
 	position: absolute;
 	margin-top: 40px;
 	margin-left: -72px;
+	border-radius: 0px;
 }
 
 #name {
@@ -55,6 +53,7 @@ div.jumbotron {
 	font-weight: bold;
 	margin-top: 160px;
 	margin-left: 100px;
+	text-shadow: 2px 2px white;
 }
 
 main {
@@ -63,7 +62,7 @@ main {
 
 .btn-group-justified {
 	position: relative;
-	z-index: -1;
+	
 }
 
 #btn-bar {
@@ -73,6 +72,10 @@ main {
 
 .btn-link {
 	text-decoration: underline;
+}
+
+#btn-bar {
+	border-top: none;
 }
 
 .well {
@@ -99,19 +102,33 @@ div h3 {
 
 .panel {
 	border: 1px solid;
+	border-radius: 0px;
 }
 
-p {
-	font-weight: bold;
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	height: 100px;
+	width: 94%;
+	margin-left: 14px;
+}
+
+.panel-footer {
+	height: 60px;
 }
 
 .thumbnail {
 	height: 137px;
 	border-radius: 0px;
+	border-top: none;
+	border-bottom: none;
 }
 
 section img {
 	float: left;
+	margin: 10px;
 }
 
 .caption {
@@ -131,42 +148,115 @@ section img {
 	padding: 0px 15px 0px 15px;
 }
 
-#content {
+#about-info {
 	margin: auto;
 }
 
-#posted {
+.post {
 	margin: auto;
 }
-
-#timeline-post-footer {
-	height: 40px;
+.posted {
+	margin: auto;
 }
 
 #post-btn {
 	box-shadow: 5px 5px black;
 	border-radius: 0;
 	float: right;
+	background-color: #2B78E4;
+}
+
+#post-text {
+	margin: 10px;
+}
+
+.media-body {
+	padding-top: 35px;
+}
+
+#reply-group-first {
+	border-bottom: none;
+}
+
+#reply-group-second {
+	border-top: none;
+	border-bottom: none;
+	background: #F5F5F5;
+}
+
+#reply-group-third {
+	border-top: none;
+	background: #F5F5F5;
+}
+
+#reply-group-comment {
+	border-top: none;
+	background: #F5F5F5;
 }
 
 #like {
-	float: left;
-	margin-right: 10px;
+	margin-left: -15px;
+	margin-top: 5px;
 }
 
 #comment {
-	float: left;
+	margin-top: 5px;
 }
 
 #delete {
+	margin-top: 5px;
 	float: right;
+	margin-right: 5px;
+}
+
+#like-2 {
+	margin-left: -15px;
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+#comment-2 {
+	margin-top: -5px;
+}
+
+#delete-2 {
+	float: right;
+	margin-right: 5px;
+	margin-top: -5px;
 }
 
 #likes {
-	
+	margin-left: -15px;
 }
-
 
 #unlike {
 	float: left;
+}
+
+#like-3 {
+	padding-left: -25px;
+}
+
+.bottom-border {
+	border-bottom: #FFFFFF;
+}
+
+#comment-btn {
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+	float: right;
+	background-color: #2B78E4;
+}
+
+.panel .no-border {
+	border: none;
+}
+.panel .grey{
+	background-color: #F5F5F5;
+}
+
+
+
+.no-top-border {
+	border-top: none;
 }
