@@ -97,4 +97,34 @@ body {
     font-size: 36px;
     font-weight: bold; }
 
+#friends-list-wrapper {
+  border: 1px solid #444;
+  border-top: 0;
+  padding-bottom: 20px; }
+
+.friend {
+  height: 140px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #444;
+  font-size: 18px;
+  color: #888; }
+  .friend img {
+    width: 100%;
+    height: auto; }
+  .friend a {
+    text-decoration: underline; }
+  .friend .btn {
+    height: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0 20px;
+    border: 2px solid #222;
+    border-radius: 2px;
+    box-shadow: 2px 2px #222;
+    color: #222; }
+
 /*# sourceMappingURL=friends-styles.css.map */
