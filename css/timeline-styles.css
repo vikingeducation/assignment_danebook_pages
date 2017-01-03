@@ -88,13 +88,53 @@ body {
   font-size: 16px;
   text-decoration: underline; }
 
-#center-page-bar {
+#about-wrapper {
+  text-align: left; }
+
+#photo-list-wrapper, #friend-list-wrapper {
+  text-align: center; }
+  #photo-list-wrapper a, #friend-list-wrapper a {
+    font-size: 16px;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block; }
+
+#about-wrapper,
+#friend-list-wrapper,
+#photo-list-wrapper {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 10px; }
+
+#about-wrapper,
+#friend-list-wrapper,
+#new-post-wrapper,
+#photo-list-wrapper {
   margin-top: 20px;
-  height: 50px;
-  border: 1px solid #444;
-  background: #ddd; }
-  #center-page-bar .text-center {
-    font-size: 36px;
-    font-weight: bold; }
+  border: 1px solid #444; }
+
+.small-heading {
+  height: 30px;
+  background: #ddd;
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px; }
+
+.photo-wrapper, .friend-wrapper {
+  height: auto;
+  margin-top: 10px; }
+
+img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=timeline-styles.css.map */
