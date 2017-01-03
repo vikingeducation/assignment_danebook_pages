@@ -2,8 +2,14 @@ body {
 	height: 900px;
 }
 
+/*
+-----------------------
+Navbar
+-----------------------
+*/
+
 nav {
-	background-color: #337AB7;
+	background-color: #2B78E4;
 }
 
 .navbar-custom {
@@ -27,11 +33,17 @@ a.navbar-brand {
 	margin-top: 10px;
 }
 
+/*
+-----------------------
+Jumbotron
+-----------------------
+*/
+
 div.jumbotron {
 	border-radius: 0px;
 }
 
-.jumbotron {
+#clock {
 	position: relative;
 	height: 270px;
 	margin-top: -20px;
@@ -41,6 +53,7 @@ div.jumbotron {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    border-radius: 0px;
  }
 
 #head-shot {
@@ -56,15 +69,21 @@ div.jumbotron {
 	font-weight: bold;
 	margin-top: 160px;
 	margin-left: 100px;
+	text-shadow: 2px 2px white;
 }
 
 main {
 	position: relative;
 }
 
+/*
+-----------------------
+Button Bar
+-----------------------
+*/
+
 .btn-group-justified {
 	position: relative;
-	z-index: -1;
 }
 
 #btn-bar {
@@ -72,10 +91,17 @@ main {
 	margin: auto;
 }
 
+/*
+-----------------------
+Panel
+-----------------------
+*/
+
 #edit-profile {
 	float: right;
 	box-shadow: 5px 5px black;
 	border-radius: 0;
+	background: #2B78E4;
 }
 
 .well {

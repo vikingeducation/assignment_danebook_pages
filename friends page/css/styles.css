@@ -1,8 +1,13 @@
 body {
-  height: 800px; }
+  height: 900px; }
 
+/*
+-----------------------
+Navbar
+-----------------------
+*/
 nav {
-  background-color: #337AB7; }
+  background-color: #2B78E4; }
 
 .navbar-custom {
   border-radius: 0px; }
@@ -21,10 +26,12 @@ a.navbar-brand {
   margin: auto;
   margin-top: 10px; }
 
-div.jumbotron {
-  border-radius: 0px; }
-
-.jumbotron {
+/*
+-----------------------
+Jumbotron
+-----------------------
+*/
+#clock {
   position: relative;
   height: 270px;
   margin-top: -20px;
@@ -33,41 +40,55 @@ div.jumbotron {
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white; }
+  color: white;
+  border-radius: 0; }
 
 #head-shot {
   position: absolute;
   margin-top: 40px;
-  margin-left: -72px; }
+  margin-left: -72px;
+  border-radius: 0; }
 
 #name {
   color: black;
   font-size: 40px;
   font-weight: bold;
   margin-top: 160px;
-  margin-left: 100px; }
+  margin-left: 100px;
+  text-shadow: 2px 2px white; }
 
 main {
   position: relative; }
 
+/*
+-----------------------
+Button Bar
+-----------------------
+*/
 .btn-group-justified {
-  position: relative;
-  z-index: -1; }
+  position: relative; }
 
 #btn-bar {
   border: 1px solid;
+  border-top: none;
   margin: auto; }
 
 .btn-link {
   text-decoration: underline; }
 
-.well {
-  height: 50px;
-  border-radius: 0; }
-
 #edit-profile {
   float: right;
   box-shadow: 5px 5px black;
+  border-radius: 0;
+  background: #2B78E4; }
+
+/*
+-----------------------
+Panels
+-----------------------
+*/
+.well {
+  height: 50px;
   border-radius: 0; }
 
 .panel-body {
@@ -80,7 +101,8 @@ div h3 {
   padding-top: 3px; }
 
 .panel {
-  border: 1px solid; }
+  border: 1px solid;
+  border-radius: 0; }
 
 p {
   font-weight: bold; }

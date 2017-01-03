@@ -20,114 +20,184 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
+          
     <nav class="navbar navbar-custom">
-      <div class="container">
+      <div class="container-fluid">
+
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed navbar-default icon-bar" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
           <img class="navbar-brand img-circle" alt="DanishFlag" src="../assets/danish_flag.gif">
           <a class="navbar-brand" href="#">Danebook</a>
         </div>
-        <div id="navbar-collapse" class="collapse navbar-collapse">
 
+        <div id="navbar-collapse-1" class="collapse navbar-collapse">
           <form id="navbar-search" class="navbar-form navbar-left">
-            <div class="form-group">
               <input id="search-bar" type="text" name="search" class="form-control form-input" placeholder="Search for Users">
-            </div>
           </form>
           <a class="nav navbar-right" href="#">Harry</a>
-      </div><!-- /.container-fluid -->
-    </nav>
+        </div>
+      </div>
+    </nav><!-- /.navbar -->
+
     <main id="main-content" class="container">
-      <div class="row">
-        <div class="jumbotron">
+
+      <div id="photos-content" class="row">
+
+        <div id="clock" class="jumbotron">
           <div class="container">
-          <p><img id="head-shot" class="img-thumbnail" src="../assets/harry.jpg" class="" href="#" role=""></a></p>
-          <p id="name">Harry Houdini</p>
-        </div>
-      </div>
-      <div id="btn-bar" class="row">
-      <div class="btn-group btn-group-justified" role="group" aria-label="...">
-        <div class="btn-group col-xs-2" role="spacer">
-          <p></p>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">Timeline</button>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">About</button>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default active">Photos (123)</button>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default">Friends</button>
-        </div>
-        <div class="btn-group" role="group">
-          <button type="button" class="btn btn-default btn-link">Edit Profile</button>
-        </div>
-      </div>
-      </div>
-      <br>
-      <div class="panel panel-default ">
-        <div class="well panel">
-        <div class="panel-body">
-          <div class="col-xs-2 col-xs-offset-5">
-          <h3>Photos</h3>
+            <p><img id="head-shot" class="img-thumbnail" src="../assets/harry.jpg" class="" href="#" role=""></a></p>
+            <p id="name">Harry Houdini</p>
           </div>
-          <button id="add-photo" type="edit-profile" class="btn btn-primary btn-sm">Add Photo</button>
-        </div>
-      </div>
-      <section class="row uploads">
-        <div class="col-xs-12">
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+        </div><!-- /.jumbotron -->
+
+        <div id="btn-bar" class="row">
+          <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <div class="btn-group col-xs-2" role="spacer">
+              <p></p>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default">Timeline</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default">About</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default active">Photos (123)</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default">Friends (4567)</button>
+            </div>
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-default btn-link">Edit Profile</button>
+            </div>
           </div>
         </div>
 
+        <br>
 
-
-      </div>
+        <div class="panel panel-default ">
+          <div class="well panel">
+            <div class="panel-body">
+              <div class="col-md-2 col-md-offset-5 col-xs-3 col-xs-offset-4">
+                <h3>Photos</h3>
+              </div>
+              <button id="add-photo" type="edit-profile" class="btn btn-primary btn-sm">Add Photo</button>
+            </div>
           </div>
+
+          <section class="row uploads">
+            <div class="col-xs-12">
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-xs-6">
+                <div class="hovereffect">
+                  <img class="img-responsive" src="../assets/icon_photo_small.png" alt="Mrs. Bessie Houdini">
+                  <div class="overlay">
+                    <h5>Uploaded January 2, 1917</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
         </div>
       </div>
-    </section>
-  </main>
+    </main>
 
 
 

@@ -2,6 +2,12 @@ body {
 	height: 2500px;
 }
 
+/*
+-----------------------
+Navbar
+-----------------------
+*/
+
 nav {
 	background-color: #2B78E4;
 }
@@ -26,6 +32,16 @@ a.navbar-brand {
 	margin: auto;
 	margin-top: 10px;
 }
+
+main {
+	position: relative;
+}
+
+/*
+-----------------------
+Jumbotron
+-----------------------
+*/
 
 #clock {
 	position: relative;
@@ -56,13 +72,14 @@ a.navbar-brand {
 	text-shadow: 2px 2px white;
 }
 
-main {
-	position: relative;
-}
+/*
+-----------------------
+Button Bar
+-----------------------
+*/
 
 .btn-group-justified {
 	position: relative;
-	
 }
 
 #btn-bar {
@@ -78,14 +95,21 @@ main {
 	border-top: none;
 }
 
-.well {
-	height: 50px;
-	border-radius: 0;
-}
-
 #edit-profile {
 	float: right;
 	box-shadow: 5px 5px black;
+	border-radius: 0;
+	background: #2B78E4;
+}
+
+/*
+-----------------------
+Panels
+-----------------------
+*/
+
+.well {
+	height: 50px;
 	border-radius: 0;
 }
 
@@ -141,21 +165,11 @@ section img {
 	text-decoration: underline;
 }
 
-#unfriend-btn {
-	margin-top: 42px;
-	box-shadow: 5px 5px black;
-	border-radius: 0;
-	padding: 0px 15px 0px 15px;
-}
-
 #about-info {
 	margin: auto;
 }
 
 .post {
-	margin: auto;
-}
-.posted {
 	margin: auto;
 }
 
@@ -168,6 +182,7 @@ section img {
 
 #post-text {
 	margin: 10px;
+	padding-bottom: 10px;
 }
 
 .media-body {
@@ -241,22 +256,21 @@ section img {
 	border-bottom: #FFFFFF;
 }
 
+.panel .no-border {
+	border: none;
+}
+
+.panel .grey{
+	background-color: #F5F5F5;
+}
+
+.no-top-border {
+	border-top: none;
+}
+
 #comment-btn {
 	box-shadow: 5px 5px black;
 	border-radius: 0;
 	float: right;
 	background-color: #2B78E4;
-}
-
-.panel .no-border {
-	border: none;
-}
-.panel .grey{
-	background-color: #F5F5F5;
-}
-
-
-
-.no-top-border {
-	border-top: none;
 }
