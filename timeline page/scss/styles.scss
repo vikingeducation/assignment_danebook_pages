@@ -1,0 +1,276 @@
+body {
+	height: 2500px;
+}
+
+/*
+-----------------------
+Navbar
+-----------------------
+*/
+
+nav {
+	background-color: #2B78E4;
+}
+
+.navbar-custom {
+	border-radius: 0px;
+}
+
+#search-bar {
+	width: 500px;
+	border-radius: 0px;
+}
+
+a.navbar-brand {
+	color: white;
+	font-size: 24px;
+}
+
+.navbar-right {
+	color: white;
+	font-size: 24px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+main {
+	position: relative;
+}
+
+/*
+-----------------------
+Jumbotron
+-----------------------
+*/
+
+#clock {
+	position: relative;
+	height: 270px;
+	margin-top: -20px;
+    margin-bottom: 0px;
+    background-image: url("../../assets/big_ben_clockface_190677.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 0px;
+}
+
+#head-shot {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: -72px;
+	border-radius: 0px;
+}
+
+#name {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 160px;
+	margin-left: 100px;
+	text-shadow: 2px 2px white;
+}
+
+/*
+-----------------------
+Button Bar
+-----------------------
+*/
+
+.btn-group-justified {
+	position: relative;
+}
+
+#btn-bar {
+	border: 1px solid;
+	margin: auto;
+}
+
+.btn-link {
+	text-decoration: underline;
+}
+
+#btn-bar {
+	border-top: none;
+}
+
+#edit-profile {
+	float: right;
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+	background: #2B78E4;
+}
+
+/*
+-----------------------
+Panels
+-----------------------
+*/
+
+.well {
+	height: 50px;
+	border-radius: 0;
+}
+
+.panel-body {
+	margin: -26px;
+}
+
+div h3 {
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding-top: 3px;
+}
+
+.panel {
+	border: 1px solid;
+	border-radius: 0px;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	height: 100px;
+	width: 94%;
+	margin-left: 14px;
+}
+
+.panel-footer {
+	height: 60px;
+}
+
+.thumbnail {
+	height: 137px;
+	border-radius: 0px;
+	border-top: none;
+	border-bottom: none;
+}
+
+section img {
+	float: left;
+	margin: 10px;
+}
+
+.caption {
+	padding: auto;
+	margin-top: 35px;
+}
+
+#friend-name {
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+#about-info {
+	margin: auto;
+}
+
+.post {
+	margin: auto;
+}
+
+#post-btn {
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+	float: right;
+	background-color: #2B78E4;
+}
+
+#post-text {
+	margin: 10px;
+	padding-bottom: 10px;
+}
+
+.media-body {
+	padding-top: 35px;
+}
+
+#reply-group-first {
+	border-bottom: none;
+}
+
+#reply-group-second {
+	border-top: none;
+	border-bottom: none;
+	background: #F5F5F5;
+}
+
+#reply-group-third {
+	border-top: none;
+	background: #F5F5F5;
+}
+
+#reply-group-comment {
+	border-top: none;
+	background: #F5F5F5;
+}
+
+#like {
+	margin-left: -15px;
+	margin-top: 5px;
+}
+
+#comment {
+	margin-top: 5px;
+}
+
+#delete {
+	margin-top: 5px;
+	float: right;
+	margin-right: 5px;
+}
+
+#like-2 {
+	margin-left: -15px;
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+#comment-2 {
+	margin-top: -5px;
+}
+
+#delete-2 {
+	float: right;
+	margin-right: 5px;
+	margin-top: -5px;
+}
+
+#likes {
+	margin-left: -15px;
+}
+
+#unlike {
+	float: left;
+}
+
+#like-3 {
+	padding-left: -25px;
+}
+
+.bottom-border {
+	border-bottom: #FFFFFF;
+}
+
+.panel .no-border {
+	border: none;
+}
+
+.panel .grey{
+	background-color: #F5F5F5;
+}
+
+.no-top-border {
+	border-top: none;
+}
+
+#comment-btn {
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+	float: right;
+	background-color: #2B78E4;
+}

@@ -1,0 +1,221 @@
+body {
+	height: 1000px;
+}
+
+/*
+-----------------------
+Navbar
+-----------------------
+*/
+
+nav {
+	background-color: #2B78E4;
+}
+
+.navbar-custom {
+	border-radius: 0px;
+}
+
+#search-bar {
+	width: 500px;
+	border-radius: 0px;
+}
+
+a.navbar-brand {
+	color: white;
+	font-size: 24px;
+}
+
+.navbar-right {
+	color: white;
+	font-size: 24px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2B78E4;
+}
+
+/*
+-----------------------
+Jumbotron
+-----------------------
+*/
+
+#clock {
+	position: relative;
+	height: 270px;
+	margin-top: -20px;
+    margin-bottom: 0px;
+    background-image: url("../../assets/big_ben_clockface_190677.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 0;
+}
+
+#head-shot {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: -72px;
+	border-radius: 0;
+}
+
+#name {
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 160px;
+	margin-left: 100px;
+	text-shadow: 2px 2px white;
+}
+
+main {
+	position: relative;
+}
+
+/*
+-----------------------
+Button Bar
+-----------------------
+*/
+
+.btn-group-justified {
+	position: relative;
+	border-radius: 0px;
+}
+
+#btn-bar {
+	border: 1px solid;
+	margin: auto;
+	border-top: none;
+}
+
+.btn-link {
+	text-decoration: underline;
+}
+
+.well {
+	height: 50px;
+	border-radius: 0;
+}
+
+#add-photo {
+	float: right;
+	box-shadow: 5px 5px black;
+	border-radius: 0;
+	background: #2B78E4;
+}
+
+.panel-body {
+	margin-top: -26px;
+}
+
+div h3 {
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding-top: 3px;
+}
+
+.panel {
+	border: 1px;
+	border: solid;
+}
+
+.uploads {
+	
+}
+
+p {
+	font-weight: bold;
+}
+
+.thumbnail {
+	height: 137px;
+}
+
+section img {
+	float: left;
+	width: 100%;
+}
+
+.caption {
+	padding: auto;
+}
+
+/*
+-----------------------
+Hovereffect
+-----------------------
+*/
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: #999999;
+	opacity: 0.9;
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hovereffect:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+	transform: translate3d(0,-10%,0);
+}
+
+.hovereffect h5 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    background: #999999;
+	margin: 0px;
+	display: inline-block;
+}
+
+.hovereffect:hover .overlay,
+.hovereffect:hover h5, {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover h5 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+
+
+
+
+
+
