@@ -1,7 +1,8 @@
 /* Move down content because we have a fixed navbar */
 body {
   padding-top: 60px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-size: 16px; }
 
 #top-nav {
   background: #337ab7;
@@ -91,9 +92,11 @@ body {
 #about-wrapper {
   text-align: left; }
 
-#photo-list-wrapper, #friend-list-wrapper {
+#friend-list-wrapper,
+#photo-list-wrapper {
   text-align: center; }
-  #photo-list-wrapper a, #friend-list-wrapper a {
+  #friend-list-wrapper a,
+  #photo-list-wrapper a {
     font-size: 16px;
     text-decoration: underline;
     margin-top: 10px;
@@ -109,7 +112,8 @@ body {
 #about-wrapper,
 #friend-list-wrapper,
 #new-post-wrapper,
-#photo-list-wrapper {
+#photo-list-wrapper,
+.existing-post-wrapper {
   margin-top: 20px;
   border: 1px solid #444; }
 
@@ -126,15 +130,76 @@ body {
   border-bottom: 1px solid #444;
   margin-bottom: 10px; }
 
-.photo-wrapper, .friend-wrapper {
+.friend-wrapper,
+.photo-wrapper {
   height: auto;
   margin-top: 10px; }
+  .friend-wrapper img,
+  .photo-wrapper img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
 
-img {
-  height: 100%;
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+#new-post-wrapper textarea {
+  border: 1px solid #888 !important;
+  margin-bottom: 10px !important; }
+
+#new-post-footer {
+  height: 50px; }
+  #new-post-footer button {
+    height: 30px;
+    line-height: 16px;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 2px;
+    box-shadow: 2px 2px #444;
+    background: #337ab7;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+.post-footer {
+  background: #ddd;
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  border-top: 1px solid #444; }
+  .post-footer a {
+    font-size: 16px;
+    text-decoration: underline; }
+
+#existing-post-footer {
+  height: 30px;
+  display: flex;
+  align-items: center; }
+
+#liked-post-footer {
+  padding-top: 5px;
+  height: 80px; }
+  #liked-post-footer a {
+    margin-bottom: 15px; }
+
+.profile-img-small {
+  width: 80px;
+  height: 80px;
+  z-index: 1500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+  display: inline-block; }
+
+.post-data,
+.comment-data {
+  font-size: 16px;
+  color: #888; }
+  .post-data a,
+  .comment-data a {
+    text-decoration: underline; }
+
+.existing-post-top {
+  display: flex;
+  align-items: center; }
 
 /*# sourceMappingURL=timeline-styles.css.map */
