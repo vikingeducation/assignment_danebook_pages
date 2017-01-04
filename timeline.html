@@ -1,1 +1,311 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/timeline-styles.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <title>Welcome to Danebook</title>
+</head>
+
+<body>
+  <nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-left" id="logo-link" href="#"><img id="logo" class="img-circle navbar-left" alt="Brand" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
+        <p class="navbar-brand navbar-left" id="logo-text">Danebook</p>
+      </a>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" id="search-box" class="form-control " placeholder="Search for Users">
+        </div>
+      </form>
+      <p id="user-name-nav" class="navbar-text navbar-right">Harry</p>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="main-image-wrapper">
+            <img id="cover-img" class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg" alt="">
+          </div>
+          <div id="pages-nav" class="col-md-12">
+            <h1 id="user-name">Harry Potter</h1>
+            <img id="profile-img" class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="">
+            <div class="col-md-7 col-md-offset-2 text-center">
+              <div class="list-group list-group-horizontal">
+                <a href="timeline.html" class="list-group-item active">Timeline</a>
+                <a href="about.html" class="list-group-item">About</a>
+                <a href="photos.html" class="list-group-item">Photos</a>
+                <a href="friends.html" class="list-group-item">Friends</a>
+              </div>
+            </div>
+            <div class="col-md-offset-11 pull right text-right">
+              <a id="edit-profile-link" href="about_edit.html">Edit Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <!-- left side -->
+          <div id="about-wrapper" class="col-md-12">
+            <div class="small-heading">About</div>
+            <div class="col-md-10 col-md-offset-1"><strong>Born On: </strong>July 31st, 1980</div>
+            <div class="col-md-10 col-md-offset-1"><strong>Went to school at: </strong>Hogworts College</div>
+            <div class="col-md-10 col-md-offset-1"><strong>Hometown: </strong>Godrick's Hollow, England</div>
+            <div class="col-md-10 col-md-offset-1"><strong>Currently Lives: </strong>Godrick's Hollow, England</div>
+          </div>
+          <div id="photo-list-wrapper" class="col-md-12">
+            <div class="small-heading">Photos</div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="photo-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="">
+              </div>
+            </div>
+            <a href="photos.html">See More Photos</a>
+
+          </div>
+
+
+          <div id="friend-list-wrapper" class="col-md-12">
+            <div class="small-heading">Friends</div>
+            <div class="col-md-4">
+              <div class="friend-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" alt="">
+                <a href="photos.html">
+                  <p>Ron Weasley</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="friend-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" alt="">
+                <a href="photos.html">
+                  <p>Ginny Weasley</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="friend-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" alt="">
+                <a href="photos.html">
+                  <p>Hermione Granger</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="friend-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" alt="">
+                <a href="photos.html">
+                  <p>Ron Weasley</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="friend-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" alt="">
+                <a href="photos.html">
+                  <p>Ginny Weasley</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="friend-wrapper">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" alt="">
+                <a href="photos.html">
+                  <p>Hermione Granger</p>
+                </a>
+              </div>
+            </div>
+            <a href="friends.html">See More Friends</a>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <!-- right side -->
+          <div id="new-post-wrapper" class="col-md-12">
+            <div class="small-heading">Post</div>
+            <div class="col-md-12 input-group">
+              <textarea class="form-control " name="new-post-textarea" rows="8" placeholder="Tell the world something..."></textarea>
+            </div>
+            <div id="new-post-footer" class="post-footer">
+              <div class="col-md-2 col-md-offset-10 text-right">
+                <button class="btn" type="button" name="button">Post</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- existing post -->
+          <div class="col-md-12 existing-post-wrapper">
+            <div class="existing-post-top">
+              <div class="profile-img-small">
+                <img class="img-responsive " src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="" class="profile-img-small">
+              </div>
+              <div class="post-data">
+                <a href="">Harry Potter</a><br>Posted on January 3, 2017
+              </div>
+            </div>
+            <div class="existing-post-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolor suscipit ab perferendis. Corrupti ipsam voluptate obcaecati, ipsum
+                quas aliquid accusantium dolore. Aut sed impedit eius quibusdam, ipsam, architecto officia? Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Corrupti ipsam voluptate obcaecati, ipsum quas aliquid accusantium dolore.</p>
+            </div>
+            <div id="existing-post-footer" class="post-footer">
+              <a class="col-md-1" href="#">Like</a>
+              <a class="col-md-1 " href="#">Comment</a>
+              <a class="col-md-2 col-md-offset-8 text-right" href="#">Delete</a>
+            </div>
+          </div>
+
+          <!-- liked post -->
+          <div class="col-md-12 existing-post-wrapper">
+            <div class="existing-post-top">
+              <div class="profile-img-small">
+                <img class="img-responsive " src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="" class="profile-img-small">
+              </div>
+              <div class="post-data">
+                <a href="">Harry Potter</a><br>Posted on January 3, 2016
+              </div>
+            </div>
+            <div class="existing-post-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolor suscipit ab perferendis. Corrupti ipsam voluptate obcaecati, ipsum
+                quas aliquid accusantium dolore. Aut sed impedit eius quibusdam, ipsam, architecto officia? Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Corrupti ipsam voluptate obcaecati, ipsum quas aliquid accusantium dolore.</p>
+            </div>
+            <div id="liked-post-footer" class="post-footer">
+              <a class="col-md-1" href="#">Like</a>
+              <a class="col-md-1 " href="#">Comment</a>
+              <a class="col-md-2 col-md-offset-8 text-right" href="#">Delete</a>
+              <div class="col-md-12">
+                <a href="">Hermione Granger</a> likes this.
+              </div>
+            </div>
+          </div>
+
+          <!-- post with comments -->
+          <div id="comment-post-wrapper" class="col-md-12">
+            <div class="existing-post-top">
+              <div class="profile-img-small">
+                <img class="img-responsive " src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="" class="profile-img-small">
+              </div>
+              <div class="post-data">
+                <a href="">Harry Potter</a><br>Posted on January 3, 2015
+              </div>
+            </div>
+            <div class="existing-post-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolor suscipit ab perferendis. Corrupti ipsam voluptate obcaecati, ipsum
+                quas aliquid accusantium dolore. Aut sed impedit eius quibusdam, ipsam, architecto officia? Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Corrupti ipsam voluptate obcaecati, ipsum quas aliquid accusantium dolore.</p>
+            </div>
+            <div id="liked-post-footer" class="post-footer">
+              <a class="col-md-2" href="#">Unlike</a>
+              <a class="col-md-2 col-md-offset-8 text-right" href="#">Delete</a>
+              <div class="col-md-12">
+                You and <a href="">Hermione Granger</a> and 3 others like this.
+              </div>
+            </div>
+          </div>
+          <div id="comment-bottom-wrapper" class="col-md-12">
+            <hr>
+            <div class="existing-comment-wrapper col-md-12">
+              <div class="profile-img-small col-md-2">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/user_silhouette_generic.gif" alt="" class="profile-img-small">
+              </div>
+              <div class="comment-data col-md-10">
+                <a href="#">Ron Weasley</a> Said on Tuesday 1/03/2017.
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolor suscipit ab perferendis. Corrupti ipsam voluptate obcaecati, ipsum
+                  quas aliquid accusantium dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <a href="#">Like</a> 3 other people like this.
+              </div>
+            </div>
+            <div class="existing-comment-wrapper col-md-12">
+              <div class="profile-img-small col-md-2">
+                <img class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="" class="profile-img-small">
+              </div>
+              <div class="comment-data col-md-10">
+                <a href="#">Harry Potter</a> Said on Tuesday 1/03/2017.
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolor suscipit ab perferendis. Corrupti ipsam voluptate obcaecati, ipsum
+                  quas aliquid accusantium dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <a href="#">Like</a> 3 other people like this.
+                <span class="pull-right"><a href="#">Delete</a></span>
+              </div>
+            </div>
+            <div class="input-group col-md-12">
+              <textarea class="form-control " name="new-comment-textarea" rows="8" placeholder="Write a comment."></textarea>
+            </div>
+            <div id="comment-footer" >
+              <div class="col-md-4">
+                <a href="#">Cancel</a>
+              </div>
+              <div class="col-md-8 ">
+                <button class="btn pull-right" type="button" name="button">Comment</button>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </main>
+</body>
+
+</html>

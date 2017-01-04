@@ -1,1 +1,110 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/about-styles.css">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <title>Welcome to Danebook</title>
+</head>
+
+<body>
+  <nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <a class="navbar-left" id="logo-link" href="#"><img id="logo" class="img-circle navbar-left" alt="Brand" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
+        <p class="navbar-brand navbar-left" id="logo-text">Danebook</p>
+      </a>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" id="search-box" class="form-control " placeholder="Search for Users">
+        </div>
+      </form>
+      <p id="user-name-nav" class="navbar-text navbar-right">Harry</p>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="main-image-wrapper">
+            <img id="cover-img" class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg" alt="">
+          </div>
+          <div id="pages-nav" class="col-md-12">
+            <h1 id="user-name">Harry Potter</h1>
+            <img id="profile-img" class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" alt="">
+            <div class="col-md-7 col-md-offset-2 text-center">
+              <div class="list-group list-group-horizontal">
+                <a href="timeline.html" class="list-group-item ">Timeline</a>
+                <a href="about.html" class="list-group-item active">About</a>
+                <a href="photos.html" class="list-group-item">Photos</a>
+                <a href="friends.html" class="list-group-item">Friends</a>
+              </div>
+            </div>
+            <div class="col-md-offset-11 pull right text-right">
+              <a id="edit-profile-link" href="about_edit.html">Edit Profile</a>
+            </div>
+          </div>
+          <div id="center-page-bar" class="col-md-12">
+            <div class="text-center col-md-offset-4 col-md-4">About</div>
+            <div class="pull-right">
+              <a id="edit-button" class="btn btn-default " href="about_edit.html" role="button">Edit your Profile</a>
+            </div>
+          </div>
+          <!-- most everyting above this point will be common for all 5 pages -->
+          <!-- with the exception of which page navigation link is active -->
+
+
+          <div id="about-main" class="col-md-12">
+            <div id="about-left" class="col-md-5">
+              <h1 class="col-md-12">Basic Information</h1>
+              <div class="col-md-5"><strong>Birthday:</strong></div>
+              <div class="col-md-7">July 31st, 1980</div>
+              <div class="col-md-5"><strong>College:</strong></div>
+              <div class="col-md-7">Hogworts College</div>
+              <div class="col-md-5"><strong>Hometown:</strong></div>
+              <div class="col-md-7">Godrick's Hollow, England</div>
+              <div class="col-md-5"><strong>Currently Lives:</strong></div>
+              <div class="col-md-7">Godrick's Hollow, England</div>
+
+              <h1 class="col-md-12">Contact Information</h1>
+              <div class="col-md-5"><strong>Email:</strong></div>
+              <div class="col-md-7">harry_potter@hogwarts.edu</div>
+              <div class="col-md-5"><strong>Telephone:</strong></div>
+              <div class="col-md-7">555-123-4567</div>
+
+
+            </div>
+            <div id="about-right" class="col-md-7">
+              <h1 class="col-md-12">Words to Live By</h1>
+              <div class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ut nemo voluptatum? Voluptatem explicabo quos. Ducimus quaerat, soluta ipsa,
+                accusantium hic deserunt.
+              </div>
+              <h1 class="col-md-12">About Me</h1>
+              <div class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ut nemo voluptatum? Voluptatem explicabo debitis voluptas veniam repellendus,
+                rem neque molestias dicta quos. Ducimus quaerat, soluta ipsa, accusantium hic deserunt.
+              </div>
+            </div>
+
+          </div>
+          <!-- end about main -->
+          <!-- end common page markup -->
+        </div>
+        <!-- end col -->
+      </div>
+      <!-- end row -->
+    </div>
+    <!-- end container -->
+  </main>
+</body>
+
+</html>
