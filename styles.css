@@ -3,21 +3,29 @@
   background-color: #3b5998; }
   .navbar .navbar-header,
   .navbar .navbar-collapse {
-    padding-top: 10px; }
+    padding-top: 8px;
+    border: 0; }
   .navbar .navbar-logo {
-    width: 24px;
-    height: 24px;
-    border-radius: 30px; }
+    width: 28px;
+    height: 28px;
+    border-radius: 28px; }
   .navbar .navbar-text,
   .navbar .navbar-brand {
     color: #fff; }
-  .navbar .navbar-form,
+  @media (max-width: 767px) {
+    .navbar .navbar-text {
+      display: none; } }
+  .navbar .navbar-form {
+    width: 75%;
+    border: 0; }
+    @media (max-width: 767px) {
+      .navbar .navbar-form {
+        width: 100%;
+        margin: 0 auto; } }
   .navbar .form-group {
-    width: 80%; }
+    width: 100%; }
   .navbar .form-control {
     width: 100%; }
-  .navbar button {
-    color: #666; }
 
 /* required for fixed navbar */
 body {
