@@ -1,3 +1,26 @@
+/* navbar styles */
+.navbar {
+  background-color: #3b5998; }
+  .navbar .navbar-header,
+  .navbar .navbar-collapse {
+    padding-top: 10px; }
+  .navbar .navbar-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 30px; }
+  .navbar .navbar-text,
+  .navbar .navbar-brand {
+    color: #fff; }
+  .navbar .navbar-form,
+  .navbar .form-group {
+    width: 80%; }
+  .navbar .form-control {
+    width: 100%; }
+  .navbar button {
+    color: #666; }
 
+/* required for fixed navbar */
+body {
+  padding-top: 60px; }
 
 /*# sourceMappingURL=styles.css.map */
