@@ -1,6 +1,7 @@
 /* navbar styles */
 .navbar {
-  background-color: #3b5998; }
+  background-color: #3b5998;
+  border: 0; }
   .navbar .navbar-header,
   .navbar .navbar-collapse {
     padding-top: 8px;
@@ -22,13 +23,22 @@
       .navbar .navbar-form {
         width: 100%;
         margin: 0 auto; } }
-  .navbar .form-group {
-    width: 100%; }
+  .navbar .form-group,
   .navbar .form-control {
     width: 100%; }
 
 /* required for fixed navbar */
 body {
-  padding-top: 60px; }
+  padding-top: 67px; }
+
+/* cover photo styles */
+.cover-photo-container {
+  height: 300px;
+  width: auto;
+  background: url("hogwarts_small.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  border-top: 0; }
 
 /*# sourceMappingURL=styles.css.map */

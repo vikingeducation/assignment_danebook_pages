@@ -3,6 +3,7 @@ $brand_color: #3b5998;
 /* navbar styles */
 .navbar {
   background-color: $brand_color;
+  border: 0;
 
   .navbar-header,
   .navbar-collapse {
@@ -37,17 +38,24 @@ $brand_color: #3b5998;
     }
   }
 
-  .form-group {
-    width: 100%;
-  }
-
+  .form-group,
   .form-control {
     width: 100%;
   }
-
 }
 
 /* required for fixed navbar */
 body {
-  padding-top: 60px;
+  padding-top: 67px;
+}
+
+/* cover photo styles */
+.cover-photo-container {
+  height: 300px;
+  width: auto;
+  background: url("hogwarts_small.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  border-top: 0;
 }
