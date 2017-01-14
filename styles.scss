@@ -1,8 +1,10 @@
-$brand_color: #3b5998;
+$brand-color: #3b5998;
+$border-color: #ccc;
+$light-gray: #f9f9f9;
 
 /* navbar styles */
 .navbar {
-  background-color: $brand_color;
+  background-color: $brand-color;
   border: 0;
 
   .navbar-header,
@@ -58,6 +60,17 @@ body {
   background: url("hogwarts_small.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid black;
+  border: 1px solid $border-color;
   border-top: 0;
+  position: relative;
+}
+
+/* profile picture styles */
+.profile-picture {
+  height: 150px;
+  width: auto;
+  position: absolute;
+  left: 10px;
+  top: 180px;
+  border: 1px solid $border-color;
 }
