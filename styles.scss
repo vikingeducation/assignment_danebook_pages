@@ -2,7 +2,11 @@ $brand-color: #3b5998;
 $border-color: #ccc;
 $light-gray: #f9f9f9;
 
-/* global styles */
+/* 
+========================================
+Global styles for all pages
+========================================
+*/
 .muted {
   color: #ccc;
 }
@@ -11,7 +15,6 @@ $light-gray: #f9f9f9;
 body {
   padding-top: 50px;
 }
-
 
 /* navbar styles */
 .navbar {
@@ -59,7 +62,6 @@ body {
   }
 }
 
-
 /* cover photo styles */
 .cover-photo-container {
   height: 300px;
@@ -72,7 +74,6 @@ body {
   border-bottom: 0;
   position: relative;
 }
-
 
 /* profile picture styles */
 .profile-picture {
@@ -97,7 +98,6 @@ body {
   left: 140px;
 }
 
-
 /* middle navigation links styles */
 .nav-pills > li > a {
   border-radius: 0;
@@ -121,6 +121,9 @@ body {
   @media(max-width: 991px) {
     width: 4%;
   }
+  @media(max-width: 767px) {
+    display: none;
+  }
 }
 
 .nav-pills > .last-link > a {
@@ -140,6 +143,12 @@ li.current.disabled > a {
   text-align: right;
 }*/
 
+
+/*
+========================================
+Styles for about.html
+========================================
+*/
 
 /* personal information pane styles */
 .about-panel-header {

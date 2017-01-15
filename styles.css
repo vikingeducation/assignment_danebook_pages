@@ -1,4 +1,8 @@
-/* global styles */
+/* 
+========================================
+Global styles for all pages
+========================================
+*/
 .muted {
   color: #ccc; }
 
@@ -91,6 +95,9 @@ body {
   @media (max-width: 991px) {
     .nav-pills > .empty-link {
       width: 4%; } }
+  @media (max-width: 767px) {
+    .nav-pills > .empty-link {
+      display: none; } }
 
 .nav-pills > .last-link > a {
   /*padding-left: 36%;*/ }
@@ -105,6 +112,11 @@ li.current.disabled > a {
 /*.nav-justified > li > a.edit-profile-link {
   text-align: right;
 }*/
+/*
+========================================
+Styles for about.html
+========================================
+*/
 /* personal information pane styles */
 .about-panel-header {
   background-color: #f9f9f9;
