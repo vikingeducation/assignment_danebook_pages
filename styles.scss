@@ -2,6 +2,12 @@ $brand-color: #3b5998;
 $border-color: #ccc;
 $light-gray: #f9f9f9;
 
+/* global styles */
+.muted {
+  color: #ccc;
+}
+
+
 /* navbar styles */
 .navbar {
   background-color: $brand-color;
@@ -108,7 +114,7 @@ body {
   border-right: 1px solid $border-color;
 }
 
-.nav-pills > .first-link {
+.nav-pills > .empty-link {
   width: 2%;
   @media(max-width: 991px) {
     width: 4%;
@@ -126,3 +132,8 @@ body {
 li.current.disabled > a {
   color: #333;
 }
+
+/* Edit Profile link in middle navigation links */
+/*.nav-justified > li > a.edit-profile-link {
+  text-align: right;
+}*/
