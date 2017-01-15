@@ -108,5 +108,13 @@ body {
 }
 
 .nav-pills > .last-link > a {
-  padding-left: 36%;
+  /*padding-left: 36%;*/
+}
+
+.current {
+  background-color: $border-color;
+}
+
+li.current.disabled > a {
+  color: #333;
 }

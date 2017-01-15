@@ -82,6 +82,12 @@ body {
       width: 4%; } }
 
 .nav-pills > .last-link > a {
-  padding-left: 36%; }
+  /*padding-left: 36%;*/ }
+
+.current {
+  background-color: #ccc; }
+
+li.current.disabled > a {
+  color: #333; }
 
 /*# sourceMappingURL=styles.css.map */
