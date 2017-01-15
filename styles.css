@@ -2,6 +2,10 @@
 .muted {
   color: #ccc; }
 
+/* required for fixed navbar */
+body {
+  padding-top: 50px; }
+
 /* navbar styles */
 .navbar {
   background-color: #3b5998;
@@ -34,10 +38,6 @@
   .navbar .form-group,
   .navbar .form-control {
     width: 100%; }
-
-/* required for fixed navbar */
-body {
-  padding-top: 50px; }
 
 /* cover photo styles */
 .cover-photo-container {
@@ -105,5 +105,22 @@ li.current.disabled > a {
 /*.nav-justified > li > a.edit-profile-link {
   text-align: right;
 }*/
+/* personal information pane styles */
+.pi-pane-header {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center; }
+
+div.col-sm-2.col-sm-offset-10 {
+  position: relative; }
+
+.nav-edit-profile-button {
+  position: absolute;
+  bottom: 12px; }
+  @media (max-width: 991px) {
+    .nav-edit-profile-button {
+      right: 24px; } }
 
 /*# sourceMappingURL=styles.css.map */

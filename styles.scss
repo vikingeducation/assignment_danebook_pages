@@ -7,6 +7,11 @@ $light-gray: #f9f9f9;
   color: #ccc;
 }
 
+/* required for fixed navbar */
+body {
+  padding-top: 50px;
+}
+
 
 /* navbar styles */
 .navbar {
@@ -54,10 +59,6 @@ $light-gray: #f9f9f9;
   }
 }
 
-/* required for fixed navbar */
-body {
-  padding-top: 50px;
-}
 
 /* cover photo styles */
 .cover-photo-container {
@@ -71,6 +72,7 @@ body {
   border-bottom: 0;
   position: relative;
 }
+
 
 /* profile picture styles */
 .profile-picture {
@@ -137,3 +139,26 @@ li.current.disabled > a {
 /*.nav-justified > li > a.edit-profile-link {
   text-align: right;
 }*/
+
+
+/* personal information pane styles */
+.pi-pane-header {
+  background-color: $light-gray;
+  border: 1px solid $border-color;
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+div.col-sm-2.col-sm-offset-10 {
+  position: relative;
+}
+
+.nav-edit-profile-button {
+  position: absolute;
+  bottom: 12px;
+
+  @media(max-width: 991px) {
+    right: 24px;
+  }
+}
