@@ -142,7 +142,7 @@ li.current.disabled > a {
 
 
 /* personal information pane styles */
-.pi-pane-header {
+.about-panel-header {
   background-color: $light-gray;
   border: 1px solid $border-color;
   margin-bottom: 0;
@@ -154,13 +154,20 @@ div.col-sm-2.col-sm-offset-10 {
   position: relative;
 }
 
-.nav-edit-profile-button {
+.header-edit-profile-button {
   position: absolute;
   bottom: 12px;
 
   @media(max-width: 991px) {
     right: 24px;
   }
+}
+
+.information-panel {
+  border: 1px solid $border-color;
+  border-top: 0;
+  margin-top: -1px;
+  padding-bottom: 30px;
 }
 
 .key {
