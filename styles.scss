@@ -128,7 +128,7 @@ body {
 }
 
 .current {
-  background-color: $border-color;
+  background-color: $light-gray;
 }
 
 li.current.disabled > a {
@@ -161,4 +161,8 @@ div.col-sm-2.col-sm-offset-10 {
   @media(max-width: 991px) {
     right: 24px;
   }
+}
+
+.key {
+  font-weight: bold;
 }

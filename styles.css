@@ -96,7 +96,7 @@ body {
   /*padding-left: 36%;*/ }
 
 .current {
-  background-color: #ccc; }
+  background-color: #f9f9f9; }
 
 li.current.disabled > a {
   color: #333; }
@@ -122,5 +122,8 @@ div.col-sm-2.col-sm-offset-10 {
   @media (max-width: 991px) {
     .nav-edit-profile-button {
       right: 24px; } }
+
+.key {
+  font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */
