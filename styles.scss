@@ -243,3 +243,13 @@ Styles for about_edit.html
   border: 1px solid $border-color;
   margin-bottom: 4px;
 }
+
+.timeline-panel-footer {
+  background-color: $light-gray;
+  padding: 6px 0;
+  border-top: 1px solid $border-color;
+}
+
+button.pull-right {
+  margin-right: 15px;
+}
