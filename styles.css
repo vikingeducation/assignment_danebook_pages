@@ -177,7 +177,8 @@ Styles for about_edit.html
 .timeline-panel-header {
   background-color: #f9f9f9;
   margin-bottom: 10px;
-  text-align: center; }
+  text-align: center;
+  border-bottom: 1px solid #ccc; }
 
 .timeline-panel-link {
   text-align: center;
