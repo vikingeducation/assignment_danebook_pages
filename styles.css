@@ -180,9 +180,15 @@ Styles for about_edit.html
   text-align: center; }
 
 .timeline-panel-link {
-  text-align: center; }
+  text-align: center;
+  text-decoration: underline; }
 
 .photo-icon {
   width: 100px; }
+
+.friend-icon {
+  width: 100px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px; }
 
 /*# sourceMappingURL=styles.css.map */

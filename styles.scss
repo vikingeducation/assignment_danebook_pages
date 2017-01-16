@@ -230,8 +230,15 @@ Styles for about_edit.html
 
 .timeline-panel-link {
   text-align: center;
+  text-decoration: underline;
 }
 
 .photo-icon {
   width: 100px;
+}
+
+.friend-icon {
+  width: 100px;
+  border: 1px solid $border-color;
+  margin-bottom: 4px;
 }
