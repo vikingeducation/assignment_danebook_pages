@@ -219,9 +219,11 @@ Styles for about_edit.html
 .timeline-panel {
   border: 1px solid $border-color;
   margin: 20px auto;
+  margin-bottom: 0;
 }
 
 .timeline-panel-header {
   background-color: $light-gray;
   margin-bottom: 10px;
+  text-align: center;
 }
