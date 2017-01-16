@@ -149,6 +149,18 @@ div.col-sm-2.col-sm-offset-10 {
 Styles for about_edit.html
 ========================================
 */
+.date-input {
+  width: 100%; }
+
+.date-input.date-placeholder::before {
+  width: 100%;
+  content: attr(placeholder);
+  color: #999; }
+
+.date-input.date-placeholder:hover::before {
+  width: 0%;
+  content: ""; }
+
 .save-changes-button {
   margin-top: 40px; }
 
