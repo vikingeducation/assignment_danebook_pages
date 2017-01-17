@@ -15,6 +15,16 @@ Global styles for all pages
   background-color: $light-gray;
 }
 
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+
 /* required for fixed navbar */
 body {
   padding-top: 50px;
@@ -176,6 +186,7 @@ div.col-sm-2.col-sm-offset-10 {
   }
 }
 
+/* TODO: refactor/rename */
 .information-container {
   border: 1px solid $border-color;
   border-top: 0;
@@ -287,4 +298,11 @@ Styles for friends.html
 .friend-panel {
   border: 1px solid $border-color;
   margin-top: 20px;
+}
+
+.friend-photo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid $border-color;
+  margin: 10px;
 }
