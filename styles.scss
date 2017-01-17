@@ -229,9 +229,14 @@ Styles for timeline.html
   border-bottom: 1px solid $border-color;
 }
 
+/* rename / rework this selector */
 .timeline-panel-link {
   text-align: center;
   text-decoration: underline;
+
+  @media(max-width: 767px) {
+    text-align: left;
+  }
 }
 
 .photo-icon {
@@ -244,10 +249,14 @@ Styles for timeline.html
   margin-bottom: 4px;
 }
 
-.timeline-panel-footer {
+.timeline-panel-links-bar {
   background-color: $light-gray;
   padding: 6px 0;
-  border-top: 1px solid $border-color;
+}
+
+.timeline-panel-likes-bar {
+  background-color: $light-gray;
+  /*border-top: 1px solid $border-color;*/
 }
 
 button.pull-right {

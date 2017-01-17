@@ -180,9 +180,13 @@ Styles for timeline.html
   text-align: center;
   border-bottom: 1px solid #ccc; }
 
+/* rename / rework this selector */
 .timeline-panel-link {
   text-align: center;
   text-decoration: underline; }
+  @media (max-width: 767px) {
+    .timeline-panel-link {
+      text-align: left; } }
 
 .photo-icon {
   width: 100px; }
@@ -192,10 +196,13 @@ Styles for timeline.html
   border: 1px solid #ccc;
   margin-bottom: 4px; }
 
-.timeline-panel-footer {
+.timeline-panel-links-bar {
   background-color: #f9f9f9;
-  padding: 6px 0;
-  border-top: 1px solid #ccc; }
+  padding: 6px 0; }
+
+.timeline-panel-likes-bar {
+  background-color: #f9f9f9;
+  /*border-top: 1px solid $border-color;*/ }
 
 button.pull-right {
   margin-right: 15px; }
