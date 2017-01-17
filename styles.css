@@ -259,7 +259,6 @@ Styles for photos.html
 .parent:hover .hover-content {
   display: block;
   background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-top: 0; }
+  border: 1px solid #ccc; }
 
 /*# sourceMappingURL=styles.css.map */
