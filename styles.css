@@ -242,4 +242,24 @@ Styles for friends.html
   border: 1px solid #ccc;
   margin: 10px; }
 
+/*
+========================================
+Styles for photos.html
+========================================
+*/
+.friend-photo-lg {
+  width: 230px;
+  height: 230px;
+  border: 1px solid #ccc;
+  margin-top: 10px; }
+
+.hover-content {
+  display: none; }
+
+.parent:hover .hover-content {
+  display: block;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-top: 0; }
+
 /*# sourceMappingURL=styles.css.map */

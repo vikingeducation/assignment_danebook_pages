@@ -305,3 +305,28 @@ Styles for friends.html
   border: 1px solid $border-color;
   margin: 10px;
 }
+
+
+/*
+========================================
+Styles for photos.html
+========================================
+*/
+
+.friend-photo-lg {
+  width: 230px;
+  height: 230px;
+  border: 1px solid $border-color;
+  margin-top: 10px;
+}
+
+.hover-content {
+  display: none;
+}
+
+.parent:hover .hover-content {
+  display: block;
+  background-color: $light-gray;
+  border: 1px solid $border-color;
+  border-top: 0;
+}
