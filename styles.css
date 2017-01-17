@@ -6,6 +6,9 @@ Global styles for all pages
 .muted {
   color: #ccc; }
 
+.muted-background {
+  background-color: #f9f9f9; }
+
 /* required for fixed navbar */
 body {
   padding-top: 50px; }
@@ -199,10 +202,6 @@ Styles for timeline.html
 .timeline-panel-links-bar {
   background-color: #f9f9f9;
   padding: 6px 0; }
-
-.timeline-panel-likes-bar {
-  background-color: #f9f9f9;
-  /*border-top: 1px solid $border-color;*/ }
 
 button.pull-right {
   margin-right: 15px; }
