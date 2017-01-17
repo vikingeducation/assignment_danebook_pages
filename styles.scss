@@ -212,7 +212,7 @@ Styles for about_edit.html
 
 /*
 ========================================
-Styles for about_edit.html
+Styles for timeline.html
 ========================================
 */
 
@@ -252,4 +252,18 @@ Styles for about_edit.html
 
 button.pull-right {
   margin-right: 15px;
+}
+
+.post-photo-icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid $border-color;
+  margin: 10px 0;
+}
+
+.posted-by {
+  margin: 15px 0;
+  @media(max-width: 767px) {
+    margin-left: 0;
+  }
 }
