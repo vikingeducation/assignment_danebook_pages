@@ -17,6 +17,20 @@ Global styles for all pages
   display: flex;
   justify-content: center; }
 
+.header-button {
+  position: absolute;
+  bottom: 12px; }
+  @media (max-width: 991px) {
+    .header-button {
+      right: 24px; } }
+
+.main-panel-header {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center; }
+
 /* required for fixed navbar */
 body {
   padding-top: 50px; }
@@ -128,23 +142,8 @@ li.current.disabled > a {
 Styles for about.html
 ========================================
 */
-/* personal information pane styles */
-.about-panel-header {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  margin-bottom: 0;
-  padding: 10px 0;
-  text-align: center; }
-
 div.col-sm-2.col-sm-offset-10 {
   position: relative; }
-
-.header-edit-profile-button {
-  position: absolute;
-  bottom: 12px; }
-  @media (max-width: 991px) {
-    .header-edit-profile-button {
-      right: 24px; } }
 
 /* TODO: refactor/rename */
 .information-container {
