@@ -183,7 +183,7 @@ Styles for timeline.html
   text-align: center;
   border-bottom: 1px solid #ccc; }
 
-/* rename / rework this selector */
+/* TODO: refactor/rename */
 .timeline-panel-link {
   text-align: center;
   text-decoration: underline; }
@@ -206,6 +206,7 @@ Styles for timeline.html
 button.pull-right {
   margin-right: 15px; }
 
+/* TODO: refactor/rename */
 .post-photo-icon {
   width: 70px;
   height: 70px;
@@ -217,5 +218,14 @@ button.pull-right {
   @media (max-width: 767px) {
     .posted-by {
       margin-left: 0; } }
+
+/*
+========================================
+Styles for friends.html
+========================================
+*/
+.friend-panel {
+  border: 1px solid #ccc;
+  margin-top: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

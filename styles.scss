@@ -233,7 +233,7 @@ Styles for timeline.html
   border-bottom: 1px solid $border-color;
 }
 
-/* rename / rework this selector */
+/* TODO: refactor/rename */
 .timeline-panel-link {
   text-align: center;
   text-decoration: underline;
@@ -262,6 +262,7 @@ button.pull-right {
   margin-right: 15px;
 }
 
+/* TODO: refactor/rename */
 .post-photo-icon {
   width: 70px;
   height: 70px;
@@ -274,4 +275,16 @@ button.pull-right {
   @media(max-width: 767px) {
     margin-left: 0;
   }
+}
+
+
+/*
+========================================
+Styles for friends.html
+========================================
+*/
+
+.friend-panel {
+  border: 1px solid $border-color;
+  margin-top: 20px;
 }
