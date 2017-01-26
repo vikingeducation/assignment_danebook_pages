@@ -21,7 +21,8 @@ body {
   padding-bottom: 5px; }
   .navbar-brand img {
     height: 100%;
-    width: auto; }
+    width: auto;
+    border-radius: 100%; }
 
 #navbar-toggle-button {
   border-width: 2px; }
