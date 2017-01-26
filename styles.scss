@@ -1,5 +1,19 @@
+body {
+    padding-top: 70px;
+}
+
 .navbar {
     background-color: #2B78E4;
+}
+
+.navbar-collapse {
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-form {
+    border: none;
+    box-shadow: none;
 }
 
 #currentuser-first-name {
@@ -7,13 +21,9 @@
     font-size: 18px;
 }
 
-#navbar-search-form {
-    width: 600px;
-}
-
 .navbar-brand {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
     img {
         height: 100%;
@@ -21,9 +31,18 @@
     }
 }
 
-#brand-text {
-    font-size: 28px;
-    padding: 0 10px;
-    line-height: 50px;
+#navbar-toggle-button {
+    border-width: 2px;
+}
+
+#navbar-brand-text {
     color: white;
+    font-size: 32px;
+    line-height: 50px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#search-input {
+    min-width: 350px;
 }
