@@ -1,13 +1,17 @@
+.navbar {
+  background-color: #2B78E4; }
+
 .navbar-brand {
-  padding-top: 5px;
-  padding-bottom: 5px; }
+  padding-top: 7.5px;
+  padding-bottom: 7.5px; }
   .navbar-brand img {
     height: 100%;
     width: auto; }
 
 #brand-text {
-  font-size: 30px;
+  font-size: 28px;
   padding: 0 10px;
-  line-height: 50px; }
+  line-height: 50px;
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
