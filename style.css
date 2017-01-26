@@ -5,4 +5,8 @@ img {
   max-width: 100%;
   height: auto; }
 
+h2, h3 {
+  display: inline;
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */
