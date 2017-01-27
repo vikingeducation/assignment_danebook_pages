@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar-primary">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-primary">
         <div class="container">
             <div class="navbar-header">
 
@@ -76,36 +76,52 @@
 
             </section>
         </div>
+        <!-- /.container-fluid -->
 
-        <nav class="navbar navbar-default center-block" id="navbar-secondary">
+        <nav class="navbar navbar-default center-block navbar-secondary">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <div class="navbar-brand">
-                        <!-- Profile picture -->
-                        <div style="width: 200px;">
+                <div class="row">
+                    <div class="col-xs-3">
+                        <div class="navbar-header">
+                            <div class="navbar-brand">
+                                <!-- Profile picture -->
+                                <div>
+                                </div>
+                                <!-- User's name -->
+                            </div>
                         </div>
-                        <!-- User's name -->
                     </div>
-                </div>
+                    <!-- /.col-xs-4 -->
 
-                <div class="btn-group">
-                    <button type="button" class="btn navbar-btn btn-default">Timeline</button>
-                </div>
-                <div class="btn-group">
-                    <button type="button" class="btn navbar-btn btn-default">About</button>
-                </div>
-                <div class="btn-group">
-                    <button type="button" class="btn navbar-btn btn-default">Photos</button>
-                </div>
-                <div class="btn-group">
-                    <button type="button" class="btn navbar-btn btn-default">Friends</button>
-                </div>
+                    <div class="col-xs-7">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="#" class="navbar-link">Timeline</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-link">About</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-link">Photos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="navbar-link">Friends</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-xs-6 -->
 
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">Edit Profile</a>
-                    </li>
-                </ul>
+                    <div class="col-xs-2">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#" class="navbar-link">Edit Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-xs-2 -->
+
+                </div>
+                <!-- /.row -->
             </div>
             <!-- /.container-fluid -->
         </nav>
@@ -113,12 +129,21 @@
 
     <main>
 
-        <header>
-            <!-- " About " title -->
-            <!-- "Edit your Profile " link -->
+        <header class="navbar navbar-default center-block navbar-secondary">
+            <div class="col-xs-4 col-xs-offset-4" id="main-content-title">
+                <h2>About</h2>
+            </div>
+
+            <div class="col-xs-4">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" class="navbar-link">Edit Profile</a>
+                    </li>
+                </ul>
+            </div>
         </header>
 
-        <section id="about ">
+        <section class="container-fluid" id="main-content-container">
 
             <section id="basic-info ">
                 <!-- Section header: "Basic Information " -->
@@ -146,7 +171,7 @@
             <section id="about-me ">
                 <!-- Section header: "About Me " -->
                 <!-- Section content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. " -->
+                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. " -->
             </section>
 
         </section>

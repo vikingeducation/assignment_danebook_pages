@@ -1,5 +1,6 @@
 $content-border: 1px black solid;
 $content-border-radius: 0;
+$container-margin: 10%;
 
 body {
     padding-top: 50px;
@@ -7,8 +8,8 @@ body {
 
 header {
     #cover-container {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: $container-margin;
+        margin-right: $container-margin;
         border: $content-border;
         border-radius: $content-border-radius;
     }
@@ -17,16 +18,24 @@ header {
         max-height: 300px;
         width: 100%;
     }
+}
 
-    #navbar-secondary {
-        width: 80%;
-        border: $content-border;
-        border-radius: $content-border-radius;
+#main-content-title {
+    h2 {
+        text-align: center;
+        line-height: 50px;
+        margin: auto;
     }
 }
 
-#navbar-primary {
+.navbar-primary {
     background-color: #2B78E4;
+    border: $content-border;
+    border-radius: $content-border-radius;
+}
+
+.navbar-secondary {
+    width: 100% - (2 * $container-margin);
     border: $content-border;
     border-radius: $content-border-radius;
 }
@@ -71,4 +80,11 @@ header {
 
 #search-input {
     min-width: 350px;
+}
+
+#main-content-container {
+    margin-left: $container-margin;
+    margin-right: $container-margin;
+    border: $content-border;
+    border-radius: $content-border-radius;
 }
