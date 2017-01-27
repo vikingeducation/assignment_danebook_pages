@@ -40,6 +40,13 @@ header {
     border-radius: $content-border-radius;
 }
 
+main {
+    .navbar-secondary {
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+}
+
 .navbar-collapse {
     border: none;
     box-shadow: none;
@@ -87,4 +94,6 @@ header {
     margin-right: $container-margin;
     border: $content-border;
     border-radius: $content-border-radius;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }

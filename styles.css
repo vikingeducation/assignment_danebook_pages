@@ -25,6 +25,10 @@ header img {
   border: 1px black solid;
   border-radius: 0; }
 
+main .navbar-secondary {
+  margin-bottom: 0;
+  border-bottom: 0; }
+
 .navbar-collapse {
   border: none;
   box-shadow: none; }
@@ -62,6 +66,8 @@ header img {
   margin-left: 10%;
   margin-right: 10%;
   border: 1px black solid;
-  border-radius: 0; }
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
