@@ -29,7 +29,7 @@ header img {
   .navbar-secondary .navbar-nav li a {
     color: black;
     opacity: 1; }
-  .navbar-secondary .navbar-nav li a:hover {
+  .navbar-secondary .current-page-link {
     background-color: #D5D5D5; }
 
 main {
