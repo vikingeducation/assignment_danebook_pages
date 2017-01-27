@@ -1,31 +1,61 @@
+/* Content border variables */
+/* Container variables */
+/* Primary navbar variables */
+/* Cover section */
 body {
-  padding-top: 50px; }
+  padding-top: 60px; }
 
 header #cover-container {
-  margin-left: 5%;
-  margin-right: 5%;
-  border: 1px black solid;
-  border-radius: 0; }
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-radius: 0;
+  padding: 0;
+  height: 300px;
+  background-color: #F4EFEF;
+  overflow: hidden; }
 header img {
   width: 100%;
-  height: auto;
-  max-height: 300px; }
+  height: auto; }
 
 #main-content-title h2 {
   text-align: center;
-  line-height: 50px;
-  margin: auto; }
+  margin: auto;
+  line-height: 50px; }
 
 .navbar-primary {
   background-color: #2B78E4;
   border: 1px black solid;
-  border-radius: 0; }
+  border-radius: 0;
+  height: 60px; }
   .navbar-primary .container-fluid {
-    margin-left: 5%;
-    margin-right: 5%; }
+    margin-left: 7.5%;
+    margin-right: 7.5%; }
+    .navbar-primary .container-fluid .navbar-header {
+      height: 58px; }
+    .navbar-primary .container-fluid .navbar-brand {
+      height: inherit;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .navbar-primary .container-fluid .navbar-brand img {
+        height: 100%;
+        width: auto;
+        border-radius: 100%; }
+    .navbar-primary .container-fluid .navbar-nav {
+      height: inherit; }
+      .navbar-primary .container-fluid .navbar-nav li {
+        height: 58px; }
+        .navbar-primary .container-fluid .navbar-nav li a {
+          line-height: 1;
+          padding-top: 20px;
+          padding-bottom: 20px; }
+    .navbar-primary .container-fluid .navbar-form {
+      margin-top: 13px;
+      margin-bottom: 13px; }
 
 .navbar-secondary {
-  width: 90%;
+  width: 85%;
   border: 1px black solid;
   border-radius: 0;
   background-color: white; }
@@ -40,7 +70,27 @@ main {
     border-bottom: 0;
     background-color: #D5D5D5; }
 
-header .navbar-secondary .current-page-link {
+header .navbar-secondary li {
+  text-align: center; }
+header .navbar-secondary a {
+  padding-left: 10px;
+  padding-right: 10px; }
+header .navbar-secondary #navbar-timeline-link {
+  border-left: 1px black solid;
+  min-width: 70px; }
+header .navbar-secondary #navbar-about-link {
+  border-left: 1px black solid;
+  min-width: 70px; }
+header .navbar-secondary #navbar-photos-link {
+  border-left: 1px black solid;
+  min-width: 70px; }
+header .navbar-secondary #navbar-friends-link {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  min-width: 70px; }
+header .navbar-secondary .current-page-link a {
+  background-color: #D5D5D5; }
+header .navbar-secondary .current-page-link a:hover {
   background-color: #D5D5D5; }
 header .navbar-secondary #edit-profile-link {
   color: #0C5394;
@@ -55,33 +105,26 @@ header .navbar-secondary #edit-profile-link {
   box-shadow: none; }
 
 #currentuser-first-name {
-  color: white;
+  color: #FFF;
   font-size: 18px; }
-
-.navbar-brand {
-  padding-top: 5px;
-  padding-bottom: 5px; }
-  .navbar-brand img {
-    height: 100%;
-    width: auto;
-    border-radius: 100%; }
 
 #navbar-toggle-button {
   border-width: 2px; }
 
 #navbar-brand-text {
   color: white;
-  font-size: 32px;
-  line-height: 50px;
+  font-size: 28px;
+  height: auto;
+  line-height: 58px;
   padding-right: 20px;
   text-decoration: none; }
 
 #search-input {
-  min-width: 350px; }
+  min-width: 300px; }
 
 #main-content-container {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
   border: 1px black solid;
   border-radius: 0;
   padding-top: 10px;

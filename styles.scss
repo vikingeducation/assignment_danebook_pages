@@ -1,31 +1,51 @@
+/* Content border variables */
+$content-border-top: 1px black solid;
+$content-border-right: 1px black solid;
+$content-border-bottom: 1px black solid;
+$content-border-left: 1px black solid;
 $content-border: 1px black solid;
 $content-border-radius: 0;
-$container-margin: 5%;
+/* Container variables */
+$container-margin: 7.5%;
+/* Primary navbar variables */
+$primary-navbar-height: 60px;
+$primary-navbar-border-top: 1px;
+$primary-navbar-border-bottom: 1px;
+$primary-navbar-link-fontsize: 18px;
+$primary-navbar-link-fontcolor: #FFF;
+$primary-navbar-link-lineheight: 1;
+$primary-navbar-link-padding: ($primary-navbar-height - $primary-navbar-link-fontsize - $primary-navbar-border-top - $primary-navbar-border-bottom) / 2;
+/* Cover section */
+$cover-height: 300px;
 
 body {
-    padding-top: 50px;
+    padding-top: $primary-navbar-height;
 }
 
 header {
     #cover-container {
         margin-left: $container-margin;
         margin-right: $container-margin;
-        border: $content-border;
+        border-left: $content-border-left;
+        border-right: $content-border-right;
         border-radius: $content-border-radius;
+        padding: 0;
+        height: $cover-height;
+        background-color: #F4EFEF;
+        overflow: hidden;
     }
 
     img {
         width: 100%;
         height: auto;
-        max-height: 300px;
     }
 }
 
 #main-content-title {
     h2 {
         text-align: center;
-        line-height: 50px;
         margin: auto;
+        line-height: 50px;
     }
 }
 
@@ -33,10 +53,46 @@ header {
     background-color: #2B78E4;
     border: $content-border;
     border-radius: $content-border-radius;
+    height: $primary-navbar-height;
 
     .container-fluid {
         margin-left: $container-margin;
         margin-right: $container-margin;
+
+        .navbar-header {
+            height: $primary-navbar-height - $primary-navbar-border-top - $primary-navbar-border-bottom;
+        }
+
+        .navbar-brand {
+            height: inherit;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            img {
+                height: 100%;
+                width: auto;
+                border-radius: 100%;
+            }
+        }
+
+        .navbar-nav {
+            height: inherit;
+
+            li {
+                height: $primary-navbar-height - $primary-navbar-border-top - $primary-navbar-border-bottom;
+
+                a {
+                    line-height: 1;
+                    padding-top: $primary-navbar-link-padding;
+                    padding-bottom: $primary-navbar-link-padding;
+                }
+            }
+        }
+
+        .navbar-form {
+            margin-top: 13px;
+            margin-bottom: 13px;
+        }
     }
 }
 
@@ -68,8 +124,44 @@ main {
 
 header {
     .navbar-secondary {
+        li {
+            text-align: center;
+        }
+
+        a {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #navbar-timeline-link {
+            border-left: $content-border-left;
+            min-width: 70px;
+        }
+
+        #navbar-about-link {
+            border-left: $content-border-left;
+            min-width: 70px;
+        }
+
+        #navbar-photos-link {
+            border-left: $content-border-left;
+            min-width: 70px;
+        }
+
+        #navbar-friends-link {
+            border-left: $content-border-left;
+            border-right: $content-border-right;
+            min-width: 70px;
+        }
+
         .current-page-link {
-            background-color: #D5D5D5;
+            a {
+                background-color: #D5D5D5;
+            }
+
+            a:hover {
+                background-color: #D5D5D5;
+            }
         }
 
         #edit-profile-link {
@@ -90,19 +182,8 @@ header {
 }
 
 #currentuser-first-name {
-    color: white;
-    font-size: 18px;
-}
-
-.navbar-brand {
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    img {
-        height: 100%;
-        width: auto;
-        border-radius: 100%;
-    }
+    color: $primary-navbar-link-fontcolor;
+    font-size: $primary-navbar-link-fontsize;
 }
 
 #navbar-toggle-button {
@@ -111,14 +192,15 @@ header {
 
 #navbar-brand-text {
     color: white;
-    font-size: 32px;
-    line-height: 50px;
+    font-size: 28px;
+    height: auto;
+    line-height: $primary-navbar-height - $primary-navbar-border-top - $primary-navbar-border-bottom;
     padding-right: 20px;
     text-decoration: none;
 }
 
 #search-input {
-    min-width: 350px;
+    min-width: 300px;
 }
 
 #main-content-container {
