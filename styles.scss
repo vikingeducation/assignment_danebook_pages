@@ -1,6 +1,6 @@
 $content-border: 1px black solid;
 $content-border-radius: 0;
-$container-margin: 10%;
+$container-margin: 5%;
 
 body {
     padding-top: 50px;
@@ -15,8 +15,9 @@ header {
     }
 
     img {
-        max-height: 300px;
         width: 100%;
+        height: auto;
+        max-height: 300px;
     }
 }
 
@@ -38,12 +39,29 @@ header {
     width: 100% - (2 * $container-margin);
     border: $content-border;
     border-radius: $content-border-radius;
+    background-color: white;
+
+    .navbar-nav {
+        li {
+            a {
+                color: black;
+                opacity: 1;
+            }
+
+            a:hover {
+                background-color: #D5D5D5;
+            }
+        }
+    }
 }
 
 main {
+    margin-bottom: 50px;
+
     .navbar-secondary {
         margin-bottom: 0;
         border-bottom: 0;
+        background-color: #D5D5D5;
     }
 }
 

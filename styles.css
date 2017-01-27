@@ -2,13 +2,14 @@ body {
   padding-top: 50px; }
 
 header #cover-container {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   border: 1px black solid;
   border-radius: 0; }
 header img {
-  max-height: 300px;
-  width: 100%; }
+  width: 100%;
+  height: auto;
+  max-height: 300px; }
 
 #main-content-title h2 {
   text-align: center;
@@ -21,13 +22,22 @@ header img {
   border-radius: 0; }
 
 .navbar-secondary {
-  width: 80%;
+  width: 90%;
   border: 1px black solid;
-  border-radius: 0; }
+  border-radius: 0;
+  background-color: white; }
+  .navbar-secondary .navbar-nav li a {
+    color: black;
+    opacity: 1; }
+  .navbar-secondary .navbar-nav li a:hover {
+    background-color: #D5D5D5; }
 
-main .navbar-secondary {
-  margin-bottom: 0;
-  border-bottom: 0; }
+main {
+  margin-bottom: 50px; }
+  main .navbar-secondary {
+    margin-bottom: 0;
+    border-bottom: 0;
+    background-color: #D5D5D5; }
 
 .navbar-collapse {
   border: none;
@@ -63,8 +73,8 @@ main .navbar-secondary {
   min-width: 350px; }
 
 #main-content-container {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   border: 1px black solid;
   border-radius: 0;
   padding-top: 10px;
