@@ -1,9 +1,34 @@
+$content-border: 1px black solid;
+$content-border-radius: 0;
+
 body {
     padding-top: 50px;
 }
 
+header {
+    #cover-container {
+        margin-left: 10%;
+        margin-right: 10%;
+        border: $content-border;
+        border-radius: $content-border-radius;
+    }
+
+    img {
+        max-height: 300px;
+        width: 100%;
+    }
+
+    #navbar-secondary {
+        width: 80%;
+        border: $content-border;
+        border-radius: $content-border-radius;
+    }
+}
+
 #navbar-primary {
     background-color: #2B78E4;
+    border: $content-border;
+    border-radius: $content-border-radius;
 }
 
 .navbar-collapse {

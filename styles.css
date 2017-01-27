@@ -1,8 +1,23 @@
 body {
   padding-top: 50px; }
 
+header #cover-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px black solid;
+  border-radius: 0; }
+header img {
+  max-height: 300px;
+  width: 100%; }
+header #navbar-secondary {
+  width: 80%;
+  border: 1px black solid;
+  border-radius: 0; }
+
 #navbar-primary {
-  background-color: #2B78E4; }
+  background-color: #2B78E4;
+  border: 1px black solid;
+  border-radius: 0; }
 
 .navbar-collapse {
   border: none;
