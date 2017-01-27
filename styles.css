@@ -20,6 +20,9 @@ header img {
   background-color: #2B78E4;
   border: 1px black solid;
   border-radius: 0; }
+  .navbar-primary .container-fluid {
+    margin-left: 5%;
+    margin-right: 5%; }
 
 .navbar-secondary {
   width: 90%;
@@ -29,8 +32,6 @@ header img {
   .navbar-secondary .navbar-nav li a {
     color: black;
     opacity: 1; }
-  .navbar-secondary .current-page-link {
-    background-color: #D5D5D5; }
 
 main {
   margin-bottom: 50px; }
@@ -38,6 +39,12 @@ main {
     margin-bottom: 0;
     border-bottom: 0;
     background-color: #D5D5D5; }
+
+header .navbar-secondary .current-page-link {
+  background-color: #D5D5D5; }
+header .navbar-secondary #edit-profile-link {
+  color: #0C5394;
+  text-decoration: underline; }
 
 .navbar-collapse {
   border: none;

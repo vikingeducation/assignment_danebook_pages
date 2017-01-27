@@ -33,6 +33,11 @@ header {
     background-color: #2B78E4;
     border: $content-border;
     border-radius: $content-border-radius;
+
+    .container-fluid {
+        margin-left: $container-margin;
+        margin-right: $container-margin;
+    }
 }
 
 .navbar-secondary {
@@ -49,10 +54,6 @@ header {
             }
         }
     }
-
-    .current-page-link {
-        background-color: #D5D5D5;
-    }
 }
 
 main {
@@ -62,6 +63,19 @@ main {
         margin-bottom: 0;
         border-bottom: 0;
         background-color: #D5D5D5;
+    }
+}
+
+header {
+    .navbar-secondary {
+        .current-page-link {
+            background-color: #D5D5D5;
+        }
+
+        #edit-profile-link {
+            color: #0C5394;
+            text-decoration: underline;
+        }
     }
 }
 
