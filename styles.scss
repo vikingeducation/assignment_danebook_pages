@@ -222,6 +222,24 @@ main {
     border-radius: $content-border-radius;
     padding-top: 10px;
     padding-bottom: 20px;
+
+    .about-details {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        label {
+            text-align: left;
+        }
+
+        .user-info-item {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .user-info-value {
+            font-size: 14px;
+        }
+    }
 }
 
 #navbar-timeline-link {

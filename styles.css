@@ -143,6 +143,16 @@ main {
   border-radius: 0;
   padding-top: 10px;
   padding-bottom: 20px; }
+  #main-content-container .about-details {
+    padding-left: 15px;
+    padding-right: 15px; }
+    #main-content-container .about-details label {
+      text-align: left; }
+    #main-content-container .about-details .user-info-item {
+      font-weight: 700;
+      font-size: 14px; }
+    #main-content-container .about-details .user-info-value {
+      font-size: 14px; }
 
 #navbar-timeline-link {
   border-left: 1px black solid; }
