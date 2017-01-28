@@ -79,7 +79,6 @@ header .navbar-secondary {
   top: 360px;
   left: 7.5%;
   border-radius: 0;
-  margin-right: 7.5%;
   width: 85%;
   border: 1px black solid; }
   header .navbar-secondary a {
@@ -92,7 +91,8 @@ header .navbar-secondary {
     background-color: #D5D5D5; }
   header .navbar-secondary #navbar-edit-profile {
     color: #0C5394;
-    text-decoration: underline; }
+    text-decoration: underline;
+    padding-right: 15px; }
 
 main {
   margin-bottom: 50px; }
@@ -143,5 +143,18 @@ main {
   border-radius: 0;
   padding-top: 10px;
   padding-bottom: 20px; }
+
+#navbar-timeline-link {
+  border-left: 1px black solid; }
+
+#navbar-about-link {
+  border-left: 1px black solid; }
+
+#navbar-photos-link {
+  border-left: 1px black solid; }
+
+#navbar-friends-link {
+  border-left: 1px black solid;
+  border-right: 1px black solid; }
 
 /*# sourceMappingURL=styles.css.map */

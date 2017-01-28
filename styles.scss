@@ -135,8 +135,7 @@ header {
         top: $primary-navbar-height + $cover-height;
         left: $container-margin;
         border-radius: 0;
-        margin-right: $container-margin;
-        width: 100% - 2 * $container-margin;
+        width: 100% - (2 * $container-margin);
         border: $content-border;
 
         a {
@@ -158,6 +157,7 @@ header {
         #navbar-edit-profile {
             color: #0C5394;
             text-decoration: underline;
+            padding-right: 15px;
         }
     }
 }
@@ -222,4 +222,21 @@ main {
     border-radius: $content-border-radius;
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+#navbar-timeline-link {
+    border-left: $content-border-left;
+}
+
+#navbar-about-link {
+    border-left: $content-border-left;
+}
+
+#navbar-photos-link {
+    border-left: $content-border-left;
+}
+
+#navbar-friends-link {
+    border-left: $content-border-left;
+    border-right: $content-border-right;
 }
