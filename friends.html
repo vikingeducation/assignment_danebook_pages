@@ -25,9 +25,124 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-primary">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <!-- Navbar collapse menu toggle button -->
+                <button type="button" class="navbar-toggle collapsed" id="navbar-toggle-button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- Danebook brand logo and text -->
+                <a class="navbar-brand" href="home.html">
+                    <img alt="Brand" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
+                    <a id="navbar-brand-text">Danebook</a>
+                </a>
+
+            </div>
+            <!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!-- Search form -->
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" id="search-input">
+                    </div>
+                </form>
+
+                <!-- Current user first name -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" class="navbar-link" id="currentuser-first-name">Harry</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.collapse navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div id="cover-container">
+
+            <div class="container-fluid">
+
+                <div class="row-fluid">
+                    <div class="col-xs-3" id="profile-picture">
+                        <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg">
+                    </div>
+                    <!-- /.col-xs-3 -->
+
+                    <div class="col-xs-9 col-xs-offset-3" id="user-full-name">
+                        <h1>Harry Potter</h1>
+                    </div>
+                    <!-- /.col-xs-9 -->
+                </div>
+                <!-- /.row-fluid -->
+                <nav class="navbar navbar-default center-block navbar-secondary">
+                    <div class="row-fluid">
+                        <div class="col-xs-7 col-xs-offset-3">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li>
+                                    <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
+                                </li>
+
+                                <li>
+                                    <a href="about.html" id="navbar-about-link">About</a>
+                                </li>
+
+                                <li>
+                                    <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
+                                </li>
+
+                                <li class="current-page-link">
+                                    <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-xs-6 -->
+
+                        <div class="col-xs-2">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#" id="navbar-edit-profile">Edit Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-xs-2 -->
+
+                    </div>
+                    <!-- /.row -->
+                </nav>
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+    </header>
+
+    <main>
+
+        <header class="navbar navbar-default center-block navbar-secondary">
+            <div class="col-xs-12" id="main-content-title">
+                <h2>Friends</h2>
+            </div>
+        </header>
+
+        <section class="container-fluid" id="main-content-container">
+            <div class="row">
+
+            </div>
+            <!-- /.row -->
+        </section>
+
+    </main>
+
 </body>
-
-</html>
-
 
 </html>
