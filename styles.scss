@@ -17,6 +17,7 @@ $primary-navbar-link-lineheight: 1;
 $primary-navbar-link-padding: ($primary-navbar-height - $primary-navbar-link-fontsize - $primary-navbar-border-top - $primary-navbar-border-bottom) / 2;
 /* Cover section */
 $cover-height: 300px;
+$secondary-navbar-height: 50px;
 
 body {
     padding-top: $primary-navbar-height;
@@ -26,18 +27,23 @@ header {
     #cover-container {
         margin-left: $container-margin;
         margin-right: $container-margin;
+        margin-bottom: 20px;
+        border-radius: $content-border-radius;
         border-left: $content-border-left;
         border-right: $content-border-right;
-        border-radius: $content-border-radius;
-        padding: 0;
-        height: $cover-height;
-        background-color: #F4EFEF;
-        overflow: hidden;
-    }
+        height: $cover-height + $secondary-navbar-height;
+        background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+        background-position: center;
+        background-size: cover;
 
-    img {
-        width: 100%;
-        height: auto;
+        .navbar-nav {
+            li {
+                a {
+                    color: black;
+                    opacity: 1;
+                }
+            }
+        }
     }
 }
 
@@ -96,62 +102,30 @@ header {
     }
 }
 
-.navbar-secondary {
-    width: 100% - (2 * $container-margin);
-    border: $content-border;
-    border-radius: $content-border-radius;
-    background-color: white;
-
-    .navbar-nav {
-        li {
-            a {
-                color: black;
-                opacity: 1;
-            }
-        }
-    }
-}
-
-main {
-    margin-bottom: 50px;
-
-    .navbar-secondary {
-        margin-bottom: 0;
-        border-bottom: 0;
-        background-color: #D5D5D5;
-    }
-}
-
 header {
+    #profile-picture {
+        height: 200px;
+        width: auto;
+        position: absolute;
+        top: $cover-height - 175px;
+        left: 0;
+        z-index: 1;
+        border: $content-border;
+    }
+
     .navbar-secondary {
-        li {
-            text-align: center;
-        }
+        position: absolute;
+        top: $primary-navbar-height + $cover-height;
+        left: $container-margin;
+        border-radius: 0;
+        margin-right: $container-margin;
+        width: 100% - 2 * $container-margin;
+        border: $content-border;
 
         a {
             padding-left: 10px;
             padding-right: 10px;
-        }
-
-        #navbar-timeline-link {
-            border-left: $content-border-left;
-            min-width: 70px;
-        }
-
-        #navbar-about-link {
-            border-left: $content-border-left;
-            min-width: 70px;
-        }
-
-        #navbar-photos-link {
-            border-left: $content-border-left;
-            min-width: 70px;
-        }
-
-        #navbar-friends-link {
-            border-left: $content-border-left;
-            border-right: $content-border-right;
-            min-width: 70px;
+            text-align: center;
         }
 
         .current-page-link {
@@ -164,10 +138,29 @@ header {
             }
         }
 
-        #edit-profile-link {
+        #navbar-edit-profile {
             color: #0C5394;
             text-decoration: underline;
         }
+    }
+}
+
+main {
+    margin-bottom: 50px;
+
+    #main-edit-profile {
+        color: black;
+        opacity: 1;
+    }
+
+    .navbar-secondary {
+        margin-bottom: 0;
+        border-bottom: 0;
+        background-color: #D5D5D5;
+        margin-left: $container-margin;
+        margin-right: $container-margin;
+        border-radius: $content-border-radius;
+        border: $content-border;
     }
 }
 
@@ -206,7 +199,9 @@ header {
 #main-content-container {
     margin-left: $container-margin;
     margin-right: $container-margin;
-    border: $content-border;
+    border-right: $content-border-right;
+    border-bottom: $content-border-bottom;
+    border-left: $content-border-left;
     border-radius: $content-border-radius;
     padding-top: 10px;
     padding-bottom: 20px;

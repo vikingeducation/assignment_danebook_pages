@@ -69,64 +69,53 @@
     </nav>
 
     <header>
-        <div class="container-fluid" id="cover-container">
-            <section class="row">
-                <!-- Cover photo -->
-                <div class="col-xs-12">
-                    <img class="img-responsive center-block" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg" alt="Hogwarts">
-                </div>
-                <!-- /.col-xs-12 -->
-            </section>
-        </div>
-        <!-- /.container-fluid -->
+        <div id="cover-container">
 
-        <nav class="navbar navbar-default center-block navbar-secondary">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-3">
-                        <div class="navbar-header">
-                            <div class="navbar-brand">
-                                <!-- Profile picture -->
-                                <div>
-                                </div>
-                                <!-- User's name -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.col-xs-4 -->
 
-                    <div class="col-xs-7">
-                        <ul class="nav navbar-nav navbar-left">
-                            <li>
-                                <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
-                            </li>
-                            <li class="current-page-link">
-                                <a href="about.html" id="navbar-about-link">About</a>
-                            </li>
-                            <li>
-                                <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
-                            </li>
-                            <li>
-                                <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
-                            </li>
-                        </ul>
+                <div class="row-fluid">
+                    <div class="col-xs-12">
+                        <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" id="profile-picture">
                     </div>
-                    <!-- /.col-xs-6 -->
-
-                    <div class="col-xs-2">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#" class="navbar-link" id="edit-profile-link">Edit Profile</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.col-xs-2 -->
-
+                    <!-- /.col-xs-12 -->
                 </div>
-                <!-- /.row -->
+                <!-- /.row-fluid -->
+                <nav class="navbar navbar-default center-block navbar-secondary">
+                    <div class="row-fluid">
+                        <div class="col-xs-7 col-xs-offset-3">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li>
+                                    <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
+                                </li>
+                                <li class="current-page-link">
+                                    <a href="about.html" id="navbar-about-link">About</a>
+                                </li>
+                                <li>
+                                    <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
+                                </li>
+                                <li>
+                                    <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-xs-6 -->
+
+                        <div class="col-xs-2">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a href="#" id="navbar-edit-profile">Edit Profile</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-xs-2 -->
+
+                    </div>
+                    <!-- /.row -->
+                </nav>
             </div>
             <!-- /.container-fluid -->
-        </nav>
+
+        </div>
     </header>
 
     <main>
@@ -139,7 +128,7 @@
             <div class="col-xs-4">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#" class="navbar-link">Edit Profile</a>
+                        <a href="#" id="main-content-edit-profile">Edit Profile</a>
                     </li>
                 </ul>
             </div>
@@ -266,6 +255,11 @@
         </section>
 
     </main>
+
+</body>
+
+</html>
+/main>
 
 </body>
 

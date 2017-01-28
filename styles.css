@@ -8,16 +8,17 @@ body {
 header #cover-container {
   margin-left: 7.5%;
   margin-right: 7.5%;
+  margin-bottom: 20px;
+  border-radius: 0;
   border-left: 1px black solid;
   border-right: 1px black solid;
-  border-radius: 0;
-  padding: 0;
-  height: 300px;
-  background-color: #F4EFEF;
-  overflow: hidden; }
-header img {
-  width: 100%;
-  height: auto; }
+  height: 350px;
+  background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+  background-position: center;
+  background-size: cover; }
+  header #cover-container .navbar-nav li a {
+    color: black;
+    opacity: 1; }
 
 #main-content-title h2 {
   text-align: center;
@@ -54,47 +55,47 @@ header img {
       margin-top: 13px;
       margin-bottom: 13px; }
 
-.navbar-secondary {
-  width: 85%;
-  border: 1px black solid;
+header #profile-picture {
+  height: 200px;
+  width: auto;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  z-index: 1;
+  border: 1px black solid; }
+header .navbar-secondary {
+  position: absolute;
+  top: 360px;
+  left: 7.5%;
   border-radius: 0;
-  background-color: white; }
-  .navbar-secondary .navbar-nav li a {
-    color: black;
-    opacity: 1; }
+  margin-right: 7.5%;
+  width: 85%;
+  border: 1px black solid; }
+  header .navbar-secondary a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center; }
+  header .navbar-secondary .current-page-link a {
+    background-color: #D5D5D5; }
+  header .navbar-secondary .current-page-link a:hover {
+    background-color: #D5D5D5; }
+  header .navbar-secondary #navbar-edit-profile {
+    color: #0C5394;
+    text-decoration: underline; }
 
 main {
   margin-bottom: 50px; }
+  main #main-edit-profile {
+    color: black;
+    opacity: 1; }
   main .navbar-secondary {
     margin-bottom: 0;
     border-bottom: 0;
-    background-color: #D5D5D5; }
-
-header .navbar-secondary li {
-  text-align: center; }
-header .navbar-secondary a {
-  padding-left: 10px;
-  padding-right: 10px; }
-header .navbar-secondary #navbar-timeline-link {
-  border-left: 1px black solid;
-  min-width: 70px; }
-header .navbar-secondary #navbar-about-link {
-  border-left: 1px black solid;
-  min-width: 70px; }
-header .navbar-secondary #navbar-photos-link {
-  border-left: 1px black solid;
-  min-width: 70px; }
-header .navbar-secondary #navbar-friends-link {
-  border-left: 1px black solid;
-  border-right: 1px black solid;
-  min-width: 70px; }
-header .navbar-secondary .current-page-link a {
-  background-color: #D5D5D5; }
-header .navbar-secondary .current-page-link a:hover {
-  background-color: #D5D5D5; }
-header .navbar-secondary #edit-profile-link {
-  color: #0C5394;
-  text-decoration: underline; }
+    background-color: #D5D5D5;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    border-radius: 0;
+    border: 1px black solid; }
 
 .navbar-collapse {
   border: none;
@@ -125,7 +126,9 @@ header .navbar-secondary #edit-profile-link {
 #main-content-container {
   margin-left: 7.5%;
   margin-right: 7.5%;
-  border: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  border-left: 1px black solid;
   border-radius: 0;
   padding-top: 10px;
   padding-bottom: 20px; }
