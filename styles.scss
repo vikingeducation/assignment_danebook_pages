@@ -107,10 +107,27 @@ header {
         height: 200px;
         width: auto;
         position: absolute;
-        top: $cover-height - 175px;
-        left: 0;
+        top: $cover-height + $primary-navbar-height - 163px;
+        left: $container-margin;
         z-index: 1;
-        border: $content-border;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        img {
+            height: inherit;
+            width: inherit;
+            border: $content-border;
+        }
+    }
+
+    #user-full-name {
+        margin-top: 230px;
+        margin-left: 140px;
+
+        h1 {
+            color: white;
+            line-height: auto;
+        }
     }
 
     .navbar-secondary {

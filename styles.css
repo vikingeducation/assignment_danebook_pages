@@ -59,10 +59,21 @@ header #profile-picture {
   height: 200px;
   width: auto;
   position: absolute;
-  top: 125px;
-  left: 0;
+  top: 197px;
+  left: 7.5%;
   z-index: 1;
-  border: 1px black solid; }
+  padding-left: 15px;
+  padding-right: 15px; }
+  header #profile-picture img {
+    height: inherit;
+    width: inherit;
+    border: 1px black solid; }
+header #user-full-name {
+  margin-top: 230px;
+  margin-left: 140px; }
+  header #user-full-name h1 {
+    color: white;
+    line-height: auto; }
 header .navbar-secondary {
   position: absolute;
   top: 360px;
