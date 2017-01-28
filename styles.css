@@ -99,6 +99,9 @@ main {
   main #main-edit-profile {
     color: black;
     opacity: 1; }
+  main #main-add-photo {
+    color: black;
+    opacity: 1; }
   main .navbar-secondary {
     margin-bottom: 0;
     border-bottom: 0;
