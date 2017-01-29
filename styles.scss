@@ -27,7 +27,6 @@ header {
     #cover-container {
         margin-left: $container-margin;
         margin-right: $container-margin;
-        margin-bottom: 20px;
         border-radius: $content-border-radius;
         border-left: $content-border-left;
         border-right: $content-border-right;
@@ -35,15 +34,7 @@ header {
         background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
         background-position: center;
         background-size: cover;
-
-        .navbar-nav {
-            li {
-                a {
-                    color: black;
-                    opacity: 1;
-                }
-            }
-        }
+        position: relative;
     }
 }
 
@@ -57,7 +48,8 @@ header {
 
 .navbar-primary {
     background-color: #2B78E4;
-    border: $content-border;
+    border-top: $content-border-top;
+    border-bottom: $content-border-bottom;
     border-radius: $content-border-radius;
     height: $primary-navbar-height;
 
@@ -104,39 +96,27 @@ header {
 
 header {
     #profile-picture {
-        height: 200px;
-        width: auto;
-        position: absolute;
-        top: $cover-height + $primary-navbar-height - 163px;
-        left: $container-margin;
+        width: 150px;
+        height: auto;
         z-index: 1;
-        padding-left: 15px;
-        padding-right: 15px;
-
-        img {
-            height: inherit;
-            width: inherit;
-            border: $content-border;
-        }
+        margin-top: -180px;
+        margin-right: 10px;
+        border: $content-border;
+        float: left;
     }
 
     #user-full-name {
-        margin-top: 230px;
-        margin-left: 140px;
-
-        h1 {
-            color: white;
-            line-height: auto;
-        }
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 180px;
     }
 
     .navbar-secondary {
-        position: absolute;
-        top: $primary-navbar-height + $cover-height;
-        left: $container-margin;
         border-radius: 0;
-        width: 100% - (2 * $container-margin);
         border: $content-border;
+        margin-left: $container-margin;
+        margin-right: $container-margin;
 
         a {
             padding-left: 10px;
@@ -168,6 +148,7 @@ main {
     #main-edit-profile {
         color: black;
         opacity: 1;
+        text-align: right;
     }
 
     #main-add-photo {
@@ -238,28 +219,27 @@ main {
 
         .user-info-item {
             font-weight: 700;
-            font-size: 14px;
-        }
-
-        .user-info-value {
-            font-size: 14px;
         }
     }
 }
 
 #navbar-timeline-link {
-    border-left: $content-border-left;
+    color: black;
+    opacity: 1;
+    clear: both;
 }
 
 #navbar-about-link {
-    border-left: $content-border-left;
+    color: black;
+    opacity: 1;
 }
 
 #navbar-photos-link {
-    border-left: $content-border-left;
+    color: black;
+    opacity: 1;
 }
 
 #navbar-friends-link {
-    border-left: $content-border-left;
-    border-right: $content-border-right;
+    color: black;
+    opacity: 1;
 }
