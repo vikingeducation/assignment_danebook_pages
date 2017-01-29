@@ -73,6 +73,13 @@ header {
             }
         }
 
+        .navbar-collapse {
+            @media (max-width: 767px) {
+                background-color: #2B78E4;
+                border: $content-border;
+            }
+        }
+
         .navbar-nav {
             height: inherit;
 
@@ -178,8 +185,17 @@ main {
 }
 
 #currentuser-first-name {
-    color: $primary-navbar-link-fontcolor;
-    font-size: $primary-navbar-link-fontsize;
+    @media (max-width: 767px) {
+        float: right;
+    }
+
+    li {
+        a {
+            color: $primary-navbar-link-fontcolor;
+            font-size: $primary-navbar-link-fontsize;
+            text-align: right;
+        }
+    }
 }
 
 #navbar-toggle-button {
@@ -196,7 +212,9 @@ main {
 }
 
 #search-input {
-    min-width: 300px;
+    @media (min-width: 768px) {
+        min-width: 300px;
+    }
 }
 
 #main-content-container {
@@ -226,20 +244,32 @@ main {
 #navbar-timeline-link {
     color: black;
     opacity: 1;
-    clear: both;
+    @media (max-width: 767px) {
+        border-top: $content-border-top;
+    }
 }
 
 #navbar-about-link {
     color: black;
     opacity: 1;
+    @media (max-width: 767px) {
+        border-top: $content-border-top;
+    }
 }
 
 #navbar-photos-link {
     color: black;
     opacity: 1;
+    @media (max-width: 767px) {
+        border-top: $content-border-top;
+    }
 }
 
 #navbar-friends-link {
     color: black;
     opacity: 1;
+    @media (max-width: 767px) {
+        border-top: $content-border-top;
+        border-bottom: $content-border-bottom;
+    }
 }

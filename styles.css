@@ -41,6 +41,10 @@ header #cover-container {
         height: 100%;
         width: auto;
         border-radius: 100%; }
+    @media (max-width: 767px) {
+      .navbar-primary .container-fluid .navbar-collapse {
+        background-color: #2B78E4;
+        border: 1px black solid; } }
     .navbar-primary .container-fluid .navbar-nav {
       height: inherit; }
       .navbar-primary .container-fluid .navbar-nav li {
@@ -110,9 +114,13 @@ main {
   border: none;
   box-shadow: none; }
 
-#currentuser-first-name {
+@media (max-width: 767px) {
+  #currentuser-first-name {
+    float: right; } }
+#currentuser-first-name li a {
   color: #FFF;
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: right; }
 
 #navbar-toggle-button {
   border-width: 2px; }
@@ -125,8 +133,9 @@ main {
   padding-right: 20px;
   text-decoration: none; }
 
-#search-input {
-  min-width: 300px; }
+@media (min-width: 768px) {
+  #search-input {
+    min-width: 300px; } }
 
 #main-content-container {
   margin-left: 7.5%;
@@ -147,19 +156,31 @@ main {
 
 #navbar-timeline-link {
   color: black;
-  opacity: 1;
-  clear: both; }
+  opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-timeline-link {
+      border-top: 1px black solid; } }
 
 #navbar-about-link {
   color: black;
   opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-about-link {
+      border-top: 1px black solid; } }
 
 #navbar-photos-link {
   color: black;
   opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-photos-link {
+      border-top: 1px black solid; } }
 
 #navbar-friends-link {
   color: black;
   opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-friends-link {
+      border-top: 1px black solid;
+      border-bottom: 1px black solid; } }
 
 /*# sourceMappingURL=styles.css.map */
