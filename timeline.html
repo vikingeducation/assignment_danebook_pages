@@ -30,7 +30,7 @@
             <div class="navbar-header">
 
                 <!-- Navbar collapse menu toggle button -->
-                <button type="button" class="navbar-toggle collapsed" id="navbar-toggle-button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" id="navbar-toggle-button" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -38,7 +38,7 @@
                 </button>
 
                 <!-- Danebook brand logo and text -->
-                <a class="navbar-brand" href="home.html">
+                <a class="navbar-brand" href="timeline.html">
                     <img alt="Brand" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
                     <a id="navbar-brand-text">Danebook</a>
                 </a>
@@ -46,19 +46,20 @@
             </div>
             <!-- /.navbar-header -->
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="navbar-primary-collapse">
 
                 <!-- Search form -->
-                <form class="navbar-form navbar-left">
+                <form class="navbar-form navbar-left visible-xs-inline-block">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Search" id="search-input">
                     </div>
+                    <!-- /.form-group -->
                 </form>
 
                 <!-- Current user first name -->
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" id="currentuser-first-name">
                     <li>
-                        <a href="#" class="navbar-link" id="currentuser-first-name">Harry</a>
+                        <a href="timeline.html">Harry</a>
                     </li>
                 </ul>
 
@@ -69,52 +70,69 @@
     </nav>
 
     <header>
+        <!-- Display full name for current profile -->
         <div id="cover-container">
+            <div>
+                <h1 id="user-full-name">Harry Potter</h1>
+            </div>
+        </div>
+        <!-- /#cover-container -->
 
+        <!-- Navbar with page navigation links -->
+        <nav class="navbar navbar-default center-block navbar-secondary">
             <div class="container-fluid">
+                <div class="navbar-header">
 
-                <div class="row-fluid">
-                    <div class="col-sm-3" id="profile-picture">
-                        <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg">
+                    <!-- Profile picture -->
+                    <div class="navbar-brand">
+                        <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" id="profile-picture">
                     </div>
-                    <!-- /.col-sm-3 -->
+                    <!-- /.navbar-brand -->
 
-                    <div class="col-sm-9 col-sm-offset-3" id="user-full-name">
-                        <h1>Harry Potter</h1>
-                    </div>
-                    <!-- /.col-sm-9 -->
+                    <!-- Primary navbar collapse menu toggle button -->
+                    <button type="button" class="navbar-toggle collapsed" id="navbar-secondary-toggle-button" data-toggle="collapse" data-target="#navbar-secondary-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
                 </div>
-                <!-- /.row-fluid -->
-                <nav class="navbar navbar-default center-block navbar-secondary">
-                    <div class="row-fluid">
-                        <div class="col-sm-7 col-sm-offset-3">
-                            <ul class="nav navbar-nav navbar-left">
-                                <li class="current-page-link">
-                                    <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
-                                </li>
+                <!-- /.navbar-header -->
 
-                                <li>
-                                    <a href="about.html" id="navbar-about-link">About</a>
-                                </li>
+                <!-- Links for page navigation in secondary navbar -->
+                <div class="collapse navbar-collapse" id="navbar-secondary-collapse">
 
-                                <li>
-                                    <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
-                                </li>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="current-page-link">
+                            <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
+                        </li>
 
-                                <li>
-                                    <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.col-sm-7 -->
+                        <li>
+                            <a href="about.html" id="navbar-about-link">About</a>
+                        </li>
 
-                    </div>
-                    <!-- /.row -->
-                </nav>
+                        <li>
+                            <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
+                        </li>
+
+                        <li>
+                            <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
+                        </li>
+                    </ul>
+
+                    <!-- Link for user to edit profile -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="about-edit.html" id="navbar-edit-profile">Edit Profile</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- /.collapse navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
-
-        </div>
+        </nav>
     </header>
 
     <main>
