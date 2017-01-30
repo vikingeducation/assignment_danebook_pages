@@ -98,7 +98,8 @@ main {
     text-align: right; }
   main #main-add-photo {
     color: black;
-    opacity: 1; }
+    opacity: 1;
+    text-align: right; }
   main .navbar-secondary {
     margin-bottom: 0;
     border-bottom: 0;
