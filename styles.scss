@@ -44,14 +44,6 @@ header {
     }
 }
 
-#main-content-title {
-    h2 {
-        text-align: center;
-        margin: auto;
-        line-height: 50px;
-    }
-}
-
 .navbar-primary {
     background-color: #2B78E4;
     border-top: $content-border-top;
@@ -157,28 +149,6 @@ header {
 
 main {
     margin-bottom: 50px;
-
-    #main-edit-profile {
-        color: black;
-        opacity: 1;
-        text-align: right;
-    }
-
-    #main-add-photo {
-        color: black;
-        opacity: 1;
-        text-align: right;
-    }
-
-    .navbar-secondary {
-        margin-bottom: 0;
-        border-bottom: 0;
-        background-color: #D5D5D5;
-        margin-left: $container-margin;
-        margin-right: $container-margin;
-        border-radius: $content-border-radius;
-        border: $content-border;
-    }
 }
 
 .navbar-collapse {
@@ -224,15 +194,38 @@ main {
     }
 }
 
-#main-content-container {
+.main-content-container {
     margin-left: $container-margin;
     margin-right: $container-margin;
-    border-right: $content-border-right;
-    border-bottom: $content-border-bottom;
-    border-left: $content-border-left;
+    border: $content-border;
     border-radius: $content-border-radius;
-    padding-top: 10px;
     padding-bottom: 20px;
+
+    .main-content-header {
+        background-color: #D5D5D5;
+        border-radius: $content-border-radius;
+        border-bottom: $content-border-bottom;
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .content-header-title {
+            text-align: center;
+
+            h2 {
+                margin: 0;
+            }
+        }
+
+        .content-header-link {
+            display: flex;
+
+            a {
+                margin: auto 0 auto auto;
+            }
+        }
+    }
 
     .about-details {
         padding-left: 15px;

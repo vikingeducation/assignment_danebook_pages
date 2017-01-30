@@ -19,11 +19,6 @@ header #cover-container {
   background-size: cover;
   position: relative; }
 
-#main-content-title h2 {
-  text-align: center;
-  margin: auto;
-  line-height: 50px; }
-
 .navbar-primary {
   background-color: #2B78E4;
   border-top: 1px black solid;
@@ -92,22 +87,6 @@ header .navbar-secondary {
 
 main {
   margin-bottom: 50px; }
-  main #main-edit-profile {
-    color: black;
-    opacity: 1;
-    text-align: right; }
-  main #main-add-photo {
-    color: black;
-    opacity: 1;
-    text-align: right; }
-  main .navbar-secondary {
-    margin-bottom: 0;
-    border-bottom: 0;
-    background-color: #D5D5D5;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-    border-radius: 0;
-    border: 1px black solid; }
 
 .navbar-collapse {
   border: none;
@@ -140,42 +119,55 @@ main {
   #search-input {
     min-width: 300px; } }
 
-#main-content-container {
+.main-content-container {
   margin-left: 7.5%;
   margin-right: 7.5%;
-  border-right: 1px black solid;
-  border-bottom: 1px black solid;
-  border-left: 1px black solid;
+  border: 1px black solid;
   border-radius: 0;
-  padding-top: 10px;
   padding-bottom: 20px; }
-  #main-content-container .about-details {
+  .main-content-container .main-content-header {
+    background-color: #D5D5D5;
+    border-radius: 0;
+    border-bottom: 1px black solid;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .main-content-container .main-content-header .content-header-title {
+      text-align: center; }
+      .main-content-container .main-content-header .content-header-title h2 {
+        margin: 0; }
+    .main-content-container .main-content-header .content-header-link {
+      display: flex; }
+      .main-content-container .main-content-header .content-header-link a {
+        margin: auto 0 auto auto; }
+  .main-content-container .about-details {
     padding-left: 15px;
     padding-right: 15px; }
-    #main-content-container .about-details label {
+    .main-content-container .about-details label {
       text-align: left; }
-    #main-content-container .about-details .user-info-item {
+    .main-content-container .about-details .user-info-item {
       font-weight: 700; }
-  #main-content-container .friend-container {
+  .main-content-container .friend-container {
     border: 1px black solid;
     margin-top: 20px;
     display: flex;
     align-items: center;
     padding: 15px; }
-    #main-content-container .friend-container img {
+    .main-content-container .friend-container img {
       width: 100px;
       height: 100px;
       margin: 0 10px 0 0; }
-    #main-content-container .friend-container .friend-details {
+    .main-content-container .friend-container .friend-details {
       margin: 0 auto 0 0; }
-      #main-content-container .friend-container .friend-details p {
+      .main-content-container .friend-container .friend-details p {
         color: #A0ACC0; }
-    #main-content-container .friend-container .btn-unfriend {
+    .main-content-container .friend-container .btn-unfriend {
       border-radius: 0;
       border: 1px black solid;
       background-color: #DDDDDD;
       margin: auto; }
-  #main-content-container .photos-container {
+  .main-content-container .photos-container {
     margin-top: 20px;
     margin-bottom: 10px; }
 
