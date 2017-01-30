@@ -117,6 +117,10 @@ header {
         left: 180px;
     }
 
+    .navbar {
+        margin-bottom: 0;
+    }
+
     .navbar-secondary {
         border-radius: 0;
         border: $content-border;
@@ -213,6 +217,7 @@ main {
 .main-content-header {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 15px;
     background-color: #D5D5D5;
     border-radius: $content-border-radius;
     border: $content-border;
@@ -303,6 +308,7 @@ main {
     border-left: $content-border-left;
     border-right: $content-border-right;
     border-bottom: $content-border-bottom;
+    text-align: center;
 }
 
 #navbar-timeline-link {
