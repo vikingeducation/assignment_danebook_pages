@@ -18,6 +18,12 @@ $primary-navbar-link-padding: ($primary-navbar-height - $primary-navbar-link-fon
 /* Cover section */
 $cover-height: 300px;
 $secondary-navbar-height: 50px;
+/* Button properties */
+$btn-border: 1px black solid;
+/* Friend summary boxes */
+$prof-pic-thumb-width: 100px;
+$prof-pic-thumb-height: 100px;
+$friend-container-mt: 20px;
 
 body {
     padding-top: $primary-navbar-height;
@@ -237,6 +243,35 @@ main {
 
         .user-info-item {
             font-weight: 700;
+        }
+    }
+
+    .friend-container {
+        border: $content-border;
+        margin-top: $friend-container-mt;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+
+        img {
+            width: $prof-pic-thumb-width;
+            height: $prof-pic-thumb-height;
+            margin: 0 10px 0 0;
+        }
+
+        .friend-details {
+            margin: 0 auto 0 0;
+
+            p {
+                color: #A0ACC0;
+            }
+        }
+
+        .btn-unfriend {
+            border-radius: 0;
+            border: $btn-border;
+            background-color: #DDDDDD;
+            margin: auto;
         }
     }
 }

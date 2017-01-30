@@ -2,6 +2,8 @@
 /* Container variables */
 /* Primary navbar variables */
 /* Cover section */
+/* Button properties */
+/* Friend summary boxes */
 body {
   padding-top: 60px; }
 
@@ -153,6 +155,25 @@ main {
       text-align: left; }
     #main-content-container .about-details .user-info-item {
       font-weight: 700; }
+  #main-content-container .friend-container {
+    border: 1px black solid;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 15px; }
+    #main-content-container .friend-container img {
+      width: 100px;
+      height: 100px;
+      margin: 0 10px 0 0; }
+    #main-content-container .friend-container .friend-details {
+      margin: 0 auto 0 0; }
+      #main-content-container .friend-container .friend-details p {
+        color: #A0ACC0; }
+    #main-content-container .friend-container .btn-unfriend {
+      border-radius: 0;
+      border: 1px black solid;
+      background-color: #DDDDDD;
+      margin: auto; }
 
 #navbar-timeline-link {
   color: black;
