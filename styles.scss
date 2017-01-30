@@ -197,84 +197,112 @@ main {
 .main-content-container {
     margin-left: $container-margin;
     margin-right: $container-margin;
-    border: $content-border;
     border-radius: $content-border-radius;
     padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
 
-    .main-content-header {
-        background-color: #D5D5D5;
-        border-radius: $content-border-radius;
-        border-bottom: $content-border-bottom;
+.summary-content-container {
+    margin-left: $container-margin;
+    margin-right: $container-margin;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-content-header {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #D5D5D5;
+    border-radius: $content-border-radius;
+    border: $content-border;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .content-header-title {
+        text-align: center;
+
+        h2 {
+            margin: 0;
+        }
+    }
+
+    .content-header-link {
         display: flex;
-        align-items: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
 
-        .content-header-title {
-            text-align: center;
-
-            h2 {
-                margin: 0;
-            }
+        a {
+            margin: auto 0 auto auto;
         }
+    }
+}
 
-        .content-header-link {
-            display: flex;
+.about-details {
+    border-left: $content-border-left;
+    border-right: $content-border-right;
+    border-bottom: $content-border-bottom;
+    padding: 0;
+    margin: 0;
 
-            a {
-                margin: auto 0 auto auto;
-            }
+    h3 {
+        margin-top: 10px;
+    }
+
+    label {
+        text-align: left;
+    }
+
+    .user-info-item {
+        font-weight: 700;
+    }
+}
+
+.friend-list {
+    border-left: $content-border-left;
+    border-right: $content-border-right;
+    border-bottom: $content-border-bottom;
+    padding: 15px;
+    margin: 0;
+}
+
+.friend-container {
+    border: $content-border;
+    margin-top: $friend-container-mt;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    img {
+        width: $prof-pic-thumb-width;
+        height: $prof-pic-thumb-height;
+        margin: 0 10px 0 0;
+    }
+
+    .friend-details {
+        margin: 0 5px 0 0;
+
+        p {
+            color: #A0ACC0;
         }
     }
 
-    .about-details {
-        padding-left: 15px;
-        padding-right: 15px;
-
-        label {
-            text-align: left;
-        }
-
-        .user-info-item {
-            font-weight: 700;
-        }
+    .btn-unfriend {
+        border-radius: 0;
+        border: $btn-border;
+        background-color: #DDDDDD;
+        margin: auto;
     }
+}
 
-    .friend-container {
-        border: $content-border;
-        margin-top: $friend-container-mt;
-        display: flex;
-        align-items: center;
-        padding: 15px;
-
-        img {
-            width: $prof-pic-thumb-width;
-            height: $prof-pic-thumb-height;
-            margin: 0 10px 0 0;
-        }
-
-        .friend-details {
-            margin: 0 auto 0 0;
-
-            p {
-                color: #A0ACC0;
-            }
-        }
-
-        .btn-unfriend {
-            border-radius: 0;
-            border: $btn-border;
-            background-color: #DDDDDD;
-            margin: auto;
-        }
-    }
-
-    .photos-container {
-        margin-top: 20px;
-        margin-bottom: 10px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+.photos-container {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: $content-border-left;
+    border-right: $content-border-right;
+    border-bottom: $content-border-bottom;
 }
 
 #navbar-timeline-link {

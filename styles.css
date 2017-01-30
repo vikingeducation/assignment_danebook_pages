@@ -122,56 +122,84 @@ main {
 .main-content-container {
   margin-left: 7.5%;
   margin-right: 7.5%;
-  border: 1px black solid;
   border-radius: 0;
-  padding-bottom: 20px; }
-  .main-content-container .main-content-header {
-    background-color: #D5D5D5;
+  padding-bottom: 20px;
+  padding-left: 0;
+  padding-right: 0; }
+
+.summary-content-container {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  padding-left: 0;
+  padding-right: 0; }
+
+.main-content-header {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #D5D5D5;
+  border-radius: 0;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .main-content-header .content-header-title {
+    text-align: center; }
+    .main-content-header .content-header-title h2 {
+      margin: 0; }
+  .main-content-header .content-header-link {
+    display: flex; }
+    .main-content-header .content-header-link a {
+      margin: auto 0 auto auto; }
+
+.about-details {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  padding: 0;
+  margin: 0; }
+  .about-details h3 {
+    margin-top: 10px; }
+  .about-details label {
+    text-align: left; }
+  .about-details .user-info-item {
+    font-weight: 700; }
+
+.friend-list {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  padding: 15px;
+  margin: 0; }
+
+.friend-container {
+  border: 1px black solid;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .friend-container img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 0; }
+  .friend-container .friend-details {
+    margin: 0 5px 0 0; }
+    .friend-container .friend-details p {
+      color: #A0ACC0; }
+  .friend-container .btn-unfriend {
     border-radius: 0;
-    border-bottom: 1px black solid;
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-    .main-content-container .main-content-header .content-header-title {
-      text-align: center; }
-      .main-content-container .main-content-header .content-header-title h2 {
-        margin: 0; }
-    .main-content-container .main-content-header .content-header-link {
-      display: flex; }
-      .main-content-container .main-content-header .content-header-link a {
-        margin: auto 0 auto auto; }
-  .main-content-container .about-details {
-    padding-left: 15px;
-    padding-right: 15px; }
-    .main-content-container .about-details label {
-      text-align: left; }
-    .main-content-container .about-details .user-info-item {
-      font-weight: 700; }
-  .main-content-container .friend-container {
     border: 1px black solid;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    padding: 15px; }
-    .main-content-container .friend-container img {
-      width: 100px;
-      height: 100px;
-      margin: 0 10px 0 0; }
-    .main-content-container .friend-container .friend-details {
-      margin: 0 auto 0 0; }
-      .main-content-container .friend-container .friend-details p {
-        color: #A0ACC0; }
-    .main-content-container .friend-container .btn-unfriend {
-      border-radius: 0;
-      border: 1px black solid;
-      background-color: #DDDDDD;
-      margin: auto; }
-  .main-content-container .photos-container {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px; }
+    background-color: #DDDDDD;
+    margin: auto; }
+
+.photos-container {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid; }
 
 #navbar-timeline-link {
   color: black;
