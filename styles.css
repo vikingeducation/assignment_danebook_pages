@@ -101,22 +101,75 @@ main {
 .more-link {
   margin-top: 10px; }
 
+.post {
+  margin-bottom: 10px;
+  margin-top: 15px; }
+
+.post-create-header {
+  border-top: 1px black solid;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  background-color: #D5D5D5;
+  border-radius: 0;
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .post-create-header h2 {
+    text-align: center;
+    margin: auto; }
+
+.post-header {
+  border-top: 1px black solid;
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+  margin-top: 15px; }
+  .post-header img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px; }
+  .post-header .post-details {
+    display: inline-block;
+    float: none;
+    margin: 5px; }
+    .post-header .post-details .post-user {
+      font-size: 16px; }
+    .post-header .post-details .post-date {
+      color: #A0ACC0;
+      font-weight: bold; }
+
 .post-content {
-  padding: 15px;
   border-left: 1px black solid;
   border-right: 1px black solid; }
   .post-content textarea {
-    width: 100%; }
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px; }
 
 .post-footer {
   background-color: #D5D5D5;
-  display: flex;
-  padding: 15px;
-  border: 1px black solid; }
+  border: 1px black solid;
+  padding-top: 10px;
+  padding-bottom: 10px; }
   .post-footer .btn-post {
+    float: right;
     border-radius: 0;
-    margin: 0 0 0 auto;
-    border: 1px black solid; }
+    border: 1px black solid;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .post-footer .post-footer-links .like {
+    float: left; }
+  .post-footer .post-footer-links .comment {
+    float: left;
+    margin-left: 15px; }
+  .post-footer .post-footer-links .delete {
+    float: right; }
+  .post-footer .post-footer-like {
+    float: left;
+    margin-top: 5px; }
 
 @media (max-width: 767px) {
   #currentuser-first-name {
@@ -169,7 +222,7 @@ main {
   .main-content-header .content-header-title {
     text-align: center; }
     .main-content-header .content-header-title h2 {
-      margin: 0; }
+      margin: auto; }
   .main-content-header .content-header-link {
     display: flex; }
     .main-content-header .content-header-link a {

@@ -170,26 +170,102 @@ main {
     margin-top: 10px;
 }
 
+.post {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.post-create-header {
+    border-top: $content-border-top;
+    border-right: $content-border-right;
+    border-left: $content-border-left;
+    background-color: #D5D5D5;
+    border-radius: $content-border-radius;
+    border: $content-border;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.post-header {
+    border-top: $content-border-top;
+    border-right: $content-border-right;
+    border-left: $content-border-left;
+    margin-top: 15px;
+
+    img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 5px;
+        width: $prof-pic-thumb-width;
+        height: $prof-pic-thumb-height;
+    }
+
+    .post-details {
+        display: inline-block;
+        float: none;
+        margin: 5px;
+
+        .post-user {
+            font-size: 16px;
+        }
+
+        .post-date {
+            color: #A0ACC0;
+            font-weight: bold;
+        }
+    }
+}
+
 .post-content {
-    padding: 15px;
     border-left: $content-border-left;
     border-right: $content-border-right;
 
     textarea {
         width: 100%;
+        margin-top: 15px;
+        margin-bottom: 10px;
     }
 }
 
 .post-footer {
     background-color: #D5D5D5;
-    display: flex;
-    padding: 15px;
     border: $content-border;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     .btn-post {
+        float: right;
         border-radius: 0;
-        margin: 0 0 0 auto;
         border: $btn-border;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .post-footer-links {
+        .like {
+            float: left;
+        }
+
+        .comment {
+            float: left;
+            margin-left: 15px;
+        }
+
+        .delete {
+            float: right;
+        }
+    }
+
+    .post-footer-like {
+        float: left;
+        margin-top: 5px;
     }
 }
 
@@ -258,7 +334,7 @@ main {
         text-align: center;
 
         h2 {
-            margin: 0;
+            margin: auto;
         }
     }
 
