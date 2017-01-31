@@ -269,7 +269,6 @@ main {
   background-color: #D5D5D5;
   border-left: $content-border-left;
   border-right: $content-border-right;
-  border-bottom: $content-border-bottom;
 
   img {
     margin-top: 10px;
@@ -283,7 +282,7 @@ main {
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 0;
-  }
+    }
 
   p {
     margin-top: 10px;
@@ -295,6 +294,34 @@ main {
 
   .delete {
     float: right;
+  }
+}
+
+.create-comment {
+  background-color: #D5D5D5;
+  border-left: $content-border-left;
+  border-right: $content-border-right;
+  border-bottom: $content-border-bottom;
+  padding-bottom: 15px;
+
+  .btn-comment {
+    display: inline-block;
+    float: right;
+    border-radius: 0;
+    border: $btn-border;
+  }
+
+  .btn-cancel {
+    display: inline-block;
+    border-radius: 0;
+    border-color: none;
+    background-color: transparent;
+  }
+
+  textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 }
 

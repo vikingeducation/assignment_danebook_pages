@@ -172,8 +172,7 @@ main {
 .post-comment {
   background-color: #D5D5D5;
   border-left: 1px black solid;
-  border-right: 1px black solid;
-  border-bottom: 1px black solid; }
+  border-right: 1px black solid; }
   .post-comment img {
     margin-top: 10px;
     width: 100%;
@@ -190,6 +189,27 @@ main {
     margin-right: 10px; }
   .post-comment .delete {
     float: right; }
+
+.create-comment {
+  background-color: #D5D5D5;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  padding-bottom: 15px; }
+  .create-comment .btn-comment {
+    display: inline-block;
+    float: right;
+    border-radius: 0;
+    border: 1px black solid; }
+  .create-comment .btn-cancel {
+    display: inline-block;
+    border-radius: 0;
+    border-color: none;
+    background-color: transparent; }
+  .create-comment textarea {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px; }
 
 @media (max-width: 767px) {
   #currentuser-first-name {
