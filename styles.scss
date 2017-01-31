@@ -170,6 +170,29 @@ main {
     margin-top: 10px;
 }
 
+.post-content {
+    padding: 15px;
+    border-left: $content-border-left;
+    border-right: $content-border-right;
+
+    textarea {
+        width: 100%;
+    }
+}
+
+.post-footer {
+    background-color: #D5D5D5;
+    display: flex;
+    padding: 15px;
+    border: $content-border;
+
+    .btn-post {
+        border-radius: 0;
+        margin: 0 0 0 auto;
+        border: $btn-border;
+    }
+}
+
 #currentuser-first-name {
     @media (max-width: 767px) {
         float: right;

@@ -101,6 +101,23 @@ main {
 .more-link {
   margin-top: 10px; }
 
+.post-content {
+  padding: 15px;
+  border-left: 1px black solid;
+  border-right: 1px black solid; }
+  .post-content textarea {
+    width: 100%; }
+
+.post-footer {
+  background-color: #D5D5D5;
+  display: flex;
+  padding: 15px;
+  border: 1px black solid; }
+  .post-footer .btn-post {
+    border-radius: 0;
+    margin: 0 0 0 auto;
+    border: 1px black solid; }
+
 @media (max-width: 767px) {
   #currentuser-first-name {
     float: right; } }
