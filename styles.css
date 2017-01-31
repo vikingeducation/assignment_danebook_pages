@@ -98,6 +98,9 @@ main {
   border: none;
   box-shadow: none; }
 
+.more-link {
+  margin-top: 10px; }
+
 @media (max-width: 767px) {
   #currentuser-first-name {
     float: right; } }
@@ -172,12 +175,14 @@ main {
   border-left: 1px black solid;
   border-right: 1px black solid;
   border-bottom: 1px black solid;
-  padding: 15px;
-  margin: 0; }
+  padding: 0 15px 15px;
+  margin: 0;
+  text-align: center; }
 
 .friend-container {
   border: 1px black solid;
-  margin-top: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   padding-left: 10px;
@@ -195,6 +200,13 @@ main {
     border: 1px black solid;
     background-color: #DDDDDD;
     margin: auto; }
+
+.summary-friend-container {
+  border: 1px black solid;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px; }
 
 .photos-container {
   margin-bottom: 10px;

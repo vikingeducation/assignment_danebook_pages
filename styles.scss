@@ -23,7 +23,8 @@ $btn-border: 1px black solid;
 /* Friend summary boxes */
 $prof-pic-thumb-width: 100px;
 $prof-pic-thumb-height: 100px;
-$friend-container-mt: 20px;
+$friend-container-mt: 0;
+$friend-container-mb: 20px;
 
 body {
     padding-top: $primary-navbar-height;
@@ -165,6 +166,10 @@ main {
     box-shadow: none;
 }
 
+.more-link {
+    margin-top: 10px;
+}
+
 #currentuser-first-name {
     @media (max-width: 767px) {
         float: right;
@@ -267,13 +272,15 @@ main {
     border-left: $content-border-left;
     border-right: $content-border-right;
     border-bottom: $content-border-bottom;
-    padding: 15px;
+    padding: 0 15px 15px;
     margin: 0;
+    text-align: center;
 }
 
 .friend-container {
     border: $content-border;
     margin-top: $friend-container-mt;
+    margin-bottom: $friend-container-mb;
     display: flex;
     align-items: center;
     padding-left: 10px;
@@ -299,6 +306,14 @@ main {
         background-color: #DDDDDD;
         margin: auto;
     }
+}
+
+.summary-friend-container {
+    border: $content-border;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
 }
 
 .photos-container {
