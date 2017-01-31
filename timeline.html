@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -18,48 +19,121 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Bootstrap JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
 
     <title>Welcome to Danebook</title>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-primary">
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-primary">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+            <!-- Navbar collapse menu toggle button -->
+            <button type="button" class="navbar-toggle collapsed" id="navbar-toggle-button" data-toggle="collapse"
+                    data-target="#navbar-primary-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Danebook brand logo and text -->
+            <a class="navbar-brand" href="timeline.html">
+                <img alt="Brand"
+                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
+                <a id="navbar-brand-text">Danebook</a>
+            </a>
+
+        </div>
+        <!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+
+            <!-- Search form -->
+            <form class="navbar-form navbar-left visible-xs-inline-block">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search" id="search-input">
+                </div>
+                <!-- /.form-group -->
+            </form>
+
+            <!-- Current user first name -->
+            <ul class="nav navbar-nav navbar-right" id="currentuser-first-name">
+                <li>
+                    <a href="timeline.html">Harry</a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- /.collapse navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<header>
+    <!-- Display full name for current profile -->
+    <div id="cover-container">
+        <div>
+            <h1 id="user-full-name">Harry Potter</h1>
+        </div>
+    </div>
+    <!-- /#cover-container -->
+
+    <!-- Navbar with page navigation links -->
+    <nav class="navbar navbar-default center-block navbar-secondary">
         <div class="container-fluid">
             <div class="navbar-header">
 
-                <!-- Navbar collapse menu toggle button -->
-                <button type="button" class="navbar-toggle collapsed" id="navbar-toggle-button" data-toggle="collapse" data-target="#navbar-primary-collapse" aria-expanded="false">
+                <!-- Profile picture -->
+                <div class="navbar-brand">
+                    <a href="photos.html">
+                        <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg"
+                             id="profile-picture">
+                    </a>
+                </div>
+                <!-- /.navbar-brand -->
+
+                <!-- Primary navbar collapse menu toggle button -->
+                <button type="button" class="navbar-toggle collapsed" id="navbar-secondary-toggle-button"
+                        data-toggle="collapse" data-target="#navbar-secondary-collapse" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
 
-                <!-- Danebook brand logo and text -->
-                <a class="navbar-brand" href="timeline.html">
-                    <img alt="Brand" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
-                    <a id="navbar-brand-text">Danebook</a>
-                </a>
-
             </div>
             <!-- /.navbar-header -->
 
-            <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+            <!-- Links for page navigation in secondary navbar -->
+            <div class="collapse navbar-collapse" id="navbar-secondary-collapse">
 
-                <!-- Search form -->
-                <form class="navbar-form navbar-left visible-xs-inline-block">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search" id="search-input">
-                    </div>
-                    <!-- /.form-group -->
-                </form>
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="current-page-link">
+                        <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
+                    </li>
 
-                <!-- Current user first name -->
-                <ul class="nav navbar-nav navbar-right" id="currentuser-first-name">
                     <li>
-                        <a href="timeline.html">Harry</a>
+                        <a href="about.html" id="navbar-about-link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
+                    </li>
+
+                    <li>
+                        <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
+                    </li>
+                </ul>
+
+                <!-- Link for user to edit profile -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about_edit.html" id="navbar-edit-profile">Edit Profile</a>
                     </li>
                 </ul>
 
@@ -68,568 +142,606 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+</header>
 
-    <header>
-        <!-- Display full name for current profile -->
-        <div id="cover-container">
-            <div>
-                <h1 id="user-full-name">Harry Potter</h1>
-            </div>
-        </div>
-        <!-- /#cover-container -->
+<main>
 
-        <!-- Navbar with page navigation links -->
-        <nav class="navbar navbar-default center-block navbar-secondary">
-            <div class="container-fluid">
-                <div class="navbar-header">
+    <section class="container-fluid summary-content-container">
+        <div class="row">
+            <div class="col-sm-5">
 
-                    <!-- Profile picture -->
-                    <div class="navbar-brand">
-                        <a href="photos.html">
-                            <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" id="profile-picture">
-                        </a>
-                    </div>
-                    <!-- /.navbar-brand -->
+                <!-- About -->
+                <section>
 
-                    <!-- Primary navbar collapse menu toggle button -->
-                    <button type="button" class="navbar-toggle collapsed" id="navbar-secondary-toggle-button" data-toggle="collapse" data-target="#navbar-secondary-collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                    <header class="row main-content-header">
+                        <div class="col-xs-12 content-header-title">
+                            <h2>About</h2>
+                        </div>
+                    </header>
 
-                </div>
-                <!-- /.navbar-header -->
+                    <div class="row about-details">
+                        <div class="col-sm-12">
 
-                <!-- Links for page navigation in secondary navbar -->
-                <div class="collapse navbar-collapse" id="navbar-secondary-collapse">
-
-                    <ul class="nav navbar-nav navbar-left">
-                        <li class="current-page-link">
-                            <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
-                        </li>
-
-                        <li>
-                            <a href="about.html" id="navbar-about-link">About</a>
-                        </li>
-
-                        <li>
-                            <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
-                        </li>
-
-                        <li>
-                            <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
-                        </li>
-                    </ul>
-
-                    <!-- Link for user to edit profile -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="about_edit.html" id="navbar-edit-profile">Edit Profile</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- /.collapse navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
-
-    <main>
-
-        <section class="container-fluid summary-content-container">
-            <div class="row">
-                <div class="col-sm-5">
-
-                    <!-- About -->
-                    <section>
-
-                        <header class="row main-content-header">
-                            <div class="col-xs-12 content-header-title">
-                                <h2>About</h2>
-                            </div>
-                        </header>
-
-                        <div class="row about-details">
-                            <div class="col-sm-12">
-
-                                <header class="row">
-                                    <div class="col-sm-12">
-                                        <h3>Basic Information</h3>
-                                    </div>
-                                    <!-- /.col-sm-12 -->
-                                </header>
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <p class="user-info-item">Birthday:</p>
-                                    </div>
-                                    <!-- /.col-sm-4 -->
-                                    <div class="col-sm-8">
-                                        <p class="user-info-value" id="birthday">July 31st, 1980</p>
-                                    </div>
-                                    <!-- /.col-sm-8 -->
+                            <header class="row">
+                                <div class="col-sm-12">
+                                    <h3>Basic Information</h3>
                                 </div>
-                                <!-- /.row -->
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <p class="user-info-item">College:</p>
-                                    </div>
-                                    <!-- /.col-xs-4 -->
-                                    <div class="col-sm-8">
-                                        <p class="user-info-value" id="college">Hogwarts College</p>
-                                    </div>
-                                    <!-- /.col-sm-8 -->
-                                </div>
-                                <!-- /.row -->
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <p class="user-info-item">Hometown:</p>
-                                    </div>
-                                    <!-- /.col-xs-4 -->
-                                    <div class="col-sm-8">
-                                        <p class="user-info-value" id="hometown">Godrick's Hollow, England</p>
-                                    </div>
-                                    <!-- /.col-sm-8 -->
-                                </div>
-                                <!-- /.row -->
-
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <p class="user-info-item">Currently Lives:</p>
-                                    </div>
-                                    <!-- /.col-xs-4 -->
-                                    <div class="col-sm-8">
-                                        <p class="user-info-value" id="currentlyLives">Godrick's Hollow, England</p>
-                                    </div>
-                                    <!-- /.col-sm-8 -->
-                                </div>
-                                <!-- /.row -->
-
-                            </div>
-                            <!-- /.row about-details -->
-                    </section>
-
-
-                    <!-- Photos -->
-                    <section>
-
-                        <header class="row main-content-header">
-                            <div class="col-xs-12 content-header-title">
-                                <h2>Photos</h2>
-                            </div>
-                        </header>
-
-                        <div class="photos-container">
+                                <!-- /.col-sm-12 -->
+                            </header>
 
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <div class="col-sm-4">
+                                    <p class="user-info-item">Birthday:</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <!-- /.col-sm-4 -->
+                                <div class="col-sm-8">
+                                    <p class="user-info-value" id="birthday">July 31st, 1980</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
+                                <!-- /.col-sm-8 -->
                             </div>
                             <!-- /.row -->
 
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <div class="col-sm-4">
+                                    <p class="user-info-item">College:</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <!-- /.col-xs-4 -->
+                                <div class="col-sm-8">
+                                    <p class="user-info-value" id="college">Hogwarts College</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
+                                <!-- /.col-sm-8 -->
                             </div>
                             <!-- /.row -->
 
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <div class="col-sm-4">
+                                    <p class="user-info-item">Hometown:</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <!-- /.col-xs-4 -->
+                                <div class="col-sm-8">
+                                    <p class="user-info-value" id="hometown">Godrick's Hollow, England</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
+                                <!-- /.col-sm-8 -->
                             </div>
                             <!-- /.row -->
 
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <div class="col-sm-4">
+                                    <p class="user-info-item">Currently Lives:</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                <!-- /.col-xs-4 -->
+                                <div class="col-sm-8">
+                                    <p class="user-info-value" id="currentlyLives">Godrick's Hollow, England</p>
                                 </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
-                                <div class="col-sm-3">
-                                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                </div>
-
+                                <!-- /.col-sm-8 -->
                             </div>
                             <!-- /.row -->
 
-                            <div class="row more-link">
-                                <div class="col-xs-12">
-                                    <a href="#">See More Photos</a>
-                                </div>
-                                <!-- /.row -->
+                        </div>
+                        <!-- /.row about-details -->
+                </section>
+
+
+                <!-- Photos -->
+                <section>
+
+                    <header class="row main-content-header">
+                        <div class="col-xs-12 content-header-title">
+                            <h2>Photos</h2>
+                        </div>
+                    </header>
+
+                    <div class="photos-container">
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                            <div class="col-sm-3">
+                                <img class="center-block img-responsive"
+                                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                            </div>
+
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row more-link">
+                            <div class="col-xs-12">
+                                <a href="#">See More Photos</a>
                             </div>
                             <!-- /.row -->
                         </div>
-                        <!-- /.photos-container -->
-                    </section>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.photos-container -->
+                </section>
 
-                    <!-- Friends -->
-                    <section>
-                        <header class="row main-content-header">
-                            <div class="col-xs-12 content-header-title">
-                                <h2>Friends</h2>
+                <!-- Friends -->
+                <section>
+                    <header class="row main-content-header">
+                        <div class="col-xs-12 content-header-title">
+                            <h2>Friends</h2>
+                        </div>
+                    </header>
+
+                    <section class="friend-list">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="summary-friend-container">
+                                    <a href="#">
+                                        <img class="img-responsive center-block"
+                                             src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png"
+                                             alt="friend-thumbnail">
+                                    </a>
+                                    <a href="#">
+                                        <p>Hermione Granger</p>
+                                    </a>
+                                </div>
+                                <!-- /.summary-friend-container -->
+                            </div>
+                            <!-- /.col-sm-4 -->
+
+                            <div class="col-sm-4">
+                                <div class="summary-friend-container">
+                                    <a href="#">
+                                        <img class="img-responsive center-block"
+                                             src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png"
+                                             alt="friend-thumbnail">
+                                    </a>
+                                    <a href="#">
+                                        <p>Hermione Granger</p>
+                                    </a>
+                                </div>
+                                <!-- /.summary-friend-container -->
+                            </div>
+                            <!-- /.col-sm-4 -->
+
+                            <div class="col-sm-4">
+                                <div class="summary-friend-container">
+                                    <a href="#">
+                                        <img class="img-responsive center-block"
+                                             src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png"
+                                             alt="friend-thumbnail">
+                                    </a>
+                                    <a href="#">
+                                        <p>Hermione Granger</p>
+                                    </a>
+                                </div>
+                                <!-- /.summary-friend-container -->
+                            </div>
+                            <!-- /.col-sm-4 -->
+
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="summary-friend-container">
+                                    <a href="#">
+                                        <img class="img-responsive center-block"
+                                             src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png"
+                                             alt="friend-thumbnail">
+                                    </a>
+                                    <a href="#">
+                                        <p>Hermione Granger</p>
+                                    </a>
+                                </div>
+                                <!-- /.summary-friend-container -->
+                            </div>
+                            <!-- /.col-sm-4 -->
+
+                            <div class="col-sm-4">
+                                <div class="summary-friend-container">
+                                    <a href="#">
+                                        <img class="img-responsive center-block"
+                                             src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png"
+                                             alt="friend-thumbnail">
+                                    </a>
+                                    <a href="#">
+                                        <p>Hermione Granger</p>
+                                    </a>
+                                </div>
+                                <!-- /.summary-friend-container -->
+                            </div>
+                            <!-- /.col-sm-4 -->
+
+                            <div class="col-sm-4">
+                                <div class="summary-friend-container">
+                                    <a href="#">
+                                        <img class="img-responsive center-block"
+                                             src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png"
+                                             alt="friend-thumbnail">
+                                    </a>
+                                    <a href="#">
+                                        <p>Hermione Granger</p>
+                                    </a>
+                                </div>
+                                <!-- /.summary-friend-container -->
+                            </div>
+                            <!-- /.col-sm-4 -->
+
+                        </div>
+                        <!-- /.row -->
+
+                        <div class="row more-link">
+                            <div class="col-xs-12">
+                                <a href="#">See More Friends</a>
+                            </div>
+                            <!-- /.col-xs-12 -->
+                        </div>
+                        <!-- /.row more-link -->
+
+                    </section>
+                    <!-- /.friend-list -->
+                </section>
+
+            </div>
+            <!-- /.col-sm-5 -->
+
+            <div class="col-sm-7">
+
+                <!-- Create post -->
+                <section class="row-fluid">
+                    <div class="post col-xs-12">
+
+                        <header class="row post-create-header">
+                            <div class="col-xs-12">
+                                <h2>Post</h2>
                             </div>
                         </header>
 
-                        <section class="friend-list">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="summary-friend-container">
-                                        <a href="#">
-                                            <img class="img-responsive center-block" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="friend-thumbnail">
-                                        </a>
-                                        <a href="#">
-                                            <p>Hermione Granger</p>
-                                        </a>
-                                    </div>
-                                    <!-- /.summary-friend-container -->
-                                </div>
-                                <!-- /.col-sm-4 -->
-
-                                <div class="col-sm-4">
-                                    <div class="summary-friend-container">
-                                        <a href="#">
-                                            <img class="img-responsive center-block" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="friend-thumbnail">
-                                        </a>
-                                        <a href="#">
-                                            <p>Hermione Granger</p>
-                                        </a>
-                                    </div>
-                                    <!-- /.summary-friend-container -->
-                                </div>
-                                <!-- /.col-sm-4 -->
-
-                                <div class="col-sm-4">
-                                    <div class="summary-friend-container">
-                                        <a href="#">
-                                            <img class="img-responsive center-block" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="friend-thumbnail">
-                                        </a>
-                                        <a href="#">
-                                            <p>Hermione Granger</p>
-                                        </a>
-                                    </div>
-                                    <!-- /.summary-friend-container -->
-                                </div>
-                                <!-- /.col-sm-4 -->
-
+                        <div class="row post-content">
+                            <div class="col-xs-12">
+                                <textarea placeholder="Tell the world something..." rows="4"></textarea>
                             </div>
-                            <!-- /.row -->
+                        </div>
 
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="summary-friend-container">
-                                        <a href="#">
-                                            <img class="img-responsive center-block" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="friend-thumbnail">
-                                        </a>
-                                        <a href="#">
-                                            <p>Hermione Granger</p>
-                                        </a>
-                                    </div>
-                                    <!-- /.summary-friend-container -->
-                                </div>
-                                <!-- /.col-sm-4 -->
-
-                                <div class="col-sm-4">
-                                    <div class="summary-friend-container">
-                                        <a href="#">
-                                            <img class="img-responsive center-block" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="friend-thumbnail">
-                                        </a>
-                                        <a href="#">
-                                            <p>Hermione Granger</p>
-                                        </a>
-                                    </div>
-                                    <!-- /.summary-friend-container -->
-                                </div>
-                                <!-- /.col-sm-4 -->
-
-                                <div class="col-sm-4">
-                                    <div class="summary-friend-container">
-                                        <a href="#">
-                                            <img class="img-responsive center-block" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png" alt="friend-thumbnail">
-                                        </a>
-                                        <a href="#">
-                                            <p>Hermione Granger</p>
-                                        </a>
-                                    </div>
-                                    <!-- /.summary-friend-container -->
-                                </div>
-                                <!-- /.col-sm-4 -->
-
+                        <div class="row post-footer">
+                            <div class="col-xs-12">
+                                <button type="button" class="btn btn-primary btn-post">Post</button>
                             </div>
-                            <!-- /.row -->
-
-                            <div class="row more-link">
-                                <div class="col-xs-12">
-                                    <a href="#">See More Friends</a>
-                                </div>
-                                <!-- /.col-xs-12 -->
-                            </div>
-                            <!-- /.row more-link -->
-
-                        </section>
-                        <!-- /.friend-list -->
-                    </section>
+                        </div>
 
                     </div>
-                    <!-- /.col-sm-5 -->
+                    <!-- /.col-xs-12 -->
+                </section>
+                <!-- /.row post -->
 
-                    <div class="col-sm-7">
-
-                        <!-- Create post -->
-                        <section class="row-fluid">
-                            <div class="post col-xs-12">
-
-                                <header class="row post-create-header">
-                                    <div class="col-xs-12">
-                                        <h2>Post</h2>
-                                    </div>
-                                </header>
-
-                                <div class="row post-content">
-                                    <div class="col-xs-12">
-                                        <textarea placeholder="Tell the world something..." rows="4"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="row post-footer">
-                                    <div class="col-xs-12">
-                                        <button type="button" class="btn btn-primary btn-post">Post</button>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- /.col-xs-12 -->
-                        </section>
-                        <!-- /.row post -->
-
-                        <!-- Sample post 1 -->
-                        <section class="row-fluid post">
+                <!-- Sample post 1 -->
+                <section class="row-fluid post">
+                    <div class="col-xs-12">
+                        <header class="row post-header">
                             <div class="col-xs-12">
-                                <header class="row post-header">
-                                    <div class="col-xs-12">
 
-                                        <a href="#">
-                                            <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                        </a>
+                                <a href="#">
+                                    <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                </a>
 
-                                        <div class="post-details">
-                                            <a href="#" class="post-user">Harry Potter</a>
-                                            <p class="post-date">Posted on Thursday 6/1/2014</p>
-                                        </div>
-
-                                    </div>
-                                    <!-- /.col-xs-12 -->
-                                </header>
-
-                                <div class="row post-content">
-                                    <div class="col-xs-12">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                            mollit anim id est laborum.</p>
-                                    </div>
-                                    <!-- /. col-xs-12 -->
+                                <div class="post-details">
+                                    <a href="#" class="post-user">Harry Potter</a>
+                                    <p class="post-date">Posted on Thursday 6/1/2014</p>
                                 </div>
 
-                                <div class="row post-footer">
-                                    <div class="col-xs-12">
-                                        <div class="row">
-                                            <div class="col-xs-12 post-footer-links">
-                                                <a href="#" class="like">Like</a>
-                                                <a href="#" class="comment">Comment</a>
-                                                <a href="#" class="delete">Delete</a>
-                                            </div>
-                                            <!-- /.col-xs-12 -->
-                                        </div>
-                                        <!-- /.row -->
-
-                                    </div>
-                                    <!-- /.col-xs-12 -->
-                                </div>
-                                <!-- /.row-footer -->
                             </div>
                             <!-- /.col-xs-12 -->
-                        </section>
-                        <!-- /.row-fluid post -->
+                        </header>
 
-                        <!-- Sample post 2 -->
-                        <section class="row-fluid post">
+                        <div class="row post-content">
                             <div class="col-xs-12">
-                                <header class="row post-header">
-                                    <div class="col-xs-12">
-
-                                        <a href="#">
-                                            <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                        </a>
-
-                                        <div class="post-details">
-                                            <a href="#" class="post-user">Harry Potter</a>
-                                            <p class="post-date">Posted on Thursday 5/21/2014</p>
-                                        </div>
-
-                                    </div>
-                                    <!-- /.col-xs-12 -->
-                                </header>
-
-                                <div class="row post-content">
-                                    <div class="col-xs-12">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                            mollit anim id est laborum.</p>
-                                    </div>
-                                    <!-- /. col-xs-12 -->
-                                </div>
-                                <!-- /.row post-content -->
-
-                                <div class="row post-footer">
-                                    <div class="col-xs-12">
-                                        <div class="row">
-                                            <div class="col-xs-12 post-footer-links">
-                                                <a href="#" class="like">Like</a>
-                                                <a href="#" class="comment">Comment</a>
-                                                <a href="#" class="delete">Delete</a>
-                                            </div>
-                                            <!-- /.col-xs-12 -->
-                                        </div>
-                                        <!-- /.row -->
-
-                                        <div class="row">
-                                            <div class="col-xs-12 post-footer-like">
-                                                <p>
-                                                    <a href="#">Hermione Granger</a> likes this.
-                                                </p>
-                                            </div>
-                                            <!-- /.col-xs-12 -->
-                                        </div>
-                                        <!-- /.row -->
-                                    </div>
-                                    <!-- /.col-xs-12 -->
-                                </div>
-                                <!-- /.row post-footer -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.</p>
                             </div>
-                            <!-- /.col-xs-12 -->
-                        </section>
-                        <!-- /.row-fluid post -->
+                            <!-- /. col-xs-12 -->
+                        </div>
 
-                        <!-- Sample post 3 -->
-                        <section class="row-fluid post">
+                        <div class="row post-footer">
                             <div class="col-xs-12">
-                                <header class="row post-header">
-                                    <div class="col-xs-12">
-
-                                        <a href="#">
-                                            <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
-                                        </a>
-
-                                        <div class="post-details">
-                                            <a href="#" class="post-user">Harry Potter</a>
-                                            <p class="post-date">Posted on Thursday 5/21/2014</p>
-                                        </div>
-
-                                    </div>
-                                    <!-- /.col-xs-12 -->
-                                </header>
-
-                                <div class="row post-content">
-                                    <div class="col-xs-12">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                            mollit anim id est laborum.</p>
-                                    </div>
-                                    <!-- /. col-xs-12 -->
-                                </div>
-                                <!-- /.row post-content -->
-
-                                <div class="row post-footer">
-                                    <div class="col-xs-12">
-                                        <div class="row">
-                                            <div class="col-xs-12 post-footer-links">
-                                                <a href="#" class="like">Like</a>
-                                                <a href="#" class="comment">Comment</a>
-                                                <a href="#" class="delete">Delete</a>
-                                            </div>
-                                            <!-- /.col-xs-12 -->
-                                        </div>
-                                        <!-- /.row -->
-
-                                        <div class="row">
-                                            <div class="col-xs-12 post-footer-like">
-                                                <p>
-                                                    <a href="#">Hermione Granger</a> likes this.
-                                                </p>
-                                            </div>
-                                            <!-- /.col-xs-12 -->
-                                        </div>
-                                        <!-- /.row -->
+                                <div class="row">
+                                    <div class="col-xs-12 post-footer-links">
+                                        <a href="#" class="like">Like</a>
+                                        <a href="#" class="comment">Comment</a>
+                                        <a href="#" class="delete">Delete</a>
                                     </div>
                                     <!-- /.col-xs-12 -->
                                 </div>
-                                <!-- /.row post-footer -->
+                                <!-- /.row -->
+
                             </div>
                             <!-- /.col-xs-12 -->
-                        </section>
-                        <!-- /.row-fluid post -->
-
+                        </div>
+                        <!-- /.row-footer -->
                     </div>
-                    <!-- /.col-sm-7 -->
-                </div>
-                <!-- /.row -->
-        </section>
-        <!-- /.container-fluid summary-content-container -->
-    </main>
+                    <!-- /.col-xs-12 -->
+                </section>
+                <!-- /.row-fluid post -->
+
+                <!-- Sample post 2 -->
+                <section class="row-fluid post">
+                    <div class="col-xs-12">
+                        <header class="row post-header">
+                            <div class="col-xs-12">
+
+                                <a href="#">
+                                    <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                </a>
+
+                                <div class="post-details">
+                                    <a href="#" class="post-user">Harry Potter</a>
+                                    <p class="post-date">Posted on Thursday 5/21/2014</p>
+                                </div>
+
+                            </div>
+                            <!-- /.col-xs-12 -->
+                        </header>
+
+                        <div class="row post-content">
+                            <div class="col-xs-12">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.</p>
+                            </div>
+                            <!-- /. col-xs-12 -->
+                        </div>
+                        <!-- /.row post-content -->
+
+                        <div class="row post-footer">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12 post-footer-links">
+                                        <a href="#" class="like">Like</a>
+                                        <a href="#" class="comment">Comment</a>
+                                        <a href="#" class="delete">Delete</a>
+                                    </div>
+                                    <!-- /.col-xs-12 -->
+                                </div>
+                                <!-- /.row -->
+
+                                <div class="row">
+                                    <div class="col-xs-12 post-footer-like">
+                                        <p>
+                                            <a href="#">Hermione Granger</a> likes this.
+                                        </p>
+                                    </div>
+                                    <!-- /.col-xs-12 -->
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.col-xs-12 -->
+                        </div>
+                        <!-- /.row post-footer -->
+                    </div>
+                    <!-- /.col-xs-12 -->
+                </section>
+                <!-- /.row-fluid post -->
+
+                <!-- Sample post 3 -->
+                <section class="row-fluid post">
+                    <div class="col-xs-12">
+                        <header class="row post-header">
+                            <div class="col-xs-12">
+
+                                <a href="#">
+                                    <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                </a>
+
+                                <div class="post-details">
+                                    <a href="#" class="post-user">Harry Potter</a>
+                                    <p class="post-date">Posted on Thursday 5/21/2014</p>
+                                </div>
+
+                            </div>
+                            <!-- /.col-xs-12 -->
+                        </header>
+
+                        <div class="row post-content">
+                            <div class="col-xs-12">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.</p>
+                            </div>
+                            <!-- /. col-xs-12 -->
+                        </div>
+                        <!-- /.row post-content -->
+
+                        <div class="row post-footer">
+                            <div class="col-xs-12">
+                                <div class="row">
+                                    <div class="col-xs-12 post-footer-links">
+                                        <a href="#" class="like">Unlike</a>
+                                        <a href="#" class="comment">Comment</a>
+                                        <a href="#" class="delete">Delete</a>
+                                    </div>
+                                    <!-- /.col-xs-12 -->
+                                </div>
+                                <!-- /.row -->
+
+                                <div class="row">
+                                    <div class="col-xs-12 post-footer-like">
+                                        <p>
+                                            You and
+                                            <a href="#">Hermione Granger</a> like this.
+                                        </p>
+                                    </div>
+                                    <!-- /.col-xs-12 -->
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.col-xs-12 -->
+                        </div>
+                        <!-- /.row post-footer -->
+
+                        <!-- Sample comment 1 -->
+                        <section class="row post-comment">
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img class="center-block"
+                                         src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                </a>
+                            </div>
+                            <!-- /.col-xs-3 -->
+
+                            <div class="col-xs-9 comment-content">
+
+                                <a href="#" class="comment-user">Ron Weasley</a>
+                                <span class="comment-date">said on Thursday 5/21/2014</span>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.</p>
+
+                                <div>
+                                    <a href="#" class="like">Like</a>
+                                    <span>3 other people like this</span>
+                                </div>
+
+                            </div>
+                            <!-- /.col-xs-9 comment-content -->
+
+                        </section>
+                        <!-- /.row post-comment -->
+
+                        <!-- Sample comment 2 -->
+                        <section class="row post-comment">
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img class="center-block"
+                                         src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                                </a>
+                            </div>
+                            <!-- /.col-xs-3 -->
+
+                            <div class="col-xs-9 comment-content">
+
+                                <a href="#" class="comment-user">Harry Potter</a>
+                                <span class="comment-date">said on Thursday 5/22/2014:</span>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex
+                                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum.</p>
+
+                                <div>
+                                    <a href="#" class="like">Like</a>
+                                    <a href="#" class="delete">Delete</a>
+                                    <span>3 other people like this</span>
+                                </div>
+
+                            </div>
+                            <!-- /.col-xs-9 comment-content -->
+
+                        </section>
+                        <!-- /.row post-comment -->
+                    </div>
+                    <!-- /.col-xs-12 -->
+            </div>
+            <!-- /.row -->
+    </section>
+    <!-- /.container-fluid summary-content-container -->
+</main>
 
 </body>
 

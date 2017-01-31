@@ -101,10 +101,6 @@ main {
 .more-link {
   margin-top: 10px; }
 
-.post {
-  margin-bottom: 10px;
-  margin-top: 15px; }
-
 .post-create-header {
   border-top: 1px black solid;
   border-right: 1px black solid;
@@ -115,7 +111,8 @@ main {
   display: flex;
   align-items: center;
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  margin-top: 15px; }
   .post-create-header h2 {
     text-align: center;
     margin: auto; }
@@ -131,15 +128,16 @@ main {
     margin-top: 5px;
     width: 100px;
     height: 100px; }
-  .post-header .post-details {
-    display: inline-block;
-    float: none;
-    margin: 5px; }
-    .post-header .post-details .post-user {
-      font-size: 16px; }
-    .post-header .post-details .post-date {
-      color: #A0ACC0;
-      font-weight: bold; }
+
+.post-details {
+  display: inline-block;
+  float: none;
+  margin: 5px; }
+  .post-details .post-user {
+    font-size: 16px; }
+  .post-details .post-date {
+    color: #A0ACC0;
+    font-weight: bold; }
 
 .post-content {
   border-left: 1px black solid;
@@ -170,6 +168,28 @@ main {
   .post-footer .post-footer-like {
     float: left;
     margin-top: 5px; }
+
+.post-comment {
+  background-color: #D5D5D5;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid; }
+  .post-comment img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px; }
+  .post-comment .comment-content {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 0; }
+  .post-comment p {
+    margin-top: 10px; }
+  .post-comment .like {
+    margin-right: 10px; }
+  .post-comment .delete {
+    float: right; }
 
 @media (max-width: 767px) {
   #currentuser-first-name {
