@@ -104,7 +104,7 @@ main {
   margin-top: 15px; }
   .post-create header {
     display: flex;
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
     .post-create header h2 {
       margin: auto;
       background-color: #D5D5D5;
@@ -113,7 +113,7 @@ main {
 
 .post {
   border: 1px black solid;
-  padding: 10px 15px 0 15px; }
+  margin-top: 15px; }
   .post img {
     display: inline-block;
     vertical-align: middle;
@@ -121,9 +121,9 @@ main {
     height: 100px; }
 
 .post-details {
-  padding: 5px;
   display: inline-block;
-  float: none; }
+  float: none;
+  margin-left: 5px; }
   .post-details .post-user {
     font-size: 16px;
     margin: auto; }
@@ -132,29 +132,37 @@ main {
     font-weight: bold; }
 
 .post-footer {
-  background-color: #D5D5D5; }
-  .post-footer .btn-post {
-    float: right;
-    border-radius: 0;
-    border: 1px black solid; }
-  .post-footer .like {
-    float: left; }
-  .post-footer .comment {
-    float: left;
-    margin-left: 15px; }
-  .post-footer .delete {
-    float: right;
-    margin-right: 15px; }
-  .post-footer .post-footer-like {
-    float: left;
-    margin-top: 5px; }
+  background-color: #D5D5D5;
+  padding: 15px;
+  border-top: 1px black solid; }
+
+.comment-footer {
+  background-color: #D5D5D5;
+  padding-right: 15px; }
+
+.btn-post {
+  float: right;
+  border-radius: 0;
+  border: 1px black solid; }
+
+.comment {
+  margin-left: 15px; }
+
+.delete {
+  float: right;
+  margin-right: 15px; }
+
+.post-footer-like {
+  margin-top: 5px; }
 
 .post-content {
-  margin: 15px; }
+  margin: 10px 15px; }
 
 .post-comment {
   background-color: #D5D5D5;
-  padding-top: 10px; }
+  padding-top: 10px;
+  border-left: 1px black solid;
+  border-right: 1px black solid; }
   .post-comment img {
     margin-left: 15px; }
   .post-comment p {
@@ -163,6 +171,9 @@ main {
     margin-right: 10px; }
   .post-comment .delete {
     float: right; }
+  .post-comment .comment-content {
+    padding-top: 10px;
+    padding-right: 10px; }
 
 .create-comment {
   background-color: #D5D5D5;
@@ -182,8 +193,7 @@ main {
     border-color: none;
     background-color: transparent; }
   .create-comment .comment-content {
-    padding-left: 15px;
-    padding-right: 15px; }
+    margin: 15px; }
 
 @media (max-width: 767px) {
   #currentuser-first-name {
