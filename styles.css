@@ -53,7 +53,7 @@ header #profile-picture {
   width: 150px;
   height: auto;
   z-index: 1;
-  margin-top: -180px;
+  margin-top: -195px;
   margin-right: 10px;
   border: 1px black solid;
   float: left; }
@@ -228,34 +228,36 @@ main {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px; }
-  .main-content-header .content-header-title {
-    text-align: center; }
-    .main-content-header .content-header-title h2 {
-      margin: auto; }
-  .main-content-header .content-header-link {
-    display: flex; }
-    .main-content-header .content-header-link a {
-      margin: auto 0 auto auto; }
 
-.about-details {
+.content-header-title {
+  text-align: center; }
+  .content-header-title h2 {
+    margin: auto; }
+
+.content-header-link {
+  display: flex; }
+  .content-header-link a {
+    margin: auto 0 auto auto; }
+
+.about-section {
   border: 1px black solid;
-  margin-top: 15px;
-  padding: 0 15px; }
-  .about-details header {
-    display: flex;
-    margin-bottom: 10px;
-    background-color: #D5D5D5;
-    border-bottom: 1px black solid; }
-    .about-details header h2 {
-      margin: auto;
-      padding: 10px;
-      text-align: center; }
-  .about-details h3 {
-    margin-top: 10px; }
-  .about-details label {
+  margin-top: 15px; }
+  .about-section label {
     text-align: left; }
-  .about-details .user-info-item {
-    font-weight: 700; }
+  .about-section section {
+    margin: 0px 10px 0 10px; }
+  .about-section .user-info-item {
+    font-weight: 700;
+    margin-left: 15px; }
+
+.main-header {
+  margin-bottom: 10px;
+  background-color: #D5D5D5;
+  border-bottom: 1px black solid; }
+  .main-header h2 {
+    padding: 10px;
+    margin: auto;
+    text-align: center; }
 
 .friend-list {
   border-left: 1px black solid;
