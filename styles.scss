@@ -23,8 +23,8 @@ $btn-border: 1px black solid;
 /* Friend summary boxes */
 $prof-pic-thumb-width: 100px;
 $prof-pic-thumb-height: 100px;
-$friend-container-mt: 0;
-$friend-container-mb: 20px;
+$friend-container-mt: 10px;
+$friend-container-mb: 10px;
 
 body {
   padding-top: $primary-navbar-height;
@@ -32,8 +32,6 @@ body {
 
 header {
   #cover-container {
-    margin-left: $container-margin;
-    margin-right: $container-margin;
     border-radius: $content-border-radius;
     border-left: $content-border-left;
     border-right: $content-border-right;
@@ -53,9 +51,6 @@ header {
   height: $primary-navbar-height;
 
   .container-fluid {
-    margin-left: $container-margin;
-    margin-right: $container-margin;
-
     .navbar-header {
       height: $primary-navbar-height - $primary-navbar-border-top - $primary-navbar-border-bottom;
     }
@@ -125,8 +120,6 @@ header {
   .navbar-secondary {
     border-radius: 0;
     border: $content-border;
-    margin-left: $container-margin;
-    margin-right: $container-margin;
 
     a {
       padding-left: 10px;
@@ -152,6 +145,10 @@ header {
   }
 }
 
+textarea {
+  width: 100%;
+}
+
 main {
   margin-bottom: 50px;
 }
@@ -167,50 +164,48 @@ main {
 }
 
 .more-link {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-.post-create-header {
-  border-top: $content-border-top;
-  border-right: $content-border-right;
-  border-left: $content-border-left;
-  background-color: #D5D5D5;
-  border-radius: $content-border-radius;
+.post-create {
   border: $content-border;
-  display: flex;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: center;
   margin-top: 15px;
 
-  h2 {
-    text-align: center;
-    margin: auto;
+  header {
+    display: flex;
+    margin-bottom: 10px;
+
+    h2 {
+      margin: auto;
+      background-color: #D5D5D5;
+      padding: 10px;
+      border-bottom: $content-border-bottom;
+    }
   }
 }
 
-.post-header {
-  border-top: $content-border-top;
-  border-right: $content-border-right;
-  border-left: $content-border-left;
-  margin-top: 15px;
+.post {
+  border: $content-border;
+  padding: 10px 15px 0 15px;
 
   img {
     display: inline-block;
     vertical-align: middle;
-    margin-top: 5px;
     width: $prof-pic-thumb-width;
     height: $prof-pic-thumb-height;
   }
 }
 
 .post-details {
+  padding: 5px;
   display: inline-block;
   float: none;
-  margin: 5px;
 
   .post-user {
     font-size: 16px;
+    margin: auto;
   }
 
   .post-date {
@@ -219,44 +214,27 @@ main {
   }
 }
 
-.post-content {
-  border-left: $content-border-left;
-  border-right: $content-border-right;
-
-  textarea {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
-}
-
 .post-footer {
   background-color: #D5D5D5;
-  border: $content-border;
-  padding-top: 10px;
-  padding-bottom: 10px;
 
   .btn-post {
     float: right;
     border-radius: 0;
     border: $btn-border;
-    margin-top: 15px;
-    margin-bottom: 15px;
   }
 
-  .post-footer-links {
-    .like {
-      float: left;
-    }
+  .like {
+    float: left;
+  }
 
-    .comment {
-      float: left;
-      margin-left: 15px;
-    }
+  .comment {
+    float: left;
+    margin-left: 15px;
+  }
 
-    .delete {
-      float: right;
-    }
+  .delete {
+    float: right;
+    margin-right: 15px;
   }
 
   .post-footer-like {
@@ -265,24 +243,17 @@ main {
   }
 }
 
+.post-content {
+  margin: 15px;
+}
+
 .post-comment {
   background-color: #D5D5D5;
-  border-left: $content-border-left;
-  border-right: $content-border-right;
+  padding-top: 10px;
 
   img {
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-    max-width: $prof-pic-thumb-width;
-    max-height: $prof-pic-thumb-height;
+    margin-left: 15px;
   }
-
-  .comment-content {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    }
 
   p {
     margin-top: 10px;
@@ -302,6 +273,7 @@ main {
   border-left: $content-border-left;
   border-right: $content-border-right;
   border-bottom: $content-border-bottom;
+  padding-top: 15px;
   padding-bottom: 15px;
 
   .btn-comment {
@@ -318,10 +290,9 @@ main {
     background-color: transparent;
   }
 
-  textarea {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 10px;
+  .comment-content {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -358,29 +329,12 @@ main {
   }
 }
 
-.main-content-container {
-  margin-left: $container-margin;
-  margin-right: $container-margin;
-  border-radius: $content-border-radius;
-  padding-bottom: 20px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.summary-content-container {
-  margin-left: $container-margin;
-  margin-right: $container-margin;
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .main-content-header {
   margin-left: 0;
   margin-right: 0;
   margin-top: 15px;
   background-color: #D5D5D5;
   border-radius: $content-border-radius;
-  border: $content-border;
   display: flex;
   align-items: center;
   padding-top: 10px;
@@ -404,11 +358,22 @@ main {
 }
 
 .about-details {
-  border-left: $content-border-left;
-  border-right: $content-border-right;
-  border-bottom: $content-border-bottom;
-  padding: 0;
-  margin: 0;
+  border: $content-border;
+  margin-top: 15px;
+  padding: 0 15px;
+
+    header {
+      display: flex;
+      margin-bottom: 10px;
+      background-color: #D5D5D5;
+      border-bottom: $content-border-bottom;
+
+      h2 {
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+      }
+    }
 
   h3 {
     margin-top: 10px;
@@ -427,8 +392,6 @@ main {
   border-left: $content-border-left;
   border-right: $content-border-right;
   border-bottom: $content-border-bottom;
-  padding: 0 15px 15px;
-  margin: 0;
   text-align: center;
 }
 
@@ -436,15 +399,15 @@ main {
   border: $content-border;
   margin-top: $friend-container-mt;
   margin-bottom: $friend-container-mb;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
 
   img {
     width: $prof-pic-thumb-width;
     height: $prof-pic-thumb-height;
-    margin: 0 10px 0 0;
+    margin: 0 10px 0 10px;
   }
 
   .friend-details {
@@ -459,22 +422,64 @@ main {
     border-radius: 0;
     border: $btn-border;
     background-color: #DDDDDD;
-    margin: auto;
+    margin: auto 10px auto auto;
   }
 }
 
 .summary-friend-container {
   border: $content-border;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
+  padding: 0 15px;
+
+  header {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #D5D5D5;
+    border-bottom: $content-border-bottom;
+
+    h2 {
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+
+  img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .friend-name {
+    margin: 0 auto;
+    padding: 0 5px 5px 5px;
+  }
+}
+
+.summary-photos-container {
+  border: $content-border;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  padding: 0 15px;
+
+  header {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #D5D5D5;
+    border-bottom: $content-border-bottom;
+
+    h2 {
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+    }
+  }
 }
 
 .photos-container {
   margin-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 10px;
   border-left: $content-border-left;
   border-right: $content-border-right;
   border-bottom: $content-border-bottom;

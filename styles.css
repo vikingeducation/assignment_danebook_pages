@@ -8,8 +8,6 @@ body {
   padding-top: 60px; }
 
 header #cover-container {
-  margin-left: 7.5%;
-  margin-right: 7.5%;
   border-radius: 0;
   border-left: 1px black solid;
   border-right: 1px black solid;
@@ -25,34 +23,31 @@ header #cover-container {
   border-bottom: 1px black solid;
   border-radius: 0;
   height: 60px; }
-  .navbar-primary .container-fluid {
-    margin-left: 7.5%;
-    margin-right: 7.5%; }
-    .navbar-primary .container-fluid .navbar-header {
+  .navbar-primary .container-fluid .navbar-header {
+    height: 58px; }
+  .navbar-primary .container-fluid .navbar-brand {
+    height: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .navbar-primary .container-fluid .navbar-brand img {
+      height: 100%;
+      width: auto;
+      border-radius: 100%; }
+  @media (max-width: 767px) {
+    .navbar-primary .container-fluid .navbar-collapse {
+      background-color: #2B78E4;
+      border: 1px black solid; } }
+  .navbar-primary .container-fluid .navbar-nav {
+    height: inherit; }
+    .navbar-primary .container-fluid .navbar-nav li {
       height: 58px; }
-    .navbar-primary .container-fluid .navbar-brand {
-      height: inherit;
-      padding-top: 10px;
-      padding-bottom: 10px; }
-      .navbar-primary .container-fluid .navbar-brand img {
-        height: 100%;
-        width: auto;
-        border-radius: 100%; }
-    @media (max-width: 767px) {
-      .navbar-primary .container-fluid .navbar-collapse {
-        background-color: #2B78E4;
-        border: 1px black solid; } }
-    .navbar-primary .container-fluid .navbar-nav {
-      height: inherit; }
-      .navbar-primary .container-fluid .navbar-nav li {
-        height: 58px; }
-        .navbar-primary .container-fluid .navbar-nav li a {
-          line-height: 1;
-          padding-top: 20px;
-          padding-bottom: 20px; }
-    .navbar-primary .container-fluid .navbar-form {
-      margin-top: 13px;
-      margin-bottom: 13px; }
+      .navbar-primary .container-fluid .navbar-nav li a {
+        line-height: 1;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+  .navbar-primary .container-fluid .navbar-form {
+    margin-top: 13px;
+    margin-bottom: 13px; }
 
 header #profile-picture {
   width: 150px;
@@ -71,9 +66,7 @@ header .navbar {
   margin-bottom: 0; }
 header .navbar-secondary {
   border-radius: 0;
-  border: 1px black solid;
-  margin-left: 7.5%;
-  margin-right: 7.5%; }
+  border: 1px black solid; }
   header .navbar-secondary a {
     padding-left: 10px;
     padding-right: 10px;
@@ -87,6 +80,9 @@ header .navbar-secondary {
     text-decoration: underline;
     padding-right: 15px; }
 
+textarea {
+  width: 100%; }
+
 main {
   margin-bottom: 50px; }
 
@@ -99,90 +95,68 @@ main {
   box-shadow: none; }
 
 .more-link {
-  margin-top: 10px; }
+  margin-top: 5px;
+  margin-bottom: 5px; }
 
-.post-create-header {
-  border-top: 1px black solid;
-  border-right: 1px black solid;
-  border-left: 1px black solid;
-  background-color: #D5D5D5;
-  border-radius: 0;
+.post-create {
   border: 1px black solid;
-  display: flex;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: center;
   margin-top: 15px; }
-  .post-create-header h2 {
-    text-align: center;
-    margin: auto; }
+  .post-create header {
+    display: flex;
+    margin-bottom: 10px; }
+    .post-create header h2 {
+      margin: auto;
+      background-color: #D5D5D5;
+      padding: 10px;
+      border-bottom: 1px black solid; }
 
-.post-header {
-  border-top: 1px black solid;
-  border-right: 1px black solid;
-  border-left: 1px black solid;
-  margin-top: 15px; }
-  .post-header img {
+.post {
+  border: 1px black solid;
+  padding: 10px 15px 0 15px; }
+  .post img {
     display: inline-block;
     vertical-align: middle;
-    margin-top: 5px;
     width: 100px;
     height: 100px; }
 
 .post-details {
+  padding: 5px;
   display: inline-block;
-  float: none;
-  margin: 5px; }
+  float: none; }
   .post-details .post-user {
-    font-size: 16px; }
+    font-size: 16px;
+    margin: auto; }
   .post-details .post-date {
     color: #A0ACC0;
     font-weight: bold; }
 
-.post-content {
-  border-left: 1px black solid;
-  border-right: 1px black solid; }
-  .post-content textarea {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 10px; }
-
 .post-footer {
-  background-color: #D5D5D5;
-  border: 1px black solid;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  background-color: #D5D5D5; }
   .post-footer .btn-post {
     float: right;
     border-radius: 0;
-    border: 1px black solid;
-    margin-top: 15px;
-    margin-bottom: 15px; }
-  .post-footer .post-footer-links .like {
+    border: 1px black solid; }
+  .post-footer .like {
     float: left; }
-  .post-footer .post-footer-links .comment {
+  .post-footer .comment {
     float: left;
     margin-left: 15px; }
-  .post-footer .post-footer-links .delete {
-    float: right; }
+  .post-footer .delete {
+    float: right;
+    margin-right: 15px; }
   .post-footer .post-footer-like {
     float: left;
     margin-top: 5px; }
 
+.post-content {
+  margin: 15px; }
+
 .post-comment {
   background-color: #D5D5D5;
-  border-left: 1px black solid;
-  border-right: 1px black solid; }
+  padding-top: 10px; }
   .post-comment img {
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-    max-width: 100px;
-    max-height: 100px; }
-  .post-comment .comment-content {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 0; }
+    margin-left: 15px; }
   .post-comment p {
     margin-top: 10px; }
   .post-comment .like {
@@ -195,6 +169,7 @@ main {
   border-left: 1px black solid;
   border-right: 1px black solid;
   border-bottom: 1px black solid;
+  padding-top: 15px;
   padding-bottom: 15px; }
   .create-comment .btn-comment {
     display: inline-block;
@@ -206,10 +181,9 @@ main {
     border-radius: 0;
     border-color: none;
     background-color: transparent; }
-  .create-comment textarea {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 10px; }
+  .create-comment .comment-content {
+    padding-left: 15px;
+    padding-right: 15px; }
 
 @media (max-width: 767px) {
   #currentuser-first-name {
@@ -234,27 +208,12 @@ main {
   #search-input {
     min-width: 300px; } }
 
-.main-content-container {
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-  border-radius: 0;
-  padding-bottom: 20px;
-  padding-left: 0;
-  padding-right: 0; }
-
-.summary-content-container {
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-  padding-left: 0;
-  padding-right: 0; }
-
 .main-content-header {
   margin-left: 0;
   margin-right: 0;
   margin-top: 15px;
   background-color: #D5D5D5;
   border-radius: 0;
-  border: 1px black solid;
   display: flex;
   align-items: center;
   padding-top: 10px;
@@ -269,11 +228,18 @@ main {
       margin: auto 0 auto auto; }
 
 .about-details {
-  border-left: 1px black solid;
-  border-right: 1px black solid;
-  border-bottom: 1px black solid;
-  padding: 0;
-  margin: 0; }
+  border: 1px black solid;
+  margin-top: 15px;
+  padding: 0 15px; }
+  .about-details header {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #D5D5D5;
+    border-bottom: 1px black solid; }
+    .about-details header h2 {
+      margin: auto;
+      padding: 10px;
+      text-align: center; }
   .about-details h3 {
     margin-top: 10px; }
   .about-details label {
@@ -285,22 +251,20 @@ main {
   border-left: 1px black solid;
   border-right: 1px black solid;
   border-bottom: 1px black solid;
-  padding: 0 15px 15px;
-  margin: 0;
   text-align: center; }
 
 .friend-container {
   border: 1px black solid;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
-  align-items: center;
-  padding-left: 10px;
-  padding-right: 10px; }
+  align-items: center; }
   .friend-container img {
     width: 100px;
     height: 100px;
-    margin: 0 10px 0 0; }
+    margin: 0 10px 0 10px; }
   .friend-container .friend-details {
     margin: 0 5px 0 0; }
     .friend-container .friend-details p {
@@ -309,19 +273,48 @@ main {
     border-radius: 0;
     border: 1px black solid;
     background-color: #DDDDDD;
-    margin: auto; }
+    margin: auto 10px auto auto; }
 
 .summary-friend-container {
   border: 1px black solid;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px; }
+  margin-top: 15px;
+  padding: 0 15px; }
+  .summary-friend-container header {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #D5D5D5;
+    border-bottom: 1px black solid; }
+    .summary-friend-container header h2 {
+      margin: auto;
+      padding: 10px;
+      text-align: center; }
+  .summary-friend-container img {
+    padding-left: 10px;
+    padding-right: 10px; }
+  .summary-friend-container .friend-name {
+    margin: 0 auto;
+    padding: 0 5px 5px 5px; }
+
+.summary-photos-container {
+  border: 1px black solid;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  padding: 0 15px; }
+  .summary-photos-container header {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #D5D5D5;
+    border-bottom: 1px black solid; }
+    .summary-photos-container header h2 {
+      margin: auto;
+      padding: 10px;
+      text-align: center; }
 
 .photos-container {
   margin-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 10px;
   border-left: 1px black solid;
   border-right: 1px black solid;
   border-bottom: 1px black solid;
