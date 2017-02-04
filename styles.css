@@ -1,0 +1,158 @@
+#navbar {
+  background-color: #2B78E4;
+  border-bottom: 1px solid #aaa; }
+  #navbar img {
+    height: 40px;
+    width: 40px; }
+  #navbar .navbar-brand {
+    margin-top: -9px;
+    color: white;
+    font-size: 30px; }
+  #navbar input {
+    width: 400px; }
+  #navbar li a {
+    font-size: 20px;
+    color: white; }
+
+#header {
+  height: 350px; }
+  #header .cover-photo {
+    height: 350px;
+    padding-top: 50px;
+    background: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg") no-repeat;
+    background-size: 100%; }
+    #header .cover-photo h1 {
+      margin-top: 250px;
+      color: white;
+      font-weight: bold; }
+  #header img {
+    max-height: 180px;
+    margin-top: -150px; }
+  #header .left-middle-nav > li a {
+    color: #333;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-right: 0; }
+  #header .left-middle-nav > li.active > a {
+    background-color: #eee; }
+  #header .left-middle-nav > li .count {
+    color: #aaa; }
+  #header .right-middle-nav {
+    border-right: 1px solid #ccc; }
+    #header .right-middle-nav li > a {
+      text-decoration: underline; }
+
+main {
+  margin-top: 70px;
+  padding-bottom: 50px; }
+  main.main-about {
+    border: 1px solid #ccc; }
+  main header {
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px; }
+    main header h1 {
+      font-size: 30px;
+      line-height: 50px;
+      margin-top: 0;
+      font-weight: bold; }
+  main h2 {
+    font-weight: bold;
+    margin-bottom: 25px; }
+  main p {
+    line-height: 1.5em; }
+    main p input.form-control {
+      height: 30px; }
+    main p textarea.about-textarea {
+      height: 160px; }
+  main .right-timeline {
+    padding-right: 0; }
+  main .post {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 0; }
+    main .post header {
+      text-align: center;
+      height: 30px; }
+      main .post header h4 {
+        margin-top: 5px; }
+    main .post .post-textarea {
+      padding: 8px; }
+      main .post .post-textarea .form-control {
+        margin-bottom: 10px; }
+      main .post .post-textarea a {
+        text-decoration: underline; }
+      main .post .post-textarea h5 {
+        text-align: center; }
+    main .post .post-author {
+      padding: 8px; }
+      main .post .post-author img {
+        width: 80px;
+        height: 80px; }
+      main .post .post-author a {
+        text-decoration: underline; }
+      main .post .post-author p {
+        color: #aaa; }
+    main .post footer {
+      border-top: 1px solid #ccc;
+      background-color: #eee;
+      padding-top: 7px;
+      padding-bottom: 7px; }
+      main .post footer.comment-footer {
+        border: none;
+        padding-top: 0; }
+      main .post footer p {
+        padding-top: 7px;
+        color: #888; }
+      main .post footer a {
+        text-decoration: underline; }
+    main .post .post-comment {
+      padding-left: 0;
+      margin-bottom: 0;
+      border: none;
+      border-top: 1px solid #ccc;
+      background-color: #eee; }
+      main .post .post-comment .post-textarea {
+        padding-bottom: 0; }
+    main .post .comment-textarea {
+      padding-left: 8px; }
+    main .post .comment-footer {
+      padding-left: 8px;
+      color: #888; }
+      main .post .comment-footer a {
+        text-decoration: underline;
+        padding-right: 20px; }
+      main .post .comment-footer p.col-xs-10 {
+        padding-left: 0; }
+    main .post .see-more {
+      padding-bottom: 14px; }
+      main .post .see-more a {
+        text-decoration: underline;
+        font-weight: bold; }
+  main .friends-field {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    main .friends-field button {
+      background-color: #eee; }
+    main .friends-field a {
+      text-decoration: underline; }
+    main .friends-field p {
+      color: #888; }
+  main .photos-row {
+    margin-bottom: 20px; }
+    main .photos-row .thumbnail .caption {
+      background-color: #888;
+      visibility: hidden;
+      border-top: 1px solid #aaa;
+      color: white;
+      text-align: center; }
+    main .photos-row .thumbnail:hover .caption {
+      visibility: visible; }
+
+/*# sourceMappingURL=styles.css.map */
