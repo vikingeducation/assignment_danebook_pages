@@ -1,1 +1,251 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <title>Welcome to Danebook</title>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-primary">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+            <!-- Navbar collapse menu toggle button -->
+            <button type="button" class="navbar-toggle collapsed" id="navbar-toggle-button" data-toggle="collapse"
+                    data-target="#navbar-primary-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Danebook brand logo and text -->
+            <a class="navbar-brand" href="timeline.html">
+                <img alt="Brand"
+                     src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif">
+                <a id="navbar-brand-text">Danebook</a>
+            </a>
+
+        </div>
+        <!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+
+            <!-- Search form -->
+            <form class="navbar-form navbar-left visible-xs-inline-block">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search" id="search-input">
+                </div>
+                <!-- /.form-group -->
+            </form>
+
+            <!-- Current user first name -->
+            <ul class="nav navbar-nav navbar-right" id="currentuser-first-name">
+                <li>
+                    <a href="timeline.html">Harry</a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- /.collapse navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<header class="container">
+
+    <!-- Display full name for current profile -->
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="cover-container"></div>
+            <h1 id="user-full-name">Harry Potter</h1>
+        </div>
+    </div>
+    <!-- /#cover-container -->
+
+    <!-- Navbar with page navigation links -->
+    <nav class="navbar navbar-default navbar-secondary">
+        <div class="navbar-header">
+
+            <!-- Profile picture -->
+            <div class="navbar-brand">
+                <a href="photos.html">
+                    <img src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg"
+                         id="profile-picture">
+                </a>
+            </div>
+            <!-- /.navbar-brand -->
+
+            <!-- Primary navbar collapse menu toggle button -->
+            <button type="button" class="navbar-toggle collapsed" id="navbar-secondary-toggle-button"
+                    data-toggle="collapse" data-target="#navbar-secondary-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <!-- /.navbar-header -->
+
+        <!-- Links for page navigation in secondary navbar -->
+        <div class="collapse navbar-collapse" id="navbar-secondary-collapse">
+
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <a href="timeline.html" id="navbar-timeline-link">Timeline</a>
+                </li>
+
+                <li>
+                    <a href="about.html" id="navbar-about-link">About</a>
+                </li>
+
+                <li class="current-page-link">
+                    <a href="photos.html" id="navbar-photos-link">Photos (123)</a>
+                </li>
+
+                <li>
+                    <a href="friends.html" id="navbar-friends-link">Friends (542)</a>
+                </li>
+            </ul>
+
+            <!-- Link for user to edit profile -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="about_edit.html" id="navbar-edit-profile">Edit Profile</a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- /.collapse navbar-collapse -->
+    </nav>
+    <!-- /.navbar navbar-default navbar-secondary -->
+</header>
+
+<main>
+
+    <section class="container-fluid main-content-container">
+
+        <header class="row main-content-header">
+            <div class="col-xs-4 col-xs-offset-4 content-header-title">
+                <h2>Photos</h2>
+            </div>
+
+            <div class="col-xs-4 content-header-link">
+                <a class="btn">Add Photo!</a>
+            </div>
+        </header>
+
+        <div class="photos-container">
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+                <div class="col-sm-3">
+                    <img class="center-block img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/icon_photo_small.png">
+                </div>
+
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.photos-container -->
+    </section>
+
+</main>
+
+</body>
+
+</html>

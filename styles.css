@@ -1,0 +1,364 @@
+/* Content border variables */
+/* Container variables */
+/* Primary navbar variables */
+/* Cover section */
+/* Button properties */
+/* Friend summary boxes */
+body {
+  padding-top: 60px; }
+
+header #cover-container {
+  border-radius: 0;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  height: 350px;
+  background-image: url("https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+
+.navbar-primary {
+  background-color: #2B78E4;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  border-radius: 0;
+  height: 60px; }
+  .navbar-primary .container-fluid .navbar-header {
+    height: 58px; }
+  .navbar-primary .container-fluid .navbar-brand {
+    height: inherit;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .navbar-primary .container-fluid .navbar-brand img {
+      height: 100%;
+      width: auto;
+      border-radius: 100%; }
+  @media (max-width: 767px) {
+    .navbar-primary .container-fluid .navbar-collapse {
+      background-color: #2B78E4;
+      border: 1px black solid; } }
+  .navbar-primary .container-fluid .navbar-nav {
+    height: inherit; }
+    .navbar-primary .container-fluid .navbar-nav li {
+      height: 58px; }
+      .navbar-primary .container-fluid .navbar-nav li a {
+        line-height: 1;
+        padding-top: 20px;
+        padding-bottom: 20px; }
+  .navbar-primary .container-fluid .navbar-form {
+    margin-top: 13px;
+    margin-bottom: 13px; }
+
+header #profile-picture {
+  width: 150px;
+  height: auto;
+  z-index: 1;
+  margin-top: -195px;
+  margin-right: 10px;
+  border: 1px black solid;
+  float: left; }
+header #user-full-name {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 195px; }
+header .navbar {
+  margin-bottom: 0; }
+header .navbar-secondary {
+  border-radius: 0;
+  border: 1px black solid; }
+  header .navbar-secondary a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center; }
+  header .navbar-secondary .current-page-link a {
+    background-color: #D5D5D5; }
+  header .navbar-secondary .current-page-link a:hover {
+    background-color: #D5D5D5; }
+  header .navbar-secondary #navbar-edit-profile {
+    color: #0C5394;
+    text-decoration: underline;
+    padding-right: 15px; }
+
+textarea {
+  width: 100%; }
+
+main {
+  margin-bottom: 50px; }
+
+.navbar-collapse {
+  border: none;
+  box-shadow: none; }
+
+.navbar-form {
+  border: none;
+  box-shadow: none; }
+
+.more-link {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.post-create {
+  border: 1px black solid;
+  text-align: center;
+  margin-top: 15px; }
+  .post-create header {
+    display: flex;
+    margin-bottom: 5px; }
+    .post-create header h2 {
+      margin: auto;
+      background-color: #D5D5D5;
+      padding: 10px;
+      border-bottom: 1px black solid; }
+
+.post {
+  border: 1px black solid;
+  margin-top: 15px; }
+  .post img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px; }
+
+.post-details {
+  display: inline-block;
+  float: none;
+  margin-left: 5px; }
+  .post-details .post-user {
+    font-size: 16px;
+    margin: auto; }
+  .post-details .post-date {
+    color: #A0ACC0;
+    font-weight: bold; }
+
+.post-footer {
+  background-color: #D5D5D5;
+  padding: 15px;
+  border-top: 1px black solid; }
+
+.comment-footer {
+  background-color: #D5D5D5;
+  padding-right: 15px; }
+
+.btn-post {
+  float: right;
+  border-radius: 0;
+  border: 1px black solid; }
+
+.comment {
+  margin-left: 15px; }
+
+.delete {
+  float: right;
+  margin-right: 15px; }
+
+.post-footer-like {
+  margin-top: 5px; }
+
+.post-content {
+  margin: 10px 15px; }
+
+.post-comment {
+  background-color: #D5D5D5;
+  padding-top: 10px;
+  border-left: 1px black solid;
+  border-right: 1px black solid; }
+  .post-comment img {
+    margin-left: 15px; }
+  .post-comment p {
+    margin-top: 10px; }
+  .post-comment .like {
+    margin-right: 10px; }
+  .post-comment .delete {
+    float: right; }
+  .post-comment .comment-content {
+    padding-top: 10px;
+    padding-right: 10px; }
+
+.create-comment {
+  background-color: #D5D5D5;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .create-comment .btn-comment {
+    display: inline-block;
+    float: right;
+    border-radius: 0;
+    border: 1px black solid; }
+  .create-comment .btn-cancel {
+    display: inline-block;
+    border-radius: 0;
+    border-color: none;
+    background-color: transparent; }
+  .create-comment .comment-content {
+    margin: 15px; }
+
+@media (max-width: 767px) {
+  #currentuser-first-name {
+    float: right; } }
+#currentuser-first-name li a {
+  color: #FFF;
+  font-size: 18px;
+  text-align: right; }
+
+#navbar-toggle-button {
+  border-width: 2px; }
+
+#navbar-brand-text {
+  color: white;
+  font-size: 28px;
+  height: auto;
+  line-height: 58px;
+  padding-right: 20px;
+  text-decoration: none; }
+
+@media (min-width: 768px) {
+  #search-input {
+    min-width: 300px; } }
+
+.main-content-header {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+  background-color: #D5D5D5;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.content-header-title {
+  text-align: center; }
+  .content-header-title h2 {
+    margin: auto; }
+
+.content-header-link {
+  display: flex; }
+  .content-header-link a {
+    margin: auto 0 auto auto; }
+
+.about-section {
+  border: 1px black solid;
+  margin-top: 15px; }
+  .about-section label {
+    text-align: left; }
+  .about-section section {
+    margin: 0px 10px 0 10px; }
+  .about-section .user-info-item {
+    font-weight: 700;
+    margin-left: 15px; }
+
+.main-header {
+  margin-bottom: 10px;
+  background-color: #D5D5D5;
+  border-bottom: 1px black solid; }
+  .main-header h2 {
+    padding: 10px;
+    margin: auto;
+    text-align: center; }
+
+.friend-list {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  text-align: center; }
+
+.friend-container {
+  border: 1px black solid;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center; }
+  .friend-container img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 0 10px; }
+  .friend-container .friend-details {
+    margin: 0 5px 0 0; }
+    .friend-container .friend-details p {
+      color: #A0ACC0; }
+  .friend-container .btn-unfriend {
+    border-radius: 0;
+    border: 1px black solid;
+    background-color: #DDDDDD;
+    margin: auto 10px auto auto; }
+
+.summary-friend-container {
+  border: 1px black solid;
+  text-align: center;
+  margin-top: 15px;
+  padding: 0 15px; }
+  .summary-friend-container header {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #D5D5D5;
+    border-bottom: 1px black solid; }
+    .summary-friend-container header h2 {
+      margin: auto;
+      padding: 10px;
+      text-align: center; }
+  .summary-friend-container img {
+    padding-left: 10px;
+    padding-right: 10px; }
+  .summary-friend-container .friend-name {
+    margin: 0 auto;
+    padding: 0 5px 5px 5px; }
+
+.summary-photos-container {
+  border: 1px black solid;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+  padding: 0 15px; }
+  .summary-photos-container header {
+    display: flex;
+    margin-bottom: 10px;
+    background-color: #D5D5D5;
+    border-bottom: 1px black solid; }
+    .summary-photos-container header h2 {
+      margin: auto;
+      padding: 10px;
+      text-align: center; }
+
+.photos-container {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  border-bottom: 1px black solid;
+  text-align: center; }
+
+#navbar-timeline-link {
+  color: black;
+  opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-timeline-link {
+      border-top: 1px black solid; } }
+
+#navbar-about-link {
+  color: black;
+  opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-about-link {
+      border-top: 1px black solid; } }
+
+#navbar-photos-link {
+  color: black;
+  opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-photos-link {
+      border-top: 1px black solid; } }
+
+#navbar-friends-link {
+  color: black;
+  opacity: 1; }
+  @media (max-width: 767px) {
+    #navbar-friends-link {
+      border-top: 1px black solid;
+      border-bottom: 1px black solid; } }
+
+/*# sourceMappingURL=styles.css.map */
