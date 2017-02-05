@@ -2,11 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!-- bootstrap.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- styles.css -->
+    <link rel="stylesheet" href="resources/css/styles.css">
+
     <title>Welcome to Danebook</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -16,7 +21,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <h1>
+            <a class="navbar-brand " href="index.html">
+              <img alt="Brand" src="resources/img/danish_flag.gif">
+              danebook</a>
+          </h1>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,17 +33,25 @@
 
           <form class="navbar-form navbar-right">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email">
+              <label for="login_email">Email</label><br>
+              <input id="login_email" type="text" class="form-control">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Password">
+              <label for="login_password">Password</label><br>
+              <input id="login_password" type="text" class="form-control">
             </div>
-            <button type="submit" class="btn btn-default">Sign in</button>
+            <div class="form-group">
+              <label for=""> </label><br>
+              <button style="margin-top:5px" type="submit" class="btn btn-default">Log in</button>
+            </div>
           </form>
         </div><!-- /.navbar-collapse -->
-
       </div><!-- /.container -->
     </nav>
 
+    <!-- jquery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- bootstrap.js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>

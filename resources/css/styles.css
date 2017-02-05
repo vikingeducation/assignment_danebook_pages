@@ -1,3 +1,11 @@
-
+.navbar-default {
+  background-color: #4278ca;
+  color: white; }
+  .navbar-default .navbar-brand {
+    height: auto;
+    font-size: inherit;
+    color: white; }
+    .navbar-default .navbar-brand img {
+      height: 25px; }
 
 /*# sourceMappingURL=styles.css.map */
