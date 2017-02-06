@@ -51,5 +51,11 @@ body {
   top: -3.4em; }
 .about-panel .panel-body {
   margin: 15px 30px; }
+.about-panel .save-btn {
+  margin-top: 20px;
+  width: 50%; }
+.about-panel .form-control {
+  display: inline-block;
+  width: auto; }
 
 /*# sourceMappingURL=styles.css.map */
