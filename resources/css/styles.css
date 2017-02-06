@@ -1,11 +1,55 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
 .navbar-default {
   background-color: #4278ca;
   color: white; }
   .navbar-default .navbar-brand {
+    font-size: 36px;
     height: auto;
-    font-size: inherit;
     color: white; }
     .navbar-default .navbar-brand img {
       height: 25px; }
+  .navbar-default .navbar-nav li a {
+    color: white;
+    font-size: 20px; }
+
+.jumbotron {
+  height: 520px !important;
+  padding: 48px 0;
+  background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url(https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg);
+  background-position: center;
+  background-attachment: fixed; }
+
+.dp {
+  position: absolute;
+  top: 6rem;
+  margin-top: 27em; }
+
+.dp-img {
+  width: 156px;
+  max-height: 200px; }
+
+.dp-profile-name {
+  color: white;
+  text-decoration: none;
+  font-size: 2.3em;
+  margin-left: 1.7rem; }
+
+.timeline-nav {
+  background: white;
+  margin-top: -2.1em;
+  padding: 1.6rem; }
+  .timeline-nav .nav {
+    margin-left: 17%; }
+
+.about-panel .panel-heading {
+  text-align: center; }
+.about-panel .edit-btn {
+  position: relative;
+  top: -3.4em; }
+.about-panel .panel-body {
+  margin: 15px 30px; }
 
 /*# sourceMappingURL=styles.css.map */
