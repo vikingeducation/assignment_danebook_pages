@@ -48,13 +48,10 @@ body {
   object-fit: none;
   object-position: top; }
 
-#about-panel {
-  margin-top: 10px; }
+#save-button {
+  width: 33%;
+  height: 50px;
+  margin-left: 33%;
+  font-size: 2.0em; }
 
-.right {
-  float: right; }
-
-.left {
-  float: left; }
-
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=about_edit.css.map */

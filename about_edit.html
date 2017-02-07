@@ -1,1 +1,173 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Edit About</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="about_edit.css">
+</head>
+<body>
+    <nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
+     <div class="container">
+       <a class="navbar-left" id="logo-link" href="#"><img id="logo" class="img-circle navbar-left" alt="Brand" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/danish_flag.gif" width="20px">
+         <p class="navbar-brand navbar-left" id="logo-text">Danebook</p>
+       </a>
+       <form class="navbar-form navbar-left" role="search">
+         <div class="form-group">
+           <input type="text" id="search-box" class="form-control " placeholder="Search for Users">
+         </div>
+       </form>
+       <p id="user-name" class="navbar-text navbar-right">Harry</p>
+     </div>
+
+
+
+
+   </nav>
+
+   <main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img id="profile-image" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/harry_potter_small.jpg" class="img-responsive">
+                <div id="cover-image-wrapper">
+                    <img id="cover-image" class="img-responsive" src="https://s3.amazonaws.com/viking_education/web_development/web_app_eng/hogwarts_small.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills nav-justified">
+                    <li role="presentation"><a href="#">Timeline</a></li>
+                    <li role="presentation" class="active"><a href="#">About</a></li>
+                    <li role="presentation"><a href="#">Photos<span class="badge">12</span></a></li>
+                    <li role="presentation"><a href="#">Friends<span class="badge">35</span></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <!-- <ul class="nav nav-pills nav-justified">
+
+                    <li role="presentation"><a href="#">Edit Profile</a></li>
+                </ul> -->
+            </div>
+        </div>
+
+        <div id="about-panel" class="panel panel-default">
+            <div class="panel-body">
+
+                <div id="about-main" class="col-md-12">
+                    <div class="text-center col-md-offset-4 col-md-4"><h4>Edit Profile</h4></div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+        <div id="about-panel" class="panel panel-default">
+            <div class="panel-body">
+
+                    <div class="row">
+                        <div class="col-md-6 left">
+
+
+
+                            <table>
+                                <caption><h3>Basic Information</h3></caption>
+                                <tr>
+                                    <th>
+                                        Birthday:
+                                    </th>
+                                    <td>
+                                        July 31st, 1980
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        College:
+                                    </th>
+                                    <td>
+                                        <input type="text" name="" value="Hogwarts College" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Hometown:
+                                    </th>
+                                    <td>
+                                        <input type="text" name="" value="Godrick's Hollow, England" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                         Currently Lives:
+                                    </th>
+                                    <td>
+                                        <input type="text" name="" value="Godrick's Hollow, England" class="form-control">
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                            <table>
+                                <caption><h3>Current Information</h3></caption>
+                                <tr>
+                                    <th>
+                                         Email:
+                                    </th>
+                                    <td>
+                                         <input type="text" name="" value="harry_potter@hogwarts.edu" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                     <th>
+                                         Telephone:
+                                    </th>
+                                    <td>
+                                         <input type="text" name="" value="555-123-4567" class="form-control">
+                                    </td>
+                                </tr>
+                            </table>
+
+
+
+
+
+
+                        </div>
+                        <div class="col-md-6 right">
+                            <h3>Words to Live By</h3>
+                            <textarea class="form-control" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+
+                            </textarea>
+
+                            <h3>About Me</h3>
+                            <textarea class="form-control" rows="7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </textarea>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+        <button id="save-button" class="btn btn-primary">Save Changes</button>
+
+    </div>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
