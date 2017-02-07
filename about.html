@@ -16,12 +16,22 @@
   </head>
   <body class="container">
   <!-- Navigation Bar -->
-		<nav class="nav navbar row">
+		<nav class="navbar navbar-default container-fluid">
 			<!-- Logo -->
-			<div class="nav col-xs-2">
-				<a href="home"></a>
-				
+			<div class="navbar col-xs-5 col-md-4">
+				<a class="navbar-brand" href="home" id="flag_logo"><img src="images/danish_flag.gif" class="img-circle">Danebook</a>
 			</div>
+			<!-- search bar -->
+			<div class="col-xs-5 col-md-6 form-inline" id="searchbar">
+				<label class="sr-only" for="searchbar" >Searchbar</label>
+				<input class="form-control" type="search" name="searchbar">
+				<input class= "btn" type="submit" placeholder="Search for users">
+			</div>
+			<!-- Nav name -->
+			<div class="col-xs-2 col-md-2" id="user_name">
+				Harry
+			</div>
+			
 			
 		</nav>
   </body>
