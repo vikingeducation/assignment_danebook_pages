@@ -78,10 +78,10 @@ body {
 }
 
 // ----------------------------------------------------------------
-// about panel
+// user panel
 // ----------------------------------------------------------------
 
-.about-panel {
+.user-panel {
   .panel-heading {
     text-align: center;
   }
@@ -101,4 +101,14 @@ body {
     display: inline-block;
     width: auto;
   }
+}
+
+// ----------------------------------------------------------------
+// friends
+// ----------------------------------------------------------------
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }

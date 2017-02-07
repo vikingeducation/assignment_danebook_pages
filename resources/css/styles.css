@@ -44,18 +44,23 @@ body {
   .timeline-nav .nav {
     margin-left: 17%; }
 
-.about-panel .panel-heading {
+.user-panel .panel-heading {
   text-align: center; }
-.about-panel .edit-btn {
+.user-panel .edit-btn {
   position: relative;
   top: -3.4em; }
-.about-panel .panel-body {
+.user-panel .panel-body {
   margin: 15px 30px; }
-.about-panel .save-btn {
+.user-panel .save-btn {
   margin-top: 20px;
   width: 50%; }
-.about-panel .form-control {
+.user-panel .form-control {
   display: inline-block;
   width: auto; }
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none; }
 
 /*# sourceMappingURL=styles.css.map */
