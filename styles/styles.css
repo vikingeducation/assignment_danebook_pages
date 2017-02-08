@@ -410,7 +410,8 @@ nav.navbar {
   background-color: #4D82EB;
   font-size: 2em;
   color: #F4FEFF;
-  padding-top: 20px; }
+  padding-top: 20px;
+  height: 3em; }
   nav.navbar .navbar-brand {
     padding: 0;
     font-size: 1.2em; }
@@ -435,5 +436,21 @@ nav.navbar {
   @media (max-width: 770px) {
     #user_name {
       font-size: 0.5em; } }
+
+/**Profile Section**/
+.profile_section {
+  display: inline-block; }
+  .profile_section .profile_wrapper {
+    margin-top: 6em; }
+    .profile_section .profile_wrapper .profile_background {
+      width: 100%;
+      z-index: 0;
+      position: relative; }
+    .profile_section .profile_wrapper .profile_picture {
+      z-index: 2;
+      float: left;
+      position: relative;
+      left: 1em;
+      bottom: 18em; }
 
 /*# sourceMappingURL=styles.css.map */

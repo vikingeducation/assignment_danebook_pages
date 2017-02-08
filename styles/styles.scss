@@ -11,6 +11,7 @@ nav.navbar{
 	font-size: 2em;
 	color: $white;
 	padding-top: 20px;
+	height: 3em;
 	.navbar-brand{
 		padding: 0;
 		font-size: 1.2em;
@@ -42,5 +43,26 @@ nav.navbar{
 	text-align: center;
 	@media (max-width: 770px){		
 			font-size: 0.5em;
+	}
+}
+
+/**Profile Section**/
+.profile_section{
+	display: inline-block;
+	.profile_wrapper{
+		margin-top: 6em;
+		.profile_background{
+			width: 100%;
+			z-index:0;
+			position: relative;
+		}
+		.profile_picture{
+			z-index: 2;
+			float: left;
+			position: relative;
+			left: 1em;
+			bottom: 18em;
+
+		}
 	}
 }
