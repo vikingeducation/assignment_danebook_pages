@@ -435,6 +435,9 @@ nav.navbar {
   text-align: center; }
   @media (max-width: 770px) {
     #user_name {
+      font-size: 0.8em; } }
+  @media (max-width: 480px) {
+    #user_name {
       font-size: 0.5em; } }
 
 /**Profile Section**/
@@ -452,5 +455,15 @@ nav.navbar {
       position: relative;
       left: 1em;
       bottom: 18em; }
+      @media (max-width: 770px) {
+        .profile_section .profile_wrapper .profile_picture {
+          height: 12em;
+          width: auto;
+          bottom: 13em; } }
+      @media (max-width: 480px) {
+        .profile_section .profile_wrapper .profile_picture {
+          height: 6em;
+          width: auto;
+          bottom: 7em; } }
 
 /*# sourceMappingURL=styles.css.map */

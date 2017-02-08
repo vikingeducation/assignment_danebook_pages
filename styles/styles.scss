@@ -34,16 +34,19 @@ nav.navbar{
 
 #logo_text{ 
 	color: $white;
-	@media (max-width: 770px){		
+	@media (max-width: $break-large){		
 			font-size: 0.8em;
 	}
 }
 
 #user_name{
 	text-align: center;
-	@media (max-width: 770px){		
-			font-size: 0.5em;
+	@media (max-width: $break-large){		
+			font-size: 0.8em;
 	}
+	@media (max-width: $small-break){
+				font-size: 0.5em;
+			}
 }
 
 /**Profile Section**/
@@ -62,7 +65,16 @@ nav.navbar{
 			position: relative;
 			left: 1em;
 			bottom: 18em;
-
+			@media (max-width: $break-large){
+				height: 12em;
+				width: auto;
+				bottom: 13em;
+			}
+			@media (max-width: $small-break){
+				height: 6em;
+				width: auto;
+				bottom: 7em;
+			}
 		}
 	}
 }
