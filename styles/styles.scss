@@ -78,3 +78,21 @@ nav.navbar{
 		}
 	}
 }
+
+.profile_links{
+	li{
+		height: 3em;
+    padding-top: 1em;
+    font-size: 1em;
+    width: 7em;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+	}
+	li:last-child{
+		float: right;
+		margin-right: 1em;
+		border-right: none;
+    border-left: none;
+	}
+}
