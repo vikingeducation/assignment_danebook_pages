@@ -405,10 +405,12 @@ template {
 * {
   outline: 1px solid gray; }
 
+/** NAV BAR **/
 nav.navbar {
   background-color: #4D82EB;
   font-size: 2em;
-  color: #F4FEFF; }
+  color: #F4FEFF;
+  padding-top: 20px; }
   nav.navbar .navbar-brand {
     padding: 0;
     font-size: 1.2em; }
@@ -418,11 +420,20 @@ nav.navbar {
       display: inline; }
   nav.navbar #searchbar input[type="search"] {
     width: 80%; }
-    @media (max-width: 1000px) {
-      nav.navbar #searchbar input[type="search"] {
-        width: 50%; } }
+  @media (max-width: 1000px) {
+    nav.navbar #searchbar {
+      display: none; } }
 
-#flag_logo {
+#logo_text {
   color: #F4FEFF; }
+  @media (max-width: 770px) {
+    #logo_text {
+      font-size: 0.8em; } }
+
+#user_name {
+  text-align: center; }
+  @media (max-width: 770px) {
+    #user_name {
+      font-size: 0.5em; } }
 
 /*# sourceMappingURL=styles.css.map */
