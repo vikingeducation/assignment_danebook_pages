@@ -454,30 +454,51 @@ nav.navbar {
       float: left;
       position: relative;
       left: 1em;
-      bottom: 18em; }
+      bottom: 15em; }
       @media (max-width: 770px) {
         .profile_section .profile_wrapper .profile_picture {
           height: 12em;
           width: auto;
-          bottom: 13em; } }
+          bottom: 11em; } }
       @media (max-width: 480px) {
         .profile_section .profile_wrapper .profile_picture {
           height: 6em;
           width: auto;
-          bottom: 7em; } }
+          bottom: 5.2em; } }
 
-.profile_links li {
-  height: 3em;
-  padding-top: 1em;
-  font-size: 1em;
-  width: 7em;
-  text-align: center;
-  border-right: 1px solid black;
-  border-left: 1px solid black; }
-.profile_links li:last-child {
-  float: right;
-  margin-right: 1em;
-  border-right: none;
-  border-left: none; }
+.profile_links {
+  margin-left: 21em; }
+  @media (max-width: 770px) {
+    .profile_links {
+      margin-left: 11em; } }
+  @media (max-width: 480px) {
+    .profile_links {
+      margin-left: 8em; } }
+  .profile_links li {
+    height: 3em;
+    padding-top: 1em;
+    font-size: 1em;
+    width: 7em;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black; }
+    @media (max-width: 770px) {
+      .profile_links li {
+        margin-left: 2em;
+        font-size: 0.8em;
+        width: 6em; } }
+    @media (max-width: 480px) {
+      .profile_links li {
+        margin-left: 0em; } }
+  .profile_links li:last-child {
+    margin-left: 9em;
+    border-right: none;
+    border-left: none; }
+    @media (max-width: 770px) {
+      .profile_links li:last-child {
+        margin-left: 5em; } }
+    @media (max-width: 480px) {
+      .profile_links li:last-child {
+        margin-left: 3em; } }
 
 /*# sourceMappingURL=styles.css.map */

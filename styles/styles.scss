@@ -64,35 +64,57 @@ nav.navbar{
 			float: left;
 			position: relative;
 			left: 1em;
-			bottom: 18em;
+			bottom: 15em;
 			@media (max-width: $break-large){
 				height: 12em;
 				width: auto;
-				bottom: 13em;
+				bottom: 11em;
 			}
 			@media (max-width: $small-break){
 				height: 6em;
 				width: auto;
-				bottom: 7em;
+				bottom: 5.2em;
 			}
 		}
 	}
 }
 
 .profile_links{
+	margin-left: 21em;
+	@media (max-width: $break-large){
+				margin-left: 11em;
+			}
+    @media (max-width: $small-break){
+			margin-left: 8em;			
+	}
 	li{
-		height: 3em;
+	height: 3em;
     padding-top: 1em;
     font-size: 1em;
     width: 7em;
     text-align: center;
     border-right: 1px solid black;
     border-left: 1px solid black;
+    @media (max-width: $break-large){
+    			margin-left: 2em;
+				font-size: 0.8em;
+    			width: 6em;
+			}
+    @media (max-width: $small-break){
+				margin-left: 0em;
 	}
+	}
+	
 	li:last-child{
-		float: right;
-		margin-right: 1em;
+		margin-left: 9em;
 		border-right: none;
-    border-left: none;
+    	border-left: none;
+    	@media (max-width: $break-large){
+				margin-left: 5em;
+			}
+    	@media (max-width: $small-break){
+				margin-left: 3em;
+			
+		}
 	}
 }
