@@ -442,7 +442,7 @@ nav.navbar {
 
 /**Profile Section**/
 .profile_section {
-  display: inline-block; }
+  display: block; }
   .profile_section .profile_wrapper {
     margin-top: 6em; }
     .profile_section .profile_wrapper .profile_background {
@@ -467,7 +467,13 @@ nav.navbar {
           bottom: 5.2em; } }
 
 .profile_links {
-  margin-left: 21em; }
+  margin-left: 21em;
+  margin-bottom: 0;
+  color: black; }
+  .profile_links a {
+    color: black; }
+    .profile_links a:hover {
+      text-decoration: none; }
   @media (max-width: 770px) {
     .profile_links {
       margin-left: 11em; } }
@@ -482,6 +488,8 @@ nav.navbar {
     text-align: center;
     border-right: 1px solid black;
     border-left: 1px solid black; }
+    .profile_links li .active {
+      background-color: #636667; }
     @media (max-width: 770px) {
       .profile_links li {
         margin-left: 2em;
@@ -490,6 +498,11 @@ nav.navbar {
     @media (max-width: 480px) {
       .profile_links li {
         margin-left: 0em; } }
+    .profile_links li span {
+      color: gray; }
+  .profile_links .list-group-item.active {
+    background-color: #b0b2b3;
+    border-color: none; }
   .profile_links li:last-child {
     margin-left: 9em;
     border-right: none;

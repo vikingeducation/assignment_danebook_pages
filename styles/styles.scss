@@ -5,6 +5,8 @@
 *{
 	outline: 1px solid gray;
 }
+
+
 /** NAV BAR **/
 nav.navbar{
 	background-color: $primary-color;
@@ -51,7 +53,7 @@ nav.navbar{
 
 /**Profile Section**/
 .profile_section{
-	display: inline-block;
+	display: block;
 	.profile_wrapper{
 		margin-top: 6em;
 		.profile_background{
@@ -81,6 +83,14 @@ nav.navbar{
 
 .profile_links{
 	margin-left: 21em;
+	margin-bottom: 0;
+	color: black;
+	a{
+		color: black;
+		&:hover{
+    		text-decoration: none;
+  	}
+  }
 	@media (max-width: $break-large){
 				margin-left: 11em;
 			}
@@ -88,21 +98,32 @@ nav.navbar{
 			margin-left: 8em;			
 	}
 	li{
-	height: 3em;
+		height: 3em;
     padding-top: 1em;
     font-size: 1em;
     width: 7em;
     text-align: center;
     border-right: 1px solid black;
     border-left: 1px solid black;
+    .active{
+			background-color: $gray;
+		}
     @media (max-width: $break-large){
-    			margin-left: 2em;
+    		margin-left: 2em;
 				font-size: 0.8em;
-    			width: 6em;
-			}
+    		width: 6em;
+		}
     @media (max-width: $small-break){
 				margin-left: 0em;
+		}
+		span{
+			color: gray;
+		}
 	}
+
+	.list-group-item.active{
+		background-color: lighten($gray,30);
+		border-color: none;
 	}
 	
 	li:last-child{
@@ -118,3 +139,4 @@ nav.navbar{
 		}
 	}
 }
+
