@@ -1,38 +1,119 @@
 
 /****************************/
 /*************LAYOUT***************/
+
+.about_section{
+		
+}
+
+#about_header{
+	
+	>div{
+		
+		text-align: center;
+		h3{
+			
+			button{
+				float: right;
+		    margin-right: 1em;
+		    margin-top: 3px;
+		    height: 1.5em;
+		    line-height: 0em;
+		    color: white;
+		    background-color: $primary-color;
+			}
+		}		
+	}
+}
+
+#a{
+	color: black;
+	
+}
+
+#b{
+	color: black;
+}
+/*******
 .about_section{
 	height: auto;
-	position: absolute;
-	margin-bottom: 4.5em;
+	margin-bottom: 4.5em;		
 	>table{
-		
+		display: inline-table;
+		margin: 0 2em;
+		position: relative;
+    bottom: 13em;
+    @media (max-width: $break-large){
+				bottom: 7em;
+			}
 	}
 }
 
-#parent{
-	
-}
-#parent_2{
-	
-}
-.column_left{
-	background-color: yellow;
+#second_column{
+	background-color: green;
 }
 
-table, th, td, tr { 
-		display: block; 
 
-	}
+<table class="table-responsive">
+					<thead>
+						<th colspan="2">
+						About<button>Edit your Profile</button>
+					</th>
+					</thead>
+					<tbody  id="column">
+						<tr>
+							<td>
+								<div class="column_left">
+									<table class="table table-responsive">
+										<th colspan="2"><h3>Basic Information</h3></th>
+										<tr>
+											<td>Birthday:</td>
+											<td>July, 31st, 1980</td>
+										</tr>
+										<tr>
+											<td>College:</td>
+											<td>Hogwarts College</td>
+										</tr>
+										<tr>
+											<td>Hometown:</td>
+											<td>Godrick's Hollow, England</td>
+										</tr>
+										<tr>
+											<td>Currently Lives:</td>
+											<td>Godrick's Hollow, England</td>
+										</tr>
+									</table>
+									<table id="contact_info_table">
+										<th colspan="2">
+											<h3>Contact Information</h3>
+										</th>
+										<tbody>
+											<tr>
+												<td>Email:</td>
+												<td>harry_potter@hogwarts.edu</td>
+											</tr>
+											<tr>
+												<td>Telephone:</td>
+												<td>555-123-4567</td>
+											</tr>	
+										</tbody>									
+									</table>
+								</div>
+							</td>
+							<td id="second_column">
+								<div>
+									<table class="table">
+										<tr><h3>Words to Live By</h3></tr>
+										<tr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloribus adipisci maiores labore amet blanditiis beatae, inventore fugit illum quisquam error laboriosam, nihil, officia rerum soluta provident quibusdam, magni autem.</tr>
+										<tr><h3>About Me</h3></tr>
+										<tr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum excepturi odit ex maiores cupiditate? Officia cum libero reiciendis, odit eaque non fugiat repellat maxime quibusdam natus. Id sapiente sunt, praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aliquid distinctio magnam sapiente excepturi, quisquam quam animi doloribus eveniet voluptate asperiores aliquam vitae repellendus ad, similique impedit quidem. Eveniet, asperiores.</tr>
+									</table>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 
-	
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 100%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-	}
+
+
+*********/
