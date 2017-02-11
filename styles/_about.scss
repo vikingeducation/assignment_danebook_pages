@@ -1,0 +1,38 @@
+
+/****************************/
+/*************LAYOUT***************/
+.about_section{
+	height: auto;
+	position: absolute;
+	margin-bottom: 4.5em;
+	>table{
+		
+	}
+}
+
+#parent{
+	
+}
+#parent_2{
+	
+}
+.column_left{
+	background-color: yellow;
+}
+
+table, th, td, tr { 
+		display: block; 
+
+	}
+
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 100%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
