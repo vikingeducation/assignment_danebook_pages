@@ -22,7 +22,7 @@
 				<a class="navbar-brand" href="home" id="logo_text"><img src="images/danish_flag.gif" class="img-circle">Danebook</a>
 			</div>
 		<!-- search bar -->
-			<div class="col-xs-4 col-md-6 form-inline collapsed" id="searchbar">
+			<div class="col-xs-3 col-md-6 form-inline collapsed" id="searchbar">
 				<label class="sr-only" for="searchbar" >Searchbar</label>
 				<input class="form-control disabled" type="search" name="searchbar">
 				<input class= "btn disabled" type="submit" placeholder="Search for users">
@@ -36,23 +36,25 @@
 <!--Profile Section-->
 			<section class="profile_section">				
 				<div class="profile_wrapper">
-				<!--Profile background-->
-					<img class= "profile_background" src="images/hogwarts_small.jpg" alt="profile background">
-				<!-- profile pic-->
-					<img class="profile_picture" src="images/user_silhouette_generic.gif" alt="profile picture">
+					<div id="profile_background">
+					<!--Profile background-->
+						<img id= "profile_background_image" src="images/hogwarts_small.jpg" alt="profile background">
+					<!-- profile pic-->
+						<img class="profile_picture" src="images/user_silhouette_generic.gif" alt="profile picture">
+					</div>
 				<!-- profile menu-->
 					<ul class="list-inline profile_links">
-						<label class="sr-only" for="Timeline">Timeline</label>
-						<li class="list-group-item"><a href="#">Timeline</a></li>
-						<label class="sr-only" for="About">About</label>
-						<li class="list-group-item active" name="Timeline"><a href="#">About</a></li>
-						<label class="sr-only" for="Photos">Photos</label>
-						<li class="list-group-item" name="Photos"><a href="#">Photos&nbsp<span>(123)</span></a></li>
-						<label class="sr-only" for="Friends" name="Friends">Friends</label>
-						<li class="list-group-item"><a href="#">Friends&nbsp<span>(321)</span></a></li>
-						<label class="sr-only" for="Edit_Profile">Edit Profile</label>
-						<li class="" name="Edit_Profile"><a href="#">Edit Profile</a></li>
-					</ul>
+					<label class="sr-only" for="Timeline">Timeline</label>
+					<li class="list-group-item"><a href="#">Timeline</a></li>
+					<label class="sr-only" for="About">About</label>
+					<li class="list-group-item active" name="Timeline"><a href="#">About</a></li>
+					<label class="sr-only" for="Photos">Photos</label>
+					<li class="list-group-item" name="Photos"><a href="#">Photos&nbsp<span>(123)</span></a></li>
+					<label class="sr-only" for="Friends" name="Friends">Friends</label>
+					<li class="list-group-item"><a href="#">Friends&nbsp<span>(321)</span></a></li>
+					<label class="sr-only" for="Edit_Profile">Edit Profile</label>
+					<li class="" name="Edit_Profile"><a href="#">Edit Profile</a></li>
+					</ul>			
 				</div>
 			</section>
 
@@ -63,8 +65,8 @@
 						<h3>About<button class="btn">Edit your Profile</button></h3>
 					</div>
 				</div>
-				<div class="row" id="a">
-					<div class="col-xs-5" id="b">
+				<div class="row" >
+					<div class="col-sm-5 col-md-5">
 						<table class="table table-responsive">
 							<th colspan="2"><h3>Basic Information</h3></th>
 							<tr>
@@ -84,23 +86,21 @@
 								<td>Godrick's Hollow, England</td>
 							</tr>
 						</table>
-						<table id="contact_info_table">
+						<table class="table table-responsive" id="contact_info_table">
 							<th colspan="2">
 								<h3>Contact Information</h3>
 							</th>
-							<tbody>
-								<tr>
-									<td>Email:</td>
-									<td>harry_potter@hogwarts.edu</td>
-								</tr>
-								<tr>
-									<td>Telephone:</td>
-									<td>555-123-4567</td>
-								</tr>	
-							</tbody>									
+							<tr>
+								<td>Email:</td>
+								<td>harry_potter@hogwarts.edu</td>
+							</tr>
+							<tr>
+								<td>Telephone:</td>
+								<td>555-123-4567</td>
+							</tr>																	
 						</table>
 					</div>
-					<div class="col-xs-7">
+					<div class="col-sm-7 col-md-7" >
 						<table class="table">
 										<tr><h3>Words to Live By</h3></tr>
 										<tr>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut doloribus adipisci maiores labore amet blanditiis beatae, inventore fugit illum quisquam error laboriosam, nihil, officia rerum soluta provident quibusdam, magni autem.</tr>

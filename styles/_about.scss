@@ -7,18 +7,18 @@
 }
 
 #about_header{
-	
-	>div{
-		
+	color: black;
+	>div{		
 		text-align: center;
 		h3{
 			
 			button{
 				float: right;
 		    margin-right: 1em;
-		    margin-top: 3px;
+		    margin-top: 4px;
 		    height: 1.5em;
 		    line-height: 0em;
+		    font-size: 0.5em;
 		    color: white;
 		    background-color: $primary-color;
 			}
@@ -26,14 +26,8 @@
 	}
 }
 
-#a{
-	color: black;
-	
-}
 
-#b{
-	color: black;
-}
+
 /*******
 .about_section{
 	height: auto;
