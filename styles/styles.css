@@ -539,7 +539,7 @@ nav.navbar {
 /**Profile Section**/
 .profile_section {
   display: block;
-  border: 1px solid gray; }
+  border: 1px solid #8C9193; }
   .profile_section .profile_wrapper {
     margin-top: 6em; }
     .profile_section .profile_wrapper #profile_background {
