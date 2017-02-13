@@ -404,19 +404,44 @@ template {
 
 /****************************/
 /*************LAYOUT***************/
+.about_section {
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 1px solid #8C9193;
+  margin-bottom: 5em; }
+  .about_section > .row {
+    margin-right: 3em;
+    margin-left: 3em; }
+
 #about_header {
-  color: black; }
+  color: black;
+  background-color: #96999a;
+  height: 2.5em;
+  border: 1px solid #8C9193;
+  line-height: 2em; }
   #about_header > div {
     text-align: center; }
-    #about_header > div h3 button {
-      float: right;
-      margin-right: 1em;
-      margin-top: 4px;
-      height: 1.5em;
-      line-height: 0em;
-      font-size: 0.5em;
-      color: white;
-      background-color: #4D82EB; }
+    #about_header > div h3 {
+      margin-top: 5px; }
+      #about_header > div h3 button {
+        float: right;
+        margin-right: 1em;
+        margin-top: 4px;
+        height: 1.5em;
+        line-height: 0em;
+        font-size: 0.5em;
+        border-radius: 0px;
+        color: white;
+        background-color: #4D82EB; }
+
+#column-right {
+  color: black; }
+  @media (max-width: 993px) {
+    #column-right {
+      padding-left: 3em; } }
+  @media (max-width: 768px) {
+    #column-right {
+      padding-left: 15px; } }
 
 /*******
 .about_section{
@@ -523,18 +548,18 @@ nav.navbar {
 
 #logo_text {
   color: #F4FEFF; }
-  @media (max-width: 770px) {
+  @media (max-width: 993px) {
     #logo_text {
-      font-size: 0.8em; } }
+      font-size: 1em; } }
 
 #user_name {
   text-align: center; }
-  @media (max-width: 770px) {
+  @media (max-width: 993px) {
     #user_name {
       font-size: 0.8em; } }
   @media (max-width: 480px) {
     #user_name {
-      font-size: 0.5em; } }
+      font-size: 0.8em; } }
 
 /**Profile Section**/
 .profile_section {
@@ -553,7 +578,7 @@ nav.navbar {
       position: absolute;
       left: 1em;
       bottom: -1em; }
-      @media (max-width: 770px) {
+      @media (max-width: 993px) {
         .profile_section .profile_wrapper .profile_picture {
           height: 12em;
           width: auto; } }
@@ -562,21 +587,21 @@ nav.navbar {
           height: 6em;
           width: auto; } }
 
-.profile_links {
+#profile_links {
   margin-left: 21em;
   margin-bottom: 0;
   color: black; }
-  .profile_links a {
+  #profile_links a {
     color: black; }
-    .profile_links a:hover {
+    #profile_links a:hover {
       text-decoration: none; }
-  @media (max-width: 770px) {
-    .profile_links {
-      margin-left: 12em; } }
+  @media (max-width: 993px) {
+    #profile_links {
+      margin-left: 14em; } }
   @media (max-width: 480px) {
-    .profile_links {
+    #profile_links {
       margin-left: 8em; } }
-  .profile_links li {
+  #profile_links li {
     height: 3em;
     padding-top: 1em;
     font-size: 1em;
@@ -584,30 +609,50 @@ nav.navbar {
     text-align: center;
     border-right: 1px solid black;
     border-left: 1px solid black; }
-    .profile_links li .active {
+    #profile_links li .active {
       background-color: #636667; }
-    @media (max-width: 770px) {
-      .profile_links li {
-        margin-left: 2em;
+    @media (max-width: 993px) {
+      #profile_links li {
         font-size: 0.8em;
         width: 7em; } }
     @media (max-width: 480px) {
-      .profile_links li {
+      #profile_links li {
         margin-left: 0em; } }
-    .profile_links li span {
+    #profile_links li span {
       color: gray; }
-  .profile_links .list-group-item.active {
+  #profile_links .list-group-item.active {
     background-color: #b0b2b3;
     border-color: none; }
-  .profile_links li:last-child {
-    margin-left: 9em;
+  #profile_links li:last-child {
+    float: right;
+    margin-right: 1em;
     border-right: none;
-    border-left: none; }
-    @media (max-width: 770px) {
-      .profile_links li:last-child {
-        margin-left: 5em; } }
+    border-left: none;
+    text-decoration: underline; }
+    @media (max-width: 993px) {
+      #profile_links li:last-child {
+        margin-left: 5em;
+        float: none; } }
     @media (max-width: 480px) {
-      .profile_links li:last-child {
+      #profile_links li:last-child {
         margin-left: 3em; } }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 1px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: #080601; }
 
 /*# sourceMappingURL=styles.css.map */

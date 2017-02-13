@@ -3,15 +3,26 @@
 /*************LAYOUT***************/
 
 .about_section{
-		
+	padding-left: 0px;
+	padding-right: 0px;
+	border: $border;
+	margin-bottom: 5em;
+	>.row{
+		margin-right: 3em;
+		margin-left: 3em;
+	}
 }
 
 #about_header{
 	color: black;
+	background-color: lighten($gray,20%);
+	height: 2.5em;
+	border: $border;
+	line-height: 2em;
 	>div{		
 		text-align: center;
 		h3{
-			
+			margin-top: 5px;;
 			button{
 				float: right;
 		    margin-right: 1em;
@@ -19,6 +30,7 @@
 		    height: 1.5em;
 		    line-height: 0em;
 		    font-size: 0.5em;
+		    border-radius: 0px;
 		    color: white;
 		    background-color: $primary-color;
 			}
@@ -26,6 +38,15 @@
 	}
 }
 
+#column-right{
+	color: black;	
+	@media (max-width: $break-large){
+		padding-left: 3em;
+	}
+	@media (max-width: 768px){
+		padding-left: 15px;
+	}
+}
 
 
 /*******
