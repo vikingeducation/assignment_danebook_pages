@@ -52,4 +52,69 @@ body {
   border: 1px solid #e3e4e5;
   margin: 0; }
 
-/*# sourceMappingURL=timeline.css.map */
+
+.section-header {
+    background: #6398ed;
+    border: 1px solid #e3e4e5;
+}
+
+.photo-container {
+    border: 1px solid #e3e4e5;
+}
+
+.side-photo {
+  width: 80px;
+  display: inline-block;
+  border: 1px solid black;
+  float: left;
+  margin: 5px;
+}
+
+.side-text {
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+}
+
+.photo-container {
+    border: 1px solid #e3e4e5;
+}
+
+.photo-container p {
+
+    text-align: center;
+
+}
+
+.photo-container div {
+    width: 33%;
+}
+
+.box-border{
+   border: 2px solid black;
+   margin-top:10px;
+}
+
+ .box-header{
+   background-color: #e6e6e6;
+   border-bottom:2px solid black;
+}
+.box-title{
+   margin-top:10px;
+}
+
+.centered-text {
+    text-align: center;
+}
+.post-button {
+  text-align: right;
+}
+.post-title {
+  text-align: center;
+}
+.post-message {
+  clear: left;
+  margin-top: 10px;
+}
+
+
