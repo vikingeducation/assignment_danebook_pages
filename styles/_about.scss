@@ -28,7 +28,11 @@
 #column_left{
 	@extend %column_left;
 }
-
+form{
+	input{
+		display: inline;
+	}
+}
 
 /*******
 .about_section{

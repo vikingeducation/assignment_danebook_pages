@@ -77,17 +77,117 @@
             <h3>Edit Profile</h3>
           </div>
         </div>
-        <div class="row" >
-          <div class="col-sm-5 col-md-5" id="column_left">
-            <form action="#" method="#">
-              <h3>Basic Information</h3>
-            </form>
-            
+          <div class="row" >
+            <div class="col-sm-5 col-md-5" id="column_left">
+              <table class="table">
+                <th colspan="2"><h3>Basic Information</h3></th>
+                <tr>
+                  <td>
+                    <label for="edit_birthdate">Birthday:</label>
+                  </td>
+                  <td>
+                    <input class="form-control" type="date" value="year-month-day" id="edit_birthdate">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="edit_college">College:</label>
+                  </td>
+                  <td>
+                    <input class="form-control" type="text" value="Any College" id="edit_college">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="edit_hometown">Hometown:</label>
+                  </td>
+                  <td>
+                    <input class="form-control" type="text" value="Your Hometown" id="edit_hometown">  
+                  </td>
+                </tr>
+                <tr>
+                  <td><label for="edit_currently_lives">Currently Lives:</label></td>
+                  <td><input class="form-control" type="text" value="Where you at?" id="edit_currently_lives"></td>
+                </tr>
+              </table>
+              <table class="table" id="contact_info_table">
+                <th colspan="2">
+                  <h3>Contact Information</h3>
+                </th>
+                <tr>
+                  <td>
+                    <label for="edit_mail">Email:</label>
+                  </td>
+                  <td>
+                    <input class="form-control" type="email" value="your_email@email.com" id="edit_email">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label for="edit_telephone">Telephone:</label>
+                  </td>
+                  <td>
+                    <input class="form-control" type="text" value="000-000-0000" id="edit_telephone">
+                  </td>
+                </tr>                                 
+              </table>
+            </div>
+            <div class="col-sm-7 col-md-7" id="column-right">
+              <table class="table">
+                      <tr>
+                        <h3>Words to Live By</h3>
+                      </tr>
+                      <tr>
+                        <textarea name="edit_words_to_live_by" id="edit_words_to_live_by" cols="60" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni magnam dolorum iusto asperiores eveniet quos!
+                        </textarea>
+                      </tr>
+                      <tr>
+                        <h3>About Me</h3>
+                      </tr>
+                      <tr>
+                        <textarea name="edit_about_me" id="edit_about_me" cols="60" rows="10">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni magnam dolorum, cum nam animi eos quae, deleniti quidem fugit iusto asperiores dignissimos quibusdam. A porro aperiam perspiciatis adipisci, eveniet quos!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum repellat repudiandae inventore.
+              </textarea>
+                      </tr>
+                    </table>
+            </div>
           </div>
-          <div class="col-sm-7 col-md-7" id="column-right">
-            
-          </div>
+          <button class="" id="edit_save_button">Save Changes</button>
         </div>
       </section>
 		</main>
   </body>
+
+  <!-- <div class="row" >
+          <div class="col-sm-5 col-md-5" id="column_left">
+            <form action="#" method="#" class="form-group">
+              <h3>Basic Information</h3>
+              <label for="edit_birthdate">Birthday:</label>
+              <input class="form-control" type="date" value="year-month-day" id="edit_birthdate">
+              <label for="edit_college">College:</label>
+              <input class="form-control" type="text" value="Any College" id="edit_college">
+              <label for="edit_hometown">Hometown:</label>
+              <input class="form-control" type="text" value="Your Hometown" id="edit_hometown">
+              <label for="edit_currently_lives">Currently Lives:</label>
+              <input class="form-control" type="text" value="Where you at?" id="edit_currently_lives">
+              <h3>Contact Information</h3>
+              <label for="edit_mail">Email:</label>
+              <input class="form-control" type="email" value="your_email@email.com" id="edit_email">
+              <label for="edit_telephone">Telephone:</label>
+              <input class="form-control" type="text" value="000-000-0000" id="edit_telephone">
+            </form>
+            
+          </div>
+          <div class="col-sm-7 col-md-7" id="column-right">
+            <form class="form-group">
+              <h3>Words to Live By</h3>
+              <textarea name="edit_words_to_live_by" id="edit_words_to_live_by" cols="60" rows="5">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni magnam dolorum, cum nam animi eos quae, deleniti quidem fugit iusto asperiores dignissimos quibusdam. A porro aperiam perspiciatis adipisci, eveniet quos!
+              </textarea>
+              <h3>About Me</h3>
+              <textarea name="edit_about_me" id="edit_about_me" cols="60" rows="10">  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni magnam dolorum, cum nam animi eos quae, deleniti quidem fugit iusto asperiores dignissimos quibusdam. A porro aperiam perspiciatis adipisci, eveniet quos!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum repellat repudiandae tempora minus suscipit assumenda provident maiores voluptatem rem sequi minima sint, facere possimus voluptate quos, nemo libero distinctio inventore.
+              </textarea>   
+            </form>        
+          </div>
+        </div>
+        <div>-->

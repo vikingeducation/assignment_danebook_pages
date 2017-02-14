@@ -411,15 +411,15 @@ template {
     margin-right: 3em;
     margin-left: 3em; }
 
-#about_header {
+#about_header, #about_edit_header {
   color: black;
   background-color: #96999a;
   height: 2.5em;
   border: 1px solid #8C9193;
   line-height: 2em; }
-  #about_header > div {
+  #about_header > div, #about_edit_header > div {
     text-align: center; }
-    #about_header > div h3 {
+    #about_header > div h3, #about_edit_header > div h3 {
       margin-top: 5px; }
 
 #column-right {
@@ -449,6 +449,9 @@ template {
   background-color: #4D82EB; }
 
 /**Remove table border**/
+form input {
+  display: inline; }
+
 /*******
 .about_section{
 	height: auto;
@@ -534,16 +537,24 @@ template {
 *********/
 /****************************/
 /*************LAYOUT***************/
-#about_edit_header {
-  color: black;
-  background-color: #96999a;
-  height: 2.5em;
-  border: 1px solid #8C9193;
-  line-height: 2em; }
-  #about_edit_header > div {
-    text-align: center; }
-    #about_edit_header > div h3 {
-      margin-top: 5px; }
+#column-right #edit_about_me, #column-right #edit_words_to_live_by {
+  width: 100%; }
+
+#column_left {
+  /**Remove table border**/ }
+  #column_left th, #column_left td {
+    border-top: none;
+    padding: 0; }
+  #column_left td:first-child {
+    line-height: 2.5em; }
+
+#edit_save_button {
+  height: auto;
+  width: 50%;
+  font-size: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 1em 26% 4em; }
 
 /** NAV BAR **/
 nav.navbar {
