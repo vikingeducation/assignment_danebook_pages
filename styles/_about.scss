@@ -6,7 +6,7 @@
 	padding-left: 0px;
 	padding-right: 0px;
 	border: $border;
-	margin-bottom: 5em;
+	margin: 1em auto 5em;
 	>.row{
 		margin-right: 3em;
 		margin-left: 3em;
@@ -45,6 +45,12 @@
 	}
 	@media (max-width: 768px){
 		padding-left: 15px;
+	}
+}
+/**Remove table border**/
+#column_left{
+	td{
+		border-top: none;
 	}
 }
 

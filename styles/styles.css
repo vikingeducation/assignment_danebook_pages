@@ -408,7 +408,7 @@ template {
   padding-left: 0px;
   padding-right: 0px;
   border: 1px solid #8C9193;
-  margin-bottom: 5em; }
+  margin: 1em auto 5em; }
   .about_section > .row {
     margin-right: 3em;
     margin-left: 3em; }
@@ -442,6 +442,10 @@ template {
   @media (max-width: 768px) {
     #column-right {
       padding-left: 15px; } }
+
+/**Remove table border**/
+#column_left td {
+  border-top: none; }
 
 /*******
 .about_section{
@@ -593,6 +597,8 @@ nav.navbar {
   margin-left: 21em;
   margin-bottom: 0;
   color: black; }
+  #profile_links ul {
+    margin-bottom: 0; }
   #profile_links a {
     color: black; }
     #profile_links a:hover {
