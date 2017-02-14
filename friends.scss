@@ -3,8 +3,6 @@ body {
      padding-bottom: 20px;
  }
 
- nav {}
-
  #top-nav {
      background: #337ab7;
      height: 60px;
@@ -36,7 +34,7 @@ body {
  }
 
  #user-name {
-      color: white !important;
+     color: white !important;
      font-size: 22px;
  }
 
@@ -59,7 +57,12 @@ body {
      object-fit: none;
      object-position: top;
 
-}
+ }
+
+ #navigation-bar {
+    border: 1px solid #e3e4e5;
+    margin: 0;
+ }
 
 #about-panel {
     margin-top: 10px;
