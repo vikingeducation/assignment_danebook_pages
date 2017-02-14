@@ -1,3 +1,20 @@
 /****************************/
 /*************LAYOUT***************/
 
+.about_edit_section{
+	@extend %section;
+}
+
+#about_edit_header{
+	color: black;
+	background-color: lighten($gray,20%);
+	height: 2.5em;
+	border: $border;
+	line-height: 2em;
+	>div{		
+		text-align: center;
+		h3{
+			margin-top: 5px;;
+		}		
+	}
+}

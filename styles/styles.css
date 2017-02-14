@@ -402,14 +402,12 @@ template {
 [hidden] {
   display: none; }
 
-/****************************/
-/*************LAYOUT***************/
-.about_section {
+.about_section, .about_edit_section {
   padding-left: 0px;
   padding-right: 0px;
   border: 1px solid #8C9193;
   margin: 1em auto 5em; }
-  .about_section > .row {
+  .about_section > .row, .about_edit_section > .row {
     margin-right: 3em;
     margin-left: 3em; }
 
@@ -423,16 +421,6 @@ template {
     text-align: center; }
     #about_header > div h3 {
       margin-top: 5px; }
-      #about_header > div h3 button {
-        float: right;
-        margin-right: 1em;
-        margin-top: 4px;
-        height: 1.5em;
-        line-height: 0em;
-        font-size: 0.5em;
-        border-radius: 0px;
-        color: white;
-        background-color: #4D82EB; }
 
 #column-right {
   color: black; }
@@ -447,6 +435,20 @@ template {
 #column_left td {
   border-top: none; }
 
+/****************************/
+/*************LAYOUT***************/
+#about_header > div h3 button {
+  float: right;
+  margin-right: 1em;
+  margin-top: 4px;
+  height: 1.5em;
+  line-height: 0em;
+  font-size: 0.5em;
+  border-radius: 0px;
+  color: white;
+  background-color: #4D82EB; }
+
+/**Remove table border**/
 /*******
 .about_section{
 	height: auto;
@@ -532,6 +534,17 @@ template {
 *********/
 /****************************/
 /*************LAYOUT***************/
+#about_edit_header {
+  color: black;
+  background-color: #96999a;
+  height: 2.5em;
+  border: 1px solid #8C9193;
+  line-height: 2em; }
+  #about_edit_header > div {
+    text-align: center; }
+    #about_edit_header > div h3 {
+      margin-top: 5px; }
+
 /** NAV BAR **/
 nav.navbar {
   background-color: #4D82EB;
