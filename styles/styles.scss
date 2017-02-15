@@ -2,6 +2,7 @@
 @import "_variables.scss";
 @import "about.scss";
 @import "about_edit.scss";
+@import "friends.scss";
 
 
 
@@ -56,7 +57,7 @@ nav.navbar{
 	display: block;
 	border: $border;	
 	.profile_wrapper{
-		margin-top: 6em;
+		margin-top: 0em;
 		#profile_background{
 			color: black;
 			position: relative;

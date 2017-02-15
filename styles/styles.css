@@ -402,24 +402,24 @@ template {
 [hidden] {
   display: none; }
 
-.about_section, .about_edit_section {
+.about_section, .about_edit_section, .friend_section {
   padding-left: 0px;
   padding-right: 0px;
   border: 1px solid #8C9193;
   margin: 1em auto 5em; }
-  .about_section > .row, .about_edit_section > .row {
+  .about_section > .row, .about_edit_section > .row, .friend_section > .row {
     margin-right: 3em;
     margin-left: 3em; }
 
-#about_header, #about_edit_header {
+#about_header, #about_edit_header, #friend_header {
   color: black;
   background-color: #96999a;
   height: 2.5em;
   border: 1px solid #8C9193;
   line-height: 2em; }
-  #about_header > div, #about_edit_header > div {
+  #about_header > div, #about_edit_header > div, #friend_header > div {
     text-align: center; }
-    #about_header > div h3, #about_edit_header > div h3 {
+    #about_header > div h3, #about_edit_header > div h3, #friend_header > div h3 {
       margin-top: 5px; }
 
 #column-right {
@@ -556,6 +556,67 @@ form input {
   padding-bottom: 1em;
   margin: 1em 26% 4em; }
 
+/****************************/
+/*************LAYOUT***************/
+.friend_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.friend_box {
+  border: 1px solid #636667;
+  width: 45%;
+  display: flex;
+  margin: 2em auto; }
+  @media (max-width: 480px) {
+    .friend_box {
+      width: 100%; } }
+  @media (max-width: 993px) {
+    .friend_box {
+      width: 100%; } }
+  .friend_box img {
+    width: 7em;
+    height: auto;
+    margin: 0 0.5em; }
+    @media (max-width: 480px) {
+      .friend_box img {
+        width: 5em;
+        height: 100%; } }
+  .friend_box .friend_profile_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2em; }
+    @media (max-width: 480px) {
+      .friend_box .friend_profile_text {
+        margin: 0 1em; } }
+    .friend_box .friend_profile_text .friend_link {
+      color: #262625;
+      text-decoration: underline;
+      font-size: 1.2em;
+      font-weight: bold; }
+    .friend_box .friend_profile_text span {
+      color: #636667; }
+  .friend_box button {
+    height: 2.5em;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    align-self: center;
+    width: 8em;
+    box-shadow: 3px 3px 2px #888888; }
+    @media (max-width: 993px) {
+      .friend_box button {
+        height: 4em;
+        margin-left: 5em;
+        width: 6em; } }
+    @media (max-width: 480px) {
+      .friend_box button {
+        height: 2em;
+        margin-left: 0em;
+        width: 8em; } }
+
 /** NAV BAR **/
 nav.navbar {
   background-color: #4D82EB;
@@ -596,7 +657,7 @@ nav.navbar {
   display: block;
   border: 1px solid #8C9193; }
   .profile_section .profile_wrapper {
-    margin-top: 6em; }
+    margin-top: 0em; }
     .profile_section .profile_wrapper #profile_background {
       color: black;
       position: relative; }
