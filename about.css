@@ -1,0 +1,64 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 20px; }
+
+#top-nav {
+  background: #337ab7;
+  height: 60px;
+  z-index: 10100; }
+
+#logo-link {
+  padding-top: 10px;
+  margin-left: -15px; }
+
+#logo-text {
+  font-size: 30px;
+  color: white;
+  display: inline;
+  padding-top: 10px;
+  padding-left: 20px; }
+
+#logo {
+  height: 34px;
+  width: 34px;
+  display: inline; }
+
+#search-box {
+  margin-top: 5px;
+  width: 300%; }
+
+#user-name {
+  color: white !important;
+  font-size: 22px; }
+
+#cover-image {
+  width: 100%; }
+
+#cover-image-wrapper {
+  overflow: hidden;
+  height: 400px; }
+
+#profile-image {
+  width: 200px;
+  height: 200px;
+  z-index: 10000;
+  position: absolute;
+  left: 50px;
+  bottom: -10px;
+  object-fit: none;
+  object-position: top; }
+
+#about-panel {
+  margin-top: 10px; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+#navigation-bar {
+  border: 1px solid #e3e4e5;
+  margin: 0; }
+
+/*# sourceMappingURL=about.css.map */
