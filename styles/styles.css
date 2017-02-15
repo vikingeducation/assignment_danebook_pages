@@ -402,24 +402,24 @@ template {
 [hidden] {
   display: none; }
 
-.about_section, .about_edit_section, .friend_section {
+.about_section, .about_edit_section, .friend_section, .photos_section {
   padding-left: 0px;
   padding-right: 0px;
   border: 1px solid #8C9193;
   margin: 1em auto 5em; }
-  .about_section > .row, .about_edit_section > .row, .friend_section > .row {
+  .about_section > .row, .about_edit_section > .row, .friend_section > .row, .photos_section > .row {
     margin-right: 3em;
     margin-left: 3em; }
 
-#about_header, #about_edit_header, #friend_header {
+#about_header, #about_edit_header, #friend_header, #photos_header {
   color: black;
   background-color: #96999a;
   height: 2.5em;
   border: 1px solid #8C9193;
   line-height: 2em; }
-  #about_header > div, #about_edit_header > div, #friend_header > div {
+  #about_header > div, #about_edit_header > div, #friend_header > div, #photos_header > div {
     text-align: center; }
-    #about_header > div h3, #about_edit_header > div h3, #friend_header > div h3 {
+    #about_header > div h3, #about_edit_header > div h3, #friend_header > div h3, #photos_header > div h3 {
       margin-top: 5px; }
 
 #column-right {
@@ -616,6 +616,36 @@ form input {
         height: 2em;
         margin-left: 0em;
         width: 8em; } }
+
+#photos_header > div h3 button {
+  float: right;
+  margin-right: 1em;
+  margin-top: 4px;
+  height: 1.5em;
+  line-height: 0em;
+  font-size: 0.5em;
+  border-radius: 0px;
+  color: white;
+  background-color: #4D82EB; }
+
+.photos_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .photos_body img {
+    width: 22%;
+    height: 22%;
+    border: 1px solid #636667;
+    background-color: #e4e5e5;
+    margin: 0.5em auto; }
+    @media (max-width: 993px) {
+      .photos_body img {
+        width: 30%;
+        height: 30%; } }
+    @media (max-width: 480px) {
+      .photos_body img {
+        width: 45%;
+        height: 45%; } }
 
 /** NAV BAR **/
 nav.navbar {

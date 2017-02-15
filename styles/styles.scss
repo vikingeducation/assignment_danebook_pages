@@ -3,6 +3,7 @@
 @import "about.scss";
 @import "about_edit.scss";
 @import "friends.scss";
+@import "photos.scss";
 
 
 
@@ -47,7 +48,7 @@ nav.navbar{
 	}
 	@media (max-width: $small-break){
 				font-size: 0.8em;
-			}
+	}
 }
 
 /**Profile Section**/

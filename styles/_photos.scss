@@ -1,0 +1,39 @@
+.photos_section{
+	@extend %section;
+}
+
+#photos_header{
+	@extend %section_header;
+	>div h3 button{
+		float: right;
+    margin-right: 1em;
+    margin-top: 4px;
+    height: 1.5em;
+    line-height: 0em;
+    font-size: 0.5em;
+    border-radius: 0px;
+    color: white;
+    background-color: $primary-color;
+	}
+}
+
+.photos_body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	img{
+		width: 22%;
+		height: 22%;
+		border: 1px solid $gray;
+		background-color: lighten($gray,50%);
+		margin: 0.5em auto;
+		@media (max-width: $break-large){		
+			width: 30%;
+			height: 30%;
+		}
+		@media (max-width: $small-break){
+			width: 45%;
+			height: 45%;
+		}
+	}
+}
