@@ -659,6 +659,12 @@ form input {
         width: 45%;
         height: 45%; } }
 
+/****************************/
+/*************LAYOUT***************/
+.timeline_section {
+  margin-top: 1em;
+  margin-bottom: 4em; }
+
 /** NAV BAR **/
 nav.navbar {
   background-color: #4D82EB;
