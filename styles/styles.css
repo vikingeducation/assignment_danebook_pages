@@ -632,18 +632,30 @@ form input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
-  .photos_body img {
-    width: 22%;
-    height: 22%;
+  .photos_body figure {
+    width: 23%;
+    height: 20%;
     border: 1px solid #636667;
     background-color: #e4e5e5;
-    margin: 0.5em auto; }
+    margin: 1.2em auto;
+    position: relative; }
+    .photos_body figure img {
+      width: 100%; }
+    .photos_body figure figcaption {
+      position: absolute;
+      bottom: 2em;
+      background-color: #636667;
+      opacity: 0.8;
+      width: 100%;
+      display: none; }
+    .photos_body figure:hover figcaption {
+      display: block; }
     @media (max-width: 993px) {
-      .photos_body img {
+      .photos_body figure {
         width: 30%;
         height: 30%; } }
     @media (max-width: 480px) {
-      .photos_body img {
+      .photos_body figure {
         width: 45%;
         height: 45%; } }
 

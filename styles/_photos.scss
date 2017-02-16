@@ -21,12 +21,29 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	img{
-		width: 22%;
-		height: 22%;
+	figure{
+		width: 23%;
+		height: 20%;
 		border: 1px solid $gray;
 		background-color: lighten($gray,50%);
-		margin: 0.5em auto;
+		margin: 1.2em auto;
+		position: relative;
+		img{
+			width: 100%;
+		}
+		figcaption{
+			position: absolute;
+			bottom: 2em;
+			background-color: $gray;
+			opacity: 0.8;
+			width: 100%;
+			display: none;			
+		}
+		&:hover{
+			figcaption{
+				display: block;
+			}
+		}
 		@media (max-width: $break-large){		
 			width: 30%;
 			height: 30%;
