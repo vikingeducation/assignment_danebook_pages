@@ -2,7 +2,51 @@
 /****************************/
 /*************LAYOUT***************/
 
-.timeline_section{
+#timeline_section{
 	margin-top: 1em;
-	margin-bottom: 4em;
+	margin-bottom: 12em;
+}
+/*** ASIDE LAYOUT***/
+aside{
+	.aside_header{
+		text-align: center;
+	}
+}
+
+
+/**Photos**/
+#aside_photos{
+	.aside_body{
+		display: flex;
+		flex-wrap: wrap;
+		figure{
+			display: inline;
+			margin: 1em 0.5em;
+			img{
+				width: 7.5em;
+			}
+		}
+	}
+	a{
+		display: block;
+		text-align: center;
+	}
+}
+
+/**friends**/
+#aside_friend{
+	div #aside_profile_wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		figure{
+			margin: 1em 0.5em;
+			img{
+				width: 7.5em;
+			}
+		}
+	}
+	a{
+		display: block;
+		text-align: center;
+	}
 }

@@ -661,9 +661,41 @@ form input {
 
 /****************************/
 /*************LAYOUT***************/
-.timeline_section {
+#timeline_section {
   margin-top: 1em;
-  margin-bottom: 4em; }
+  margin-bottom: 12em; }
+
+/*** ASIDE LAYOUT***/
+aside .aside_header {
+  text-align: center; }
+
+/**Photos**/
+#aside_photos .aside_body {
+  display: flex;
+  flex-wrap: wrap; }
+  #aside_photos .aside_body figure {
+    display: inline;
+    margin: 1em 0.5em; }
+    #aside_photos .aside_body figure img {
+      width: 7.5em; }
+#aside_photos a {
+  display: block;
+  text-align: center; }
+
+/**friends**/
+#aside_friend div #aside_profile_wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+  #aside_friend div #aside_profile_wrapper figure {
+    margin: 1em 0.5em; }
+    #aside_friend div #aside_profile_wrapper figure img {
+      width: 7.5em; }
+#aside_friend a {
+  display: block;
+  text-align: center; }
+
+* {
+  outline: 1px solid gray; }
 
 /** NAV BAR **/
 nav.navbar {
