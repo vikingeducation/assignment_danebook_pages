@@ -1,0 +1,38 @@
+/****************************/
+/*************LAYOUT***************/
+
+.about_edit_section{
+	@extend %section;
+}
+
+#about_edit_header{
+	@extend %section_header;
+}
+
+#column-right{
+	@extend %column_right;
+	#edit_about_me, #edit_words_to_live_by{
+		width: 100%;
+	}
+}
+
+#column_left{
+	@extend %column_left;/**Remove table border**/
+	th, td{
+		border-top: none;
+		padding: 0;
+	}
+	td:first-child{
+		line-height: 2.5em;
+		
+	}
+}
+
+#edit_save_button{
+	height: auto;
+	width: 50%;
+	font-size: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 1em 26% 4em;
+}

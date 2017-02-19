@@ -1,1 +1,282 @@
 <!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Danebook</title>
+
+    <!-- Latest bootstrap compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body class="container">
+  	<!-- Navigation Bar -->		
+		<nav class="navbar navbar-default container-fluid navbar-fixed-top">
+			<!-- Logo -->
+			<div class="navbar col-xs-9 col-md-4">
+				<a class="navbar-brand" href="home" id="logo_text"><img src="images/danish_flag.gif" class="img-circle">Danebook</a>
+			</div>
+				<!-- search bar -->
+			<div class="col-xs-3 col-md-6 form-inline collapsed" id="searchbar">
+				<label class="sr-only" for="searchbar" >Searchbar</label>
+				<input class="form-control disabled" type="search" name="searchbar">
+				<input class= "btn disabled" type="submit" placeholder="Search for users">
+			</div>
+				<!-- Nav name -->
+			<div class="col-xs-2 col-md-2" id="user_name">
+				Harry
+			</div>			
+		</nav>
+		<main>
+			<!--Profile Section-->
+			<section class="profile_section">				
+				<div class="profile_wrapper">
+					<div id="profile_background">
+					<!--Profile background-->
+						<img id= "profile_background_image" src="images/hogwarts_small.jpg" alt="profile background">
+					<!-- profile pic-->
+						<img class="profile_picture" src="images/user_silhouette_generic.gif" alt="profile picture">
+					</div>
+					<!-- profile menu-->
+
+					<!--Hamburger menu-->
+					<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#profile_links" aria-expanded="false" id="menu_expand">
+						<span class="sr-only">Toggle Profile links</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					</div>
+					<div class="collapse navbar-collapse" id="profile_links">
+						<ul class="list-inline" >
+						<label class="sr-only" for="Timeline">Timeline</label>
+						<li class="list-group-item active"><a href="timeline.html">Timeline</a></li>
+						<label class="sr-only" for="About">About</label>
+						<li class="list-group-item" name="About"><a href="about.html">About</a></li>
+						<label class="sr-only" for="Photos">Photos</label>
+						<li class="list-group-item" name="Photos"><a href="photos.html">Photos&nbsp<span>(123)</span></a></li>
+						<label class="sr-only" for="Friends" name="Friends">Friends</label>
+						<li class="list-group-item"><a href="friends.html">Friends&nbsp<span>(321)</span></a></li>
+						<label class="sr-only" for="Edit_Profile">Edit Profile</label>
+						<li class="" name="Edit_Profile"><a href="about_edit.html">Edit Profile</a></li>
+						</ul>			
+					</div>	
+				</div>
+			</section>
+			<!--*****timeline section*****-->
+			<section class="container-fluid" id="timeline_section">
+				<div class="section_wrapper row">
+				<!-- left column -->
+					<div class="col-md-4" id="left_column">
+					<!--  about aside-->
+						<aside id="aside_about">
+							<div class="aside_header">
+									<h4>About</h4>
+							</div>
+							<div class="aside_body">
+								<table class="table table-responsive">
+									<tr>
+										<td>Birthday:</td>
+										<td>July, 31st, 1980</td>
+									</tr>
+									<tr>
+										<td>College:</td>
+										<td>Hogwarts College</td>
+									</tr>
+									<tr>
+										<td>Hometown:</td>
+										<td>Godrick's Hollow, England</td>
+									</tr>
+									<tr>
+										<td>Currently Lives:</td>
+										<td>Godrick's Hollow, England</td>
+									</tr>
+								</table>
+							</div>
+						</aside>
+						<!--  photos aside-->
+						<aside id="aside_photos">
+							<div class="aside_header">
+									<h4>Photos (<span>123</span>)</h4>
+							</div>
+							<div class="aside_body">
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+								<figure class="aside_images"><img src="images/icon_photo_small.png" alt="user images in aside"></figure>
+							</div>
+							<div class="sr-only">opens photos page</div>
+							<a href="#">See more Photos</a>
+						<!--  friends aside-->
+						</aside>
+						<aside id="aside_friend">
+							<div class="aside_header">
+									<h4>Friends (<span>542</span>)</h4>
+							</div>
+							<div class="aside_body">
+								<div id="aside_profile_wrapper">
+									<figure class="aside_images">
+										<img src="images/user_silhouette_generic.gif" alt="friend images in aside">
+										<figcaption><a href="#">Ron Weasley</a></figcaption>
+									</figure>
+									<figure class="aside_images">
+										<img src="images/user_silhouette_generic.gif" alt="friend images in aside">
+										<figcaption><a href="#">Ron Weasley</a></figcaption>
+									</figure>
+									<figure class="aside_images">
+										<img src="images/user_silhouette_generic.gif" alt="friend images in aside">
+										<figcaption><a href="#">Ron Weasley</a></figcaption>
+									</figure>
+									<figure class="aside_images">
+										<img src="images/user_silhouette_generic.gif" alt="friend images in aside">
+										<figcaption><a href="#">Ron Weasley</a></figcaption>
+									</figure>
+									<figure class="aside_images">
+										<img src="images/user_silhouette_generic.gif" alt="friend images in aside">
+										<figcaption><a href="#">Ron Weasley</a></figcaption>
+									</figure>
+									<figure class="aside_images">
+										<img src="images/user_silhouette_generic.gif" alt="friend images in aside">
+										<figcaption><a href="#">Ron Weasley</a></figcaption>
+									</figure>
+								</div>
+							</div>
+							<div class="sr-only">opens friends page</div>
+							<a href="#">See More Friends</a>
+						</aside>
+					</div>
+				<!--  Right Column-->
+					<div class="col-md-8" id="right_column">				
+						<!--  New post-->
+						<div id="new_post_wrapper">
+							<div id="new_post_head">
+								<h4>Post</h4>
+							</div>
+							<div id="new_post_body">
+								<textarea placeholder="Tell the world something..."></textarea>
+							</div>
+							<div id="new_post_foot">
+								<button type="submit">Post</button>
+							</div>
+						</div>
+						<!--  recent posts-->
+						<div class="post_wrapper">
+							<div class="post_head">
+								<figure><img src="images/user_silhouette_generic.gif" alt="post image"></figure>
+								<div>
+									<a id="to_profile_link" href="#" name="to profile page">Harry Potter</a>
+									<span>Posted on <time datetime="2014-01-06">Thursday 6/1/2014</time></span>
+								</div>
+							</div>							
+							<div class="post_body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque explicabo suscipit blanditiis sapiente perferendis tempora obcaecati dolorem delectus nobis deserunt voluptatem beatae quod dicta dolor at, magni in architecto quibusdam.	
+							</div>			
+							<div class="post_foot">
+								<div class="post_foot_links">
+									<a href="#">Like</a>
+									<a href="#">Comment</a>
+									<a href="#">Delete</a>
+								</div>
+							</div>	
+						</div>
+						<div class="post_wrapper">
+							<div class="post_head">
+								<figure><img src="images/user_silhouette_generic.gif" alt="post image"></figure>
+								<div>
+									<a id="to_profile_link" href="#" name="to profile page">Harry Potter</a>
+									<span>Posted on <time datetime="2014-05-21">Thursday 5/21/2014</time></span>
+								</div>
+							</div>							
+							<div class="post_body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque explicabo suscipit blanditiis sapiente perferendis tempora obcaecati dolorem delectus nobis deserunt voluptatem beatae quod dicta dolor at, magni in architecto quibusdam.	
+							</div>			
+							<div class="post_foot">
+								<div class="post_foot_links">
+									<a href="#">Like</a>
+									<a href="#">Comment</a>
+									<a href="#">Delete</a>
+								</div>
+								<div class="post_like_text">
+									<a href="#" id="to_profile_link">Hermione Granger</a>
+									<span>likes this.</span>
+								</div>
+							</div>	
+						</div><!--Close post wrapper  -->	
+						<div class="post_wrapper">
+							<div class="post_head">
+								<figure><img src="images/user_silhouette_generic.gif" alt="post image"></figure>
+								<div>
+									<a id="to_profile_link" href="#" name="to profile page">Harry Potter</a>
+									<span>Posted on <time datetime="2014-05-21">Thursday 5/21/2014</time></span>
+								</div>
+							</div>							
+							<div class="post_body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque explicabo suscipit blanditiis sapiente perferendis tempora obcaecati dolorem delectus nobis deserunt voluptatem beatae quod dicta dolor at, magni in architecto quibusdam.	
+							</div>			
+							<div class="post_foot">
+								<div class="post_foot_links">
+									<a href="#">Unike</a>
+									<a href="#">Comment</a>
+									<a href="#">Delete</a>
+								</div>
+								<div class="post_like_text">
+									<span>You and</span>
+									<a href="#" id="to_profile_link">Hermione Granger</a>
+									<span>and 3 others likes this.</span>
+								</div>
+								<!--Comments-->
+								<hr>
+								<div class="comment_wrapper">
+									<div class="comment comment_head">
+										<figure><img src="images/user_silhouette_generic.gif" alt="post image"></figure>
+										<div>
+											<a id="to_profile_link" href="#" name="to profile page">Ron Weasley</a>
+											<span>Posted on <time datetime="2014-05-21">Thursday 5/21/2014</time></span>	
+											<div class="comment_body">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque explicabo suscipit blanditiis sapiente perferendis tempora obcaecati dolorem delectus nobis deserunt voluptatem beatae quod dicta dolor at, magni in architecto quibusdam.	
+											</div>		
+											<div class="comment_links">
+												<a href="#">Like</a>
+												<span>3 other people like this.</span>
+											</div>						
+										</div>
+									</div>
+									<div class="comment comment_head">
+										<figure><img src="images/user_silhouette_generic.gif" alt="post image"></figure>
+										<div>
+											<a id="to_profile_link" href="#" name="to profile page">Ron Weasley</a>
+											<span>Posted on <time datetime="2014-05-21">Thursday 5/21/2014</time></span>	
+											<div class="comment_body">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque explicabo suscipit blanditiis sapiente perferendis tempora obcaecati dolorem delectus nobis deserunt voluptatem beatae quod dicta dolor at, magni in architecto quibusdam.	
+											</div>		
+											<div class="comment_links">
+												<a href="#">Like</a>
+												<span>3 other people like this.</span>
+												<a href="#">Delete</a>
+											</div>						
+										</div>
+									</div>
+									<!--New Coment-->
+									<textarea placeholder="Write a comment..."></textarea>						
+								</div>
+							</div>	
+						</div><!--Close post wrapper  -->		
+					</div><!-- Close Right Column -->
+				</div>
+			</section>			
+		</main>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>

@@ -1,1 +1,138 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Danebook</title>
+
+    <!-- Latest bootstrap compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body class="container">
+        
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default container-fluid navbar-fixed-top">
+      <!-- Logo -->
+      <div class="navbar col-xs-9 col-md-4">
+        <a class="navbar-brand" href="home" id="logo_text"><img src="images/danish_flag.gif" class="img-circle">Danebook</a>
+      </div>
+      <!-- search bar -->
+      <div class="col-xs-3 col-md-6 form-inline collapsed" id="searchbar">
+        <label class="sr-only" for="searchbar" >Searchbar</label>
+        <input class="form-control disabled" type="search" name="searchbar">
+        <input class= "btn disabled" type="submit" placeholder="Search for users">
+      </div>
+      <!-- Nav name -->
+      <div class="col-xs-2 col-md-2" id="user_name">
+        Harry
+      </div>      
+    </nav>
+
+    <main>
+      <!--Profile Section-->
+      <section class="profile_section">       
+        <div class="profile_wrapper">
+          <div id="profile_background">
+          <!--Profile background-->
+            <img id= "profile_background_image" src="images/hogwarts_small.jpg" alt="profile background">
+          <!-- profile pic-->
+            <img class="profile_picture" src="images/user_silhouette_generic.gif" alt="profile picture">
+          </div>
+        <!-- profile menu-->
+
+          <!--Hamburger menu-->
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#profile_links" aria-expanded="false">
+            <span class="sr-only">Toggle Profile links</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>
+          <div class="collapse navbar-collapse" id="profile_links">
+            <ul class="list-inline" >
+            <label class="sr-only" for="Timeline">Timeline</label>
+            <li class="list-group-item"><a href="timeline.html">Timeline</a></li>
+            <label class="sr-only" for="About">About</label>
+            <li class="list-group-item" name="About"><a href="about.html">About</a></li>
+            <label class="sr-only" for="Photos">Photos</label>
+            <li class="list-group-item active" name="Photos"><a href="photos.html">Photos&nbsp<span>(123)</span></a></li>
+            <label class="sr-only" for="Friends" name="Friends">Friends</label>
+            <li class="list-group-item"><a href="friends.html">Friends&nbsp<span>(321)</span></a></li>
+            <label class="sr-only" for="Edit_Profile">Edit Profile</label>
+            <li class="" name="Edit_Profile"><a href="about_edit.html">Edit Profile</a></li>
+            </ul>   
+          </div>  
+        </div>
+      </section>
+       <!--Photos-->
+      <section class="photos_section">
+        <div id="photos_header">
+          <div>
+            <h3>Photos<button class="btn">Add Photo</button></h3>
+          </div>
+        </div>
+          <div class="photos_body" >
+            <!--Friend profiles-->
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>
+            <figure>
+              <img src="images/icon_photo_small.png" alt="sample image">
+              <figcaption>Uploaded December 12 2016</figcaption>
+            </figure>   
+          </div>          
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,172 @@
+@import "_reset.scss";
+@import "_variables.scss";
+//other pages
+@import "about.scss";
+@import "about_edit.scss";
+@import "friends.scss";
+@import "photos.scss";
+@import "timeline.scss";
+
+
+
+/** NAV BAR **/
+nav.navbar{
+	background-color: $primary-color;
+	font-size: 2em;
+	color: $white;
+	padding-top: 20px;
+	height: 3em;
+	.navbar-brand{
+		padding: 0;
+		font-size: 1.2em;
+		img{
+			height: 100%;
+  		padding: 15px;
+  		display: inline;
+		}
+	}
+
+	#searchbar{
+		input[type="search"]{
+			width: 80%;						
+		}
+		@media (max-width: 1000px){
+				display: none;
+			}
+	}	
+}
+
+#logo_text{ 
+	color: $white;
+	@media (max-width: $break-large){		
+		font-size: 1em;
+	}
+}
+
+#user_name{
+	text-align: center;
+	@media (max-width: $break-large){		
+			font-size: 0.8em;
+	}
+	@media (max-width: $small-break){
+				font-size: 0.8em;
+	}
+}
+
+/**Profile Section**/
+
+
+.profile_section{
+	display: block;
+	border: $border;	
+	.profile_wrapper{
+		margin-top: 0em;
+		#profile_background{
+			color: black;
+			position: relative;
+		}
+		#profile_background_image{		
+			width: 100%;
+			z-index:0;			
+		}
+		.profile_picture{
+			z-index: 2;
+			position: absolute;
+			left: 1em;
+			bottom: -1em;
+			@media (max-width: $break-large){
+				height: 12em;
+				width: auto;
+			}
+			@media (max-width: $small-break){
+				height: 6em;
+				width: auto;
+				
+			}
+		}
+	}
+}
+
+#profile_links{
+	margin-left: 21em;
+	margin-bottom: 0;
+	color: black;
+	ul{
+		margin-bottom: 0;
+	}
+	a{
+		color: black;
+		&:hover{
+    		text-decoration: none;
+  	}
+  }
+	@media (max-width: $break-large){
+				margin-left: 14em;
+			}
+    @media (max-width: $small-break){
+			margin-left: 8em;			
+	}
+	li{
+		height: 3em;
+    padding-top: 1em;
+    font-size: 1em;
+    width: 7em;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    .active{
+			background-color: $gray;
+		}
+    @media (max-width: $break-large){
+    		
+				font-size: 0.8em;
+    		width: 7em;
+		}
+    @media (max-width: $small-break){
+				margin-left: 0em;
+		}
+		span{
+			color: gray;
+		}
+	}
+
+	.list-group-item.active{
+		background-color: lighten($gray,30);
+		border-color: none;
+	}
+	
+	li:last-child{
+		float: right;
+    margin-right: 1em;
+		border-right: none;
+    border-left: none;
+    text-decoration: underline;
+    	@media (max-width: $break-large){
+				margin-left: 5em;
+				float:none;
+			}
+    	@media (max-width: $small-break){
+				margin-left: 3em;
+			
+		}
+	}
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 1px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #080601;
+}

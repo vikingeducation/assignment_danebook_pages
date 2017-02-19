@@ -1,0 +1,202 @@
+
+/****************************/
+/*************LAYOUT***************/
+#left_column, #right_column{
+	padding-right: 0;
+}
+
+#timeline_section{
+	margin-top: 1em;
+	margin-bottom: 12em;
+}
+/*** ASIDE LAYOUT LEFT COLUMN***/
+aside{
+	.aside_header{
+		text-align: center;
+	}
+}
+
+
+/**Photos**/
+#aside_photos{
+	.aside_body{
+		display: flex;
+		flex-wrap: wrap;
+		figure{
+			display: inline;
+			margin: 1em 0.5em;
+			img{
+				width: 7.5em;
+			}
+		}
+	}
+	a{
+		display: block;
+		text-align: center;
+	}
+}
+
+/**friends**/
+#aside_friend{
+	div #aside_profile_wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		figure{
+			margin: 1em 0.5em;
+			img{
+				width: 7.5em;
+			}
+		}
+	}
+	a{
+		display: block;
+		text-align: center;
+	}
+}
+
+/*** POSTS RIGHT COLUMN***/
+#new_post_wrapper{
+	margin: 0 auto;
+	border: 1px solid black;
+	#new_post_head{
+		height: 2em;
+		vertical-align: middle;
+		padding-top: 5px;
+		text-align: center;
+		background-color: lighten($gray,30);	
+		h4{
+			margin: 0 auto;
+		}
+	}
+	#new_post_body{
+		textarea{
+			display: block;
+		  margin: 1em auto;
+			height: 5em;
+		  width: 95%;
+		  resize: none;
+
+		}
+	}
+	#new_post_foot{
+		height: 2em;
+		clear: both;
+		background-color: lighten($gray,30);
+		border-top: 1px solid black;
+		button{
+			float: right;
+			margin-right: 2em;
+			
+			width: 5em;
+			color: $white;
+			background-color: $gray;
+		}
+	}
+}
+
+/***Uploaded Posts***/
+
+#to_profile_link{
+	width: 100%;
+	display: inline-block;
+	text-decoration: underline;		
+	font-size: 1.2em;		
+	color: $gray;
+}
+.comment_head, .post_head{
+	figure{
+		display: inline-block;
+		margin: 10px 10px;
+		img{
+			width: 3em;
+		}
+	}
+	div{
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.post_wrapper{
+	margin-top: 2em;
+	border:1.5px solid black;	
+	.post_body{
+		padding: 1em;
+	}
+	.post_foot{		
+		background-color: lighten($gray,30);
+		border-top: 1px solid black;
+		.post_foot_links{	
+			height: 1.5em;
+			a{
+				float: left; 
+				margin: 0 1em;
+				color: $white;
+				text-decoration: underline;
+			}
+			a:last-child{
+				float: right;
+			}
+		}
+		.post_like_text{
+			clear: both;
+			margin: 0 1em;
+			#to_profile_link{
+				display: inline;
+			}
+		}
+		hr{
+			width: 100%;
+			background-color: $gray;
+			margin: 5px auto;
+			font-size: 1px;
+		}
+		.comment_wrapper{
+			margin-left: 1em;
+			.comment_head{
+				figure{
+					float: left;
+				}
+				div{
+					width: 85%;
+					margin-top: 1em;
+					margin-bottom: 0em; 
+					#to_profile_link{
+						display: inline;
+					}
+					@media (max-width: $small-break){
+						width: 80%;
+					}
+					.comment_links{
+						a{
+							color: $white;
+						}
+						a:last-child{
+							float: right;
+							margin-right: 1em;
+						}	
+					}
+				}
+			}
+			textarea{
+				height: 4em;
+				resize: none;
+				width: 98%;
+				margin:2em auto;
+			}
+		} //end comment_wrapper
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

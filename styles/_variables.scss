@@ -1,0 +1,58 @@
+//colors
+
+$white: #F4FEFF;
+$primary-color: #4D82EB;
+$gray: #636667;
+$black: #262625;
+
+//media breaks
+$break-large: 993px;
+$small-break: 480px;
+
+//border
+
+$border: 1px solid #8C9193;
+
+//extends
+	//section content
+	%section{
+	padding-left: 0px;
+	padding-right: 0px;
+	border: $border;
+	margin: 1em auto 5em;
+	>.row{
+		margin-right: 3em;
+		margin-left: 3em;
+	}
+}
+	//section content header
+	%section_header{
+	color: black;
+	background-color: lighten($gray,20%);
+	height: 2.5em;
+	border: $border;
+	line-height: 2em;
+	>div{		
+		text-align: center;
+		h3{
+			margin-top: 5px;;
+		}		
+	}
+}
+	//section column right
+	%column_right{
+	color: black;	
+	@media (max-width: $break-large){
+		padding-left: 3em;
+	}
+	@media (max-width: 768px){
+		padding-left: 15px;
+	}
+}
+	//section column left
+/**Remove table border**/
+%column_left{
+	td{
+		border-top: none;
+	}
+}
