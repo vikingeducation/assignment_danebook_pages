@@ -1,6 +1,9 @@
 
 /****************************/
 /*************LAYOUT***************/
+#left_column, #right_column{
+	padding-right: 0;
+}
 
 #timeline_section{
 	margin-top: 1em;
