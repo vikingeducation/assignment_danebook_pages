@@ -1,0 +1,11 @@
+.navbar {
+  background-color: royalblue; }
+  .navbar .img-circle {
+    height: 50px; }
+  .navbar p {
+    font-size: 16px;
+    font-weight: bold; }
+  .navbar .navbar-form {
+    width: 600px; }
+
+/*# sourceMappingURL=about.css.map */
