@@ -1,15 +1,39 @@
-.navbar {
+#navbar-primary {
   background-color: royalblue;
   border-bottom: 1px black solid;
   height: 50px; }
-  .navbar .img-circle {
+  #navbar-primary .img-circle {
     height: 25px; }
-  .navbar .navbar-text {
+  #navbar-primary .navbar-text {
     font-size: 24px;
     line-height: 1; }
 
-.no-padding {
-  padding-left: 0;
-  padding-right: 0; }
+#cover-photo-container {
+  background-image: url(../images/hogwarts_small.jpg);
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  height: 400px; }
+
+#user-name {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 200px; }
+
+#profile-pic {
+  width: 150px;
+  height: auto;
+  margin-top: -200px; }
+
+#edit-profile {
+  padding-right: 20px;
+  text-decoration: underline; }
+
+.current-page {
+  background-color: #eeeeee; }
+
+.navbar-second {
+  background-color: #fff; }
 
 /*# sourceMappingURL=about.css.map */
