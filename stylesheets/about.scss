@@ -19,6 +19,7 @@
 	background-position: center;
 	position: relative;
 	height: 400px;
+	border: 1px solid black;
 }
 
 #user-name {
@@ -45,4 +46,19 @@
 
 .navbar-second {
 	background-color: #fff;
+
+	ul{
+		li {
+			a {
+				color: black;
+			}
+		}
+	}
+}
+
+about-header {
+	
+	#about-section-header{
+		background-color: #eeeeee;
+	}
 }

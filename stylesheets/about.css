@@ -13,7 +13,8 @@
   background-size: 100%;
   background-position: center;
   position: relative;
-  height: 400px; }
+  height: 400px;
+  border: 1px solid black; }
 
 #user-name {
   color: white;
@@ -35,5 +36,10 @@
 
 .navbar-second {
   background-color: #fff; }
+  .navbar-second ul li a {
+    color: black; }
+
+about-header #about-section-header {
+  background-color: #eeeeee; }
 
 /*# sourceMappingURL=about.css.map */
