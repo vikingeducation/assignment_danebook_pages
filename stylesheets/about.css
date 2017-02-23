@@ -35,11 +35,25 @@
   background-color: #eeeeee; }
 
 .navbar-second {
-  background-color: #fff; }
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0; }
   .navbar-second ul li a {
     color: black; }
 
-about-header #about-section-header {
-  background-color: #eeeeee; }
+.about-header {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+  .about-header #about-section-header {
+    background-color: #eeeeee;
+    border: 1px solid black; }
+
+#about-info-box {
+  border: 1px solid black;
+  margin-bottom: 50px; }
+  #about-info-box h3 {
+    font-weight: bold;
+    padding-left: 10px; }
 
 /*# sourceMappingURL=about.css.map */

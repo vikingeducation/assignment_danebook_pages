@@ -24,17 +24,25 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" id="navbar-secondary-toggle-button" data-toggle="collapse" data-target="#navbar-secondary-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="about.html"><img src="images/danish_flag.gif" class="img-circle">
           </a>
           <p class="navbar-text" style="color: white;">Danebook</p>
         </div>
-        <form class="navbar-form navbar-left" role="search">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search for Users">
+        <div class="collapse navbar-collapse">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search for Users">
+            </div>
+          </form>
+          <div class="navbar-right">
+            <p class="navbar-text" style="color: white;">Harry</p>
           </div>
-        </form>
-        <div class="navbar-right">
-          <p class="navbar-text" style="color: white;">Harry</p>
         </div>
       </div><!-- /.container -->
     </nav>
@@ -94,8 +102,8 @@
             <h2 class="text-center">About</h2>
           </div>
         </div>
-        <div>
-          <div class="col-sm-4 col-sm-offset-1">
+        <div class="row" id="about-info-box">
+          <div class="col-sm-4">
             <div class="row" id="basic-information">
               <h3>Basic Information</h3>
               <div class="col-xs-6">
@@ -110,7 +118,6 @@
                 <p>Godrick's Hollow, England</p>
                 <p>Godrick's Hollow, England</p>
               </div>
-
             </div>
             <div class="row" id="contact-information">
               <h3>Contact Information</h3>
@@ -122,11 +129,18 @@
                 <p>harry_potter@hogwarts.edu</p>
                 <p>555-123-4567</p>
               </div>
-
             </div>
           </div>
           <div class="col-sm-7">
-            <p>Cleveland</p>
+            <h3>Words to Live By</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <h3>About Me</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
