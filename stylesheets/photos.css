@@ -55,5 +55,14 @@
   #about-info-box h3 {
     font-weight: bold;
     padding-left: 10px; }
+  #about-info-box .hover-wrapper {
+    margin: auto; }
+    #about-info-box .hover-wrapper a {
+      border: 1px solid black; }
+  #about-info-box .hover-wrapper .hover-text {
+    position: relative;
+    visibility: hidden; }
+  #about-info-box .hover-wrapper:hover .hover-text {
+    visibility: visible; }
 
 /*# sourceMappingURL=photos.css.map */

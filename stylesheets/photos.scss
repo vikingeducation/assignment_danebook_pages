@@ -77,4 +77,21 @@
 		font-weight: bold;
 		padding-left: 10px;
 	}
+
+	.hover-wrapper {
+		margin: auto;
+		
+		a {
+			border: 1px solid black;
+		}
+	}
+
+	.hover-wrapper .hover-text {
+		position:relative;
+		visibility:hidden;
+		}
+
+		.hover-wrapper:hover .hover-text {
+		visibility:visible;
+		}
 }
