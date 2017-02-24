@@ -27,6 +27,10 @@
   height: auto;
   margin-top: -200px; }
 
+#edit-profile {
+  padding-right: 20px;
+  text-decoration: underline; }
+
 .current-page {
   background-color: #eeeeee; }
 
@@ -51,5 +55,18 @@
   #about-info-box h3 {
     font-weight: bold;
     padding-left: 10px; }
+  #about-info-box .friend-box {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px black solid; }
+    #about-info-box .friend-box img {
+      width: 100px;
+      height: 100px;
+      margin-left: 10px; }
+    #about-info-box .friend-box .friend-info {
+      margin-left: 10px; }
+    #about-info-box .friend-box .unfriend {
+      margin: auto 10px auto auto; }
 
-/*# sourceMappingURL=timeline.css.map */
+/*# sourceMappingURL=friends.css.map */
