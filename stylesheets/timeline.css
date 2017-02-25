@@ -34,22 +34,60 @@
   background-color: #fff;
   border: 1px solid black;
   border-radius: 0; }
+  .navbar-second #edit-profile {
+    margin-right: 10px; }
   .navbar-second ul li a {
     color: black; }
 
-.about-header {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black; }
-  .about-header #about-section-header {
+.about-box {
+  border: 1px solid black; }
+  .about-box .main-header {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid black; }
+  .about-box h3 {
+    background-color: #eeeeee; }
+  .about-box p {
+    margin-left: 30px; }
+
+.photos-box {
+  border: 1px solid black;
+  padding: 0 15px;
+  text-align: center;
+  margin-top: 20px; }
+  .photos-box .main-header {
+    text-align: center;
     background-color: #eeeeee;
     border: 1px solid black; }
 
-#about-info-box {
+.friends-box {
   border: 1px solid black;
-  margin-bottom: 50px; }
-  #about-info-box h3 {
-    font-weight: bold;
-    padding-left: 10px; }
+  padding: 0 15px;
+  text-align: center;
+  margin-top: 20px; }
+  .friends-box .main-header {
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid black;
+    margin-bottom: 10px; }
+  .friends-box .friend-container {
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px; }
+
+.post-create {
+  padding: 0 15px;
+  border: 1px solid black; }
+  .post-create header {
+    background-color: #eeeeee;
+    text-align: center;
+    border: 1px solid black; }
+  .post-create .post-text-box {
+    margin: 10px 15px; }
+  .post-create .post-footer {
+    background-color: #eeeeee;
+    padding: 0 15px; }
 
 /*# sourceMappingURL=timeline.css.map */
