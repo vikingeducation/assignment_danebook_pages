@@ -1,0 +1,68 @@
+#navbar-primary {
+  background-color: royalblue;
+  border-bottom: 1px black solid;
+  height: 50px; }
+  #navbar-primary .img-circle {
+    height: 25px; }
+  #navbar-primary .navbar-text {
+    font-size: 24px;
+    line-height: 1; }
+
+#cover-photo-container {
+  background-image: url(../images/hogwarts_small.jpg);
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  height: 400px;
+  border: 1px solid black; }
+
+#user-name {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 200px; }
+
+#profile-pic {
+  width: 150px;
+  height: auto;
+  margin-top: -200px; }
+
+#edit-profile {
+  padding-right: 20px;
+  text-decoration: underline; }
+
+.current-page {
+  background-color: #eeeeee; }
+
+.navbar-second {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0; }
+  .navbar-second ul li a {
+    color: black; }
+
+.about-header {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+  .about-header #about-section-header {
+    background-color: #eeeeee;
+    border: 1px solid black; }
+
+#about-info-box {
+  border: 1px solid black;
+  margin-bottom: 50px; }
+  #about-info-box h3 {
+    font-weight: bold;
+    padding-left: 10px; }
+  #about-info-box .hover-wrapper {
+    margin: auto; }
+    #about-info-box .hover-wrapper a {
+      border: 1px solid black; }
+  #about-info-box .hover-wrapper .hover-text {
+    position: relative;
+    visibility: hidden; }
+  #about-info-box .hover-wrapper:hover .hover-text {
+    visibility: visible; }
+
+/*# sourceMappingURL=photos.css.map */

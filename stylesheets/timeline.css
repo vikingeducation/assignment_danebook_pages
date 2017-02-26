@@ -1,0 +1,165 @@
+#navbar-primary {
+  background-color: royalblue;
+  border-bottom: 1px black solid;
+  height: 50px; }
+  #navbar-primary .img-circle {
+    height: 25px; }
+  #navbar-primary .navbar-text {
+    font-size: 24px;
+    line-height: 1; }
+
+#cover-photo-container {
+  background-image: url(../images/hogwarts_small.jpg);
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  height: 400px;
+  border: 1px solid black; }
+
+#user-name {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 200px; }
+
+#profile-pic {
+  width: 150px;
+  height: auto;
+  margin-top: -200px; }
+
+.current-page {
+  background-color: #eeeeee; }
+
+.navbar-second {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0; }
+  .navbar-second #edit-profile {
+    margin-right: 10px; }
+  .navbar-second ul li a {
+    color: black; }
+
+main {
+  margin-bottom: 50px; }
+
+.about-box {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black; }
+  .about-box .main-header {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #eeeeee;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black; }
+  .about-box h3 {
+    background-color: #eeeeee; }
+  .about-box p {
+    margin-left: 30px; }
+
+.photos-box {
+  border: 1px solid black;
+  padding: 0 15px;
+  text-align: center;
+  margin-top: 20px; }
+  .photos-box .main-header {
+    text-align: center;
+    background-color: #eeeeee;
+    border-bottom: 1px solid black; }
+
+.friends-box {
+  border: 1px solid black;
+  padding: 0 15px;
+  text-align: center;
+  margin-top: 20px; }
+  .friends-box .main-header {
+    text-align: center;
+    background-color: #eeeeee;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px; }
+  .friends-box .friend-container {
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px; }
+
+.post-create {
+  padding: 0 15px;
+  border: 1px solid black; }
+  .post-create header {
+    background-color: #eeeeee;
+    text-align: center;
+    border-bottom: 1px solid black; }
+  .post-create .post-text-box {
+    margin: 10px 15px;
+    padding-right: 15px; }
+  .post-create .post-footer {
+    background-color: #eeeeee;
+    padding: 0 15px;
+    border-top: 1px solid black; }
+    .post-create .post-footer button {
+      float: right;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+
+.post {
+  border: 1px solid black;
+  margin-top: 15px; }
+  .post img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px; }
+  .post .post-details {
+    display: inline-block;
+    margin-left: 10px; }
+    .post .post-details .poster {
+      text-decoration: underline; }
+  .post p {
+    margin-left: 10px; }
+  .post .post-footer {
+    background-color: #eeeeee;
+    padding: 0 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; }
+    .post .post-footer a {
+      text-decoration: underline; }
+    .post .post-footer .comment {
+      margin-left: 15px; }
+    .post .post-footer .delete {
+      float: right; }
+    .post .post-footer .footer-likes {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  .post .friend-comment {
+    background-color: #eeeeee; }
+    .post .friend-comment .comment-text-area {
+      padding-right: 15px;
+      padding-left: 15px; }
+    .post .friend-comment .comment-content {
+      margin-left: 15px;
+      margin-top: 15px;
+      padding-left: 15px; }
+      .post .friend-comment .comment-content p {
+        margin-top: 10px; }
+      .post .friend-comment .comment-content a {
+        margin-left: 10px;
+        text-decoration: underline; }
+      .post .friend-comment .comment-content .comment-footer {
+        margin-bottom: 15px; }
+        .post .friend-comment .comment-content .comment-footer a {
+          margin-right: 20px;
+          text-decoration: underline; }
+        .post .friend-comment .comment-content .comment-footer .delete {
+          float: right; }
+    .post .friend-comment .friend-comment-footer {
+      background-color: #eeeeee;
+      margin: 10px 15px 0 15px; }
+      .post .friend-comment .friend-comment-footer a {
+        text-decoration: underline; }
+      .post .friend-comment .friend-comment-footer button {
+        float: right;
+        margin-bottom: 10px; }
+
+/*# sourceMappingURL=timeline.css.map */
