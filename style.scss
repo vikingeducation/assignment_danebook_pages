@@ -1,14 +1,37 @@
 @import "colors";
+.container-fluid {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 .navbar-default {
   background-color: $brand_primary;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-h2, h3 {
-  display: inline;
-  color: $brand_white;
+	height: 60px;
+	.navbar-header {
+		display: inline-block;
+		height: 60px;
+		img {
+		  width: 50px;
+			height: 50px;
+			border-radius: 100%;
+			margin-right: 10px;
+			margin-top: 4px;
+			margin-bottom: 6px;
+		}
+		h2 {
+			vertical-align: middle;
+			font-size: 50px;
+		  display: inline;
+		  color: $brand_white;
+		}
+		.form-control {
+			width: 600px;
+			vertical-align: middle;
+		}
+		h3 {
+			font-size: 24px;
+			vertical-align: middle;
+		  color: $brand_white;
+		}
+	}
 }
