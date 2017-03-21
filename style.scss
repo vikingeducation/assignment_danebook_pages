@@ -35,3 +35,27 @@
 		}
 	}
 }
+
+.jumbotron {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-image: url('assets/hogwarts_small.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	.container {
+		display: inline-block;
+		img {
+			z-index: 2;
+			float: left;
+			position: relative;
+			top: 150px;
+		}
+		h2 {
+			float: left;
+			font-weight: 700;
+			padding-left: 15px;
+			padding-top: 300px;
+			color: $brand_white;
+		}
+	}
+}
