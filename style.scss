@@ -1,91 +1,134 @@
-@import "colors";
+@import 'colors';
+
 .container-fluid {
-	max-width: 1200px;
-	margin: 0 auto;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .navbar-default {
-  background-color: $brand_primary;
-	height: 60px;
-	.navbar-header {
-		display: inline-block;
-		height: 60px;
-		img {
-		  width: 50px;
-			height: 50px;
-			border-radius: 100%;
-			margin-right: 10px;
-			margin-top: 4px;
-			margin-bottom: 6px;
-		}
-		h2 {
-			vertical-align: middle;
-			font-size: 50px;
-		  display: inline;
-		  color: $brand_white;
-		}
-		.form-control {
-			width: 600px;
-			vertical-align: middle;
-		}
-		h3 {
-			font-size: 24px;
-			vertical-align: middle;
-		  color: $brand_white;
-		}
-	}
+  background-color: $brand-primary;
+  height: 60px;
+
+  .navbar-header {
+    display: inline-block;
+    height: 60px;
+
+    img {
+      border-radius: 100%;
+      height: 50px;
+      margin-bottom: 6px;
+      margin-right: 10px;
+      margin-top: 4px;
+      width: 50px;
+    }
+
+    h2 {
+      color: $brand-white;
+      display: inline;
+      font-size: 50px;
+      vertical-align: middle;
+    }
+
+    .form-control {
+      vertical-align: middle;
+      width: 600px;
+    }
+
+    h3 {
+      color: $brand-white;
+      font-size: 24px;
+      vertical-align: middle;
+    }
+  }
 }
 
 .jumbotron {
-	max-width: 1200px;
-	margin: 0 auto;
-	background-image: url('assets/hogwarts_small.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	.container {
-		display: inline-block;
-		img {
-			z-index: 2;
-			float: left;
-			position: relative;
-			top: 150px;
-		}
-		h2 {
-			float: left;
-			font-weight: 700;
-			padding-left: 15px;
-			padding-top: 300px;
-			color: $brand_white;
-		}
-	}
+  background-image: url('assets/hogwarts_small.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1200px;
+
+  .container {
+    display: inline-block;
+
+    img {
+      float: left;
+      position: relative;
+      top: 150px;
+      z-index: 2;
+    }
+
+    h2 {
+      color: $brand-white;
+      float: left;
+      font-weight: 700;
+      padding-left: 15px;
+      padding-top: 300px;
+    }
+  }
 }
 
 .navbar-nav {
-	border: solid 1px $brand_black;
-	width: 1200px;
-	margin: 0 46px;
-	font-size: 1.3em;
-	ul {
-		list-style-type: none;
-		display: inline-block;
-		margin-left: 250px;
-		li {
-			display: inline-block;
-			padding: 15px;
-			border: solid 1px $brand_black;
-			vertical-align: middle;
-			a {
-				color: $brand_black;
-				span {
-					color: $brand_gray;
-				}
-			}
-		}
+  border: solid 2px $brand-black;
+  font-size: 1.3em;
+  margin: 0 46px;
+  width: 1200px;
+
+  ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 250px;
+
+    li {
+      border: solid 1px $brand-black;
+      display: inline-block;
+      padding: 15px;
+      vertical-align: middle;
+    }
+  }
+
+  .edit-profile {
+    float: right;
+    padding-right: 15px;
+    padding-top: 20px;
+    text-decoration: underline;
+  }
+}
+
+.middle-nav-links {
+  color: $brand-black;
+
+  span {
+    color: $brand-gray;
+  }
+}
+
+.titlebar {
+  background-color: $title-bar;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 1200px;
+
+  h1 {
+    margin-left: 550px;
+    padding: 10px;
+    }
+
+  a {
+    bottom: 50px;
+    left: 1050px;
+    position: relative;
 	}
-	#edit_profile {
-		float: right;
-		padding-right: 15px;
-		padding-top: 20px;
-		text-decoration: underline;
-	}
+}
+
+table {
+  font-size: 14px;
+  margin: 5px;
+  margin-top: 20px;
+
+  th {
+    font-size: 18px;
+  }
 }
