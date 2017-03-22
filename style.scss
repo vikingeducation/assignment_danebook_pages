@@ -59,3 +59,33 @@
 		}
 	}
 }
+
+.navbar-nav {
+	border: solid 1px $brand_black;
+	width: 1200px;
+	margin: 0 46px;
+	font-size: 1.3em;
+	ul {
+		list-style-type: none;
+		display: inline-block;
+		margin-left: 250px;
+		li {
+			display: inline-block;
+			padding: 15px;
+			border: solid 1px $brand_black;
+			vertical-align: middle;
+			a {
+				color: $brand_black;
+				span {
+					color: $brand_gray;
+				}
+			}
+		}
+	}
+	#edit_profile {
+		float: right;
+		padding-right: 15px;
+		padding-top: 20px;
+		text-decoration: underline;
+	}
+}
