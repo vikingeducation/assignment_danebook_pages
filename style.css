@@ -157,5 +157,7 @@ main {
     width: auto; }
   .titlebar-bottom .to-the-right-delete {
     padding-left: 400px; }
+  .titlebar-bottom .liker {
+    padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
