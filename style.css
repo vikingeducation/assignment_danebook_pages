@@ -194,8 +194,8 @@ main {
   .friend-info a {
     font-size: 16px; }
   .friend-info p {
-    margin: 0;
-    font-size: 16ox; }
+    font-size: 16px;
+    margin: 0; }
 
 .unfriend {
   background-color: #789;
@@ -204,5 +204,11 @@ main {
 
 .container-friends {
   width: 1200px; }
+
+.photos-diplay {
+  width: 100%; }
+
+.add-photo {
+  top: -75px; }
 
 /*# sourceMappingURL=style.css.map */
