@@ -157,7 +157,21 @@ main {
     width: auto; }
   .titlebar-bottom .to-the-right-delete {
     padding-left: 400px; }
+  .titlebar-bottom .to-the-right-delete-comment {
+    padding-left: 250px; }
+  .titlebar-bottom .to-the-right-comment {
+    margin-bottom: 10px;
+    margin-left: 425px; }
   .titlebar-bottom .liker {
     padding: 0; }
+  .titlebar-bottom .comment {
+    border: 0;
+    margin-left: 80px; }
+  .titlebar-bottom .write-comment {
+    margin-left: 15px; }
+
+.like {
+  margin-bottom: 15px;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=style.css.map */
