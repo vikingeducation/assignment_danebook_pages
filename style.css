@@ -103,6 +103,22 @@ table {
     width: 400px; }
 
 main {
+  margin: 0 auto;
   width: 1200px; }
+  main div {
+    border: 1px solid #000; }
+    main div p {
+      margin: auto 15px; }
+    main div.titlebar-3, main div.titlebar-8, main div.titlebar-bottom {
+      background-color: #d8e7f0; }
+      main div.titlebar-3 h4, main div.titlebar-8 h4, main div.titlebar-bottom h4 {
+        font-weight: bold;
+        margin: 2px auto;
+        text-align: center; }
+  main .no-border {
+    border: 0; }
+  main article {
+    border: 1px solid #000;
+    margin: 15px; }
 
 /*# sourceMappingURL=style.css.map */
