@@ -134,4 +134,28 @@ main {
 .to-the-right {
   margin: 5px 5px 5px 575px; }
 
+.avatar {
+  float: left;
+  margin: 5px; }
+
+.posting-info {
+  border: 0;
+  float: left;
+  margin-top: 10px; }
+  .posting-info a {
+    margin-left: 15px; }
+
+.post-content {
+  clear: both;
+  margin-bottom: 15px;
+  margin-left: 15px; }
+
+.titlebar-bottom {
+  margin: 5px; }
+  .titlebar-bottom a {
+    padding: 15px;
+    width: auto; }
+  .titlebar-bottom .to-the-right-delete {
+    padding-left: 400px; }
+
 /*# sourceMappingURL=style.css.map */
