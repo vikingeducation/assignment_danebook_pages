@@ -1,0 +1,66 @@
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.navbar-default {
+  background-color: #3b5998;
+  height: 60px; }
+  .navbar-default .navbar-header {
+    display: inline-block;
+    height: 60px; }
+    .navbar-default .navbar-header img {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      margin-right: 10px;
+      margin-top: 4px;
+      margin-bottom: 6px; }
+    .navbar-default .navbar-header h2 {
+      vertical-align: middle;
+      font-size: 50px;
+      display: inline;
+      color: white; }
+    .navbar-default .navbar-header .form-control {
+      width: 600px;
+      vertical-align: middle; }
+    .navbar-default .navbar-header h3 {
+      font-size: 24px;
+      vertical-align: middle;
+      color: white; }
+
+.jumbotron {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("assets/hogwarts_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center; }
+  .jumbotron .container {
+    display: inline-block; }
+    .jumbotron .container img {
+      z-index: 2;
+      float: left;
+      position: relative;
+      top: 150px; }
+    .jumbotron .container h2 {
+      float: left;
+      font-weight: 700;
+      padding-left: 15px;
+      padding-top: 300px;
+      color: white; }
+
+.navbar-nav {
+  border: solid 1px black;
+  width: 1200px;
+  margin: 0 15px;
+  font-size: 1.3em; }
+  .navbar-nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 250px; }
+    .navbar-nav ul li {
+      display: inline-block;
+      padding: 15px;
+      border: solid 1px black;
+      vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */

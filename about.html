@@ -1,1 +1,110 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+		<nav class="navbar navbar-default">		<!-- Top Nav -->
+		  <div class="container-fluid">
+		    <div class="navbar-header navbar-left">
+					<img src="assets/danish_flag.gif">
+					<h2>Danebook</h2>
+				</div>
+				<div class="navbar-header navbar-left">
+					<form class="navbar-form">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search for Users">
+						</div>
+					</form>
+				</div>
+				<div class="navbar-header navbar-right">
+					<h3>Harry</h3>
+				</div>
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="jumbotron"><!--Main photos -->
+			<div class="container" id="profile">
+				<img src="assets/harry_potter_small.jpg">
+				<h2>Harry Potter</h2>
+			</div>
+		</div><!-- jumbotron -->
+
+		<nav class="navbar navbar-nav"><!-- Middle Nav Links -->
+			<div class="middle-nav">
+				<ul>
+					<li><a class="middle-nav-links" href="timeline.html">Timeline</a></li>
+					<li><a class="middle-nav-links" href="about.html">About</a></li>
+					<li><a class="middle-nav-links" href="photos.html">Photos <span>(123)</span></a></li>
+					<li><a class="middle-nav-links" href="friends.html">Friends <span>(542)</span></a></li>
+				</ul>
+				<a class="edit-profile" href="about_edit.html">Edit Profile</a>
+			</div>
+		</nav><!-- close middle nav -->
+
+		<main><!--About information -->
+			<div class="titlebar-full">
+				<h1>About</h1>
+				<a href="about_edit.html" class="btn btn-primary">Edit your Profile</a>
+			</div>
+          <div class="about-info">
+  			<div class="container">
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-1">
+    				<table id="basic_information">
+    					<tr>
+    						<th colspan="2">Basic Information</th>
+    					</tr>
+    					<tr>
+    						<td>Birthday:</td>
+    						<td>July 31st, 1980</td>
+    					</tr>
+    					<tr>
+    						<td>College:</td>
+    						<td>Hogwarts College</td>
+    					</tr>
+    					<tr>
+    						<td>Hometown:</td>
+    						<td>Godrick's Hollow, England</td>
+    					</tr>
+    					<tr>
+    						<td>Currently Lives:</td>
+    						<td>Godrick's Hollow, England</td>
+    					</tr>
+    				</table>
+    				<table>
+    					<tr>
+    						<th colspan="2">Contact Information</th>
+    					</tr>
+    					<tr>
+    						<td>Email:</td>
+    						<td>harry_potter@hogwarts.edu</td>
+    					</tr>
+    					<tr>
+    						<td>Telephone:</td>
+    						<td>555-123-4567</td>
+    					</tr>
+    				</table>
+    			</div>
+    			<div class="col-sm-5 col-sm-offset-1">
+    				<h2>Words to Live By</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut.</p>
+    				<h2>About Me</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    			</div>
+          </div>
+        </div>
+      </div>
+	</main>
+  </body>
+</html>
