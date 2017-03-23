@@ -73,16 +73,16 @@
   .middle-nav-links span {
     color: #789; }
 
-.titlebar {
+.titlebar-full {
   background-color: #d8e7f0;
   height: 70px;
   margin: 0 auto;
   margin-top: 90px;
   width: 1200px; }
-  .titlebar h1 {
+  .titlebar-full h1 {
     margin-left: 550px;
     padding: 10px; }
-  .titlebar a {
+  .titlebar-full a {
     bottom: 50px;
     left: 1050px;
     position: relative; }
@@ -98,8 +98,11 @@ table {
   margin: 0 auto;
   width: 1200px; }
   .save-button .btn-lg {
-    margin-top: 40px;
     margin-left: 400px;
+    margin-top: 40px;
     width: 400px; }
+
+main {
+  width: 1200px; }
 
 /*# sourceMappingURL=style.css.map */

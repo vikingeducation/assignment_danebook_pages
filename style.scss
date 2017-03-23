@@ -104,7 +104,7 @@
   }
 }
 
-.titlebar {
+.titlebar-full {
   background-color: $title-bar;
   height: 70px;
   margin: 0 auto;
@@ -138,8 +138,12 @@ table {
   width: 1200px;
 
   .btn-lg {
-    margin-top: 40px;
     margin-left: 400px;
+    margin-top: 40px;
     width: 400px;
   }
+}
+
+main {
+  width: 1200px;
 }
