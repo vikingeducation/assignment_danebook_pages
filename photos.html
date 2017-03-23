@@ -1,1 +1,57 @@
-<!-- Your markup here! -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+		<nav class="navbar navbar-default">		<!-- Top Nav -->
+		  <div class="container-fluid">
+		    <div class="navbar-header navbar-left">
+					<img src="assets/danish_flag.gif">
+					<h2>Danebook</h2>
+				</div>
+				<div class="navbar-header navbar-left">
+					<form class="navbar-form">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search for Users">
+						</div>
+					</form>
+				</div>
+				<div class="navbar-header navbar-right">
+					<h3>Harry</h3>
+				</div>
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="jumbotron"><!--Main photos -->
+			<div class="container" id="profile">
+				<img src="assets/harry_potter_small.jpg">
+				<h2>Harry Potter</h2>
+			</div>
+		</div><!-- jumbotron -->
+
+		<nav class="navbar navbar-nav"><!-- Middle Nav Links -->
+			<div class="middle-nav">
+				<ul>
+					<li><a class="middle-nav-links" href="timeline.html">Timeline</a></li>
+					<li><a class="middle-nav-links" href="about.html">About</a></li>
+					<li><a class="middle-nav-links" href="photos.html">Photos <span>(123)</span></a></li>
+					<li><a class="middle-nav-links" href="friends.html">Friends <span>(542)</span></a></li>
+				</ul>
+				<a class="edit-profile" href="about_edit.html">Edit Profile</a>
+			</div>
+		</nav><!-- close middle nav -->
+
+
+  </body>
+</html>
