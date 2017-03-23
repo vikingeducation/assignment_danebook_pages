@@ -109,6 +109,8 @@ main {
     border: 1px solid #000; }
     main div p {
       margin: auto 15px; }
+    main div a {
+      text-decoration: underline; }
     main div.titlebar-3, main div.titlebar-8, main div.titlebar-bottom {
       background-color: #d8e7f0; }
       main div.titlebar-3 h4, main div.titlebar-8 h4, main div.titlebar-bottom h4 {
@@ -120,5 +122,13 @@ main {
   main article {
     border: 1px solid #000;
     margin: 15px; }
+  main table {
+    width: 100%; }
+    main table td {
+      column-width: 30%;
+      padding-left: 10px; }
+
+.more {
+  margin: 2px 110px; }
 
 /*# sourceMappingURL=style.css.map */

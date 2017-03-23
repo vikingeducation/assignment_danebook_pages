@@ -155,6 +155,10 @@ main {
       margin:  auto 15px;
     }
 
+    a {
+      text-decoration: underline;
+    }
+
     &.titlebar-3,
     &.titlebar-8,
     &.titlebar-bottom {
@@ -177,4 +181,16 @@ main {
     margin: 15px;
   }
 
+  table {
+    width: 100%;
+
+    td {
+      column-width: 30%;
+      padding-left: 10px;
+    }
+  }
+}
+
+.more {
+  margin: 2px 110px;
 }
