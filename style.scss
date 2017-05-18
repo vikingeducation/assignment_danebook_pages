@@ -1,0 +1,312 @@
+.navbar-danebook {
+  background-color: #2B78E4;
+  border-color: #000;
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    .logo {
+      color: white;
+      .logo_image {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .navbar-user {
+    color: white;
+  }
+  .navbar-form {
+    &.navbar-search {
+      width: 60%;
+      .form-control {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.navbar-menu {
+  border: none;
+  border-radius: 0;
+  .nav {
+    padding-left: 150px;
+  }
+  .navbar-text-profile {
+    color: #2B78E4;
+    text-decoration: underline;
+    padding-right: 10px;
+  }
+}
+
+.cover {
+  .wall {
+    width: 100%;
+    height: 400px;
+  }
+  .profile {
+    position: absolute;
+    bottom: -20px;
+    left: 35px;
+    z-index: 9;
+    img {
+      width: 120px;
+      border: 2px solid white;
+    }
+    h1 {
+      margin: 90px 0 0 5px;
+      color: white;
+    }
+  }
+}
+
+.panel-main {
+  border-radius: 0;
+  .panel-heading {
+    text-align: center;
+    position: relative;
+    .panel-main-title {
+      font-size: 24px;
+      display: inline-block;
+      color: #777777;
+    }
+    .btn-edit {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 5px
+    }
+  }
+  .panel-body {
+    .edit_field {
+      width: 100%;
+    }
+    .action {
+      margin-top: 20px;
+      .btn-save {
+        width: 50%;
+        margin:0 auto;
+        display: block;
+      }
+    }
+    .friends_block {
+      border: 1px solid #DDD;
+      min-height: 150px;
+      margin-bottom: 20px;
+      position: relative;
+      .friends_image {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 100px;
+        height: 100px;
+      }
+      .friends_info {
+        position: absolute;
+        top: 50%;
+        left: 120px;
+        transform: translateY(-50%);
+        .friends_info_name {
+          color: #2B78E4;
+          text-decoration: underline;
+          font-size: 18px;
+        }
+        .friends_info_count {
+          color: #B6B6B6;
+        }
+      }
+      .btn-unfriend {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+      }
+    }
+    .thumb_container {
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 30px;
+      &:hover {
+        .caption {
+          opacity: 1;
+          transform: translateY(-100px);
+          -webkit-transform:translateY(-100px);
+          -moz-transform:translateY(-100px);
+          -ms-transform:translateY(-100px);
+        }
+      }
+      .thumb_image {
+        margin: 0px;
+        padding: 0px;
+        z-index: 4;
+      }
+      .caption {
+        cursor: pointer;
+        position: absolute;
+        opacity: 0;
+        left: 42px;
+        top:200px;
+        -webkit-transition:all 0.15s ease-in-out;
+        -moz-transition:all 0.15s ease-in-out;
+        -ms-transition:all 0.15s ease-in-out;
+        transition:all 0.15s ease-in-out;
+        .caption-text {
+          z-index: 10;
+          color: #fff;
+          position: absolute;
+          width: 200px;
+          height: 150px;
+          text-align: center;
+          top:20px;
+        }
+        .blur {
+          background-color: rgba(0,0,0,0.7);
+          height: 150px;
+          width: 200px;
+          z-index: 5;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+.panel-about {
+  .panel-body {
+    padding: 20px;
+  }
+}
+
+.panel-photos {
+  .panel-body {
+    img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .link-container {
+      text-align: center;
+      text-decoration: underline;
+      color: blue;
+    }
+  }
+}
+
+.panel-friends {
+  .panel-body {
+    img {
+      width: 100%;
+    }
+    .friend {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .link-container {
+      text-align: center;
+      text-decoration: underline;
+      color: blue;
+    }
+  }
+}
+
+.timeline_posts {
+  .panel-post {
+    .panel-body {
+      .post_message {
+        width: 100%;
+        min-height: 100px;
+      }
+    }
+    .panel-footer {
+      &.action-container {
+        text-align: right;
+      }
+    }
+  }
+  .panel-post_new {
+    .panel-body {
+      position:relative;
+      .post_image {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+      }
+      .post_info {
+        position: absolute;
+        top: 20px;
+        left: 120px;
+        .post_info_name {
+          color: #2B78E4;
+          text-decoration: underline;
+          font-size: 18px;
+        }
+        .post_info_date {
+          color: #B6B6B6;
+        }
+      }
+      .post_message {
+        margin-top: 100px;
+      }
+    }
+    .panel-footer {
+      &.action-container {
+        text-align: right;
+        .action-container_link {
+          text-align: left;
+          text-decoration: underline;
+        }
+        .action-container_like {
+          margin-top: 15px;
+          text-align: left;
+          a {
+            text-decoration: underline;
+          }
+        }
+        hr {
+          border-top-color: #ddd;
+        }
+        .post_message {
+          width: 100%;
+          min-height: 100px;
+        }
+        .reaction-post {
+          margin-top: 35px;
+        }
+      }
+    }
+    .container_reaction {
+      position:relative;
+      margin-bottom: 5px;
+      .reaction_image {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+      }
+      .reaction_info {
+        margin-top: 5px;
+        margin-left: 120px;
+        text-align: left;
+        color: #B6B6B6;
+        .reaction_info_name {
+          color: #2B78E4;
+          text-decoration: underline;
+          font-size: 18px;
+        }
+        .reaction-container_like {
+          text-align: left;
+        }
+      }
+      .reaction_message {
+        color: #333;
+        text-align: left;
+        margin-top: 15px;
+      }
+    }
+  }
+}
