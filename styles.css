@@ -1,0 +1,264 @@
+/* 
+========================================
+Global styles for all pages
+========================================
+*/
+.muted {
+  color: #ccc; }
+
+.muted-background {
+  background-color: #f9f9f9; }
+
+.vertical-align {
+  display: flex;
+  align-items: center; }
+
+.horizontal-align {
+  display: flex;
+  justify-content: center; }
+
+.header-button {
+  position: absolute;
+  bottom: 12px; }
+  @media (max-width: 991px) {
+    .header-button {
+      right: 24px; } }
+
+.main-panel-header {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center; }
+
+/* required for fixed navbar */
+body {
+  padding-top: 50px; }
+
+/* navbar styles */
+.navbar {
+  background-color: #3b5998;
+  border: 0; }
+  .navbar .navbar-header,
+  .navbar .navbar-collapse {
+    /*padding-top: 8px;*/
+    border: 0; }
+    .navbar .navbar-header p.navbar-text,
+    .navbar .navbar-collapse p.navbar-text {
+      float: right; }
+      @media (max-width: 767px) {
+        .navbar .navbar-header p.navbar-text,
+        .navbar .navbar-collapse p.navbar-text {
+          display: none; } }
+  .navbar .navbar-logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px; }
+  .navbar .navbar-text,
+  .navbar .navbar-brand {
+    color: #fff; }
+  .navbar .navbar-form {
+    width: 60%;
+    border: 0; }
+    @media (max-width: 767px) {
+      .navbar .navbar-form {
+        width: 100%;
+        margin: 0 auto; } }
+  .navbar .form-group,
+  .navbar .form-control {
+    width: 100%; }
+
+/* cover photo styles */
+.cover-photo-container {
+  height: 300px;
+  width: auto;
+  background: url("hogwarts_small.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-bottom: 0;
+  position: relative; }
+
+/* profile picture styles */
+.profile-picture {
+  height: 150px;
+  width: auto;
+  position: absolute;
+  left: 20px;
+  top: 170px;
+  border: 1px solid #ccc;
+  /*  @media(max-width: 767px) {
+      left: 130px;
+      top: 130px;
+    }*/ }
+
+/* profile name styles */
+.profile-name {
+  color: #fff;
+  position: absolute;
+  bottom: 6px;
+  left: 140px; }
+
+/* middle navigation links styles */
+.nav-pills > li > a {
+  border-radius: 0; }
+
+.nav-pills > li {
+  border: 1px solid #ccc;
+  border-top: 0;
+  border-right: 0; }
+  @media (max-width: 767px) {
+    .nav-pills > li {
+      border-right: 1px solid #ccc; } }
+
+.nav-pills > li:last-of-type {
+  border-right: 1px solid #ccc; }
+
+.nav-pills > .empty-link {
+  width: 2%; }
+  @media (max-width: 991px) {
+    .nav-pills > .empty-link {
+      width: 4%; } }
+  @media (max-width: 767px) {
+    .nav-pills > .empty-link {
+      display: none; } }
+
+.nav-pills > .last-link > a {
+  /*padding-left: 36%;*/ }
+
+.current {
+  background-color: #f9f9f9; }
+
+li.current.disabled > a {
+  color: #333; }
+
+/* Edit Profile link in middle navigation links */
+/*.nav-justified > li > a.edit-profile-link {
+  text-align: right;
+}*/
+/*
+========================================
+Styles for about.html
+========================================
+*/
+div.col-sm-2.col-sm-offset-10 {
+  position: relative; }
+
+/* TODO: refactor/rename */
+.information-container {
+  border: 1px solid #ccc;
+  border-top: 0;
+  margin-top: -1px;
+  padding-bottom: 30px; }
+
+.key {
+  font-weight: bold; }
+
+/*
+========================================
+Styles for about_edit.html
+========================================
+*/
+.date-input {
+  width: 100%; }
+
+.date-input.date-placeholder::before {
+  width: 100%;
+  content: attr(placeholder);
+  color: #999; }
+
+.date-input.date-placeholder:hover::before {
+  width: 0%;
+  content: ""; }
+
+.save-changes-button {
+  margin-top: 40px; }
+
+/*
+========================================
+Styles for timeline.html
+========================================
+*/
+.timeline-panel {
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  margin-bottom: 0; }
+
+.timeline-panel-header {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc; }
+
+/* TODO: refactor/rename */
+.timeline-panel-link {
+  text-align: center;
+  text-decoration: underline; }
+  @media (max-width: 767px) {
+    .timeline-panel-link {
+      text-align: left; } }
+
+.photo-icon {
+  width: 100px; }
+
+.friend-icon {
+  width: 100px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px; }
+
+.timeline-panel-links-bar {
+  background-color: #f9f9f9;
+  padding: 6px 0; }
+
+button.pull-right {
+  margin-right: 15px; }
+
+/* TODO: refactor/rename */
+.post-photo-icon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  margin: 10px 0; }
+
+.posted-by {
+  margin: 15px 0; }
+  @media (max-width: 767px) {
+    .posted-by {
+      margin-left: 0; } }
+
+/*
+========================================
+Styles for friends.html
+========================================
+*/
+.friend-panel {
+  border: 1px solid #ccc;
+  margin-top: 20px; }
+
+.friend-photo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  margin: 10px; }
+
+/*
+========================================
+Styles for photos.html
+========================================
+*/
+.friend-photo-lg {
+  width: 230px;
+  height: 230px;
+  border: 1px solid #ccc;
+  margin-top: 10px; }
+
+.hover-content {
+  display: none; }
+
+.parent:hover .hover-content {
+  display: block;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc; }
+
+/*# sourceMappingURL=styles.css.map */
